@@ -74,6 +74,16 @@ const activeTaiwanEtfMetadata: AssetMetadata = {
   priceSource: "twse",
 };
 
+const avaxMetadata: AssetMetadata = {
+  symbol: "AVAX",
+  name: "AVAX",
+  type: "crypto",
+  market: "CRYPTO",
+  currency: "USDT",
+  unitLabel: unit,
+  priceSource: "manual",
+};
+
 function mockFetchJson(data: unknown) {
   vi.stubGlobal(
     "fetch",
@@ -229,6 +239,23 @@ describe("US static price adapter", () => {
     expect(quote.currency).toBe("TWD");
     expect(quote.status).toBe("unavailable");
     expect(quote.source).toBe("twse");
+  });
+
+  it("keeps universe-only crypto without a safe price source unavailable instead of zero", async () => {
+    const prices = await refreshPrices(
+      [holding("AVAX", "crypto")],
+      [avaxMetadata],
+    );
+    const quote = getQuoteForHolding(
+      holding("AVAX", "crypto"),
+      prices,
+      [avaxMetadata],
+    );
+
+    expect(quote.price).toBeNull();
+    expect(quote.currency).toBe("USDT");
+    expect(quote.status).toBe("unavailable");
+    expect(quote.source).toBe("manual");
   });
 
   it("keeps Taiwan, crypto, and cash fallback behavior distinct", () => {

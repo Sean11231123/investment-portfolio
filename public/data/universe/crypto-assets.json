@@ -1,56 +1,7417 @@
 {
   "version": 1,
   "market": "CRYPTO",
-  "source": "phase-5b-seed",
-  "generatedAt": "2026-05-14T00:00:00.000Z",
+  "source": "binance-exchangeinfo-coingecko-list",
+  "generatedAt": "2026-05-14T12:26:22.727140Z",
+  "count": 421,
+  "binanceCount": 421,
+  "coingeckoMatchedCount": 247,
+  "ambiguousCount": 168,
+  "skippedCount": 3160,
   "assets": [
+    {
+      "symbol": "0G",
+      "name": "0G",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "0G"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "0GUSDT",
+      "binanceSymbol": "0GUSDT",
+      "coingeckoId": "zero-gravity",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "1000CAT",
+      "name": "1000CAT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "1000CAT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "1000CATUSDT",
+      "binanceSymbol": "1000CATUSDT",
+      "coingeckoId": "1000cat",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "1000CHEEMS",
+      "name": "1000CHEMS",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "1000CHEMS"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "1000CHEEMSUSDT",
+      "binanceSymbol": "1000CHEEMSUSDT",
+      "coingeckoId": "1000chems",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "1000SATS",
+      "name": "1000SATS (Ordinals)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "1000SATS (Ordinals)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "1000SATSUSDT",
+      "binanceSymbol": "1000SATSUSDT",
+      "coingeckoId": "1000sats-ordinals",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "1INCH",
+      "name": "1INCH",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "1INCH"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "1INCHUSDT",
+      "binanceSymbol": "1INCHUSDT",
+      "coingeckoId": "1inch",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "1MBABYDOGE",
+      "name": "1MBABYDOGE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "1MBABYDOGE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "1MBABYDOGEUSDT",
+      "binanceSymbol": "1MBABYDOGEUSDT",
+      "coingeckoId": "1mbabydoge",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "2Z",
+      "name": "DoubleZero",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "DoubleZero"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "2ZUSDT",
+      "binanceSymbol": "2ZUSDT",
+      "coingeckoId": "doublezero",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AAVE",
+      "name": "Aave",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Aave"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AAVEUSDT",
+      "binanceSymbol": "AAVEUSDT",
+      "coingeckoId": "aave",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACE",
+      "name": "ACE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ACE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ACEUSDT",
+      "binanceSymbol": "ACEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACH",
+      "name": "Alchemy Pay",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Alchemy Pay"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ACHUSDT",
+      "binanceSymbol": "ACHUSDT",
+      "coingeckoId": "alchemy-pay",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACM",
+      "name": "AC Milan Fan Token",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "AC Milan Fan Token"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ACMUSDT",
+      "binanceSymbol": "ACMUSDT",
+      "coingeckoId": "ac-milan-fan-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACT",
+      "name": "ACT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ACT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ACTUSDT",
+      "binanceSymbol": "ACTUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACX",
+      "name": "Across Protocol",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Across Protocol"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ACXUSDT",
+      "binanceSymbol": "ACXUSDT",
+      "coingeckoId": "across-protocol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ADA",
+      "name": "ADA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ADA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ADAUSDT",
+      "binanceSymbol": "ADAUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ADX",
+      "name": "ADX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ADX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ADXUSDT",
+      "binanceSymbol": "ADXUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AEUR",
+      "name": "Anchored Coins AEUR",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Anchored Coins AEUR"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AEURUSDT",
+      "binanceSymbol": "AEURUSDT",
+      "coingeckoId": "anchored-coins-eur",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AEVO",
+      "name": "Aevo",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Aevo"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AEVOUSDT",
+      "binanceSymbol": "AEVOUSDT",
+      "coingeckoId": "aevo-exchange",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AGLD",
+      "name": "Adventure Gold",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Adventure Gold"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AGLDUSDT",
+      "binanceSymbol": "AGLDUSDT",
+      "coingeckoId": "adventure-gold",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AI",
+      "name": "AI",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "AI"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AIUSDT",
+      "binanceSymbol": "AIUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AIXBT",
+      "name": "aixbt",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "aixbt"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AIXBTUSDT",
+      "binanceSymbol": "AIXBTUSDT",
+      "coingeckoId": "aixbt",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ALCX",
+      "name": "Alchemix",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Alchemix"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ALCXUSDT",
+      "binanceSymbol": "ALCXUSDT",
+      "coingeckoId": "alchemix",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ALGO",
+      "name": "ALGO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ALGO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ALGOUSDT",
+      "binanceSymbol": "ALGOUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ALICE",
+      "name": "ALICE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ALICE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ALICEUSDT",
+      "binanceSymbol": "ALICEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ALLO",
+      "name": "Allora",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Allora"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ALLOUSDT",
+      "binanceSymbol": "ALLOUSDT",
+      "coingeckoId": "allora",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ALPINE",
+      "name": "Alpine F1 Team Fan Token",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Alpine F1 Team Fan Token"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ALPINEUSDT",
+      "binanceSymbol": "ALPINEUSDT",
+      "coingeckoId": "alpine-f1-team-fan-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ALT",
+      "name": "ALT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ALT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ALTUSDT",
+      "binanceSymbol": "ALTUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AMP",
+      "name": "Amp",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Amp"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AMPUSDT",
+      "binanceSymbol": "AMPUSDT",
+      "coingeckoId": "amp-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANIME",
+      "name": "ANIME",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ANIME"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ANIMEUSDT",
+      "binanceSymbol": "ANIMEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANKR",
+      "name": "Ankr Network",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Ankr Network"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ANKRUSDT",
+      "binanceSymbol": "ANKRUSDT",
+      "coingeckoId": "ankr",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "APE",
+      "name": "APE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "APE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "APEUSDT",
+      "binanceSymbol": "APEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "API3",
+      "name": "Api3",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Api3"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "API3USDT",
+      "binanceSymbol": "API3USDT",
+      "coingeckoId": "api3",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "APT",
+      "name": "Aptos",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Aptos"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "APTUSDT",
+      "binanceSymbol": "APTUSDT",
+      "coingeckoId": "aptos",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AR",
+      "name": "Arweave",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Arweave"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ARUSDT",
+      "binanceSymbol": "ARUSDT",
+      "coingeckoId": "arweave",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ARB",
+      "name": "ARB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ARB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ARBUSDT",
+      "binanceSymbol": "ARBUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ARDR",
+      "name": "Ardor",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Ardor"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ARDRUSDT",
+      "binanceSymbol": "ARDRUSDT",
+      "coingeckoId": "ardor",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ARK",
+      "name": "ARK",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ARK"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ARKUSDT",
+      "binanceSymbol": "ARKUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ARKM",
+      "name": "Arkham",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Arkham"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ARKMUSDT",
+      "binanceSymbol": "ARKMUSDT",
+      "coingeckoId": "arkham",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ARPA",
+      "name": "ARPA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "ARPA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ARPAUSDT",
+      "binanceSymbol": "ARPAUSDT",
+      "coingeckoId": "arpa",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ASR",
+      "name": "AS Roma Fan Token",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "AS Roma Fan Token"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ASRUSDT",
+      "binanceSymbol": "ASRUSDT",
+      "coingeckoId": "as-roma-fan-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ASTER",
+      "name": "Aster",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Aster"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ASTERUSDT",
+      "binanceSymbol": "ASTERUSDT",
+      "coingeckoId": "aster-2",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ASTR",
+      "name": "ASTR",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ASTR"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ASTRUSDT",
+      "binanceSymbol": "ASTRUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AT",
+      "name": "Apro",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Apro"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ATUSDT",
+      "binanceSymbol": "ATUSDT",
+      "coingeckoId": "apro",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ATA",
+      "name": "ATA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ATA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ATAUSDT",
+      "binanceSymbol": "ATAUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ATM",
+      "name": "ATM",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ATM"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ATMUSDT",
+      "binanceSymbol": "ATMUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ATOM",
+      "name": "ATOM",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ATOM"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ATOMUSDT",
+      "binanceSymbol": "ATOMUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AUCTION",
+      "name": "AUCTION",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "AUCTION"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AUCTIONUSDT",
+      "binanceSymbol": "AUCTIONUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AUDIO",
+      "name": "Audius",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Audius"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AUDIOUSDT",
+      "binanceSymbol": "AUDIOUSDT",
+      "coingeckoId": "audius",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AVA",
+      "name": "AVA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "AVA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AVAUSDT",
+      "binanceSymbol": "AVAUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AVAX",
+      "name": "AVAX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "AVAX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AVAXUSDT",
+      "binanceSymbol": "AVAXUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AVNT",
+      "name": "Avantis",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Avantis"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AVNTUSDT",
+      "binanceSymbol": "AVNTUSDT",
+      "coingeckoId": "avantis",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AWE",
+      "name": "AWE Network",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "AWE Network"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AWEUSDT",
+      "binanceSymbol": "AWEUSDT",
+      "coingeckoId": "stp-network",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AXL",
+      "name": "Axelar",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Axelar"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AXLUSDT",
+      "binanceSymbol": "AXLUSDT",
+      "coingeckoId": "axelar",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AXS",
+      "name": "Axie Infinity",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Axie Infinity"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AXSUSDT",
+      "binanceSymbol": "AXSUSDT",
+      "coingeckoId": "axie-infinity",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BABY",
+      "name": "BABY",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BABY"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BABYUSDT",
+      "binanceSymbol": "BABYUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BANANA",
+      "name": "BANANA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BANANA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BANANAUSDT",
+      "binanceSymbol": "BANANAUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BANANAS31",
+      "name": "Banana For Scale",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Banana For Scale"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BANANAS31USDT",
+      "binanceSymbol": "BANANAS31USDT",
+      "coingeckoId": "banana-for-scale-2",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BAND",
+      "name": "Band",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Band"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BANDUSDT",
+      "binanceSymbol": "BANDUSDT",
+      "coingeckoId": "band-protocol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BANK",
+      "name": "BANK",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BANK"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BANKUSDT",
+      "binanceSymbol": "BANKUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BAR",
+      "name": "BAR",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BAR"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BARUSDT",
+      "binanceSymbol": "BARUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BARD",
+      "name": "Lombard",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Lombard"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BARDUSDT",
+      "binanceSymbol": "BARDUSDT",
+      "coingeckoId": "lombard-protocol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BAT",
+      "name": "BAT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BAT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BATUSDT",
+      "binanceSymbol": "BATUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BB",
+      "name": "BB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BBUSDT",
+      "binanceSymbol": "BBUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BCH",
+      "name": "BCH",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BCH"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BCHUSDT",
+      "binanceSymbol": "BCHUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BEAMX",
+      "name": "BEAMX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BEAMX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BEAMXUSDT",
+      "binanceSymbol": "BEAMXUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BEL",
+      "name": "BEL",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BEL"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BELUSDT",
+      "binanceSymbol": "BELUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BERA",
+      "name": "Berachain",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Berachain"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BERAUSDT",
+      "binanceSymbol": "BERAUSDT",
+      "coingeckoId": "berachain-bera",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BFUSD",
+      "name": "BFUSD",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BFUSD"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BFUSDUSDT",
+      "binanceSymbol": "BFUSDUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BICO",
+      "name": "Biconomy",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Biconomy"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BICOUSDT",
+      "binanceSymbol": "BICOUSDT",
+      "coingeckoId": "biconomy",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BIGTIME",
+      "name": "Big Time",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Big Time"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BIGTIMEUSDT",
+      "binanceSymbol": "BIGTIMEUSDT",
+      "coingeckoId": "big-time",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BIO",
+      "name": "BIO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BIO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BIOUSDT",
+      "binanceSymbol": "BIOUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BLUR",
+      "name": "Blur",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Blur"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BLURUSDT",
+      "binanceSymbol": "BLURUSDT",
+      "coingeckoId": "blur",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BMT",
+      "name": "BMT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BMT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BMTUSDT",
+      "binanceSymbol": "BMTUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BNB",
+      "name": "BNB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BNB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BNBUSDT",
+      "binanceSymbol": "BNBUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BNSOL",
+      "name": "Binance Staked SOL",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Binance Staked SOL"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BNSOLUSDT",
+      "binanceSymbol": "BNSOLUSDT",
+      "coingeckoId": "binance-staked-sol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BNT",
+      "name": "Bancor Network",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Bancor Network"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BNTUSDT",
+      "binanceSymbol": "BNTUSDT",
+      "coingeckoId": "bancor",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BOME",
+      "name": "BOOK OF MEME",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "BOOK OF MEME"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BOMEUSDT",
+      "binanceSymbol": "BOMEUSDT",
+      "coingeckoId": "book-of-meme",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BONK",
+      "name": "BONK",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BONK"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BONKUSDT",
+      "binanceSymbol": "BONKUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BREV",
+      "name": "Brevis",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Brevis"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BREVUSDT",
+      "binanceSymbol": "BREVUSDT",
+      "coingeckoId": "brevis",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BROCCOLI714",
+      "name": "BROCCOLI714",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BROCCOLI714"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BROCCOLI714USDT",
+      "binanceSymbol": "BROCCOLI714USDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Bitcoin"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BTCUSDT",
+      "binanceSymbol": "BTCUSDT",
+      "coingeckoId": "bitcoin",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BTTC",
+      "name": "BTTC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BTTC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BTTCUSDT",
+      "binanceSymbol": "BTTCUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "C98",
+      "name": "Coin98",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Coin98"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "C98USDT",
+      "binanceSymbol": "C98USDT",
+      "coingeckoId": "coin98",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CAKE",
+      "name": "PancakeSwap",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "PancakeSwap"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CAKEUSDT",
+      "binanceSymbol": "CAKEUSDT",
+      "coingeckoId": "pancakeswap-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CATI",
+      "name": "Catizen",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Catizen"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CATIUSDT",
+      "binanceSymbol": "CATIUSDT",
+      "coingeckoId": "catizen",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CELO",
+      "name": "Celo",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Celo"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CELOUSDT",
+      "binanceSymbol": "CELOUSDT",
+      "coingeckoId": "celo",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CELR",
+      "name": "Celer Network",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Celer Network"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CELRUSDT",
+      "binanceSymbol": "CELRUSDT",
+      "coingeckoId": "celer-network",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CETUS",
+      "name": "Cetus Protocol",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Cetus Protocol"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CETUSUSDT",
+      "binanceSymbol": "CETUSUSDT",
+      "coingeckoId": "cetus-protocol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CFG",
+      "name": "CFG",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "CFG"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CFGUSDT",
+      "binanceSymbol": "CFGUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CFX",
+      "name": "CFX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "CFX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CFXUSDT",
+      "binanceSymbol": "CFXUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CGPT",
+      "name": "ChainGPT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "ChainGPT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CGPTUSDT",
+      "binanceSymbol": "CGPTUSDT",
+      "coingeckoId": "chaingpt",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CHIP",
+      "name": "CHIP",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "CHIP"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CHIPUSDT",
+      "binanceSymbol": "CHIPUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CHR",
+      "name": "CHR",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "CHR"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CHRUSDT",
+      "binanceSymbol": "CHRUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CHZ",
+      "name": "Chiliz",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Chiliz"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CHZUSDT",
+      "binanceSymbol": "CHZUSDT",
+      "coingeckoId": "chiliz",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CITY",
+      "name": "CITY",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "CITY"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CITYUSDT",
+      "binanceSymbol": "CITYUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CKB",
+      "name": "Nervos Network",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Nervos Network"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CKBUSDT",
+      "binanceSymbol": "CKBUSDT",
+      "coingeckoId": "nervos-network",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "COMP",
+      "name": "Compound",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Compound"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "COMPUSDT",
+      "binanceSymbol": "COMPUSDT",
+      "coingeckoId": "compound-governance-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "COOKIE",
+      "name": "COOKIE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "COOKIE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "COOKIEUSDT",
+      "binanceSymbol": "COOKIEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "COS",
+      "name": "COS",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "COS"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "COSUSDT",
+      "binanceSymbol": "COSUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "COTI",
+      "name": "COTI",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "COTI"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "COTIUSDT",
+      "binanceSymbol": "COTIUSDT",
+      "coingeckoId": "coti",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "COW",
+      "name": "COW",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "COW"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "COWUSDT",
+      "binanceSymbol": "COWUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CRV",
+      "name": "CRV",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "CRV"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CRVUSDT",
+      "binanceSymbol": "CRVUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CTK",
+      "name": "CTK",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "CTK"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CTKUSDT",
+      "binanceSymbol": "CTKUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CTSI",
+      "name": "Cartesi",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Cartesi"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CTSIUSDT",
+      "binanceSymbol": "CTSIUSDT",
+      "coingeckoId": "cartesi",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CVC",
+      "name": "Civic",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Civic"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CVCUSDT",
+      "binanceSymbol": "CVCUSDT",
+      "coingeckoId": "civic",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CVX",
+      "name": "Convex Finance",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Convex Finance"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CVXUSDT",
+      "binanceSymbol": "CVXUSDT",
+      "coingeckoId": "convex-finance",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CYBER",
+      "name": "CYBER",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "CYBER"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CYBERUSDT",
+      "binanceSymbol": "CYBERUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DASH",
+      "name": "DASH",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "DASH"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DASHUSDT",
+      "binanceSymbol": "DASHUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DCR",
+      "name": "Decred",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Decred"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DCRUSDT",
+      "binanceSymbol": "DCRUSDT",
+      "coingeckoId": "decred",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DEXE",
+      "name": "DeXe",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "DeXe"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DEXEUSDT",
+      "binanceSymbol": "DEXEUSDT",
+      "coingeckoId": "dexe",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DGB",
+      "name": "DigiByte",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "DigiByte"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DGBUSDT",
+      "binanceSymbol": "DGBUSDT",
+      "coingeckoId": "digibyte",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DIA",
+      "name": "DIA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "DIA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DIAUSDT",
+      "binanceSymbol": "DIAUSDT",
+      "coingeckoId": "dia-data",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DODO",
+      "name": "DODO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "DODO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DODOUSDT",
+      "binanceSymbol": "DODOUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DOGE",
+      "name": "DOGE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "DOGE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DOGEUSDT",
+      "binanceSymbol": "DOGEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DOGS",
+      "name": "DOGS",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "DOGS"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DOGSUSDT",
+      "binanceSymbol": "DOGSUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DOLO",
+      "name": "Dolomite",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Dolomite"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DOLOUSDT",
+      "binanceSymbol": "DOLOUSDT",
+      "coingeckoId": "dolomite",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DOT",
+      "name": "DOT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "DOT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DOTUSDT",
+      "binanceSymbol": "DOTUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DUSK",
+      "name": "DUSK",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "DUSK"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DUSKUSDT",
+      "binanceSymbol": "DUSKUSDT",
+      "coingeckoId": "dusk-network",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DYDX",
+      "name": "DYDX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "DYDX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DYDXUSDT",
+      "binanceSymbol": "DYDXUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DYM",
+      "name": "Dymension",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Dymension"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DYMUSDT",
+      "binanceSymbol": "DYMUSDT",
+      "coingeckoId": "dymension",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EDEN",
+      "name": "EDEN",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "EDEN"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "EDENUSDT",
+      "binanceSymbol": "EDENUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EDU",
+      "name": "Open Campus",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Open Campus"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "EDUUSDT",
+      "binanceSymbol": "EDUUSDT",
+      "coingeckoId": "edu-coin",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EGLD",
+      "name": "MultiversX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "MultiversX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "EGLDUSDT",
+      "binanceSymbol": "EGLDUSDT",
+      "coingeckoId": "elrond-erd-2",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EIGEN",
+      "name": "EigenCloud (prev. EigenLayer)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "EigenCloud (prev. EigenLayer)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "EIGENUSDT",
+      "binanceSymbol": "EIGENUSDT",
+      "coingeckoId": "eigenlayer",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ENA",
+      "name": "Ethena",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Ethena"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ENAUSDT",
+      "binanceSymbol": "ENAUSDT",
+      "coingeckoId": "ethena",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ENJ",
+      "name": "Enjin Coin",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Enjin Coin"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ENJUSDT",
+      "binanceSymbol": "ENJUSDT",
+      "coingeckoId": "enjincoin",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ENS",
+      "name": "Ethereum Name Service",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Ethereum Name Service"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ENSUSDT",
+      "binanceSymbol": "ENSUSDT",
+      "coingeckoId": "ethereum-name-service",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ENSO",
+      "name": "Enso",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Enso"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ENSOUSDT",
+      "binanceSymbol": "ENSOUSDT",
+      "coingeckoId": "enso",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EPIC",
+      "name": "EPIC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "EPIC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "EPICUSDT",
+      "binanceSymbol": "EPICUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ERA",
+      "name": "ERA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ERA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ERAUSDT",
+      "binanceSymbol": "ERAUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ESP",
+      "name": "ESP",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ESP"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ESPUSDT",
+      "binanceSymbol": "ESPUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ETC",
+      "name": "Ethereum Classic",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Ethereum Classic"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ETCUSDT",
+      "binanceSymbol": "ETCUSDT",
+      "coingeckoId": "ethereum-classic",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Ethereum"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ETHUSDT",
+      "binanceSymbol": "ETHUSDT",
+      "coingeckoId": "ethereum",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ETHFI",
+      "name": "Ether.fi",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Ether.fi"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ETHFIUSDT",
+      "binanceSymbol": "ETHFIUSDT",
+      "coingeckoId": "ether-fi",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EUL",
+      "name": "Euler",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Euler"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "EULUSDT",
+      "binanceSymbol": "EULUSDT",
+      "coingeckoId": "euler",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EUR",
+      "name": "EUR",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "EUR"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "EURUSDT",
+      "binanceSymbol": "EURUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EURI",
+      "name": "Eurite",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Eurite"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "EURIUSDT",
+      "binanceSymbol": "EURIUSDT",
+      "coingeckoId": "eurite",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FARM",
+      "name": "FARM",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "FARM"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FARMUSDT",
+      "binanceSymbol": "FARMUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FDUSD",
+      "name": "First Digital USD",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "First Digital USD"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FDUSDUSDT",
+      "binanceSymbol": "FDUSDUSDT",
+      "coingeckoId": "first-digital-usd",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FET",
+      "name": "Artificial Superintelligence Alliance",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Artificial Superintelligence Alliance"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FETUSDT",
+      "binanceSymbol": "FETUSDT",
+      "coingeckoId": "fetch-ai",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FF",
+      "name": "FF",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "FF"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FFUSDT",
+      "binanceSymbol": "FFUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FIDA",
+      "name": "Bonfida",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Bonfida"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FIDAUSDT",
+      "binanceSymbol": "FIDAUSDT",
+      "coingeckoId": "bonfida",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FIL",
+      "name": "FIL",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "FIL"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FILUSDT",
+      "binanceSymbol": "FILUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FLOKI",
+      "name": "FLOKI",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "FLOKI"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FLOKIUSDT",
+      "binanceSymbol": "FLOKIUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FLOW",
+      "name": "FLOW",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "FLOW"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FLOWUSDT",
+      "binanceSymbol": "FLOWUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FLUX",
+      "name": "FLUX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "FLUX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FLUXUSDT",
+      "binanceSymbol": "FLUXUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FOGO",
+      "name": "Fogo",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Fogo"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FOGOUSDT",
+      "binanceSymbol": "FOGOUSDT",
+      "coingeckoId": "fogo",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FORM",
+      "name": "FORM",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "FORM"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FORMUSDT",
+      "binanceSymbol": "FORMUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FRAX",
+      "name": "FRAX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "FRAX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FRAXUSDT",
+      "binanceSymbol": "FRAXUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FTT",
+      "name": "FTX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "FTX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FTTUSDT",
+      "binanceSymbol": "FTTUSDT",
+      "coingeckoId": "ftx-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GALA",
+      "name": "GALA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "GALA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GALAUSDT",
+      "binanceSymbol": "GALAUSDT",
+      "coingeckoId": "gala",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GAS",
+      "name": "GAS",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "GAS"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GASUSDT",
+      "binanceSymbol": "GASUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GIGGLE",
+      "name": "Giggle Fund",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Giggle Fund"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GIGGLEUSDT",
+      "binanceSymbol": "GIGGLEUSDT",
+      "coingeckoId": "giggle-fund",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GLM",
+      "name": "Golem",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Golem"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GLMUSDT",
+      "binanceSymbol": "GLMUSDT",
+      "coingeckoId": "golem",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GLMR",
+      "name": "Moonbeam",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Moonbeam"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GLMRUSDT",
+      "binanceSymbol": "GLMRUSDT",
+      "coingeckoId": "moonbeam",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GMT",
+      "name": "GMT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "GMT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GMTUSDT",
+      "binanceSymbol": "GMTUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GMX",
+      "name": "GMX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "GMX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GMXUSDT",
+      "binanceSymbol": "GMXUSDT",
+      "coingeckoId": "gmx",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GNO",
+      "name": "GNO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "GNO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GNOUSDT",
+      "binanceSymbol": "GNOUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GNS",
+      "name": "Gains Network",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Gains Network"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GNSUSDT",
+      "binanceSymbol": "GNSUSDT",
+      "coingeckoId": "gains-network",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GPS",
+      "name": "GoPlus Security",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "GoPlus Security"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GPSUSDT",
+      "binanceSymbol": "GPSUSDT",
+      "coingeckoId": "goplus-security",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GRT",
+      "name": "The Graph",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "The Graph"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GRTUSDT",
+      "binanceSymbol": "GRTUSDT",
+      "coingeckoId": "the-graph",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GTC",
+      "name": "GTC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "GTC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GTCUSDT",
+      "binanceSymbol": "GTCUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GUN",
+      "name": "Gunz",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Gunz"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GUNUSDT",
+      "binanceSymbol": "GUNUSDT",
+      "coingeckoId": "gunz",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HAEDAL",
+      "name": "Haedal Protocol",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Haedal Protocol"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HAEDALUSDT",
+      "binanceSymbol": "HAEDALUSDT",
+      "coingeckoId": "haedal",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Hedera"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HBARUSDT",
+      "binanceSymbol": "HBARUSDT",
+      "coingeckoId": "hedera-hashgraph",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HEI",
+      "name": "Heima",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Heima"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HEIUSDT",
+      "binanceSymbol": "HEIUSDT",
+      "coingeckoId": "heima",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HEMI",
+      "name": "Hemi",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Hemi"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HEMIUSDT",
+      "binanceSymbol": "HEMIUSDT",
+      "coingeckoId": "hemi",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HFT",
+      "name": "Hashflow",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Hashflow"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HFTUSDT",
+      "binanceSymbol": "HFTUSDT",
+      "coingeckoId": "hashflow",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HIGH",
+      "name": "HIGH",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "HIGH"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HIGHUSDT",
+      "binanceSymbol": "HIGHUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HIVE",
+      "name": "HIVE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "HIVE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HIVEUSDT",
+      "binanceSymbol": "HIVEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HMSTR",
+      "name": "Hamster Kombat",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Hamster Kombat"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HMSTRUSDT",
+      "binanceSymbol": "HMSTRUSDT",
+      "coingeckoId": "hamster-kombat",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HOLO",
+      "name": "HOLO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "HOLO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HOLOUSDT",
+      "binanceSymbol": "HOLOUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HOME",
+      "name": "HOME",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "HOME"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HOMEUSDT",
+      "binanceSymbol": "HOMEUSDT",
+      "coingeckoId": "home",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HOT",
+      "name": "Holo",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Holo"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HOTUSDT",
+      "binanceSymbol": "HOTUSDT",
+      "coingeckoId": "holotoken",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HUMA",
+      "name": "Huma Finance",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Huma Finance"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HUMAUSDT",
+      "binanceSymbol": "HUMAUSDT",
+      "coingeckoId": "huma-finance",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HYPER",
+      "name": "HYPER",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "HYPER"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HYPERUSDT",
+      "binanceSymbol": "HYPERUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ICP",
+      "name": "Internet Computer",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Internet Computer"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ICPUSDT",
+      "binanceSymbol": "ICPUSDT",
+      "coingeckoId": "internet-computer",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ICX",
+      "name": "ICON",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "ICON"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ICXUSDT",
+      "binanceSymbol": "ICXUSDT",
+      "coingeckoId": "icon",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ID",
+      "name": "ID",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ID"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "IDUSDT",
+      "binanceSymbol": "IDUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ILV",
+      "name": "Illuvium",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Illuvium"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ILVUSDT",
+      "binanceSymbol": "ILVUSDT",
+      "coingeckoId": "illuvium",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IMX",
+      "name": "Immutable",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Immutable"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "IMXUSDT",
+      "binanceSymbol": "IMXUSDT",
+      "coingeckoId": "immutable-x",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "INIT",
+      "name": "INIT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "INIT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "INITUSDT",
+      "binanceSymbol": "INITUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "INJ",
+      "name": "Injective",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Injective"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "INJUSDT",
+      "binanceSymbol": "INJUSDT",
+      "coingeckoId": "injective-protocol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IO",
+      "name": "io.net",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "io.net"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "IOUSDT",
+      "binanceSymbol": "IOUSDT",
+      "coingeckoId": "io",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IOST",
+      "name": "IOST",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "IOST"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "IOSTUSDT",
+      "binanceSymbol": "IOSTUSDT",
+      "coingeckoId": "iostoken",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IOTA",
+      "name": "IOTA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "IOTA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "IOTAUSDT",
+      "binanceSymbol": "IOTAUSDT",
+      "coingeckoId": "iota",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IOTX",
+      "name": "IOTX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "IOTX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "IOTXUSDT",
+      "binanceSymbol": "IOTXUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IQ",
+      "name": "IQ",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "IQ"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "IQUSDT",
+      "binanceSymbol": "IQUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "JASMY",
+      "name": "JasmyCoin",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "JasmyCoin"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "JASMYUSDT",
+      "binanceSymbol": "JASMYUSDT",
+      "coingeckoId": "jasmycoin",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "JOE",
+      "name": "JOE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "JOE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "JOEUSDT",
+      "binanceSymbol": "JOEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "JST",
+      "name": "JUST",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "JUST"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "JSTUSDT",
+      "binanceSymbol": "JSTUSDT",
+      "coingeckoId": "just",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "JTO",
+      "name": "Jito",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Jito"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "JTOUSDT",
+      "binanceSymbol": "JTOUSDT",
+      "coingeckoId": "jito-governance-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "JUP",
+      "name": "JUP",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "JUP"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "JUPUSDT",
+      "binanceSymbol": "JUPUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "JUV",
+      "name": "Juventus Fan Token",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Juventus Fan Token"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "JUVUSDT",
+      "binanceSymbol": "JUVUSDT",
+      "coingeckoId": "juventus-fan-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KAIA",
+      "name": "KAIA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "KAIA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "KAIAUSDT",
+      "binanceSymbol": "KAIAUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KAITO",
+      "name": "KAITO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "KAITO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "KAITOUSDT",
+      "binanceSymbol": "KAITOUSDT",
+      "coingeckoId": "kaito",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KAT",
+      "name": "KAT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "KAT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "KATUSDT",
+      "binanceSymbol": "KATUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KAVA",
+      "name": "Kava",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Kava"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "KAVAUSDT",
+      "binanceSymbol": "KAVAUSDT",
+      "coingeckoId": "kava",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KERNEL",
+      "name": "KernelDAO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "KernelDAO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "KERNELUSDT",
+      "binanceSymbol": "KERNELUSDT",
+      "coingeckoId": "kernel-2",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KGST",
+      "name": "Kyrgyz Som Stablecoin",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Kyrgyz Som Stablecoin"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "KGSTUSDT",
+      "binanceSymbol": "KGSTUSDT",
+      "coingeckoId": "kyrgyz-som-stablecoin",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KITE",
+      "name": "KITE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "KITE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "KITEUSDT",
+      "binanceSymbol": "KITEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KMNO",
+      "name": "Kamino",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Kamino"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "KMNOUSDT",
+      "binanceSymbol": "KMNOUSDT",
+      "coingeckoId": "kamino",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KNC",
+      "name": "Kyber Network Crystal",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Kyber Network Crystal"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "KNCUSDT",
+      "binanceSymbol": "KNCUSDT",
+      "coingeckoId": "kyber-network-crystal",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KSM",
+      "name": "Kusama",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Kusama"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "KSMUSDT",
+      "binanceSymbol": "KSMUSDT",
+      "coingeckoId": "kusama",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LA",
+      "name": "LA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "LA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LAUSDT",
+      "binanceSymbol": "LAUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LAYER",
+      "name": "LAYER",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "LAYER"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LAYERUSDT",
+      "binanceSymbol": "LAYERUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LAZIO",
+      "name": "Lazio Fan Token",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Lazio Fan Token"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LAZIOUSDT",
+      "binanceSymbol": "LAZIOUSDT",
+      "coingeckoId": "lazio-fan-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LDO",
+      "name": "LDO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "LDO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LDOUSDT",
+      "binanceSymbol": "LDOUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LINEA",
+      "name": "Linea",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Linea"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LINEAUSDT",
+      "binanceSymbol": "LINEAUSDT",
+      "coingeckoId": "linea",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LINK",
+      "name": "LINK",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "LINK"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LINKUSDT",
+      "binanceSymbol": "LINKUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LISTA",
+      "name": "Lista DAO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Lista DAO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LISTAUSDT",
+      "binanceSymbol": "LISTAUSDT",
+      "coingeckoId": "lista",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LPT",
+      "name": "Livepeer",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Livepeer"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LPTUSDT",
+      "binanceSymbol": "LPTUSDT",
+      "coingeckoId": "livepeer",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LQTY",
+      "name": "Liquity",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Liquity"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LQTYUSDT",
+      "binanceSymbol": "LQTYUSDT",
+      "coingeckoId": "liquity",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LSK",
+      "name": "Lisk",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Lisk"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LSKUSDT",
+      "binanceSymbol": "LSKUSDT",
+      "coingeckoId": "lisk",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LTC",
+      "name": "LTC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "LTC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LTCUSDT",
+      "binanceSymbol": "LTCUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LUMIA",
+      "name": "Lumia",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Lumia"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LUMIAUSDT",
+      "binanceSymbol": "LUMIAUSDT",
+      "coingeckoId": "lumia",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LUNA",
+      "name": "LUNA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "LUNA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LUNAUSDT",
+      "binanceSymbol": "LUNAUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LUNC",
+      "name": "LUNC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "LUNC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LUNCUSDT",
+      "binanceSymbol": "LUNCUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MAGIC",
+      "name": "MAGIC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "MAGIC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MAGICUSDT",
+      "binanceSymbol": "MAGICUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MANA",
+      "name": "MANA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "MANA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MANAUSDT",
+      "binanceSymbol": "MANAUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MANTA",
+      "name": "Manta Network",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Manta Network"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MANTAUSDT",
+      "binanceSymbol": "MANTAUSDT",
+      "coingeckoId": "manta-network",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MANTRA",
+      "name": "MANTRA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "MANTRA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MANTRAUSDT",
+      "binanceSymbol": "MANTRAUSDT",
+      "coingeckoId": "mantra",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MASK",
+      "name": "MASK",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "MASK"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MASKUSDT",
+      "binanceSymbol": "MASKUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MAV",
+      "name": "Maverick Protocol",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Maverick Protocol"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MAVUSDT",
+      "binanceSymbol": "MAVUSDT",
+      "coingeckoId": "maverick-protocol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MBL",
+      "name": "MovieBloc",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "MovieBloc"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MBLUSDT",
+      "binanceSymbol": "MBLUSDT",
+      "coingeckoId": "moviebloc",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MBOX",
+      "name": "Mobox",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Mobox"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MBOXUSDT",
+      "binanceSymbol": "MBOXUSDT",
+      "coingeckoId": "mobox",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ME",
+      "name": "ME",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ME"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MEUSDT",
+      "binanceSymbol": "MEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MEGA",
+      "name": "MEGA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "MEGA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MEGAUSDT",
+      "binanceSymbol": "MEGAUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MEME",
+      "name": "MEME",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "MEME"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MEMEUSDT",
+      "binanceSymbol": "MEMEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MET",
+      "name": "MET",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "MET"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "METUSDT",
+      "binanceSymbol": "METUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "METIS",
+      "name": "METIS",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "METIS"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "METISUSDT",
+      "binanceSymbol": "METISUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MINA",
+      "name": "Mina Protocol",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Mina Protocol"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MINAUSDT",
+      "binanceSymbol": "MINAUSDT",
+      "coingeckoId": "mina-protocol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MIRA",
+      "name": "MIRA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "MIRA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MIRAUSDT",
+      "binanceSymbol": "MIRAUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MITO",
+      "name": "Mitosis",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Mitosis"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MITOUSDT",
+      "binanceSymbol": "MITOUSDT",
+      "coingeckoId": "mitosis",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MLN",
+      "name": "Enzyme",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Enzyme"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MLNUSDT",
+      "binanceSymbol": "MLNUSDT",
+      "coingeckoId": "melon",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MMT",
+      "name": "Momentum",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Momentum"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MMTUSDT",
+      "binanceSymbol": "MMTUSDT",
+      "coingeckoId": "momentum-3",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MORPHO",
+      "name": "MORPHO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "MORPHO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MORPHOUSDT",
+      "binanceSymbol": "MORPHOUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MOVE",
+      "name": "MOVE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "MOVE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MOVEUSDT",
+      "binanceSymbol": "MOVEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MOVR",
+      "name": "Moonriver",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Moonriver"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MOVRUSDT",
+      "binanceSymbol": "MOVRUSDT",
+      "coingeckoId": "moonriver",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MTL",
+      "name": "Metal DAO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Metal DAO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MTLUSDT",
+      "binanceSymbol": "MTLUSDT",
+      "coingeckoId": "metal",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MUBARAK",
+      "name": "MUBARAK",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "MUBARAK"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MUBARAKUSDT",
+      "binanceSymbol": "MUBARAKUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NEAR",
+      "name": "NEAR",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "NEAR"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NEARUSDT",
+      "binanceSymbol": "NEARUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NEIRO",
+      "name": "NEIRO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "NEIRO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NEIROUSDT",
+      "binanceSymbol": "NEIROUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NEO",
+      "name": "NEO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "NEO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NEOUSDT",
+      "binanceSymbol": "NEOUSDT",
+      "coingeckoId": "neo",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NEWT",
+      "name": "Newton Protocol",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Newton Protocol"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NEWTUSDT",
+      "binanceSymbol": "NEWTUSDT",
+      "coingeckoId": "newton-protocol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NEXO",
+      "name": "NEXO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "NEXO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NEXOUSDT",
+      "binanceSymbol": "NEXOUSDT",
+      "coingeckoId": "nexo",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NFP",
+      "name": "NFPrompt",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "NFPrompt"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NFPUSDT",
+      "binanceSymbol": "NFPUSDT",
+      "coingeckoId": "nfprompt-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NIGHT",
+      "name": "NIGHT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "NIGHT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NIGHTUSDT",
+      "binanceSymbol": "NIGHTUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NIL",
+      "name": "Nillion",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Nillion"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NILUSDT",
+      "binanceSymbol": "NILUSDT",
+      "coingeckoId": "nillion",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NMR",
+      "name": "Numeraire",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Numeraire"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NMRUSDT",
+      "binanceSymbol": "NMRUSDT",
+      "coingeckoId": "numeraire",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NOM",
+      "name": "NOM",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "NOM"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NOMUSDT",
+      "binanceSymbol": "NOMUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NOT",
+      "name": "NOT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "NOT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NOTUSDT",
+      "binanceSymbol": "NOTUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NXPC",
+      "name": "NXPC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "NXPC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NXPCUSDT",
+      "binanceSymbol": "NXPCUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OG",
+      "name": "OG Fan Token",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "OG Fan Token"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "OGUSDT",
+      "binanceSymbol": "OGUSDT",
+      "coingeckoId": "og-fan-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OGN",
+      "name": "Origin Token",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Origin Token"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "OGNUSDT",
+      "binanceSymbol": "OGNUSDT",
+      "coingeckoId": "origin-protocol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Ondo"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ONDOUSDT",
+      "binanceSymbol": "ONDOUSDT",
+      "coingeckoId": "ondo-finance",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ONE",
+      "name": "ONE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ONE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ONEUSDT",
+      "binanceSymbol": "ONEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ONG",
+      "name": "Ontology Gas",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Ontology Gas"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ONGUSDT",
+      "binanceSymbol": "ONGUSDT",
+      "coingeckoId": "ong",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ONT",
+      "name": "ONT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ONT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ONTUSDT",
+      "binanceSymbol": "ONTUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OP",
+      "name": "OP",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "OP"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "OPUSDT",
+      "binanceSymbol": "OPUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OPEN",
+      "name": "OPEN",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "OPEN"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "OPENUSDT",
+      "binanceSymbol": "OPENUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OPN",
+      "name": "OPN",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "OPN"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "OPNUSDT",
+      "binanceSymbol": "OPNUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ORCA",
+      "name": "Orca",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Orca"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ORCAUSDT",
+      "binanceSymbol": "ORCAUSDT",
+      "coingeckoId": "orca",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ORDI",
+      "name": "ORDI",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "ORDI"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ORDIUSDT",
+      "binanceSymbol": "ORDIUSDT",
+      "coingeckoId": "ordinals",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OSMO",
+      "name": "Osmosis",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Osmosis"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "OSMOUSDT",
+      "binanceSymbol": "OSMOUSDT",
+      "coingeckoId": "osmosis",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PARTI",
+      "name": "Particle Network",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Particle Network"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PARTIUSDT",
+      "binanceSymbol": "PARTIUSDT",
+      "coingeckoId": "particle-network",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PAXG",
+      "name": "PAX Gold",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "PAX Gold"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PAXGUSDT",
+      "binanceSymbol": "PAXGUSDT",
+      "coingeckoId": "pax-gold",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PENDLE",
+      "name": "Pendle",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Pendle"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PENDLEUSDT",
+      "binanceSymbol": "PENDLEUSDT",
+      "coingeckoId": "pendle",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PENGU",
+      "name": "Pudgy Penguins",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Pudgy Penguins"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PENGUUSDT",
+      "binanceSymbol": "PENGUUSDT",
+      "coingeckoId": "pudgy-penguins",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PEOPLE",
+      "name": "PEOPLE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "PEOPLE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PEOPLEUSDT",
+      "binanceSymbol": "PEOPLEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PEPE",
+      "name": "PEPE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "PEPE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PEPEUSDT",
+      "binanceSymbol": "PEPEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PHA",
+      "name": "PHALA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "PHALA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PHAUSDT",
+      "binanceSymbol": "PHAUSDT",
+      "coingeckoId": "pha",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PHB",
+      "name": "PHB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "PHB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PHBUSDT",
+      "binanceSymbol": "PHBUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PIVX",
+      "name": "PIVX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "PIVX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PIVXUSDT",
+      "binanceSymbol": "PIVXUSDT",
+      "coingeckoId": "pivx",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PIXEL",
+      "name": "PIXEL",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "PIXEL"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PIXELUSDT",
+      "binanceSymbol": "PIXELUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PLUME",
+      "name": "Plume",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Plume"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PLUMEUSDT",
+      "binanceSymbol": "PLUMEUSDT",
+      "coingeckoId": "plume",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PNUT",
+      "name": "PNUT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "PNUT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PNUTUSDT",
+      "binanceSymbol": "PNUTUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "POL",
+      "name": "POL",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "POL"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "POLUSDT",
+      "binanceSymbol": "POLUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "POLYX",
+      "name": "Polymesh",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Polymesh"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "POLYXUSDT",
+      "binanceSymbol": "POLYXUSDT",
+      "coingeckoId": "polymesh",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "POND",
+      "name": "Marlin",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Marlin"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PONDUSDT",
+      "binanceSymbol": "PONDUSDT",
+      "coingeckoId": "marlin",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PORTAL",
+      "name": "Portal",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Portal"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PORTALUSDT",
+      "binanceSymbol": "PORTALUSDT",
+      "coingeckoId": "portal-2",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PORTO",
+      "name": "FC Porto",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "FC Porto"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PORTOUSDT",
+      "binanceSymbol": "PORTOUSDT",
+      "coingeckoId": "fc-porto",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "POWR",
+      "name": "Powerledger",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Powerledger"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "POWRUSDT",
+      "binanceSymbol": "POWRUSDT",
+      "coingeckoId": "power-ledger",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PROM",
+      "name": "Prom",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Prom"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PROMUSDT",
+      "binanceSymbol": "PROMUSDT",
+      "coingeckoId": "prometeus",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PROVE",
+      "name": "Succinct",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Succinct"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PROVEUSDT",
+      "binanceSymbol": "PROVEUSDT",
+      "coingeckoId": "succinct",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PSG",
+      "name": "Paris Saint-Germain Fan Token",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Paris Saint-Germain Fan Token"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PSGUSDT",
+      "binanceSymbol": "PSGUSDT",
+      "coingeckoId": "paris-saint-germain-fan-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PUMP",
+      "name": "PUMP",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "PUMP"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PUMPUSDT",
+      "binanceSymbol": "PUMPUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PUNDIX",
+      "name": "Pundi X",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Pundi X"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PUNDIXUSDT",
+      "binanceSymbol": "PUNDIXUSDT",
+      "coingeckoId": "pundi-x-2",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PYR",
+      "name": "Vulcan Forged",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Vulcan Forged"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PYRUSDT",
+      "binanceSymbol": "PYRUSDT",
+      "coingeckoId": "vulcan-forged",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PYTH",
+      "name": "Pyth Network",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Pyth Network"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PYTHUSDT",
+      "binanceSymbol": "PYTHUSDT",
+      "coingeckoId": "pyth-network",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QI",
+      "name": "QI",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "QI"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "QIUSDT",
+      "binanceSymbol": "QIUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QKC",
+      "name": "QuarkChain",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "QuarkChain"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "QKCUSDT",
+      "binanceSymbol": "QKCUSDT",
+      "coingeckoId": "quark-chain",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QNT",
+      "name": "Quant",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Quant"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "QNTUSDT",
+      "binanceSymbol": "QNTUSDT",
+      "coingeckoId": "quant-network",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QTUM",
+      "name": "Qtum",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Qtum"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "QTUMUSDT",
+      "binanceSymbol": "QTUMUSDT",
+      "coingeckoId": "qtum",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QUICK",
+      "name": "QUICK",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "QUICK"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "QUICKUSDT",
+      "binanceSymbol": "QUICKUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RAD",
+      "name": "Radworks",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Radworks"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RADUSDT",
+      "binanceSymbol": "RADUSDT",
+      "coingeckoId": "radicle",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RARE",
+      "name": "RARE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "RARE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RAREUSDT",
+      "binanceSymbol": "RAREUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RAY",
+      "name": "Raydium",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Raydium"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RAYUSDT",
+      "binanceSymbol": "RAYUSDT",
+      "coingeckoId": "raydium",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RED",
+      "name": "RED",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "RED"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "REDUSDT",
+      "binanceSymbol": "REDUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RENDER",
+      "name": "Render",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Render"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RENDERUSDT",
+      "binanceSymbol": "RENDERUSDT",
+      "coingeckoId": "render-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "REQ",
+      "name": "Request",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Request"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "REQUSDT",
+      "binanceSymbol": "REQUSDT",
+      "coingeckoId": "request-network",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RESOLV",
+      "name": "Resolv",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Resolv"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RESOLVUSDT",
+      "binanceSymbol": "RESOLVUSDT",
+      "coingeckoId": "resolv",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "REZ",
+      "name": "Renzo",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Renzo"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "REZUSDT",
+      "binanceSymbol": "REZUSDT",
+      "coingeckoId": "renzo",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RIF",
+      "name": "Rootstock Infrastructure Framework",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Rootstock Infrastructure Framework"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RIFUSDT",
+      "binanceSymbol": "RIFUSDT",
+      "coingeckoId": "rif-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RLC",
+      "name": "iExec RLC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "iExec RLC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RLCUSDT",
+      "binanceSymbol": "RLCUSDT",
+      "coingeckoId": "iexec-rlc",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RLUSD",
+      "name": "Ripple USD",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Ripple USD"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RLUSDUSDT",
+      "binanceSymbol": "RLUSDUSDT",
+      "coingeckoId": "ripple-usd",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ROBO",
+      "name": "Fabric Protocol",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Fabric Protocol"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ROBOUSDT",
+      "binanceSymbol": "ROBOUSDT",
+      "coingeckoId": "robo-token-2",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RONIN",
+      "name": "RONIN",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "RONIN"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RONINUSDT",
+      "binanceSymbol": "RONINUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ROSE",
+      "name": "ROSE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ROSE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ROSEUSDT",
+      "binanceSymbol": "ROSEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RPL",
+      "name": "Rocket Pool",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Rocket Pool"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RPLUSDT",
+      "binanceSymbol": "RPLUSDT",
+      "coingeckoId": "rocket-pool",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RSR",
+      "name": "Reserve Rights",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Reserve Rights"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RSRUSDT",
+      "binanceSymbol": "RSRUSDT",
+      "coingeckoId": "reserve-rights-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RUNE",
+      "name": "RUNE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "RUNE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RUNEUSDT",
+      "binanceSymbol": "RUNEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RVN",
+      "name": "Ravencoin",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Ravencoin"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RVNUSDT",
+      "binanceSymbol": "RVNUSDT",
+      "coingeckoId": "ravencoin",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SAGA",
+      "name": "Saga",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Saga"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SAGAUSDT",
+      "binanceSymbol": "SAGAUSDT",
+      "coingeckoId": "saga-2",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SAHARA",
+      "name": "Sahara AI",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Sahara AI"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SAHARAUSDT",
+      "binanceSymbol": "SAHARAUSDT",
+      "coingeckoId": "sahara-ai",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SAND",
+      "name": "SAND",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "SAND"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SANDUSDT",
+      "binanceSymbol": "SANDUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SANTOS",
+      "name": "Santos FC Fan Token",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Santos FC Fan Token"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SANTOSUSDT",
+      "binanceSymbol": "SANTOSUSDT",
+      "coingeckoId": "santos-fc-fan-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SAPIEN",
+      "name": "Sapien",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Sapien"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SAPIENUSDT",
+      "binanceSymbol": "SAPIENUSDT",
+      "coingeckoId": "sapien-2",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SC",
+      "name": "SC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "SC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SCUSDT",
+      "binanceSymbol": "SCUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SCR",
+      "name": "SCR",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "SCR"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SCRUSDT",
+      "binanceSymbol": "SCRUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SCRT",
+      "name": "Secret",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Secret"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SCRTUSDT",
+      "binanceSymbol": "SCRTUSDT",
+      "coingeckoId": "secret",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SEI",
+      "name": "SEI",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "SEI"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SEIUSDT",
+      "binanceSymbol": "SEIUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SENT",
+      "name": "SENT",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "SENT"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SENTUSDT",
+      "binanceSymbol": "SENTUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SFP",
+      "name": "SafePal",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "SafePal"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SFPUSDT",
+      "binanceSymbol": "SFPUSDT",
+      "coingeckoId": "safepal",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SHELL",
+      "name": "SHELL",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "SHELL"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SHELLUSDT",
+      "binanceSymbol": "SHELLUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SHIB",
+      "name": "SHIB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "SHIB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SHIBUSDT",
+      "binanceSymbol": "SHIBUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SIGN",
+      "name": "Sign",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Sign"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SIGNUSDT",
+      "binanceSymbol": "SIGNUSDT",
+      "coingeckoId": "sign-global",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SKL",
+      "name": "SKALE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "SKALE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SKLUSDT",
+      "binanceSymbol": "SKLUSDT",
+      "coingeckoId": "skale",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SKY",
+      "name": "SKY",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "SKY"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SKYUSDT",
+      "binanceSymbol": "SKYUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SLP",
+      "name": "Smooth Love Potion",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Smooth Love Potion"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SLPUSDT",
+      "binanceSymbol": "SLPUSDT",
+      "coingeckoId": "smooth-love-potion",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SNX",
+      "name": "Synthetix",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Synthetix"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SNXUSDT",
+      "binanceSymbol": "SNXUSDT",
+      "coingeckoId": "havven",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SOL",
+      "name": "Solana",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Solana"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SOLUSDT",
+      "binanceSymbol": "SOLUSDT",
+      "coingeckoId": "solana",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SOLV",
+      "name": "Solv Protocol",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Solv Protocol"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SOLVUSDT",
+      "binanceSymbol": "SOLVUSDT",
+      "coingeckoId": "solv-protocol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SOMI",
+      "name": "Somnia",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Somnia"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SOMIUSDT",
+      "binanceSymbol": "SOMIUSDT",
+      "coingeckoId": "somnia",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SOPH",
+      "name": "SOPH",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "SOPH"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SOPHUSDT",
+      "binanceSymbol": "SOPHUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SPELL",
+      "name": "SPELL",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "SPELL"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SPELLUSDT",
+      "binanceSymbol": "SPELLUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SPK",
+      "name": "Spark",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Spark"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SPKUSDT",
+      "binanceSymbol": "SPKUSDT",
+      "coingeckoId": "spark-2",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SSV",
+      "name": "SSV Network",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "SSV Network"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SSVUSDT",
+      "binanceSymbol": "SSVUSDT",
+      "coingeckoId": "ssv-network",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "STEEM",
+      "name": "Steem",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Steem"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "STEEMUSDT",
+      "binanceSymbol": "STEEMUSDT",
+      "coingeckoId": "steem",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "STG",
+      "name": "Stargate Finance",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Stargate Finance"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "STGUSDT",
+      "binanceSymbol": "STGUSDT",
+      "coingeckoId": "stargate-finance",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "STO",
+      "name": "StakeStone",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "StakeStone"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "STOUSDT",
+      "binanceSymbol": "STOUSDT",
+      "coingeckoId": "stakestone",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "STORJ",
+      "name": "Storj",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Storj"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "STORJUSDT",
+      "binanceSymbol": "STORJUSDT",
+      "coingeckoId": "storj",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "STRAX",
+      "name": "Xertra",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Xertra"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "STRAXUSDT",
+      "binanceSymbol": "STRAXUSDT",
+      "coingeckoId": "stratis",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "STRK",
+      "name": "Starknet",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Starknet"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "STRKUSDT",
+      "binanceSymbol": "STRKUSDT",
+      "coingeckoId": "starknet",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "STX",
+      "name": "Stacks",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Stacks"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "STXUSDT",
+      "binanceSymbol": "STXUSDT",
+      "coingeckoId": "blockstack",
+      "dataQuality": "generated"
+    },
     {
       "symbol": "SUI",
       "name": "Sui",
       "type": "crypto",
       "market": "CRYPTO",
-      "currency": "USD",
+      "currency": "USDT",
       "unitLabel": "顆",
       "priceSource": "coingecko",
-      "aliases": ["Sui Network"],
-      "source": "phase-5b-seed",
-      "sourceSymbol": "SUI",
-      "coingeckoId": "sui",
+      "aliases": [
+        "Sui"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SUIUSDT",
       "binanceSymbol": "SUIUSDT",
-      "isETF": false,
-      "dataQuality": "seed"
+      "coingeckoId": "sui",
+      "dataQuality": "generated"
     },
     {
-      "symbol": "ARB",
-      "name": "Arbitrum",
+      "symbol": "SUN",
+      "name": "Sun Token",
       "type": "crypto",
       "market": "CRYPTO",
-      "currency": "USD",
+      "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
-      "aliases": ["Arbitrum One"],
-      "source": "phase-5b-seed",
-      "sourceSymbol": "ARB",
-      "coingeckoId": "arbitrum",
-      "binanceSymbol": "ARBUSDT",
-      "isETF": false,
-      "dataQuality": "seed"
+      "priceSource": "coingecko",
+      "aliases": [
+        "Sun Token"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SUNUSDT",
+      "binanceSymbol": "SUNUSDT",
+      "coingeckoId": "sun-token",
+      "dataQuality": "generated"
     },
     {
-      "symbol": "OP",
-      "name": "Optimism",
+      "symbol": "SUPER",
+      "name": "SUPER",
       "type": "crypto",
       "market": "CRYPTO",
-      "currency": "USD",
+      "currency": "USDT",
       "unitLabel": "顆",
       "priceSource": "manual",
-      "aliases": ["Optimism Network"],
-      "source": "phase-5b-seed",
-      "sourceSymbol": "OP",
-      "coingeckoId": "optimism",
-      "binanceSymbol": "OPUSDT",
-      "isETF": false,
-      "dataQuality": "seed"
+      "aliases": [
+        "SUPER"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SUPERUSDT",
+      "binanceSymbol": "SUPERUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SUSHI",
+      "name": "Sushi",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Sushi"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SUSHIUSDT",
+      "binanceSymbol": "SUSHIUSDT",
+      "coingeckoId": "sushi",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SXT",
+      "name": "Space and Time",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Space and Time"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SXTUSDT",
+      "binanceSymbol": "SXTUSDT",
+      "coingeckoId": "space-and-time",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SYN",
+      "name": "SYN",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "SYN"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SYNUSDT",
+      "binanceSymbol": "SYNUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SYS",
+      "name": "Syscoin",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Syscoin"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SYSUSDT",
+      "binanceSymbol": "SYSUSDT",
+      "coingeckoId": "syscoin",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TAO",
+      "name": "TAO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "TAO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TAOUSDT",
+      "binanceSymbol": "TAOUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TFUEL",
+      "name": "Theta Fuel",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Theta Fuel"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TFUELUSDT",
+      "binanceSymbol": "TFUELUSDT",
+      "coingeckoId": "theta-fuel",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "THE",
+      "name": "THE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "THE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "THEUSDT",
+      "binanceSymbol": "THEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "THETA",
+      "name": "Theta Network",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Theta Network"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "THETAUSDT",
+      "binanceSymbol": "THETAUSDT",
+      "coingeckoId": "theta-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TIA",
+      "name": "TIA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "TIA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TIAUSDT",
+      "binanceSymbol": "TIAUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TKO",
+      "name": "Tokocrypto",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Tokocrypto"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TKOUSDT",
+      "binanceSymbol": "TKOUSDT",
+      "coingeckoId": "tokocrypto",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TLM",
+      "name": "Alien Worlds",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Alien Worlds"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TLMUSDT",
+      "binanceSymbol": "TLMUSDT",
+      "coingeckoId": "alien-worlds",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TNSR",
+      "name": "TNSR",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "TNSR"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TNSRUSDT",
+      "binanceSymbol": "TNSRUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TON",
+      "name": "TON",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "TON"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TONUSDT",
+      "binanceSymbol": "TONUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TOWNS",
+      "name": "Towns",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Towns"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TOWNSUSDT",
+      "binanceSymbol": "TOWNSUSDT",
+      "coingeckoId": "towns",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TRB",
+      "name": "Tellor Tributes",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Tellor Tributes"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TRBUSDT",
+      "binanceSymbol": "TRBUSDT",
+      "coingeckoId": "tellor",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TREE",
+      "name": "TREE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "TREE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TREEUSDT",
+      "binanceSymbol": "TREEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TRUMP",
+      "name": "TRUMP",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "TRUMP"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TRUMPUSDT",
+      "binanceSymbol": "TRUMPUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TRX",
+      "name": "TRX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "TRX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TRXUSDT",
+      "binanceSymbol": "TRXUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TST",
+      "name": "TST",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "TST"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TSTUSDT",
+      "binanceSymbol": "TSTUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TURBO",
+      "name": "TURBO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "TURBO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TURBOUSDT",
+      "binanceSymbol": "TURBOUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TURTLE",
+      "name": "TURTLE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "TURTLE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TURTLEUSDT",
+      "binanceSymbol": "TURTLEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TUSD",
+      "name": "TUSD",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "TUSD"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TUSDUSDT",
+      "binanceSymbol": "TUSDUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TUT",
+      "name": "Tutorial",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Tutorial"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TUTUSDT",
+      "binanceSymbol": "TUTUSDT",
+      "coingeckoId": "tutorial",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TWT",
+      "name": "Trust Wallet",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Trust Wallet"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TWTUSDT",
+      "binanceSymbol": "TWTUSDT",
+      "coingeckoId": "trust-wallet-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "UMA",
+      "name": "UMA",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "UMA"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "UMAUSDT",
+      "binanceSymbol": "UMAUSDT",
+      "coingeckoId": "uma",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "UNI",
+      "name": "UNI",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "UNI"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "UNIUSDT",
+      "binanceSymbol": "UNIUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "USD1",
+      "name": "USD1",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "USD1"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "USD1USDT",
+      "binanceSymbol": "USD1USDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "USDC",
+      "name": "USDC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "USDC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "USDCUSDT",
+      "binanceSymbol": "USDCUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "USDE",
+      "name": "USDE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "USDE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "USDEUSDT",
+      "binanceSymbol": "USDEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "USDP",
+      "name": "USDP",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "USDP"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "USDPUSDT",
+      "binanceSymbol": "USDPUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "USDS",
+      "name": "USDS",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "USDS"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "USDSUSDT",
+      "binanceSymbol": "USDSUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "USTC",
+      "name": "USTC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "USTC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "USTCUSDT",
+      "binanceSymbol": "USTCUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "USUAL",
+      "name": "Usual",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Usual"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "USUALUSDT",
+      "binanceSymbol": "USUALUSDT",
+      "coingeckoId": "usual",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VANA",
+      "name": "Vana",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Vana"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "VANAUSDT",
+      "binanceSymbol": "VANAUSDT",
+      "coingeckoId": "vana",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VANRY",
+      "name": "Vanar Chain",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Vanar Chain"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "VANRYUSDT",
+      "binanceSymbol": "VANRYUSDT",
+      "coingeckoId": "vanar-chain",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VELODROME",
+      "name": "VELODROME",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "VELODROME"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "VELODROMEUSDT",
+      "binanceSymbol": "VELODROMEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VET",
+      "name": "VeChain",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "VeChain"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "VETUSDT",
+      "binanceSymbol": "VETUSDT",
+      "coingeckoId": "vechain",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VIC",
+      "name": "Viction",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Viction"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "VICUSDT",
+      "binanceSymbol": "VICUSDT",
+      "coingeckoId": "tomochain",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VIRTUAL",
+      "name": "Virtuals Protocol",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Virtuals Protocol"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "VIRTUALUSDT",
+      "binanceSymbol": "VIRTUALUSDT",
+      "coingeckoId": "virtual-protocol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VTHO",
+      "name": "VeThor",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "VeThor"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "VTHOUSDT",
+      "binanceSymbol": "VTHOUSDT",
+      "coingeckoId": "vethor-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WAL",
+      "name": "Walrus",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Walrus"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "WALUSDT",
+      "binanceSymbol": "WALUSDT",
+      "coingeckoId": "walrus-2",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WAXP",
+      "name": "WAX",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "WAX"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "WAXPUSDT",
+      "binanceSymbol": "WAXPUSDT",
+      "coingeckoId": "wax",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WBETH",
+      "name": "Wrapped Beacon ETH",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Wrapped Beacon ETH"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "WBETHUSDT",
+      "binanceSymbol": "WBETHUSDT",
+      "coingeckoId": "wrapped-beacon-eth",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WBTC",
+      "name": "WBTC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "WBTC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "WBTCUSDT",
+      "binanceSymbol": "WBTCUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WCT",
+      "name": "WalletConnect Token",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "WalletConnect Token"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "WCTUSDT",
+      "binanceSymbol": "WCTUSDT",
+      "coingeckoId": "connect-token-wct",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WIF",
+      "name": "WIF",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "WIF"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "WIFUSDT",
+      "binanceSymbol": "WIFUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WIN",
+      "name": "WIN",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "WIN"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "WINUSDT",
+      "binanceSymbol": "WINUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WLD",
+      "name": "Worldcoin",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Worldcoin"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "WLDUSDT",
+      "binanceSymbol": "WLDUSDT",
+      "coingeckoId": "worldcoin-wld",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WLFI",
+      "name": "WLFI",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "WLFI"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "WLFIUSDT",
+      "binanceSymbol": "WLFIUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WOO",
+      "name": "WOO",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "WOO"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "WOOUSDT",
+      "binanceSymbol": "WOOUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XAI",
+      "name": "XAI",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "XAI"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "XAIUSDT",
+      "binanceSymbol": "XAIUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XAUT",
+      "name": "Tether Gold",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Tether Gold"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "XAUTUSDT",
+      "binanceSymbol": "XAUTUSDT",
+      "coingeckoId": "tether-gold",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XEC",
+      "name": "eCash",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "eCash"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "XECUSDT",
+      "binanceSymbol": "XECUSDT",
+      "coingeckoId": "ecash",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XLM",
+      "name": "Stellar",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Stellar"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "XLMUSDT",
+      "binanceSymbol": "XLMUSDT",
+      "coingeckoId": "stellar",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XNO",
+      "name": "Nano",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Nano"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "XNOUSDT",
+      "binanceSymbol": "XNOUSDT",
+      "coingeckoId": "nano",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XPL",
+      "name": "XPL",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "XPL"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "XPLUSDT",
+      "binanceSymbol": "XPLUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XRP",
+      "name": "XRP",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "XRP"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "XRPUSDT",
+      "binanceSymbol": "XRPUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XTZ",
+      "name": "XTZ",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "XTZ"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "XTZUSDT",
+      "binanceSymbol": "XTZUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XUSD",
+      "name": "XUSD",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "XUSD"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "XUSDUSDT",
+      "binanceSymbol": "XUSDUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XVG",
+      "name": "XVG",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "XVG"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "XVGUSDT",
+      "binanceSymbol": "XVGUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XVS",
+      "name": "Venus",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Venus"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "XVSUSDT",
+      "binanceSymbol": "XVSUSDT",
+      "coingeckoId": "venus",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YB",
+      "name": "Yield Basis",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Yield Basis"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "YBUSDT",
+      "binanceSymbol": "YBUSDT",
+      "coingeckoId": "yield-basis",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YFI",
+      "name": "YFI",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "YFI"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "YFIUSDT",
+      "binanceSymbol": "YFIUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YGG",
+      "name": "Yield Guild Games",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Yield Guild Games"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "YGGUSDT",
+      "binanceSymbol": "YGGUSDT",
+      "coingeckoId": "yield-guild-games",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZAMA",
+      "name": "Zama",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Zama"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ZAMAUSDT",
+      "binanceSymbol": "ZAMAUSDT",
+      "coingeckoId": "zama",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZBT",
+      "name": "ZEROBASE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "ZEROBASE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ZBTUSDT",
+      "binanceSymbol": "ZBTUSDT",
+      "coingeckoId": "zerobase",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZEC",
+      "name": "ZEC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ZEC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ZECUSDT",
+      "binanceSymbol": "ZECUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZEN",
+      "name": "ZEN",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ZEN"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ZENUSDT",
+      "binanceSymbol": "ZENUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZIL",
+      "name": "Zilliqa",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Zilliqa"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ZILUSDT",
+      "binanceSymbol": "ZILUSDT",
+      "coingeckoId": "zilliqa",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZK",
+      "name": "ZKsync",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "ZKsync"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ZKUSDT",
+      "binanceSymbol": "ZKUSDT",
+      "coingeckoId": "zksync",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZKC",
+      "name": "ZKC",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ZKC"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ZKCUSDT",
+      "binanceSymbol": "ZKCUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZKP",
+      "name": "ZKP",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ZKP"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ZKPUSDT",
+      "binanceSymbol": "ZKPUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZRO",
+      "name": "LayerZero",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "LayerZero"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ZROUSDT",
+      "binanceSymbol": "ZROUSDT",
+      "coingeckoId": "layerzero",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZRX",
+      "name": "0x Protocol",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "0x Protocol"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ZRXUSDT",
+      "binanceSymbol": "ZRXUSDT",
+      "coingeckoId": "0x",
+      "dataQuality": "generated"
     }
   ],
   "errors": []

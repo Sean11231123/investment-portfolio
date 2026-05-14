@@ -1,0 +1,37 @@
+name: Update Crypto Asset Universe
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 10 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-crypto-asset-universe:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update crypto asset universe
+        run: python scripts/update_crypto_asset_universe.py
+
+      - name: Commit changed crypto asset universe
+        run: |
+          if git diff --quiet -- public/data/universe/crypto-assets.json; then
+            echo "No crypto asset universe changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/universe/crypto-assets.json
+          git commit -m "Update crypto asset universe"
+          git pull --rebase origin main
+          git push origin HEAD:main

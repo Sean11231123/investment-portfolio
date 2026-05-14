@@ -121,6 +121,39 @@ describe("universe service", () => {
     expect(parsed.assets[1].type).toBe("us_etf");
   });
 
+  it("parses a generated crypto universe asset", () => {
+    const parsed = parseUniverseFile({
+      version: 1,
+      market: "CRYPTO",
+      source: "binance-exchangeinfo-coingecko-list",
+      generatedAt: "2026-05-14T00:00:00.000Z",
+      count: 1,
+      assets: [
+        {
+          symbol: "doge",
+          name: "Dogecoin",
+          type: "crypto",
+          market: "CRYPTO",
+          currency: "USDT",
+          unitLabel: "顆",
+          priceSource: "coingecko",
+          aliases: ["Dogecoin"],
+          exchange: "BINANCE",
+          source: "binance-exchangeinfo",
+          sourceSymbol: "DOGEUSDT",
+          binanceSymbol: "DOGEUSDT",
+          coingeckoId: "dogecoin",
+          dataQuality: "generated",
+        },
+      ],
+      errors: [],
+    });
+
+    expect(parsed.assets[0].symbol).toBe("DOGE");
+    expect(parsed.assets[0].type).toBe("crypto");
+    expect(parsed.assets[0].coingeckoId).toBe("dogecoin");
+  });
+
   it("loads universe datasets and reports partial failures", async () => {
     vi.stubGlobal(
       "fetch",

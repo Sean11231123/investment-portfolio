@@ -84,6 +84,26 @@ const universeAssets: AssetMetadata[] = [
     unitLabel: "顆" as AssetMetadata["unitLabel"],
     priceSource: "manual",
   },
+  {
+    symbol: "DOGE",
+    name: "Dogecoin",
+    type: "crypto",
+    market: "CRYPTO",
+    currency: "USDT",
+    unitLabel: unit,
+    priceSource: "coingecko",
+    aliases: ["Dogecoin"],
+    coingeckoId: "dogecoin",
+  },
+  {
+    symbol: "AVAX",
+    name: "AVAX",
+    type: "crypto",
+    market: "CRYPTO",
+    currency: "USDT",
+    unitLabel: unit,
+    priceSource: "manual",
+  },
 ];
 
 describe("asset resolver", () => {
@@ -109,6 +129,12 @@ describe("asset resolver", () => {
     expect(
       searchResolvedAssets("SUI", { universeAssets }).map((asset) => asset.symbol),
     ).toContain("SUI");
+    expect(
+      searchResolvedAssets("DOGE", { universeAssets }).map((asset) => asset.symbol),
+    ).toContain("DOGE");
+    expect(
+      searchResolvedAssets("AVAX", { universeAssets }).map((asset) => asset.symbol),
+    ).toContain("AVAX");
   });
 
   it("returns built-in assets when the universe is empty or unavailable", () => {

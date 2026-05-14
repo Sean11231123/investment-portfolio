@@ -46,6 +46,7 @@ npm run validate:etf-components
 npm run test:etf-normalizer
 npm run update:tw-universe
 npm run update:us-universe
+npm run update:crypto-universe
 ```
 
 Preview the production build:
@@ -109,10 +110,11 @@ Current universe files:
 
 - `tw-assets.json`: generated Taiwan listed stock/ETF metadata from TWSE public ISIN data
 - `us-assets.json`: generated US stock/ETF metadata from Nasdaq Trader public symbol directory data
-- `crypto-assets.json`: small crypto examples such as `SUI`, `ARB`, and `OP`
+- `crypto-assets.json`: generated crypto metadata from Binance Spot `exchangeInfo` plus CoinGecko `coins/list`
 
 Taiwan active ETF style symbols, such as `00981A`, can appear in search when the TWSE source includes them and classifies them as ETFs.
 US stocks and ETFs, such as `PLTR`, `META`, `AVGO`, `SCHD`, `IWM`, `TLT`, `DIA`, `XLE`, and `XLK`, can appear in search when the Nasdaq Trader source includes them.
+Crypto assets, such as `DOGE`, `AVAX`, `XRP`, `ADA`, and `LINK`, can appear in search when Binance lists active USDT spot pairs for them.
 
 Important distinctions:
 
@@ -193,6 +195,40 @@ The scheduled workflow is:
 
 It can be run manually, also runs on weekdays, uses Python 3.12, and commits `public/data/universe/us-assets.json` only when the generated file changed. This workflow is separate from the US price workflow and the US ETF component workflow.
 
+## Crypto Asset Universe Update
+
+Crypto searchable metadata is generated outside the frontend by:
+
+```text
+scripts/update_crypto_asset_universe.py
+```
+
+The script reads Binance public no-key Spot `exchangeInfo` metadata and keeps active `USDT` quote pairs where spot trading is allowed. It also reads CoinGecko's public `coins/list` endpoint to resolve names and `coingeckoId` values when safe.
+
+It writes:
+
+```text
+public/data/universe/crypto-assets.json
+```
+
+CoinGecko symbols are handled conservatively. If a symbol maps to exactly one CoinGecko coin, the updater uses that ID. If a symbol is ambiguous, the updater only uses a built-in known `coingeckoId`; otherwise it leaves the generated asset metadata-only with `priceSource: "manual"` rather than randomly selecting an ID.
+
+This universe is search metadata only. Searchable crypto asset does not guarantee price availability. The existing app price adapter still uses CoinGecko only for assets with a resolved `coingeckoId`; Binance price support is intentionally postponed to Phase 5F.
+
+Run it locally with:
+
+```bash
+npm run update:crypto-universe
+```
+
+The scheduled workflow is:
+
+```text
+.github/workflows/update-crypto-asset-universe.yml
+```
+
+It can be run manually, also runs daily, uses Python 3.12, and commits `public/data/universe/crypto-assets.json` only when the generated file changed. It uses public market metadata only and requires no secrets.
+
 ## Online FX
 
 FX rates are fetched in `src/services/fxService.ts`.
@@ -206,11 +242,13 @@ FX rates are fetched in `src/services/fxService.ts`.
 
 Price adapters live in `src/services/priceService.ts`.
 
-- Crypto prices use CoinGecko simple price data when available.
+- Crypto prices use CoinGecko simple price data when a resolved `coingeckoId` is available.
 - Cash price is always `1` in its native currency.
 - Taiwan stock/ETF prices are read from `public/data/market/tw-prices.json`.
 - US stock/ETF prices are read from `public/data/market/us-prices.json`.
 - If a price is unavailable and no cache exists, market value is shown as unavailable instead of silently becoming zero.
+
+Binance crypto price fetching is not implemented yet. Binance is currently used only for searchable crypto universe metadata.
 
 ## Market Data Status
 
@@ -252,6 +290,7 @@ Current tests cover:
 - import/export validation and v1-to-v2 holding migration
 - Taiwan asset universe parser/classifier fixtures for stocks, ETFs, active ETF symbols, and excluded instruments
 - US asset universe parser/classifier fixtures for stocks, ETFs, test issues, malformed rows, and excluded instruments
+- Crypto asset universe parser/classifier fixtures for Binance USDT pairs, CoinGecko matches, ambiguity, and excluded rows
 
 Tests use mocked holdings, quotes, FX rates, universe fixtures, and ETF component fixtures. They do not call Frankfurter, CoinGecko, TWSE, or any other live market API.
 
@@ -558,8 +597,9 @@ If the repository name is different, update the base path in `vite.config.ts`.
 ## Known Limitations
 
 - Taiwan and US stock/ETF prices are static end-of-day data, not live quotes.
-- Taiwan and US universe JSON is generated from public symbol/classification sources, but it is still search metadata rather than a guarantee of price or component coverage.
+- Taiwan, US, and crypto universe JSON is generated from public symbol/classification sources, but it is still search metadata rather than a guarantee of price or component coverage.
 - A searchable universe asset may still have unavailable price data.
+- Binance crypto prices are not active until the later Binance price adapter phase.
 - ETF component data is static JSON. Some files are automated from issuer downloads, while others remain sample/manual.
 - US ETF lookthrough exists only for ETFs with component JSON; missing US ETF component data appears as `未展開 ETF`.
 - Data is local to each browser and is not synced across devices.
