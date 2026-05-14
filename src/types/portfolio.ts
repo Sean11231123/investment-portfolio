@@ -45,6 +45,7 @@ export type AssetMetadata = {
   priceSource: PriceSource;
   aliases?: string[];
   coingeckoId?: string;
+  binanceSymbol?: string;
 };
 
 export type PortfolioSettings = {

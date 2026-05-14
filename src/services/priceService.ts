@@ -170,14 +170,110 @@ async function refreshCryptoPrices(
   metadata: AssetMetadata[],
   next: PriceCache,
 ) {
-  const cryptoAssets = metadata.filter(
-    (asset) => asset.priceSource === "coingecko" && asset.coingeckoId,
-  );
+  const cryptoAssets = metadata.filter((asset) => asset.type === "crypto");
   if (cryptoAssets.length === 0) {
     return;
   }
 
-  const ids = cryptoAssets.map((asset) => asset.coingeckoId).join(",");
+  const binanceAssets = cryptoAssets.filter((asset) => asset.binanceSymbol);
+  const coingeckoAssets = cryptoAssets.filter(
+    (asset) => !asset.binanceSymbol && asset.priceSource === "coingecko" && asset.coingeckoId,
+  );
+
+  const binanceFallbackAssets = await refreshBinanceCryptoPrices(
+    binanceAssets,
+    next,
+  );
+
+  await refreshCoinGeckoPrices(
+    dedupeMetadata([...coingeckoAssets, ...binanceFallbackAssets]),
+    next,
+  );
+}
+
+async function refreshBinanceCryptoPrices(
+  assets: AssetMetadata[],
+  next: PriceCache,
+) {
+  if (assets.length === 0) {
+    return [];
+  }
+
+  const failedAssets = new Set<AssetMetadata>(assets);
+  const symbols = assets.map((asset) => asset.binanceSymbol!);
+
+  try {
+    const params = new URLSearchParams({
+      symbols: JSON.stringify(symbols),
+    });
+    const response = await fetch(
+      `https://api.binance.com/api/v3/ticker/price?${params.toString()}`,
+    );
+    if (!response.ok) {
+      throw new Error(`Binance returned ${response.status}`);
+    }
+
+    const data = await response.json();
+    const rows = Array.isArray(data) ? data : [data];
+    const bySymbol = new Map(
+      rows
+        .filter((row): row is { symbol: string; price: unknown } =>
+          Boolean(row && typeof row === "object" && "symbol" in row),
+        )
+        .map((row) => [String(row.symbol).toUpperCase(), row]),
+    );
+    const now = new Date().toISOString();
+
+    for (const asset of assets) {
+      const row = bySymbol.get(asset.binanceSymbol!.toUpperCase());
+      const price = parsePositiveNumber(row?.price);
+      if (price === null) {
+        continue;
+      }
+
+      next[asset.symbol] = {
+        symbol: asset.symbol,
+        price,
+        currency: asset.currency,
+        source: "Binance",
+        lastUpdated: now,
+        status: "ok",
+      };
+      failedAssets.delete(asset);
+    }
+  } catch (error) {
+    for (const asset of assets.filter((item) => !item.coingeckoId)) {
+      next[asset.symbol] = fallbackQuote(
+        asset,
+        next,
+        `Binance price unavailable: ${getErrorMessage(error)}`,
+      );
+    }
+    return assets.filter((asset) => asset.coingeckoId);
+  }
+
+  const fallbackAssets = Array.from(failedAssets);
+  for (const asset of fallbackAssets.filter((item) => !item.coingeckoId)) {
+    next[asset.symbol] = fallbackQuote(
+      asset,
+      next,
+      `Binance price missing for ${asset.binanceSymbol}.`,
+    );
+  }
+
+  return fallbackAssets.filter((asset) => asset.coingeckoId);
+}
+
+async function refreshCoinGeckoPrices(
+  cryptoAssets: AssetMetadata[],
+  next: PriceCache,
+) {
+  const coingeckoAssets = cryptoAssets.filter((asset) => asset.coingeckoId);
+  if (coingeckoAssets.length === 0) {
+    return;
+  }
+
+  const ids = coingeckoAssets.map((asset) => asset.coingeckoId).join(",");
 
   try {
     const response = await fetch(
@@ -190,7 +286,7 @@ async function refreshCryptoPrices(
     const data = await response.json();
     const now = new Date().toISOString();
 
-    for (const asset of cryptoAssets) {
+    for (const asset of coingeckoAssets) {
       const id = asset.coingeckoId!;
       const price = Number(data[id]?.usd);
       const lastUpdatedAt = Number(data[id]?.last_updated_at);
@@ -215,7 +311,7 @@ async function refreshCryptoPrices(
       }
     }
   } catch (error) {
-    for (const asset of cryptoAssets) {
+    for (const asset of coingeckoAssets) {
       next[asset.symbol] = fallbackQuote(asset, next, getErrorMessage(error));
     }
   }
@@ -346,6 +442,11 @@ function fallbackQuote(asset: AssetMetadata, cache: PriceCache, error: string) {
   }
 
   return unavailableQuote(asset.symbol, asset.priceSource, error, asset.currency);
+}
+
+function parsePositiveNumber(value: unknown) {
+  const price = Number(value);
+  return Number.isFinite(price) && price > 0 ? price : null;
 }
 
 function getUnavailablePriceMessage(metadata: AssetMetadata) {

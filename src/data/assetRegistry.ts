@@ -111,6 +111,7 @@ export const assetRegistry: AssetMetadata[] = [
     priceSource: "coingecko",
     aliases: ["比特幣"],
     coingeckoId: "bitcoin",
+    binanceSymbol: "BTCUSDT",
   },
   {
     symbol: "ETH",
@@ -122,6 +123,7 @@ export const assetRegistry: AssetMetadata[] = [
     priceSource: "coingecko",
     aliases: ["以太幣"],
     coingeckoId: "ethereum",
+    binanceSymbol: "ETHUSDT",
   },
   {
     symbol: "SOL",
@@ -132,6 +134,7 @@ export const assetRegistry: AssetMetadata[] = [
     unitLabel: "顆",
     priceSource: "coingecko",
     coingeckoId: "solana",
+    binanceSymbol: "SOLUSDT",
   },
   {
     symbol: "SUI",
@@ -142,6 +145,7 @@ export const assetRegistry: AssetMetadata[] = [
     unitLabel: "顆",
     priceSource: "coingecko",
     coingeckoId: "sui",
+    binanceSymbol: "SUIUSDT",
   },
   {
     symbol: "USDT",

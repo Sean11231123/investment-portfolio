@@ -213,7 +213,7 @@ public/data/universe/crypto-assets.json
 
 CoinGecko symbols are handled conservatively. If a symbol maps to exactly one CoinGecko coin, the updater uses that ID. If a symbol is ambiguous, the updater only uses a built-in known `coingeckoId`; otherwise it leaves the generated asset metadata-only with `priceSource: "manual"` rather than randomly selecting an ID.
 
-This universe is search metadata only. Searchable crypto asset does not guarantee price availability. The existing app price adapter still uses CoinGecko only for assets with a resolved `coingeckoId`; Binance price support is intentionally postponed to Phase 5F.
+This universe is search metadata only. Searchable crypto asset does not guarantee price availability. The app fetches crypto prices only for held assets during normal price refresh.
 
 Run it locally with:
 
@@ -242,13 +242,14 @@ FX rates are fetched in `src/services/fxService.ts`.
 
 Price adapters live in `src/services/priceService.ts`.
 
-- Crypto prices use CoinGecko simple price data when a resolved `coingeckoId` is available.
+- Crypto prices use Binance public ticker data first when held crypto metadata has a `binanceSymbol`.
+- CoinGecko simple price remains the fallback when Binance fails and a resolved `coingeckoId` is available.
 - Cash price is always `1` in its native currency.
 - Taiwan stock/ETF prices are read from `public/data/market/tw-prices.json`.
 - US stock/ETF prices are read from `public/data/market/us-prices.json`.
 - If a price is unavailable and no cache exists, market value is shown as unavailable instead of silently becoming zero.
 
-Binance crypto price fetching is not implemented yet. Binance is currently used only for searchable crypto universe metadata.
+Binance ticker prices are quoted from USDT pairs. To preserve the app's existing accounting/display convention, built-in crypto assets such as BTC and ETH keep USD quote currency in the app, while generated universe crypto assets can remain USDT. Missing crypto prices remain unavailable/null and are never treated as zero.
 
 ## Market Data Status
 
@@ -599,7 +600,7 @@ If the repository name is different, update the base path in `vite.config.ts`.
 - Taiwan and US stock/ETF prices are static end-of-day data, not live quotes.
 - Taiwan, US, and crypto universe JSON is generated from public symbol/classification sources, but it is still search metadata rather than a guarantee of price or component coverage.
 - A searchable universe asset may still have unavailable price data.
-- Binance crypto prices are not active until the later Binance price adapter phase.
+- Crypto prices are fetched only for held assets; the app does not fetch all Binance universe prices.
 - ETF component data is static JSON. Some files are automated from issuer downloads, while others remain sample/manual.
 - US ETF lookthrough exists only for ETFs with component JSON; missing US ETF component data appears as `未展開 ETF`.
 - Data is local to each browser and is not synced across devices.

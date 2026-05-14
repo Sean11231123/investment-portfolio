@@ -84,6 +84,40 @@ const avaxMetadata: AssetMetadata = {
   priceSource: "manual",
 };
 
+const dogeMetadata: AssetMetadata = {
+  symbol: "DOGE",
+  name: "Dogecoin",
+  type: "crypto",
+  market: "CRYPTO",
+  currency: "USDT",
+  unitLabel: unit,
+  priceSource: "manual",
+  binanceSymbol: "DOGEUSDT",
+};
+
+const arbMetadata: AssetMetadata = {
+  symbol: "ARB",
+  name: "Arbitrum",
+  type: "crypto",
+  market: "CRYPTO",
+  currency: "USDT",
+  unitLabel: unit,
+  priceSource: "coingecko",
+  coingeckoId: "arbitrum",
+  binanceSymbol: "ARBUSDT",
+};
+
+const linkMetadata: AssetMetadata = {
+  symbol: "LINK",
+  name: "Chainlink",
+  type: "crypto",
+  market: "CRYPTO",
+  currency: "USD",
+  unitLabel: unit,
+  priceSource: "coingecko",
+  coingeckoId: "chainlink",
+};
+
 function mockFetchJson(data: unknown) {
   vi.stubGlobal(
     "fetch",
@@ -91,6 +125,20 @@ function mockFetchJson(data: unknown) {
       ok: true,
       json: async () => data,
     })),
+  );
+}
+
+function mockFetchByUrl(handler: (url: string) => { ok?: boolean; data: unknown; status?: number }) {
+  vi.stubGlobal(
+    "fetch",
+    vi.fn(async (url: string) => {
+      const result = handler(url);
+      return {
+        ok: result.ok ?? true,
+        status: result.status ?? 200,
+        json: async () => result.data,
+      };
+    }),
   );
 }
 
@@ -106,6 +154,7 @@ describe("US static price adapter", () => {
   it("registers US stocks and ETFs with us_static price source", () => {
     expect(getAssetMetadata("AAPL", "us_stock")?.priceSource).toBe("us_static");
     expect(getAssetMetadata("VOO", "us_etf")?.priceSource).toBe("us_static");
+    expect(getAssetMetadata("BTC", "crypto")?.binanceSymbol).toBe("BTCUSDT");
   });
 
   it("uses a positive US static quote as a USD price", async () => {
@@ -256,6 +305,112 @@ describe("US static price adapter", () => {
     expect(quote.currency).toBe("USDT");
     expect(quote.status).toBe("unavailable");
     expect(quote.source).toBe("manual");
+  });
+
+  it("uses Binance for crypto assets with a binance symbol", async () => {
+    mockFetchByUrl((url) => {
+      expect(url).toContain("api.binance.com");
+      return {
+        data: [{ symbol: "DOGEUSDT", price: "0.1234" }],
+      };
+    });
+
+    const prices = await refreshPrices(
+      [holding("DOGE", "crypto")],
+      [dogeMetadata],
+    );
+
+    expect(prices.DOGE.price).toBe(0.1234);
+    expect(prices.DOGE.currency).toBe("USDT");
+    expect(prices.DOGE.source).toBe("Binance");
+    expect(prices.DOGE.status).toBe("ok");
+    expect(vi.mocked(fetch).mock.calls).toHaveLength(1);
+    expect(String(vi.mocked(fetch).mock.calls[0][0])).not.toContain("coingecko");
+  });
+
+  it("uses Binance for built-in crypto while preserving existing USD currency convention", async () => {
+    mockFetchByUrl((url) => {
+      expect(url).toContain("api.binance.com");
+      return {
+        data: [{ symbol: "BTCUSDT", price: "95000" }],
+      };
+    });
+
+    const prices = await refreshPrices([holding("BTC", "crypto")]);
+
+    expect(prices.BTC.price).toBe(95000);
+    expect(prices.BTC.currency).toBe("USD");
+    expect(prices.BTC.source).toBe("Binance");
+  });
+
+  it("falls back to CoinGecko when Binance fails and a CoinGecko ID exists", async () => {
+    mockFetchByUrl((url) => {
+      if (url.includes("api.binance.com")) {
+        return { ok: false, status: 503, data: {} };
+      }
+
+      expect(url).toContain("coingecko");
+      return {
+        data: {
+          arbitrum: {
+            usd: 1.25,
+            last_updated_at: 1770000000,
+          },
+        },
+      };
+    });
+
+    const prices = await refreshPrices(
+      [holding("ARB", "crypto")],
+      [arbMetadata],
+    );
+
+    expect(prices.ARB.price).toBe(1.25);
+    expect(prices.ARB.currency).toBe("USD");
+    expect(prices.ARB.source).toBe("CoinGecko");
+    expect(prices.ARB.status).toBe("ok");
+    expect(vi.mocked(fetch).mock.calls).toHaveLength(2);
+  });
+
+  it("keeps Binance failures without CoinGecko fallback unavailable instead of zero", async () => {
+    mockFetchByUrl((url) => {
+      expect(url).toContain("api.binance.com");
+      return { ok: false, status: 503, data: {} };
+    });
+
+    const prices = await refreshPrices(
+      [holding("DOGE", "crypto")],
+      [dogeMetadata],
+    );
+
+    expect(prices.DOGE.price).toBeNull();
+    expect(prices.DOGE.currency).toBe("USDT");
+    expect(prices.DOGE.status).toBe("unavailable");
+    expect(prices.DOGE.source).toBe("manual");
+  });
+
+  it("keeps CoinGecko-only crypto behavior for assets without a Binance symbol", async () => {
+    mockFetchByUrl((url) => {
+      expect(url).toContain("coingecko");
+      return {
+        data: {
+          chainlink: {
+            usd: 18.5,
+            last_updated_at: 1770000000,
+          },
+        },
+      };
+    });
+
+    const prices = await refreshPrices(
+      [holding("LINK", "crypto")],
+      [linkMetadata],
+    );
+
+    expect(prices.LINK.price).toBe(18.5);
+    expect(prices.LINK.currency).toBe("USD");
+    expect(prices.LINK.source).toBe("CoinGecko");
+    expect(vi.mocked(fetch).mock.calls).toHaveLength(1);
   });
 
   it("keeps Taiwan, crypto, and cash fallback behavior distinct", () => {
