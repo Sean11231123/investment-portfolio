@@ -7,6 +7,7 @@ import {
   formatPercent,
 } from "../utils/format";
 import { assetTypeLabels, marketLabels } from "../utils/portfolioCalculations";
+import { AppBadge, AppButton, EmptyState, appTableHeader, appTableRow, AppCard } from "./ui";
 
 type HoldingsTableProps = {
   holdings: Holding[];
@@ -27,20 +28,18 @@ export function HoldingsTable({
 }: HoldingsTableProps) {
   if (holdings.length === 0) {
     return (
-      <div className="rounded-md border border-dashed border-[#b6c5c9] bg-white p-8 text-center">
-        <h2 className="text-lg font-semibold">尚無持倉</h2>
-        <p className="mt-2 text-sm text-[#607078]">
-          新增第一筆資產後，這裡會顯示持倉、估值與價格來源。
-        </p>
-      </div>
+      <EmptyState
+        title="尚無持倉"
+        message="新增第一筆資產後，這裡會顯示市值、損益、價格來源與更新狀態。"
+      />
     );
   }
 
   return (
-    <div className="overflow-hidden rounded-md border border-[#d8e0e3] bg-white">
+    <AppCard padded={false} className="overflow-hidden">
       <div className="overflow-x-auto">
-        <table className="min-w-full divide-y divide-[#d8e0e3] text-sm">
-          <thead className="bg-[#eef3f4] text-left text-[#314249]">
+        <table className="min-w-full text-sm">
+          <thead className={appTableHeader}>
             <tr>
               <Th>代號</Th>
               <Th>名稱</Th>
@@ -54,9 +53,9 @@ export function HoldingsTable({
               <Th>操作</Th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-[#edf1f2]">
+          <tbody>
             {holdingValues.map((row) => (
-              <tr key={row.holding.id} className="hover:bg-[#fafbfb]">
+              <tr key={row.holding.id} className={appTableRow}>
                 <Td strong>{row.metadata.symbol}</Td>
                 <Td>{row.metadata.name}</Td>
                 <Td>
@@ -87,7 +86,7 @@ export function HoldingsTable({
                   ) : (
                     <span
                       className={
-                        row.pnlTWD >= 0 ? "text-[#2c6b45]" : "text-[#b42318]"
+                        row.pnlTWD >= 0 ? "text-emerald-300" : "text-rose-300"
                       }
                     >
                       {formatDisplayMoney(row.pnlTWD, displayCurrency, fxRates)}{" "}
@@ -97,20 +96,22 @@ export function HoldingsTable({
                 </Td>
                 <Td>
                   <div>
-                    <p>{getStatusLabel(row.quote.status)}</p>
-                    <p className="text-xs text-[#607078]">
+                    <AppBadge tone={getStatusTone(row.quote.status)}>
+                      {getStatusLabel(row.quote.status)}
+                    </AppBadge>
+                    <p className="mt-2 text-xs text-slate-400">
                       價格來源：{getSourceLabel(row.quote.source)}
                     </p>
                     {row.quote.tradeDate ? (
-                      <p className="text-xs text-[#607078]">
+                      <p className="text-xs text-slate-400">
                         交易日：{row.quote.tradeDate}
                       </p>
                     ) : null}
-                    <p className="text-xs text-[#607078]">
+                    <p className="text-xs text-slate-400">
                       上次更新：{formatDateTime(row.quote.lastUpdated)}
                     </p>
                     {row.quote.error ? (
-                      <p className="max-w-xs whitespace-normal text-xs text-[#b42318]">
+                      <p className="max-w-xs whitespace-normal text-xs text-rose-300">
                         {row.quote.error}
                       </p>
                     ) : null}
@@ -118,20 +119,20 @@ export function HoldingsTable({
                 </Td>
                 <Td>
                   <div className="flex gap-2">
-                    <button
-                      type="button"
+                    <AppButton
+                      variant="secondary"
+                      className="px-3 py-1.5 text-xs"
                       onClick={() => onEdit(row.holding)}
-                      className="rounded-md border border-[#b6c5c9] px-3 py-1.5 text-xs hover:bg-[#eef3f4]"
                     >
                       編輯
-                    </button>
-                    <button
-                      type="button"
+                    </AppButton>
+                    <AppButton
+                      variant="danger"
+                      className="px-3 py-1.5 text-xs"
                       onClick={() => onDelete(row.holding.id)}
-                      className="rounded-md border border-[#d9aaa4] px-3 py-1.5 text-xs text-[#a43f32] hover:bg-[#fff1ef]"
                     >
                       刪除
-                    </button>
+                    </AppButton>
                   </div>
                 </Td>
               </tr>
@@ -139,15 +140,21 @@ export function HoldingsTable({
           </tbody>
         </table>
       </div>
-    </div>
+    </AppCard>
   );
 }
 
 function getStatusLabel(status: string) {
-  if (status === "ok") return "已更新";
+  if (status === "ok") return "正常";
   if (status === "cached") return "快取";
   if (status === "error") return "錯誤";
   return "unavailable";
+}
+
+function getStatusTone(status: string) {
+  if (status === "ok") return "success";
+  if (status === "cached") return "warning";
+  return "danger";
 }
 
 function getSourceLabel(source: string) {
@@ -172,7 +179,7 @@ function Td({
   return (
     <td
       className={`whitespace-nowrap px-4 py-3 ${
-        strong ? "font-semibold text-[#172026]" : "text-[#314249]"
+        strong ? "font-semibold text-white" : "text-slate-300"
       }`}
     >
       {children}

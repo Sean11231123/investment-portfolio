@@ -1,5 +1,6 @@
 import { ImportExportPanel } from "../components/ImportExportPanel";
 import { SettingsPanel } from "../components/SettingsPanel";
+import { AppCard, appMutedSurface, SectionHeader } from "../components/ui";
 import type { FxRates, Holding, PortfolioSettings } from "../types/portfolio";
 import { formatDateTime } from "../utils/format";
 
@@ -32,13 +33,11 @@ export function SettingsPage({
         onRefreshFx={onRefreshFx}
       />
 
-      <section className="space-y-4 rounded-md border border-[#d8e0e3] bg-white p-5">
-        <div>
-          <h2 className="text-lg font-semibold">備份與還原</h2>
-          <p className="mt-2 text-sm leading-6 text-[#607078]">
-            你的投組資料只存在此瀏覽器。清除瀏覽器資料、換裝置或換瀏覽器時，資料不會自動同步。請定期匯出 JSON 備份。
-          </p>
-        </div>
+      <section className="space-y-4">
+        <SectionHeader
+          title="備份與還原"
+          description="你的投組資料只存在此瀏覽器。清除瀏覽器資料、換裝置或換瀏覽器時，資料不會自動同步。請定期匯出 JSON 備份。"
+        />
 
         <div className="grid gap-3 md:grid-cols-4">
           <Info label="目前持倉數" value={`${holdings.length}`} />
@@ -55,7 +54,7 @@ export function SettingsPage({
         </div>
 
         {showNeverExportedReminder ? (
-          <p className="rounded-md border border-[#e5d7a6] bg-[#fffaf0] p-3 text-sm text-[#6f5a19]">
+          <p className="rounded-2xl border border-amber-300/25 bg-amber-400/10 p-3 text-sm text-amber-200">
             你目前有持倉，但尚未記錄過備份。建議下載一份 JSON 備份。
           </p>
         ) : null}
@@ -74,21 +73,21 @@ export function SettingsPage({
         />
       </section>
 
-      <section className="rounded-md border border-[#d8e0e3] bg-white p-5">
-        <h2 className="text-lg font-semibold">資料儲存說明</h2>
-        <p className="mt-2 text-sm leading-6 text-[#607078]">
-          v2 持倉與設定只會儲存在目前瀏覽器的 localStorage。GitHub repo 不會儲存你的個人投組資料。
-        </p>
-      </section>
+      <AppCard>
+        <SectionHeader
+          title="資料儲存說明"
+          description="v2 持倉與設定只會儲存在目前瀏覽器的 localStorage。GitHub repo 不會儲存你的個人投組資料。"
+        />
+      </AppCard>
     </div>
   );
 }
 
 function Info({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-md border border-[#d8e0e3] bg-[#fafbfb] p-4">
-      <p className="text-xs text-[#607078]">{label}</p>
-      <p className="mt-1 font-semibold">{value}</p>
+    <div className={`rounded-2xl p-4 ${appMutedSurface}`}>
+      <p className="text-xs text-slate-400">{label}</p>
+      <p className="mt-1 font-semibold text-slate-100">{value}</p>
     </div>
   );
 }

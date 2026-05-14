@@ -5,6 +5,7 @@ import {
   searchAssets,
 } from "../data/assetRegistry";
 import type { AssetMetadata, AssetType, Holding } from "../types/portfolio";
+import { AppButton, AppCard, appInput, appMutedSurface, FieldShell, SectionHeader } from "./ui";
 
 type HoldingFormProps = {
   editingHolding?: Holding | null;
@@ -101,7 +102,7 @@ export function HoldingForm({
     const avgCost = form.avgCost.trim() === "" ? undefined : Number(form.avgCost);
 
     if (!selectedAsset || !form.symbol) {
-      setError("請先從搜尋結果選擇代號，不會自動建立不完整持倉。");
+      setError("請先從搜尋結果選擇一個資產，避免建立不完整持倉。");
       return;
     }
 
@@ -132,138 +133,128 @@ export function HoldingForm({
   }
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="rounded-md border border-[#d8e0e3] bg-white p-5"
-    >
-      <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
-        <div>
-          <h2 className="text-lg font-semibold">
-            {editingHolding ? "編輯持倉" : "新增持倉"}
-          </h2>
-          <p className="mt-1 text-sm text-[#607078]">
-            名稱、市場、幣別與目前價格會由資產資料與價格來源帶入。
-          </p>
-        </div>
-        {editingHolding ? (
-          <button
-            type="button"
-            onClick={onCancelEdit}
-            className="rounded-md border border-[#b6c5c9] px-3 py-2 text-sm text-[#314249] hover:bg-[#eef3f4]"
-          >
-            取消編輯
-          </button>
-        ) : null}
-      </div>
+    <AppCard>
+      <form onSubmit={handleSubmit}>
+        <SectionHeader
+          title={editingHolding ? "編輯持倉" : "新增持倉"}
+          description="只輸入資產類型、代號、數量與選填平均成本；名稱、市場、幣別與價格由資料來源帶入。"
+          action={
+            editingHolding ? (
+              <AppButton variant="secondary" onClick={onCancelEdit}>
+                取消編輯
+              </AppButton>
+            ) : null
+          }
+        />
 
-      <div className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-        <Field label="資產類型">
-          <select
-            value={form.type}
-            onChange={(event) => handleTypeChange(event.target.value as AssetType)}
-            className="w-full rounded-md border border-[#b6c5c9] bg-white px-3 py-2"
-          >
-            <option value="taiwan_stock">台股</option>
-            <option value="taiwan_etf">台股 ETF</option>
-            <option value="crypto">Crypto</option>
-            <option value="cash">Cash</option>
-            <option value="custom">Custom</option>
-          </select>
-        </Field>
+        <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+          <Field label="資產類型">
+            <select
+              value={form.type}
+              onChange={(event) => handleTypeChange(event.target.value as AssetType)}
+              className={`w-full ${appInput}`}
+            >
+              <option value="taiwan_stock">台股</option>
+              <option value="taiwan_etf">台股 ETF</option>
+              <option value="crypto">Crypto</option>
+              <option value="cash">Cash</option>
+              <option value="custom">Custom</option>
+            </select>
+          </Field>
 
-        <div className="relative md:col-span-1 xl:col-span-2">
-          <Field label="代號搜尋 / 選擇">
+          <div className="relative md:col-span-1 xl:col-span-2">
+            <Field label="代號搜尋 / 選擇">
+              <input
+                value={form.query}
+                onChange={(event) => {
+                  setForm((current) => ({
+                    ...current,
+                    query: event.target.value,
+                    symbol: "",
+                  }));
+                  setSelectedAsset(null);
+                }}
+                placeholder="搜尋代號或名稱，例如 0050、2330、BTC"
+                className={`w-full ${appInput}`}
+              />
+            </Field>
+            {form.query && suggestions.length > 0 && !selectedAsset ? (
+              <div className="absolute z-10 mt-2 max-h-64 w-full overflow-y-auto rounded-2xl border border-white/10 bg-[#111a35] shadow-2xl shadow-black/40">
+                {suggestions.map((asset) => (
+                  <button
+                    key={`${asset.type}-${asset.symbol}`}
+                    type="button"
+                    onClick={() => handleSelectAsset(asset)}
+                    className="block w-full px-4 py-3 text-left text-sm text-slate-100 hover:bg-white/[0.06]"
+                  >
+                    <span className="font-semibold">{asset.symbol}</span>
+                    <span className="text-slate-400"> - {asset.name}</span>
+                    <span className="ml-2 text-xs text-violet-200">
+                      {assetTypeLabels[asset.type]}
+                    </span>
+                  </button>
+                ))}
+              </div>
+            ) : null}
+          </div>
+
+          <Field label={quantityLabel}>
             <input
-              value={form.query}
-              onChange={(event) => {
-                setForm((current) => ({
-                  ...current,
-                  query: event.target.value,
-                  symbol: "",
-                }));
-                setSelectedAsset(null);
-              }}
-              placeholder="搜尋代號或名稱，例如 00、2330、BTC"
-              className="w-full rounded-md border border-[#b6c5c9] px-3 py-2"
+              type="number"
+              min="0"
+              step="any"
+              value={form.quantity}
+              onChange={(event) =>
+                setForm((current) => ({ ...current, quantity: event.target.value }))
+              }
+              className={`w-full ${appInput}`}
             />
           </Field>
-          {form.query && suggestions.length > 0 && !selectedAsset ? (
-            <div className="absolute z-10 mt-1 max-h-64 w-full overflow-y-auto rounded-md border border-[#b6c5c9] bg-white shadow-lg">
-              {suggestions.map((asset) => (
-                <button
-                  key={`${asset.type}-${asset.symbol}`}
-                  type="button"
-                  onClick={() => handleSelectAsset(asset)}
-                  className="block w-full px-3 py-2 text-left text-sm hover:bg-[#eef3f4]"
-                >
-                  <span className="font-semibold">{asset.symbol}</span>
-                  <span className="text-[#607078]"> - {asset.name}</span>
-                  <span className="ml-2 text-xs text-[#607078]">
-                    {assetTypeLabels[asset.type]}
-                  </span>
-                </button>
-              ))}
-            </div>
-          ) : null}
+
+          <Field label="平均成本（選填）">
+            <input
+              type="number"
+              min="0"
+              step="any"
+              value={form.avgCost}
+              onChange={(event) =>
+                setForm((current) => ({ ...current, avgCost: event.target.value }))
+              }
+              className={`w-full ${appInput}`}
+            />
+          </Field>
         </div>
 
-        <Field label={quantityLabel}>
-          <input
-            type="number"
-            min="0"
-            step="any"
-            value={form.quantity}
+        {selectedAsset ? (
+          <div className={`mt-4 rounded-2xl p-3 text-sm text-slate-300 ${appMutedSurface}`}>
+            已選擇 {selectedAsset.symbol} - {selectedAsset.name}，
+            {selectedAsset.market} / {selectedAsset.currency} / 價格來源：
+            {selectedAsset.priceSource}
+          </div>
+        ) : null}
+
+        <Field label="備註">
+          <textarea
+            value={form.note}
             onChange={(event) =>
-              setForm((current) => ({ ...current, quantity: event.target.value }))
+              setForm((current) => ({ ...current, note: event.target.value }))
             }
-            className="w-full rounded-md border border-[#b6c5c9] px-3 py-2"
+            rows={2}
+            className={`w-full ${appInput}`}
           />
         </Field>
 
-        <Field label="平均成本（選填）">
-          <input
-            type="number"
-            min="0"
-            step="any"
-            value={form.avgCost}
-            onChange={(event) =>
-              setForm((current) => ({ ...current, avgCost: event.target.value }))
-            }
-            className="w-full rounded-md border border-[#b6c5c9] px-3 py-2"
-          />
-        </Field>
-      </div>
+        {error ? (
+          <p className="mt-3 rounded-2xl border border-rose-300/25 bg-rose-400/10 p-3 text-sm text-rose-200">
+            {error}
+          </p>
+        ) : null}
 
-      {selectedAsset ? (
-        <div className="mt-4 rounded-md bg-[#eef3f4] p-3 text-sm text-[#314249]">
-          已選擇：{selectedAsset.symbol} - {selectedAsset.name}，
-          {selectedAsset.market} / {selectedAsset.currency} / 價格來源：
-          {selectedAsset.priceSource}
+        <div className="mt-4 flex justify-end">
+          <AppButton type="submit">{submitLabel}</AppButton>
         </div>
-      ) : null}
-
-      <Field label="備註">
-        <textarea
-          value={form.note}
-          onChange={(event) =>
-            setForm((current) => ({ ...current, note: event.target.value }))
-          }
-          rows={2}
-          className="mt-2 w-full rounded-md border border-[#b6c5c9] px-3 py-2"
-        />
-      </Field>
-
-      {error ? <p className="mt-3 text-sm text-[#b42318]">{error}</p> : null}
-
-      <div className="mt-4 flex justify-end">
-        <button
-          type="submit"
-          className="rounded-md bg-[#1f6f78] px-4 py-2 text-sm font-medium text-white hover:bg-[#185a61]"
-        >
-          {submitLabel}
-        </button>
-      </div>
-    </form>
+      </form>
+    </AppCard>
   );
 }
 
@@ -275,9 +266,9 @@ function Field({
   children: React.ReactNode;
 }) {
   return (
-    <label className="block text-sm font-medium text-[#314249]">
+    <label className="block text-sm font-medium text-slate-300">
       {label}
-      <span className="mt-2 block">{children}</span>
+      <FieldShell className="mt-2">{children}</FieldShell>
     </label>
   );
 }

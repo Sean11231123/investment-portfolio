@@ -9,20 +9,15 @@ import {
 import type { Currency, ETFExposureRow, FxRates } from "../types/portfolio";
 import { formatDisplayMoney, formatPercent } from "../utils/format";
 import { groupSmallExposures } from "../utils/etfLookthrough";
-
-const chartColors = [
-  "#1f6f78",
-  "#d88c3a",
-  "#6b7f3f",
-  "#8a5a83",
-  "#3e668d",
-  "#9a6b3f",
-  "#4d8061",
-  "#b04f4a",
-  "#6d7488",
-  "#2f7566",
-  "#9c8f63",
-];
+import {
+  AppCard,
+  EmptyState,
+  appTableHeader,
+  appTableRow,
+  chartColors,
+  chartTextColor,
+  chartTooltipStyle,
+} from "./ui";
 
 type ETFExposureTableProps = {
   title: string;
@@ -44,20 +39,15 @@ export function ETFExposureTable({
   percentageLabel = "投組占比",
 }: ETFExposureTableProps) {
   if (rows.length === 0) {
-    return (
-      <div className="rounded-md border border-dashed border-[#b6c5c9] bg-white p-8 text-center">
-        <h2 className="text-lg font-semibold">{emptyTitle}</h2>
-        <p className="mt-2 text-sm text-[#607078]">{emptyMessage}</p>
-      </div>
-    );
+    return <EmptyState title={emptyTitle} message={emptyMessage} />;
   }
 
   const chartRows = groupSmallExposures(rows, 10);
 
   return (
     <section className="space-y-4">
-      <div className="rounded-md border border-[#d8e0e3] bg-white p-5">
-        <h2 className="text-lg font-semibold">{title}</h2>
+      <AppCard>
+        <h2 className="text-lg font-semibold text-slate-50">{title}</h2>
         <div className="mt-4 h-80">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
@@ -65,9 +55,11 @@ export function ETFExposureTable({
                 data={chartRows}
                 dataKey="portfolioPercentage"
                 nameKey="name"
-                innerRadius={72}
-                outerRadius={112}
-                paddingAngle={2}
+                innerRadius={76}
+                outerRadius={114}
+                paddingAngle={3}
+                stroke="rgba(15,23,42,0.9)"
+                strokeWidth={3}
               >
                 {chartRows.map((row, index) => (
                   <Cell
@@ -77,6 +69,7 @@ export function ETFExposureTable({
                 ))}
               </Pie>
               <Tooltip
+                contentStyle={chartTooltipStyle}
                 formatter={(_value, _name, item) => {
                   const row = item.payload as ETFExposureRow;
                   return [
@@ -89,16 +82,16 @@ export function ETFExposureTable({
                   ];
                 }}
               />
-              <Legend />
+              <Legend wrapperStyle={{ color: chartTextColor, fontSize: 12 }} />
             </PieChart>
           </ResponsiveContainer>
         </div>
-      </div>
+      </AppCard>
 
-      <div className="overflow-hidden rounded-md border border-[#d8e0e3] bg-white">
+      <AppCard padded={false} className="overflow-hidden">
         <div className="overflow-x-auto">
-          <table className="min-w-full divide-y divide-[#d8e0e3] text-sm">
-            <thead className="bg-[#eef3f4] text-left text-[#314249]">
+          <table className="min-w-full text-sm">
+            <thead className={appTableHeader}>
               <tr>
                 <Th>標的</Th>
                 <Th>名稱</Th>
@@ -106,9 +99,9 @@ export function ETFExposureTable({
                 <Th>金額</Th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-[#edf1f2]">
+            <tbody>
               {rows.map((row) => (
-                <tr key={row.symbol} className="hover:bg-[#fafbfb]">
+                <tr key={row.symbol} className={appTableRow}>
                   <Td strong>{row.symbol}</Td>
                   <Td>{row.name}</Td>
                   <Td>{formatPercent(row.portfolioPercentage)}</Td>
@@ -124,7 +117,7 @@ export function ETFExposureTable({
             </tbody>
           </table>
         </div>
-      </div>
+      </AppCard>
     </section>
   );
 }
@@ -141,11 +134,7 @@ function Td({
   strong?: boolean;
 }) {
   return (
-    <td
-      className={`whitespace-nowrap px-4 py-3 ${
-        strong ? "font-semibold text-[#172026]" : "text-[#314249]"
-      }`}
-    >
+    <td className={`whitespace-nowrap px-4 py-3 ${strong ? "font-semibold text-white" : "text-slate-300"}`}>
       {children}
     </td>
   );

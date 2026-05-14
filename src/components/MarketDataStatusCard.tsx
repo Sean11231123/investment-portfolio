@@ -5,6 +5,7 @@ import type {
 } from "../types/portfolio";
 import { formatDateTime, formatNumber } from "../utils/format";
 import { getMarketDataStatuses } from "../utils/marketDataStatus";
+import { AppBadge, AppCard, appMutedSurface } from "./ui";
 
 type MarketDataStatusCardProps = {
   holdingValues: HoldingValue[];
@@ -18,11 +19,11 @@ export function MarketDataStatusCard({
   const statuses = getMarketDataStatuses(holdingValues, fxRates);
 
   return (
-    <section className="rounded-md border border-[#d8e0e3] bg-white p-5">
+    <AppCard>
       <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-        <h2 className="text-base font-semibold text-[#172026]">市場資料狀態</h2>
-        <p className="text-xs text-[#607078]">
-          台股資料可能因週末或休市而看起來較舊。
+        <h2 className="text-base font-semibold text-slate-50">市場資料狀態</h2>
+        <p className="text-xs text-slate-400">
+          顯示價格、匯率與快取資料是否完整。
         </p>
       </div>
 
@@ -31,7 +32,7 @@ export function MarketDataStatusCard({
           <StatusItem key={status.category} status={status} fxRates={fxRates} />
         ))}
       </div>
-    </section>
+    </AppCard>
   );
 }
 
@@ -43,21 +44,17 @@ function StatusItem({
   fxRates: FxRates;
 }) {
   return (
-    <div className="rounded-md border border-[#edf1f2] bg-[#fafbfb] p-4">
+    <div className={`rounded-2xl p-4 ${appMutedSurface}`}>
       <div className="flex items-center justify-between gap-3">
-        <h3 className="font-medium text-[#172026]">{status.label}</h3>
-        <span
-          className={`rounded-full px-2 py-1 text-xs font-medium ${getStatusClass(
-            status.status,
-          )}`}
-        >
+        <h3 className="font-medium text-slate-100">{status.label}</h3>
+        <AppBadge tone={getStatusTone(status.status)}>
           {getStatusLabel(status.status)}
-        </span>
+        </AppBadge>
       </div>
 
-      <p className="mt-3 text-sm text-[#314249]">{status.message}</p>
+      <p className="mt-3 text-sm leading-6 text-slate-300">{status.message}</p>
 
-      <dl className="mt-3 space-y-1 text-xs text-[#607078]">
+      <dl className="mt-3 space-y-1 text-xs text-slate-400">
         {status.source ? <Info label="來源" value={getSourceLabel(status.source)} /> : null}
         {status.tradeDate ? <Info label="交易日" value={status.tradeDate} /> : null}
         {status.generatedAt ? (
@@ -81,7 +78,7 @@ function Info({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex justify-between gap-3">
       <dt>{label}</dt>
-      <dd className="text-right text-[#314249]">{value}</dd>
+      <dd className="text-right text-slate-300">{value}</dd>
     </div>
   );
 }
@@ -98,11 +95,11 @@ function getStatusLabel(status: MarketDataFreshness["status"]) {
   return labels[status];
 }
 
-function getStatusClass(status: MarketDataFreshness["status"]) {
-  if (status === "fresh") return "bg-[#e8f5ee] text-[#2c6b45]";
-  if (status === "cached" || status === "stale") return "bg-[#fff4d6] text-[#7a5a00]";
-  if (status === "partial") return "bg-[#fff1ef] text-[#a43f32]";
-  return "bg-[#f4e4e1] text-[#8f2d22]";
+function getStatusTone(status: MarketDataFreshness["status"]) {
+  if (status === "fresh") return "success";
+  if (status === "cached" || status === "stale") return "warning";
+  if (status === "partial") return "danger";
+  return "danger";
 }
 
 function getSourceLabel(source: string) {

@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { HoldingForm } from "../components/HoldingForm";
 import { HoldingsTable } from "../components/HoldingsTable";
 import { ImportExportPanel } from "../components/ImportExportPanel";
+import { AppButton } from "../components/ui";
 import type {
   FxRates,
   Holding,
@@ -60,14 +61,9 @@ export function HoldingsPage({
         onCancelEdit={() => setEditingHolding(null)}
       />
       <div className="flex justify-end">
-        <button
-          type="button"
-          onClick={onRefreshPrices}
-          disabled={priceRefreshing}
-          className="rounded-md bg-[#1f6f78] px-4 py-2 text-sm font-medium text-white hover:bg-[#185a61] disabled:opacity-60"
-        >
+        <AppButton onClick={onRefreshPrices} disabled={priceRefreshing}>
           {priceRefreshing ? "更新中" : "更新價格"}
-        </button>
+        </AppButton>
       </div>
       <ImportExportPanel
         holdings={holdings}

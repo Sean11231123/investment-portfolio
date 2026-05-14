@@ -8,6 +8,7 @@ import {
   parseBackupPreview,
 } from "../utils/backup";
 import { formatDateTime } from "../utils/format";
+import { AppButton, AppCard, appMutedSurface, SectionHeader } from "./ui";
 
 type ImportExportPanelProps = {
   holdings: Holding[];
@@ -155,40 +156,21 @@ export function ImportExportPanel({
   }
 
   return (
-    <section className="rounded-md border border-[#d8e0e3] bg-white p-5">
-      <h2 className="text-lg font-semibold">{title}</h2>
-      <p className="mt-1 text-sm text-[#607078]">{description}</p>
+    <AppCard>
+      <SectionHeader title={title} description={description} />
       <div className="mt-4 flex flex-wrap gap-2">
-        <button
-          type="button"
-          onClick={handleExport}
-          className="rounded-md bg-[#1f6f78] px-4 py-2 text-sm font-medium text-white hover:bg-[#185a61]"
-        >
-          下載備份
-        </button>
-        <button
-          type="button"
-          onClick={() => fileInputRef.current?.click()}
-          className="rounded-md border border-[#b6c5c9] px-4 py-2 text-sm font-medium hover:bg-[#eef3f4]"
-        >
+        <AppButton onClick={handleExport}>下載備份</AppButton>
+        <AppButton variant="secondary" onClick={() => fileInputRef.current?.click()}>
           選擇備份檔
-        </button>
+        </AppButton>
         {showDemoAndClear ? (
           <>
-            <button
-              type="button"
-              onClick={handleLoadDemo}
-              className="rounded-md border border-[#b6c5c9] px-4 py-2 text-sm font-medium hover:bg-[#eef3f4]"
-            >
+            <AppButton variant="secondary" onClick={handleLoadDemo}>
               載入示範投組
-            </button>
-            <button
-              type="button"
-              onClick={handleClearAll}
-              className="rounded-md border border-[#d9aaa4] px-4 py-2 text-sm font-medium text-[#a43f32] hover:bg-[#fff1ef]"
-            >
+            </AppButton>
+            <AppButton variant="danger" onClick={handleClearAll}>
               清除全部
-            </button>
+            </AppButton>
           </>
         ) : null}
       </div>
@@ -208,9 +190,17 @@ export function ImportExportPanel({
         />
       ) : null}
 
-      {message ? <p className="mt-3 text-sm text-[#2c6b45]">{message}</p> : null}
-      {error ? <p className="mt-3 text-sm text-[#b42318]">{error}</p> : null}
-    </section>
+      {message ? (
+        <p className="mt-3 rounded-2xl border border-emerald-300/25 bg-emerald-400/10 p-3 text-sm text-emerald-200">
+          {message}
+        </p>
+      ) : null}
+      {error ? (
+        <p className="mt-3 rounded-2xl border border-rose-300/25 bg-rose-400/10 p-3 text-sm text-rose-200">
+          {error}
+        </p>
+      ) : null}
+    </AppCard>
   );
 }
 
@@ -224,9 +214,9 @@ function ImportPreview({
   onCancel: () => void;
 }) {
   return (
-    <div className="mt-4 rounded-md border border-[#e5d7a6] bg-[#fffaf0] p-4">
-      <h3 className="font-semibold text-[#172026]">匯入預覽</h3>
-      <dl className="mt-3 grid gap-2 text-sm text-[#314249] md:grid-cols-2">
+    <div className={`mt-4 rounded-2xl p-4 ${appMutedSurface}`}>
+      <h3 className="font-semibold text-slate-50">匯入預覽</h3>
+      <dl className="mt-3 grid gap-2 text-sm text-slate-300 md:grid-cols-2">
         <Info
           label="格式"
           value={preview.detectedFormat === "v2" ? "v2 備份" : "v1 匯入並遷移"}
@@ -235,30 +225,20 @@ function ImportPreview({
         <Info label="持倉數量" value={`${preview.holdingCount}`} />
         <Info label="包含設定" value={preview.includesSettings ? "是" : "否"} />
       </dl>
-      <div className="mt-3 text-sm text-[#314249]">
-        <p className="font-medium">包含代號</p>
-        <p className="mt-1 break-words text-[#607078]">
+      <div className="mt-3 text-sm text-slate-300">
+        <p className="font-medium text-slate-200">包含代號</p>
+        <p className="mt-1 break-words text-slate-400">
           {preview.symbols.length > 0 ? preview.symbols.join(", ") : "無"}
         </p>
       </div>
-      <p className="mt-3 rounded-md border border-[#d9aaa4] bg-white p-3 text-sm text-[#a43f32]">
+      <p className="mt-3 rounded-2xl border border-amber-300/25 bg-amber-400/10 p-3 text-sm text-amber-200">
         匯入後會取代目前持倉。
       </p>
       <div className="mt-4 flex flex-wrap gap-2">
-        <button
-          type="button"
-          onClick={onConfirm}
-          className="rounded-md bg-[#1f6f78] px-4 py-2 text-sm font-medium text-white hover:bg-[#185a61]"
-        >
-          確認匯入
-        </button>
-        <button
-          type="button"
-          onClick={onCancel}
-          className="rounded-md border border-[#b6c5c9] px-4 py-2 text-sm font-medium hover:bg-[#eef3f4]"
-        >
+        <AppButton onClick={onConfirm}>確認匯入</AppButton>
+        <AppButton variant="secondary" onClick={onCancel}>
           取消
-        </button>
+        </AppButton>
       </div>
     </div>
   );
@@ -267,8 +247,8 @@ function ImportPreview({
 function Info({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="text-xs text-[#607078]">{label}</dt>
-      <dd className="font-medium">{value}</dd>
+      <dt className="text-xs text-slate-400">{label}</dt>
+      <dd className="font-medium text-slate-100">{value}</dd>
     </div>
   );
 }

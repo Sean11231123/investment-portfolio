@@ -17,27 +17,33 @@ const navItems: Array<{ key: PageKey; label: string }> = [
 
 export function Layout({ activePage, onNavigate, children }: LayoutProps) {
   return (
-    <div className="min-h-screen bg-[#f5f7f8] text-[#172026]">
-      <header className="border-b border-[#d8e0e3] bg-white">
+    <div className="min-h-screen text-slate-100">
+      <header className="sticky top-0 z-30 border-b border-white/10 bg-[#050816]/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-4 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <div>
-            <h1 className="text-xl font-semibold tracking-normal text-[#172026]">
+            <p className="text-xs font-semibold uppercase tracking-[0.26em] text-violet-300">
+              Portfolio Console
+            </p>
+            <h1 className="mt-1 text-2xl font-semibold tracking-normal text-white">
               Modular Investment Portfolio
             </h1>
-            <p className="mt-1 text-sm text-[#607078]">
-              瀏覽器本機儲存，線上價格與匯率快取，ETF 成分仍為手動資料
+            <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-400">
+              本機儲存投組資料，搭配線上價格、匯率快取與手動 ETF 成分資料。
             </p>
           </div>
-          <nav className="flex flex-wrap gap-2" aria-label="主要導覽">
+          <nav
+            className="flex flex-wrap gap-2 rounded-full border border-white/10 bg-white/[0.04] p-1 shadow-2xl shadow-black/20"
+            aria-label="主要導覽"
+          >
             {navItems.map((item) => (
               <button
                 key={item.key}
                 type="button"
                 onClick={() => onNavigate(item.key)}
-                className={`rounded-md px-4 py-2 text-sm font-medium transition ${
+                className={`rounded-full px-4 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-violet-400/70 ${
                   activePage === item.key
-                    ? "bg-[#1f6f78] text-white"
-                    : "bg-[#eef3f4] text-[#314249] hover:bg-[#dfe8ea]"
+                    ? "bg-gradient-to-r from-violet-500 to-indigo-500 text-white shadow-lg shadow-violet-950/40"
+                    : "text-slate-300 hover:bg-white/[0.08] hover:text-white"
                 }`}
               >
                 {item.label}

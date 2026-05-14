@@ -13,8 +13,14 @@ import {
 } from "recharts";
 import type { AllocationRow, Currency, FxRates, HoldingValue } from "../types/portfolio";
 import { formatDisplayMoney } from "../utils/format";
-
-const chartColors = ["#1f6f78", "#d88c3a", "#6b7f3f", "#8a5a83", "#3e668d"];
+import {
+  AppCard,
+  EmptyState,
+  chartColors,
+  chartGridColor,
+  chartTextColor,
+  chartTooltipStyle,
+} from "./ui";
 
 type AllocationChartsProps = {
   assetAllocation: AllocationRow[];
@@ -37,12 +43,10 @@ export function AllocationCharts({
     topHoldings.length === 0
   ) {
     return (
-      <section className="rounded-md border border-dashed border-[#b6c5c9] bg-white p-8 text-center">
-        <h2 className="text-lg font-semibold">圖表會在取得價格後顯示</h2>
-        <p className="mt-2 text-sm text-[#607078]">
-          價格 unavailable 的持倉不會被靜默算成 0。
-        </p>
-      </section>
+      <EmptyState
+        title="尚無可繪製的估值資料"
+        message="價格暫時無法取得的資產不會被當成 0，等價格可用後圖表會自動呈現。"
+      />
     );
   }
 
@@ -67,18 +71,24 @@ export function AllocationCharts({
           fxRates={fxRates}
         />
       </ChartPanel>
-      <ChartPanel title="前五大持倉">
+      <ChartPanel title="前十大持倉">
         <ResponsiveContainer width="100%" height={280}>
           <BarChart data={topHoldingChartData}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#d8e0e3" />
-            <XAxis dataKey="name" />
-            <YAxis tickFormatter={(value) => `${Number(value) / 1000}k`} />
+            <CartesianGrid strokeDasharray="3 3" stroke={chartGridColor} />
+            <XAxis dataKey="name" tick={{ fill: chartTextColor, fontSize: 12 }} axisLine={false} tickLine={false} />
+            <YAxis
+              tickFormatter={(value) => `${Number(value) / 1000}k`}
+              tick={{ fill: chartTextColor, fontSize: 12 }}
+              axisLine={false}
+              tickLine={false}
+            />
             <Tooltip
+              contentStyle={chartTooltipStyle}
               formatter={(value) =>
                 formatDisplayMoney(Number(value), displayCurrency, fxRates)
               }
             />
-            <Bar dataKey="valueTWD" name={`市值 ${displayCurrency}`} radius={[4, 4, 0, 0]}>
+            <Bar dataKey="valueTWD" name={`金額 ${displayCurrency}`} radius={[10, 10, 0, 0]}>
               {topHoldingChartData.map((entry, index) => (
                 <Cell
                   key={entry.name}
@@ -109,9 +119,11 @@ function DonutAllocationChart({
           data={data}
           dataKey="valueTWD"
           nameKey="label"
-          innerRadius={58}
-          outerRadius={92}
-          paddingAngle={2}
+          innerRadius={64}
+          outerRadius={96}
+          paddingAngle={3}
+          stroke="rgba(15,23,42,0.9)"
+          strokeWidth={3}
         >
           {data.map((entry, index) => (
             <Cell
@@ -121,11 +133,12 @@ function DonutAllocationChart({
           ))}
         </Pie>
         <Tooltip
+          contentStyle={chartTooltipStyle}
           formatter={(value) =>
             formatDisplayMoney(Number(value), displayCurrency, fxRates)
           }
         />
-        <Legend />
+        <Legend wrapperStyle={{ color: chartTextColor, fontSize: 12 }} />
       </PieChart>
     </ResponsiveContainer>
   );
@@ -139,9 +152,9 @@ function ChartPanel({
   children: React.ReactNode;
 }) {
   return (
-    <div className="rounded-md border border-[#d8e0e3] bg-white p-5">
-      <h2 className="text-lg font-semibold">{title}</h2>
+    <AppCard>
+      <h2 className="text-lg font-semibold text-slate-50">{title}</h2>
       <div className="mt-4">{children}</div>
-    </div>
+    </AppCard>
   );
 }

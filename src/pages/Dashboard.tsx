@@ -3,6 +3,7 @@ import { CurrencyAllocationTable } from "../components/CurrencyAllocationTable";
 import { ETFExposureTable } from "../components/ETFExposureTable";
 import { MarketDataStatusCard } from "../components/MarketDataStatusCard";
 import { SummaryCards } from "../components/SummaryCards";
+import { AppButton, EmptyState } from "../components/ui";
 import { etfComponents } from "../data/etfComponents";
 import type {
   FxRates,
@@ -71,7 +72,7 @@ export function Dashboard({
       />
 
       {valuation.isPartial ? (
-        <section className="rounded-md border border-[#e5d7a6] bg-[#fffaf0] p-4 text-sm text-[#6f5a19]">
+        <section className="rounded-3xl border border-amber-300/25 bg-amber-400/10 p-4 text-sm text-amber-200">
           部分資產缺少價格，因此總資產與投組占比可能不完整。
         </section>
       ) : null}
@@ -82,23 +83,16 @@ export function Dashboard({
       />
 
       <div className="flex justify-end">
-        <button
-          type="button"
-          onClick={onRefreshPrices}
-          disabled={priceRefreshing}
-          className="rounded-md bg-[#1f6f78] px-4 py-2 text-sm font-medium text-white hover:bg-[#185a61] disabled:opacity-60"
-        >
+        <AppButton onClick={onRefreshPrices} disabled={priceRefreshing}>
           {priceRefreshing ? "更新中..." : "更新價格"}
-        </button>
+        </AppButton>
       </div>
 
       {holdings.length === 0 ? (
-        <section className="rounded-md border border-dashed border-[#b6c5c9] bg-white p-8 text-center">
-          <h2 className="text-lg font-semibold">投組目前是空的</h2>
-          <p className="mt-2 text-sm text-[#607078]">
-            到持倉頁新增資產後，這裡會顯示總資產、配置圖表與 ETF 展開摘要。
-          </p>
-        </section>
+        <EmptyState
+          title="投組目前是空的"
+          message="到持倉頁新增資產後，這裡會顯示總資產、配置圖表與 ETF 展開摘要。"
+        />
       ) : null}
 
       <AllocationCharts
@@ -115,7 +109,7 @@ export function Dashboard({
         fxRates={fxRates}
       />
 
-      <section className="rounded-md border border-[#e5d7a6] bg-[#fffaf0] p-4 text-sm text-[#6f5a19]">
+      <section className="rounded-3xl border border-amber-300/25 bg-amber-400/10 p-4 text-sm text-amber-200">
         ETF 成分資料為手動/範例資料，使用前請由使用者自行更新。
       </section>
 
