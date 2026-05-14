@@ -9,9 +9,8 @@ import type {
   PriceQuote,
 } from "../types/portfolio";
 import {
-  calculateETFExposure,
-  calculateSingleETFExposure,
-  getHeldEtfsWithComponents,
+  calculateETFOnlyAggregateExposure,
+  calculateSingleETFComposition,
 } from "../utils/etfLookthrough";
 import { getPortfolioValuation } from "../utils/portfolioCalculations";
 
@@ -32,13 +31,14 @@ export function ETFExposurePage({
     () => getPortfolioValuation(holdings, fxRates, priceCache),
     [holdings, fxRates, priceCache],
   );
-  const aggregateRows = calculateETFExposure(valuation.holdingValues);
-  const heldEtfs = getHeldEtfsWithComponents(valuation.holdingValues);
+  const aggregateRows = calculateETFOnlyAggregateExposure(
+    valuation.holdingValues,
+  );
   const heldEtfRows = getHeldTaiwanEtfs(valuation.holdingValues);
   const [selectedEtf, setSelectedEtf] = useState("");
-  const selectedSymbol = selectedEtf || heldEtfs[0]?.symbol || "";
+  const selectedSymbol = selectedEtf || heldEtfRows[0]?.metadata.symbol || "";
   const singleRows = selectedSymbol
-    ? calculateSingleETFExposure(
+    ? calculateSingleETFComposition(
         holdings,
         valuation.holdingValues,
         selectedSymbol,
@@ -52,36 +52,37 @@ export function ETFExposurePage({
 
       {valuation.isPartial ? (
         <section className="rounded-md border border-[#e5d7a6] bg-[#fffaf0] p-4 text-sm text-[#6f5a19]">
-          部分 ETF 或成分估值缺少價格，ETF 展開可能只包含可估值的部位。
+          部分資產缺少價格，因此 ETF 展開可能只包含可估值的 ETF 部位。
         </section>
       ) : null}
 
       <ETFExposureTable
-        title="ETF 展開後投組占比"
+        title="ETF 持倉展開占比"
         rows={aggregateRows}
         displayCurrency={settings.displayCurrency}
         fxRates={fxRates}
         emptyTitle="尚無 ETF 展開資料"
-        emptyMessage="目前沒有可展開的 ETF 持倉，或相關 ETF 價格暫時無法取得。"
+        emptyMessage="目前沒有可估值的 ETF 持倉，或相關 ETF 價格暫時無法取得。"
+        percentageLabel="占 ETF 持倉"
       />
 
       <section className="rounded-md border border-[#d8e0e3] bg-white p-5">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h2 className="text-lg font-semibold">單一 ETF 投組占比</h2>
+            <h2 className="text-lg font-semibold">單一 ETF 成分占比</h2>
             <p className="mt-1 text-sm text-[#607078]">
-              選擇目前持有且有成分資料的 ETF，查看它對整體投組的展開占比。
+              選擇目前持有的 ETF，查看該 ETF 內部成分權重。
             </p>
           </div>
-          {heldEtfs.length > 0 ? (
+          {heldEtfRows.length > 0 ? (
             <select
               value={selectedSymbol}
               onChange={(event) => setSelectedEtf(event.target.value)}
               className="rounded-md border border-[#b6c5c9] bg-white px-3 py-2 text-sm"
             >
-              {heldEtfs.map((etf) => (
-                <option key={etf.symbol} value={etf.symbol}>
-                  {etf.symbol} - {etf.name}
+              {heldEtfRows.map((row) => (
+                <option key={row.metadata.symbol} value={row.metadata.symbol}>
+                  {row.metadata.symbol} - {row.metadata.name}
                 </option>
               ))}
             </select>
@@ -92,8 +93,8 @@ export function ETFExposurePage({
       <ETFExposureTable
         title={
           selectedSymbol
-            ? `單一 ETF 投組占比：${selectedSymbol}`
-            : "單一 ETF 投組占比"
+            ? `單一 ETF 成分占比：${selectedSymbol}`
+            : "單一 ETF 成分占比"
         }
         rows={singleRows}
         displayCurrency={settings.displayCurrency}
@@ -102,8 +103,9 @@ export function ETFExposurePage({
         emptyMessage={
           selectedSymbol && !etfComponents[selectedSymbol]
             ? "此 ETF 尚無成分資料，暫時無法展開。"
-            : "請先持有至少一檔有成分資料的 ETF。"
+            : "請先持有至少一檔 ETF。"
         }
+        percentageLabel="占此 ETF"
       />
     </div>
   );
@@ -166,8 +168,8 @@ function ETFComponentStatusSection({
                     value={`${data.componentCount ?? data.components.length}`}
                   />
                   <Info
-                    label="總權重"
-                    value={`${(((data.totalWeight ?? 0) * 100)).toFixed(1)}%`}
+                    label="權重合計"
+                    value={`${((data.totalWeight ?? 0) * 100).toFixed(1)}%`}
                   />
                 </dl>
                 <p className="mt-3 text-xs text-[#607078]">

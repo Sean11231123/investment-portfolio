@@ -31,6 +31,7 @@ type ETFExposureTableProps = {
   fxRates: FxRates;
   emptyTitle: string;
   emptyMessage: string;
+  percentageLabel?: string;
 };
 
 export function ETFExposureTable({
@@ -40,6 +41,7 @@ export function ETFExposureTable({
   fxRates,
   emptyTitle,
   emptyMessage,
+  percentageLabel = "投組占比",
 }: ETFExposureTableProps) {
   if (rows.length === 0) {
     return (
@@ -100,8 +102,8 @@ export function ETFExposureTable({
               <tr>
                 <Th>標的</Th>
                 <Th>名稱</Th>
-                <Th>投組占比</Th>
-                <Th>總曝險金額</Th>
+                <Th>{percentageLabel}</Th>
+                <Th>金額</Th>
               </tr>
             </thead>
             <tbody className="divide-y divide-[#edf1f2]">

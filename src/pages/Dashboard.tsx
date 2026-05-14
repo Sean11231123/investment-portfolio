@@ -10,7 +10,7 @@ import type {
   PortfolioSettings,
   PriceQuote,
 } from "../types/portfolio";
-import { calculateETFExposure } from "../utils/etfLookthrough";
+import { calculateETFOnlyAggregateExposure } from "../utils/etfLookthrough";
 import {
   assetTypeLabels,
   getAllocationBy,
@@ -55,9 +55,9 @@ export function Dashboard({
     (row) => row.metadata.currency,
   );
   const topHoldings = getTopHoldings(valuation.holdingValues);
-  const etfExposureRows = calculateETFExposure(valuation.holdingValues)
-    .filter((row) => row.indirectExposureTWD > 0)
-    .slice(0, 10);
+  const etfExposureRows = calculateETFOnlyAggregateExposure(
+    valuation.holdingValues,
+  ).slice(0, 10);
 
   return (
     <div className="space-y-6">
@@ -96,7 +96,7 @@ export function Dashboard({
         <section className="rounded-md border border-dashed border-[#b6c5c9] bg-white p-8 text-center">
           <h2 className="text-lg font-semibold">投組目前是空的</h2>
           <p className="mt-2 text-sm text-[#607078]">
-            到持倉頁新增第一筆資產後，總覽會顯示估值、配置圖與市場資料狀態。
+            到持倉頁新增資產後，這裡會顯示總資產、配置圖表與 ETF 展開摘要。
           </p>
         </section>
       ) : null}
@@ -116,8 +116,7 @@ export function Dashboard({
       />
 
       <section className="rounded-md border border-[#e5d7a6] bg-[#fffaf0] p-4 text-sm text-[#6f5a19]">
-        ETF component data is sample/manual data and should be updated by the
-        user.
+        ETF 成分資料為手動/範例資料，使用前請由使用者自行更新。
       </section>
 
       <ETFExposureTable
@@ -126,7 +125,8 @@ export function Dashboard({
         displayCurrency={settings.displayCurrency}
         fxRates={fxRates}
         emptyTitle="尚無 ETF 展開資料"
-        emptyMessage="目前沒有可展開的 ETF 曝險，或相關 ETF 價格暫時無法取得。"
+        emptyMessage="目前沒有可估值的 ETF 持倉，或相關 ETF 價格暫時無法取得。"
+        percentageLabel="占 ETF 持倉"
       />
     </div>
   );
