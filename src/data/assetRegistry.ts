@@ -189,7 +189,7 @@ export const assetRegistry: AssetMetadata[] = [
     market: "US",
     currency: "USD",
     unitLabel: "股",
-    priceSource: "manual",
+    priceSource: "us_static",
     aliases: ["蘋果", "Apple"],
   },
   {
@@ -199,7 +199,7 @@ export const assetRegistry: AssetMetadata[] = [
     market: "US",
     currency: "USD",
     unitLabel: "股",
-    priceSource: "manual",
+    priceSource: "us_static",
     aliases: ["微軟", "Microsoft"],
   },
   {
@@ -209,7 +209,7 @@ export const assetRegistry: AssetMetadata[] = [
     market: "US",
     currency: "USD",
     unitLabel: "股",
-    priceSource: "manual",
+    priceSource: "us_static",
     aliases: ["輝達", "NVIDIA", "Nvidia"],
   },
   {
@@ -219,7 +219,7 @@ export const assetRegistry: AssetMetadata[] = [
     market: "US",
     currency: "USD",
     unitLabel: "股",
-    priceSource: "manual",
+    priceSource: "us_static",
     aliases: ["特斯拉", "Tesla"],
   },
   {
@@ -229,7 +229,7 @@ export const assetRegistry: AssetMetadata[] = [
     market: "US",
     currency: "USD",
     unitLabel: "股",
-    priceSource: "manual",
+    priceSource: "us_static",
     aliases: ["S&P 500", "標普500", "標普 500"],
   },
   {
@@ -239,7 +239,7 @@ export const assetRegistry: AssetMetadata[] = [
     market: "US",
     currency: "USD",
     unitLabel: "股",
-    priceSource: "manual",
+    priceSource: "us_static",
     aliases: ["S&P 500", "標普500", "標普 500"],
   },
   {
@@ -249,7 +249,7 @@ export const assetRegistry: AssetMetadata[] = [
     market: "US",
     currency: "USD",
     unitLabel: "股",
-    priceSource: "manual",
+    priceSource: "us_static",
     aliases: ["Nasdaq 100", "NASDAQ 100", "那斯達克100"],
   },
   {
@@ -259,7 +259,7 @@ export const assetRegistry: AssetMetadata[] = [
     market: "US",
     currency: "USD",
     unitLabel: "股",
-    priceSource: "manual",
+    priceSource: "us_static",
     aliases: ["全球股票", "全球股市"],
   },
   {
@@ -269,7 +269,7 @@ export const assetRegistry: AssetMetadata[] = [
     market: "US",
     currency: "USD",
     unitLabel: "股",
-    priceSource: "manual",
+    priceSource: "us_static",
     aliases: ["美股大盤", "美國全市場"],
   },
 ];

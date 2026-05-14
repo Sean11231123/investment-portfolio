@@ -34,6 +34,30 @@ type StaticTwPriceFile = {
   errors?: string[];
 };
 
+type StaticUsQuote = {
+  symbol: string;
+  name?: string;
+  price: number | null;
+  currency: Currency;
+  source: string;
+  tradeDate?: string | null;
+  lastUpdated?: string;
+  status: "ok" | "unavailable" | "error";
+  error?: string;
+  stooqSymbol?: string;
+};
+
+type StaticUsPriceFile = {
+  version: number;
+  market: "US";
+  source: string;
+  generatedAt: string;
+  tradeDate?: string | null;
+  currency: "USD";
+  quotes: Record<string, StaticUsQuote>;
+  errors?: string[];
+};
+
 export function loadCachedPrices(): PriceCache {
   const raw = localStorage.getItem(PRICE_CACHE_KEY);
   if (!raw) {
@@ -85,6 +109,7 @@ export async function refreshPrices(holdings: Holding[]): Promise<PriceCache> {
   await Promise.all([
     refreshCryptoPrices(metadataBySymbol, next),
     refreshStaticTaiwanPrices(metadataBySymbol, next),
+    refreshStaticUsPrices(metadataBySymbol, next),
   ]);
 
   savePriceCache(next);
@@ -120,9 +145,7 @@ export function getQuoteForHolding(
     unavailableQuote(
       metadata.symbol,
       metadata.priceSource,
-      metadata.priceSource === "coingecko"
-        ? "尚未取得 CoinGecko 價格。"
-        : "台股/ETF 靜態市場資料尚未取得，且未使用 CORS proxy 或爬蟲。",
+      getUnavailablePriceMessage(metadata),
     )
   );
 }
@@ -234,7 +257,63 @@ async function refreshStaticTaiwanPrices(
       next[asset.symbol] = fallbackQuote(
         asset,
         next,
-        `靜態台股/ETF 市場資料暫時無法取得：${getErrorMessage(error)}`,
+        `靜態台股 / ETF 市場資料暫時無法取得：${getErrorMessage(error)}`,
+      );
+    }
+  }
+}
+
+async function refreshStaticUsPrices(
+  metadata: AssetMetadata[],
+  next: PriceCache,
+) {
+  const usAssets = metadata.filter((item) => item.priceSource === "us_static");
+  if (usAssets.length === 0) {
+    return;
+  }
+
+  try {
+    const response = await fetch(
+      `${import.meta.env.BASE_URL}data/market/us-prices.json`,
+      { cache: "no-cache" },
+    );
+    if (!response.ok) {
+      throw new Error(`Static US price file returned ${response.status}`);
+    }
+
+    const data = (await response.json()) as StaticUsPriceFile;
+    if (!isStaticUsPriceFile(data)) {
+      throw new Error("Static US price file has an invalid format.");
+    }
+
+    for (const asset of usAssets) {
+      const quote = data.quotes[asset.symbol];
+      if (quote && Number.isFinite(quote.price) && Number(quote.price) > 0) {
+        next[asset.symbol] = {
+          symbol: asset.symbol,
+          price: Number(quote.price),
+          currency: "USD",
+          source: "static-us-market-json",
+          tradeDate: quote.tradeDate ?? data.tradeDate ?? undefined,
+          generatedAt: data.generatedAt,
+          lastUpdated: quote.lastUpdated ?? data.generatedAt,
+          status: "ok",
+        };
+        continue;
+      }
+
+      next[asset.symbol] = fallbackQuote(
+        asset,
+        next,
+        getStaticUsError(quote, data),
+      );
+    }
+  } catch (error) {
+    for (const asset of usAssets) {
+      next[asset.symbol] = fallbackQuote(
+        asset,
+        next,
+        `靜態美股 / 美股 ETF 市場資料暫時無法取得：${getErrorMessage(error)}`,
       );
     }
   }
@@ -253,6 +332,26 @@ function fallbackQuote(asset: AssetMetadata, cache: PriceCache, error: string) {
   return unavailableQuote(asset.symbol, asset.priceSource, error);
 }
 
+function getUnavailablePriceMessage(metadata: AssetMetadata) {
+  if (metadata.priceSource === "coingecko") {
+    return "尚未取得 CoinGecko 價格。";
+  }
+
+  if (metadata.priceSource === "manual") {
+    return "此資產需要手動價格或未來資料來源，目前尚未設定價格。";
+  }
+
+  if (metadata.priceSource === "us_static") {
+    return "美股 / 美股 ETF 靜態市場資料尚未取得。";
+  }
+
+  if (metadata.priceSource === "twse" || metadata.priceSource === "yahoo") {
+    return "台股 / ETF 靜態市場資料尚未取得，不使用 CORS proxy 或前端爬蟲。";
+  }
+
+  return "價格資料尚未取得。";
+}
+
 function getStaticTaiwanError(
   quote: StaticTwQuote | undefined,
   data: StaticTwPriceFile,
@@ -265,7 +364,22 @@ function getStaticTaiwanError(
     return data.errors.join("; ");
   }
 
-  return "靜態台股/ETF 市場資料沒有這個代號或價格。";
+  return "靜態台股 / ETF 市場資料沒有此代號的可用價格。";
+}
+
+function getStaticUsError(
+  quote: StaticUsQuote | undefined,
+  data: StaticUsPriceFile,
+) {
+  if (quote?.error) {
+    return quote.error;
+  }
+
+  if (data.errors && data.errors.length > 0) {
+    return data.errors.join("; ");
+  }
+
+  return "靜態美股 / 美股 ETF 市場資料沒有此代號的可用價格。";
 }
 
 function unavailableQuote(symbol: string, source: string, error: string): PriceQuote {
@@ -290,8 +404,24 @@ function isStaticTwPriceFile(value: unknown): value is StaticTwPriceFile {
     candidate.version === 1 &&
     candidate.market === "TW" &&
     candidate.currency === "TWD" &&
-    typeof candidate.generatedAt === "string" &&
     candidate.quotes !== null &&
+    typeof candidate.generatedAt === "string" &&
+    typeof candidate.quotes === "object"
+  );
+}
+
+function isStaticUsPriceFile(value: unknown): value is StaticUsPriceFile {
+  if (!value || typeof value !== "object") {
+    return false;
+  }
+
+  const candidate = value as StaticUsPriceFile;
+  return (
+    candidate.version === 1 &&
+    candidate.market === "US" &&
+    candidate.currency === "USD" &&
+    candidate.quotes !== null &&
+    typeof candidate.generatedAt === "string" &&
     typeof candidate.quotes === "object"
   );
 }

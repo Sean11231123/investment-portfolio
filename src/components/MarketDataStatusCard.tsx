@@ -104,6 +104,7 @@ function getStatusTone(status: MarketDataFreshness["status"]) {
 
 function getSourceLabel(source: string) {
   if (source === "static-tw-market-json") return "TWSE 靜態市場資料";
+  if (source === "static-us-market-json") return "Stooq 靜態市場資料";
   if (source === "CoinGecko") return "CoinGecko";
   if (source === "cash") return "現金";
   if (source.includes("Frankfurter")) return "Frankfurter";

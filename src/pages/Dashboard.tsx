@@ -4,14 +4,16 @@ import { ETFExposureTable } from "../components/ETFExposureTable";
 import { MarketDataStatusCard } from "../components/MarketDataStatusCard";
 import { SummaryCards } from "../components/SummaryCards";
 import { AppButton, EmptyState } from "../components/ui";
-import { etfComponents } from "../data/etfComponents";
 import type {
   FxRates,
   Holding,
   PortfolioSettings,
   PriceQuote,
 } from "../types/portfolio";
-import { calculateETFOnlyAggregateExposure } from "../utils/etfLookthrough";
+import {
+  calculateETFOnlyAggregateExposure,
+  isETFAssetType,
+} from "../utils/etfLookthrough";
 import {
   assetTypeLabels,
   getAllocationBy,
@@ -38,8 +40,8 @@ export function Dashboard({
   onRefreshPrices,
 }: DashboardProps) {
   const valuation = getPortfolioValuation(holdings, fxRates, priceCache);
-  const etfCoverageCount = holdings.filter(
-    (holding) => etfComponents[holding.symbol.trim().toUpperCase()],
+  const etfHoldingCount = valuation.holdingValues.filter((row) =>
+    isETFAssetType(row.metadata.type),
   ).length;
   const assetAllocation = getAllocationBy(
     valuation.holdingValues,
@@ -65,7 +67,7 @@ export function Dashboard({
       <SummaryCards
         totalValueTWD={valuation.totalValueTWD}
         holdings={holdings}
-        etfCoverageCount={etfCoverageCount}
+        etfHoldingCount={etfHoldingCount}
         unavailableCount={valuation.unavailableCount}
         displayCurrency={settings.displayCurrency}
         fxRates={fxRates}

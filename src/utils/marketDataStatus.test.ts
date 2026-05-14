@@ -5,7 +5,13 @@ import type {
   HoldingValue,
   PriceQuote,
 } from "../types/portfolio";
-import { getCryptoStatus, getFxStatus, getTaiwanStatus } from "./marketDataStatus";
+import {
+  getCryptoStatus,
+  getFxStatus,
+  getMarketDataStatuses,
+  getTaiwanStatus,
+  getUsStatus,
+} from "./marketDataStatus";
 
 const now = new Date("2026-05-14T12:00:00.000Z");
 
@@ -37,8 +43,14 @@ function row(
   market: AssetMetadata["market"],
   quoteOverrides: Partial<PriceQuote>,
 ): HoldingValue {
-  const symbol = market === "CRYPTO" ? "BTC" : "2330";
-  const type = market === "CRYPTO" ? "crypto" : "taiwan_stock";
+  const symbol =
+    market === "CRYPTO" ? "BTC" : market === "US" ? "AAPL" : "2330";
+  const type =
+    market === "CRYPTO"
+      ? "crypto"
+      : market === "US"
+        ? "us_stock"
+        : "taiwan_stock";
 
   return {
     holding: { id: symbol, type, symbol, quantity: 1 },
@@ -46,8 +58,13 @@ function row(
       symbol,
       type,
       market,
-      currency: market === "CRYPTO" ? "USD" : "TWD",
-      priceSource: market === "CRYPTO" ? "coingecko" : "yahoo",
+      currency: market === "TW" ? "TWD" : "USD",
+      priceSource:
+        market === "CRYPTO"
+          ? "coingecko"
+          : market === "US"
+            ? "us_static"
+            : "yahoo",
     }),
     quote: quote({ symbol, ...quoteOverrides }),
     marketValueTWD: quoteOverrides.price === null ? null : 1000,
@@ -69,6 +86,17 @@ function fx(overrides: Partial<FxRates>): FxRates {
 }
 
 describe("market data freshness", () => {
+  it("includes separate Taiwan, US, crypto, and FX statuses", () => {
+    const statuses = getMarketDataStatuses([], fx({}), now);
+
+    expect(statuses.map((status) => status.category)).toEqual([
+      "tw",
+      "us",
+      "crypto",
+      "fx",
+    ]);
+  });
+
   it("marks recent Taiwan static quotes as fresh", () => {
     const status = getTaiwanStatus(
       [
@@ -81,6 +109,7 @@ describe("market data freshness", () => {
     );
 
     expect(status.status).toBe("fresh");
+    expect(status.label).toBe("台股 / ETF 靜態市場資料");
     expect(status.tradeDate).toBe("2026-05-13");
     expect(status.generatedAt).toBe("2026-05-14T08:30:00.000Z");
   });
@@ -111,6 +140,25 @@ describe("market data freshness", () => {
 
     expect(status.status).toBe("fresh");
     expect(status.message).toContain("目前沒有台股");
+  });
+
+  it("keeps US static status separate from Taiwan status", () => {
+    const status = getUsStatus(
+      [
+        row("US", {
+          symbol: "AAPL",
+          source: "static-us-market-json",
+          price: null,
+          status: "unavailable",
+        }),
+      ],
+      now,
+    );
+
+    expect(status.status).toBe("unavailable");
+    expect(status.label).toBe("美股 / 美股 ETF 靜態市場資料");
+    expect(status.message).toContain("美股");
+    expect(status.message).not.toContain("台股");
   });
 
   it("marks crypto cached quotes as cached", () => {

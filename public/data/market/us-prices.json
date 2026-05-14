@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "market": "US",
+  "source": "stooq",
+  "generatedAt": "2026-05-14T06:39:38.873Z",
+  "tradeDate": "2026-05-13",
+  "currency": "USD",
+  "quotes": {
+    "AAPL": {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "price": 298.87,
+      "currency": "USD",
+      "source": "static-us-market-json",
+      "tradeDate": "2026-05-13",
+      "lastUpdated": "2026-05-14T06:39:38.873Z",
+      "status": "ok",
+      "stooqSymbol": "aapl.us"
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "price": 405.21,
+      "currency": "USD",
+      "source": "static-us-market-json",
+      "tradeDate": "2026-05-13",
+      "lastUpdated": "2026-05-14T06:39:38.873Z",
+      "status": "ok",
+      "stooqSymbol": "msft.us"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "price": 225.83,
+      "currency": "USD",
+      "source": "static-us-market-json",
+      "tradeDate": "2026-05-13",
+      "lastUpdated": "2026-05-14T06:39:38.873Z",
+      "status": "ok",
+      "stooqSymbol": "nvda.us"
+    },
+    "TSLA": {
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "price": 445.27,
+      "currency": "USD",
+      "source": "static-us-market-json",
+      "tradeDate": "2026-05-13",
+      "lastUpdated": "2026-05-14T06:39:38.873Z",
+      "status": "ok",
+      "stooqSymbol": "tsla.us"
+    },
+    "VOO": {
+      "symbol": "VOO",
+      "name": "Vanguard S&P 500 ETF",
+      "price": 682.41,
+      "currency": "USD",
+      "source": "static-us-market-json",
+      "tradeDate": "2026-05-13",
+      "lastUpdated": "2026-05-14T06:39:38.873Z",
+      "status": "ok",
+      "stooqSymbol": "voo.us"
+    },
+    "SPY": {
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "price": 742.31,
+      "currency": "USD",
+      "source": "static-us-market-json",
+      "tradeDate": "2026-05-13",
+      "lastUpdated": "2026-05-14T06:39:38.873Z",
+      "status": "ok",
+      "stooqSymbol": "spy.us"
+    },
+    "QQQ": {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "price": 714.71,
+      "currency": "USD",
+      "source": "static-us-market-json",
+      "tradeDate": "2026-05-13",
+      "lastUpdated": "2026-05-14T06:39:38.873Z",
+      "status": "ok",
+      "stooqSymbol": "qqq.us"
+    },
+    "VT": {
+      "symbol": "VT",
+      "name": "Vanguard Total World Stock ETF",
+      "price": 155.4,
+      "currency": "USD",
+      "source": "static-us-market-json",
+      "tradeDate": "2026-05-13",
+      "lastUpdated": "2026-05-14T06:39:38.873Z",
+      "status": "ok",
+      "stooqSymbol": "vt.us"
+    },
+    "VTI": {
+      "symbol": "VTI",
+      "name": "Vanguard Total Stock Market ETF",
+      "price": 364.71,
+      "currency": "USD",
+      "source": "static-us-market-json",
+      "tradeDate": "2026-05-13",
+      "lastUpdated": "2026-05-14T06:39:38.873Z",
+      "status": "ok",
+      "stooqSymbol": "vti.us"
+    }
+  },
+  "errors": []
+}

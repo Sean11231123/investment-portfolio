@@ -12,6 +12,7 @@ import type {
 import {
   calculateETFOnlyAggregateExposure,
   calculateSingleETFComposition,
+  isETFAssetType,
 } from "../utils/etfLookthrough";
 import { getPortfolioValuation } from "../utils/portfolioCalculations";
 
@@ -35,7 +36,7 @@ export function ETFExposurePage({
   const aggregateRows = calculateETFOnlyAggregateExposure(
     valuation.holdingValues,
   );
-  const heldEtfRows = getHeldTaiwanEtfs(valuation.holdingValues);
+  const heldEtfRows = getHeldEtfs(valuation.holdingValues);
   const [selectedEtf, setSelectedEtf] = useState("");
   const selectedSymbol = selectedEtf || heldEtfRows[0]?.metadata.symbol || "";
   const singleRows = selectedSymbol
@@ -197,10 +198,10 @@ function Info({ label, value }: { label: string; value: string }) {
   );
 }
 
-function getHeldTaiwanEtfs(holdingValues: HoldingValue[]) {
+function getHeldEtfs(holdingValues: HoldingValue[]) {
   const seen = new Set<string>();
   return holdingValues.filter((row) => {
-    if (row.metadata.type !== "taiwan_etf") {
+    if (!isETFAssetType(row.metadata.type)) {
       return false;
     }
 

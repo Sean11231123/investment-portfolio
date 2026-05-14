@@ -16,6 +16,7 @@ export type PriceSource =
   | "yahoo"
   | "coingecko"
   | "manual"
+  | "us_static"
   | "cash";
 
 export type Holding = {
@@ -77,7 +78,7 @@ export type PriceQuote = {
 };
 
 export type MarketDataFreshness = {
-  category: "tw" | "crypto" | "fx";
+  category: "tw" | "us" | "crypto" | "fx";
   label: string;
   status: "fresh" | "stale" | "cached" | "partial" | "unavailable" | "error";
   source?: string;

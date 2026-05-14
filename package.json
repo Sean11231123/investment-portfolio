@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "normalize:etf-components": "python scripts/normalize_etf_components.py",
     "validate:etf-components": "python scripts/validate_etf_components.py",
+    "update:us-prices": "python scripts/update_us_prices.py",
     "test:etf-normalizer": "python scripts/test_normalize_etf_components.py",
     "test": "vitest run",
     "test:watch": "vitest"

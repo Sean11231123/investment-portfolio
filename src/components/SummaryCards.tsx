@@ -5,7 +5,7 @@ import { AppCard } from "./ui";
 type SummaryCardsProps = {
   totalValueTWD: number;
   holdings: Holding[];
-  etfCoverageCount: number;
+  etfHoldingCount: number;
   unavailableCount: number;
   displayCurrency: Currency;
   fxRates: FxRates;
@@ -14,7 +14,7 @@ type SummaryCardsProps = {
 export function SummaryCards({
   totalValueTWD,
   holdings,
-  etfCoverageCount,
+  etfHoldingCount,
   unavailableCount,
   displayCurrency,
   fxRates,
@@ -33,7 +33,7 @@ export function SummaryCards({
       />
       <SummaryCard label="持倉數" value={`${holdings.length}`} />
       <SummaryCard label="缺價資產" value={`${unavailableCount}`} />
-      <SummaryCard label="ETF 展開覆蓋" value={`${etfCoverageCount}`} />
+      <SummaryCard label="ETF 持倉數" value={`${etfHoldingCount}`} />
     </section>
   );
 }

@@ -1,6 +1,7 @@
 import type {
   FxRates,
   HoldingValue,
+  Market,
   MarketDataFreshness,
   PriceQuote,
 } from "../types/portfolio";
@@ -12,6 +13,7 @@ export function getMarketDataStatuses(
 ): MarketDataFreshness[] {
   return [
     getTaiwanStatus(holdingValues, now),
+    getUsStatus(holdingValues, now),
     getCryptoStatus(holdingValues, now),
     getFxStatus(fxRates, now),
   ];
@@ -21,96 +23,44 @@ export function getTaiwanStatus(
   holdingValues: HoldingValue[],
   now = new Date(),
 ): MarketDataFreshness {
-  const rows = holdingValues.filter((row) => row.metadata.market === "TW");
-  if (rows.length === 0) {
-    return {
-      category: "tw",
-      label: "台股 / ETF",
-      status: "fresh",
-      message: "目前沒有台股 / ETF 持倉。",
-    };
-  }
-
-  const okRows = rows.filter((row) => row.quote.status === "ok");
-  const unavailableRows = rows.filter(
-    (row) => row.quote.status === "unavailable" || row.quote.price === null,
-  );
-  const errorRows = rows.filter((row) => row.quote.status === "error");
-  const cachedRows = rows.filter((row) => row.quote.status === "cached");
-  const newestQuote = getNewestQuote(rows);
-  const tradeDate = newestQuote?.tradeDate;
-  const generatedAt = newestQuote?.generatedAt ?? newestQuote?.lastUpdated;
-
-  if (errorRows.length > 0 && okRows.length === 0 && cachedRows.length === 0) {
-    return {
-      category: "tw",
-      label: "台股 / ETF",
-      status: "error",
-      source: newestQuote?.source,
-      tradeDate,
-      generatedAt,
-      message: "台股 / ETF 靜態市場資料讀取發生錯誤，估值可能不完整。",
-    };
-  }
-
-  if (okRows.length === 0 && cachedRows.length === 0) {
-    return {
-      category: "tw",
-      label: "台股 / ETF",
-      status: "unavailable",
-      source: newestQuote?.source,
-      tradeDate,
-      generatedAt,
-      message: "目前無法取得已持有台股 / ETF 的價格。",
-    };
-  }
-
-  if (unavailableRows.length > 0) {
-    return {
-      category: "tw",
-      label: "台股 / ETF",
-      status: "partial",
-      source: newestQuote?.source,
-      tradeDate,
-      generatedAt,
-      message: `${unavailableRows.length} 筆台股 / ETF 持倉缺少價格，投組估值可能不完整。`,
-    };
-  }
-
-  if (cachedRows.length > 0) {
-    return {
-      category: "tw",
-      label: "台股 / ETF",
-      status: "cached",
-      source: newestQuote?.source,
-      tradeDate,
-      generatedAt,
-      lastUpdated: newestQuote?.lastUpdated,
-      message: "目前使用快取的台股 / ETF 價格。",
-    };
-  }
-
-  if (tradeDate && daysSince(tradeDate, now) > 3) {
-    return {
-      category: "tw",
-      label: "台股 / ETF",
-      status: "stale",
-      source: newestQuote?.source,
-      tradeDate,
-      generatedAt,
-      message: "台股 / ETF 交易日已超過 3 天，資料可能因週末或休市而看起來較舊。",
-    };
-  }
-
-  return {
+  return getStaticMarketStatus({
     category: "tw",
-    label: "台股 / ETF",
-    status: "fresh",
-    source: newestQuote?.source,
-    tradeDate,
-    generatedAt,
-    message: "台股 / ETF 靜態市場資料已載入。",
-  };
+    label: "台股 / ETF 靜態市場資料",
+    holdingValues,
+    market: "TW",
+    noHoldingsMessage: "目前沒有台股 / ETF 持倉。",
+    errorMessage: "台股 / ETF 靜態市場資料讀取發生錯誤，估值可能不完整。",
+    unavailableMessage: "目前無法取得已持有台股 / ETF 的價格。",
+    partialMessage: (count) =>
+      `${count} 筆台股 / ETF 持倉缺少價格，投組估值可能不完整。`,
+    cachedMessage: "目前使用快取的台股 / ETF 價格。",
+    staleMessage:
+      "台股 / ETF 交易日已超過 3 天，資料可能因週末或休市而看起來較舊。",
+    freshMessage: "台股 / ETF 靜態市場資料已載入。",
+    now,
+  });
+}
+
+export function getUsStatus(
+  holdingValues: HoldingValue[],
+  now = new Date(),
+): MarketDataFreshness {
+  return getStaticMarketStatus({
+    category: "us",
+    label: "美股 / 美股 ETF 靜態市場資料",
+    holdingValues,
+    market: "US",
+    noHoldingsMessage: "目前沒有美股 / 美股 ETF 持倉。",
+    errorMessage: "美股 / 美股 ETF 靜態市場資料讀取發生錯誤，估值可能不完整。",
+    unavailableMessage: "目前無法取得已持有美股 / 美股 ETF 的價格。",
+    partialMessage: (count) =>
+      `${count} 筆美股 / 美股 ETF 持倉缺少價格，投組估值可能不完整。`,
+    cachedMessage: "目前使用快取的美股 / 美股 ETF 價格。",
+    staleMessage:
+      "美股 / 美股 ETF 交易日已超過 3 天，資料可能因週末或休市而看起來較舊。",
+    freshMessage: "美股 / 美股 ETF 靜態市場資料已載入。",
+    now,
+  });
 }
 
 export function getCryptoStatus(
@@ -141,7 +91,7 @@ export function getCryptoStatus(
       status: "unavailable",
       source: newestQuote?.source,
       lastUpdated: newestQuote?.lastUpdated,
-      message: "目前無法取得 Crypto 價格，可能是來源暫時不可用或 rate limit。",
+      message: "目前無法取得 Crypto 價格，可能是資料來源暫時不可用或 rate limit。",
     };
   }
 
@@ -174,7 +124,7 @@ export function getCryptoStatus(
       status: "stale",
       source: newestQuote.source,
       lastUpdated: newestQuote.lastUpdated,
-      message: "Crypto 價格更新時間較久，可能需要重新整理價格。",
+      message: "Crypto 價格更新時間較舊，可能需要重新整理價格。",
     };
   }
 
@@ -210,7 +160,7 @@ export function getFxStatus(
       status: "unavailable",
       source: fxRates.source,
       lastUpdated: fxRates.lastUpdated,
-      message: "目前使用可見的預設匯率，請在網路恢復後重新整理。",
+      message: "目前使用備援匯率，請確認是否需要重新整理。",
     };
   }
 
@@ -235,7 +185,7 @@ export function getFxStatus(
       status: "stale",
       source: fxRates.source,
       lastUpdated: fxRates.lastUpdated,
-      message: "匯率更新時間超過 24 小時，可能需要重新整理。",
+      message: "匯率更新時間已超過 24 小時，可能需要重新整理。",
     };
   }
 
@@ -246,6 +196,125 @@ export function getFxStatus(
     source: fxRates.source,
     lastUpdated: fxRates.lastUpdated,
     message: "匯率資料已載入。",
+  };
+}
+
+function getStaticMarketStatus({
+  category,
+  label,
+  holdingValues,
+  market,
+  noHoldingsMessage,
+  errorMessage,
+  unavailableMessage,
+  partialMessage,
+  cachedMessage,
+  staleMessage,
+  freshMessage,
+  now,
+}: {
+  category: "tw" | "us";
+  label: string;
+  holdingValues: HoldingValue[];
+  market: Market;
+  noHoldingsMessage: string;
+  errorMessage: string;
+  unavailableMessage: string;
+  partialMessage: (count: number) => string;
+  cachedMessage: string;
+  staleMessage: string;
+  freshMessage: string;
+  now: Date;
+}): MarketDataFreshness {
+  const rows = holdingValues.filter((row) => row.metadata.market === market);
+  if (rows.length === 0) {
+    return {
+      category,
+      label,
+      status: "fresh",
+      message: noHoldingsMessage,
+    };
+  }
+
+  const okRows = rows.filter((row) => row.quote.status === "ok");
+  const unavailableRows = rows.filter(
+    (row) => row.quote.status === "unavailable" || row.quote.price === null,
+  );
+  const errorRows = rows.filter((row) => row.quote.status === "error");
+  const cachedRows = rows.filter((row) => row.quote.status === "cached");
+  const newestQuote = getNewestQuote(rows);
+  const tradeDate = newestQuote?.tradeDate;
+  const generatedAt = newestQuote?.generatedAt ?? newestQuote?.lastUpdated;
+
+  if (errorRows.length > 0 && okRows.length === 0 && cachedRows.length === 0) {
+    return {
+      category,
+      label,
+      status: "error",
+      source: newestQuote?.source,
+      tradeDate,
+      generatedAt,
+      message: errorMessage,
+    };
+  }
+
+  if (okRows.length === 0 && cachedRows.length === 0) {
+    return {
+      category,
+      label,
+      status: "unavailable",
+      source: newestQuote?.source,
+      tradeDate,
+      generatedAt,
+      message: unavailableMessage,
+    };
+  }
+
+  if (unavailableRows.length > 0) {
+    return {
+      category,
+      label,
+      status: "partial",
+      source: newestQuote?.source,
+      tradeDate,
+      generatedAt,
+      message: partialMessage(unavailableRows.length),
+    };
+  }
+
+  if (cachedRows.length > 0) {
+    return {
+      category,
+      label,
+      status: "cached",
+      source: newestQuote?.source,
+      tradeDate,
+      generatedAt,
+      lastUpdated: newestQuote?.lastUpdated,
+      message: cachedMessage,
+    };
+  }
+
+  if (tradeDate && daysSince(tradeDate, now) > 3) {
+    return {
+      category,
+      label,
+      status: "stale",
+      source: newestQuote?.source,
+      tradeDate,
+      generatedAt,
+      message: staleMessage,
+    };
+  }
+
+  return {
+    category,
+    label,
+    status: "fresh",
+    source: newestQuote?.source,
+    tradeDate,
+    generatedAt,
+    message: freshMessage,
   };
 }
 

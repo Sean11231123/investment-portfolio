@@ -1,6 +1,7 @@
 import { etfComponents } from "../data/etfComponents";
 import { getAssetMetadata } from "../data/assetRegistry";
 import type {
+  AssetType,
   ETFComponentMap,
   ETFExposureRow,
   Holding,
@@ -102,7 +103,7 @@ export function calculateETFOnlyAggregateExposure(
 ): ETFExposureRow[] {
   const rows = new Map<string, ExposureAccumulator>();
   const pricedEtfRows = holdingValues.filter(
-    (row) => row.metadata.type === "taiwan_etf" && row.marketValueTWD !== null,
+    (row) => isETFAssetType(row.metadata.type) && row.marketValueTWD !== null,
   );
   const totalEtfValue = pricedEtfRows.reduce(
     (sum, row) => sum + (row.marketValueTWD ?? 0),
@@ -165,7 +166,7 @@ export function calculateSingleETFComposition(
 
   const etfValueTWD = holdingValues
     .filter((row) => normalizeSymbol(row.holding.symbol) === normalized)
-    .filter((row) => row.metadata.type === "taiwan_etf")
+    .filter((row) => isETFAssetType(row.metadata.type))
     .reduce((sum, row) => sum + (row.marketValueTWD ?? 0), 0);
   const componentTotalWeight = getComponentTotalWeight(etfData.components);
 
@@ -205,7 +206,11 @@ export function calculateSingleETFComposition(
 export function getHeldEtfsWithComponents(holdingValues: HoldingValue[]) {
   const seen = new Set<string>();
   return holdingValues
-    .filter((row) => etfComponents[normalizeSymbol(row.holding.symbol)])
+    .filter(
+      (row) =>
+        isETFAssetType(row.metadata.type) &&
+        etfComponents[normalizeSymbol(row.holding.symbol)],
+    )
     .filter((row) => {
       const symbol = normalizeSymbol(row.holding.symbol);
       if (seen.has(symbol)) {
@@ -219,6 +224,10 @@ export function getHeldEtfsWithComponents(holdingValues: HoldingValue[]) {
       name: row.metadata.name,
       hasValue: row.marketValueTWD !== null,
     }));
+}
+
+export function isETFAssetType(type: AssetType | string) {
+  return type.endsWith("_etf");
 }
 
 export function groupSmallExposures(
