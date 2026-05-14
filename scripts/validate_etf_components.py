@@ -10,7 +10,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "public" / "data" / "etf-components"
 INDEX_PATH = DATA_DIR / "index.json"
-ALLOWED_DATA_QUALITY = {"sample", "manual", "verified", "stale"}
+ALLOWED_DATA_QUALITY = {"sample", "manual", "verified", "stale", "official", "partial"}
 ALLOWED_MARKETS = {"TW", "US"}
 WEIGHT_TOLERANCE = 0.000001
 STALE_DAYS = 120
@@ -120,6 +120,7 @@ def validate_dataset(path: Path, data: Any) -> ValidationResult:
     symbol = string_field(data, "symbol")
     name = string_field(data, "name")
     last_updated = string_field(data, "lastUpdated")
+    as_of_date = data.get("asOfDate")
     data_quality = string_field(data, "dataQuality")
     components = data.get("components")
     component_count = data.get("componentCount")
@@ -135,14 +136,20 @@ def validate_dataset(path: Path, data: Any) -> ValidationResult:
         result.errors.append(f"{label}: name is required")
     if data.get("market") not in ALLOWED_MARKETS:
         result.errors.append(f"{label}: market must be one of {sorted(ALLOWED_MARKETS)}")
-    if not is_valid_date(last_updated):
-        result.errors.append(f"{label}: lastUpdated must be a valid YYYY-MM-DD date")
+    if not is_valid_date_or_datetime(last_updated):
+        result.errors.append(f"{label}: lastUpdated must be a valid YYYY-MM-DD date or ISO datetime")
+    if as_of_date is not None and not (
+        isinstance(as_of_date, str) and is_valid_date_or_datetime(as_of_date)
+    ):
+        result.errors.append(f"{label}: asOfDate must be null or a valid date/datetime string")
     if data_quality not in ALLOWED_DATA_QUALITY:
         result.errors.append(
             f"{label}: dataQuality must be one of {sorted(ALLOWED_DATA_QUALITY)}",
         )
     if data_quality == "sample":
         result.warnings.append(f"{symbol}: dataQuality is sample")
+    if data_quality == "partial":
+        result.warnings.append(f"{symbol}: dataQuality is partial")
     if is_old(last_updated):
         result.warnings.append(f"{symbol}: lastUpdated may be stale ({last_updated})")
 
@@ -218,19 +225,27 @@ def is_number(value: Any) -> bool:
     return isinstance(value, (int, float)) and not isinstance(value, bool)
 
 
-def is_valid_date(value: str) -> bool:
+def is_valid_date_or_datetime(value: str) -> bool:
+    if not value:
+        return False
     try:
         date.fromisoformat(value)
     except ValueError:
-        return False
-    return bool(value)
+        try:
+            datetime.fromisoformat(value.replace("Z", "+00:00"))
+        except ValueError:
+            return False
+    return True
 
 
 def is_old(value: str) -> bool:
     try:
-        updated = date.fromisoformat(value)
+        updated = datetime.fromisoformat(value.replace("Z", "+00:00")).date()
     except ValueError:
-        return False
+        try:
+            updated = date.fromisoformat(value)
+        except ValueError:
+            return False
     return (date.today() - updated).days > STALE_DAYS
 
 

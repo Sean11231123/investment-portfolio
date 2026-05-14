@@ -98,10 +98,13 @@ export type ETFComponentMap = {
   [etfSymbol: string]: {
     name: string;
     market?: Market;
+    source?: string;
+    sourceType?: string;
     sourceNote: string;
     sourceUrl?: string;
+    asOfDate?: string | null;
     lastUpdated: string;
-    dataQuality?: "sample" | "manual" | "verified" | "stale";
+    dataQuality?: "sample" | "manual" | "verified" | "stale" | "official" | "partial";
     componentCount?: number;
     totalWeight?: number;
     components: ETFComponent[];

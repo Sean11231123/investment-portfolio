@@ -37,6 +37,9 @@ jobs:
       - name: Test ETF normalizer
         run: npm run test:etf-normalizer
 
+      - name: Test US ETF component updater
+        run: npm run test:us-etf-components
+
       - name: Build
         run: npm run build
 

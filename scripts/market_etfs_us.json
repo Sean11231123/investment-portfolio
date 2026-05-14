@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "etfs": [
+    {
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "sourceType": "ssga_xlsx",
+      "sourceUrl": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-spy.xlsx",
+      "dataQualityOnSuccess": "official"
+    },
+    {
+      "symbol": "VOO",
+      "name": "Vanguard S&P 500 ETF",
+      "sourceType": "manual_static",
+      "sourceUrl": "https://investor.vanguard.com/investment-products/etfs/profile/voo#portfolio-composition",
+      "reason": "No stable no-key official downloadable holdings source is configured yet."
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "sourceType": "manual_static",
+      "sourceUrl": "https://www.invesco.com/qqq-etf/en/about.html",
+      "reason": "No stable no-key official downloadable holdings source is configured yet."
+    },
+    {
+      "symbol": "VT",
+      "name": "Vanguard Total World Stock ETF",
+      "sourceType": "manual_static",
+      "sourceUrl": "https://investor.vanguard.com/investment-products/etfs/profile/vt#portfolio-composition",
+      "reason": "No component JSON is maintained for this ETF yet."
+    },
+    {
+      "symbol": "VTI",
+      "name": "Vanguard Total Stock Market ETF",
+      "sourceType": "manual_static",
+      "sourceUrl": "https://investor.vanguard.com/investment-products/etfs/profile/vti#portfolio-composition",
+      "reason": "No component JSON is maintained for this ETF yet."
+    }
+  ]
+}

@@ -14,7 +14,7 @@ import validate_etf_components
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT_DIR = ROOT / "public" / "data" / "etf-components"
-ALLOWED_DATA_QUALITY = {"sample", "manual", "verified", "stale"}
+ALLOWED_DATA_QUALITY = {"sample", "manual", "verified", "stale", "official", "partial"}
 
 HEADER_MAP = {
     "symbol": "symbol",

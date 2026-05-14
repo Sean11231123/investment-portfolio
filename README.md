@@ -290,7 +290,7 @@ The app-facing compatibility adapter remains:
 src/data/etfComponents.ts
 ```
 
-The included 0050, 006208, 00878, VOO, SPY, and QQQ component data is approximate sample/manual data for testing and early lookthrough support. Update the JSON files before using them for real analysis.
+The included 0050, 006208, 00878, VOO, SPY, and QQQ component data is static JSON for testing and early lookthrough support. Some files are manually maintained samples, while supported US ETF files may be overwritten by the scheduled updater when a reliable issuer source is configured.
 
 To add or update ETF component data:
 
@@ -306,12 +306,52 @@ To add or update ETF component data:
 - `manual`: manually maintained data from a known source.
 - `verified`: manually checked against a reliable source.
 - `stale`: known or suspected outdated data.
+- `official`: generated from an official issuer downloadable holdings source.
+- `partial`: generated from a partial/top-holdings source; the app shows the remainder as `其他`.
 
 ETF component data is public/static repo data. It is not user portfolio data. It may become stale, and it is not guaranteed real-time or official.
 
-US ETF component support currently exists only for symbols with JSON files under `public/data/etf-components/`. VOO, SPY, and QQQ have sample top-holdings JSON. VT and VTI do not currently have component JSON, so they remain under `未展開 ETF` in ETF lookthrough. When an ETF JSON lists only top holdings, the missing remainder is shown by the app as `其他`.
+US ETF component support currently exists only for symbols with JSON files under `public/data/etf-components/`. SPY is updated from a configured State Street downloadable holdings workbook. VOO and QQQ currently keep manual/sample JSON until a reliable no-key issuer source is configured. VT and VTI do not currently have component JSON, so they remain under `未展開 ETF` in ETF lookthrough. When an ETF JSON lists only top holdings, the missing remainder is shown by the app as `其他`.
 
 ETF constituent data is not scraped online.
+
+## US ETF Component Update Workflow
+
+US ETF component files can be updated outside the frontend by:
+
+```text
+scripts/update_us_etf_components.py
+```
+
+The updater reads:
+
+```text
+scripts/market_etfs_us.json
+```
+
+Current behavior:
+
+- SPY uses State Street's official downloadable holdings workbook.
+- VOO and QQQ remain manual/sample JSON until a stable no-key issuer download is configured.
+- VT and VTI are configured as manual/static placeholders without component JSON.
+- Existing valid JSON is preserved if a source fetch or parser fails.
+- The app reads only the latest JSON files; historical snapshots are not shown in the app, though Git keeps file history.
+- Partial holdings are not normalized to 100%; `其他` represents the unlisted remainder.
+
+Run manually:
+
+```bash
+python scripts/update_us_etf_components.py
+npm run validate:etf-components
+```
+
+The scheduled workflow is:
+
+```text
+.github/workflows/update-us-etf-components.yml
+```
+
+It runs after the regular US market close on weekdays, validates ETF component JSON, and commits changed files under `public/data/etf-components/` only when they changed.
 
 ## ETF Component CSV Normalizer
 
@@ -403,7 +443,7 @@ If the repository name is different, update the base path in `vite.config.ts`.
 ## Known Limitations
 
 - Taiwan and US stock/ETF prices are static end-of-day data, not live quotes.
-- ETF component data is static sample/manual data.
+- ETF component data is static JSON. Some files are automated from issuer downloads, while others remain sample/manual.
 - US ETF lookthrough exists only for ETFs with component JSON; missing US ETF component data appears as `未展開 ETF`.
 - Data is local to each browser and is not synced across devices.
 - No backend, login, broker sync, exchange sync, or auto ETF constituent updates.

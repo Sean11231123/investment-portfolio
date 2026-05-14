@@ -150,7 +150,9 @@ function ETFComponentStatusSection({
             }
 
             const showWarning =
-              data.dataQuality === "sample" || data.dataQuality === "stale";
+              data.dataQuality === "sample" ||
+              data.dataQuality === "stale" ||
+              data.dataQuality === "partial";
 
             return (
               <div
@@ -161,6 +163,9 @@ function ETFComponentStatusSection({
                   {symbol} {data.name}
                 </p>
                 <dl className="mt-3 space-y-1 text-xs text-slate-400">
+                  {data.asOfDate ? (
+                    <Info label="資料日期" value={data.asOfDate} />
+                  ) : null}
                   <Info label="更新日期" value={data.lastUpdated} />
                   <Info label="資料品質" value={getQualityLabel(data.dataQuality)} />
                   <Info
@@ -216,7 +221,9 @@ function getHeldEtfs(holdingValues: HoldingValue[]) {
 }
 
 function getQualityLabel(quality?: string) {
+  if (quality === "official") return "官方自動更新";
   if (quality === "verified") return "已驗證";
+  if (quality === "partial") return "部分資料";
   if (quality === "manual") return "手動維護";
   if (quality === "stale") return "可能過期";
   return "範例資料";

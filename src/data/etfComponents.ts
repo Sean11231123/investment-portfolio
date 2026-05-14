@@ -11,10 +11,13 @@ type ETFComponentDataset = {
   symbol: string;
   name: string;
   market: "TW" | "US";
+  source?: string;
+  sourceType?: string;
   sourceNote: string;
   sourceUrl?: string;
+  asOfDate?: string | null;
   lastUpdated: string;
-  dataQuality: "sample" | "manual" | "verified" | "stale";
+  dataQuality: "sample" | "manual" | "verified" | "stale" | "official" | "partial";
   componentCount: number;
   totalWeight: number;
   components: {
@@ -41,8 +44,11 @@ export const etfComponents: ETFComponentMap = Object.fromEntries(
     {
       name: dataset.name,
       market: dataset.market,
+      source: dataset.source,
+      sourceType: dataset.sourceType,
       sourceNote: dataset.sourceNote,
       sourceUrl: dataset.sourceUrl,
+      asOfDate: dataset.asOfDate,
       lastUpdated: dataset.lastUpdated,
       dataQuality: dataset.dataQuality,
       componentCount: dataset.componentCount,

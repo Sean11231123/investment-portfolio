@@ -66,11 +66,24 @@ describe("JSON-backed ETF component adapter", () => {
       expect(data.name).toBeTruthy();
       expect(data.market).toMatch(/^(TW|US)$/);
       expect(data.sourceNote).toBeTruthy();
-      expect(data.lastUpdated).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      expect(data.lastUpdated).toMatch(/^\d{4}-\d{2}-\d{2}/);
       expect(data.dataQuality).toBeTruthy();
       expect(data.componentCount).toBe(data.components.length);
       expect(data.totalWeight).toBeGreaterThan(0);
     }
+  });
+
+  it("loads generated SPY metadata from the automated US ETF component pipeline", () => {
+    const data = etfComponents.SPY;
+
+    expect(data.market).toBe("US");
+    expect(data.source).toBe("automated-us-etf-components");
+    expect(data.sourceType).toBe("ssga_xlsx");
+    expect(data.asOfDate).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+    expect(data.dataQuality).toBe("official");
+    expect(data.components.length).toBeGreaterThan(100);
+    expect(data.totalWeight).toBeGreaterThan(0.9);
+    expect(data.totalWeight).toBeLessThanOrEqual(1.01);
   });
 
   it("loads non-empty positive component weights", () => {
