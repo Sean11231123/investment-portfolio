@@ -137,11 +137,7 @@ export function getQuoteForHolding(
     universeAssets,
   );
   if (!metadata) {
-    return unavailableQuote(
-      holding.symbol,
-      "manual",
-      "找不到資產 metadata，無法估值。",
-    );
+    return unavailableQuote(holding.symbol, "manual", "尚未支援價格來源。");
   }
 
   if (metadata.priceSource === "cash") {
@@ -246,7 +242,7 @@ async function refreshBinanceCryptoPrices(
       next[asset.symbol] = fallbackQuote(
         asset,
         next,
-        `Binance price unavailable: ${getErrorMessage(error)}`,
+        `Binance 價格取得失敗，且沒有可用備援來源。${getErrorMessage(error)}`,
       );
     }
     return assets.filter((asset) => asset.coingeckoId);
@@ -257,7 +253,7 @@ async function refreshBinanceCryptoPrices(
     next[asset.symbol] = fallbackQuote(
       asset,
       next,
-      `Binance price missing for ${asset.binanceSymbol}.`,
+      `來源尚無價格：Binance 未回傳 ${asset.binanceSymbol} 價格。`,
     );
   }
 
@@ -369,7 +365,7 @@ async function refreshStaticTaiwanPrices(
       next[asset.symbol] = fallbackQuote(
         asset,
         next,
-        `靜態台股 / ETF 市場資料暫時無法取得：${getErrorMessage(error)}`,
+        `台股/ETF 靜態市場資料暫時無法取得。${getErrorMessage(error)}`,
       );
     }
   }
@@ -425,7 +421,7 @@ async function refreshStaticUsPrices(
       next[asset.symbol] = fallbackQuote(
         asset,
         next,
-        `靜態美股 / 美股 ETF 市場資料暫時無法取得：${getErrorMessage(error)}`,
+        `美股 / 美股 ETF 靜態市場資料暫時無法取得。${getErrorMessage(error)}`,
       );
     }
   }
@@ -455,18 +451,18 @@ function getUnavailablePriceMessage(metadata: AssetMetadata) {
   }
 
   if (metadata.priceSource === "manual") {
-    return "此資產需要手動價格或未來資料來源，目前尚未設定價格。";
+    return "此資產目前使用手動資料，尚未設定價格來源。";
   }
 
   if (metadata.priceSource === "us_static") {
-    return "美股 / 美股 ETF 靜態市場資料尚未取得。";
+    return "尚未追蹤美股 / 美股 ETF 價格。";
   }
 
   if (metadata.priceSource === "twse" || metadata.priceSource === "yahoo") {
-    return "台股 / ETF 靜態市場資料尚未取得，不使用 CORS proxy 或前端爬蟲。";
+    return "尚未取得台股/ETF 價格。";
   }
 
-  return "價格資料尚未取得。";
+  return "尚未支援價格來源。";
 }
 
 function getStaticTaiwanError(
@@ -481,7 +477,11 @@ function getStaticTaiwanError(
     return data.errors.join("; ");
   }
 
-  return "靜態台股 / ETF 市場資料沒有此代號的可用價格。";
+  if (quote?.status === "unavailable") {
+    return "來源尚無價格：尚未取得台股/ETF 價格。";
+  }
+
+  return "尚未取得台股/ETF 價格。";
 }
 
 function getStaticUsError(
@@ -496,7 +496,11 @@ function getStaticUsError(
     return data.errors.join("; ");
   }
 
-  return "靜態美股 / 美股 ETF 市場資料沒有此代號的可用價格。";
+  if (quote?.status === "unavailable") {
+    return "來源尚無價格：尚未取得美股 / 美股 ETF 價格。";
+  }
+
+  return "尚未追蹤美股 / 美股 ETF 價格。";
 }
 
 function unavailableQuote(

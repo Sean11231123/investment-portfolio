@@ -421,6 +421,7 @@ describe("US static price adapter", () => {
     expect(prices.DOGE.currency).toBe("USDT");
     expect(prices.DOGE.status).toBe("unavailable");
     expect(prices.DOGE.source).toBe("manual");
+    expect(prices.DOGE.error).toContain("Binance 價格取得失敗");
   });
 
   it("keeps CoinGecko-only crypto behavior for assets without a Binance symbol", async () => {

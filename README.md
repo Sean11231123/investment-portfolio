@@ -124,6 +124,17 @@ Important distinctions:
 
 If universe JSON fails to load, the app falls back to the built-in registry. If a universe asset has no price quote, valuation remains unavailable; missing prices are never treated as zero. If an ETF exists in the universe but has no component JSON, it remains `未展開 ETF`.
 
+Price reason labels are shown separately from asset search and ETF components:
+
+- `尚未追蹤價格`: the app recognizes the asset, but the current price pipeline does not cover it yet.
+- `價格取得失敗`: a provider, endpoint, or static file was attempted but failed.
+- `來源尚無價格`: the source was available, but did not provide a usable quote for that symbol.
+- `使用快取價格`: the app is using a previously cached quote.
+- `價格可能已過期`: the quote exists, but appears older than the app's freshness window.
+- `尚未支援價格來源`: the asset has metadata, but no supported price adapter path yet.
+
+ETF component availability is separate. `未展開 ETF` means the ETF has no component JSON for lookthrough; it is not itself a price failure.
+
 ## Taiwan Asset Universe Update
 
 Taiwan searchable stock/ETF metadata is generated outside the frontend by:

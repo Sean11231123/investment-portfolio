@@ -244,6 +244,11 @@ export function HoldingForm({
             已選擇 {selectedAsset.symbol} - {selectedAsset.name}，
             {selectedAsset.market} / {selectedAsset.currency} / 價格來源：
             {selectedAsset.priceSource}
+            {selectedAsset.priceSource !== "cash" ? (
+              <p className="mt-2 text-xs text-slate-400">
+                此資產可加入投組，但目前可能尚未追蹤價格。加入後市值可能暫時顯示為未提供。
+              </p>
+            ) : null}
           </div>
         ) : null}
 

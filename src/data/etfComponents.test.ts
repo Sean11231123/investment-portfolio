@@ -6,6 +6,7 @@ import {
   calculateETFOnlyAggregateExposure,
   calculateSingleETFComposition,
 } from "../utils/etfLookthrough";
+import { getPriceReason } from "../utils/priceStatus";
 
 function quote(symbol: string, price: number): PriceQuote {
   return {
@@ -178,6 +179,9 @@ describe("JSON-backed ETF component adapter", () => {
     expect(exposure[0].symbol).toBe("UNEXPANDED_ETF");
     expect(exposure[0].indirectExposureTWD).toBe(2400);
     expect(exposure[0].sourceEtfs).toEqual(["SCHD"]);
+    expect(getPriceReason(rows[0].quote, rows[0].metadata).label).toBe(
+      "已取得價格",
+    );
   });
 
   it("remains compatible with ETF lookthrough calculations", () => {

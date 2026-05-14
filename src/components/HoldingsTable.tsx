@@ -6,6 +6,7 @@ import {
   formatNumber,
   formatPercent,
 } from "../utils/format";
+import { getPriceReason } from "../utils/priceStatus";
 import { assetTypeLabels, marketLabels } from "../utils/portfolioCalculations";
 import { AppBadge, AppButton, EmptyState, appTableHeader, appTableRow, AppCard } from "./ui";
 
@@ -54,7 +55,9 @@ export function HoldingsTable({
             </tr>
           </thead>
           <tbody>
-            {holdingValues.map((row) => (
+            {holdingValues.map((row) => {
+              const priceReason = getPriceReason(row.quote, row.metadata);
+              return (
               <tr key={row.holding.id} className={appTableRow}>
                 <Td strong>{row.metadata.symbol}</Td>
                 <Td>{row.metadata.name}</Td>
@@ -68,7 +71,7 @@ export function HoldingsTable({
                 <Td>{row.metadata.currency}</Td>
                 <Td>
                   {row.quote.price === null
-                    ? "價格暫時無法取得"
+                    ? priceReason.label
                     : formatNumber(row.quote.price, 6)}
                 </Td>
                 <Td>
@@ -96,8 +99,8 @@ export function HoldingsTable({
                 </Td>
                 <Td>
                   <div>
-                    <AppBadge tone={getStatusTone(row.quote.status)}>
-                      {getStatusLabel(row.quote.status)}
+                    <AppBadge tone={priceReason.tone}>
+                      {priceReason.label}
                     </AppBadge>
                     <p className="mt-2 text-xs text-slate-400">
                       價格來源：{getSourceLabel(row.quote.source)}
@@ -136,7 +139,8 @@ export function HoldingsTable({
                   </div>
                 </Td>
               </tr>
-            ))}
+              );
+            })}
           </tbody>
         </table>
       </div>
@@ -144,21 +148,10 @@ export function HoldingsTable({
   );
 }
 
-function getStatusLabel(status: string) {
-  if (status === "ok") return "正常";
-  if (status === "cached") return "快取";
-  if (status === "error") return "錯誤";
-  return "unavailable";
-}
-
-function getStatusTone(status: string) {
-  if (status === "ok") return "success";
-  if (status === "cached") return "warning";
-  return "danger";
-}
-
 function getSourceLabel(source: string) {
-  if (source === "static-tw-market-json") return "靜態市場資料";
+  if (source === "static-tw-market-json") return "TWSE 靜態資料";
+  if (source === "static-us-market-json") return "US 靜態資料";
+  if (source === "Binance") return "Binance";
   if (source === "CoinGecko") return "CoinGecko";
   if (source === "cash") return "現金";
   if (source === "yahoo" || source === "twse") return "台股/ETF adapter";
