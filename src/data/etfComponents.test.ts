@@ -1,7 +1,11 @@
 import { describe, expect, it } from "vitest";
 import { etfComponentDatasets, etfComponents } from "./etfComponents";
 import type { HoldingValue, PriceQuote } from "../types/portfolio";
-import { calculateETFExposure } from "../utils/etfLookthrough";
+import {
+  calculateETFExposure,
+  calculateETFOnlyAggregateExposure,
+  calculateSingleETFComposition,
+} from "../utils/etfLookthrough";
 
 function quote(symbol: string, price: number): PriceQuote {
   return {
@@ -13,22 +17,26 @@ function quote(symbol: string, price: number): PriceQuote {
   };
 }
 
-function etfRow(symbol: string, valueTWD: number): HoldingValue {
+function etfRow(
+  symbol: string,
+  valueTWD: number,
+  type: "taiwan_etf" | "us_etf" = "taiwan_etf",
+): HoldingValue {
   return {
     holding: {
       id: symbol,
-      type: "taiwan_etf",
+      type,
       symbol,
       quantity: 1,
     },
     metadata: {
       symbol,
       name: etfComponents[symbol].name,
-      type: "taiwan_etf",
-      market: "TW",
-      currency: "TWD",
+      type,
+      market: type === "us_etf" ? "US" : "TW",
+      currency: type === "us_etf" ? "USD" : "TWD",
       unitLabel: "股",
-      priceSource: "yahoo",
+      priceSource: type === "us_etf" ? "us_static" : "yahoo",
     },
     quote: quote(symbol, valueTWD),
     marketValueTWD: valueTWD,
@@ -44,15 +52,19 @@ describe("JSON-backed ETF component adapter", () => {
       "0050",
       "006208",
       "00878",
+      "QQQ",
+      "SPY",
+      "VOO",
     ]);
-    expect(etfComponentDatasets).toHaveLength(3);
+    expect(etfComponentDatasets).toHaveLength(6);
   });
 
   it("preserves metadata from the canonical JSON files", () => {
-    for (const symbol of ["0050", "006208", "00878"]) {
+    for (const symbol of ["0050", "006208", "00878", "VOO", "SPY", "QQQ"]) {
       const data = etfComponents[symbol];
 
       expect(data.name).toBeTruthy();
+      expect(data.market).toMatch(/^(TW|US)$/);
       expect(data.sourceNote).toBeTruthy();
       expect(data.lastUpdated).toMatch(/^\d{4}-\d{2}-\d{2}$/);
       expect(data.dataQuality).toBeTruthy();
@@ -81,5 +93,30 @@ describe("JSON-backed ETF component adapter", () => {
 
     expect(exposure?.indirectExposureTWD).toBe(9600);
     expect(exposure?.sourceEtfs).toEqual(["0050"]);
+  });
+
+  it("expands VOO through the same ETF-only lookthrough path", () => {
+    const rows = [etfRow("VOO", 100000, "us_etf")];
+    const exposure = calculateETFOnlyAggregateExposure(rows, etfComponents);
+    const nvidia = exposure.find((row) => row.symbol === "NVDA");
+    const other = exposure.find((row) => row.symbol === "OTHER");
+
+    expect(nvidia?.indirectExposureTWD).toBeCloseTo(7500);
+    expect(nvidia?.portfolioPercentage).toBeCloseTo(7.5);
+    expect(other?.name).toBe("其他");
+    expect(other?.portfolioPercentage).toBeCloseTo(62.7);
+  });
+
+  it("shows VOO single ETF composition using component-relative weights", () => {
+    const rows = [etfRow("VOO", 100000, "us_etf")];
+    const exposure = calculateSingleETFComposition(
+      rows.map((row) => row.holding),
+      rows,
+      "VOO",
+      etfComponents,
+    );
+
+    expect(exposure.find((row) => row.symbol === "NVDA")?.portfolioPercentage).toBeCloseTo(7.5);
+    expect(exposure.find((row) => row.symbol === "OTHER")?.portfolioPercentage).toBeCloseTo(62.7);
   });
 });

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "symbol": "QQQ",
+  "name": "Invesco QQQ Trust",
+  "market": "US",
+  "sourceNote": "Manual/sample US ETF top-holdings data for app lookthrough testing. Update from issuer holdings before relying on exact allocation. The unlisted remainder is represented by the app's 其他 bucket.",
+  "sourceUrl": "https://www.invesco.com/qqq-etf/en/about.html",
+  "lastUpdated": "2026-05-14",
+  "dataQuality": "sample",
+  "componentCount": 13,
+  "totalWeight": 0.543,
+  "components": [
+    { "symbol": "NVDA", "name": "NVIDIA Corporation", "weight": 0.086 },
+    { "symbol": "MSFT", "name": "Microsoft Corporation", "weight": 0.078 },
+    { "symbol": "AAPL", "name": "Apple Inc.", "weight": 0.074 },
+    { "symbol": "AMZN", "name": "Amazon.com Inc.", "weight": 0.057 },
+    { "symbol": "AVGO", "name": "Broadcom Inc.", "weight": 0.046 },
+    { "symbol": "META", "name": "Meta Platforms Inc.", "weight": 0.036 },
+    { "symbol": "TSLA", "name": "Tesla Inc.", "weight": 0.033 },
+    { "symbol": "COST", "name": "Costco Wholesale Corporation", "weight": 0.027 },
+    { "symbol": "GOOGL", "name": "Alphabet Inc. Class A", "weight": 0.025 },
+    { "symbol": "GOOG", "name": "Alphabet Inc. Class C", "weight": 0.023 },
+    { "symbol": "NFLX", "name": "Netflix Inc.", "weight": 0.022 },
+    { "symbol": "AMD", "name": "Advanced Micro Devices Inc.", "weight": 0.019 },
+    { "symbol": "PEP", "name": "PepsiCo Inc.", "weight": 0.017 }
+  ]
+}

@@ -97,6 +97,7 @@ export type ETFComponent = {
 export type ETFComponentMap = {
   [etfSymbol: string]: {
     name: string;
+    market?: Market;
     sourceNote: string;
     sourceUrl?: string;
     lastUpdated: string;

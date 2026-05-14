@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "public" / "data" / "etf-components"
 INDEX_PATH = DATA_DIR / "index.json"
 ALLOWED_DATA_QUALITY = {"sample", "manual", "verified", "stale"}
+ALLOWED_MARKETS = {"TW", "US"}
 WEIGHT_TOLERANCE = 0.000001
 STALE_DAYS = 120
 
@@ -132,8 +133,8 @@ def validate_dataset(path: Path, data: Any) -> ValidationResult:
         result.errors.append(f"{label}: symbol is required")
     if not name:
         result.errors.append(f"{label}: name is required")
-    if data.get("market") != "TW":
-        result.errors.append(f"{label}: market must be TW")
+    if data.get("market") not in ALLOWED_MARKETS:
+        result.errors.append(f"{label}: market must be one of {sorted(ALLOWED_MARKETS)}")
     if not is_valid_date(last_updated):
         result.errors.append(f"{label}: lastUpdated must be a valid YYYY-MM-DD date")
     if data_quality not in ALLOWED_DATA_QUALITY:
