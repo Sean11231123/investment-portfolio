@@ -1,56 +1,94 @@
 import {
-  Bar,
-  BarChart,
-  CartesianGrid,
+  Cell,
+  Legend,
+  Pie,
+  PieChart,
   ResponsiveContainer,
   Tooltip,
-  XAxis,
-  YAxis,
 } from "recharts";
-import type { ETFExposureRow } from "../types/portfolio";
-import { formatPercent, formatTWD } from "../utils/format";
+import type { Currency, ETFExposureRow, FxRates } from "../types/portfolio";
+import { formatDisplayMoney, formatPercent } from "../utils/format";
+import { groupSmallExposures } from "../utils/etfLookthrough";
+
+const chartColors = [
+  "#1f6f78",
+  "#d88c3a",
+  "#6b7f3f",
+  "#8a5a83",
+  "#3e668d",
+  "#9a6b3f",
+  "#4d8061",
+  "#b04f4a",
+  "#6d7488",
+  "#2f7566",
+  "#9c8f63",
+];
 
 type ETFExposureTableProps = {
+  title: string;
   rows: ETFExposureRow[];
+  displayCurrency: Currency;
+  fxRates: FxRates;
+  emptyTitle: string;
+  emptyMessage: string;
 };
 
-export function ETFExposureTable({ rows }: ETFExposureTableProps) {
+export function ETFExposureTable({
+  title,
+  rows,
+  displayCurrency,
+  fxRates,
+  emptyTitle,
+  emptyMessage,
+}: ETFExposureTableProps) {
   if (rows.length === 0) {
     return (
       <div className="rounded-md border border-dashed border-[#b6c5c9] bg-white p-8 text-center">
-        <h2 className="text-lg font-semibold">目前沒有可展開的 ETF 暴險</h2>
-        <p className="mt-2 text-sm text-[#607078]">
-          新增 0050、006208 或 00878 後，這裡會顯示樣本成分資料推算的間接暴險。
-        </p>
+        <h2 className="text-lg font-semibold">{emptyTitle}</h2>
+        <p className="mt-2 text-sm text-[#607078]">{emptyMessage}</p>
       </div>
     );
   }
 
-  const chartData = rows.slice(0, 8).map((row) => ({
-    symbol: row.symbol,
-    direct: row.directExposureTWD,
-    indirect: row.indirectExposureTWD,
-  }));
+  const chartRows = groupSmallExposures(rows, 10);
 
   return (
     <section className="space-y-4">
       <div className="rounded-md border border-[#d8e0e3] bg-white p-5">
-        <h2 className="text-lg font-semibold">ETF 展開暴險</h2>
+        <h2 className="text-lg font-semibold">{title}</h2>
         <div className="mt-4 h-80">
           <ResponsiveContainer width="100%" height="100%">
-            <BarChart data={chartData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#d8e0e3" />
-              <XAxis dataKey="symbol" />
-              <YAxis tickFormatter={(value) => `${Number(value) / 1000}k`} />
-              <Tooltip formatter={(value) => formatTWD(Number(value))} />
-              <Bar dataKey="direct" name="直接暴險" stackId="a" fill="#1f6f78" />
-              <Bar
-                dataKey="indirect"
-                name="ETF 間接暴險"
-                stackId="a"
-                fill="#d88c3a"
+            <PieChart>
+              <Pie
+                data={chartRows}
+                dataKey="portfolioPercentage"
+                nameKey="name"
+                innerRadius={72}
+                outerRadius={112}
+                paddingAngle={2}
+              >
+                {chartRows.map((row, index) => (
+                  <Cell
+                    key={row.symbol}
+                    fill={chartColors[index % chartColors.length]}
+                  />
+                ))}
+              </Pie>
+              <Tooltip
+                formatter={(_value, _name, item) => {
+                  const row = item.payload as ETFExposureRow;
+                  return [
+                    `${formatPercent(row.portfolioPercentage)} / ${formatDisplayMoney(
+                      row.totalExposureTWD,
+                      displayCurrency,
+                      fxRates,
+                    )}`,
+                    row.name,
+                  ];
+                }}
               />
-            </BarChart>
+              <Legend />
+            </PieChart>
           </ResponsiveContainer>
         </div>
       </div>
@@ -60,13 +98,10 @@ export function ETFExposureTable({ rows }: ETFExposureTableProps) {
           <table className="min-w-full divide-y divide-[#d8e0e3] text-sm">
             <thead className="bg-[#eef3f4] text-left text-[#314249]">
               <tr>
-                <Th>代號</Th>
+                <Th>標的</Th>
                 <Th>名稱</Th>
-                <Th>直接暴險 TWD</Th>
-                <Th>ETF 間接暴險 TWD</Th>
-                <Th>總暴險 TWD</Th>
                 <Th>投組占比</Th>
-                <Th>來源 ETF</Th>
+                <Th>總曝險金額</Th>
               </tr>
             </thead>
             <tbody className="divide-y divide-[#edf1f2]">
@@ -74,11 +109,14 @@ export function ETFExposureTable({ rows }: ETFExposureTableProps) {
                 <tr key={row.symbol} className="hover:bg-[#fafbfb]">
                   <Td strong>{row.symbol}</Td>
                   <Td>{row.name}</Td>
-                  <Td>{formatTWD(row.directExposureTWD)}</Td>
-                  <Td>{formatTWD(row.indirectExposureTWD)}</Td>
-                  <Td>{formatTWD(row.totalExposureTWD)}</Td>
                   <Td>{formatPercent(row.portfolioPercentage)}</Td>
-                  <Td>{row.sourceEtfs.length ? row.sourceEtfs.join(", ") : "-"}</Td>
+                  <Td>
+                    {formatDisplayMoney(
+                      row.totalExposureTWD,
+                      displayCurrency,
+                      fxRates,
+                    )}
+                  </Td>
                 </tr>
               ))}
             </tbody>

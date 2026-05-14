@@ -1,35 +1,37 @@
-import type { Holding } from "../types/portfolio";
-import { formatTWD } from "../utils/format";
+import type { Currency, FxRates, Holding } from "../types/portfolio";
+import { formatDisplayMoney } from "../utils/format";
 
 type SummaryCardsProps = {
   totalValueTWD: number;
   holdings: Holding[];
   etfCoverageCount: number;
+  unavailableCount: number;
+  displayCurrency: Currency;
+  fxRates: FxRates;
 };
 
 export function SummaryCards({
   totalValueTWD,
   holdings,
   etfCoverageCount,
+  unavailableCount,
+  displayCurrency,
+  fxRates,
 }: SummaryCardsProps) {
-  const totalCost = holdings.reduce(
-    (sum, holding) =>
-      sum +
-      (holding.avgCost !== undefined
-        ? holding.avgCost * holding.quantity
-        : 0),
-    0,
-  );
-
   return (
-    <section className="grid gap-4 md:grid-cols-3" aria-label="投資組合摘要">
-      <SummaryCard label="總市值 TWD" value={formatTWD(totalValueTWD)} />
-      <SummaryCard label="持倉數量" value={`${holdings.length}`} />
+    <section className="grid gap-4 md:grid-cols-4" aria-label="投組摘要">
       <SummaryCard
-        label="ETF 成分資料覆蓋"
-        value={`${etfCoverageCount}`}
-        helper={totalCost > 0 ? "平均成本為原幣粗估，未列入匯率換算" : undefined}
+        label={`總資產 ${displayCurrency}`}
+        value={formatDisplayMoney(totalValueTWD, displayCurrency, fxRates)}
+        helper={
+          unavailableCount > 0
+            ? "部分資產缺少價格，總值可能不完整"
+            : undefined
+        }
       />
+      <SummaryCard label="持倉數" value={`${holdings.length}`} />
+      <SummaryCard label="價格缺漏" value={`${unavailableCount}`} />
+      <SummaryCard label="ETF 展開覆蓋" value={`${etfCoverageCount}`} />
     </section>
   );
 }

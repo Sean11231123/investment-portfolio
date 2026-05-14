@@ -1,10 +1,11 @@
+import { etfComponents } from "../data/etfComponents";
+import { getAssetMetadata } from "../data/assetRegistry";
 import type {
   ETFComponentMap,
   ETFExposureRow,
   Holding,
-  PortfolioSettings,
+  HoldingValue,
 } from "../types/portfolio";
-import { getHoldingValueTWD, getTotalValueTWD } from "./portfolioCalculations";
 
 type ExposureAccumulator = {
   symbol: string;
@@ -15,35 +16,42 @@ type ExposureAccumulator = {
 };
 
 export function calculateETFExposure(
-  holdings: Holding[],
-  settings: PortfolioSettings,
-  componentMap: ETFComponentMap,
+  holdingValues: HoldingValue[],
+  componentMap: ETFComponentMap = etfComponents,
 ): ETFExposureRow[] {
   const rows = new Map<string, ExposureAccumulator>();
-  const totalPortfolioValue = getTotalValueTWD(holdings, settings);
+  const totalPortfolioValue = getTotalAvailableValue(holdingValues);
 
-  for (const holding of holdings) {
-    const symbol = normalizeSymbol(holding.symbol);
-    const valueTWD = getHoldingValueTWD(holding, settings);
-    const row = ensureRow(rows, symbol, holding.name);
-    row.directExposureTWD += valueTWD;
+  for (const row of holdingValues) {
+    if (row.marketValueTWD === null) {
+      continue;
+    }
+
+    const accumulator = ensureRow(rows, row.metadata.symbol, row.metadata.name);
+    accumulator.directExposureTWD += row.marketValueTWD;
   }
 
-  for (const holding of holdings) {
-    const etfSymbol = normalizeSymbol(holding.symbol);
-    const etfData = componentMap[etfSymbol];
+  for (const row of holdingValues) {
+    if (row.marketValueTWD === null) {
+      continue;
+    }
 
+    const etfSymbol = normalizeSymbol(row.holding.symbol);
+    const etfData = componentMap[etfSymbol];
     if (!etfData) {
       continue;
     }
 
-    const etfMarketValueTWD = getHoldingValueTWD(holding, settings);
-
     for (const component of etfData.components) {
       const componentSymbol = normalizeSymbol(component.symbol);
-      const row = ensureRow(rows, componentSymbol, component.name);
-      row.indirectExposureTWD += etfMarketValueTWD * component.weight;
-      row.sourceEtfs.add(etfSymbol);
+      const metadata = getAssetMetadata(componentSymbol);
+      const accumulator = ensureRow(
+        rows,
+        componentSymbol,
+        metadata?.name ?? component.name,
+      );
+      accumulator.indirectExposureTWD += row.marketValueTWD * component.weight;
+      accumulator.sourceEtfs.add(etfSymbol);
     }
   }
 
@@ -65,10 +73,102 @@ export function calculateETFExposure(
         sourceEtfs: Array.from(row.sourceEtfs).sort(),
       };
     })
-    .filter(
-      (row) => row.directExposureTWD > 0 || row.indirectExposureTWD > 0,
-    )
+    .filter((row) => row.totalExposureTWD > 0)
     .sort((a, b) => b.totalExposureTWD - a.totalExposureTWD);
+}
+
+export function calculateSingleETFExposure(
+  holdings: Holding[],
+  holdingValues: HoldingValue[],
+  etfSymbol: string,
+  componentMap: ETFComponentMap = etfComponents,
+): ETFExposureRow[] {
+  const normalized = normalizeSymbol(etfSymbol);
+  const etfData = componentMap[normalized];
+  if (!etfData) {
+    return [];
+  }
+
+  const totalPortfolioValue = getTotalAvailableValue(holdingValues);
+  const etfValueTWD = holdingValues
+    .filter((row) => normalizeSymbol(row.holding.symbol) === normalized)
+    .reduce((sum, row) => sum + (row.marketValueTWD ?? 0), 0);
+
+  return etfData.components
+    .map((component) => {
+      const valueTWD = etfValueTWD * component.weight;
+      const metadata = getAssetMetadata(component.symbol);
+
+      return {
+        symbol: normalizeSymbol(component.symbol),
+        name: metadata?.name ?? component.name,
+        directExposureTWD: 0,
+        indirectExposureTWD: valueTWD,
+        totalExposureTWD: valueTWD,
+        portfolioPercentage:
+          totalPortfolioValue > 0 ? (valueTWD / totalPortfolioValue) * 100 : 0,
+        sourceEtfs: [normalized],
+      };
+    })
+    .filter((row) => row.totalExposureTWD > 0)
+    .sort((a, b) => b.totalExposureTWD - a.totalExposureTWD);
+}
+
+export function getHeldEtfsWithComponents(holdingValues: HoldingValue[]) {
+  const seen = new Set<string>();
+  return holdingValues
+    .filter((row) => etfComponents[normalizeSymbol(row.holding.symbol)])
+    .filter((row) => {
+      const symbol = normalizeSymbol(row.holding.symbol);
+      if (seen.has(symbol)) {
+        return false;
+      }
+      seen.add(symbol);
+      return true;
+    })
+    .map((row) => ({
+      symbol: normalizeSymbol(row.holding.symbol),
+      name: row.metadata.name,
+      hasValue: row.marketValueTWD !== null,
+    }));
+}
+
+export function groupSmallExposures(
+  rows: ETFExposureRow[],
+  topN = 10,
+): ETFExposureRow[] {
+  if (rows.length <= topN) {
+    return rows;
+  }
+
+  const top = rows.slice(0, topN);
+  const other = rows.slice(topN).reduce(
+    (accumulator, row) => {
+      accumulator.totalExposureTWD += row.totalExposureTWD;
+      accumulator.portfolioPercentage += row.portfolioPercentage;
+      accumulator.directExposureTWD += row.directExposureTWD;
+      accumulator.indirectExposureTWD += row.indirectExposureTWD;
+      return accumulator;
+    },
+    {
+      symbol: "OTHER",
+      name: "其他",
+      totalExposureTWD: 0,
+      portfolioPercentage: 0,
+      directExposureTWD: 0,
+      indirectExposureTWD: 0,
+      sourceEtfs: [],
+    } satisfies ETFExposureRow,
+  );
+
+  return other.totalExposureTWD > 0 ? [...top, other] : top;
+}
+
+function getTotalAvailableValue(holdingValues: HoldingValue[]) {
+  return holdingValues.reduce(
+    (sum, row) => sum + (row.marketValueTWD ?? 0),
+    0,
+  );
 }
 
 function ensureRow(
@@ -76,22 +176,20 @@ function ensureRow(
   symbol: string,
   name: string,
 ) {
-  const existing = rows.get(symbol);
+  const normalized = normalizeSymbol(symbol);
+  const existing = rows.get(normalized);
   if (existing) {
-    if (!existing.name && name) {
-      existing.name = name;
-    }
     return existing;
   }
 
   const row: ExposureAccumulator = {
-    symbol,
+    symbol: normalized,
     name,
     directExposureTWD: 0,
     indirectExposureTWD: 0,
     sourceEtfs: new Set<string>(),
   };
-  rows.set(symbol, row);
+  rows.set(normalized, row);
   return row;
 }
 

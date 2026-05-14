@@ -1,29 +1,28 @@
 import type { PortfolioSettings } from "../types/portfolio";
 
-export const SETTINGS_STORAGE_KEY =
+export const SETTINGS_STORAGE_KEY_V1 =
   "modular-investment-portfolio:v1:settings";
+export const SETTINGS_STORAGE_KEY =
+  "modular-investment-portfolio:v2:settings";
 
 export const defaultSettings: PortfolioSettings = {
-  usdToTwd: 32,
-  usdtToTwd: 32,
+  displayCurrency: "TWD",
 };
 
 export function loadSettings(): PortfolioSettings {
-  if (typeof localStorage === "undefined") {
-    return defaultSettings;
+  const rawV2 = localStorage.getItem(SETTINGS_STORAGE_KEY);
+  if (rawV2) {
+    try {
+      const parsed = JSON.parse(rawV2);
+      if (validateSettings(parsed)) {
+        return parsed;
+      }
+    } catch {
+      return defaultSettings;
+    }
   }
 
-  const raw = localStorage.getItem(SETTINGS_STORAGE_KEY);
-  if (!raw) {
-    return defaultSettings;
-  }
-
-  try {
-    const parsed = JSON.parse(raw);
-    return validateSettings(parsed) ? parsed : defaultSettings;
-  } catch {
-    return defaultSettings;
-  }
+  return defaultSettings;
 }
 
 export function saveSettings(settings: PortfolioSettings) {
@@ -36,11 +35,5 @@ export function validateSettings(value: unknown): value is PortfolioSettings {
   }
 
   const settings = value as Record<string, unknown>;
-  return (
-    isPositiveNumber(settings.usdToTwd) && isPositiveNumber(settings.usdtToTwd)
-  );
-}
-
-function isPositiveNumber(value: unknown) {
-  return typeof value === "number" && Number.isFinite(value) && value > 0;
+  return ["TWD", "USD", "USDT"].includes(String(settings.displayCurrency));
 }

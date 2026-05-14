@@ -1,17 +1,24 @@
 import { useRef, useState } from "react";
-import type { Holding } from "../types/portfolio";
-import { validateHoldings } from "../storage/portfolioStorage";
+import type { Holding, PortfolioSettings } from "../types/portfolio";
+import {
+  createPortfolioExport,
+  parseImportedPortfolio,
+} from "../storage/portfolioStorage";
 
 type ImportExportPanelProps = {
   holdings: Holding[];
+  settings: PortfolioSettings;
   onImport: (holdings: Holding[]) => void;
+  onImportSettings: (settings?: PortfolioSettings) => void;
   onLoadDemo: () => void;
   onClearAll: () => void;
 };
 
 export function ImportExportPanel({
   holdings,
+  settings,
   onImport,
+  onImportSettings,
   onLoadDemo,
   onClearAll,
 }: ImportExportPanelProps) {
@@ -20,15 +27,19 @@ export function ImportExportPanel({
   const [error, setError] = useState("");
 
   function handleExport() {
-    const payload = JSON.stringify(holdings, null, 2);
+    const payload = JSON.stringify(
+      createPortfolioExport(holdings, settings),
+      null,
+      2,
+    );
     const blob = new Blob([payload], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "portfolio-backup.json";
+    link.download = "portfolio-v2-backup.json";
     link.click();
     URL.revokeObjectURL(url);
-    setMessage("已匯出 JSON 備份。");
+    setMessage("已匯出 v2 JSON 備份。");
     setError("");
   }
 
@@ -41,14 +52,21 @@ export function ImportExportPanel({
     try {
       const text = await file.text();
       const parsed = JSON.parse(text);
-      if (!validateHoldings(parsed)) {
-        setError("JSON 格式不符合持倉資料結構，未匯入。");
+      const result = parseImportedPortfolio(parsed);
+
+      if (!result.ok) {
+        setError(`JSON 格式不符合持倉資料結構，未匯入。${result.error}`);
         setMessage("");
         return;
       }
 
-      onImport(parsed);
-      setMessage("已匯入 JSON，並取代目前持倉。");
+      onImport(result.holdings);
+      onImportSettings(result.settings);
+      setMessage(
+        result.migrated
+          ? "已匯入舊版 JSON，並轉換為 v2 持倉格式。"
+          : "已匯入 v2 JSON，並取代目前持倉。",
+      );
       setError("");
     } catch {
       setError("無法讀取 JSON，請確認檔案內容有效。");
@@ -82,7 +100,7 @@ export function ImportExportPanel({
     <section className="rounded-md border border-[#d8e0e3] bg-white p-5">
       <h2 className="text-lg font-semibold">備份與資料管理</h2>
       <p className="mt-1 text-sm text-[#607078]">
-        持倉只存在你的瀏覽器 localStorage。展示資料需手動載入。
+        v2 匯出只包含使用者持倉事實；名稱、幣別、價格與匯率會重新由資料來源帶入。
       </p>
       <div className="mt-4 flex flex-wrap gap-2">
         <button

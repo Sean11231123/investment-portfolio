@@ -25,7 +25,7 @@ export function Layout({ activePage, onNavigate, children }: LayoutProps) {
               Modular Investment Portfolio
             </h1>
             <p className="mt-1 text-sm text-[#607078]">
-              瀏覽器本機儲存，手動維護價格與 ETF 成分資料
+              瀏覽器本機儲存，線上價格與匯率快取，ETF 成分仍為手動資料
             </p>
           </div>
           <nav className="flex flex-wrap gap-2" aria-label="主要導覽">
