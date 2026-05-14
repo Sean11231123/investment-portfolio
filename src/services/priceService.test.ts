@@ -290,6 +290,40 @@ describe("US static price adapter", () => {
     expect(quote.source).toBe("twse");
   });
 
+  it("reads a broad Taiwan static quote for a universe-only active ETF", async () => {
+    mockFetchJson({
+      version: 1,
+      market: "TW",
+      source: "twse-openapi-STOCK_DAY_AVG_ALL",
+      generatedAt: "2026-05-14T22:30:00.000Z",
+      tradeDate: "2026-05-13",
+      currency: "TWD",
+      quotes: {
+        "00981A": {
+          symbol: "00981A",
+          name: "主動統一台股增長",
+          price: 12.34,
+          currency: "TWD",
+          source: "twse",
+          tradeDate: "2026-05-13",
+          lastUpdated: "2026-05-14T22:30:00.000Z",
+          status: "ok",
+        },
+      },
+      errors: [],
+    });
+
+    const prices = await refreshPrices(
+      [holding("00981A", "taiwan_etf")],
+      [activeTaiwanEtfMetadata],
+    );
+
+    expect(prices["00981A"].price).toBe(12.34);
+    expect(prices["00981A"].currency).toBe("TWD");
+    expect(prices["00981A"].source).toBe("static-tw-market-json");
+    expect(prices["00981A"].status).toBe("ok");
+  });
+
   it("keeps universe-only crypto without a safe price source unavailable instead of zero", async () => {
     const prices = await refreshPrices(
       [holding("AVAX", "crypto")],

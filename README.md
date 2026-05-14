@@ -325,7 +325,13 @@ Taiwan stock/ETF prices are updated outside the frontend by:
 scripts/update_tw_prices.py
 ```
 
-The script reads symbols from:
+The script defaults to broad Taiwan coverage by reading symbols from:
+
+```text
+public/data/universe/tw-assets.json
+```
+
+The older curated config remains as a fallback if the universe file is unavailable:
 
 ```text
 scripts/market_symbols_tw.json
@@ -339,7 +345,7 @@ public/data/market/tw-prices.json
 
 This file may be committed to the repository because it contains public market data only. It must never contain personal holdings or browser `localStorage` data.
 
-The updater currently uses the TWSE OpenAPI `STOCK_DAY_AVG_ALL` endpoint. If the public source fails or a symbol is missing, the script still writes valid JSON and marks unavailable quotes with `price: null` and `status: "unavailable"`.
+The updater uses the TWSE OpenAPI `STOCK_DAY_AVG_ALL` endpoint. It writes quote entries for Taiwan stock/ETF universe symbols, uses positive TWSE prices when available, and marks missing or malformed prices with `price: null` and `status: "unavailable"`. Missing prices are never forced to zero.
 
 To refresh the searchable Taiwan universe:
 
@@ -347,7 +353,7 @@ To refresh the searchable Taiwan universe:
 npm run update:tw-universe
 ```
 
-To add Taiwan price coverage for a symbol, add it to `scripts/market_symbols_tw.json` and run:
+To refresh broad Taiwan price coverage, run:
 
 ```bash
 python scripts/update_tw_prices.py
