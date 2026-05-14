@@ -35,5 +35,32 @@ export function validateSettings(value: unknown): value is PortfolioSettings {
   }
 
   const settings = value as Record<string, unknown>;
-  return ["TWD", "USD", "USDT"].includes(String(settings.displayCurrency));
+  return (
+    ["TWD", "USD", "USDT"].includes(String(settings.displayCurrency)) &&
+    validateBackupMetadata(settings.backup)
+  );
+}
+
+function validateBackupMetadata(value: unknown) {
+  if (value === undefined) {
+    return true;
+  }
+
+  if (!value || typeof value !== "object") {
+    return false;
+  }
+
+  const backup = value as Record<string, unknown>;
+  return (
+    optionalString(backup.lastExportedAt) &&
+    optionalString(backup.lastImportedAt) &&
+    (backup.lastImportHoldingCount === undefined ||
+      (typeof backup.lastImportHoldingCount === "number" &&
+        Number.isInteger(backup.lastImportHoldingCount) &&
+        backup.lastImportHoldingCount >= 0))
+  );
+}
+
+function optionalString(value: unknown) {
+  return value === undefined || typeof value === "string";
 }

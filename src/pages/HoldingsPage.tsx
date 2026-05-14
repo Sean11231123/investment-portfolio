@@ -20,6 +20,7 @@ type HoldingsPageProps = {
   onDeleteHolding: (id: string) => void;
   onImportHoldings: (holdings: Holding[]) => void;
   onImportSettings: (settings?: PortfolioSettings) => void;
+  onUpdateSettings: (settings: PortfolioSettings) => void;
   onLoadDemo: () => void;
   onClearAll: () => void;
   onRefreshPrices: () => void;
@@ -35,6 +36,7 @@ export function HoldingsPage({
   onDeleteHolding,
   onImportHoldings,
   onImportSettings,
+  onUpdateSettings,
   onLoadDemo,
   onClearAll,
   onRefreshPrices,
@@ -72,6 +74,7 @@ export function HoldingsPage({
         settings={settings}
         onImport={onImportHoldings}
         onImportSettings={onImportSettings}
+        onUpdateSettings={onUpdateSettings}
         onLoadDemo={onLoadDemo}
         onClearAll={onClearAll}
       />

@@ -46,7 +46,7 @@ function App() {
   const [priceRefreshing, setPriceRefreshing] = useState(false);
   const [migrationMessage] = useState(() => {
     return initialLoadResult.migrated
-      ? "已將舊版 localStorage 持倉轉換為 v2 格式。"
+      ? "已將舊版 localStorage 持倉遷移為 v2 格式。"
       : initialLoadResult.migrationWarnings[0] ?? "";
   });
 
@@ -92,7 +92,7 @@ function App() {
   }
 
   function handleDeleteHolding(id: string) {
-    if (window.confirm("確定刪除此持倉嗎？")) {
+    if (window.confirm("確定要刪除此持倉？")) {
       setHoldings((current) => current.filter((holding) => holding.id !== id));
     }
   }
@@ -158,6 +158,7 @@ function App() {
           onImportSettings={(nextSettings) =>
             nextSettings ? setSettings(nextSettings) : undefined
           }
+          onUpdateSettings={setSettings}
           onLoadDemo={handleLoadDemo}
           onClearAll={handleClearAll}
           onRefreshPrices={handleRefreshPrices}
@@ -173,9 +174,11 @@ function App() {
       ) : null}
       {activePage === "settings" ? (
         <SettingsPage
+          holdings={holdings}
           settings={settings}
           fxRates={fxRates}
           onSaveSettings={setSettings}
+          onImportHoldings={handleImportHoldings}
           onRefreshFx={handleRefreshFx}
         />
       ) : null}

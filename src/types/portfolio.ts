@@ -46,6 +46,11 @@ export type AssetMetadata = {
 
 export type PortfolioSettings = {
   displayCurrency: Currency;
+  backup?: {
+    lastExportedAt?: string;
+    lastImportedAt?: string;
+    lastImportHoldingCount?: number;
+  };
 };
 
 export type FxRates = {
