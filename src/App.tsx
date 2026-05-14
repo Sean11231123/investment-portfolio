@@ -21,7 +21,9 @@ import {
   refreshPrices,
   savePriceCache,
 } from "./services/priceService";
+import { loadAssetUniverse } from "./services/universeService";
 import type {
+  AssetMetadata,
   FxRates,
   Holding,
   PortfolioSettings,
@@ -43,6 +45,7 @@ function App() {
   const [priceCache, setPriceCache] = useState<Record<string, PriceQuote>>(() =>
     loadCachedPrices(),
   );
+  const [universeAssets, setUniverseAssets] = useState<AssetMetadata[]>([]);
   const [priceRefreshing, setPriceRefreshing] = useState(false);
   const [migrationMessage] = useState(() => {
     return initialLoadResult.migrated
@@ -68,12 +71,26 @@ function App() {
   }, []);
 
   useEffect(() => {
+    let cancelled = false;
+
+    loadAssetUniverse().then((result) => {
+      if (!cancelled) {
+        setUniverseAssets(result.assets);
+      }
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
     if (holdings.length === 0) {
       return;
     }
 
     handleRefreshPrices();
-  }, [holdings]);
+  }, [holdings, universeAssets]);
 
   function handleUpsertHolding(nextHolding: Holding) {
     setHoldings((current) => {
@@ -119,7 +136,7 @@ function App() {
   async function handleRefreshPrices() {
     setPriceRefreshing(true);
     try {
-      const next = await refreshPrices(holdings);
+      const next = await refreshPrices(holdings, universeAssets);
       savePriceCache(next);
       setPriceCache(next);
     } finally {
@@ -137,6 +154,7 @@ function App() {
             fxRates={fxRates}
             priceCache={priceCache}
             priceRefreshing={priceRefreshing}
+            universeAssets={universeAssets}
             onRefreshPrices={handleRefreshPrices}
           />
         );
@@ -149,6 +167,7 @@ function App() {
             fxRates={fxRates}
             priceCache={priceCache}
             priceRefreshing={priceRefreshing}
+            universeAssets={universeAssets}
             onUpsertHolding={handleUpsertHolding}
             onDeleteHolding={handleDeleteHolding}
             onImportHoldings={handleImportHoldings}
@@ -169,6 +188,7 @@ function App() {
             settings={settings}
             fxRates={fxRates}
             priceCache={priceCache}
+            universeAssets={universeAssets}
           />
         );
 

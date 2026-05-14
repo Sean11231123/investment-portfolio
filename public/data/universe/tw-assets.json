@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "market": "TW",
+  "source": "phase-5b-seed",
+  "generatedAt": "2026-05-14T00:00:00.000Z",
+  "assets": [
+    {
+      "symbol": "0052",
+      "name": "富邦科技",
+      "type": "taiwan_etf",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "yahoo",
+      "aliases": ["富邦科技 ETF", "Fubon Technology ETF"],
+      "exchange": "TWSE",
+      "source": "phase-5b-seed",
+      "sourceSymbol": "0052",
+      "isETF": true,
+      "dataQuality": "seed"
+    },
+    {
+      "symbol": "2603",
+      "name": "長榮",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "yahoo",
+      "aliases": ["長榮海運", "Evergreen Marine"],
+      "exchange": "TWSE",
+      "source": "phase-5b-seed",
+      "sourceSymbol": "2603",
+      "isETF": false,
+      "dataQuality": "seed"
+    }
+  ],
+  "errors": []
+}

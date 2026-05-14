@@ -1,8 +1,8 @@
 import {
   assetTypeLabels,
-  getAssetMetadata,
   getFallbackMetadata,
 } from "../data/assetRegistry";
+import { getResolvedAssetMetadata } from "../data/assetResolver";
 import { getFxRateToTWD } from "../services/fxService";
 import { getQuoteForHolding } from "../services/priceService";
 import type {
@@ -25,11 +25,12 @@ export function getHoldingValue(
   holding: Holding,
   fxRates: FxRates,
   priceCache: Record<string, PriceQuote>,
+  universeAssets: AssetMetadata[] = [],
 ): HoldingValue {
   const metadata =
-    getAssetMetadata(holding.symbol, holding.type) ??
+    getResolvedAssetMetadata(holding.symbol, holding.type, universeAssets) ??
     getFallbackMetadata(holding.symbol, holding.type);
-  const quote = getQuoteForHolding(holding, priceCache);
+  const quote = getQuoteForHolding(holding, priceCache, universeAssets);
   const marketValueTWD =
     quote.price === null
       ? null
@@ -63,9 +64,10 @@ export function getPortfolioValuation(
   holdings: Holding[],
   fxRates: FxRates,
   priceCache: Record<string, PriceQuote>,
+  universeAssets: AssetMetadata[] = [],
 ): PortfolioValuation {
   const holdingValues = holdings.map((holding) =>
-    getHoldingValue(holding, fxRates, priceCache),
+    getHoldingValue(holding, fxRates, priceCache, universeAssets),
   );
   const totalValueTWD = holdingValues.reduce(
     (total, row) => total + (row.marketValueTWD ?? 0),
@@ -120,9 +122,12 @@ export function getAllocationBy(
     .sort((a, b) => b.valueTWD - a.valueTWD);
 }
 
-export function getMetadataForHolding(holding: Holding): AssetMetadata {
+export function getMetadataForHolding(
+  holding: Holding,
+  universeAssets: AssetMetadata[] = [],
+): AssetMetadata {
   return (
-    getAssetMetadata(holding.symbol, holding.type) ??
+    getResolvedAssetMetadata(holding.symbol, holding.type, universeAssets) ??
     getFallbackMetadata(holding.symbol, holding.type)
   );
 }

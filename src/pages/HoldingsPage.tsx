@@ -4,6 +4,7 @@ import { HoldingsTable } from "../components/HoldingsTable";
 import { ImportExportPanel } from "../components/ImportExportPanel";
 import { AppButton } from "../components/ui";
 import type {
+  AssetMetadata,
   FxRates,
   Holding,
   PortfolioSettings,
@@ -17,6 +18,7 @@ type HoldingsPageProps = {
   fxRates: FxRates;
   priceCache: Record<string, PriceQuote>;
   priceRefreshing: boolean;
+  universeAssets?: AssetMetadata[];
   onUpsertHolding: (holding: Holding) => void;
   onDeleteHolding: (id: string) => void;
   onImportHoldings: (holdings: Holding[]) => void;
@@ -33,6 +35,7 @@ export function HoldingsPage({
   fxRates,
   priceCache,
   priceRefreshing,
+  universeAssets = [],
   onUpsertHolding,
   onDeleteHolding,
   onImportHoldings,
@@ -44,8 +47,8 @@ export function HoldingsPage({
 }: HoldingsPageProps) {
   const [editingHolding, setEditingHolding] = useState<Holding | null>(null);
   const valuation = useMemo(
-    () => getPortfolioValuation(holdings, fxRates, priceCache),
-    [holdings, fxRates, priceCache],
+    () => getPortfolioValuation(holdings, fxRates, priceCache, universeAssets),
+    [holdings, fxRates, priceCache, universeAssets],
   );
 
   function handleSubmit(holding: Holding) {
@@ -57,6 +60,7 @@ export function HoldingsPage({
     <div className="space-y-6">
       <HoldingForm
         editingHolding={editingHolding}
+        universeAssets={universeAssets}
         onSubmit={handleSubmit}
         onCancelEdit={() => setEditingHolding(null)}
       />

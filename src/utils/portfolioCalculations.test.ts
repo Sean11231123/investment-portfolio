@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import type { FxRates, Holding, PriceQuote } from "../types/portfolio";
+import type { AssetMetadata, FxRates, Holding, PriceQuote } from "../types/portfolio";
 import {
   getAllocationBy,
   getHoldingValue,
@@ -13,6 +13,7 @@ const fxRates: FxRates = {
   lastUpdated: "2026-05-14T00:00:00.000Z",
   status: "ok",
 };
+const stockUnit = "股" as AssetMetadata["unitLabel"];
 
 function quote(
   symbol: string,
@@ -140,5 +141,29 @@ describe("portfolio valuation", () => {
     expect(withoutCost.costBasisTWD).toBeNull();
     expect(withoutCost.pnlTWD).toBeNull();
     expect(withoutCost.pnlPercent).toBeNull();
+  });
+
+  it("uses universe metadata for holdings outside the built-in registry", () => {
+    const universeAssets: AssetMetadata[] = [
+      {
+        symbol: "AMD",
+        name: "Advanced Micro Devices, Inc.",
+        type: "us_stock",
+        market: "US",
+        currency: "USD",
+        unitLabel: stockUnit,
+        priceSource: "us_static",
+      },
+    ];
+    const row = getHoldingValue(
+      holding({ id: "amd", type: "us_stock", symbol: "AMD", quantity: 2 }),
+      fxRates,
+      { AMD: quote("AMD", null, "USD") },
+      universeAssets,
+    );
+
+    expect(row.metadata.name).toBe("Advanced Micro Devices, Inc.");
+    expect(row.metadata.market).toBe("US");
+    expect(row.marketValueTWD).toBeNull();
   });
 });

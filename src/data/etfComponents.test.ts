@@ -73,17 +73,25 @@ describe("JSON-backed ETF component adapter", () => {
     }
   });
 
-  it("loads generated SPY metadata from the automated US ETF component pipeline", () => {
-    const data = etfComponents.SPY;
+  it("loads generated US ETF metadata from the automated component pipeline", () => {
+    const expectations = [
+      ["SPY", "ssga_xlsx", 100],
+      ["VOO", "vanguard_json", 100],
+      ["QQQ", "invesco_json", 50],
+    ] as const;
 
-    expect(data.market).toBe("US");
-    expect(data.source).toBe("automated-us-etf-components");
-    expect(data.sourceType).toBe("ssga_xlsx");
-    expect(data.asOfDate).toMatch(/^\d{4}-\d{2}-\d{2}$/);
-    expect(data.dataQuality).toBe("official");
-    expect(data.components.length).toBeGreaterThan(100);
-    expect(data.totalWeight).toBeGreaterThan(0.9);
-    expect(data.totalWeight).toBeLessThanOrEqual(1.01);
+    for (const [symbol, sourceType, minimumComponents] of expectations) {
+      const data = etfComponents[symbol];
+
+      expect(data.market).toBe("US");
+      expect(data.source).toBe("automated-us-etf-components");
+      expect(data.sourceType).toBe(sourceType);
+      expect(data.asOfDate).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      expect(data.dataQuality).toBe("official");
+      expect(data.components.length).toBeGreaterThan(minimumComponents);
+      expect(data.totalWeight).toBeGreaterThan(0.9);
+      expect(data.totalWeight).toBeLessThanOrEqual(1.01);
+    }
   });
 
   it("loads non-empty positive component weights", () => {
@@ -111,13 +119,19 @@ describe("JSON-backed ETF component adapter", () => {
   it("expands VOO through the same ETF-only lookthrough path", () => {
     const rows = [etfRow("VOO", 100000, "us_etf")];
     const exposure = calculateETFOnlyAggregateExposure(rows, etfComponents);
+    const nvidiaWeight = etfComponents.VOO.components.find(
+      (component) => component.symbol === "NVDA",
+    )?.weight;
     const nvidia = exposure.find((row) => row.symbol === "NVDA");
     const other = exposure.find((row) => row.symbol === "OTHER");
 
-    expect(nvidia?.indirectExposureTWD).toBeCloseTo(7500);
-    expect(nvidia?.portfolioPercentage).toBeCloseTo(7.5);
+    expect(nvidiaWeight).toBeGreaterThan(0);
+    expect(nvidia?.indirectExposureTWD).toBeCloseTo((nvidiaWeight ?? 0) * 100000);
+    expect(nvidia?.portfolioPercentage).toBeCloseTo((nvidiaWeight ?? 0) * 100);
     expect(other?.name).toBe("其他");
-    expect(other?.portfolioPercentage).toBeCloseTo(62.7);
+    expect(other?.portfolioPercentage).toBeCloseTo(
+      Math.max(0, 1 - (etfComponents.VOO.totalWeight ?? 0)) * 100,
+    );
   });
 
   it("shows VOO single ETF composition using component-relative weights", () => {
@@ -128,8 +142,13 @@ describe("JSON-backed ETF component adapter", () => {
       "VOO",
       etfComponents,
     );
+    const nvidiaWeight = etfComponents.VOO.components.find(
+      (component) => component.symbol === "NVDA",
+    )?.weight;
 
-    expect(exposure.find((row) => row.symbol === "NVDA")?.portfolioPercentage).toBeCloseTo(7.5);
-    expect(exposure.find((row) => row.symbol === "OTHER")?.portfolioPercentage).toBeCloseTo(62.7);
+    expect(exposure.find((row) => row.symbol === "NVDA")?.portfolioPercentage).toBeCloseTo((nvidiaWeight ?? 0) * 100);
+    expect(exposure.find((row) => row.symbol === "OTHER")?.portfolioPercentage).toBeCloseTo(
+      Math.max(0, 1 - (etfComponents.VOO.totalWeight ?? 0)) * 100,
+    );
   });
 });

@@ -58,6 +58,10 @@ def main() -> int:
         try:
             if source_type == "ssga_xlsx":
                 result = fetch_ssga_xlsx(etf)
+            elif source_type == "invesco_json":
+                result = fetch_invesco_json(etf)
+            elif source_type == "vanguard_json":
+                result = fetch_vanguard_json(etf)
             else:
                 raise ValueError(f"unsupported sourceType {source_type!r}")
 
@@ -128,6 +132,38 @@ def fetch_ssga_xlsx(etf: dict[str, Any]) -> FetchResult:
     )
 
 
+def fetch_invesco_json(etf: dict[str, Any]) -> FetchResult:
+    symbol = require_string(etf, "symbol").upper()
+    name = require_string(etf, "name")
+    source_url = require_string(etf, "sourceUrl")
+    data = fetch_json(source_url)
+    return FetchResult(
+        symbol=symbol,
+        name=name,
+        source_url=source_url,
+        source_type="invesco_json",
+        data_quality=require_string(etf, "dataQualityOnSuccess") or "official",
+        as_of_date=parse_iso_date(data.get("effectiveBusinessDate") or data.get("effectiveDate")),
+        components=parse_invesco_holdings(data),
+    )
+
+
+def fetch_vanguard_json(etf: dict[str, Any]) -> FetchResult:
+    symbol = require_string(etf, "symbol").upper()
+    name = require_string(etf, "name")
+    source_url = require_string(etf, "sourceUrl")
+    data = fetch_json(source_url)
+    return FetchResult(
+        symbol=symbol,
+        name=name,
+        source_url=source_url,
+        source_type="vanguard_json",
+        data_quality=require_string(etf, "dataQualityOnSuccess") or "official",
+        as_of_date=parse_iso_date(data.get("asOfDate")),
+        components=parse_vanguard_holdings(data),
+    )
+
+
 def fetch_bytes(url: str) -> bytes:
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
@@ -135,6 +171,14 @@ def fetch_bytes(url: str) -> bytes:
             return response.read()
     except urllib.error.URLError as exc:
         raise RuntimeError(f"failed to fetch {url}: {exc}") from exc
+
+
+def fetch_json(url: str) -> dict[str, Any]:
+    data = fetch_bytes(url)
+    parsed = json.loads(data.decode("utf-8"))
+    if not isinstance(parsed, dict):
+        raise ValueError(f"JSON response from {url} must be an object")
+    return parsed
 
 
 def read_xlsx_rows(data: bytes) -> list[list[str]]:
@@ -286,6 +330,58 @@ def parse_holding_rows(
     return components
 
 
+def parse_invesco_holdings(data: dict[str, Any]) -> list[Component]:
+    holdings = data.get("holdings")
+    if not isinstance(holdings, list):
+        raise ValueError("Invesco JSON missing holdings array")
+
+    components: list[Component] = []
+    seen: set[str] = set()
+    for holding in holdings:
+        if not isinstance(holding, dict):
+            continue
+        symbol = string_value(holding.get("ticker")).upper()
+        name = string_value(holding.get("issuerName"))
+        weight = number_value(holding.get("percentageOfTotalNetAssets")) / 100
+        if not symbol or not name or weight <= 0:
+            continue
+        if symbol in seen:
+            continue
+        seen.add(symbol)
+        components.append(Component(symbol=symbol, name=name, weight=round(weight, 8)))
+
+    if not components:
+        raise ValueError("no valid Invesco holding rows found")
+    return components
+
+
+def parse_vanguard_holdings(data: dict[str, Any]) -> list[Component]:
+    fund = data.get("fund")
+    holdings = fund.get("entity") if isinstance(fund, dict) else None
+    if not isinstance(holdings, list):
+        raise ValueError("Vanguard JSON missing fund.entity holdings array")
+
+    components: list[Component] = []
+    seen: set[str] = set()
+    for holding in holdings:
+        if not isinstance(holding, dict):
+            continue
+        symbol = string_value(holding.get("ticker")).upper()
+        name = string_value(holding.get("longName") or holding.get("shortName"))
+        weight_text = string_value(holding.get("percentWeight"))
+        weight = parse_weight(weight_text, numeric_weight_is_percent=True) if weight_text else 0
+        if not symbol or not name or weight <= 0:
+            continue
+        if symbol in seen:
+            continue
+        seen.add(symbol)
+        components.append(Component(symbol=symbol, name=name, weight=round(weight, 8)))
+
+    if not components:
+        raise ValueError("no valid Vanguard holding rows found")
+    return components
+
+
 def find_header(rows: list[list[str]]) -> tuple[int, dict[str, int]]:
     for index, row in enumerate(rows):
         normalized = [normalize_header(cell) for cell in row]
@@ -320,6 +416,34 @@ def parse_weight(value: str, numeric_weight_is_percent: bool = False) -> float:
     if numeric_weight_is_percent:
         return numeric / 100
     return numeric / 100 if numeric > 1 else numeric
+
+
+def parse_iso_date(value: Any) -> str | None:
+    if not isinstance(value, str) or not value.strip():
+        return None
+    text = value.strip()
+    try:
+        return datetime.fromisoformat(text.replace("Z", "+00:00")).date().isoformat()
+    except ValueError:
+        try:
+            return date.fromisoformat(text).isoformat()
+        except ValueError:
+            return None
+
+
+def string_value(value: Any) -> str:
+    return value.strip() if isinstance(value, str) else ""
+
+
+def number_value(value: Any) -> float:
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        return float(value)
+    if isinstance(value, str) and value.strip():
+        try:
+            return float(value.strip().replace(",", ""))
+        except ValueError:
+            return 0.0
+    return 0.0
 
 
 def validate_fetch_result(result: FetchResult) -> None:

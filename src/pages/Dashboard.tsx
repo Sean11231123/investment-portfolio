@@ -5,6 +5,7 @@ import { MarketDataStatusCard } from "../components/MarketDataStatusCard";
 import { SummaryCards } from "../components/SummaryCards";
 import { AppButton, EmptyState } from "../components/ui";
 import type {
+  AssetMetadata,
   FxRates,
   Holding,
   PortfolioSettings,
@@ -28,6 +29,7 @@ type DashboardProps = {
   fxRates: FxRates;
   priceCache: Record<string, PriceQuote>;
   priceRefreshing: boolean;
+  universeAssets?: AssetMetadata[];
   onRefreshPrices: () => void;
 };
 
@@ -37,9 +39,15 @@ export function Dashboard({
   fxRates,
   priceCache,
   priceRefreshing,
+  universeAssets = [],
   onRefreshPrices,
 }: DashboardProps) {
-  const valuation = getPortfolioValuation(holdings, fxRates, priceCache);
+  const valuation = getPortfolioValuation(
+    holdings,
+    fxRates,
+    priceCache,
+    universeAssets,
+  );
   const etfHoldingCount = valuation.holdingValues.filter((row) =>
     isETFAssetType(row.metadata.type),
   ).length;

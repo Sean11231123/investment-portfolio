@@ -1,14 +1,17 @@
 import { useEffect, useMemo, useState } from "react";
 import {
   assetTypeLabels,
-  getAssetMetadata,
-  searchAssets,
 } from "../data/assetRegistry";
+import {
+  getResolvedAssetMetadata,
+  searchResolvedAssets,
+} from "../data/assetResolver";
 import type { AssetMetadata, AssetType, Holding } from "../types/portfolio";
 import { AppButton, AppCard, appInput, appMutedSurface, FieldShell, SectionHeader } from "./ui";
 
 type HoldingFormProps = {
   editingHolding?: Holding | null;
+  universeAssets?: AssetMetadata[];
   onSubmit: (holding: Holding) => void;
   onCancelEdit: () => void;
 };
@@ -33,6 +36,7 @@ const emptyForm: FormState = {
 
 export function HoldingForm({
   editingHolding,
+  universeAssets = [],
   onSubmit,
   onCancelEdit,
 }: HoldingFormProps) {
@@ -48,7 +52,11 @@ export function HoldingForm({
       return;
     }
 
-    const metadata = getAssetMetadata(editingHolding.symbol, editingHolding.type);
+    const metadata = getResolvedAssetMetadata(
+      editingHolding.symbol,
+      editingHolding.type,
+      universeAssets,
+    );
     setSelectedAsset(metadata ?? null);
     setForm({
       type: editingHolding.type,
@@ -64,11 +72,15 @@ export function HoldingForm({
       note: editingHolding.note ?? "",
     });
     setError("");
-  }, [editingHolding]);
+  }, [editingHolding, universeAssets]);
 
   const suggestions = useMemo(
-    () => searchAssets(form.query, form.type),
-    [form.query, form.type],
+    () =>
+      searchResolvedAssets(form.query, {
+        type: form.type,
+        universeAssets,
+      }),
+    [form.query, form.type, universeAssets],
   );
   const quantityLabel = getQuantityLabel(selectedAsset?.type ?? form.type);
   const submitLabel = editingHolding ? "儲存持倉" : "新增持倉";

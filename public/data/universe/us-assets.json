@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "market": "US",
+  "source": "phase-5b-seed",
+  "generatedAt": "2026-05-14T00:00:00.000Z",
+  "assets": [
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": ["Advanced Micro Devices"],
+      "exchange": "NASDAQ",
+      "source": "phase-5b-seed",
+      "sourceSymbol": "AMD",
+      "stooqSymbol": "amd.us",
+      "isETF": false,
+      "dataQuality": "seed"
+    },
+    {
+      "symbol": "SCHD",
+      "name": "Schwab U.S. Dividend Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": ["Schwab Dividend ETF"],
+      "exchange": "NYSEARCA",
+      "source": "phase-5b-seed",
+      "sourceSymbol": "SCHD",
+      "stooqSymbol": "schd.us",
+      "isETF": true,
+      "dataQuality": "seed"
+    },
+    {
+      "symbol": "IWM",
+      "name": "iShares Russell 2000 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": ["Russell 2000"],
+      "exchange": "NYSEARCA",
+      "source": "phase-5b-seed",
+      "sourceSymbol": "IWM",
+      "stooqSymbol": "iwm.us",
+      "isETF": true,
+      "dataQuality": "seed"
+    },
+    {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": ["Treasury Bond ETF"],
+      "exchange": "NASDAQ",
+      "source": "phase-5b-seed",
+      "sourceSymbol": "TLT",
+      "stooqSymbol": "tlt.us",
+      "isETF": true,
+      "dataQuality": "seed"
+    }
+  ],
+  "errors": []
+}

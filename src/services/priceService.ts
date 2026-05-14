@@ -1,4 +1,4 @@
-import { assetRegistry, getAssetMetadata } from "../data/assetRegistry";
+import { getResolvedAssetMetadata } from "../data/assetResolver";
 import type {
   AssetMetadata,
   Currency,
@@ -85,13 +85,23 @@ export function savePriceCache(cache: PriceCache) {
   localStorage.setItem(PRICE_CACHE_KEY, JSON.stringify(cache));
 }
 
-export async function refreshPrices(holdings: Holding[]): Promise<PriceCache> {
+export async function refreshPrices(
+  holdings: Holding[],
+  universeAssets: AssetMetadata[] = [],
+): Promise<PriceCache> {
   const cached = loadCachedPrices();
   const next: PriceCache = { ...cached };
-  const symbols = Array.from(new Set(holdings.map((holding) => holding.symbol)));
-  const metadataBySymbol = symbols
-    .map((symbol) => getAssetMetadata(symbol))
-    .filter((metadata): metadata is AssetMetadata => Boolean(metadata));
+  const metadataBySymbol = dedupeMetadata(
+    holdings
+      .map((holding) =>
+        getResolvedAssetMetadata(
+          holding.symbol,
+          holding.type,
+          universeAssets,
+        ),
+      )
+      .filter((metadata): metadata is AssetMetadata => Boolean(metadata)),
+  );
 
   for (const metadata of metadataBySymbol.filter(
     (asset) => asset.priceSource === "cash",
@@ -119,8 +129,13 @@ export async function refreshPrices(holdings: Holding[]): Promise<PriceCache> {
 export function getQuoteForHolding(
   holding: Holding,
   priceCache: PriceCache,
+  universeAssets: AssetMetadata[] = [],
 ): PriceQuote {
-  const metadata = getAssetMetadata(holding.symbol, holding.type);
+  const metadata = getResolvedAssetMetadata(
+    holding.symbol,
+    holding.type,
+    universeAssets,
+  );
   if (!metadata) {
     return unavailableQuote(
       holding.symbol,
@@ -146,6 +161,7 @@ export function getQuoteForHolding(
       metadata.symbol,
       metadata.priceSource,
       getUnavailablePriceMessage(metadata),
+      metadata.currency,
     )
   );
 }
@@ -329,7 +345,7 @@ function fallbackQuote(asset: AssetMetadata, cache: PriceCache, error: string) {
     };
   }
 
-  return unavailableQuote(asset.symbol, asset.priceSource, error);
+  return unavailableQuote(asset.symbol, asset.priceSource, error, asset.currency);
 }
 
 function getUnavailablePriceMessage(metadata: AssetMetadata) {
@@ -382,12 +398,16 @@ function getStaticUsError(
   return "靜態美股 / 美股 ETF 市場資料沒有此代號的可用價格。";
 }
 
-function unavailableQuote(symbol: string, source: string, error: string): PriceQuote {
-  const metadata = assetRegistry.find((asset) => asset.symbol === symbol);
+function unavailableQuote(
+  symbol: string,
+  source: string,
+  error: string,
+  currency: Currency = "TWD",
+): PriceQuote {
   return {
     symbol,
     price: null,
-    currency: metadata?.currency ?? "TWD",
+    currency,
     source,
     status: "unavailable",
     error,
@@ -424,6 +444,14 @@ function isStaticUsPriceFile(value: unknown): value is StaticUsPriceFile {
     typeof candidate.generatedAt === "string" &&
     typeof candidate.quotes === "object"
   );
+}
+
+function dedupeMetadata(metadata: AssetMetadata[]) {
+  const byKey = new Map<string, AssetMetadata>();
+  for (const asset of metadata) {
+    byKey.set(`${asset.market}:${asset.type}:${asset.symbol}`, asset);
+  }
+  return Array.from(byKey.values());
 }
 
 function getErrorMessage(error: unknown) {

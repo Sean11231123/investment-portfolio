@@ -3,6 +3,7 @@ import { ETFExposureTable } from "../components/ETFExposureTable";
 import { AppCard, appInput, appMutedSurface, SectionHeader } from "../components/ui";
 import { etfComponents } from "../data/etfComponents";
 import type {
+  AssetMetadata,
   FxRates,
   Holding,
   HoldingValue,
@@ -21,6 +22,7 @@ type ETFExposurePageProps = {
   settings: PortfolioSettings;
   fxRates: FxRates;
   priceCache: Record<string, PriceQuote>;
+  universeAssets?: AssetMetadata[];
 };
 
 export function ETFExposurePage({
@@ -28,10 +30,11 @@ export function ETFExposurePage({
   settings,
   fxRates,
   priceCache,
+  universeAssets = [],
 }: ETFExposurePageProps) {
   const valuation = useMemo(
-    () => getPortfolioValuation(holdings, fxRates, priceCache),
-    [holdings, fxRates, priceCache],
+    () => getPortfolioValuation(holdings, fxRates, priceCache, universeAssets),
+    [holdings, fxRates, priceCache, universeAssets],
   );
   const aggregateRows = calculateETFOnlyAggregateExposure(
     valuation.holdingValues,

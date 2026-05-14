@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "market": "CRYPTO",
+  "source": "phase-5b-seed",
+  "generatedAt": "2026-05-14T00:00:00.000Z",
+  "assets": [
+    {
+      "symbol": "SUI",
+      "name": "Sui",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USD",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": ["Sui Network"],
+      "source": "phase-5b-seed",
+      "sourceSymbol": "SUI",
+      "coingeckoId": "sui",
+      "binanceSymbol": "SUIUSDT",
+      "isETF": false,
+      "dataQuality": "seed"
+    },
+    {
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USD",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": ["Arbitrum One"],
+      "source": "phase-5b-seed",
+      "sourceSymbol": "ARB",
+      "coingeckoId": "arbitrum",
+      "binanceSymbol": "ARBUSDT",
+      "isETF": false,
+      "dataQuality": "seed"
+    },
+    {
+      "symbol": "OP",
+      "name": "Optimism",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USD",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": ["Optimism Network"],
+      "source": "phase-5b-seed",
+      "sourceSymbol": "OP",
+      "coingeckoId": "optimism",
+      "binanceSymbol": "OPUSDT",
+      "isETF": false,
+      "dataQuality": "seed"
+    }
+  ],
+  "errors": []
+}

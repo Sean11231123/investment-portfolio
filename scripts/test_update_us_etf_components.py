@@ -60,6 +60,52 @@ class USETFComponentUpdaterTests(unittest.TestCase):
         self.assertEqual(data["dataQuality"], "partial")
         self.assertEqual(data["componentCount"], 2)
 
+    def test_parses_invesco_json_holdings(self) -> None:
+        components = updater.parse_invesco_holdings(
+            {
+                "holdings": [
+                    {
+                        "ticker": "QQQ",
+                        "issuerName": "Example Inc",
+                        "percentageOfTotalNetAssets": 6.5,
+                    },
+                    {
+                        "ticker": "CASH",
+                        "issuerName": "Cash",
+                        "percentageOfTotalNetAssets": 0,
+                    },
+                ],
+            },
+        )
+
+        self.assertEqual(len(components), 1)
+        self.assertEqual(components[0].symbol, "QQQ")
+        self.assertAlmostEqual(components[0].weight, 0.065)
+
+    def test_parses_vanguard_json_holdings(self) -> None:
+        components = updater.parse_vanguard_holdings(
+            {
+                "fund": {
+                    "entity": [
+                        {
+                            "ticker": "VOO",
+                            "longName": "Example Corp.",
+                            "percentWeight": "7.58",
+                        },
+                        {
+                            "ticker": "ZERO",
+                            "longName": "Zero Weight Corp.",
+                            "percentWeight": "0.00",
+                        },
+                    ],
+                },
+            },
+        )
+
+        self.assertEqual(len(components), 1)
+        self.assertEqual(components[0].symbol, "VOO")
+        self.assertAlmostEqual(components[0].weight, 0.0758)
+
     def test_fetch_failure_does_not_overwrite_existing_json(self) -> None:
         temp_dir = tempfile.TemporaryDirectory()
         self.addCleanup(temp_dir.cleanup)
@@ -69,12 +115,12 @@ class USETFComponentUpdaterTests(unittest.TestCase):
         config_path = root / "scripts" / "market_etfs_us.json"
         config_path.parent.mkdir()
         index_path = data_dir / "index.json"
-        spy_path = data_dir / "SPY.json"
+        qqq_path = data_dir / "QQQ.json"
 
-        existing = {"version": 1, "symbol": "SPY", "name": "Existing SPY"}
-        spy_path.write_text(json.dumps(existing), encoding="utf-8")
+        existing = {"version": 1, "symbol": "QQQ", "name": "Existing QQQ"}
+        qqq_path.write_text(json.dumps(existing), encoding="utf-8")
         index_path.write_text(
-            json.dumps({"version": 1, "datasets": ["SPY.json"]}),
+            json.dumps({"version": 1, "datasets": ["QQQ.json"]}),
             encoding="utf-8",
         )
         config_path.write_text(
@@ -83,10 +129,10 @@ class USETFComponentUpdaterTests(unittest.TestCase):
                     "version": 1,
                     "etfs": [
                         {
-                            "symbol": "SPY",
-                            "name": "SPDR S&P 500 ETF Trust",
-                            "sourceType": "ssga_xlsx",
-                            "sourceUrl": "https://example.com/spy.xlsx",
+                            "symbol": "QQQ",
+                            "name": "Invesco QQQ Trust",
+                            "sourceType": "invesco_json",
+                            "sourceUrl": "https://example.com/qqq.json",
                             "dataQualityOnSuccess": "official",
                         },
                     ],
@@ -105,7 +151,7 @@ class USETFComponentUpdaterTests(unittest.TestCase):
                 exit_code = updater.main()
 
         self.assertEqual(exit_code, 1)
-        self.assertEqual(json.loads(spy_path.read_text(encoding="utf-8")), existing)
+        self.assertEqual(json.loads(qqq_path.read_text(encoding="utf-8")), existing)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { getAssetMetadata } from "../data/assetRegistry";
-import type { Holding } from "../types/portfolio";
+import type { AssetMetadata, Holding } from "../types/portfolio";
 import { getQuoteForHolding, refreshPrices } from "./priceService";
 
 class MemoryStorage {
@@ -31,6 +31,18 @@ function holding(symbol: string, type: Holding["type"]): Holding {
     quantity: 1,
   };
 }
+
+const unit = "股" as AssetMetadata["unitLabel"];
+
+const amdMetadata: AssetMetadata = {
+  symbol: "AMD",
+  name: "Advanced Micro Devices, Inc.",
+  type: "us_stock",
+  market: "US",
+  currency: "USD",
+  unitLabel: unit,
+  priceSource: "us_static",
+};
 
 function mockFetchJson(data: unknown) {
   vi.stubGlobal(
@@ -106,6 +118,34 @@ describe("US static price adapter", () => {
     expect(prices.AAPL.status).toBe("unavailable");
     expect(prices.AAPL.error).toContain("美股");
     expect(prices.AAPL.error).not.toContain("台股");
+  });
+
+  it("keeps universe-only assets with missing prices unavailable instead of zero", async () => {
+    mockFetchJson({
+      version: 1,
+      market: "US",
+      source: "stooq",
+      generatedAt: "2026-05-14T22:30:00.000Z",
+      tradeDate: null,
+      currency: "USD",
+      quotes: {},
+      errors: [],
+    });
+
+    const prices = await refreshPrices(
+      [holding("AMD", "us_stock")],
+      [amdMetadata],
+    );
+    const quote = getQuoteForHolding(
+      holding("AMD", "us_stock"),
+      prices,
+      [amdMetadata],
+    );
+
+    expect(quote.price).toBeNull();
+    expect(quote.currency).toBe("USD");
+    expect(quote.status).toBe("unavailable");
+    expect(quote.source).toBe("us_static");
   });
 
   it("keeps Taiwan, crypto, and cash fallback behavior distinct", () => {
