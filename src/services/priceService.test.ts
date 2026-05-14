@@ -44,6 +44,26 @@ const amdMetadata: AssetMetadata = {
   priceSource: "us_static",
 };
 
+const pltrMetadata: AssetMetadata = {
+  symbol: "PLTR",
+  name: "Palantir Technologies Inc. - Class A Common Stock",
+  type: "us_stock",
+  market: "US",
+  currency: "USD",
+  unitLabel: unit,
+  priceSource: "us_static",
+};
+
+const schdMetadata: AssetMetadata = {
+  symbol: "SCHD",
+  name: "Schwab U.S. Dividend Equity ETF",
+  type: "us_etf",
+  market: "US",
+  currency: "USD",
+  unitLabel: unit,
+  priceSource: "us_static",
+};
+
 const activeTaiwanEtfMetadata: AssetMetadata = {
   symbol: "00981A",
   name: "主動統一台股增長",
@@ -156,6 +176,31 @@ describe("US static price adapter", () => {
     expect(quote.currency).toBe("USD");
     expect(quote.status).toBe("unavailable");
     expect(quote.source).toBe("us_static");
+  });
+
+  it("keeps universe-only US stocks and ETFs with missing prices unavailable instead of zero", async () => {
+    mockFetchJson({
+      version: 1,
+      market: "US",
+      source: "stooq",
+      generatedAt: "2026-05-14T22:30:00.000Z",
+      tradeDate: null,
+      currency: "USD",
+      quotes: {},
+      errors: [],
+    });
+
+    const prices = await refreshPrices(
+      [holding("PLTR", "us_stock"), holding("SCHD", "us_etf")],
+      [pltrMetadata, schdMetadata],
+    );
+
+    expect(prices.PLTR.price).toBeNull();
+    expect(prices.PLTR.status).toBe("unavailable");
+    expect(prices.PLTR.source).toBe("us_static");
+    expect(prices.SCHD.price).toBeNull();
+    expect(prices.SCHD.status).toBe("unavailable");
+    expect(prices.SCHD.source).toBe("us_static");
   });
 
   it("keeps universe-only Taiwan ETFs with missing prices unavailable instead of zero", async () => {

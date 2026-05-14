@@ -29,6 +29,25 @@ const universeAssets: AssetMetadata[] = [
     aliases: ["Advanced Micro Devices"],
   },
   {
+    symbol: "PLTR",
+    name: "Palantir Technologies Inc. - Class A Common Stock",
+    type: "us_stock",
+    market: "US",
+    currency: "USD",
+    unitLabel: unit,
+    priceSource: "us_static",
+    aliases: ["Palantir Technologies Inc."],
+  },
+  {
+    symbol: "AAPL",
+    name: "Universe Duplicate Apple",
+    type: "us_stock",
+    market: "US",
+    currency: "USD",
+    unitLabel: unit,
+    priceSource: "manual",
+  },
+  {
     symbol: "00981A",
     name: "主動統一台股增長",
     type: "taiwan_etf",
@@ -41,6 +60,15 @@ const universeAssets: AssetMetadata[] = [
   {
     symbol: "SCHD",
     name: "Schwab U.S. Dividend Equity ETF",
+    type: "us_etf",
+    market: "US",
+    currency: "USD",
+    unitLabel: unit,
+    priceSource: "us_static",
+  },
+  {
+    symbol: "IWM",
+    name: "iShares Russell 2000 ETF",
     type: "us_etf",
     market: "US",
     currency: "USD",
@@ -67,8 +95,14 @@ describe("asset resolver", () => {
       searchResolvedAssets("AMD", { universeAssets }).map((asset) => asset.symbol),
     ).toContain("AMD");
     expect(
+      searchResolvedAssets("PLTR", { universeAssets }).map((asset) => asset.symbol),
+    ).toContain("PLTR");
+    expect(
       searchResolvedAssets("SCHD", { universeAssets }).map((asset) => asset.symbol),
     ).toContain("SCHD");
+    expect(
+      searchResolvedAssets("IWM", { universeAssets }).map((asset) => asset.symbol),
+    ).toContain("IWM");
     expect(
       searchResolvedAssets("00981A", { universeAssets }).map((asset) => asset.symbol),
     ).toContain("00981A");
@@ -89,6 +123,10 @@ describe("asset resolver", () => {
 
     expect(resolved?.name).toBe("Sui");
     expect(resolved?.priceSource).toBe("coingecko");
+
+    const apple = getResolvedAssetMetadata("AAPL", "us_stock", universeAssets);
+    expect(apple?.name).toBe("Apple Inc.");
+    expect(apple?.priceSource).toBe("us_static");
   });
 
   it("dedupes by market, type, and symbol", () => {

@@ -72,6 +72,55 @@ describe("universe service", () => {
     expect(parsed.assets[0].isETF).toBe(true);
   });
 
+  it("parses a generated US universe stock and ETF", () => {
+    const parsed = parseUniverseFile({
+      version: 1,
+      market: "US",
+      source: "nasdaqtrader-symbol-directory",
+      generatedAt: "2026-05-14T00:00:00.000Z",
+      count: 2,
+      assets: [
+        {
+          symbol: "pltr",
+          name: "Palantir Technologies Inc. - Class A Common Stock",
+          type: "us_stock",
+          market: "US",
+          currency: "USD",
+          unitLabel: "股",
+          priceSource: "us_static",
+          aliases: ["Palantir Technologies Inc."],
+          exchange: "NASDAQ",
+          source: "nasdaqtrader-symbol-directory",
+          sourceSymbol: "PLTR",
+          stooqSymbol: "pltr.us",
+          isETF: false,
+          dataQuality: "generated",
+        },
+        {
+          symbol: "schd",
+          name: "Schwab U.S. Dividend Equity ETF",
+          type: "us_etf",
+          market: "US",
+          currency: "USD",
+          unitLabel: "股",
+          priceSource: "us_static",
+          aliases: ["Schwab U.S. Dividend Equity ETF"],
+          exchange: "NYSEARCA",
+          source: "nasdaqtrader-symbol-directory",
+          sourceSymbol: "SCHD",
+          stooqSymbol: "schd.us",
+          isETF: true,
+          dataQuality: "generated",
+        },
+      ],
+      errors: [],
+    });
+
+    expect(parsed.assets.map((asset) => asset.symbol)).toEqual(["PLTR", "SCHD"]);
+    expect(parsed.assets[0].type).toBe("us_stock");
+    expect(parsed.assets[1].type).toBe("us_etf");
+  });
+
   it("loads universe datasets and reports partial failures", async () => {
     vi.stubGlobal(
       "fetch",

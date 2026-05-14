@@ -140,6 +140,46 @@ describe("JSON-backed ETF component adapter", () => {
     expect(exposure[0].sourceEtfs).toEqual(["00981A"]);
   });
 
+  it("keeps a priced universe US ETF without component JSON unexpanded", () => {
+    const rows: HoldingValue[] = [
+      {
+        holding: {
+          id: "SCHD",
+          type: "us_etf",
+          symbol: "SCHD",
+          quantity: 1,
+        },
+        metadata: {
+          symbol: "SCHD",
+          name: "Schwab U.S. Dividend Equity ETF",
+          type: "us_etf",
+          market: "US",
+          currency: "USD",
+          unitLabel: "股" as HoldingValue["metadata"]["unitLabel"],
+          priceSource: "us_static",
+        },
+        quote: {
+          symbol: "SCHD",
+          price: 75,
+          currency: "USD",
+          source: "test",
+          status: "ok",
+        },
+        marketValueTWD: 2400,
+        costBasisTWD: null,
+        pnlTWD: null,
+        pnlPercent: null,
+      },
+    ];
+
+    const exposure = calculateETFOnlyAggregateExposure(rows, {});
+
+    expect(exposure).toHaveLength(1);
+    expect(exposure[0].symbol).toBe("UNEXPANDED_ETF");
+    expect(exposure[0].indirectExposureTWD).toBe(2400);
+    expect(exposure[0].sourceEtfs).toEqual(["SCHD"]);
+  });
+
   it("remains compatible with ETF lookthrough calculations", () => {
     const rows = [etfRow("0050", 20000)];
     const exposure = calculateETFExposure(rows, etfComponents).find(

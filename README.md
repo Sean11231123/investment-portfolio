@@ -45,6 +45,7 @@ Validate ETF component data:
 npm run validate:etf-components
 npm run test:etf-normalizer
 npm run update:tw-universe
+npm run update:us-universe
 ```
 
 Preview the production build:
@@ -107,10 +108,11 @@ public/data/universe/
 Current universe files:
 
 - `tw-assets.json`: generated Taiwan listed stock/ETF metadata from TWSE public ISIN data
-- `us-assets.json`: small US stock/ETF examples such as `AMD`, `SCHD`, `IWM`, and `TLT`
+- `us-assets.json`: generated US stock/ETF metadata from Nasdaq Trader public symbol directory data
 - `crypto-assets.json`: small crypto examples such as `SUI`, `ARB`, and `OP`
 
 Taiwan active ETF style symbols, such as `00981A`, can appear in search when the TWSE source includes them and classifies them as ETFs.
+US stocks and ETFs, such as `PLTR`, `META`, `AVGO`, `SCHD`, `IWM`, `TLT`, `DIA`, `XLE`, and `XLK`, can appear in search when the Nasdaq Trader source includes them.
 
 Important distinctions:
 
@@ -151,6 +153,45 @@ The scheduled workflow is:
 ```
 
 It can be run manually, also runs on weekdays, uses Python 3.12, and commits `public/data/universe/tw-assets.json` only when the generated file changed.
+
+## US Asset Universe Update
+
+US searchable stock/ETF metadata is generated outside the frontend by:
+
+```text
+scripts/update_us_asset_universe.py
+```
+
+The script reads Nasdaq Trader's public no-key symbol directory files:
+
+```text
+nasdaqlisted.txt
+otherlisted.txt
+```
+
+It writes:
+
+```text
+public/data/universe/us-assets.json
+```
+
+The updater uses the Nasdaq Trader ETF flag: `Y` becomes `us_etf`, and `N` becomes `us_stock`. It skips test issues, malformed symbols, warrants, rights, units, preferred shares, notes, ETNs, and other obvious non-target instruments when identifiable.
+
+This universe is search metadata only. Searchable asset does not mean a price exists in `public/data/market/us-prices.json`, and searchable ETF does not mean component data exists under `public/data/etf-components/`. Missing prices remain unavailable/null, never zero; ETFs without component JSON remain `未展開 ETF` when priced.
+
+Run it locally with:
+
+```bash
+npm run update:us-universe
+```
+
+The scheduled workflow is:
+
+```text
+.github/workflows/update-us-asset-universe.yml
+```
+
+It can be run manually, also runs on weekdays, uses Python 3.12, and commits `public/data/universe/us-assets.json` only when the generated file changed. This workflow is separate from the US price workflow and the US ETF component workflow.
 
 ## Online FX
 
@@ -210,6 +251,7 @@ Current tests cover:
 - market data freshness status for Taiwan, Crypto, and FX edge cases
 - import/export validation and v1-to-v2 holding migration
 - Taiwan asset universe parser/classifier fixtures for stocks, ETFs, active ETF symbols, and excluded instruments
+- US asset universe parser/classifier fixtures for stocks, ETFs, test issues, malformed rows, and excluded instruments
 
 Tests use mocked holdings, quotes, FX rates, universe fixtures, and ETF component fixtures. They do not call Frankfurter, CoinGecko, TWSE, or any other live market API.
 
@@ -322,6 +364,14 @@ public/data/market/us-prices.json
 ```
 
 The updater uses Stooq no-key CSV data. If the public source fails or a symbol is missing, the script still writes valid JSON and marks unavailable quotes with `price: null` and `status: "unavailable"`. Missing prices are never forced to zero.
+
+The scheduled US price workflow remains separate from the searchable US universe sync:
+
+```text
+.github/workflows/update-us-market-data.yml
+```
+
+It updates only the curated/tracked symbols in `scripts/market_symbols_us.json`; it does not fetch prices for every asset in `us-assets.json`.
 
 ## Manual Portfolio Backup
 
@@ -508,7 +558,7 @@ If the repository name is different, update the base path in `vite.config.ts`.
 ## Known Limitations
 
 - Taiwan and US stock/ETF prices are static end-of-day data, not live quotes.
-- Dynamic universe JSON is currently seeded for foundation/testing and is not full market coverage.
+- Taiwan and US universe JSON is generated from public symbol/classification sources, but it is still search metadata rather than a guarantee of price or component coverage.
 - A searchable universe asset may still have unavailable price data.
 - ETF component data is static JSON. Some files are automated from issuer downloads, while others remain sample/manual.
 - US ETF lookthrough exists only for ETFs with component JSON; missing US ETF component data appears as `未展開 ETF`.
