@@ -38,17 +38,15 @@ export const chartTooltipStyle = {
 export const chartGridColor = "rgba(148, 163, 184, 0.18)";
 export const chartTextColor = "#94a3b8";
 export const chartColors = [
-  "#a855f7",
-  "#7c3aed",
-  "#6366f1",
-  "#22d3ee",
-  "#34d399",
-  "#f59e0b",
-  "#fb7185",
-  "#c084fc",
-  "#60a5fa",
-  "#f472b6",
-  "#94a3b8",
+  "#38bdf8cc", // 亮天藍 (Sky 400) - 增加對比
+  "#4ade80cc", // 薄荷綠 (Green 400) - 視覺最舒適
+  "#fbbf24cc", // 暖金黃 (Amber 400) - 強力跳色
+  "#22d3eecc", // 清爽青 (Cyan 400) 
+  "#fb7185cc", // 柔玫瑰 (Rose 400) - 作為亮點
+  "#818cf8cc", // 淡靛藍 (Indigo 400) - 與背景呼應但不重疊
+  "#f97316cc", // 活力橘 (Orange 500)
+  "#2dd4bfcc", // 翠綠藍 (Teal 400)
+  "#e2e8f0cc", // 霧白 (Slate 200) - 用於次要數據，極高對比
 ];
 
 export function AppCard({ children, className = "", padded = true }: AppCardProps) {

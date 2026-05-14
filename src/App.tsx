@@ -127,6 +127,68 @@ function App() {
     }
   }
 
+  function renderPage() {
+    switch (activePage) {
+      case "dashboard":
+        return (
+          <Dashboard
+            holdings={holdings}
+            settings={settings}
+            fxRates={fxRates}
+            priceCache={priceCache}
+            priceRefreshing={priceRefreshing}
+            onRefreshPrices={handleRefreshPrices}
+          />
+        );
+
+      case "holdings":
+        return (
+          <HoldingsPage
+            holdings={holdings}
+            settings={settings}
+            fxRates={fxRates}
+            priceCache={priceCache}
+            priceRefreshing={priceRefreshing}
+            onUpsertHolding={handleUpsertHolding}
+            onDeleteHolding={handleDeleteHolding}
+            onImportHoldings={handleImportHoldings}
+            onImportSettings={(nextSettings) =>
+              nextSettings ? setSettings(nextSettings) : undefined
+            }
+            onUpdateSettings={setSettings}
+            onLoadDemo={handleLoadDemo}
+            onClearAll={handleClearAll}
+            onRefreshPrices={handleRefreshPrices}
+          />
+        );
+
+      case "etf":
+        return (
+          <ETFExposurePage
+            holdings={holdings}
+            settings={settings}
+            fxRates={fxRates}
+            priceCache={priceCache}
+          />
+        );
+
+      case "settings":
+        return (
+          <SettingsPage
+            holdings={holdings}
+            settings={settings}
+            fxRates={fxRates}
+            onSaveSettings={setSettings}
+            onImportHoldings={handleImportHoldings}
+            onRefreshFx={handleRefreshFx}
+          />
+        );
+
+      default:
+        return null;
+    }
+  }
+
   return (
     <Layout activePage={activePage} onNavigate={setActivePage}>
       {migrationMessage ? (
@@ -135,53 +197,9 @@ function App() {
         </section>
       ) : null}
 
-      {activePage === "dashboard" ? (
-        <Dashboard
-          holdings={holdings}
-          settings={settings}
-          fxRates={fxRates}
-          priceCache={priceCache}
-          priceRefreshing={priceRefreshing}
-          onRefreshPrices={handleRefreshPrices}
-        />
-      ) : null}
-      {activePage === "holdings" ? (
-        <HoldingsPage
-          holdings={holdings}
-          settings={settings}
-          fxRates={fxRates}
-          priceCache={priceCache}
-          priceRefreshing={priceRefreshing}
-          onUpsertHolding={handleUpsertHolding}
-          onDeleteHolding={handleDeleteHolding}
-          onImportHoldings={handleImportHoldings}
-          onImportSettings={(nextSettings) =>
-            nextSettings ? setSettings(nextSettings) : undefined
-          }
-          onUpdateSettings={setSettings}
-          onLoadDemo={handleLoadDemo}
-          onClearAll={handleClearAll}
-          onRefreshPrices={handleRefreshPrices}
-        />
-      ) : null}
-      {activePage === "etf" ? (
-        <ETFExposurePage
-          holdings={holdings}
-          settings={settings}
-          fxRates={fxRates}
-          priceCache={priceCache}
-        />
-      ) : null}
-      {activePage === "settings" ? (
-        <SettingsPage
-          holdings={holdings}
-          settings={settings}
-          fxRates={fxRates}
-          onSaveSettings={setSettings}
-          onImportHoldings={handleImportHoldings}
-          onRefreshFx={handleRefreshFx}
-        />
-      ) : null}
+      <div key={activePage} className="animate-page-fade">
+        {renderPage()}
+      </div>
     </Layout>
   );
 }
