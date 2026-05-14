@@ -1,13 +1,15 @@
 export type AssetType =
   | "taiwan_stock"
   | "taiwan_etf"
+  | "us_stock"
+  | "us_etf"
   | "crypto"
   | "cash"
   | "custom";
 
 export type Currency = "TWD" | "USD" | "USDT";
 
-export type Market = "TW" | "CRYPTO" | "CASH" | "CUSTOM";
+export type Market = "TW" | "US" | "CRYPTO" | "CASH" | "CUSTOM";
 
 export type PriceSource =
   | "twse"

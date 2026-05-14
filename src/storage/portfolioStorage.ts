@@ -207,8 +207,8 @@ function isLegacyOrV2Candidate(
 }
 
 function isAssetType(value: unknown): value is AssetType {
-  return ["taiwan_stock", "taiwan_etf", "crypto", "cash", "custom"].includes(
-    String(value),
+  return ["taiwan_stock", "taiwan_etf", "us_stock", "us_etf", "crypto", "cash", "custom"].includes(
+    value as AssetType,
   );
 }
 

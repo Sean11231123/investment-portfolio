@@ -156,6 +156,8 @@ export function HoldingForm({
             >
               <option value="taiwan_stock">台股</option>
               <option value="taiwan_etf">台股 ETF</option>
+              <option value="us_stock">美股</option>
+              <option value="us_etf">美股 ETF</option>
               <option value="crypto">Crypto</option>
               <option value="cash">Cash</option>
               <option value="custom">Custom</option>
@@ -274,15 +276,23 @@ function Field({
 }
 
 function getQuantityLabel(type: AssetType) {
-  if (type === "taiwan_stock" || type === "taiwan_etf") {
-    return "數量（股）";
+  if (
+    type === "taiwan_stock" ||
+    type === "taiwan_etf" ||
+    type === "us_stock" ||
+    type === "us_etf"
+  ) {
+    return "股數";
   }
+
   if (type === "crypto") {
-    return "數量（顆）";
+    return "數量";
   }
+
   if (type === "cash") {
     return "金額";
   }
+
   return "數量";
 }
 

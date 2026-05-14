@@ -131,6 +131,7 @@ export { assetTypeLabels };
 
 export const marketLabels: Record<string, string> = {
   TW: "台灣",
+  US: "美國",
   CRYPTO: "Crypto",
   CASH: "現金",
   CUSTOM: "自訂",
