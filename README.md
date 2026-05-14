@@ -39,6 +39,12 @@ npm run test
 npm run test:watch
 ```
 
+Validate ETF component data:
+
+```bash
+npm run validate:etf-components
+```
+
 Preview the production build:
 
 ```bash
@@ -237,13 +243,36 @@ Use the holdings page import/export controls:
 
 ## ETF Component Data
 
-Static ETF component data lives in:
+Canonical static ETF component data lives in:
+
+```text
+public/data/etf-components/
+```
+
+The app-facing compatibility adapter remains:
 
 ```text
 src/data/etfComponents.ts
 ```
 
-The included 0050, 006208, and 00878 component data is approximate sample/manual data for MVP and Phase 2 testing. Update `components`, `sourceNote`, and `lastUpdated` manually before using it for real analysis.
+The included 0050, 006208, and 00878 component data is approximate sample/manual data for MVP and Phase 3A testing. Update the JSON files before using them for real analysis.
+
+To add or update ETF component data:
+
+1. Add or edit a JSON file in `public/data/etf-components/`.
+2. Keep `componentCount` equal to `components.length`.
+3. Keep `totalWeight` equal to the sum of component weights.
+4. Add the JSON filename to `public/data/etf-components/index.json`.
+5. Run `npm run validate:etf-components`.
+
+`dataQuality` values:
+
+- `sample`: sample or incomplete data for demonstration/testing.
+- `manual`: manually maintained data from a known source.
+- `verified`: manually checked against a reliable source.
+- `stale`: known or suspected outdated data.
+
+ETF component data is public/static repo data. It is not user portfolio data. It may become stale, and it is not guaranteed real-time or official.
 
 ETF constituent data is not scraped online.
 

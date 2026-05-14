@@ -4,6 +4,7 @@ import { etfComponents } from "../data/etfComponents";
 import type {
   FxRates,
   Holding,
+  HoldingValue,
   PortfolioSettings,
   PriceQuote,
 } from "../types/portfolio";
@@ -33,6 +34,7 @@ export function ETFExposurePage({
   );
   const aggregateRows = calculateETFExposure(valuation.holdingValues);
   const heldEtfs = getHeldEtfsWithComponents(valuation.holdingValues);
+  const heldEtfRows = getHeldTaiwanEtfs(valuation.holdingValues);
   const [selectedEtf, setSelectedEtf] = useState("");
   const selectedSymbol = selectedEtf || heldEtfs[0]?.symbol || "";
   const singleRows = selectedSymbol
@@ -46,33 +48,11 @@ export function ETFExposurePage({
 
   return (
     <div className="space-y-6">
-      <section className="rounded-md border border-[#d8e0e3] bg-white p-5">
-        <h2 className="text-lg font-semibold">ETF 成分展開</h2>
-        <p className="mt-2 text-sm text-[#607078]">
-          ETF component data is sample/manual data and should be updated by the
-          user.
-        </p>
-        <div className="mt-4 grid gap-3 md:grid-cols-3">
-          {Object.entries(etfComponents).map(([symbol, data]) => (
-            <div
-              key={symbol}
-              className="rounded-md border border-[#d8e0e3] bg-[#fafbfb] p-4"
-            >
-              <p className="font-semibold">
-                {symbol} {data.name}
-              </p>
-              <p className="mt-1 text-xs text-[#607078]">
-                更新日期：{data.lastUpdated}
-              </p>
-              <p className="mt-2 text-xs text-[#607078]">{data.sourceNote}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      <ETFComponentStatusSection heldEtfRows={heldEtfRows} />
 
       {valuation.isPartial ? (
         <section className="rounded-md border border-[#e5d7a6] bg-[#fffaf0] p-4 text-sm text-[#6f5a19]">
-          有 ETF 或成分相關持倉價格 unavailable 時，ETF 展開只會使用可估值的 ETF。
+          部分 ETF 或成分估值缺少價格，ETF 展開可能只包含可估值的部位。
         </section>
       ) : null}
 
@@ -81,8 +61,8 @@ export function ETFExposurePage({
         rows={aggregateRows}
         displayCurrency={settings.displayCurrency}
         fxRates={fxRates}
-        emptyTitle="目前沒有可展開的 ETF 暴險"
-        emptyMessage="新增有樣本成分資料且價格可用的 ETF 後，這裡會顯示展開後占比。"
+        emptyTitle="尚無 ETF 展開資料"
+        emptyMessage="目前沒有可展開的 ETF 持倉，或相關 ETF 價格暫時無法取得。"
       />
 
       <section className="rounded-md border border-[#d8e0e3] bg-white p-5">
@@ -90,7 +70,7 @@ export function ETFExposurePage({
           <div>
             <h2 className="text-lg font-semibold">單一 ETF 投組占比</h2>
             <p className="mt-1 text-sm text-[#607078]">
-              成分占比會乘上該 ETF 在整體投組中的市值占比。
+              選擇目前持有且有成分資料的 ETF，查看它對整體投組的展開占比。
             </p>
           </div>
           {heldEtfs.length > 0 ? (
@@ -118,13 +98,124 @@ export function ETFExposurePage({
         rows={singleRows}
         displayCurrency={settings.displayCurrency}
         fxRates={fxRates}
-        emptyTitle="目前沒有可選擇的 ETF"
+        emptyTitle="尚無可展開 ETF"
         emptyMessage={
           selectedSymbol && !etfComponents[selectedSymbol]
-            ? "選取的 ETF 尚無手動成分資料。"
-            : "請先新增持有且有樣本成分資料的 ETF。"
+            ? "此 ETF 尚無成分資料，暫時無法展開。"
+            : "請先持有至少一檔有成分資料的 ETF。"
         }
       />
     </div>
   );
+}
+
+function ETFComponentStatusSection({
+  heldEtfRows,
+}: {
+  heldEtfRows: HoldingValue[];
+}) {
+  return (
+    <section className="rounded-md border border-[#d8e0e3] bg-white p-5">
+      <h2 className="text-lg font-semibold">ETF 成分資料狀態</h2>
+      <p className="mt-2 text-sm text-[#607078]">
+        ETF 成分資料是公開靜態資料，會隨時間變舊；使用前請確認資料來源與更新日期。
+      </p>
+
+      {heldEtfRows.length === 0 ? (
+        <div className="mt-4 rounded-md border border-dashed border-[#b6c5c9] bg-[#fafbfb] p-4 text-sm text-[#607078]">
+          目前沒有 ETF 持倉。
+        </div>
+      ) : (
+        <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+          {heldEtfRows.map((row) => {
+            const symbol = row.metadata.symbol;
+            const data = etfComponents[symbol];
+
+            if (!data) {
+              return (
+                <div
+                  key={row.holding.id}
+                  className="rounded-md border border-[#e5d7a6] bg-[#fffaf0] p-4"
+                >
+                  <p className="font-semibold">
+                    {symbol} {row.metadata.name}
+                  </p>
+                  <p className="mt-2 text-sm text-[#6f5a19]">
+                    此 ETF 尚無成分資料，暫時無法展開。
+                  </p>
+                </div>
+              );
+            }
+
+            const showWarning =
+              data.dataQuality === "sample" || data.dataQuality === "stale";
+
+            return (
+              <div
+                key={row.holding.id}
+                className="rounded-md border border-[#d8e0e3] bg-[#fafbfb] p-4"
+              >
+                <p className="font-semibold">
+                  {symbol} {data.name}
+                </p>
+                <dl className="mt-3 space-y-1 text-xs text-[#607078]">
+                  <Info label="更新日期" value={data.lastUpdated} />
+                  <Info label="資料品質" value={getQualityLabel(data.dataQuality)} />
+                  <Info
+                    label="成分數量"
+                    value={`${data.componentCount ?? data.components.length}`}
+                  />
+                  <Info
+                    label="總權重"
+                    value={`${(((data.totalWeight ?? 0) * 100)).toFixed(1)}%`}
+                  />
+                </dl>
+                <p className="mt-3 text-xs text-[#607078]">
+                  資料來源說明：{data.sourceNote}
+                </p>
+                {showWarning ? (
+                  <p className="mt-3 rounded-md border border-[#e5d7a6] bg-[#fffaf0] p-2 text-xs text-[#6f5a19]">
+                    ETF 成分資料可能不是最新資料，請確認資料來源與更新日期。
+                  </p>
+                ) : null}
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </section>
+  );
+}
+
+function Info({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="flex justify-between gap-3">
+      <dt>{label}</dt>
+      <dd className="text-right text-[#314249]">{value}</dd>
+    </div>
+  );
+}
+
+function getHeldTaiwanEtfs(holdingValues: HoldingValue[]) {
+  const seen = new Set<string>();
+  return holdingValues.filter((row) => {
+    if (row.metadata.type !== "taiwan_etf") {
+      return false;
+    }
+
+    const symbol = row.metadata.symbol;
+    if (seen.has(symbol)) {
+      return false;
+    }
+
+    seen.add(symbol);
+    return true;
+  });
+}
+
+function getQualityLabel(quality?: string) {
+  if (quality === "verified") return "已驗證";
+  if (quality === "manual") return "手動維護";
+  if (quality === "stale") return "可能過期";
+  return "範例資料";
 }

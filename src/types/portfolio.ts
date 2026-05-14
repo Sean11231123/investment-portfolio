@@ -90,7 +90,11 @@ export type ETFComponentMap = {
   [etfSymbol: string]: {
     name: string;
     sourceNote: string;
+    sourceUrl?: string;
     lastUpdated: string;
+    dataQuality?: "sample" | "manual" | "verified" | "stale";
+    componentCount?: number;
+    totalWeight?: number;
     components: ETFComponent[];
   };
 };

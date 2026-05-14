@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "symbol": "006208",
+  "name": "富邦台50",
+  "market": "TW",
+  "sourceNote": "Manual/sample ETF component data. Update before relying on exact allocation.",
+  "sourceUrl": "",
+  "lastUpdated": "2026-05-14",
+  "dataQuality": "sample",
+  "componentCount": 8,
+  "totalWeight": 0.698,
+  "components": [
+    { "symbol": "2330", "name": "台積電", "weight": 0.485 },
+    { "symbol": "2317", "name": "鴻海", "weight": 0.058 },
+    { "symbol": "2454", "name": "聯發科", "weight": 0.048 },
+    { "symbol": "2308", "name": "台達電", "weight": 0.034 },
+    { "symbol": "2412", "name": "中華電", "weight": 0.024 },
+    { "symbol": "2882", "name": "國泰金", "weight": 0.019 },
+    { "symbol": "2886", "name": "兆豐金", "weight": 0.017 },
+    { "symbol": "1303", "name": "南亞", "weight": 0.013 }
+  ]
+}
