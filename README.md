@@ -264,31 +264,27 @@ Binance ticker prices are quoted from USDT pairs. To preserve the app's existing
 
 ## Market Data Status
 
-The dashboard includes a compact market data status card for:
+The dashboard includes a unified `市場資料狀態` card. It is diagnostic only: it reads already-loaded universe summaries and existing static status JSON, but does not refresh providers or expand price/component coverage.
 
-- 台股 / ETF
-- 美股 / 美股 ETF
-- Crypto
-- 匯率
+The card summarizes four layers:
 
-The card reuses the app's existing quote and FX state. It does not trigger extra market data requests.
+- `資產宇宙`: Taiwan, US, and crypto searchable universe file counts plus generated timestamps.
+- `價格資料`: Taiwan static TWSE prices, US static Stooq tracked prices, runtime crypto pricing, and FX status.
+- `ETF 成分資料`: ETF component JSON coverage for expanded ETFs such as 0050, 006208, 00878, SPY, QQQ, and VOO.
+- `資料說明 / 限制`: reminders that search metadata, price coverage, and ETF lookthrough coverage are separate.
 
-Status meanings:
+Unified status labels are intentionally calm:
 
-- `fresh`: data loaded successfully and appears recent enough for the source.
-- `stale`: data loaded, but the timestamp or trade date is older than the app's friendly threshold.
-- `cached`: the app is using cached data after a previous successful fetch.
-- `partial`: some held assets have prices, but at least one held asset is missing a usable price.
-- `unavailable`: the app cannot value that market category right now.
-- `error`: the adapter reported an error condition.
+- `正常`: the file or runtime source is available.
+- `部分可用`: some coverage exists, but it is intentionally partial or has missing rows.
+- `尚未載入`: a static file is unavailable or empty.
+- `即時查詢`: prices are fetched for held assets at runtime.
+- `追蹤清單`: the source is a curated subset rather than full-market coverage.
+- `價格可能已過期`: the existing freshness heuristic considers data old.
 
-Taiwan and US prices are end-of-day or delayed static data. They may look older around weekends or market holidays. Crypto data may be cached or rate-limited by the public provider. FX data may use a cache or visible fallback if the online fetch fails.
+US prices are shown as `追蹤清單` because `public/data/market/us-prices.json` is a curated popular subset, not the full Nasdaq Trader universe. Crypto prices are shown as `即時查詢` because Binance and CoinGecko are called only for held assets, not for the full crypto universe.
 
-If any held asset has no usable price, the dashboard shows:
-
-```text
-部分資產缺少價格，因此總資產與投組占比可能不完整。
-```
+ETF component coverage is partial by design. ETFs without component JSON remain `未展開 ETF`; this is separate from whether the ETF has a price. Missing prices remain unavailable/null and are never treated as zero.
 
 ## Tests
 
@@ -299,6 +295,7 @@ Current tests cover:
 - portfolio valuation, allocation percentages, missing prices, cash, crypto FX conversion, and PnL
 - ETF lookthrough aggregation, direct plus indirect exposure merge, unavailable ETF prices, and single-ETF portfolio weighting
 - market data freshness status for Taiwan, Crypto, and FX edge cases
+- unified market data status summaries for universes, static price files, runtime crypto prices, FX, and ETF components
 - import/export validation and v1-to-v2 holding migration
 - Taiwan asset universe parser/classifier fixtures for stocks, ETFs, active ETF symbols, and excluded instruments
 - US asset universe parser/classifier fixtures for stocks, ETFs, test issues, malformed rows, and excluded instruments

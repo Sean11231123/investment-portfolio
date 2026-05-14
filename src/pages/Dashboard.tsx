@@ -11,6 +11,7 @@ import type {
   PortfolioSettings,
   PriceQuote,
 } from "../types/portfolio";
+import type { UniverseFileSummary } from "../types/universe";
 import {
   calculateETFOnlyAggregateExposure,
   isETFAssetType,
@@ -30,6 +31,7 @@ type DashboardProps = {
   priceCache: Record<string, PriceQuote>;
   priceRefreshing: boolean;
   universeAssets?: AssetMetadata[];
+  universeFiles?: UniverseFileSummary[];
   onRefreshPrices: () => void;
 };
 
@@ -40,6 +42,7 @@ export function Dashboard({
   priceCache,
   priceRefreshing,
   universeAssets = [],
+  universeFiles = [],
   onRefreshPrices,
 }: DashboardProps) {
   const valuation = getPortfolioValuation(
@@ -90,6 +93,8 @@ export function Dashboard({
       <MarketDataStatusCard
         holdingValues={valuation.holdingValues}
         fxRates={fxRates}
+        universeAssets={universeAssets}
+        universeFiles={universeFiles}
       />
 
       <div className="flex justify-end">

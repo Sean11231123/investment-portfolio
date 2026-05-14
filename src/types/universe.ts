@@ -25,8 +25,16 @@ export type UniverseIndexFile = {
   datasets: string[];
 };
 
+export type UniverseFileSummary = {
+  market: Market;
+  source: string;
+  generatedAt: string;
+  count: number;
+};
+
 export type AssetUniverseLoadResult = {
   assets: AssetMetadata[];
   status: "loaded" | "partial" | "unavailable";
   errors: string[];
+  files?: UniverseFileSummary[];
 };

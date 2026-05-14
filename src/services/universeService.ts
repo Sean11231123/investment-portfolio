@@ -9,6 +9,7 @@ import type {
   AssetUniverseLoadResult,
   UniverseAsset,
   UniverseAssetFile,
+  UniverseFileSummary,
   UniverseIndexFile,
 } from "../types/universe";
 import { normalizeSymbol } from "../data/assetRegistry";
@@ -45,6 +46,7 @@ export async function loadAssetUniverse(): Promise<AssetUniverseLoadResult> {
   const basePath = getUniverseBasePath();
   const datasets = await loadUniverseIndex(basePath, errors);
   const assets: AssetMetadata[] = [];
+  const files: UniverseFileSummary[] = [];
 
   await Promise.all(
     datasets.map(async (dataset) => {
@@ -58,6 +60,12 @@ export async function loadAssetUniverse(): Promise<AssetUniverseLoadResult> {
 
         const parsed = parseUniverseFile(await response.json());
         assets.push(...parsed.assets);
+        files.push({
+          market: parsed.market,
+          source: parsed.source,
+          generatedAt: parsed.generatedAt,
+          count: parsed.count ?? parsed.assets.length,
+        });
       } catch (error) {
         errors.push(`${dataset}: ${getErrorMessage(error)}`);
       }
@@ -69,6 +77,7 @@ export async function loadAssetUniverse(): Promise<AssetUniverseLoadResult> {
       assets: [],
       status: errors.length > 0 ? "unavailable" : "loaded",
       errors,
+      files,
     };
   }
 
@@ -76,6 +85,7 @@ export async function loadAssetUniverse(): Promise<AssetUniverseLoadResult> {
     assets,
     status: errors.length > 0 ? "partial" : "loaded",
     errors,
+    files,
   };
 }
 

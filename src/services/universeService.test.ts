@@ -193,6 +193,14 @@ describe("universe service", () => {
 
     expect(result.status).toBe("partial");
     expect(result.assets.map((asset) => asset.symbol)).toEqual(["AMD"]);
+    expect(result.files).toEqual([
+      {
+        market: "US",
+        source: "test",
+        generatedAt: "2026-05-14T00:00:00.000Z",
+        count: 1,
+      },
+    ]);
     expect(result.errors[0]).toContain("tw-assets.json");
   });
 

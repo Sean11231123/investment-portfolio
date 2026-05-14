@@ -29,6 +29,7 @@ import type {
   PortfolioSettings,
   PriceQuote,
 } from "./types/portfolio";
+import type { UniverseFileSummary } from "./types/universe";
 
 type PageKey = "dashboard" | "holdings" | "etf" | "settings";
 
@@ -46,6 +47,7 @@ function App() {
     loadCachedPrices(),
   );
   const [universeAssets, setUniverseAssets] = useState<AssetMetadata[]>([]);
+  const [universeFiles, setUniverseFiles] = useState<UniverseFileSummary[]>([]);
   const [priceRefreshing, setPriceRefreshing] = useState(false);
   const [migrationMessage] = useState(() => {
     return initialLoadResult.migrated
@@ -76,6 +78,7 @@ function App() {
     loadAssetUniverse().then((result) => {
       if (!cancelled) {
         setUniverseAssets(result.assets);
+        setUniverseFiles(result.files ?? []);
       }
     });
 
@@ -155,6 +158,7 @@ function App() {
             priceCache={priceCache}
             priceRefreshing={priceRefreshing}
             universeAssets={universeAssets}
+            universeFiles={universeFiles}
             onRefreshPrices={handleRefreshPrices}
           />
         );
