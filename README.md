@@ -422,6 +422,10 @@ public/data/market/us-prices.json
 
 The updater uses Stooq no-key CSV data. If the public source fails or a symbol is missing, the script still writes valid JSON and marks unavailable quotes with `price: null` and `status: "unavailable"`. Missing prices are never forced to zero.
 
+US price coverage is intentionally a curated tracked subset, not the full US universe. The tracked list includes common mega-cap stocks, ADRs, broad-market ETFs, sector ETFs, semiconductor ETFs, commodity ETFs, and bond ETFs such as AAPL, MSFT, NVDA, TSLA, META, AMD, AVGO, AMZN, GOOGL, GOOG, PLTR, TSM, ASML, VOO, SPY, QQQ, VT, VTI, SCHD, IWM, TLT, DIA, XLK, XLE, XLF, ARKK, SMH, SOXX, GLD, SLV, HYG, LQD, BND, and AGG.
+
+Searchable US assets outside `scripts/market_symbols_us.json` can still be added to a portfolio, but they show `尚未追蹤價格` until they are added to the tracked config and the updater runs. More symbols can be added manually to `scripts/market_symbols_us.json` with a Stooq-compatible symbol. A future phase may add held-symbol export or further on-demand feasibility checks.
+
 The scheduled US price workflow remains separate from the searchable US universe sync:
 
 ```text

@@ -1,49 +1,59 @@
 {
   "symbols": [
-    {
-      "symbol": "AAPL",
-      "name": "Apple Inc.",
-      "stooqSymbol": "aapl.us"
-    },
-    {
-      "symbol": "MSFT",
-      "name": "Microsoft Corporation",
-      "stooqSymbol": "msft.us"
-    },
-    {
-      "symbol": "NVDA",
-      "name": "NVIDIA Corporation",
-      "stooqSymbol": "nvda.us"
-    },
-    {
-      "symbol": "TSLA",
-      "name": "Tesla Inc.",
-      "stooqSymbol": "tsla.us"
-    },
-    {
-      "symbol": "VOO",
-      "name": "Vanguard S&P 500 ETF",
-      "stooqSymbol": "voo.us"
-    },
-    {
-      "symbol": "SPY",
-      "name": "SPDR S&P 500 ETF Trust",
-      "stooqSymbol": "spy.us"
-    },
-    {
-      "symbol": "QQQ",
-      "name": "Invesco QQQ Trust",
-      "stooqSymbol": "qqq.us"
-    },
-    {
-      "symbol": "VT",
-      "name": "Vanguard Total World Stock ETF",
-      "stooqSymbol": "vt.us"
-    },
-    {
-      "symbol": "VTI",
-      "name": "Vanguard Total Stock Market ETF",
-      "stooqSymbol": "vti.us"
-    }
+    { "symbol": "AAPL", "name": "Apple Inc.", "stooqSymbol": "aapl.us" },
+    { "symbol": "MSFT", "name": "Microsoft Corporation", "stooqSymbol": "msft.us" },
+    { "symbol": "NVDA", "name": "NVIDIA Corporation", "stooqSymbol": "nvda.us" },
+    { "symbol": "TSLA", "name": "Tesla Inc.", "stooqSymbol": "tsla.us" },
+    { "symbol": "META", "name": "Meta Platforms, Inc.", "stooqSymbol": "meta.us" },
+    { "symbol": "AMD", "name": "Advanced Micro Devices, Inc.", "stooqSymbol": "amd.us" },
+    { "symbol": "AVGO", "name": "Broadcom Inc.", "stooqSymbol": "avgo.us" },
+    { "symbol": "AMZN", "name": "Amazon.com, Inc.", "stooqSymbol": "amzn.us" },
+    { "symbol": "GOOGL", "name": "Alphabet Inc. Class A", "stooqSymbol": "googl.us" },
+    { "symbol": "GOOG", "name": "Alphabet Inc. Class C", "stooqSymbol": "goog.us" },
+    { "symbol": "NFLX", "name": "Netflix, Inc.", "stooqSymbol": "nflx.us" },
+    { "symbol": "PLTR", "name": "Palantir Technologies Inc.", "stooqSymbol": "pltr.us" },
+    { "symbol": "JPM", "name": "JPMorgan Chase & Co.", "stooqSymbol": "jpm.us" },
+    { "symbol": "BAC", "name": "Bank of America Corporation", "stooqSymbol": "bac.us" },
+    { "symbol": "WMT", "name": "Walmart Inc.", "stooqSymbol": "wmt.us" },
+    { "symbol": "COST", "name": "Costco Wholesale Corporation", "stooqSymbol": "cost.us" },
+    { "symbol": "UNH", "name": "UnitedHealth Group Incorporated", "stooqSymbol": "unh.us" },
+    { "symbol": "XOM", "name": "Exxon Mobil Corporation", "stooqSymbol": "xom.us" },
+    { "symbol": "CVX", "name": "Chevron Corporation", "stooqSymbol": "cvx.us" },
+    { "symbol": "KO", "name": "The Coca-Cola Company", "stooqSymbol": "ko.us" },
+    { "symbol": "PEP", "name": "PepsiCo, Inc.", "stooqSymbol": "pep.us" },
+    { "symbol": "MCD", "name": "McDonald's Corporation", "stooqSymbol": "mcd.us" },
+    { "symbol": "DIS", "name": "The Walt Disney Company", "stooqSymbol": "dis.us" },
+    { "symbol": "CRM", "name": "Salesforce, Inc.", "stooqSymbol": "crm.us" },
+    { "symbol": "ORCL", "name": "Oracle Corporation", "stooqSymbol": "orcl.us" },
+    { "symbol": "INTC", "name": "Intel Corporation", "stooqSymbol": "intc.us" },
+    { "symbol": "TSM", "name": "Taiwan Semiconductor Manufacturing Company Limited ADR", "stooqSymbol": "tsm.us" },
+    { "symbol": "ASML", "name": "ASML Holding N.V. ADR", "stooqSymbol": "asml.us" },
+    { "symbol": "VOO", "name": "Vanguard S&P 500 ETF", "stooqSymbol": "voo.us" },
+    { "symbol": "SPY", "name": "SPDR S&P 500 ETF Trust", "stooqSymbol": "spy.us" },
+    { "symbol": "QQQ", "name": "Invesco QQQ Trust", "stooqSymbol": "qqq.us" },
+    { "symbol": "VT", "name": "Vanguard Total World Stock ETF", "stooqSymbol": "vt.us" },
+    { "symbol": "VTI", "name": "Vanguard Total Stock Market ETF", "stooqSymbol": "vti.us" },
+    { "symbol": "SCHD", "name": "Schwab U.S. Dividend Equity ETF", "stooqSymbol": "schd.us" },
+    { "symbol": "IWM", "name": "iShares Russell 2000 ETF", "stooqSymbol": "iwm.us" },
+    { "symbol": "TLT", "name": "iShares 20+ Year Treasury Bond ETF", "stooqSymbol": "tlt.us" },
+    { "symbol": "DIA", "name": "SPDR Dow Jones Industrial Average ETF Trust", "stooqSymbol": "dia.us" },
+    { "symbol": "XLE", "name": "Energy Select Sector SPDR Fund", "stooqSymbol": "xle.us" },
+    { "symbol": "XLK", "name": "Technology Select Sector SPDR Fund", "stooqSymbol": "xlk.us" },
+    { "symbol": "XLF", "name": "Financial Select Sector SPDR Fund", "stooqSymbol": "xlf.us" },
+    { "symbol": "XLY", "name": "Consumer Discretionary Select Sector SPDR Fund", "stooqSymbol": "xly.us" },
+    { "symbol": "XLP", "name": "Consumer Staples Select Sector SPDR Fund", "stooqSymbol": "xlp.us" },
+    { "symbol": "XLV", "name": "Health Care Select Sector SPDR Fund", "stooqSymbol": "xlv.us" },
+    { "symbol": "XLI", "name": "Industrial Select Sector SPDR Fund", "stooqSymbol": "xli.us" },
+    { "symbol": "XLU", "name": "Utilities Select Sector SPDR Fund", "stooqSymbol": "xlu.us" },
+    { "symbol": "XLRE", "name": "Real Estate Select Sector SPDR Fund", "stooqSymbol": "xlre.us" },
+    { "symbol": "ARKK", "name": "ARK Innovation ETF", "stooqSymbol": "arkk.us" },
+    { "symbol": "SMH", "name": "VanEck Semiconductor ETF", "stooqSymbol": "smh.us" },
+    { "symbol": "SOXX", "name": "iShares Semiconductor ETF", "stooqSymbol": "soxx.us" },
+    { "symbol": "GLD", "name": "SPDR Gold Shares", "stooqSymbol": "gld.us" },
+    { "symbol": "SLV", "name": "iShares Silver Trust", "stooqSymbol": "slv.us" },
+    { "symbol": "HYG", "name": "iShares iBoxx $ High Yield Corporate Bond ETF", "stooqSymbol": "hyg.us" },
+    { "symbol": "LQD", "name": "iShares iBoxx $ Investment Grade Corporate Bond ETF", "stooqSymbol": "lqd.us" },
+    { "symbol": "BND", "name": "Vanguard Total Bond Market ETF", "stooqSymbol": "bnd.us" },
+    { "symbol": "AGG", "name": "iShares Core U.S. Aggregate Bond ETF", "stooqSymbol": "agg.us" }
   ]
 }
