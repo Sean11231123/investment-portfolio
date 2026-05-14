@@ -234,7 +234,10 @@ def is_old(value: str) -> bool:
 
 
 def relative(path: Path) -> str:
-    return str(path.relative_to(ROOT)).replace("\\", "/")
+    try:
+        return str(path.relative_to(ROOT)).replace("\\", "/")
+    except ValueError:
+        return str(path)
 
 
 if __name__ == "__main__":

@@ -43,6 +43,7 @@ Validate ETF component data:
 
 ```bash
 npm run validate:etf-components
+npm run test:etf-normalizer
 ```
 
 Preview the production build:
@@ -166,6 +167,8 @@ CI uses read-only repository permissions and runs:
 
 ```bash
 npm ci
+npm run validate:etf-components
+npm run test:etf-normalizer
 npm run build
 npm run test
 ```
@@ -275,6 +278,71 @@ To add or update ETF component data:
 ETF component data is public/static repo data. It is not user portfolio data. It may become stale, and it is not guaranteed real-time or official.
 
 ETF constituent data is not scraped online.
+
+## ETF Component CSV Normalizer
+
+Phase 3B adds a local CSV-to-JSON helper for semi-manual ETF component maintenance. It does not scrape websites, fetch ETF components online, parse issuer pages, or support Excel files.
+
+Raw user-provided files should live locally under:
+
+```text
+data-input/etf-components/
+```
+
+The `data-input/` folder is gitignored because raw downloaded files may be temporary, source-specific, messy, or contain personal notes. Commit only the generated canonical JSON under `public/data/etf-components/`.
+
+Supported CSV headers:
+
+```csv
+symbol,name,weight
+2330,台積電,0.48
+2317,鴻海,0.06
+```
+
+```csv
+代號,名稱,權重
+2330,台積電,48%
+2317,鴻海,6%
+```
+
+Weights may be decimals from `0` to `1`, or percent strings such as `48%`. Bare numbers greater than `1`, such as `48`, are rejected as ambiguous.
+
+Each CSV needs a sidecar metadata JSON:
+
+```json
+{
+  "symbol": "0050",
+  "name": "元大台灣50",
+  "sourceNote": "Manually downloaded from issuer and converted from CSV.",
+  "sourceUrl": "",
+  "lastUpdated": "2026-05-14",
+  "dataQuality": "manual"
+}
+```
+
+Normalize a CSV:
+
+```bash
+python scripts/normalize_etf_components.py \
+  --csv data-input/etf-components/0050.csv \
+  --meta data-input/etf-components/0050.meta.json
+```
+
+If `--output` is omitted, output is derived from the metadata symbol:
+
+```text
+public/data/etf-components/<symbol>.json
+```
+
+After generation, run:
+
+```bash
+npm run validate:etf-components
+npm run test
+npm run build
+```
+
+The normalizer validates before writing output. Users are still responsible for checking real-world accuracy and source freshness manually.
 
 ## GitHub Pages Deployment
 
