@@ -15,6 +15,7 @@ export type UniverseAssetFile = {
   market: Market;
   source: string;
   generatedAt: string;
+  count?: number;
   assets: UniverseAsset[];
   errors?: string[];
 };

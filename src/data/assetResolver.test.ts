@@ -29,6 +29,16 @@ const universeAssets: AssetMetadata[] = [
     aliases: ["Advanced Micro Devices"],
   },
   {
+    symbol: "00981A",
+    name: "主動統一台股增長",
+    type: "taiwan_etf",
+    market: "TW",
+    currency: "TWD",
+    unitLabel: unit,
+    priceSource: "twse",
+    aliases: ["主動統一台股增長"],
+  },
+  {
     symbol: "SCHD",
     name: "Schwab U.S. Dividend Equity ETF",
     type: "us_etf",
@@ -59,6 +69,9 @@ describe("asset resolver", () => {
     expect(
       searchResolvedAssets("SCHD", { universeAssets }).map((asset) => asset.symbol),
     ).toContain("SCHD");
+    expect(
+      searchResolvedAssets("00981A", { universeAssets }).map((asset) => asset.symbol),
+    ).toContain("00981A");
     expect(
       searchResolvedAssets("SUI", { universeAssets }).map((asset) => asset.symbol),
     ).toContain("SUI");

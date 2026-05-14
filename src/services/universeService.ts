@@ -139,6 +139,7 @@ export function parseUniverseFile(value: unknown): UniverseAssetFile {
     market: candidate.market,
     source: candidate.source,
     generatedAt: candidate.generatedAt,
+    count: typeof candidate.count === "number" ? candidate.count : undefined,
     assets: candidate.assets.map(parseUniverseAsset),
     errors: Array.isArray(candidate.errors)
       ? candidate.errors.filter((item): item is string => typeof item === "string")

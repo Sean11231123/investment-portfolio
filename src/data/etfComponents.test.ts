@@ -106,6 +106,40 @@ describe("JSON-backed ETF component adapter", () => {
     }
   });
 
+  it("keeps a priced universe ETF without component JSON unexpanded", () => {
+    const rows: HoldingValue[] = [
+      {
+        holding: {
+          id: "00981A",
+          type: "taiwan_etf",
+          symbol: "00981A",
+          quantity: 1,
+        },
+        metadata: {
+          symbol: "00981A",
+          name: "主動統一台股增長",
+          type: "taiwan_etf",
+          market: "TW",
+          currency: "TWD",
+          unitLabel: "股" as HoldingValue["metadata"]["unitLabel"],
+          priceSource: "twse",
+        },
+        quote: quote("00981A", 100),
+        marketValueTWD: 100,
+        costBasisTWD: null,
+        pnlTWD: null,
+        pnlPercent: null,
+      },
+    ];
+
+    const exposure = calculateETFOnlyAggregateExposure(rows, {});
+
+    expect(exposure).toHaveLength(1);
+    expect(exposure[0].symbol).toBe("UNEXPANDED_ETF");
+    expect(exposure[0].indirectExposureTWD).toBe(100);
+    expect(exposure[0].sourceEtfs).toEqual(["00981A"]);
+  });
+
   it("remains compatible with ETF lookthrough calculations", () => {
     const rows = [etfRow("0050", 20000)];
     const exposure = calculateETFExposure(rows, etfComponents).find(

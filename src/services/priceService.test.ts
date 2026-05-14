@@ -44,6 +44,16 @@ const amdMetadata: AssetMetadata = {
   priceSource: "us_static",
 };
 
+const activeTaiwanEtfMetadata: AssetMetadata = {
+  symbol: "00981A",
+  name: "主動統一台股增長",
+  type: "taiwan_etf",
+  market: "TW",
+  currency: "TWD",
+  unitLabel: unit,
+  priceSource: "twse",
+};
+
 function mockFetchJson(data: unknown) {
   vi.stubGlobal(
     "fetch",
@@ -146,6 +156,34 @@ describe("US static price adapter", () => {
     expect(quote.currency).toBe("USD");
     expect(quote.status).toBe("unavailable");
     expect(quote.source).toBe("us_static");
+  });
+
+  it("keeps universe-only Taiwan ETFs with missing prices unavailable instead of zero", async () => {
+    mockFetchJson({
+      version: 1,
+      market: "TW",
+      source: "twse-openapi-STOCK_DAY_AVG_ALL",
+      generatedAt: "2026-05-14T22:30:00.000Z",
+      tradeDate: null,
+      currency: "TWD",
+      quotes: {},
+      errors: [],
+    });
+
+    const prices = await refreshPrices(
+      [holding("00981A", "taiwan_etf")],
+      [activeTaiwanEtfMetadata],
+    );
+    const quote = getQuoteForHolding(
+      holding("00981A", "taiwan_etf"),
+      prices,
+      [activeTaiwanEtfMetadata],
+    );
+
+    expect(quote.price).toBeNull();
+    expect(quote.currency).toBe("TWD");
+    expect(quote.status).toBe("unavailable");
+    expect(quote.source).toBe("twse");
   });
 
   it("keeps Taiwan, crypto, and cash fallback behavior distinct", () => {

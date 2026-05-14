@@ -10,6 +10,7 @@
     "normalize:etf-components": "python scripts/normalize_etf_components.py",
     "validate:etf-components": "python scripts/validate_etf_components.py",
     "update:us-prices": "python scripts/update_us_prices.py",
+    "update:tw-universe": "python scripts/update_tw_asset_universe.py",
     "update:us-etf-components": "python scripts/update_us_etf_components.py",
     "test:etf-normalizer": "python scripts/test_normalize_etf_components.py",
     "test:us-etf-components": "python scripts/test_update_us_etf_components.py",

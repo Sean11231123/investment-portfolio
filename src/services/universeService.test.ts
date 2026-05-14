@@ -20,6 +20,7 @@ describe("universe service", () => {
       market: "US",
       source: "test",
       generatedAt: "2026-05-14T00:00:00.000Z",
+      count: 1,
       assets: [
         {
           symbol: "amd",
@@ -36,6 +37,39 @@ describe("universe service", () => {
 
     expect(parsed.assets[0].symbol).toBe("AMD");
     expect(parsed.assets[0].priceSource).toBe("us_static");
+    expect(parsed.count).toBe(1);
+  });
+
+  it("parses a generated Taiwan universe ETF", () => {
+    const parsed = parseUniverseFile({
+      version: 1,
+      market: "TW",
+      source: "twse-isin-listed-securities",
+      generatedAt: "2026-05-14T00:00:00.000Z",
+      count: 1,
+      assets: [
+        {
+          symbol: "00981a",
+          name: "主動統一台股增長",
+          type: "taiwan_etf",
+          market: "TW",
+          currency: "TWD",
+          unitLabel: "股",
+          priceSource: "twse",
+          aliases: ["主動統一台股增長"],
+          exchange: "TWSE",
+          source: "twse-isin",
+          sourceSymbol: "00981A",
+          isETF: true,
+          dataQuality: "generated",
+        },
+      ],
+      errors: [],
+    });
+
+    expect(parsed.assets[0].symbol).toBe("00981A");
+    expect(parsed.assets[0].type).toBe("taiwan_etf");
+    expect(parsed.assets[0].isETF).toBe(true);
   });
 
   it("loads universe datasets and reports partial failures", async () => {
