@@ -158,7 +158,6 @@ function App() {
             priceCache={priceCache}
             priceRefreshing={priceRefreshing}
             universeAssets={universeAssets}
-            universeFiles={universeFiles}
             onRefreshPrices={handleRefreshPrices}
           />
         );
@@ -202,6 +201,9 @@ function App() {
             holdings={holdings}
             settings={settings}
             fxRates={fxRates}
+            priceCache={priceCache}
+            universeAssets={universeAssets}
+            universeFiles={universeFiles}
             onSaveSettings={setSettings}
             onImportHoldings={handleImportHoldings}
             onRefreshFx={handleRefreshFx}

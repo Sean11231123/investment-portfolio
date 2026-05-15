@@ -1,7 +1,6 @@
 import { AllocationCharts } from "../components/AllocationCharts";
 import { CurrencyAllocationTable } from "../components/CurrencyAllocationTable";
 import { ETFExposureTable } from "../components/ETFExposureTable";
-import { MarketDataStatusCard } from "../components/MarketDataStatusCard";
 import { SummaryCards } from "../components/SummaryCards";
 import { AppButton, EmptyState } from "../components/ui";
 import type {
@@ -11,7 +10,6 @@ import type {
   PortfolioSettings,
   PriceQuote,
 } from "../types/portfolio";
-import type { UniverseFileSummary } from "../types/universe";
 import {
   calculateETFOnlyAggregateExposure,
   isETFAssetType,
@@ -31,7 +29,6 @@ type DashboardProps = {
   priceCache: Record<string, PriceQuote>;
   priceRefreshing: boolean;
   universeAssets?: AssetMetadata[];
-  universeFiles?: UniverseFileSummary[];
   onRefreshPrices: () => void;
 };
 
@@ -42,7 +39,6 @@ export function Dashboard({
   priceCache,
   priceRefreshing,
   universeAssets = [],
-  universeFiles = [],
   onRefreshPrices,
 }: DashboardProps) {
   const valuation = getPortfolioValuation(
@@ -89,13 +85,6 @@ export function Dashboard({
           部分資產缺少價格，因此總資產與投組占比可能不完整。
         </section>
       ) : null}
-
-      <MarketDataStatusCard
-        holdingValues={valuation.holdingValues}
-        fxRates={fxRates}
-        universeAssets={universeAssets}
-        universeFiles={universeFiles}
-      />
 
       <div className="flex justify-end">
         <AppButton onClick={onRefreshPrices} disabled={priceRefreshing}>

@@ -1,13 +1,25 @@
 import { ImportExportPanel } from "../components/ImportExportPanel";
+import { MarketDataStatusCard } from "../components/MarketDataStatusCard";
 import { SettingsPanel } from "../components/SettingsPanel";
 import { AppCard, appMutedSurface, SectionHeader } from "../components/ui";
-import type { FxRates, Holding, PortfolioSettings } from "../types/portfolio";
+import type {
+  AssetMetadata,
+  FxRates,
+  Holding,
+  PortfolioSettings,
+  PriceQuote,
+} from "../types/portfolio";
+import type { UniverseFileSummary } from "../types/universe";
 import { formatDateTime } from "../utils/format";
+import { getPortfolioValuation } from "../utils/portfolioCalculations";
 
 type SettingsPageProps = {
   holdings: Holding[];
   settings: PortfolioSettings;
   fxRates: FxRates;
+  priceCache: Record<string, PriceQuote>;
+  universeAssets?: AssetMetadata[];
+  universeFiles?: UniverseFileSummary[];
   onSaveSettings: (settings: PortfolioSettings) => void;
   onImportHoldings: (holdings: Holding[]) => void;
   onRefreshFx: () => void;
@@ -17,12 +29,21 @@ export function SettingsPage({
   holdings,
   settings,
   fxRates,
+  priceCache,
+  universeAssets = [],
+  universeFiles = [],
   onSaveSettings,
   onImportHoldings,
   onRefreshFx,
 }: SettingsPageProps) {
   const backup = settings.backup;
   const showNeverExportedReminder = holdings.length > 0 && !backup?.lastExportedAt;
+  const valuation = getPortfolioValuation(
+    holdings,
+    fxRates,
+    priceCache,
+    universeAssets,
+  );
 
   return (
     <div className="space-y-6">
@@ -31,6 +52,13 @@ export function SettingsPage({
         fxRates={fxRates}
         onSave={onSaveSettings}
         onRefreshFx={onRefreshFx}
+      />
+
+      <MarketDataStatusCard
+        holdingValues={valuation.holdingValues}
+        fxRates={fxRates}
+        universeAssets={universeAssets}
+        universeFiles={universeFiles}
       />
 
       <section className="space-y-4">
