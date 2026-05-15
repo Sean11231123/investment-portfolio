@@ -22,31 +22,32 @@ type AppBadgeProps = {
 };
 
 export const appSurface =
-  "border border-white/10 bg-slate-950/70 shadow-[0_18px_50px_rgba(15,23,42,0.42)] backdrop-blur-xl";
-export const appMutedSurface = "border border-white/10 bg-white/[0.055] backdrop-blur";
+  "border border-slate-200/80 bg-white shadow-[0_16px_40px_rgba(15,23,42,0.08)]";
+export const appMutedSurface = "border border-slate-200/80 bg-slate-50";
 export const appInput =
-  "rounded-2xl border border-white/10 bg-[#081126] px-3 py-2 text-sm text-slate-100 outline-none transition placeholder:text-slate-500 focus:border-violet-300/70 focus:ring-2 focus:ring-violet-500/30 disabled:cursor-not-allowed disabled:opacity-60";
-export const appTableHeader = "bg-white/[0.04] text-left text-xs uppercase tracking-wide text-slate-400";
-export const appTableRow = "border-t border-white/10 hover:bg-white/[0.04]";
+  "rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-slate-400 focus:ring-2 focus:ring-slate-300/60 disabled:cursor-not-allowed disabled:opacity-60";
+export const appTableHeader =
+  "bg-slate-50 text-left text-xs uppercase tracking-wide text-slate-500";
+export const appTableRow = "border-t border-slate-200 hover:bg-slate-50/80";
 export const chartTooltipStyle = {
-  backgroundColor: "#111a35",
-  border: "1px solid rgba(255,255,255,0.14)",
+  backgroundColor: "#ffffff",
+  border: "1px solid rgba(226,232,240,1)",
   borderRadius: "16px",
-  color: "#f8fafc",
-  boxShadow: "0 20px 60px rgba(0,0,0,0.35)",
+  color: "#0f172a",
+  boxShadow: "0 18px 40px rgba(15,23,42,0.10)",
 };
-export const chartGridColor = "rgba(148, 163, 184, 0.18)";
-export const chartTextColor = "#94a3b8";
+export const chartGridColor = "rgba(148, 163, 184, 0.22)";
+export const chartTextColor = "#64748b";
 export const chartColors = [
-  "#38bdf8cc", // 亮天藍 (Sky 400) - 增加對比
-  "#4ade80cc", // 薄荷綠 (Green 400) - 視覺最舒適
-  "#fbbf24cc", // 暖金黃 (Amber 400) - 強力跳色
-  "#22d3eecc", // 清爽青 (Cyan 400) 
-  "#fb7185cc", // 柔玫瑰 (Rose 400) - 作為亮點
-  "#818cf8cc", // 淡靛藍 (Indigo 400) - 與背景呼應但不重疊
-  "#f97316cc", // 活力橘 (Orange 500)
-  "#2dd4bfcc", // 翠綠藍 (Teal 400)
-  "#e2e8f0cc", // 霧白 (Slate 200) - 用於次要數據，極高對比
+  "#6b7280", // 柔灰
+  "#93c5fd", // 淺藍
+  "#fdba74", // 淺橘
+  "#bef264", // 淺綠
+  "#fca5a5", // 淺紅
+  "#67e8f9", // 淺青
+  "#c4b5fd", // 淺紫
+  "#5eead4", // 淺綠藍
+  "#d1d5db", // 淺灰
 ];
 
 export function AppCard({ children, className = "", padded = true }: AppCardProps) {
@@ -66,12 +67,12 @@ export function AppButton({
 }: AppButtonProps) {
   const variants = {
     primary:
-      "bg-gradient-to-r from-violet-500 to-indigo-500 text-white shadow-lg shadow-violet-950/40 hover:from-violet-400 hover:to-indigo-400",
+      "bg-slate-900 text-white shadow-sm hover:bg-slate-800",
     secondary:
-      "border border-white/10 bg-white/[0.06] text-slate-100 hover:bg-white/[0.1]",
+      "border border-slate-200 bg-white text-slate-700 hover:bg-slate-50",
     danger:
-      "border border-rose-300/25 bg-rose-500/10 text-rose-200 hover:bg-rose-500/20",
-    ghost: "text-slate-300 hover:bg-white/[0.06]",
+      "border border-rose-200 bg-rose-50 text-rose-600 hover:bg-rose-100",
+    ghost: "text-slate-600 hover:bg-slate-100",
   };
 
   return (
@@ -91,11 +92,11 @@ export function FieldShell({ children, className = "" }: FieldShellProps) {
 
 export function AppBadge({ children, tone = "neutral", className = "" }: AppBadgeProps) {
   const tones = {
-    neutral: "border-slate-400/20 bg-slate-400/10 text-slate-300",
-    success: "border-emerald-300/25 bg-emerald-400/10 text-emerald-200",
-    warning: "border-amber-300/25 bg-amber-400/10 text-amber-200",
-    danger: "border-rose-300/25 bg-rose-400/10 text-rose-200",
-    accent: "border-violet-300/25 bg-violet-400/10 text-violet-200",
+    neutral: "border-slate-200 bg-slate-100 text-slate-600",
+    success: "border-emerald-200 bg-emerald-50 text-emerald-600",
+    warning: "border-amber-200 bg-amber-50 text-amber-600",
+    danger: "border-rose-200 bg-rose-50 text-rose-600",
+    accent: "border-sky-200 bg-sky-50 text-sky-600",
   };
 
   return (
@@ -116,8 +117,8 @@ export function EmptyState({
 }) {
   return (
     <AppCard className="border-dashed text-center">
-      <h2 className="text-lg font-semibold text-slate-100">{title}</h2>
-      <p className="mt-2 text-sm leading-6 text-slate-400">{message}</p>
+      <h2 className="text-lg font-semibold text-slate-900">{title}</h2>
+      <p className="mt-2 text-sm leading-6 text-slate-500">{message}</p>
     </AppCard>
   );
 }
@@ -134,9 +135,9 @@ export function SectionHeader({
   return (
     <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
       <div>
-        <h2 className="text-lg font-semibold text-slate-50">{title}</h2>
+        <h2 className="text-lg font-semibold text-slate-900">{title}</h2>
         {description ? (
-          <p className="mt-1 text-sm leading-6 text-slate-400">{description}</p>
+          <p className="mt-1 text-sm leading-6 text-slate-500">{description}</p>
         ) : null}
       </div>
       {action}

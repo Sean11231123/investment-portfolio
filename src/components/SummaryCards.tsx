@@ -63,18 +63,18 @@ function PortfolioHeroCard({
   isPartial: boolean;
 }) {
   return (
-    <AppCard className="relative overflow-hidden">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(56,189,248,0.20),transparent_34%),radial-gradient(circle_at_bottom_left,rgba(74,222,128,0.13),transparent_32%)]" />
-      <div className="pointer-events-none absolute -right-14 -top-16 h-44 w-44 rounded-full bg-sky-400/10 blur-3xl" />
-      <div className="pointer-events-none absolute -bottom-16 -left-14 h-44 w-44 rounded-full bg-emerald-400/10 blur-3xl" />
+    <AppCard className="relative overflow-hidden bg-gradient-to-br from-white via-sky-50 to-emerald-50">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(147,197,253,0.28),transparent_36%),radial-gradient(circle_at_bottom_left,rgba(187,247,208,0.38),transparent_34%)]" />
+      <div className="pointer-events-none absolute -right-14 -top-16 h-44 w-44 rounded-full bg-sky-200/40 blur-3xl" />
+      <div className="pointer-events-none absolute -bottom-16 -left-14 h-44 w-44 rounded-full bg-emerald-200/45 blur-3xl" />
 
       <div className="relative">
         <div className="flex items-start justify-between gap-3">
           <div>
-            <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-sky-300">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-sky-600">
               Total Portfolio
             </p>
-            <p className="mt-1 text-sm text-slate-400">總資產估值</p>
+            <p className="mt-1 text-sm text-slate-500">總資產估值</p>
           </div>
 
           <AppBadge tone={isPartial ? "warning" : "success"}>
@@ -83,7 +83,7 @@ function PortfolioHeroCard({
         </div>
 
         <div className="mt-5">
-          <p className="break-words text-3xl font-bold tracking-tight text-white sm:text-4xl">
+          <p className="break-words text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
             {totalValueText}
           </p>
           <p className="mt-2 text-sm text-slate-400">
@@ -112,11 +112,11 @@ function HeroMetric({
   highlight?: boolean;
 }) {
   return (
-    <div className="rounded-2xl border border-white/10 bg-white/[0.055] px-3 py-3 text-center backdrop-blur">
-      <p className={`text-lg font-semibold ${highlight ? "text-amber-200" : "text-white"}`}>
+    <div className="rounded-2xl border border-slate-200/80 bg-white/70 px-3 py-3 text-center shadow-sm backdrop-blur">
+      <p className={`text-lg font-semibold ${highlight ? "text-amber-600" : "text-slate-900"}`}>
         {value}
       </p>
-      <p className="mt-1 text-[11px] text-slate-400">{label}</p>
+      <p className="mt-1 text-[11px] text-slate-500">{label}</p>
     </div>
   );
 }
@@ -134,14 +134,14 @@ function CompactSummaryCard({
 }) {
   const valueTone =
     tone === "success"
-      ? "text-emerald-200"
+      ? "text-emerald-600"
       : tone === "warning"
-        ? "text-amber-200"
-        : "text-white";
+        ? "text-amber-600"
+        : "text-slate-900";
 
   return (
     <AppCard className="px-3 py-3 sm:px-4 sm:py-4">
-      <p className="text-[11px] text-slate-400 sm:text-xs">{label}</p>
+      <p className="text-[11px] font-medium text-slate-500 sm:text-xs">{label}</p>
       <p className={`mt-1 break-words text-xl font-semibold sm:text-2xl ${valueTone}`}>
         {value}
       </p>

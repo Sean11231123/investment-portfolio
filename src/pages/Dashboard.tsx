@@ -81,7 +81,7 @@ export function Dashboard({
       />
 
       {valuation.isPartial ? (
-        <section className="rounded-[1.75rem] border border-amber-300/20 bg-amber-400/10 px-4 py-3 text-sm leading-6 text-amber-100">
+        <section className="rounded-[1.75rem] border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-700">
           <span className="font-semibold">估值提醒：</span>
           部分資產缺少價格，因此總資產與投組占比可能不完整。
         </section>
@@ -89,8 +89,8 @@ export function Dashboard({
 
       <section className="grid grid-cols-1 gap-3 sm:flex sm:items-center sm:justify-between">
         <div>
-          <p className="text-sm font-semibold text-slate-100">價格與資料</p>
-          <p className="mt-1 text-xs leading-5 text-slate-400">
+          <p className="text-sm font-semibold text-slate-900">價格與資料</p>
+          <p className="mt-1 text-xs leading-5 text-slate-500">
             手動更新可重新取得可用市場價格與匯率資料。
           </p>
         </div>
@@ -112,12 +112,12 @@ export function Dashboard({
       ) : null}
 
       <div className="space-y-1">
-        <h2 className="text-lg font-semibold text-slate-50">投組配置</h2>
-        <p className="text-sm leading-6 text-slate-400">
+        <h2 className="text-lg font-semibold text-slate-900">投組配置</h2>
+        <p className="text-sm leading-6 text-slate-500">
           依資產類型、市場與前十大持倉查看配置狀態。
         </p>
       </div>
-      
+
       <AllocationCharts
         assetAllocation={assetAllocation}
         marketAllocation={marketAllocation}
@@ -127,8 +127,8 @@ export function Dashboard({
       />
 
       <div className="space-y-1">
-        <h2 className="text-lg font-semibold text-slate-50">幣別配置</h2>
-        <p className="text-sm leading-6 text-slate-400">
+        <h2 className="text-lg font-semibold text-slate-900">幣別配置</h2>
+        <p className="text-sm leading-6 text-slate-500">
           查看投組在不同計價幣別中的分布。
         </p>
       </div>
@@ -139,14 +139,14 @@ export function Dashboard({
         fxRates={fxRates}
       />
 
-      <section className="rounded-[1.75rem] border border-amber-300/20 bg-amber-400/10 px-4 py-3 text-sm leading-6 text-amber-100">
+      <section className="rounded-[1.75rem] border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-6 text-amber-700">
         <span className="font-semibold">ETF 資料提醒：</span>
         ETF 成分資料為手動/範例資料，使用前請由使用者自行更新。
       </section>
 
       <div className="space-y-1">
-        <h2 className="text-lg font-semibold text-slate-50">ETF 展開摘要</h2>
-        <p className="text-sm leading-6 text-slate-400">
+        <h2 className="text-lg font-semibold text-slate-900">ETF 展開摘要</h2>
+        <p className="text-sm leading-6 text-slate-500">
           只計算 ETF 持倉內部成分；未建立成分資料的 ETF 會顯示為未展開。
         </p>
       </div>
