@@ -2,8 +2,8 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-securities",
-  "generatedAt": "2026-05-14T11:48:25.298475Z",
-  "count": 1262,
+  "generatedAt": "2026-05-15T11:28:56.376826Z",
+  "count": 1263,
   "assets": [
     {
       "symbol": "00400A",
@@ -19841,6 +19841,23 @@
       "exchange": "TWSE",
       "source": "twse-isin",
       "sourceSymbol": "7799",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "7818",
+      "name": "溢泰實業",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "twse",
+      "aliases": [
+        "溢泰實業"
+      ],
+      "exchange": "TWSE",
+      "source": "twse-isin",
+      "sourceSymbol": "7818",
       "isETF": false,
       "dataQuality": "generated"
     },
