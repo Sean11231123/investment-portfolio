@@ -22,8 +22,8 @@ type AppBadgeProps = {
 };
 
 export const appSurface =
-  "border border-white/10 bg-[#111a35]/85 shadow-[0_24px_80px_rgba(0,0,0,0.35)] backdrop-blur";
-export const appMutedSurface = "border border-white/10 bg-white/[0.04]";
+  "border border-white/10 bg-slate-950/70 shadow-[0_18px_50px_rgba(15,23,42,0.42)] backdrop-blur-xl";
+export const appMutedSurface = "border border-white/10 bg-white/[0.055] backdrop-blur";
 export const appInput =
   "rounded-2xl border border-white/10 bg-[#081126] px-3 py-2 text-sm text-slate-100 outline-none transition placeholder:text-slate-500 focus:border-violet-300/70 focus:ring-2 focus:ring-violet-500/30 disabled:cursor-not-allowed disabled:opacity-60";
 export const appTableHeader = "bg-white/[0.04] text-left text-xs uppercase tracking-wide text-slate-400";
@@ -51,7 +51,7 @@ export const chartColors = [
 
 export function AppCard({ children, className = "", padded = true }: AppCardProps) {
   return (
-    <section className={`rounded-3xl ${appSurface} ${padded ? "p-4 sm:p-5" : ""} ${className}`}>
+    <section className={`rounded-[1.75rem] ${appSurface} ${padded ? "p-4 sm:p-5" : ""} ${className}`}>
       {children}
     </section>
   );
@@ -77,7 +77,7 @@ export function AppButton({
   return (
     <button
       type={type}
-      className={`min-h-11 rounded-full px-4 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-violet-400/70 disabled:cursor-not-allowed disabled:opacity-55 ${variants[variant]} ${className}`}
+      className={`min-h-11 rounded-2xl px-4 py-2 text-sm font-semibold transition active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-violet-400/70 disabled:cursor-not-allowed disabled:opacity-55 ${variants[variant]} ${className}`}
       {...props}
     >
       {children}

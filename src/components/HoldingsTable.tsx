@@ -197,6 +197,16 @@ function HoldingCard({
 
 function PriceStatusDetails({ row }: { row: HoldingValue }) {
   const priceReason = getPriceReason(row.quote, row.metadata);
+  const hasUsablePrice =
+    row.quote.price !== null &&
+    Number.isFinite(row.quote.price) &&
+    row.quote.price > 0;
+
+  const shouldShowFriendlyError =
+    !hasUsablePrice &&
+    row.quote.status === "unavailable" &&
+    priceReason.label !== "使用快取價格";
+
   return (
     <div>
       <AppBadge tone={priceReason.tone}>{priceReason.label}</AppBadge>
@@ -209,9 +219,9 @@ function PriceStatusDetails({ row }: { row: HoldingValue }) {
       <p className="text-xs text-slate-400">
         更新時間：{formatDateTime(row.quote.lastUpdated)}
       </p>
-      {row.quote.error ? (
+      {shouldShowFriendlyError ? (
         <p className="mt-1 whitespace-normal text-xs text-rose-300">
-          {row.quote.error}
+          {getFriendlyPriceError(row.quote.source)}
         </p>
       ) : null}
     </div>
@@ -245,6 +255,14 @@ function ActionButtons({
       </AppButton>
     </div>
   );
+}
+
+function getFriendlyPriceError(source: string) {
+  if (source === "static-us-market-json") return "美股靜態價格暫時無法取得。";
+  if (source === "static-tw-market-json") return "台股/ETF 靜態價格暫時無法取得。";
+  if (source === "Binance") return "Binance 價格暫時無法取得。";
+  if (source === "CoinGecko") return "CoinGecko 價格暫時無法取得。";
+  return "價格取得失敗。";
 }
 
 function getSourceLabel(source: string) {

@@ -81,16 +81,28 @@ export function Dashboard({
       />
 
       {valuation.isPartial ? (
-        <section className="rounded-3xl border border-amber-300/25 bg-amber-400/10 p-4 text-sm text-amber-200">
+        <section className="rounded-[1.75rem] border border-amber-300/20 bg-amber-400/10 px-4 py-3 text-sm leading-6 text-amber-100">
+          <span className="font-semibold">估值提醒：</span>
           部分資產缺少價格，因此總資產與投組占比可能不完整。
         </section>
       ) : null}
 
-      <div className="flex justify-end">
-        <AppButton onClick={onRefreshPrices} disabled={priceRefreshing}>
+      <section className="grid grid-cols-1 gap-3 sm:flex sm:items-center sm:justify-between">
+        <div>
+          <p className="text-sm font-semibold text-slate-100">價格與資料</p>
+          <p className="mt-1 text-xs leading-5 text-slate-400">
+            手動更新可重新取得可用市場價格與匯率資料。
+          </p>
+        </div>
+
+        <AppButton
+          onClick={onRefreshPrices}
+          disabled={priceRefreshing}
+          className="w-full sm:w-auto"
+        >
           {priceRefreshing ? "更新中..." : "更新價格"}
         </AppButton>
-      </div>
+      </section>
 
       {holdings.length === 0 ? (
         <EmptyState
@@ -99,6 +111,13 @@ export function Dashboard({
         />
       ) : null}
 
+      <div className="space-y-1">
+        <h2 className="text-lg font-semibold text-slate-50">投組配置</h2>
+        <p className="text-sm leading-6 text-slate-400">
+          依資產類型、市場與前十大持倉查看配置狀態。
+        </p>
+      </div>
+      
       <AllocationCharts
         assetAllocation={assetAllocation}
         marketAllocation={marketAllocation}
@@ -107,15 +126,30 @@ export function Dashboard({
         fxRates={fxRates}
       />
 
+      <div className="space-y-1">
+        <h2 className="text-lg font-semibold text-slate-50">幣別配置</h2>
+        <p className="text-sm leading-6 text-slate-400">
+          查看投組在不同計價幣別中的分布。
+        </p>
+      </div>
+
       <CurrencyAllocationTable
         rows={currencyAllocation}
         displayCurrency={settings.displayCurrency}
         fxRates={fxRates}
       />
 
-      <section className="rounded-3xl border border-amber-300/25 bg-amber-400/10 p-4 text-sm text-amber-200">
+      <section className="rounded-[1.75rem] border border-amber-300/20 bg-amber-400/10 px-4 py-3 text-sm leading-6 text-amber-100">
+        <span className="font-semibold">ETF 資料提醒：</span>
         ETF 成分資料為手動/範例資料，使用前請由使用者自行更新。
       </section>
+
+      <div className="space-y-1">
+        <h2 className="text-lg font-semibold text-slate-50">ETF 展開摘要</h2>
+        <p className="text-sm leading-6 text-slate-400">
+          只計算 ETF 持倉內部成分；未建立成分資料的 ETF 會顯示為未展開。
+        </p>
+      </div>
 
       <ETFExposureTable
         title="ETF 展開摘要"
