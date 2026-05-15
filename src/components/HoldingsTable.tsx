@@ -100,10 +100,10 @@ export function HoldingsTable({
                       {row.marketValueTWD === null
                         ? "無法估值"
                         : formatDisplayMoney(
-                            row.marketValueTWD,
-                            displayCurrency,
-                            fxRates,
-                          )}
+                          row.marketValueTWD,
+                          displayCurrency,
+                          fxRates,
+                        )}
                     </Td>
                     <Td>
                       {row.pnlTWD === null ? (
@@ -155,8 +155,8 @@ function HoldingCard({
     <AppCard className="space-y-4">
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
-          <p className="text-lg font-semibold text-white">{row.metadata.symbol}</p>
-          <p className="mt-1 line-clamp-2 text-sm leading-5 text-slate-400">
+          <p className="text-lg font-semibold text-[var(--app-text)]">{row.metadata.symbol}</p>
+          <p className="mt-1 line-clamp-2 text-sm leading-5 text-[var(--app-text-muted)]">
             {row.metadata.name}
           </p>
         </div>
@@ -210,17 +210,17 @@ function PriceStatusDetails({ row }: { row: HoldingValue }) {
   return (
     <div>
       <AppBadge tone={priceReason.tone}>{priceReason.label}</AppBadge>
-      <p className="mt-2 text-xs text-slate-400">
+      <p className="mt-2 text-xs text-[var(--app-text-subtle)]">
         價格來源：{getSourceLabel(row.quote.source)}
       </p>
       {row.quote.tradeDate ? (
-        <p className="text-xs text-slate-400">交易日：{row.quote.tradeDate}</p>
+        <p className="text-xs text-[var(--app-text-subtle)]">交易日：{row.quote.tradeDate}</p>
       ) : null}
-      <p className="text-xs text-slate-400">
+      <p className="text-xs text-[var(--app-text-subtle)]">
         更新時間：{formatDateTime(row.quote.lastUpdated)}
       </p>
       {shouldShowFriendlyError ? (
-        <p className="mt-1 whitespace-normal text-xs text-rose-300">
+        <p className="mt-1 whitespace-normal text-xs text-[var(--app-danger-text)]">
           {getFriendlyPriceError(row.quote.source)}
         </p>
       ) : null}
@@ -278,8 +278,8 @@ function getSourceLabel(source: string) {
 function Info({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <p className="text-xs text-slate-500">{label}</p>
-      <p className="mt-1 break-words font-medium text-slate-200">{value}</p>
+      <p className="text-xs text-[var(--app-text-subtle)]">{label}</p>
+      <p className="mt-1 break-words font-medium text-[var(--app-text)]">{value}</p>
     </div>
   );
 }
@@ -297,9 +297,8 @@ function Td({
 }) {
   return (
     <td
-      className={`whitespace-nowrap px-4 py-3 ${
-        strong ? "font-semibold text-white" : "text-slate-300"
-      }`}
+      className={`whitespace-nowrap px-4 py-3 ${strong ? "font-semibold text-[var(--app-text)]" : "text-[var(--app-text-muted)]"
+        }`}
     >
       {children}
     </td>

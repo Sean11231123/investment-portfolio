@@ -7,6 +7,7 @@ export const SETTINGS_STORAGE_KEY =
 
 export const defaultSettings: PortfolioSettings = {
   displayCurrency: "TWD",
+  theme: "dark",
 };
 
 export function loadSettings(): PortfolioSettings {
@@ -15,7 +16,7 @@ export function loadSettings(): PortfolioSettings {
     try {
       const parsed = JSON.parse(rawV2);
       if (validateSettings(parsed)) {
-        return parsed;
+        return { ...defaultSettings, ...parsed };
       }
     } catch {
       return defaultSettings;
@@ -37,6 +38,7 @@ export function validateSettings(value: unknown): value is PortfolioSettings {
   const settings = value as Record<string, unknown>;
   return (
     ["TWD", "USD", "USDT"].includes(String(settings.displayCurrency)) &&
+    (settings.theme === undefined || settings.theme === "dark" || settings.theme === "light") &&
     validateBackupMetadata(settings.backup)
   );
 }

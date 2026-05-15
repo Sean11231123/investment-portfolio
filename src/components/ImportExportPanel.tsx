@@ -191,12 +191,12 @@ export function ImportExportPanel({
       ) : null}
 
       {message ? (
-        <p className="mt-3 rounded-2xl border border-emerald-300/25 bg-emerald-400/10 p-3 text-sm text-emerald-200">
+        <p className="mt-3 rounded-2xl border border-[var(--app-success-bg)] bg-[var(--app-success-bg)] p-3 text-sm text-[var(--app-success-text)]">
           {message}
         </p>
       ) : null}
       {error ? (
-        <p className="mt-3 rounded-2xl border border-rose-300/25 bg-rose-400/10 p-3 text-sm text-rose-200">
+        <p className="mt-3 rounded-2xl border border-[var(--app-danger-bg)] bg-[var(--app-danger-bg)] p-3 text-sm text-[var(--app-danger-text)]">
           {error}
         </p>
       ) : null}
@@ -215,8 +215,8 @@ function ImportPreview({
 }) {
   return (
     <div className={`mt-4 rounded-2xl p-4 ${appMutedSurface}`}>
-      <h3 className="font-semibold text-slate-50">匯入預覽</h3>
-      <dl className="mt-3 grid gap-2 text-sm text-slate-300 md:grid-cols-2">
+      <h3 className="font-semibold text-[var(--app-text)]">匯入預覽</h3>
+      <dl className="mt-3 grid gap-2 text-sm text-[var(--app-text-subtle)] md:grid-cols-2">
         <Info
           label="格式"
           value={preview.detectedFormat === "v2" ? "v2 備份" : "v1 匯入並遷移"}
@@ -225,13 +225,13 @@ function ImportPreview({
         <Info label="持倉數量" value={`${preview.holdingCount}`} />
         <Info label="包含設定" value={preview.includesSettings ? "是" : "否"} />
       </dl>
-      <div className="mt-3 text-sm text-slate-300">
-        <p className="font-medium text-slate-200">包含代號</p>
-        <p className="mt-1 break-words text-slate-400">
+      <div className="mt-3 text-sm text-[var(--app-text-subtle)]">
+        <p className="font-medium text-[var(--app-text)]">包含代號</p>
+        <p className="mt-1 break-words text-[var(--app-text-muted)]">
           {preview.symbols.length > 0 ? preview.symbols.join(", ") : "無"}
         </p>
       </div>
-      <p className="mt-3 rounded-2xl border border-amber-300/25 bg-amber-400/10 p-3 text-sm text-amber-200">
+      <p className="mt-3 rounded-2xl border border-[var(--app-warning-bg)] bg-[var(--app-warning-bg)] p-3 text-sm text-[var(--app-warning-text)]">
         匯入後會取代目前持倉。
       </p>
       <div className="mt-4 grid gap-2 sm:flex sm:flex-wrap">
@@ -247,8 +247,8 @@ function ImportPreview({
 function Info({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className="text-xs text-slate-400">{label}</dt>
-      <dd className="font-medium text-slate-100">{value}</dd>
+      <dt className="text-xs text-[var(--app-text-subtle)]">{label}</dt>
+      <dd className="font-medium text-[var(--app-text)]">{value}</dd>
     </div>
   );
 }

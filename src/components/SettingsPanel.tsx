@@ -29,7 +29,7 @@ export function SettingsPanel({
         <Info label="USDT/TWD" value={formatNumber(fxRates.usdtToTwd, 4)} />
         <Info label="狀態" value={getFxStatusLabel(fxRates.status)} />
         <Info label="上次更新" value={formatDateTime(fxRates.lastUpdated)} />
-        <label className="block text-sm font-medium text-slate-300">
+        <label className="block text-sm font-medium text-[var(--app-text)]">
           顯示幣別
           <select
             value={settings.displayCurrency}
@@ -49,7 +49,7 @@ export function SettingsPanel({
       </div>
 
       {fxRates.error ? (
-        <p className="mt-4 rounded-2xl border border-amber-300/25 bg-amber-400/10 p-3 text-sm text-amber-200">
+        <p className="mt-4 rounded-2xl border border-[var(--app-warning-bg)] bg-[var(--app-warning-bg)] p-3 text-sm text-[var(--app-warning-text)]">
           {fxRates.error}
         </p>
       ) : null}
@@ -60,8 +60,8 @@ export function SettingsPanel({
 function Info({ label, value }: { label: string; value: string }) {
   return (
     <div className={`rounded-2xl p-4 ${appMutedSurface}`}>
-      <p className="text-xs text-slate-400">{label}</p>
-      <p className="mt-1 font-semibold text-slate-100">{value}</p>
+      <p className="text-xs text-[var(--app-text-subtle)]">{label}</p>
+      <p className="mt-1 font-semibold text-[var(--app-text)]">{value}</p>
     </div>
   );
 }

@@ -17,6 +17,7 @@ const holding: Holding = {
 
 const settings: PortfolioSettings = {
   displayCurrency: "TWD",
+  theme: "dark",
   backup: {
     lastExportedAt: "2026-05-14T12:00:00.000Z",
   },

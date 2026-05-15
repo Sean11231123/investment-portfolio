@@ -193,17 +193,17 @@ export function HoldingForm({
               />
             </Field>
             {form.query && suggestions.length > 0 && !selectedAsset ? (
-              <div className="absolute inset-x-0 z-10 mt-2 max-h-56 w-full overflow-y-auto rounded-2xl border border-white/10 bg-[#111a35] shadow-2xl shadow-black/40 sm:max-h-64">
+              <div className="absolute inset-x-0 z-10 mt-2 max-h-56 w-full overflow-y-auto rounded-2xl border border-[var(--app-border)] bg-[var(--app-surface)] shadow-2xl shadow-black/20 sm:max-h-64">
                 {suggestions.map((asset) => (
                   <button
                     key={`${asset.type}-${asset.symbol}`}
                     type="button"
                     onClick={() => handleSelectAsset(asset)}
-                    className="block w-full px-4 py-3 text-left text-sm text-slate-100 hover:bg-white/[0.06]"
+                    className="block w-full px-4 py-3 text-left text-sm text-[var(--app-text)] hover:bg-[var(--app-surface-muted)]"
                   >
                     <span className="font-semibold">{asset.symbol}</span>
-                    <span className="text-slate-400"> - {asset.name}</span>
-                    <span className="ml-2 text-xs text-violet-200">
+                    <span className="text-[var(--app-text-subtle)]"> - {asset.name}</span>
+                    <span className="ml-2 text-xs text-[var(--app-primary)]">
                       {assetTypeLabels[asset.type]}
                     </span>
                   </button>
@@ -240,12 +240,12 @@ export function HoldingForm({
         </div>
 
         {selectedAsset ? (
-          <div className={`mt-4 rounded-2xl p-3 text-sm text-slate-300 ${appMutedSurface}`}>
+          <div className={`mt-4 rounded-2xl p-3 text-sm text-[var(--app-text-muted)] ${appMutedSurface}`}>
             已選擇 {selectedAsset.symbol} - {selectedAsset.name}，
             {selectedAsset.market} / {selectedAsset.currency} / 價格來源：
             {selectedAsset.priceSource}
             {selectedAsset.priceSource !== "cash" ? (
-              <p className="mt-2 text-xs text-slate-400">
+              <p className="mt-2 text-xs text-[var(--app-text-subtle)]">
                 此資產可加入投組，但目前可能尚未追蹤價格。加入後市值可能暫時顯示為未提供。
               </p>
             ) : null}
@@ -264,7 +264,7 @@ export function HoldingForm({
         </Field>
 
         {error ? (
-          <p className="mt-3 rounded-2xl border border-rose-300/25 bg-rose-400/10 p-3 text-sm text-rose-200">
+          <p className="mt-3 rounded-2xl border border-[var(--app-danger-bg)] bg-[var(--app-danger-bg)] p-3 text-sm text-[var(--app-danger-text)]">
             {error}
           </p>
         ) : null}
@@ -287,7 +287,7 @@ function Field({
   children: React.ReactNode;
 }) {
   return (
-    <label className="block text-sm font-medium text-slate-300">
+    <label className="block text-sm font-medium text-[var(--app-text)]">
       {label}
       <FieldShell className="mt-2">{children}</FieldShell>
     </label>

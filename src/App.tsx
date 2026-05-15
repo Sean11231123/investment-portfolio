@@ -69,6 +69,10 @@ function App() {
   }, [settings]);
 
   useEffect(() => {
+    document.documentElement.dataset.theme = settings.theme;
+  }, [settings.theme]);
+
+  useEffect(() => {
     refreshFxRates().then(setFxRates);
   }, []);
 

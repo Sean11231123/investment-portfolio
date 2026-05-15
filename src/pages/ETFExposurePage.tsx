@@ -44,11 +44,11 @@ export function ETFExposurePage({
   const selectedSymbol = selectedEtf || heldEtfRows[0]?.metadata.symbol || "";
   const singleRows = selectedSymbol
     ? calculateSingleETFComposition(
-        holdings,
-        valuation.holdingValues,
-        selectedSymbol,
-        etfComponents,
-      )
+      holdings,
+      valuation.holdingValues,
+      selectedSymbol,
+      etfComponents,
+    )
     : [];
 
   return (
@@ -56,7 +56,7 @@ export function ETFExposurePage({
       <ETFComponentStatusSection heldEtfRows={heldEtfRows} />
 
       {valuation.isPartial ? (
-        <section className="rounded-3xl border border-amber-300/25 bg-amber-400/10 p-4 text-sm text-amber-200">
+        <section className="rounded-3xl border border-[var(--app-warning-bg)] bg-[var(--app-warning-bg)] p-4 text-sm text-[var(--app-warning-text)]">
           部分資產缺少價格，因此 ETF 展開可能只包含可估值的 ETF 部位。
         </section>
       ) : null}
@@ -127,7 +127,7 @@ function ETFComponentStatusSection({
       />
 
       {heldEtfRows.length === 0 ? (
-        <div className={`mt-4 rounded-2xl p-4 text-sm text-slate-400 ${appMutedSurface}`}>
+        <div className={`mt-4 rounded-2xl p-4 text-sm text-[var(--app-text-subtle)] ${appMutedSurface}`}>
           目前沒有 ETF 持倉。
         </div>
       ) : (
@@ -140,12 +140,12 @@ function ETFComponentStatusSection({
               return (
                 <div
                   key={row.holding.id}
-                  className="rounded-2xl border border-amber-300/25 bg-amber-400/10 p-4"
+                  className="rounded-2xl border border-[var(--app-warning-bg)] bg-[var(--app-warning-bg)] p-4"
                 >
-                  <p className="font-semibold text-slate-100">
+                  <p className="font-semibold text-[var(--app-text)]">
                     {symbol} {row.metadata.name}
                   </p>
-                  <p className="mt-2 text-sm text-amber-200">
+                  <p className="mt-2 text-sm text-[var(--app-warning-text)]">
                     此 ETF 尚無成分資料，暫時無法展開。
                   </p>
                 </div>
@@ -162,10 +162,10 @@ function ETFComponentStatusSection({
                 key={row.holding.id}
                 className={`rounded-2xl p-4 ${appMutedSurface}`}
               >
-                <p className="font-semibold text-slate-100">
+                <p className="font-semibold text-[var(--app-text)]">
                   {symbol} {data.name}
                 </p>
-                <dl className="mt-3 space-y-1 text-xs text-slate-400">
+                <dl className="mt-3 space-y-1 text-xs text-[var(--app-text-subtle)]">
                   {data.asOfDate ? (
                     <Info label="資料日期" value={data.asOfDate} />
                   ) : null}
@@ -180,11 +180,11 @@ function ETFComponentStatusSection({
                     value={`${((data.totalWeight ?? 0) * 100).toFixed(1)}%`}
                   />
                 </dl>
-                <p className="mt-3 text-xs text-slate-400">
+                <p className="mt-3 text-xs text-[var(--app-text-subtle)]">
                   資料來源說明：{data.sourceNote}
                 </p>
                 {showWarning ? (
-                  <p className="mt-3 rounded-2xl border border-amber-300/25 bg-amber-400/10 p-2 text-xs text-amber-200">
+                  <p className="mt-3 rounded-2xl border border-[var(--app-warning-bg)] bg-[var(--app-warning-bg)] p-2 text-xs text-[var(--app-warning-text)]">
                     ETF 成分資料可能不是最新資料，請確認資料來源與更新日期。
                   </p>
                 ) : null}
@@ -201,7 +201,7 @@ function Info({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex justify-between gap-3">
       <dt>{label}</dt>
-      <dd className="text-right text-slate-300">{value}</dd>
+      <dd className="text-right text-[var(--app-text-subtle)]">{value}</dd>
     </div>
   );
 }

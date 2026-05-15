@@ -47,7 +47,7 @@ export function ETFExposureTable({
   return (
     <section className="space-y-4">
       <AppCard>
-        <h2 className="text-lg font-semibold text-slate-50">{title}</h2>
+        <h2 className="text-lg font-semibold text-[var(--app-text)]">{title}</h2>
         <div className="mt-4 h-64 sm:h-80">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
@@ -93,16 +93,16 @@ export function ETFExposureTable({
           <AppCard key={row.symbol}>
             <div className="flex items-start justify-between gap-3">
               <div className="min-w-0">
-                <p className="font-semibold text-white">{row.symbol}</p>
-                <p className="mt-1 line-clamp-2 text-sm text-slate-400">
+                <p className="font-semibold text-[var(--app-text)]">{row.symbol}</p>
+                <p className="mt-1 line-clamp-2 text-sm text-[var(--app-text-muted)]">
                   {row.name}
                 </p>
               </div>
-              <p className="shrink-0 text-sm font-semibold text-violet-200">
+              <p className="shrink-0 text-sm font-semibold text-[var(--app-primary)]">
                 {formatPercent(row.portfolioPercentage)}
               </p>
             </div>
-            <p className="mt-3 text-sm font-semibold text-slate-100">
+            <p className="mt-3 text-sm font-semibold text-[var(--app-text)]">
               {formatDisplayMoney(row.totalExposureTWD, displayCurrency, fxRates)}
             </p>
           </AppCard>
@@ -155,7 +155,7 @@ function Td({
   strong?: boolean;
 }) {
   return (
-    <td className={`whitespace-nowrap px-4 py-3 ${strong ? "font-semibold text-white" : "text-slate-300"}`}>
+    <td className={`whitespace-nowrap px-4 py-3 ${strong ? "font-semibold text-[var(--app-text)]" : "text-[var(--app-text-muted)]"}`}>
       {children}
     </td>
   );

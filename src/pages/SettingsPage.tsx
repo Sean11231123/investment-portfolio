@@ -54,6 +54,35 @@ export function SettingsPage({
         onRefreshFx={onRefreshFx}
       />
 
+      <AppCard>
+        <SectionHeader
+          title="外觀主題"
+          description="選擇深色或淺色介面。此設定只會儲存在本機裝置。"
+        />
+        <div className="mt-4 flex flex-wrap gap-3">
+          <button
+            type="button"
+            onClick={() => onSaveSettings({ ...settings, theme: "dark" })}
+            className={`min-h-11 rounded-2xl border px-4 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-[var(--app-primary)]/70 ${settings.theme === "dark"
+                ? "bg-[var(--app-primary)] text-[var(--app-primary-text)]"
+                : "bg-[var(--app-surface)] text-[var(--app-text)] hover:bg-[var(--app-surface-muted)]"
+              }`}
+          >
+            深色
+          </button>
+          <button
+            type="button"
+            onClick={() => onSaveSettings({ ...settings, theme: "light" })}
+            className={`min-h-11 rounded-2xl border px-4 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-[var(--app-primary)]/70 ${settings.theme === "light"
+                ? "bg-[var(--app-primary)] text-[var(--app-primary-text)]"
+                : "bg-[var(--app-surface)] text-[var(--app-text)] hover:bg-[var(--app-surface-muted)]"
+              }`}
+          >
+            淺色
+          </button>
+        </div>
+      </AppCard>
+
       <MarketDataStatusCard
         holdingValues={valuation.holdingValues}
         fxRates={fxRates}
@@ -82,7 +111,7 @@ export function SettingsPage({
         </div>
 
         {showNeverExportedReminder ? (
-          <p className="rounded-2xl border border-amber-300/25 bg-amber-400/10 p-3 text-sm text-amber-200">
+          <p className="rounded-2xl border border-[var(--app-warning-bg)] bg-[var(--app-warning-bg)] p-3 text-sm text-[var(--app-warning-text)]">
             你目前有持倉，但尚未記錄過備份。建議下載一份 JSON 備份。
           </p>
         ) : null}
@@ -114,8 +143,8 @@ export function SettingsPage({
 function Info({ label, value }: { label: string; value: string }) {
   return (
     <div className={`rounded-2xl p-4 ${appMutedSurface}`}>
-      <p className="text-xs text-slate-400">{label}</p>
-      <p className="mt-1 font-semibold text-slate-100">{value}</p>
+      <p className="text-xs text-[var(--app-text-subtle)]">{label}</p>
+      <p className="mt-1 font-semibold text-[var(--app-text)]">{value}</p>
     </div>
   );
 }

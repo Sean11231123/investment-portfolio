@@ -35,8 +35,8 @@ export function MarketDataStatusCard({
   return (
     <AppCard>
       <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
-        <h2 className="text-base font-semibold text-slate-50">市場資料狀態</h2>
-        <p className="text-xs text-slate-400">
+        <h2 className="text-base font-semibold text-[var(--app-text)]">市場資料狀態</h2>
+        <p className="text-xs text-[var(--app-text-muted)]">
           搜尋清單、價格資料與 ETF 成分資料分開追蹤。
         </p>
       </div>
@@ -44,7 +44,7 @@ export function MarketDataStatusCard({
       <div className="mt-5 space-y-5">
         {sections.map((section) => (
           <section key={section.id} className="space-y-3">
-            <h3 className="text-sm font-semibold text-slate-200">
+            <h3 className="text-sm font-semibold text-[var(--app-text)]">
               {section.title}
             </h3>
             <div className="grid gap-3 lg:grid-cols-2 xl:grid-cols-3">
@@ -104,8 +104,8 @@ function StatusItem({ row }: { row: UnifiedStatusRow }) {
     <div className={`rounded-2xl p-4 ${appMutedSurface}`}>
       <div className="flex items-start justify-between gap-3">
         <div>
-          <h4 className="font-medium text-slate-100">{row.name}</h4>
-          <p className="mt-1 text-sm leading-6 text-slate-300">
+          <h4 className="font-medium text-[var(--app-text)]">{row.name}</h4>
+          <p className="mt-1 text-sm leading-6 text-[var(--app-text-subtle)]">
             {row.summary}
           </p>
         </div>
@@ -114,7 +114,7 @@ function StatusItem({ row }: { row: UnifiedStatusRow }) {
         </AppBadge>
       </div>
 
-      <dl className="mt-3 space-y-1 text-xs text-slate-400">
+      <dl className="mt-3 space-y-1 text-xs text-[var(--app-text-subtle)]">
         {row.source ? <Info label="來源" value={row.source} /> : null}
         {row.tradeDate ? <Info label="交易日" value={row.tradeDate} /> : null}
         {row.generatedAt ? (
@@ -126,7 +126,7 @@ function StatusItem({ row }: { row: UnifiedStatusRow }) {
       </dl>
 
       {row.details?.length ? (
-        <ul className="mt-3 space-y-1 text-xs leading-5 text-slate-400">
+        <ul className="mt-3 space-y-1 text-xs leading-5 text-[var(--app-text-subtle)]">
           {row.details.map((detail) => (
             <li key={detail}>{detail}</li>
           ))}
@@ -140,7 +140,7 @@ function Info({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex justify-between gap-3">
       <dt>{label}</dt>
-      <dd className="text-right text-slate-300">{value}</dd>
+      <dd className="text-right text-[var(--app-text-subtle)]">{value}</dd>
     </div>
   );
 }

@@ -50,6 +50,7 @@ export type AssetMetadata = {
 
 export type PortfolioSettings = {
   displayCurrency: Currency;
+  theme: "dark" | "light";
   backup?: {
     lastExportedAt?: string;
     lastImportedAt?: string;

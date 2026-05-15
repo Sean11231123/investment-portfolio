@@ -19,7 +19,7 @@ export function CurrencyAllocationTable({
 
   return (
     <AppCard>
-      <h2 className="text-lg font-semibold text-slate-50">幣別配置</h2>
+      <h2 className="text-lg font-semibold text-[var(--app-text)]">幣別配置</h2>
       <div className="mt-4 overflow-x-auto">
         <table className="min-w-full text-sm">
           <thead className={appTableHeader}>
@@ -32,11 +32,11 @@ export function CurrencyAllocationTable({
           <tbody>
             {rows.map((row) => (
               <tr key={row.key} className={appTableRow}>
-                <td className="px-4 py-3 font-semibold text-slate-100">{row.label}</td>
-                <td className="px-4 py-3 text-slate-300">
+                <td className="px-4 py-3 font-semibold text-[var(--app-text)]">{row.label}</td>
+                <td className="px-4 py-3 text-[var(--app-text-muted)]">
                   {formatDisplayMoney(row.valueTWD, displayCurrency, fxRates)}
                 </td>
-                <td className="px-4 py-3 text-slate-300">{formatPercent(row.percentage)}</td>
+                <td className="px-4 py-3 text-[var(--app-text-muted)]">{formatPercent(row.percentage)}</td>
               </tr>
             ))}
           </tbody>

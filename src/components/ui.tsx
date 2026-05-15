@@ -22,22 +22,24 @@ type AppBadgeProps = {
 };
 
 export const appSurface =
-  "border border-slate-200/80 bg-white shadow-[0_16px_40px_rgba(15,23,42,0.08)]";
-export const appMutedSurface = "border border-slate-200/80 bg-slate-50";
+  "border border-[var(--app-border)] bg-[var(--app-surface)] text-[var(--app-text)] shadow-[var(--app-shadow)]";
+export const appMutedSurface =
+  "border border-[var(--app-border)] bg-[var(--app-surface-muted)] text-[var(--app-text)]";
 export const appInput =
-  "rounded-2xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-slate-400 focus:ring-2 focus:ring-slate-300/60 disabled:cursor-not-allowed disabled:opacity-60";
+  "rounded-2xl border border-[var(--app-border)] bg-[var(--app-surface)] px-3 py-2 text-sm text-[var(--app-text)] outline-none transition placeholder:text-[var(--app-text-subtle)] focus:border-[var(--app-border)] focus:ring-2 focus:ring-[var(--app-border)] focus:ring-opacity-40 disabled:cursor-not-allowed disabled:opacity-60";
 export const appTableHeader =
-  "bg-slate-50 text-left text-xs uppercase tracking-wide text-slate-500";
-export const appTableRow = "border-t border-slate-200 hover:bg-slate-50/80";
+  "bg-[var(--app-surface-muted)] text-left text-xs uppercase tracking-wide text-[var(--app-text-muted)]";
+export const appTableRow =
+  "border-t border-[var(--app-border)] hover:bg-[var(--app-surface-muted)]";
 export const chartTooltipStyle = {
-  backgroundColor: "#ffffff",
-  border: "1px solid rgba(226,232,240,1)",
+  backgroundColor: "var(--app-surface)",
+  border: "1px solid var(--app-border)",
   borderRadius: "16px",
-  color: "#0f172a",
+  color: "var(--app-text)",
   boxShadow: "0 18px 40px rgba(15,23,42,0.10)",
 };
-export const chartGridColor = "rgba(148, 163, 184, 0.22)";
-export const chartTextColor = "#64748b";
+export const chartGridColor = "var(--app-chart-grid)";
+export const chartTextColor = "var(--app-text-muted)";
 export const chartColors = [
   "#6b7280", // 柔灰
   "#93c5fd", // 淺藍
@@ -67,18 +69,18 @@ export function AppButton({
 }: AppButtonProps) {
   const variants = {
     primary:
-      "bg-slate-900 text-white shadow-sm hover:bg-slate-800",
+      "bg-[var(--app-primary)] text-[var(--app-primary-text)] shadow-sm hover:brightness-110",
     secondary:
-      "border border-slate-200 bg-white text-slate-700 hover:bg-slate-50",
+      "border border-[var(--app-border)] bg-[var(--app-surface)] text-[var(--app-text)] hover:bg-[var(--app-surface-muted)]",
     danger:
-      "border border-rose-200 bg-rose-50 text-rose-600 hover:bg-rose-100",
-    ghost: "text-slate-600 hover:bg-slate-100",
+      "border border-[var(--app-border)] bg-[var(--app-danger-bg)] text-[var(--app-danger-text)] hover:bg-[var(--app-danger-bg)]/90",
+    ghost: "text-[var(--app-text)] hover:bg-[var(--app-surface-muted)]",
   };
 
   return (
     <button
       type={type}
-      className={`min-h-11 rounded-2xl px-4 py-2 text-sm font-semibold transition active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-violet-400/70 disabled:cursor-not-allowed disabled:opacity-55 ${variants[variant]} ${className}`}
+      className={`min-h-11 rounded-2xl px-4 py-2 text-sm font-semibold transition active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-[var(--app-primary)]/70 disabled:cursor-not-allowed disabled:opacity-55 ${variants[variant]} ${className}`}
       {...props}
     >
       {children}
@@ -92,11 +94,11 @@ export function FieldShell({ children, className = "" }: FieldShellProps) {
 
 export function AppBadge({ children, tone = "neutral", className = "" }: AppBadgeProps) {
   const tones = {
-    neutral: "border-slate-200 bg-slate-100 text-slate-600",
-    success: "border-emerald-200 bg-emerald-50 text-emerald-600",
-    warning: "border-amber-200 bg-amber-50 text-amber-600",
-    danger: "border-rose-200 bg-rose-50 text-rose-600",
-    accent: "border-sky-200 bg-sky-50 text-sky-600",
+    neutral: "border-[var(--app-border)] bg-[var(--app-surface-muted)] text-[var(--app-text-muted)]",
+    success: "border-[var(--app-border)] bg-[var(--app-success-bg)] text-[var(--app-success-text)]",
+    warning: "border-[var(--app-border)] bg-[var(--app-warning-bg)] text-[var(--app-warning-text)]",
+    danger: "border-[var(--app-border)] bg-[var(--app-danger-bg)] text-[var(--app-danger-text)]",
+    accent: "border-[var(--app-border)] bg-[var(--app-surface-muted)] text-[var(--app-text)]",
   };
 
   return (
@@ -117,8 +119,8 @@ export function EmptyState({
 }) {
   return (
     <AppCard className="border-dashed text-center">
-      <h2 className="text-lg font-semibold text-slate-900">{title}</h2>
-      <p className="mt-2 text-sm leading-6 text-slate-500">{message}</p>
+      <h2 className="text-lg font-semibold text-[var(--app-text)]">{title}</h2>
+      <p className="mt-2 text-sm leading-6 text-[var(--app-text-muted)]">{message}</p>
     </AppCard>
   );
 }
@@ -135,9 +137,9 @@ export function SectionHeader({
   return (
     <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
       <div>
-        <h2 className="text-lg font-semibold text-slate-900">{title}</h2>
+        <h2 className="text-lg font-semibold text-[var(--app-text)]">{title}</h2>
         {description ? (
-          <p className="mt-1 text-sm leading-6 text-slate-500">{description}</p>
+          <p className="mt-1 text-sm leading-6 text-[var(--app-text-muted)]">{description}</p>
         ) : null}
       </div>
       {action}
