@@ -59,7 +59,7 @@ export function AllocationCharts({
   }));
 
   return (
-    <section className="grid gap-4 xl:grid-cols-3">
+    <section className="grid min-w-0 gap-4 xl:grid-cols-3">
       <ChartPanel title="資產類型配置">
         <DonutAllocationChart
           data={assetAllocation}
@@ -75,7 +75,8 @@ export function AllocationCharts({
         />
       </ChartPanel>
       <ChartPanel title="前十大持倉">
-        <ResponsiveContainer width="100%" height={280}>
+        <div className="h-64 sm:h-72">
+        <ResponsiveContainer width="100%" height="100%">
           <BarChart data={topHoldingChartData}>
             <CartesianGrid strokeDasharray="3 3" stroke={chartGridColor} />
             <XAxis dataKey="name" tick={{ fill: chartTextColor, fontSize: 12 }} axisLine={false} tickLine={false} />
@@ -104,6 +105,7 @@ export function AllocationCharts({
             </Bar>
           </BarChart>
         </ResponsiveContainer>
+        </div>
       </ChartPanel>
     </section>
   );
@@ -165,7 +167,8 @@ function DonutAllocationChart({
   fxRates: FxRates;
 }) {
   return (
-    <ResponsiveContainer width="100%" height={280}>
+    <div className="h-64 sm:h-72">
+    <ResponsiveContainer width="100%" height="100%">
       <PieChart>
         <Pie
           data={data}
@@ -193,6 +196,7 @@ function DonutAllocationChart({
         <Legend wrapperStyle={{ color: chartTextColor, fontSize: 12 }} />
       </PieChart>
     </ResponsiveContainer>
+    </div>
   );
 }
 
@@ -204,9 +208,9 @@ function ChartPanel({
   children: React.ReactNode;
 }) {
   return (
-    <AppCard>
+    <AppCard className="min-w-0">
       <h2 className="text-lg font-semibold text-slate-50">{title}</h2>
-      <div className="mt-4">{children}</div>
+      <div className="mt-4 min-w-0">{children}</div>
     </AppCard>
   );
 }

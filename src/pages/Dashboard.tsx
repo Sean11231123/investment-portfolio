@@ -70,7 +70,7 @@ export function Dashboard({
   ).slice(0, 10);
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-5 sm:space-y-6">
       <SummaryCards
         totalValueTWD={valuation.totalValueTWD}
         holdings={holdings}

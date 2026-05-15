@@ -52,7 +52,7 @@ export function ETFExposurePage({
     : [];
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-5 sm:space-y-6">
       <ETFComponentStatusSection heldEtfRows={heldEtfRows} />
 
       {valuation.isPartial ? (
@@ -80,7 +80,7 @@ export function ETFExposurePage({
               <select
                 value={selectedSymbol}
                 onChange={(event) => setSelectedEtf(event.target.value)}
-                className={`${appInput} min-w-56`}
+                className={`${appInput} w-full sm:min-w-56`}
               >
                 {heldEtfRows.map((row) => (
                   <option key={row.metadata.symbol} value={row.metadata.symbol}>

@@ -57,18 +57,26 @@ export function HoldingsPage({
   }
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-5 sm:space-y-6">
       <HoldingForm
         editingHolding={editingHolding}
         universeAssets={universeAssets}
         onSubmit={handleSubmit}
         onCancelEdit={() => setEditingHolding(null)}
       />
-      <div className="flex justify-end">
-        <AppButton onClick={onRefreshPrices} disabled={priceRefreshing}>
+      <div className="flex">
+        <AppButton className="w-full sm:ml-auto sm:w-auto" onClick={onRefreshPrices} disabled={priceRefreshing}>
           {priceRefreshing ? "更新中" : "更新價格"}
         </AppButton>
       </div>
+      <HoldingsTable
+        holdings={holdings}
+        holdingValues={valuation.holdingValues}
+        fxRates={fxRates}
+        displayCurrency={settings.displayCurrency}
+        onEdit={setEditingHolding}
+        onDelete={onDeleteHolding}
+      />
       <ImportExportPanel
         holdings={holdings}
         settings={settings}
@@ -77,14 +85,6 @@ export function HoldingsPage({
         onUpdateSettings={onUpdateSettings}
         onLoadDemo={onLoadDemo}
         onClearAll={onClearAll}
-      />
-      <HoldingsTable
-        holdings={holdings}
-        holdingValues={valuation.holdingValues}
-        fxRates={fxRates}
-        displayCurrency={settings.displayCurrency}
-        onEdit={setEditingHolding}
-        onDelete={onDeleteHolding}
       />
     </div>
   );

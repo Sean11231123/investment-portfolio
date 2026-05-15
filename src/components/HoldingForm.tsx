@@ -159,7 +159,7 @@ export function HoldingForm({
           }
         />
 
-        <div className="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-5 grid gap-3 sm:gap-4 md:grid-cols-2 xl:grid-cols-4">
           <Field label="資產類型">
             <select
               value={form.type}
@@ -193,7 +193,7 @@ export function HoldingForm({
               />
             </Field>
             {form.query && suggestions.length > 0 && !selectedAsset ? (
-              <div className="absolute z-10 mt-2 max-h-64 w-full overflow-y-auto rounded-2xl border border-white/10 bg-[#111a35] shadow-2xl shadow-black/40">
+              <div className="absolute inset-x-0 z-10 mt-2 max-h-56 w-full overflow-y-auto rounded-2xl border border-white/10 bg-[#111a35] shadow-2xl shadow-black/40 sm:max-h-64">
                 {suggestions.map((asset) => (
                   <button
                     key={`${asset.type}-${asset.symbol}`}
@@ -269,8 +269,10 @@ export function HoldingForm({
           </p>
         ) : null}
 
-        <div className="mt-4 flex justify-end">
-          <AppButton type="submit">{submitLabel}</AppButton>
+        <div className="mt-4 flex">
+          <AppButton type="submit" className="w-full sm:w-auto sm:ml-auto">
+            {submitLabel}
+          </AppButton>
         </div>
       </form>
     </AppCard>

@@ -158,7 +158,7 @@ export function ImportExportPanel({
   return (
     <AppCard>
       <SectionHeader title={title} description={description} />
-      <div className="mt-4 flex flex-wrap gap-2">
+      <div className="mt-4 grid gap-2 sm:flex sm:flex-wrap">
         <AppButton onClick={handleExport}>下載備份</AppButton>
         <AppButton variant="secondary" onClick={() => fileInputRef.current?.click()}>
           選擇備份檔
@@ -234,7 +234,7 @@ function ImportPreview({
       <p className="mt-3 rounded-2xl border border-amber-300/25 bg-amber-400/10 p-3 text-sm text-amber-200">
         匯入後會取代目前持倉。
       </p>
-      <div className="mt-4 flex flex-wrap gap-2">
+      <div className="mt-4 grid gap-2 sm:flex sm:flex-wrap">
         <AppButton onClick={onConfirm}>確認匯入</AppButton>
         <AppButton variant="secondary" onClick={onCancel}>
           取消

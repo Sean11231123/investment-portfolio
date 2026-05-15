@@ -17,6 +17,7 @@ The app tracks Taiwan stocks, Taiwan ETFs, US stocks, US ETFs, crypto, and cash.
 - Export timestamped v2 JSON backups, preview imports before replacing holdings, and keep v1 MVP import migration.
 - Static ETF component lookthrough for 0050, 006208, 00878, VOO, SPY, and QQQ data, with automated US issuer updates where configured.
 - ETF exposure donut charts for aggregate lookthrough and single ETF lookthrough.
+- Mobile/PWA-friendly layout with bottom navigation, compact summary cards, and mobile holding cards.
 - GitHub Pages deployment workflow.
 
 ## Local Development
@@ -79,6 +80,8 @@ modular-investment-portfolio:v2:fx-cache
 Every browser and device has separate data. Visitors to the GitHub Pages site do not share one portfolio, and the repository does not contain user portfolio data.
 
 Warning: clearing browser site data, switching browsers, or using another device will not preserve the portfolio automatically. Use JSON export/import for backups.
+
+On mobile, the app is intended to be installed as a PWA for the most app-like experience. It still stores portfolio data only in that browser's `localStorage`; PWA installation does not create cloud sync.
 
 ## Data Model Migration
 

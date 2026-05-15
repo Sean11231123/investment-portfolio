@@ -20,20 +20,20 @@ export function SummaryCards({
   fxRates,
 }: SummaryCardsProps) {
   return (
-    <section className="grid gap-4 md:grid-cols-4" aria-label="投組摘要">
+    <section className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4" aria-label="投組摘要">
       <SummaryCard
         label={`總資產 ${displayCurrency}`}
         value={formatDisplayMoney(totalValueTWD, displayCurrency, fxRates)}
         helper={
           unavailableCount > 0
-            ? "部分資產缺少價格，估值可能不完整"
-            : "已依可用價格估值"
+            ? "部分資產缺少價格，總額可能不完整。"
+            : "已使用可用價格估值。"
         }
         featured
       />
       <SummaryCard label="持倉數" value={`${holdings.length}`} />
       <SummaryCard label="缺價資產" value={`${unavailableCount}`} />
-      <SummaryCard label="ETF 持倉數" value={`${etfHoldingCount}`} />
+      <SummaryCard label="ETF 持倉" value={`${etfHoldingCount}`} />
     </section>
   );
 }
@@ -53,15 +53,15 @@ function SummaryCard({
     <AppCard
       className={
         featured
-          ? "relative overflow-hidden bg-gradient-to-br from-violet-500/25 via-indigo-500/15 to-[#111a35]/90"
+          ? "relative col-span-2 overflow-hidden bg-gradient-to-br from-violet-500/25 via-indigo-500/15 to-[#111a35]/90 md:col-span-1"
           : ""
       }
     >
       {featured ? (
         <div className="pointer-events-none absolute -right-10 -top-10 h-32 w-32 rounded-full bg-violet-400/20 blur-2xl" />
       ) : null}
-      <p className="text-sm text-slate-400">{label}</p>
-      <p className="mt-2 break-words text-2xl font-semibold text-white">{value}</p>
+      <p className="text-xs text-slate-400 sm:text-sm">{label}</p>
+      <p className="mt-2 break-words text-xl font-semibold text-white sm:text-2xl">{value}</p>
       {helper ? <p className="mt-2 text-xs leading-5 text-slate-400">{helper}</p> : null}
     </AppCard>
   );

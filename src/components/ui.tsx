@@ -51,7 +51,7 @@ export const chartColors = [
 
 export function AppCard({ children, className = "", padded = true }: AppCardProps) {
   return (
-    <section className={`rounded-3xl ${appSurface} ${padded ? "p-5" : ""} ${className}`}>
+    <section className={`rounded-3xl ${appSurface} ${padded ? "p-4 sm:p-5" : ""} ${className}`}>
       {children}
     </section>
   );
@@ -77,7 +77,7 @@ export function AppButton({
   return (
     <button
       type={type}
-      className={`rounded-full px-4 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-violet-400/70 disabled:cursor-not-allowed disabled:opacity-55 ${variants[variant]} ${className}`}
+      className={`min-h-11 rounded-full px-4 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-violet-400/70 disabled:cursor-not-allowed disabled:opacity-55 ${variants[variant]} ${className}`}
       {...props}
     >
       {children}

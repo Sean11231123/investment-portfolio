@@ -48,15 +48,15 @@ export function ETFExposureTable({
     <section className="space-y-4">
       <AppCard>
         <h2 className="text-lg font-semibold text-slate-50">{title}</h2>
-        <div className="mt-4 h-80">
+        <div className="mt-4 h-64 sm:h-80">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
               <Pie
                 data={chartRows}
                 dataKey="portfolioPercentage"
                 nameKey="name"
-                innerRadius={76}
-                outerRadius={114}
+                innerRadius={58}
+                outerRadius={92}
                 paddingAngle={3}
                 stroke="rgba(15,23,42,0.9)"
                 strokeWidth={3}
@@ -88,7 +88,28 @@ export function ETFExposureTable({
         </div>
       </AppCard>
 
-      <AppCard padded={false} className="overflow-hidden">
+      <div className="space-y-3 md:hidden">
+        {rows.map((row) => (
+          <AppCard key={row.symbol}>
+            <div className="flex items-start justify-between gap-3">
+              <div className="min-w-0">
+                <p className="font-semibold text-white">{row.symbol}</p>
+                <p className="mt-1 line-clamp-2 text-sm text-slate-400">
+                  {row.name}
+                </p>
+              </div>
+              <p className="shrink-0 text-sm font-semibold text-violet-200">
+                {formatPercent(row.portfolioPercentage)}
+              </p>
+            </div>
+            <p className="mt-3 text-sm font-semibold text-slate-100">
+              {formatDisplayMoney(row.totalExposureTWD, displayCurrency, fxRates)}
+            </p>
+          </AppCard>
+        ))}
+      </div>
+
+      <AppCard padded={false} className="hidden overflow-hidden md:block">
         <div className="overflow-x-auto">
           <table className="min-w-full text-sm">
             <thead className={appTableHeader}>
