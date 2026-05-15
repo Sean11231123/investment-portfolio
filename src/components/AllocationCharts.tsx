@@ -59,7 +59,7 @@ export function AllocationCharts({
   }));
 
   return (
-    <section className="grid min-w-0 gap-4 xl:grid-cols-3">
+    <section className="grid min-w-0 gap-3 sm:gap-4 xl:grid-cols-3">
       <ChartPanel title="資產類型配置">
         <DonutAllocationChart
           data={assetAllocation}
@@ -75,7 +75,7 @@ export function AllocationCharts({
         />
       </ChartPanel>
       <ChartPanel title="前十大持倉">
-        <div className="h-64 sm:h-72">
+        <div className="h-64 min-w-0 sm:h-72">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={topHoldingChartData}>
             <CartesianGrid strokeDasharray="3 3" stroke={chartGridColor} />
@@ -167,15 +167,15 @@ function DonutAllocationChart({
   fxRates: FxRates;
 }) {
   return (
-    <div className="h-64 sm:h-72">
+    <div className="h-56 sm:h-72">
     <ResponsiveContainer width="100%" height="100%">
       <PieChart>
         <Pie
           data={data}
           dataKey="valueTWD"
           nameKey="label"
-          innerRadius={64}
-          outerRadius={96}
+          innerRadius="52%"
+          outerRadius="76%"
           paddingAngle={3}
           stroke="rgba(15,23,42,0.9)"
           strokeWidth={3}
@@ -208,9 +208,21 @@ function ChartPanel({
   children: React.ReactNode;
 }) {
   return (
-    <AppCard className="min-w-0">
-      <h2 className="text-lg font-semibold text-slate-50">{title}</h2>
-      <div className="mt-4 min-w-0">{children}</div>
+    <AppCard className="min-w-0 overflow-hidden">
+      <div className="flex items-start justify-between gap-3">
+        <div className="min-w-0">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-sky-300">
+            Analysis
+          </p>
+          <h2 className="mt-1 truncate text-lg font-semibold text-slate-50">
+            {title}
+          </h2>
+        </div>
+      </div>
+
+      <div className="mt-4 min-w-0 rounded-[1.35rem] border border-white/10 bg-white/[0.035] p-2 sm:p-3">
+        {children}
+      </div>
     </AppCard>
   );
 }
