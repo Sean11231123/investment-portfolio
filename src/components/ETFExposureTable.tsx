@@ -58,8 +58,8 @@ export function ETFExposureTable({
                 innerRadius={58}
                 outerRadius={92}
                 paddingAngle={3}
-                stroke="rgba(15,23,42,0.9)"
-                strokeWidth={3}
+                stroke="var(--app-chart-slice-stroke)"
+                strokeWidth={2}
               >
                 {chartRows.map((row, index) => (
                   <Cell

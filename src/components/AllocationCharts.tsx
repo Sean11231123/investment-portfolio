@@ -177,8 +177,8 @@ function DonutAllocationChart({
             innerRadius="52%"
             outerRadius="76%"
             paddingAngle={3}
-            stroke="rgba(15,23,42,0.9)"
-            strokeWidth={3}
+            stroke="var(--app-chart-slice-stroke)"
+            strokeWidth={2}
           >
             {data.map((entry, index) => (
               <Cell

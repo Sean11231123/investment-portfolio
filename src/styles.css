@@ -28,6 +28,8 @@
   --app-success-text: #a7f3d0;
   --app-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
   --app-chart-grid: rgba(148, 163, 184, 0.22);
+  --app-chart-slice-stroke: rgba(15, 23, 42, 0.95);
+  --app-focus-ring: rgba(56, 189, 248, 0.55);
 }
 
 [data-theme="light"] {
@@ -52,6 +54,8 @@
   --app-success-text: #166534;
   --app-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
   --app-chart-grid: rgba(148, 163, 184, 0.22);
+  --app-chart-slice-stroke: #ffffff;
+  --app-focus-ring: rgba(15, 23, 42, 0.18);
 }
 
 html {

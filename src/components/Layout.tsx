@@ -100,7 +100,8 @@ function NavPill({
             key={item.key}
             type="button"
             onClick={() => onNavigate(item.key)}
-            className={`relative z-10 rounded-full px-2 py-2 text-xs font-semibold transition-colors duration-300 ease-out focus:outline-none focus:ring-2 focus:ring-sky-400/70 sm:px-4 sm:text-sm ${isMobile ? "min-h-12" : "min-h-11"
+            style={{ WebkitTapHighlightColor: "transparent" }}
+            className={`relative z-10 rounded-full px-2 py-2 text-xs font-semibold transition-colors duration-300 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--app-focus-ring)] sm:px-4 sm:text-sm ${isMobile ? "min-h-12" : "min-h-11"
               } ${active
                 ? "text-[var(--app-primary-text)]"
                 : "text-[var(--app-text-muted)] hover:text-[var(--app-text)]"
