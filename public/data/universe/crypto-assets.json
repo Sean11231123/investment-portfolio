@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-05-14T12:26:22.727140Z",
-  "count": 421,
-  "binanceCount": 421,
+  "generatedAt": "2026-05-15T12:13:35.257793Z",
+  "count": 422,
+  "binanceCount": 422,
   "coingeckoMatchedCount": 247,
   "ambiguousCount": 168,
-  "skippedCount": 3160,
+  "skippedCount": 3162,
   "assets": [
     {
       "symbol": "0G",
@@ -344,6 +344,23 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "AIUSDT",
       "binanceSymbol": "AIUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AIGENSYN",
+      "name": "AIGENSYN",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "AIGENSYN"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AIGENSYNUSDT",
+      "binanceSymbol": "AIGENSYNUSDT",
       "dataQuality": "generated"
     },
     {
