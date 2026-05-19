@@ -15,21 +15,30 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_PATH = ROOT / "public" / "data" / "universe" / "tw-assets.json"
-SOURCE_URL = "https://isin.twse.com.tw/isin/C_public.jsp?strMode=2"
-SOURCE_NAME = "twse-isin-listed-securities"
+TWSE_SOURCE_URL = "https://isin.twse.com.tw/isin/C_public.jsp?strMode=2"
+TPEX_SOURCE_URL = "https://isin.twse.com.tw/isin/C_public.jsp?strMode=4"
+SOURCE_NAME = "twse-isin-listed-and-tpex-otc-securities"
+TWSE_SOURCE_NAME = "twse-isin-listed-securities"
+TPEX_SOURCE_NAME = "twse-isin-tpex-listed-securities"
 
-STOCK_CATEGORY = "股票"
-ETF_CATEGORY_KEYWORD = "ETF"
+ETF_CATEGORY_KEYWORDS = ("ETF",)
+STOCK_CATEGORY_KEYWORDS = ("\u80a1\u7968", "Stocks")
 EXCLUDED_CATEGORY_KEYWORDS = (
-    "權證",
-    "受益證券",
-    "存託憑證",
+    "\u6b0a\u8b49",
+    "\u8a8d\u8cfc",
+    "\u8a8d\u552e",
+    "\u725b\u718a",
     "ETN",
-    "牛熊證",
-    "認購",
-    "認售",
+    "\u53d7\u76ca\u8b49\u5238",
+    "\u8cc7\u7522\u57fa\u790e\u8b49\u5238",
+    "\u50b5\u5238",
+    "Warrant",
+    "Warrants",
+    "Callable Bull/Bear",
+    "Bond",
 )
-EXCLUDED_NAME_KEYWORDS = ("期貨",)
+EXCLUDED_NAME_KEYWORDS = ("\u69d3\u687f", "\u53cd\u5411", "\u671f\u8ca8")
+EXCLUDED_ETF_SUFFIXES = ("L", "R", "U")
 
 
 class TableParser(HTMLParser):
@@ -62,9 +71,10 @@ class TableParser(HTMLParser):
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Generate the Taiwan searchable asset universe from TWSE ISIN data.",
+        description="Generate the Taiwan searchable asset universe from TWSE/TPEx ISIN data.",
     )
-    parser.add_argument("--input", type=Path, help="Read fixture HTML instead of fetching TWSE.")
+    parser.add_argument("--input", type=Path, help="Read TWSE fixture HTML instead of fetching TWSE.")
+    parser.add_argument("--tpex-input", type=Path, help="Read TPEx fixture HTML instead of fetching TPEx.")
     parser.add_argument("--output", type=Path, default=OUTPUT_PATH)
     args = parser.parse_args()
 
@@ -72,13 +82,20 @@ def main() -> int:
     errors: list[str] = []
 
     try:
-        body = args.input.read_text(encoding="utf-8") if args.input else fetch_source()
-        assets = parse_twse_isin_assets(body)
+        twse_body = args.input.read_text(encoding="utf-8") if args.input else fetch_source(TWSE_SOURCE_URL)
+        tpex_body = (
+            args.tpex_input.read_text(encoding="utf-8")
+            if args.tpex_input
+            else fetch_source(TPEX_SOURCE_URL)
+        )
+        twse_assets = parse_twse_isin_assets(twse_body)
+        tpex_assets = parse_tpex_otc_assets(tpex_body)
+        assets, merge_stats = merge_assets(twse_assets, tpex_assets)
     except Exception as exc:  # noqa: BLE001 - avoid clobbering the last good universe.
-        errors.append(f"TWSE ISIN fetch/parse failed: {exc}")
+        errors.append(f"Taiwan universe fetch/parse failed: {exc}")
         return report_failure(args.output, errors)
 
-    payload = build_payload(assets, generated_at, errors, existing_path=args.output)
+    payload = build_payload(assets, generated_at, errors, merge_stats, existing_path=args.output)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
@@ -87,10 +104,26 @@ def main() -> int:
 
     stock_count = sum(1 for asset in assets if asset["type"] == "taiwan_stock")
     etf_count = sum(1 for asset in assets if asset["type"] == "taiwan_etf")
+    otc_stock_count = sum(
+        1
+        for asset in assets
+        if asset.get("exchange") == "TPEX" and asset["type"] == "taiwan_stock"
+    )
+    otc_etf_count = sum(
+        1
+        for asset in assets
+        if asset.get("exchange") == "TPEX" and asset["type"] == "taiwan_etf"
+    )
+
     print(f"source: {SOURCE_NAME}")
     print(f"assets generated: {len(assets)}")
+    print(f"twse assets: {merge_stats['twse']}")
+    print(f"tpex otc assets: {merge_stats['tpex_added']}")
     print(f"stocks: {stock_count}")
     print(f"etfs: {etf_count}")
+    print(f"otc stocks: {otc_stock_count}")
+    print(f"otc etfs: {otc_etf_count}")
+    print(f"duplicates skipped: {merge_stats['duplicates']}")
     print(f"00981A present: {any(asset['symbol'] == '00981A' for asset in assets)}")
     print(f"output path: {args.output}")
     if errors:
@@ -99,7 +132,7 @@ def main() -> int:
             print(f"- {error}")
 
     if not assets:
-        return report_failure(args.output, ["TWSE ISIN parse produced no target assets."])
+        return report_failure(args.output, ["Taiwan ISIN parse produced no target assets."])
 
     return 0
 
@@ -107,8 +140,13 @@ def main() -> int:
 def report_failure(output_path: Path, errors: list[str]) -> int:
     print(f"source: {SOURCE_NAME}")
     print("assets generated: 0")
+    print("twse assets: 0")
+    print("tpex otc assets: 0")
     print("stocks: 0")
     print("etfs: 0")
+    print("otc stocks: 0")
+    print("otc etfs: 0")
+    print("duplicates skipped: 0")
     print("00981A present: False")
     print(f"output path preserved: {output_path}")
     print("errors:")
@@ -117,9 +155,9 @@ def report_failure(output_path: Path, errors: list[str]) -> int:
     return 1
 
 
-def fetch_source() -> str:
+def fetch_source(url: str) -> str:
     request = urllib.request.Request(
-        SOURCE_URL,
+        url,
         headers={
             "Accept": "text/html,application/xhtml+xml",
             "User-Agent": "investment-portfolio-tw-universe-updater/1.0",
@@ -142,6 +180,33 @@ def fetch_source() -> str:
 
 
 def parse_twse_isin_assets(source_html: str) -> list[dict[str, Any]]:
+    return parse_isin_assets(
+        source_html,
+        exchange="TWSE",
+        market_segment="listed",
+        source="twse-isin",
+        price_source="twse",
+    )
+
+
+def parse_tpex_otc_assets(source_html: str) -> list[dict[str, Any]]:
+    return parse_isin_assets(
+        source_html,
+        exchange="TPEX",
+        market_segment="otc",
+        source="tpex-isin",
+        price_source="tpex_otc",
+    )
+
+
+def parse_isin_assets(
+    source_html: str,
+    *,
+    exchange: str,
+    market_segment: str,
+    source: str,
+    price_source: str,
+) -> list[dict[str, Any]]:
     table = TableParser()
     table.feed(source_html)
 
@@ -180,11 +245,12 @@ def parse_twse_isin_assets(source_html: str) -> list[dict[str, Any]]:
                 "type": asset_type,
                 "market": "TW",
                 "currency": "TWD",
-                "unitLabel": "股",
-                "priceSource": "twse",
+                "unitLabel": "\u80a1",
+                "priceSource": price_source,
                 "aliases": [name],
-                "exchange": "TWSE",
-                "source": "twse-isin",
+                "exchange": exchange,
+                "marketSegment": market_segment,
+                "source": source,
                 "sourceSymbol": symbol,
                 "isETF": asset_type == "taiwan_etf",
                 "dataQuality": "generated",
@@ -194,18 +260,54 @@ def parse_twse_isin_assets(source_html: str) -> list[dict[str, Any]]:
     return sorted(assets, key=lambda asset: asset["symbol"])
 
 
+def merge_assets(
+    twse_assets: list[dict[str, Any]],
+    tpex_assets: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], dict[str, int]]:
+    merged = list(twse_assets)
+    seen_symbols = {asset["symbol"] for asset in twse_assets}
+    duplicates = 0
+    tpex_added = 0
+
+    for asset in tpex_assets:
+        if asset["symbol"] in seen_symbols:
+            duplicates += 1
+            continue
+        seen_symbols.add(asset["symbol"])
+        merged.append(asset)
+        tpex_added += 1
+
+    return sorted(merged, key=lambda asset: asset["symbol"]), {
+        "twse": len(twse_assets),
+        "tpex_source": len(tpex_assets),
+        "tpex_added": tpex_added,
+        "duplicates": duplicates,
+    }
+
+
 def build_payload(
     assets: list[dict[str, Any]],
     generated_at: str,
     errors: list[str],
+    stats: dict[str, int] | None = None,
     existing_path: Path = OUTPUT_PATH,
 ) -> dict[str, Any]:
+    stats = stats or {
+        "twse": len([asset for asset in assets if asset.get("exchange") == "TWSE"]),
+        "tpex_source": len([asset for asset in assets if asset.get("exchange") == "TPEX"]),
+        "tpex_added": len([asset for asset in assets if asset.get("exchange") == "TPEX"]),
+        "duplicates": 0,
+    }
     payload = {
         "version": 1,
         "market": "TW",
         "source": SOURCE_NAME,
         "generatedAt": generated_at,
         "count": len(assets),
+        "twseCount": stats["twse"],
+        "tpexOtcCount": stats["tpex_added"],
+        "tpexOtcSourceCount": stats["tpex_source"],
+        "duplicateCount": stats["duplicates"],
         "assets": assets,
         "errors": errors,
     }
@@ -236,10 +338,13 @@ def get_category(cells: list[str]) -> str | None:
     if not first:
         return None
 
-    if first == STOCK_CATEGORY or ETF_CATEGORY_KEYWORD in first:
+    if is_excluded_category(first):
         return first
 
-    if any(keyword in first for keyword in EXCLUDED_CATEGORY_KEYWORDS):
+    if any(keyword in first for keyword in ETF_CATEGORY_KEYWORDS):
+        return first
+
+    if any(keyword in first for keyword in STOCK_CATEGORY_KEYWORDS):
         return first
 
     return None
@@ -260,26 +365,29 @@ def parse_symbol_name(value: str) -> tuple[str, str] | None:
 
 
 def classify_asset(symbol: str, name: str, category: str) -> str | None:
-    if any(keyword in category for keyword in EXCLUDED_CATEGORY_KEYWORDS):
+    if is_excluded_category(category):
         return None
 
     if any(keyword in name for keyword in EXCLUDED_NAME_KEYWORDS):
         return None
 
-    if ETF_CATEGORY_KEYWORD in category and name.startswith("期"):
-        return None
-
-    if ETF_CATEGORY_KEYWORD in category:
+    if any(keyword in category for keyword in ETF_CATEGORY_KEYWORDS):
         return "taiwan_etf" if is_taiwan_etf_symbol(symbol) else None
 
-    if category == STOCK_CATEGORY:
+    if any(keyword in category for keyword in STOCK_CATEGORY_KEYWORDS):
         return "taiwan_stock" if re.fullmatch(r"[1-9][0-9]{3}", symbol) else None
 
     return None
 
 
+def is_excluded_category(category: str) -> bool:
+    return any(keyword in category for keyword in EXCLUDED_CATEGORY_KEYWORDS)
+
+
 def is_taiwan_etf_symbol(symbol: str) -> bool:
-    return bool(re.fullmatch(r"00[0-9A-Z]{2,4}", symbol))
+    if not re.fullmatch(r"00[0-9A-Z]{2,4}", symbol):
+        return False
+    return not symbol.endswith(EXCLUDED_ETF_SUFFIXES)
 
 
 def clean_text(value: str) -> str:

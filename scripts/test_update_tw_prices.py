@@ -1,8 +1,12 @@
 from __future__ import annotations
 
+import json
 import unittest
+import tempfile
+from pathlib import Path
+from unittest.mock import patch
 
-from update_tw_prices import build_quotes, parse_price, roc_date_to_iso
+from update_tw_prices import build_quotes, load_universe_symbols, parse_price, roc_date_to_iso
 
 
 TARGET_SYMBOLS = [
@@ -91,6 +95,36 @@ class TaiwanBroadPriceTests(unittest.TestCase):
         self.assertIsNone(parse_price("0"))
         self.assertIsNone(parse_price("--"))
         self.assertEqual(roc_date_to_iso("1150513"), "2026-05-13")
+
+    def test_universe_loader_skips_tpex_otc_assets_for_twse_prices(self) -> None:
+        payload = {
+            "assets": [
+                {
+                    "symbol": "2603",
+                    "name": "Evergreen",
+                    "type": "taiwan_stock",
+                    "market": "TW",
+                    "exchange": "TWSE",
+                    "priceSource": "twse",
+                },
+                {
+                    "symbol": "8069",
+                    "name": "E Ink",
+                    "type": "taiwan_stock",
+                    "market": "TW",
+                    "exchange": "TPEX",
+                    "priceSource": "tpex_otc",
+                },
+            ],
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            path = Path(tmpdir) / "tw-assets.json"
+            path.write_text(json.dumps(payload), encoding="utf-8")
+            with patch("update_tw_prices.UNIVERSE_PATH", path):
+                symbols = load_universe_symbols()
+
+        self.assertEqual(symbols, [{"symbol": "2603", "name": "Evergreen", "type": "taiwan_stock"}])
 
 
 if __name__ == "__main__":

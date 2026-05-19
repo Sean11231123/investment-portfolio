@@ -72,6 +72,40 @@ describe("universe service", () => {
     expect(parsed.assets[0].isETF).toBe(true);
   });
 
+  it("parses a generated TPEx OTC universe asset", () => {
+    const parsed = parseUniverseFile({
+      version: 1,
+      market: "TW",
+      source: "twse-isin-listed-and-tpex-otc-securities",
+      generatedAt: "2026-05-14T00:00:00.000Z",
+      count: 1,
+      assets: [
+        {
+          symbol: "8069",
+          name: "E Ink Holdings Inc.",
+          type: "taiwan_stock",
+          market: "TW",
+          currency: "TWD",
+          unitLabel: "股",
+          priceSource: "tpex_otc",
+          aliases: ["E Ink Holdings Inc."],
+          exchange: "TPEX",
+          marketSegment: "otc",
+          source: "tpex-isin",
+          sourceSymbol: "8069",
+          isETF: false,
+          dataQuality: "generated",
+        },
+      ],
+      errors: [],
+    });
+
+    expect(parsed.assets[0].symbol).toBe("8069");
+    expect(parsed.assets[0].priceSource).toBe("tpex_otc");
+    expect(parsed.assets[0].exchange).toBe("TPEX");
+    expect(parsed.assets[0].marketSegment).toBe("otc");
+  });
+
   it("parses a generated US universe stock and ETF", () => {
     const parsed = parseUniverseFile({
       version: 1,

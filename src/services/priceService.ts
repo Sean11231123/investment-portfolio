@@ -458,6 +458,10 @@ function getUnavailablePriceMessage(metadata: AssetMetadata) {
     return "尚未追蹤美股 / 美股 ETF 價格。";
   }
 
+  if (metadata.priceSource === "tpex_otc") {
+    return "尚未追蹤上櫃股票/ETF 價格。";
+  }
+
   if (metadata.priceSource === "twse" || metadata.priceSource === "yahoo") {
     return "尚未取得台股/ETF 價格。";
   }

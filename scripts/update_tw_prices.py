@@ -15,7 +15,7 @@ UNIVERSE_PATH = ROOT / "public" / "data" / "universe" / "tw-assets.json"
 OUTPUT_PATH = ROOT / "public" / "data" / "market" / "tw-prices.json"
 SOURCE_URL = "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_AVG_ALL"
 SOURCE_NAME = "twse-openapi-STOCK_DAY_AVG_ALL"
-UNAVAILABLE_TW_PRICE_MESSAGE = "尚未取得台股/ETF價格。"
+UNAVAILABLE_TW_PRICE_MESSAGE = "尚未取得台股/ETF 價格。"
 
 
 def main() -> int:
@@ -92,11 +92,15 @@ def load_universe_symbols() -> list[dict[str, str]]:
         asset_type = str(asset.get("type", "")).strip()
         market = str(asset.get("market", "")).strip()
         name = str(asset.get("name", "")).strip()
+        exchange = str(asset.get("exchange", "")).strip().upper()
+        price_source = str(asset.get("priceSource", "")).strip()
         if (
             not symbol
             or symbol in seen
             or market != "TW"
             or asset_type not in {"taiwan_stock", "taiwan_etf"}
+            or (exchange and exchange != "TWSE")
+            or (price_source and price_source != "twse")
         ):
             continue
         seen.add(symbol)

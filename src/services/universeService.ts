@@ -34,6 +34,7 @@ const MARKETS = new Set<Market>(["TW", "US", "CRYPTO", "CASH", "CUSTOM"]);
 const CURRENCIES = new Set<Currency>(["TWD", "USD", "USDT"]);
 const PRICE_SOURCES = new Set<PriceSource>([
   "twse",
+  "tpex_otc",
   "yahoo",
   "coingecko",
   "manual",
@@ -202,6 +203,7 @@ function parseUniverseAsset(value: unknown): UniverseAsset {
     aliases: parseStringArray(asset.aliases),
     coingeckoId: optionalString(asset.coingeckoId),
     exchange: optionalString(asset.exchange),
+    marketSegment: optionalString(asset.marketSegment) as AssetMetadata["marketSegment"],
     source: optionalString(asset.source),
     sourceSymbol: optionalString(asset.sourceSymbol),
     stooqSymbol: optionalString(asset.stooqSymbol),

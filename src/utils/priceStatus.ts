@@ -118,7 +118,11 @@ function isUntracked(
   if (error.includes("尚未追蹤")) {
     return true;
   }
-  return metadata?.priceSource === "us_static" || quote.source === "us_static";
+  return (
+    metadata?.priceSource === "us_static" ||
+    metadata?.priceSource === "tpex_otc" ||
+    quote.source === "us_static"
+  );
 }
 
 function isStaleQuote(

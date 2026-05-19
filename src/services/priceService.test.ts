@@ -74,6 +74,18 @@ const activeTaiwanEtfMetadata: AssetMetadata = {
   priceSource: "twse",
 };
 
+const otcTaiwanStockMetadata: AssetMetadata = {
+  symbol: "8069",
+  name: "E Ink Holdings Inc.",
+  type: "taiwan_stock",
+  market: "TW",
+  currency: "TWD",
+  unitLabel: unit,
+  priceSource: "tpex_otc",
+  exchange: "TPEX",
+  marketSegment: "otc",
+};
+
 const avaxMetadata: AssetMetadata = {
   symbol: "AVAX",
   name: "AVAX",
@@ -322,6 +334,23 @@ describe("US static price adapter", () => {
     expect(prices["00981A"].currency).toBe("TWD");
     expect(prices["00981A"].source).toBe("static-tw-market-json");
     expect(prices["00981A"].status).toBe("ok");
+  });
+
+  it("keeps TPEx OTC assets unavailable until an OTC price adapter exists", async () => {
+    const prices = await refreshPrices(
+      [holding("8069", "taiwan_stock")],
+      [otcTaiwanStockMetadata],
+    );
+    const quote = getQuoteForHolding(
+      holding("8069", "taiwan_stock"),
+      prices,
+      [otcTaiwanStockMetadata],
+    );
+
+    expect(quote.price).toBeNull();
+    expect(quote.currency).toBe("TWD");
+    expect(quote.status).toBe("unavailable");
+    expect(quote.source).toBe("tpex_otc");
   });
 
   it("keeps universe-only crypto without a safe price source unavailable instead of zero", async () => {

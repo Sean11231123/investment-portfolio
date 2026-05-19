@@ -13,6 +13,7 @@ export type Market = "TW" | "US" | "CRYPTO" | "CASH" | "CUSTOM";
 
 export type PriceSource =
   | "twse"
+  | "tpex_otc"
   | "yahoo"
   | "coingecko"
   | "manual"
@@ -44,6 +45,10 @@ export type AssetMetadata = {
   unitLabel: "股" | "顆" | "金額" | "單位";
   priceSource: PriceSource;
   aliases?: string[];
+  exchange?: string;
+  marketSegment?: "listed" | "otc" | "emerging" | "innovation" | "fund";
+  source?: string;
+  sourceSymbol?: string;
   coingeckoId?: string;
   binanceSymbol?: string;
 };

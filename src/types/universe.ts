@@ -2,6 +2,7 @@ import type { AssetMetadata, Market } from "./portfolio";
 
 export type UniverseAsset = AssetMetadata & {
   exchange?: string;
+  marketSegment?: "listed" | "otc" | "emerging" | "innovation" | "fund";
   source?: string;
   sourceSymbol?: string;
   stooqSymbol?: string;
