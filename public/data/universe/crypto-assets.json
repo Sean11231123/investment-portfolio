@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-05-15T12:13:35.257793Z",
+  "generatedAt": "2026-05-21T13:33:18.810624Z",
   "count": 422,
   "binanceCount": 422,
-  "coingeckoMatchedCount": 247,
-  "ambiguousCount": 168,
+  "coingeckoMatchedCount": 248,
+  "ambiguousCount": 167,
   "skippedCount": 3162,
   "assets": [
     {
@@ -6331,19 +6331,20 @@
     },
     {
       "symbol": "TNSR",
-      "name": "TNSR",
+      "name": "Tensor",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "TNSR"
+        "Tensor"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "TNSRUSDT",
       "binanceSymbol": "TNSRUSDT",
+      "coingeckoId": "tensor",
       "dataQuality": "generated"
     },
     {
