@@ -239,6 +239,22 @@ This is static data only. There is no macro UI, no FOMC/event parser, no Taiwan 
 
 The existing market-data workflow also refreshes this macro file and commits `public/data/macro/macro-indicators.json` only when it changes.
 
+FOMC event metadata is generated from the official Federal Reserve meeting calendar:
+
+```bash
+npm run update:macro-events
+```
+
+The script writes:
+
+```text
+public/data/macro/macro-events.json
+```
+
+It stores official facts only: meeting dates, released/upcoming status, statement links, implementation-note links, minutes links, press conference links, SEP/projection links when available, and the target range only when it can be reliably parsed from official Federal Reserve pages. It does not create statement summaries, hawkish/dovish labels, market predictions, trading signals, or investment advice.
+
+There is still no macro UI page yet.
+
 ## Crypto Asset Universe Update
 
 Crypto searchable metadata is generated outside the frontend by:

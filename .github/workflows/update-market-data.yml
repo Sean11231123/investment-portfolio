@@ -29,9 +29,12 @@ jobs:
       - name: Update US macro indicators
         run: python scripts/update_macro_indicators.py
 
+      - name: Update FOMC macro events
+        run: python scripts/update_macro_events.py
+
       - name: Commit market data if changed
         run: |
-          if git diff --quiet -- public/data/market/tw-prices.json public/data/market/tpex-otc-prices.json public/data/macro/macro-indicators.json; then
+          if git diff --quiet -- public/data/market/tw-prices.json public/data/market/tpex-otc-prices.json public/data/macro/macro-indicators.json public/data/macro/macro-events.json; then
             echo "No market or macro data changes to commit."
             exit 0
           fi
@@ -41,6 +44,7 @@ jobs:
           git add public/data/market/tw-prices.json
           git add public/data/market/tpex-otc-prices.json
           git add public/data/macro/macro-indicators.json
+          git add public/data/macro/macro-events.json
           git commit -m "Update market and macro data"
           git pull --rebase origin main
           git push origin HEAD:main
