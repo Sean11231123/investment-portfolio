@@ -7,6 +7,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 import urllib.error
 import urllib.request
@@ -140,7 +141,12 @@ def fetch_taiwan_macro_rows() -> list[dict[str, Any]]:
         TAIWAN_MAJOR_ECONOMIC_INDICATORS_URL,
         headers={
             "Accept": "application/json",
-            "User-Agent": "investment-portfolio-taiwan-macro-updater/1.0",
+            "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/125.0 Safari/537.36"
+            ),
         },
         method="GET",
     )
@@ -150,12 +156,43 @@ def fetch_taiwan_macro_rows() -> list[dict[str, Any]]:
     except urllib.error.HTTPError as exc:
         raise RuntimeError(f"Taiwan macro source returned HTTP {exc.code}") from exc
     except urllib.error.URLError as exc:
-        raise RuntimeError(f"Taiwan macro source request failed: {exc.reason}") from exc
+        body = fetch_taiwan_macro_rows_with_powershell(exc)
+    except ConnectionError as exc:
+        body = fetch_taiwan_macro_rows_with_powershell(exc)
 
     parsed = json.loads(body.decode("utf-8-sig"))
     if not isinstance(parsed, list):
         raise ValueError("Taiwan macro source response was not a JSON array.")
     return [row for row in parsed if isinstance(row, dict)]
+
+
+def fetch_taiwan_macro_rows_with_powershell(error: Exception) -> bytes:
+    if sys.platform != "win32":
+        raise RuntimeError(f"Taiwan macro source request failed: {error}") from error
+    command = [
+        "powershell",
+        "-NoProfile",
+        "-Command",
+        (
+            "[Console]::OutputEncoding = [System.Text.Encoding]::UTF8; "
+            f"Invoke-WebRequest -Uri '{TAIWAN_MAJOR_ECONOMIC_INDICATORS_URL}' "
+            "-UseBasicParsing | Select-Object -ExpandProperty Content"
+        ),
+    ]
+    try:
+        result = subprocess.run(
+            command,
+            check=True,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            timeout=30,
+        )
+    except (subprocess.SubprocessError, OSError) as fallback_error:
+        raise RuntimeError(
+            f"Taiwan macro source request failed: {error}; PowerShell fallback failed: {fallback_error}",
+        ) from fallback_error
+    return result.stdout.encode("utf-8")
 
 
 def read_existing_macro_payload(path: Path) -> dict[str, Any]:

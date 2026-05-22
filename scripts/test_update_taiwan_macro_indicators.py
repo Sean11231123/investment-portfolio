@@ -201,6 +201,24 @@ class TaiwanMacroIndicatorUpdaterTests(unittest.TestCase):
             self.assertEqual(result, 1)
             self.assertEqual(input_path.read_text(encoding="utf-8"), original_text)
 
+    def test_windows_fetch_fallback_uses_powershell_when_urllib_is_reset(self) -> None:
+        completed = updater.subprocess.CompletedProcess(
+            args=["powershell"],
+            returncode=0,
+            stdout=updater.json.dumps(fixture_rows(), ensure_ascii=False),
+            stderr="",
+        )
+
+        with (
+            patch.object(updater.sys, "platform", "win32"),
+            patch.object(updater.urllib.request, "urlopen", side_effect=ConnectionResetError("reset")),
+            patch.object(updater.subprocess, "run", return_value=completed) as run_mock,
+        ):
+            rows = updater.fetch_taiwan_macro_rows()
+
+        self.assertEqual(rows[0][updater.DATE_FIELD], "202401")
+        self.assertTrue(run_mock.called)
+
     def test_no_live_network_calls_in_unit_tests(self) -> None:
         self.assertTrue(callable(updater.fetch_taiwan_macro_rows))
 
