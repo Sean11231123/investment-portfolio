@@ -2,11 +2,11 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-05-19T06:43:55.098159Z",
-  "count": 2231,
+  "generatedAt": "2026-05-22T11:53:17.815905Z",
+  "count": 2232,
   "twseCount": 1230,
-  "tpexOtcCount": 1001,
-  "tpexOtcSourceCount": 1001,
+  "tpexOtcCount": 1002,
+  "tpexOtcSourceCount": 1002,
   "duplicateCount": 0,
   "assets": [
     {
@@ -35268,6 +35268,24 @@
       "marketSegment": "otc",
       "source": "tpex-isin",
       "sourceSymbol": "6982",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "6983",
+      "name": "華洋精機",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "華洋精機"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "6983",
       "isETF": false,
       "dataQuality": "generated"
     },
