@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Prototype US macro indicator updater using the public BLS API."""
+"""Update static US macro indicators from the public no-key BLS API."""
 
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 import urllib.error
 import urllib.request
@@ -28,6 +29,7 @@ class IndicatorDefinition:
     category: str
     name: str
     unit: str
+    change_unit: str
     frequency: str
     calculation: str
     note: str
@@ -41,6 +43,7 @@ INDICATORS: tuple[IndicatorDefinition, ...] = (
         category="inflation",
         name="US CPI",
         unit="index",
+        change_unit="decimal_return",
         frequency="monthly",
         calculation="index_change",
         note="Seasonally adjusted CPI-U all items index.",
@@ -52,6 +55,7 @@ INDICATORS: tuple[IndicatorDefinition, ...] = (
         category="inflation",
         name="US Core CPI",
         unit="index",
+        change_unit="decimal_return",
         frequency="monthly",
         calculation="index_change",
         note="Seasonally adjusted CPI-U all items less food and energy index.",
@@ -63,6 +67,7 @@ INDICATORS: tuple[IndicatorDefinition, ...] = (
         category="inflation",
         name="US PPI Final Demand",
         unit="index",
+        change_unit="decimal_return",
         frequency="monthly",
         calculation="index_change",
         note="Seasonally adjusted Producer Price Index for final demand.",
@@ -73,7 +78,8 @@ INDICATORS: tuple[IndicatorDefinition, ...] = (
         country="US",
         category="labor",
         name="US Unemployment Rate",
-        unit="percent",
+        unit="percent_rate",
+        change_unit="percentage_point",
         frequency="monthly",
         calculation="percentage_point_change",
         note="Seasonally adjusted civilian unemployment rate.",
@@ -91,15 +97,21 @@ def main() -> int:
     try:
         response = fetch_bls_series([item.series_id for item in INDICATORS], start_year, end_year)
         payload = build_macro_payload(response, generated_at)
+        validate_payload_for_write(payload)
     except Exception as exc:  # noqa: BLE001 - fail clearly and preserve any previous output.
         print(f"US macro indicator update failed: {exc}", file=sys.stderr)
+        if output_path.exists():
+            print(f"Existing output preserved: {output_path}", file=sys.stderr)
         return 1
 
-    print("US macro indicator prototype report")
+    print("US macro indicator update report")
     print(f"source: BLS Public Data API")
     print(f"endpoint: {BLS_API_URL}")
     print(f"series requested: {len(INDICATORS)}")
-    print(f"series fetched: {sum(1 for item in payload['indicators'].values() if item['status'] == 'ok')}")
+    print(
+        "series usable: "
+        f"{sum(1 for item in payload['indicators'].values() if item['status'] in {'ok', 'partial'})}"
+    )
     for indicator_id, indicator in payload["indicators"].items():
         print(
             f"- {indicator_id}: {indicator['sourceSeriesId']} "
@@ -122,7 +134,7 @@ def main() -> int:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Fetch prototype US macro indicators from the public no-key BLS API.",
+        description="Fetch US macro indicators from the public no-key BLS API.",
     )
     parser.add_argument(
         "--output",
@@ -150,7 +162,7 @@ def fetch_bls_series(series_ids: list[str], start_year: int, end_year: int) -> d
         headers={
             "Content-Type": "application/json",
             "Accept": "application/json",
-            "User-Agent": "investment-portfolio-macro-prototype/1.0",
+            "User-Agent": "investment-portfolio-macro-updater/1.0",
         },
         method="POST",
     )
@@ -215,6 +227,7 @@ def build_macro_payload(response: dict[str, Any], generated_at: str) -> dict[str
             "mom": latest["mom"],
             "yoy": latest["yoy"],
             "unit": definition.unit,
+            "changeUnit": definition.change_unit,
             "frequency": definition.frequency,
             "calculation": definition.calculation,
             "note": definition.note,
@@ -226,7 +239,10 @@ def build_macro_payload(response: dict[str, Any], generated_at: str) -> dict[str
         "version": 1,
         "generatedAt": generated_at,
         "source": "BLS",
+        "sourceName": "U.S. Bureau of Labor Statistics Public Data API",
         "sourceUrl": BLS_API_URL,
+        "indicatorCount": len(indicators),
+        "historyLimit": HISTORY_LIMIT,
         "indicators": indicators,
         "errors": errors,
     }
@@ -308,6 +324,7 @@ def unavailable_indicator(definition: IndicatorDefinition) -> dict[str, Any]:
         "mom": None,
         "yoy": None,
         "unit": definition.unit,
+        "changeUnit": definition.change_unit,
         "frequency": definition.frequency,
         "calculation": definition.calculation,
         "note": definition.note,
@@ -356,9 +373,35 @@ def parse_number(value: Any) -> float | None:
 
 def write_json(path: Path, payload: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    temp_path = path.with_suffix(path.suffix + ".tmp")
+    temp_path = path.with_name(f"{path.name}.{os.getpid()}.tmp")
     temp_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     temp_path.replace(path)
+
+
+def validate_payload_for_write(payload: dict[str, Any]) -> None:
+    indicators = payload.get("indicators")
+    if not isinstance(indicators, dict):
+        raise ValueError("macro payload missing indicators object.")
+    expected_ids = {item.indicator_id for item in INDICATORS}
+    if set(indicators) != expected_ids:
+        raise ValueError("macro payload does not contain the expected indicator set.")
+    ok_count = sum(
+        1
+        for indicator in indicators.values()
+        if isinstance(indicator, dict) and indicator.get("status") in {"ok", "partial"}
+    )
+    if ok_count == 0:
+        raise ValueError("macro payload has no usable indicators; refusing to overwrite output.")
+    for indicator_id, indicator in indicators.items():
+        if not isinstance(indicator, dict):
+            raise ValueError(f"{indicator_id}: indicator must be an object.")
+        history = indicator.get("history")
+        if not isinstance(history, list):
+            raise ValueError(f"{indicator_id}: history must be an array.")
+        if len(history) > HISTORY_LIMIT:
+            raise ValueError(f"{indicator_id}: history exceeds {HISTORY_LIMIT} observations.")
+        if indicator.get("level") == 0:
+            raise ValueError(f"{indicator_id}: refusing suspicious zero level in latest value.")
 
 
 def utc_now_iso() -> str:
