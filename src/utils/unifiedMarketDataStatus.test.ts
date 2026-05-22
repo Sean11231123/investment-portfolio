@@ -115,6 +115,40 @@ describe("unified market data status", () => {
     expect(row.details).toContain("美股價格為精選追蹤清單，非全市場。");
   });
 
+  it("shows TPEx OTC price coverage separately from TWSE prices", () => {
+    const sections = getUnifiedMarketDataStatus({
+      fxRates,
+      universes: {
+        tw: { count: 2231 },
+        us: { count: 1 },
+        crypto: { count: 1 },
+      },
+      prices: {
+        tw: {
+          quotes: {
+            "2603": { symbol: "2603", price: 200, status: "ok" },
+          },
+        },
+        tpexOtc: {
+          tradeDate: "2026-05-18",
+          quotes: {
+            "8069": { symbol: "8069", price: 123.45, status: "ok" },
+            "1785": { symbol: "1785", price: null, status: "unavailable" },
+          },
+        },
+        us: { quotes: {} },
+      },
+      etfDatasets: [],
+    });
+
+    const priceRows = sections.find((section) => section.id === "prices")?.rows;
+    const otcRow = priceRows?.find((row) => row.id === "tpex-otc-prices");
+
+    expect(otcRow?.source).toBe("TPEx");
+    expect(otcRow?.status).toBe("partial");
+    expect(priceRows?.find((row) => row.id === "tw-prices")?.source).toBe("TWSE");
+  });
+
   it("reports static price files as unavailable when missing", () => {
     const row = summarizePriceFile({
       id: "tw-prices",

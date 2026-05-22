@@ -62,6 +62,7 @@ export function MarketDataStatusCard({
 function useStaticPriceStatusFiles() {
   const [priceFiles, setPriceFiles] = useState<{
     tw?: UnifiedPriceFile | null;
+    tpexOtc?: UnifiedPriceFile | null;
     us?: UnifiedPriceFile | null;
   }>({});
 
@@ -70,10 +71,11 @@ function useStaticPriceStatusFiles() {
 
     Promise.all([
       loadStaticPriceFile("data/market/tw-prices.json"),
+      loadStaticPriceFile("data/market/tpex-otc-prices.json"),
       loadStaticPriceFile("data/market/us-prices.json"),
-    ]).then(([tw, us]) => {
+    ]).then(([tw, tpexOtc, us]) => {
       if (!cancelled) {
-        setPriceFiles({ tw, us });
+        setPriceFiles({ tw, tpexOtc, us });
       }
     });
 

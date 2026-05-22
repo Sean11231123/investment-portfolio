@@ -96,6 +96,7 @@ function isProviderFailure(error: string) {
     error.includes("暫時無法取得") ||
     error.includes("returned") ||
     error.includes("invalid") ||
+    error.includes("暫時無法取得") ||
     error.includes("Binance price unavailable") ||
     error.includes("CoinGecko returned")
   );

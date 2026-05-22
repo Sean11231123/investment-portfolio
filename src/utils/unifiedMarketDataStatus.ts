@@ -74,6 +74,7 @@ type UnifiedMarketDataStatusInput = {
   };
   prices?: {
     tw?: UnifiedPriceFile | null;
+    tpexOtc?: UnifiedPriceFile | null;
     us?: UnifiedPriceFile | null;
   };
   etfDatasets?: ETFComponentDataset[];
@@ -125,6 +126,13 @@ export function getUnifiedMarketDataStatus({
     sourceLabel: "TWSE",
     detail: "台股價格來自靜態市場資料，缺價資產會維持未提供。",
   });
+  const tpexOtcPriceRow = summarizePriceFile({
+    id: "tpex-otc-prices",
+    name: "上櫃價格",
+    file: prices?.tpexOtc,
+    sourceLabel: "TPEx",
+    detail: "上櫃價格來自 TPEx 靜態收盤行情，與 TWSE 上市價格分開追蹤。",
+  });
   const usPriceRow = summarizePriceFile({
     id: "us-prices",
     name: "美股價格",
@@ -146,7 +154,7 @@ export function getUnifiedMarketDataStatus({
     {
       id: "prices",
       title: "價格資料",
-      rows: [twPriceRow, usPriceRow, cryptoPriceRow, fxRow],
+      rows: [twPriceRow, tpexOtcPriceRow, usPriceRow, cryptoPriceRow, fxRow],
     },
     {
       id: "etf-components",

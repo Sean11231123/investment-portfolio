@@ -34,6 +34,10 @@ type StaticTwPriceFile = {
   errors?: string[];
 };
 
+type StaticTpexOtcPriceFile = StaticTwPriceFile & {
+  segment: "otc";
+};
+
 type StaticUsQuote = {
   symbol: string;
   name?: string;
@@ -119,6 +123,7 @@ export async function refreshPrices(
   await Promise.all([
     refreshCryptoPrices(metadataBySymbol, next),
     refreshStaticTaiwanPrices(metadataBySymbol, next),
+    refreshStaticTpexOtcPrices(metadataBySymbol, next),
     refreshStaticUsPrices(metadataBySymbol, next),
   ]);
 
@@ -371,6 +376,62 @@ async function refreshStaticTaiwanPrices(
   }
 }
 
+async function refreshStaticTpexOtcPrices(
+  metadata: AssetMetadata[],
+  next: PriceCache,
+) {
+  const otcAssets = metadata.filter((item) => item.priceSource === "tpex_otc");
+  if (otcAssets.length === 0) {
+    return;
+  }
+
+  try {
+    const response = await fetch(
+      `${import.meta.env.BASE_URL}data/market/tpex-otc-prices.json`,
+      { cache: "no-cache" },
+    );
+    if (!response.ok) {
+      throw new Error(`Static TPEx OTC price file returned ${response.status}`);
+    }
+
+    const data = (await response.json()) as StaticTpexOtcPriceFile;
+    if (!isStaticTpexOtcPriceFile(data)) {
+      throw new Error("Static TPEx OTC price file has an invalid format.");
+    }
+
+    for (const asset of otcAssets) {
+      const quote = data.quotes[asset.symbol];
+      if (quote && Number.isFinite(quote.price) && Number(quote.price) > 0) {
+        next[asset.symbol] = {
+          symbol: asset.symbol,
+          price: Number(quote.price),
+          currency: "TWD",
+          source: "static-tpex-otc-json",
+          tradeDate: quote.tradeDate ?? data.tradeDate ?? undefined,
+          generatedAt: data.generatedAt,
+          lastUpdated: quote.lastUpdated ?? data.generatedAt,
+          status: "ok",
+        };
+        continue;
+      }
+
+      next[asset.symbol] = fallbackQuote(
+        asset,
+        next,
+        getStaticTpexOtcError(quote, data),
+      );
+    }
+  } catch (error) {
+    for (const asset of otcAssets) {
+      next[asset.symbol] = fallbackQuote(
+        asset,
+        next,
+        `TPEx 上櫃價格暫時無法取得。${getErrorMessage(error)}`,
+      );
+    }
+  }
+}
+
 async function refreshStaticUsPrices(
   metadata: AssetMetadata[],
   next: PriceCache,
@@ -459,7 +520,7 @@ function getUnavailablePriceMessage(metadata: AssetMetadata) {
   }
 
   if (metadata.priceSource === "tpex_otc") {
-    return "尚未追蹤上櫃股票/ETF 價格。";
+    return "上櫃價格尚未追蹤。";
   }
 
   if (metadata.priceSource === "twse" || metadata.priceSource === "yahoo") {
@@ -486,6 +547,25 @@ function getStaticTaiwanError(
   }
 
   return "尚未取得台股/ETF 價格。";
+}
+
+function getStaticTpexOtcError(
+  quote: StaticTwQuote | undefined,
+  data: StaticTpexOtcPriceFile,
+) {
+  if (quote?.error) {
+    return quote.error;
+  }
+
+  if (data.errors && data.errors.length > 0) {
+    return data.errors.join("; ");
+  }
+
+  if (quote?.status === "unavailable") {
+    return "上櫃價格尚未追蹤。";
+  }
+
+  return "上櫃價格尚未追蹤。";
 }
 
 function getStaticUsError(
@@ -537,6 +617,14 @@ function isStaticTwPriceFile(value: unknown): value is StaticTwPriceFile {
     typeof candidate.generatedAt === "string" &&
     typeof candidate.quotes === "object"
   );
+}
+
+function isStaticTpexOtcPriceFile(value: unknown): value is StaticTpexOtcPriceFile {
+  if (!isStaticTwPriceFile(value)) {
+    return false;
+  }
+
+  return (value as StaticTpexOtcPriceFile).segment === "otc";
 }
 
 function isStaticUsPriceFile(value: unknown): value is StaticUsPriceFile {

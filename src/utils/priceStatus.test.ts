@@ -58,6 +58,19 @@ describe("price reason labels", () => {
     expect(reason.label).toBe("尚未追蹤價格");
   });
 
+  it("labels TPEx OTC untracked prices separately", () => {
+    const reason = getPriceReason(
+      quote({
+        source: "tpex_otc",
+        error: "上櫃價格尚未追蹤。",
+      }),
+      metadata({ type: "taiwan_stock", market: "TW", priceSource: "tpex_otc" }),
+      now,
+    );
+
+    expect(reason.category).toBe("untracked");
+  });
+
   it("labels provider failures distinctly", () => {
     const reason = getPriceReason(
       quote({
@@ -71,6 +84,19 @@ describe("price reason labels", () => {
 
     expect(reason.category).toBe("provider_unavailable");
     expect(reason.label).toBe("價格取得失敗");
+  });
+
+  it("labels TPEx OTC provider failures distinctly", () => {
+    const reason = getPriceReason(
+      quote({
+        source: "tpex_otc",
+        error: "TPEx 上櫃價格暫時無法取得。Static TPEx OTC price file returned 500",
+      }),
+      metadata({ type: "taiwan_stock", market: "TW", priceSource: "tpex_otc" }),
+      now,
+    );
+
+    expect(reason.category).toBe("provider_unavailable");
   });
 
   it("labels Binance failures without fallback as provider failures", () => {

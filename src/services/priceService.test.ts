@@ -336,7 +336,19 @@ describe("US static price adapter", () => {
     expect(prices["00981A"].status).toBe("ok");
   });
 
-  it("keeps TPEx OTC assets unavailable until an OTC price adapter exists", async () => {
+  it("keeps TPEx OTC assets with missing static quotes unavailable instead of zero", async () => {
+    mockFetchJson({
+      version: 1,
+      market: "TW",
+      segment: "otc",
+      source: "tpex-openapi-mainboard-daily-close-quotes",
+      generatedAt: "2026-05-19T00:00:00.000Z",
+      tradeDate: null,
+      currency: "TWD",
+      quotes: {},
+      errors: [],
+    });
+
     const prices = await refreshPrices(
       [holding("8069", "taiwan_stock")],
       [otcTaiwanStockMetadata],
@@ -351,6 +363,41 @@ describe("US static price adapter", () => {
     expect(quote.currency).toBe("TWD");
     expect(quote.status).toBe("unavailable");
     expect(quote.source).toBe("tpex_otc");
+  });
+
+  it("reads TPEx OTC static quotes for tpex_otc assets", async () => {
+    mockFetchJson({
+      version: 1,
+      market: "TW",
+      segment: "otc",
+      source: "tpex-openapi-mainboard-daily-close-quotes",
+      generatedAt: "2026-05-19T00:00:00.000Z",
+      tradeDate: "2026-05-18",
+      currency: "TWD",
+      quotes: {
+        "8069": {
+          symbol: "8069",
+          name: "元太",
+          price: 123.45,
+          currency: "TWD",
+          source: "static-tpex-otc-json",
+          tradeDate: "2026-05-18",
+          lastUpdated: "2026-05-19T00:00:00.000Z",
+          status: "ok",
+        },
+      },
+      errors: [],
+    });
+
+    const prices = await refreshPrices(
+      [holding("8069", "taiwan_stock")],
+      [otcTaiwanStockMetadata],
+    );
+
+    expect(prices["8069"].price).toBe(123.45);
+    expect(prices["8069"].currency).toBe("TWD");
+    expect(prices["8069"].source).toBe("static-tpex-otc-json");
+    expect(prices["8069"].status).toBe("ok");
   });
 
   it("keeps universe-only crypto without a safe price source unavailable instead of zero", async () => {
