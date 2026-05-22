@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-22T03:57:04.211Z",
-  "source": "BLS",
-  "sourceName": "U.S. Bureau of Labor Statistics Public Data API",
-  "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
-  "indicatorCount": 4,
+  "generatedAt": "2026-05-22T08:24:19.535Z",
+  "source": "BLS+DGBAS",
+  "sourceName": "BLS and data.gov.tw / DGBAS static macro sources",
+  "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/; https://apiservice.mol.gov.tw/OdService/download/A17030000J-000016-xC8",
+  "indicatorCount": 7,
   "historyLimit": 24,
   "indicators": {
     "US_CPI": {
@@ -656,6 +656,297 @@
           "level": 4.3,
           "mom": 0.0,
           "yoy": 0.1
+        }
+      ]
+    },
+    "TW_CPI": {
+      "country": "TW",
+      "category": "inflation",
+      "name": "Taiwan CPI",
+      "source": "data.gov.tw / DGBAS",
+      "sourceSeriesId": "消費者物價-指數",
+      "period": "2026-03",
+      "level": 110.36,
+      "mom": -0.005138,
+      "yoy": 0.012013,
+      "unit": "index",
+      "changeUnit": "decimal_return",
+      "frequency": "monthly",
+      "calculation": "index_change",
+      "note": "Taiwan CPI index from the official monthly domestic major economic indicators dataset.",
+      "status": "ok",
+      "history": [
+        {
+          "period": "2025-03",
+          "level": 109.05,
+          "mom": null,
+          "yoy": null
+        },
+        {
+          "period": "2025-04",
+          "level": 109.33,
+          "mom": 0.002568,
+          "yoy": null
+        },
+        {
+          "period": "2025-05",
+          "level": 109.03,
+          "mom": -0.002744,
+          "yoy": null
+        },
+        {
+          "period": "2025-06",
+          "level": 109.17,
+          "mom": 0.001284,
+          "yoy": null
+        },
+        {
+          "period": "2025-07",
+          "level": 109.57,
+          "mom": 0.003664,
+          "yoy": null
+        },
+        {
+          "period": "2025-08",
+          "level": 110.07,
+          "mom": 0.004563,
+          "yoy": null
+        },
+        {
+          "period": "2025-09",
+          "level": 109.82,
+          "mom": -0.002271,
+          "yoy": null
+        },
+        {
+          "period": "2025-10",
+          "level": 110.33,
+          "mom": 0.004644,
+          "yoy": null
+        },
+        {
+          "period": "2025-11",
+          "level": 110.16,
+          "mom": -0.001541,
+          "yoy": null
+        },
+        {
+          "period": "2025-12",
+          "level": 110.24,
+          "mom": 0.000726,
+          "yoy": null
+        },
+        {
+          "period": "2026-01",
+          "level": 110.21,
+          "mom": -0.000272,
+          "yoy": null
+        },
+        {
+          "period": "2026-02",
+          "level": 110.93,
+          "mom": 0.006533,
+          "yoy": null
+        },
+        {
+          "period": "2026-03",
+          "level": 110.36,
+          "mom": -0.005138,
+          "yoy": 0.012013
+        }
+      ]
+    },
+    "TW_PPI": {
+      "country": "TW",
+      "category": "inflation",
+      "name": "Taiwan PPI",
+      "source": "data.gov.tw / DGBAS",
+      "sourceSeriesId": "生產者物價-指數",
+      "period": "2026-03",
+      "level": 116.63,
+      "mom": 0.035882,
+      "yoy": 0.025319,
+      "unit": "index",
+      "changeUnit": "decimal_return",
+      "frequency": "monthly",
+      "calculation": "index_change",
+      "note": "Taiwan PPI index from the official monthly domestic major economic indicators dataset.",
+      "status": "ok",
+      "history": [
+        {
+          "period": "2025-03",
+          "level": 113.75,
+          "mom": null,
+          "yoy": null
+        },
+        {
+          "period": "2025-04",
+          "level": 112.23,
+          "mom": -0.013363,
+          "yoy": null
+        },
+        {
+          "period": "2025-05",
+          "level": 106.97,
+          "mom": -0.046868,
+          "yoy": null
+        },
+        {
+          "period": "2025-06",
+          "level": 105.99,
+          "mom": -0.009161,
+          "yoy": null
+        },
+        {
+          "period": "2025-07",
+          "level": 105.34,
+          "mom": -0.006133,
+          "yoy": null
+        },
+        {
+          "period": "2025-08",
+          "level": 107.39,
+          "mom": 0.019461,
+          "yoy": null
+        },
+        {
+          "period": "2025-09",
+          "level": 107.54,
+          "mom": 0.001397,
+          "yoy": null
+        },
+        {
+          "period": "2025-10",
+          "level": 107.91,
+          "mom": 0.003441,
+          "yoy": null
+        },
+        {
+          "period": "2025-11",
+          "level": 109.13,
+          "mom": 0.011306,
+          "yoy": null
+        },
+        {
+          "period": "2025-12",
+          "level": 110.19,
+          "mom": 0.009713,
+          "yoy": null
+        },
+        {
+          "period": "2026-01",
+          "level": 111.33,
+          "mom": 0.010346,
+          "yoy": null
+        },
+        {
+          "period": "2026-02",
+          "level": 112.59,
+          "mom": 0.011318,
+          "yoy": null
+        },
+        {
+          "period": "2026-03",
+          "level": 116.63,
+          "mom": 0.035882,
+          "yoy": 0.025319
+        }
+      ]
+    },
+    "TW_UNEMPLOYMENT_RATE": {
+      "country": "TW",
+      "category": "labor",
+      "name": "Taiwan Unemployment Rate",
+      "source": "data.gov.tw / DGBAS",
+      "sourceSeriesId": "失業率（百分比）",
+      "period": "2026-03",
+      "level": 3.34,
+      "mom": 0.02,
+      "yoy": -0.01,
+      "unit": "percent_rate",
+      "changeUnit": "percentage_point",
+      "frequency": "monthly",
+      "calculation": "percentage_point_change",
+      "note": "Taiwan unemployment rate from the official monthly domestic major economic indicators dataset.",
+      "status": "ok",
+      "history": [
+        {
+          "period": "2025-03",
+          "level": 3.35,
+          "mom": null,
+          "yoy": null
+        },
+        {
+          "period": "2025-04",
+          "level": 3.32,
+          "mom": -0.03,
+          "yoy": null
+        },
+        {
+          "period": "2025-05",
+          "level": 3.3,
+          "mom": -0.02,
+          "yoy": null
+        },
+        {
+          "period": "2025-06",
+          "level": 3.36,
+          "mom": 0.06,
+          "yoy": null
+        },
+        {
+          "period": "2025-07",
+          "level": 3.4,
+          "mom": 0.04,
+          "yoy": null
+        },
+        {
+          "period": "2025-08",
+          "level": 3.45,
+          "mom": 0.05,
+          "yoy": null
+        },
+        {
+          "period": "2025-09",
+          "level": 3.38,
+          "mom": -0.07,
+          "yoy": null
+        },
+        {
+          "period": "2025-10",
+          "level": 3.36,
+          "mom": -0.02,
+          "yoy": null
+        },
+        {
+          "period": "2025-11",
+          "level": 3.33,
+          "mom": -0.03,
+          "yoy": null
+        },
+        {
+          "period": "2025-12",
+          "level": 3.3,
+          "mom": -0.03,
+          "yoy": null
+        },
+        {
+          "period": "2026-01",
+          "level": 3.29,
+          "mom": -0.01,
+          "yoy": null
+        },
+        {
+          "period": "2026-02",
+          "level": 3.32,
+          "mom": 0.03,
+          "yoy": null
+        },
+        {
+          "period": "2026-03",
+          "level": 3.34,
+          "mom": 0.02,
+          "yoy": -0.01
         }
       ]
     }

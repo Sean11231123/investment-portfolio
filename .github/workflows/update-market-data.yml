@@ -29,6 +29,9 @@ jobs:
       - name: Update US macro indicators
         run: python scripts/update_macro_indicators.py
 
+      - name: Update Taiwan macro indicators
+        run: python scripts/update_taiwan_macro_indicators.py
+
       - name: Update FOMC macro events
         run: python scripts/update_macro_events.py
 

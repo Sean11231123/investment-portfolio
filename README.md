@@ -216,9 +216,9 @@ The scheduled workflow is:
 
 It can be run manually, also runs on weekdays, uses Python 3.12, and commits `public/data/universe/us-assets.json` only when the generated file changed. This workflow is separate from the US price workflow and the US ETF component workflow.
 
-## US Macro Static Data
+## Macro Static Data
 
-US macro data is intentionally separate from portfolio valuation and market price pipelines. It fetches official no-key BLS data for US CPI, Core CPI, PPI final demand, and the unemployment rate:
+Macro data is intentionally separate from portfolio valuation and market price pipelines. US macro indicators are generated from official no-key BLS data for US CPI, Core CPI, PPI final demand, and the unemployment rate:
 
 ```bash
 npm run update:macro-indicators
@@ -239,9 +239,23 @@ It uses seasonally adjusted BLS series where available so month-over-month calcu
 
 For CPI/Core CPI/PPI, `level` is an index level and `mom` / `yoy` are decimal index changes. For unemployment, `level` is a percent rate and `mom` / `yoy` are percentage-point changes, not percent growth. Missing or non-numeric source values remain `null` and are never coerced to `0`.
 
-This is static data only. Taiwan macro support remains out of scope, and there is no investment signal or prediction logic.
+Taiwan macro indicators are merged into the same generated macro file from the official data.gov.tw / DGBAS-sourced monthly domestic indicators JSON:
 
-The existing market-data workflow also refreshes this macro file and commits `public/data/macro/macro-indicators.json` only when it changes.
+```bash
+python scripts/update_taiwan_macro_indicators.py
+```
+
+Currently supported Taiwan indicators are:
+
+- `TW_CPI`: Taiwan CPI
+- `TW_PPI`: Taiwan PPI
+- `TW_UNEMPLOYMENT_RATE`: Taiwan unemployment rate
+
+Taiwan CPI/PPI use index levels with decimal `mom` / `yoy` changes. Taiwan unemployment uses a percent-rate level with percentage-point `mom` / `yoy` changes. Taiwan Core CPI, GDP, central bank events, export orders, industrial production, and business cycle indicators are not included yet.
+
+This is static data only. There is no investment signal or prediction logic.
+
+The existing market-data workflow refreshes the US macro indicators first, then merges Taiwan macro indicators into `public/data/macro/macro-indicators.json`, and commits the macro file only when it changes.
 
 FOMC event metadata is generated from the official Federal Reserve meeting calendar:
 
@@ -259,7 +273,7 @@ It stores official facts only: meeting dates, released/upcoming status, statemen
 
 In the browser, macro data is consumed only from the generated static files under `public/data/macro/`. The frontend macro data service validates those JSON files and reports unavailable/stale status if they are missing, malformed, or old. It does not call BLS or Federal Reserve live endpoints from the browser.
 
-The app includes a `總經` page that displays these BLS indicators and official FOMC event records. It is informational only: no FOMC sentiment classification, no policy-language summary, no market prediction, no trading signal, and no investment advice. Taiwan macro data remains out of scope for now.
+The app includes a `總經` page that displays BLS indicators and official FOMC event records. Taiwan macro indicators are generated in the static data file, but the dedicated Taiwan UI section is planned for a later phase. Macro data is informational only: no FOMC sentiment classification, no policy-language summary, no market prediction, no trading signal, and no investment advice.
 
 ## Crypto Asset Universe Update
 
