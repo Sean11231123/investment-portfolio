@@ -235,7 +235,7 @@ It uses seasonally adjusted BLS series where available so month-over-month calcu
 
 For CPI/Core CPI/PPI, `level` is an index level and `mom` / `yoy` are decimal index changes. For unemployment, `level` is a percent rate and `mom` / `yoy` are percentage-point changes, not percent growth. Missing or non-numeric source values remain `null` and are never coerced to `0`.
 
-This is static data only. There is no macro UI, no FOMC/event parser, no Taiwan macro support, and no investment signal or prediction logic yet.
+This is static data only. Taiwan macro support remains out of scope, and there is no investment signal or prediction logic.
 
 The existing market-data workflow also refreshes this macro file and commits `public/data/macro/macro-indicators.json` only when it changes.
 
@@ -252,8 +252,6 @@ public/data/macro/macro-events.json
 ```
 
 It stores official facts only: meeting dates, released/upcoming status, statement links, implementation-note links, minutes links, press conference links, SEP/projection links when available, and the target range only when it can be reliably parsed from official Federal Reserve pages. It does not create statement summaries, hawkish/dovish labels, market predictions, trading signals, or investment advice.
-
-There is still no macro UI page yet.
 
 In the browser, macro data is consumed only from the generated static files under `public/data/macro/`. The frontend macro data service validates those JSON files and reports unavailable/stale status if they are missing, malformed, or old. It does not call BLS or Federal Reserve live endpoints from the browser.
 
