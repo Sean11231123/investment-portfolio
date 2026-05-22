@@ -67,6 +67,19 @@ const universeAssets: AssetMetadata[] = [
     priceSource: "us_static",
   },
   {
+    symbol: "1260",
+    name: "Emerging Stock",
+    type: "taiwan_stock",
+    market: "TW",
+    currency: "TWD",
+    unitLabel: unit,
+    priceSource: "manual",
+    exchange: "TPEX",
+    marketSegment: "emerging",
+    board: "emerging",
+    securityType: "stock",
+  },
+  {
     symbol: "IWM",
     name: "iShares Russell 2000 ETF",
     type: "us_etf",
@@ -127,6 +140,9 @@ describe("asset resolver", () => {
       searchResolvedAssets("00981A", { universeAssets }).map((asset) => asset.symbol),
     ).toContain("00981A");
     expect(
+      searchResolvedAssets("1260", { universeAssets }).map((asset) => asset.symbol),
+    ).toContain("1260");
+    expect(
       searchResolvedAssets("SUI", { universeAssets }).map((asset) => asset.symbol),
     ).toContain("SUI");
     expect(
@@ -162,5 +178,42 @@ describe("asset resolver", () => {
     );
 
     expect(suiMatches).toHaveLength(1);
+  });
+
+  it("keeps existing listed or OTC duplicates ahead of emerging duplicate symbols", () => {
+    const duplicateUniverseAssets: AssetMetadata[] = [
+      {
+        symbol: "6983",
+        name: "OTC Asset",
+        type: "taiwan_stock",
+        market: "TW",
+        currency: "TWD",
+        unitLabel: unit,
+        priceSource: "tpex_otc",
+        exchange: "TPEX",
+        marketSegment: "otc",
+      },
+      {
+        symbol: "6983",
+        name: "Emerging Duplicate",
+        type: "taiwan_stock",
+        market: "TW",
+        currency: "TWD",
+        unitLabel: unit,
+        priceSource: "manual",
+        exchange: "TPEX",
+        marketSegment: "emerging",
+        board: "emerging",
+      },
+    ];
+
+    const resolved = getResolvedAssetMetadata(
+      "6983",
+      "taiwan_stock",
+      duplicateUniverseAssets,
+    );
+
+    expect(resolved?.name).toBe("OTC Asset");
+    expect(resolved?.marketSegment).toBe("otc");
   });
 });

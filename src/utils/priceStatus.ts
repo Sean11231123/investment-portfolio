@@ -38,6 +38,14 @@ export function getPriceReason(
     return isStaleQuote(quote, metadata, now) ? reason("stale") : reason("priced");
   }
 
+  if (metadata?.marketSegment === "emerging" || metadata?.board === "emerging") {
+    return {
+      category: "unsupported",
+      label: "興櫃估值暫不支援",
+      tone: "danger",
+    };
+  }
+
   const error = quote.error ?? "";
   if (metadata?.priceSource === "fund_nav_tw" || quote.source === "fund_nav_tw") {
     return error.includes("temporarily unavailable") || error.includes("returned")

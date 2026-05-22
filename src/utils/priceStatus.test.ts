@@ -84,6 +84,26 @@ describe("price reason labels", () => {
     expect(reason.category).toBe("untracked");
   });
 
+  it("labels emerging stock valuation as unsupported", () => {
+    const reason = getPriceReason(
+      quote({
+        source: "manual",
+        error: "興櫃估值暫不支援。",
+      }),
+      metadata({
+        type: "taiwan_stock",
+        market: "TW",
+        priceSource: "manual",
+        marketSegment: "emerging",
+        board: "emerging",
+      }),
+      now,
+    );
+
+    expect(reason.category).toBe("unsupported");
+    expect(reason.label).toBe("興櫃估值暫不支援");
+  });
+
   it("labels provider failures distinctly", () => {
     const reason = getPriceReason(
       quote({

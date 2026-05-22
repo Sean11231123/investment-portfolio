@@ -8,6 +8,7 @@ from pathlib import Path
 from update_tw_emerging_universe import (
     audit_assets,
     build_payload,
+    exclude_conflicting_assets,
     load_existing_symbols,
     parse_emerging_assets,
 )
@@ -101,24 +102,38 @@ class TaiwanEmergingUniverseTests(unittest.TestCase):
 
     def test_audit_reports_duplicates_and_existing_conflicts(self) -> None:
         assets, _stats = parse_emerging_assets(FIXTURE_ROWS, "2026-05-22T00:00:00Z")
-        audit = audit_assets(FIXTURE_ROWS, assets, {"1260", "8069"})
+        production_assets, conflicts = exclude_conflicting_assets(assets, {"1260", "8069"})
+        audit = audit_assets(FIXTURE_ROWS, assets, production_assets, {"1260", "8069"}, conflicts)
 
         self.assertEqual(audit["sourceRows"], 5)
-        self.assertEqual(audit["assets"], 2)
+        self.assertEqual(audit["rawAssets"], 2)
+        self.assertEqual(audit["productionAssets"], 1)
         self.assertEqual(audit["rowsWithSymbol"], 3)
         self.assertEqual(audit["duplicateSymbolCount"], 1)
         self.assertEqual(audit["existingListedOtcConflictCount"], 1)
         self.assertEqual(audit["existingListedOtcConflicts"], ["1260"])
 
+    def test_conflicting_symbols_are_excluded_from_production_output(self) -> None:
+        assets, _stats = parse_emerging_assets(FIXTURE_ROWS, "2026-05-22T00:00:00Z")
+        production_assets, conflicts = exclude_conflicting_assets(assets, {"1260"})
+
+        self.assertEqual(conflicts, ["1260"])
+        self.assertNotIn("1260", {asset["symbol"] for asset in production_assets})
+        self.assertIn("1269", {asset["symbol"] for asset in production_assets})
+
     def test_builds_output_schema_without_price_values(self) -> None:
         assets, _stats = parse_emerging_assets(FIXTURE_ROWS, "2026-05-22T00:00:00Z")
-        payload = build_payload(assets, "2026-05-22T00:00:00Z", [])
+        production_assets, conflicts = exclude_conflicting_assets(assets, {"1260"})
+        payload = build_payload(assets, production_assets, conflicts, "2026-05-22T00:00:00Z", [])
 
         self.assertEqual(payload["version"], 1)
         self.assertEqual(payload["market"], "TW")
         self.assertEqual(payload["source"], "tpex-esb-latest-statistics")
         self.assertEqual(payload["segment"], "emerging")
-        self.assertEqual(payload["count"], 2)
+        self.assertEqual(payload["rawCount"], 2)
+        self.assertEqual(payload["count"], 1)
+        self.assertEqual(payload["excludedConflictCount"], 1)
+        self.assertEqual(payload["excludedConflicts"], ["1260"])
         self.assertEqual(payload["errors"], [])
         self.assertTrue(all("price" not in asset for asset in payload["assets"]))
         self.assertTrue(all(asset["priceSource"] == "manual" for asset in payload["assets"]))

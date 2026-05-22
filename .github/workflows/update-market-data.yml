@@ -20,6 +20,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Update TWSE and TPEx asset universe
+        run: python scripts/update_tw_asset_universe.py
+
+      - name: Update Taiwan emerging stock universe
+        run: python scripts/update_tw_emerging_universe.py
+
       - name: Update Taiwan prices
         run: python scripts/update_tw_prices.py
 
@@ -40,13 +46,16 @@ jobs:
 
       - name: Commit market data if changed
         run: |
-          if git diff --quiet -- public/data/market/tw-prices.json public/data/market/tpex-otc-prices.json public/data/universe/tw-fund-assets.json public/data/market/tw-fund-nav.json public/data/macro/macro-indicators.json public/data/macro/macro-events.json; then
+          if git diff --quiet -- public/data/universe/tw-assets.json public/data/universe/tw-emerging-assets.json public/data/universe/index.json public/data/market/tw-prices.json public/data/market/tpex-otc-prices.json public/data/universe/tw-fund-assets.json public/data/market/tw-fund-nav.json public/data/macro/macro-indicators.json public/data/macro/macro-events.json; then
             echo "No market or macro data changes to commit."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/universe/tw-assets.json
+          git add public/data/universe/tw-emerging-assets.json
+          git add public/data/universe/index.json
           git add public/data/market/tw-prices.json
           git add public/data/market/tpex-otc-prices.json
           git add public/data/universe/tw-fund-assets.json

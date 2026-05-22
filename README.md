@@ -116,12 +116,13 @@ public/data/universe/
 Current universe files:
 
 - `tw-assets.json`: generated Taiwan listed stock/ETF metadata from TWSE public ISIN data plus TPEx OTC stock/ETF metadata from the official ISIN OTC source
+- `tw-emerging-assets.json`: generated Taiwan emerging stock metadata from the official TPEx OpenAPI emerging stock endpoint
 - `tw-fund-assets.json`: generated TWD domestic Taiwan fund metadata from the official SITCA CSV linked by data.gov.tw dataset 11109
 - `us-assets.json`: generated US stock/ETF metadata from Nasdaq Trader public symbol directory data
 - `crypto-assets.json`: generated crypto metadata from Binance Spot `exchangeInfo` plus CoinGecko `coins/list`
 
-Taiwan active ETF style symbols, such as `00981A`, can appear in search when the TWSE source includes them and classifies them as ETFs. TPEx OTC stocks and ETFs can also appear in search with `exchange: "TPEX"` and `marketSegment: "otc"`.
-Taiwan stock/ETF universe entries also include optional classification metadata such as `board`, `securityType`, `classificationSource`, and `classificationConfidence`. `AssetType` remains broad (`taiwan_stock`, `taiwan_etf`, `taiwan_fund`), while finer labels are derived from metadata when it is available. Emerging stocks, separate Innovation Board support, ETF subtype automation, and ETF component expansion are not included in this metadata-only phase.
+Taiwan active ETF style symbols, such as `00981A`, can appear in search when the TWSE source includes them and classifies them as ETFs. TPEx OTC stocks and ETFs can also appear in search with `exchange: "TPEX"` and `marketSegment: "otc"`. TPEx emerging stocks can appear in search with `marketSegment: "emerging"` and `board: "emerging"` when their symbols do not conflict with existing listed/OTC assets.
+Taiwan stock/ETF universe entries also include optional classification metadata such as `board`, `securityType`, `classificationSource`, and `classificationConfidence`. `AssetType` remains broad (`taiwan_stock`, `taiwan_etf`, `taiwan_fund`), while finer labels are derived from metadata when it is available. Emerging stock metadata is included for search only; emerging-stock valuation, separate Innovation Board support, ETF subtype automation, and ETF component expansion are not included in this metadata-only phase.
 US stocks and ETFs, such as `PLTR`, `META`, `AVGO`, `SCHD`, `IWM`, `TLT`, `DIA`, `XLE`, and `XLK`, can appear in search when the Nasdaq Trader source includes them.
 Crypto assets, such as `DOGE`, `AVAX`, `XRP`, `ADA`, and `LINK`, can appear in search when Binance lists active USDT spot pairs for them.
 
@@ -130,6 +131,7 @@ Important distinctions:
 - Searchable asset universe means the app can find metadata for an asset.
 - Price availability depends on the price adapters and static market price JSON.
 - ETF component availability depends on files under `public/data/etf-components/`.
+- Emerging stock metadata is search-only. The app does not use TPEx emerging quote-like fields such as latest price or average price for valuation.
 
 If universe JSON fails to load, the app falls back to the built-in registry. If a universe asset has no price quote, valuation remains unavailable; missing prices are never treated as zero. If an ETF exists in the universe but has no component JSON, it remains `未展開 ETF`.
 
@@ -170,6 +172,20 @@ Run it locally with:
 ```bash
 npm run update:tw-universe
 ```
+
+Emerging stock metadata is generated separately from the official TPEx OpenAPI endpoint:
+
+```text
+https://www.tpex.org.tw/openapi/v1/tpex_esb_latest_statistics
+```
+
+The emerging-stock updater writes:
+
+```text
+public/data/universe/tw-emerging-assets.json
+```
+
+It keeps `AssetType` as `taiwan_stock`, marks records with `marketSegment: "emerging"` and `board: "emerging"`, excludes symbols that conflict with existing TWSE/TPEx listed or OTC assets, and uses `priceSource: "manual"` so no valuation route is triggered. TPEx emerging quote-like fields such as `LatestPrice`, `Average`, bid, and ask are not used as portfolio prices. Missing emerging-stock valuation remains unavailable/null and is never treated as zero.
 
 The scheduled workflow is:
 

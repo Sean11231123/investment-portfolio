@@ -24,12 +24,13 @@ MISSING_MARKERS = {"", "-", "--", "...", "…", "N/A", "NA", "null", "None"}
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Prototype Taiwan emerging stock metadata from official TPEx OpenAPI data.",
+        description="Generate Taiwan emerging stock metadata from official TPEx OpenAPI data.",
     )
     parser.add_argument("--input", type=Path, help="Read fixture JSON instead of fetching TPEx.")
     parser.add_argument("--existing-tw-assets", type=Path, default=DEFAULT_EXISTING_TW_PATH)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT_PATH)
-    parser.add_argument("--write", action="store_true", help="Write the prototype universe output.")
+    parser.add_argument("--dry-run", action="store_true", help="Print summary without writing output.")
+    parser.add_argument("--write", action="store_true", help=argparse.SUPPRESS)
     args = parser.parse_args()
 
     generated_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
@@ -38,18 +39,20 @@ def main() -> int:
     try:
         rows = load_rows(args.input)
         existing_symbols = load_existing_symbols(args.existing_tw_assets)
-        assets, parse_stats = parse_emerging_assets(rows, generated_at)
-        payload = build_payload(assets, generated_at, errors)
-        audit = audit_assets(rows, assets, existing_symbols)
+        raw_assets, parse_stats = parse_emerging_assets(rows, generated_at)
+        assets, excluded_conflicts = exclude_conflicting_assets(raw_assets, existing_symbols)
+        payload = build_payload(raw_assets, assets, excluded_conflicts, generated_at, errors)
+        audit = audit_assets(rows, raw_assets, assets, existing_symbols, excluded_conflicts)
     except Exception as exc:  # noqa: BLE001 - prototype should fail clearly.
         print(f"source: {SOURCE_NAME}")
         print("status: failed")
         print(f"error: {exc}")
         return 1
 
-    print_summary(audit, parse_stats, args.output, write=args.write)
+    should_write = args.write or not args.dry_run
+    print_summary(audit, parse_stats, args.output, write=should_write)
 
-    if args.write:
+    if should_write:
         write_json_atomic(args.output, payload)
         print(f"output written: {args.output}")
         print(f"output size: {args.output.stat().st_size} bytes")
@@ -154,8 +157,22 @@ def parse_emerging_assets(
     }
 
 
-def build_payload(
+def exclude_conflicting_assets(
     assets: list[dict[str, Any]],
+    existing_symbols: set[str],
+) -> tuple[list[dict[str, Any]], list[str]]:
+    conflicts = sorted({asset["symbol"] for asset in assets} & existing_symbols)
+    if not conflicts:
+        return assets, []
+
+    conflict_set = set(conflicts)
+    return [asset for asset in assets if asset["symbol"] not in conflict_set], conflicts
+
+
+def build_payload(
+    raw_assets: list[dict[str, Any]],
+    assets: list[dict[str, Any]],
+    excluded_conflicts: list[str],
     generated_at: str,
     errors: list[str],
 ) -> dict[str, Any]:
@@ -166,7 +183,10 @@ def build_payload(
         "sourceUrl": SOURCE_URL,
         "generatedAt": generated_at,
         "segment": "emerging",
+        "rawCount": len(raw_assets),
         "count": len(assets),
+        "excludedConflictCount": len(excluded_conflicts),
+        "excludedConflicts": excluded_conflicts,
         "assets": assets,
         "errors": errors,
     }
@@ -174,11 +194,14 @@ def build_payload(
 
 def audit_assets(
     rows: list[dict[str, Any]],
-    assets: list[dict[str, Any]],
+    raw_assets: list[dict[str, Any]],
+    production_assets: list[dict[str, Any]],
     existing_symbols: set[str],
+    excluded_conflicts: list[str],
 ) -> dict[str, Any]:
-    symbols = [asset["symbol"] for asset in assets]
-    names = [asset["name"] for asset in assets]
+    raw_symbols = [asset["symbol"] for asset in raw_assets]
+    production_symbols = [asset["symbol"] for asset in production_assets]
+    names = [asset["name"] for asset in raw_assets]
     source_symbols = [
         normalize_symbol(row.get("SecuritiesCompanyCode"))
         for row in rows
@@ -191,18 +214,19 @@ def audit_assets(
     ]
     symbol_counts = Counter(source_symbols)
     name_counts = Counter(source_names)
-    conflicts = sorted(set(symbols) & existing_symbols)
 
     return {
         "sourceRows": len(rows),
-        "assets": len(assets),
+        "rawAssets": len(raw_assets),
+        "productionAssets": len(production_assets),
         "rowsWithSymbol": len(source_symbols),
         "duplicateSymbolCount": sum(count - 1 for count in symbol_counts.values() if count > 1),
         "duplicateNameCount": sum(count - 1 for count in name_counts.values() if count > 1),
-        "existingListedOtcConflictCount": len(conflicts),
-        "existingListedOtcConflicts": conflicts,
-        "sampleSymbols": symbols[:5],
-        "warningCount": sum(len(asset.get("classificationWarnings", [])) for asset in assets),
+        "existingListedOtcConflictCount": len(excluded_conflicts),
+        "existingListedOtcConflicts": excluded_conflicts,
+        "sampleSymbols": production_symbols[:5],
+        "rawSampleSymbols": raw_symbols[:5],
+        "warningCount": sum(len(asset.get("classificationWarnings", [])) for asset in raw_assets),
     }
 
 
@@ -219,7 +243,8 @@ def print_summary(
     print("access: public/no-key")
     print(f"source rows: {audit['sourceRows']}")
     print(f"rows with symbol: {audit['rowsWithSymbol']}")
-    print(f"assets parsed: {audit['assets']}")
+    print(f"raw assets parsed: {audit['rawAssets']}")
+    print(f"production assets: {audit['productionAssets']}")
     print(f"malformed rows skipped: {parse_stats['malformed']}")
     print(f"duplicate symbols skipped: {parse_stats['duplicateSymbols']}")
     print(f"duplicate symbol count: {audit['duplicateSymbolCount']}")

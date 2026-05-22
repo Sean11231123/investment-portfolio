@@ -20,6 +20,7 @@ import { normalizeSymbol } from "../data/assetRegistry";
 
 const DEFAULT_DATASETS = [
   "tw-assets.json",
+  "tw-emerging-assets.json",
   "tw-fund-assets.json",
   "us-assets.json",
   "crypto-assets.json",

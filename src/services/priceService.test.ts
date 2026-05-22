@@ -86,6 +86,20 @@ const otcTaiwanStockMetadata: AssetMetadata = {
   marketSegment: "otc",
 };
 
+const emergingTaiwanStockMetadata: AssetMetadata = {
+  symbol: "1260",
+  name: "Emerging Stock",
+  type: "taiwan_stock",
+  market: "TW",
+  currency: "TWD",
+  unitLabel: unit,
+  priceSource: "manual",
+  exchange: "TPEX",
+  marketSegment: "emerging",
+  board: "emerging",
+  securityType: "stock",
+};
+
 const taiwanFundMetadata: AssetMetadata = {
   symbol: "TW_FUND_00512527_TWD_AH22_00957B",
   name: "Taiwan Domestic Fund",
@@ -484,6 +498,28 @@ describe("US static price adapter", () => {
     expect(quote.currency).toBe("USDT");
     expect(quote.status).toBe("unavailable");
     expect(quote.source).toBe("manual");
+  });
+
+  it("keeps emerging stocks unavailable and does not route them to TPEx OTC prices", async () => {
+    const fetchSpy = vi.fn();
+    vi.stubGlobal("fetch", fetchSpy);
+
+    const prices = await refreshPrices(
+      [holding("1260", "taiwan_stock")],
+      [emergingTaiwanStockMetadata],
+    );
+    const quote = getQuoteForHolding(
+      holding("1260", "taiwan_stock"),
+      prices,
+      [emergingTaiwanStockMetadata],
+    );
+
+    expect(fetchSpy).not.toHaveBeenCalled();
+    expect(quote.price).toBeNull();
+    expect(quote.currency).toBe("TWD");
+    expect(quote.status).toBe("unavailable");
+    expect(quote.source).toBe("manual");
+    expect(quote.error).toContain("興櫃估值暫不支援");
   });
 
   it("uses Binance for crypto assets with a binance symbol", async () => {

@@ -123,6 +123,44 @@ describe("universe service", () => {
     expect(parsed.assets[0].classificationSource).toBe("tpex_isin");
   });
 
+  it("parses a generated TPEx emerging stock universe asset", () => {
+    const parsed = parseUniverseFile({
+      version: 1,
+      market: "TW",
+      source: "tpex-esb-latest-statistics",
+      generatedAt: "2026-05-22T00:00:00.000Z",
+      count: 1,
+      assets: [
+        {
+          symbol: "1260",
+          name: "Emerging Stock",
+          type: "taiwan_stock",
+          market: "TW",
+          currency: "TWD",
+          unitLabel: "\u80a1",
+          priceSource: "manual",
+          exchange: "TPEX",
+          marketSegment: "emerging",
+          board: "emerging",
+          securityType: "stock",
+          classificationSource: "tpex_openapi",
+          classificationConfidence: "high",
+          classificationUpdatedAt: "2026-05-22T00:00:00.000Z",
+          classificationWarnings: ["suspendTime=123000"],
+          source: "tpex-esb-latest-statistics",
+          sourceSymbol: "1260",
+          dataQuality: "official",
+        },
+      ],
+      errors: [],
+    });
+
+    expect(parsed.assets[0].symbol).toBe("1260");
+    expect(parsed.assets[0].marketSegment).toBe("emerging");
+    expect(parsed.assets[0].board).toBe("emerging");
+    expect(parsed.assets[0].priceSource).toBe("manual");
+  });
+
   it("ignores invalid optional classification metadata without crashing", () => {
     const parsed = parseUniverseFile({
       version: 1,
@@ -203,7 +241,7 @@ describe("universe service", () => {
         if (url.endsWith("index.json")) {
           return response(true, {
             version: 1,
-            datasets: ["tw-assets.json", "tw-fund-assets.json"],
+            datasets: ["tw-assets.json", "tw-emerging-assets.json", "tw-fund-assets.json"],
           });
         }
 
@@ -247,6 +285,32 @@ describe("universe service", () => {
           });
         }
 
+        if (url.endsWith("tw-emerging-assets.json")) {
+          return response(true, {
+            version: 1,
+            market: "TW",
+            source: "tpex-esb-latest-statistics",
+            generatedAt: "2026-05-22T00:00:00.000Z",
+            assets: [
+              {
+                symbol: "1260",
+                name: "Emerging Stock",
+                type: "taiwan_stock",
+                market: "TW",
+                currency: "TWD",
+                unitLabel: "\u80a1",
+                priceSource: "manual",
+                exchange: "TPEX",
+                marketSegment: "emerging",
+                board: "emerging",
+                securityType: "stock",
+                classificationSource: "tpex_openapi",
+                classificationConfidence: "high",
+              },
+            ],
+          });
+        }
+
         return response(false, {}, 404);
       }),
     );
@@ -254,10 +318,13 @@ describe("universe service", () => {
     const result = await loadAssetUniverse();
 
     expect(result.status).toBe("loaded");
-    expect(result.assets.map((asset) => asset.symbol)).toEqual([
-      "0050",
-      "TW_FUND_00512527_TWD_AH22_00957B",
-    ]);
+    expect(result.assets.map((asset) => asset.symbol)).toEqual(
+      expect.arrayContaining([
+        "0050",
+        "1260",
+        "TW_FUND_00512527_TWD_AH22_00957B",
+      ]),
+    );
   });
 
   it("parses a generated US universe stock and ETF", () => {

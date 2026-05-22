@@ -214,6 +214,11 @@ export function HoldingForm({
                         {asset.issuer ? ` / ${asset.issuer}` : ""}
                       </span>
                     ) : null}
+                    {asset.marketSegment === "emerging" || asset.board === "emerging" ? (
+                      <span className="ml-2 text-xs text-[var(--app-warning-text)]">
+                        估值暫不支援
+                      </span>
+                    ) : null}
                   </button>
                 ))}
               </div>
@@ -252,6 +257,11 @@ export function HoldingForm({
             已選擇 {selectedAsset.symbol} - {selectedAsset.name}，
             {selectedAsset.market} / {selectedAsset.currency} / 價格來源：
             {selectedAsset.priceSource}
+            {selectedAsset.marketSegment === "emerging" || selectedAsset.board === "emerging" ? (
+              <p className="mt-2 text-xs text-[var(--app-warning-text)]">
+                興櫃價格資料暫不支援，加入後會顯示未估值。
+              </p>
+            ) : null}
             {selectedAsset.priceSource !== "cash" ? (
               <p className="mt-2 text-xs text-[var(--app-text-subtle)]">
                 此資產可加入投組，但目前可能尚未追蹤價格。加入後市值可能暫時顯示為未提供。

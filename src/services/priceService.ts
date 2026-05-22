@@ -584,6 +584,10 @@ function parsePositiveNumber(value: unknown) {
 }
 
 function getUnavailablePriceMessage(metadata: AssetMetadata) {
+  if (metadata.marketSegment === "emerging" || metadata.board === "emerging") {
+    return "興櫃估值暫不支援。";
+  }
+
   if (metadata.priceSource === "coingecko") {
     return "尚未取得 CoinGecko 價格。";
   }
