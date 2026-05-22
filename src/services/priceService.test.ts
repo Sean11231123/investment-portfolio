@@ -86,6 +86,18 @@ const otcTaiwanStockMetadata: AssetMetadata = {
   marketSegment: "otc",
 };
 
+const taiwanFundMetadata: AssetMetadata = {
+  symbol: "TW_FUND_00512527_TWD_AH22_00957B",
+  name: "Taiwan Domestic Fund",
+  type: "taiwan_fund",
+  market: "TW",
+  currency: "TWD",
+  unitLabel: unit,
+  priceSource: "fund_nav_tw",
+  exchange: "SITCA",
+  marketSegment: "fund",
+};
+
 const avaxMetadata: AssetMetadata = {
   symbol: "AVAX",
   name: "AVAX",
@@ -398,6 +410,63 @@ describe("US static price adapter", () => {
     expect(prices["8069"].currency).toBe("TWD");
     expect(prices["8069"].source).toBe("static-tpex-otc-json");
     expect(prices["8069"].status).toBe("ok");
+  });
+
+  it("reads domestic Taiwan fund NAV quotes for fund_nav_tw assets", async () => {
+    mockFetchJson({
+      version: 1,
+      market: "TW",
+      segment: "domestic_fund",
+      source: "SITCA",
+      generatedAt: "2026-05-22T00:00:00.000Z",
+      currencyPolicy: "TWD_ONLY",
+      quotes: {
+        TW_FUND_00512527_TWD_AH22_00957B: {
+          symbol: "TW_FUND_00512527_TWD_AH22_00957B",
+          name: "Taiwan Domestic Fund",
+          price: 13.3281,
+          currency: "TWD",
+          source: "static-tw-fund-nav-json",
+          navDate: "2026-05-20",
+          tradeDate: "2026-05-20",
+          lastUpdated: "2026-05-22T00:00:00.000Z",
+          status: "ok",
+        },
+      },
+      errors: [],
+    });
+
+    const prices = await refreshPrices(
+      [holding("TW_FUND_00512527_TWD_AH22_00957B", "taiwan_fund")],
+      [taiwanFundMetadata],
+    );
+
+    expect(prices.TW_FUND_00512527_TWD_AH22_00957B.price).toBe(13.3281);
+    expect(prices.TW_FUND_00512527_TWD_AH22_00957B.source).toBe("static-tw-fund-nav-json");
+    expect(prices.TW_FUND_00512527_TWD_AH22_00957B.navDate).toBe("2026-05-20");
+    expect(prices.TW_FUND_00512527_TWD_AH22_00957B.status).toBe("ok");
+  });
+
+  it("keeps missing domestic Taiwan fund NAV unavailable instead of zero", async () => {
+    mockFetchJson({
+      version: 1,
+      market: "TW",
+      segment: "domestic_fund",
+      source: "SITCA",
+      generatedAt: "2026-05-22T00:00:00.000Z",
+      currencyPolicy: "TWD_ONLY",
+      quotes: {},
+      errors: [],
+    });
+
+    const prices = await refreshPrices(
+      [holding("TW_FUND_00512527_TWD_AH22_00957B", "taiwan_fund")],
+      [taiwanFundMetadata],
+    );
+
+    expect(prices.TW_FUND_00512527_TWD_AH22_00957B.price).toBeNull();
+    expect(prices.TW_FUND_00512527_TWD_AH22_00957B.status).toBe("unavailable");
+    expect(prices.TW_FUND_00512527_TWD_AH22_00957B.source).toBe("fund_nav_tw");
   });
 
   it("keeps universe-only crypto without a safe price source unavailable instead of zero", async () => {

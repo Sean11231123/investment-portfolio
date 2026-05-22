@@ -71,6 +71,19 @@ describe("price reason labels", () => {
     expect(reason.category).toBe("untracked");
   });
 
+  it("labels domestic fund NAV missing prices separately", () => {
+    const reason = getPriceReason(
+      quote({
+        source: "fund_nav_tw",
+        error: "基金淨值尚未追蹤。",
+      }),
+      metadata({ type: "taiwan_fund", market: "TW", priceSource: "fund_nav_tw" }),
+      now,
+    );
+
+    expect(reason.category).toBe("untracked");
+  });
+
   it("labels provider failures distinctly", () => {
     const reason = getPriceReason(
       quote({

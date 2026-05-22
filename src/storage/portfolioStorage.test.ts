@@ -59,6 +59,30 @@ describe("portfolio import and migration validation", () => {
     }
   });
 
+  it("accepts domestic Taiwan fund holdings without changing the storage shape", () => {
+    const fundHolding: Holding = {
+      id: "fund-1",
+      type: "taiwan_fund",
+      symbol: "TW_FUND_00512527_TWD_AH22_00957B",
+      quantity: 10,
+      avgCost: 12.3,
+      note: "fund",
+    };
+
+    const result = parseImportedPortfolio({
+      version: 2,
+      exportedAt: "2026-05-14T00:00:00.000Z",
+      holdings: [fundHolding],
+    });
+
+    expect(result.ok).toBe(true);
+    if (result.ok) {
+      expect(result.holdings).toEqual([fundHolding]);
+      expect(result.holdings[0]).not.toHaveProperty("name");
+      expect(result.holdings[0]).not.toHaveProperty("currentPrice");
+    }
+  });
+
   it("rejects invalid v2 imports", () => {
     const cases = [
       { ...validHolding, id: " " },

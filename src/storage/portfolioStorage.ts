@@ -207,9 +207,16 @@ function isLegacyOrV2Candidate(
 }
 
 function isAssetType(value: unknown): value is AssetType {
-  return ["taiwan_stock", "taiwan_etf", "us_stock", "us_etf", "crypto", "cash", "custom"].includes(
-    value as AssetType,
-  );
+  return [
+    "taiwan_stock",
+    "taiwan_etf",
+    "taiwan_fund",
+    "us_stock",
+    "us_etf",
+    "crypto",
+    "cash",
+    "custom",
+  ].includes(value as AssetType);
 }
 
 function isNonNegativeNumber(value: unknown) {

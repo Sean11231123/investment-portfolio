@@ -106,6 +106,102 @@ describe("universe service", () => {
     expect(parsed.assets[0].marketSegment).toBe("otc");
   });
 
+  it("parses a generated domestic Taiwan fund universe asset", () => {
+    const parsed = parseUniverseFile({
+      version: 1,
+      market: "TW",
+      source: "SITCA",
+      generatedAt: "2026-05-22T00:00:00.000Z",
+      count: 1,
+      assets: [
+        {
+          symbol: "tw_fund_00512527_twd_ah22_00957b",
+          name: "Taiwan Domestic Fund",
+          type: "taiwan_fund",
+          market: "TW",
+          currency: "TWD",
+          unitLabel: "單位",
+          priceSource: "fund_nav_tw",
+          exchange: "SITCA",
+          marketSegment: "fund",
+          source: "sitca-nav",
+          sourceSymbol: "DIE02",
+          dataQuality: "generated",
+        },
+      ],
+      errors: [],
+    });
+
+    expect(parsed.assets[0].symbol).toBe("TW_FUND_00512527_TWD_AH22_00957B");
+    expect(parsed.assets[0].type).toBe("taiwan_fund");
+    expect(parsed.assets[0].priceSource).toBe("fund_nav_tw");
+    expect(parsed.assets[0].marketSegment).toBe("fund");
+  });
+
+  it("loads fund universe separately without breaking other datasets", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(async (url: string) => {
+        if (url.endsWith("index.json")) {
+          return response(true, {
+            version: 1,
+            datasets: ["tw-assets.json", "tw-fund-assets.json"],
+          });
+        }
+
+        if (url.endsWith("tw-assets.json")) {
+          return response(true, {
+            version: 1,
+            market: "TW",
+            source: "twse-isin-listed-and-tpex-otc-securities",
+            generatedAt: "2026-05-14T00:00:00.000Z",
+            assets: [
+              {
+                symbol: "0050",
+                name: "TW ETF",
+                type: "taiwan_etf",
+                market: "TW",
+                currency: "TWD",
+                unitLabel: "股",
+                priceSource: "twse",
+              },
+            ],
+          });
+        }
+
+        if (url.endsWith("tw-fund-assets.json")) {
+          return response(true, {
+            version: 1,
+            market: "TW",
+            source: "SITCA",
+            generatedAt: "2026-05-22T00:00:00.000Z",
+            assets: [
+              {
+                symbol: "TW_FUND_00512527_TWD_AH22_00957B",
+                name: "Taiwan Domestic Fund",
+                type: "taiwan_fund",
+                market: "TW",
+                currency: "TWD",
+                unitLabel: "單位",
+                priceSource: "fund_nav_tw",
+              },
+            ],
+          });
+        }
+
+        return response(false, {}, 404);
+      }),
+    );
+
+    const result = await loadAssetUniverse();
+
+    expect(result.status).toBe("loaded");
+    expect(result.assets.map((asset) => asset.symbol)).toEqual([
+      "0050",
+      "TW_FUND_00512527_TWD_AH22_00957B",
+    ]);
+  });
+
   it("parses a generated US universe stock and ETF", () => {
     const parsed = parseUniverseFile({
       version: 1,

@@ -329,6 +329,7 @@ export function normalizeSymbol(symbol: string) {
 export const assetTypeLabels: Record<AssetType, string> = {
   taiwan_stock: "台股",
   taiwan_etf: "台股 ETF",
+  taiwan_fund: "境內基金",
   us_stock: "美股",
   us_etf: "美股 ETF",
   crypto: "Crypto",

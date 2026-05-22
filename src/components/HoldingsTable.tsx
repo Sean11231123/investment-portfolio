@@ -69,7 +69,7 @@ export function HoldingsTable({
                 <Th>類型</Th>
                 <Th>數量</Th>
                 <Th>幣別</Th>
-                <Th>價格</Th>
+                <Th>價格 / 淨值</Th>
                 <Th>市值</Th>
                 <Th>損益</Th>
                 <Th>價格狀態</Th>
@@ -168,7 +168,7 @@ function HoldingCard({
       <div className="grid grid-cols-2 gap-3 text-sm">
         <Info label="類型" value={`${assetTypeLabels[row.metadata.type]} / ${marketLabels[row.metadata.market]}`} />
         <Info label="數量" value={`${formatNumber(row.holding.quantity, 6)} ${row.metadata.unitLabel}`} />
-        <Info label="價格" value={row.quote.price === null ? priceReason.label : formatNumber(row.quote.price, 6)} />
+        <Info label={getQuoteValueLabel(row)} value={row.quote.price === null ? priceReason.label : formatNumber(row.quote.price, 6)} />
         <Info
           label="市值"
           value={
@@ -213,8 +213,10 @@ function PriceStatusDetails({ row }: { row: HoldingValue }) {
       <p className="mt-2 text-xs text-[var(--app-text-subtle)]">
         價格來源：{getSourceLabel(row.quote.source)}
       </p>
-      {row.quote.tradeDate ? (
-        <p className="text-xs text-[var(--app-text-subtle)]">交易日：{row.quote.tradeDate}</p>
+      {(row.quote.navDate ?? row.quote.tradeDate) ? (
+        <p className="text-xs text-[var(--app-text-subtle)]">
+          {getQuoteDateLabel(row)}：{row.quote.navDate ?? row.quote.tradeDate}
+        </p>
       ) : null}
       <p className="text-xs text-[var(--app-text-subtle)]">
         更新時間：{formatDateTime(row.quote.lastUpdated)}
@@ -258,6 +260,7 @@ function ActionButtons({
 }
 
 function getFriendlyPriceError(source: string) {
+  if (source === "static-tw-fund-nav-json" || source === "fund_nav_tw") return "基金淨值暫時無法取得。";
   if (source === "static-us-market-json") return "美股靜態價格暫時無法取得。";
   if (source === "static-tw-market-json") return "台股/ETF 靜態價格暫時無法取得。";
   if (source === "Binance") return "Binance 價格暫時無法取得。";
@@ -266,6 +269,8 @@ function getFriendlyPriceError(source: string) {
 }
 
 function getSourceLabel(source: string) {
+  if (source === "static-tw-fund-nav-json") return "SITCA 境內基金淨值";
+  if (source === "fund_nav_tw") return "境內基金淨值";
   if (source === "static-tw-market-json") return "TWSE 靜態資料";
   if (source === "static-us-market-json") return "US 靜態資料";
   if (source === "Binance") return "Binance";
@@ -273,6 +278,14 @@ function getSourceLabel(source: string) {
   if (source === "cash") return "現金";
   if (source === "yahoo" || source === "twse") return "台股/ETF adapter";
   return source;
+}
+
+export function getQuoteValueLabel(row: HoldingValue) {
+  return row.metadata.type === "taiwan_fund" ? "淨值" : "價格";
+}
+
+export function getQuoteDateLabel(row: HoldingValue) {
+  return row.metadata.type === "taiwan_fund" ? "淨值日期" : "交易日";
 }
 
 function Info({ label, value }: { label: string; value: string }) {

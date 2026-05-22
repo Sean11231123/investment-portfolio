@@ -168,6 +168,7 @@ export function HoldingForm({
             >
               <option value="taiwan_stock">台股</option>
               <option value="taiwan_etf">台股 ETF</option>
+              <option value="taiwan_fund">境內基金</option>
               <option value="us_stock">美股</option>
               <option value="us_etf">美股 ETF</option>
               <option value="crypto">Crypto</option>
@@ -206,6 +207,12 @@ export function HoldingForm({
                     <span className="ml-2 text-xs text-[var(--app-primary)]">
                       {assetTypeLabels[asset.type]}
                     </span>
+                    {asset.type === "taiwan_fund" ? (
+                      <span className="ml-2 text-xs text-[var(--app-text-subtle)]">
+                        {asset.currency}
+                        {asset.issuer ? ` / ${asset.issuer}` : ""}
+                      </span>
+                    ) : null}
                   </button>
                 ))}
               </div>
@@ -225,7 +232,7 @@ export function HoldingForm({
             />
           </Field>
 
-          <Field label="平均成本（選填）">
+          <Field label={getAvgCostLabel(selectedAsset?.type ?? form.type)}>
             <input
               type="number"
               min="0"
@@ -294,7 +301,7 @@ function Field({
   );
 }
 
-function getQuantityLabel(type: AssetType) {
+export function getQuantityLabel(type: AssetType) {
   if (
     type === "taiwan_stock" ||
     type === "taiwan_etf" ||
@@ -312,7 +319,15 @@ function getQuantityLabel(type: AssetType) {
     return "金額";
   }
 
+  if (type === "taiwan_fund") {
+    return "單位";
+  }
+
   return "數量";
+}
+
+export function getAvgCostLabel(type: AssetType) {
+  return type === "taiwan_fund" ? "平均成本 / 單位" : "平均成本（選填）";
 }
 
 function createId() {

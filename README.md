@@ -334,7 +334,9 @@ Price adapters live in `src/services/priceService.ts`.
 
 Binance ticker prices are quoted from USDT pairs. To preserve the app's existing accounting/display convention, built-in crypto assets such as BTC and ETH keep USD quote currency in the app, while generated universe crypto assets can remain USDT. Missing crypto prices remain unavailable/null and are never treated as zero.
 
-Domestic Taiwan fund NAV is supported at the static data/service layer only. The current pipeline uses the official SITCA CSV linked by data.gov.tw dataset 11109, writes a separate `tw-fund-assets.json` universe and `tw-fund-nav.json` NAV file, and includes TWD funds only. Offshore funds, non-TWD fund valuation, and fund-specific holding UI labels are planned for later phases. NAV should be displayed as fund NAV/淨值 where UI support is added; it is not a stock trading price.
+Domestic Taiwan fund NAV is supported through the static data/service layer and holding UI. The current pipeline uses the official SITCA CSV linked by data.gov.tw dataset 11109, writes a separate `tw-fund-assets.json` universe and `tw-fund-nav.json` NAV file, and includes TWD funds only. NAV is displayed as fund NAV/淨值 where fund-specific UI support is available; it is not a stock trading price.
+
+Domestic Taiwan TWD funds can be searched and added as holdings from the generated fund universe. Fund valuation uses SITCA static NAV/淨值 data when available; missing NAV remains unavailable/null and is never treated as zero. Offshore funds, non-TWD fund valuation, fund performance analytics, and fund recommendations remain out of scope.
 
 ## Market Data Status
 

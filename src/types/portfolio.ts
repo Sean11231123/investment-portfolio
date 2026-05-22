@@ -51,6 +51,11 @@ export type AssetMetadata = {
   marketSegment?: "listed" | "otc" | "emerging" | "innovation" | "fund";
   source?: string;
   sourceSymbol?: string;
+  issuer?: string;
+  fundCode?: string;
+  fundTaxId?: string;
+  fundTypeCode?: string;
+  beneficiaryCertificateCode?: string;
   coingeckoId?: string;
   binanceSymbol?: string;
 };

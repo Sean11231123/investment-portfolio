@@ -149,6 +149,48 @@ describe("unified market data status", () => {
     expect(priceRows?.find((row) => row.id === "tw-prices")?.source).toBe("TWSE");
   });
 
+  it("shows domestic fund NAV separately from stock price files", () => {
+    const sections = getUnifiedMarketDataStatus({
+      fxRates,
+      universeFiles: [
+        {
+          market: "TW",
+          source: "SITCA",
+          generatedAt: "2026-05-22T00:00:00.000Z",
+          count: 2001,
+        },
+      ],
+      universes: {
+        tw: { count: 1 },
+        us: { count: 1 },
+        crypto: { count: 1 },
+      },
+      prices: {
+        tw: { quotes: {} },
+        tpexOtc: { quotes: {} },
+        twFundNav: {
+          generatedAt: "2026-05-22T00:00:00.000Z",
+          quotes: {
+            TW_FUND_A: { price: 10, status: "ok" },
+            TW_FUND_B: { price: null, status: "unavailable" },
+          },
+        },
+        us: { quotes: {} },
+      },
+      etfDatasets: [],
+    });
+
+    const universeRows = sections.find((section) => section.id === "universe")?.rows;
+    const priceRows = sections.find((section) => section.id === "prices")?.rows;
+    const fundUniverseRow = universeRows?.find((row) => row.id === "tw-fund-universe");
+    const fundNavRow = priceRows?.find((row) => row.id === "tw-fund-nav");
+
+    expect(fundUniverseRow?.source).toBe("SITCA");
+    expect(fundUniverseRow?.summary).toBe("2,001 筆");
+    expect(fundNavRow?.source).toBe("SITCA");
+    expect(fundNavRow?.status).toBe("partial");
+  });
+
   it("reports static price files as unavailable when missing", () => {
     const row = summarizePriceFile({
       id: "tw-prices",
