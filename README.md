@@ -257,6 +257,8 @@ There is still no macro UI page yet.
 
 In the browser, macro data is consumed only from the generated static files under `public/data/macro/`. The frontend macro data service validates those JSON files and reports unavailable/stale status if they are missing, malformed, or old. It does not call BLS or Federal Reserve live endpoints from the browser.
 
+The app includes a `總經` page that displays these BLS indicators and official FOMC event records. It is informational only: no FOMC sentiment classification, no policy-language summary, no market prediction, no trading signal, and no investment advice. Taiwan macro data remains out of scope for now.
+
 ## Crypto Asset Universe Update
 
 Crypto searchable metadata is generated outside the frontend by:

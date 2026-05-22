@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 
-type PageKey = "dashboard" | "holdings" | "etf" | "settings";
+type PageKey = "dashboard" | "holdings" | "etf" | "macro" | "settings";
 
 type LayoutProps = {
   activePage: PageKey;
@@ -12,6 +12,7 @@ const navItems: Array<{ key: PageKey; label: string }> = [
   { key: "dashboard", label: "總覽" },
   { key: "holdings", label: "持倉" },
   { key: "etf", label: "ETF" },
+  { key: "macro", label: "總經" },
   { key: "settings", label: "設定" },
 ];
 
@@ -28,7 +29,7 @@ export function Layout({ activePage, onNavigate, children }: LayoutProps) {
               Modular Investment Portfolio
             </h1>
             <p className="mt-1 hidden max-w-2xl text-sm leading-6 text-[var(--app-text-muted)] sm:block">
-              本機持倉、靜態市場資料、加密貨幣價格與 ETF 成分資料的投資組合控制台。
+              本機儲存投組、靜態市場資料、ETF 成分資料與總經觀察。
             </p>
           </div>
 
@@ -74,11 +75,11 @@ function NavPill({
 
   return (
     <nav
-      className={`relative grid-cols-4 gap-1 ${isMobile
+      className={`relative grid-cols-5 gap-1 ${isMobile
         ? "grid rounded-[1.45rem] bg-[var(--app-surface)] p-1"
         : "rounded-full border border-[var(--app-border)] bg-[var(--app-surface)] p-1 shadow-sm"
         } ${className}`}
-      aria-label="主選單"
+      aria-label="主要導覽"
     >
       <div
         aria-hidden="true"
@@ -101,7 +102,7 @@ function NavPill({
             type="button"
             onClick={() => onNavigate(item.key)}
             style={{ WebkitTapHighlightColor: "transparent" }}
-            className={`relative z-10 rounded-full px-2 py-2 text-xs font-semibold transition-colors duration-300 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--app-focus-ring)] sm:px-4 sm:text-sm ${isMobile ? "min-h-12" : "min-h-11"
+            className={`relative z-10 rounded-full px-1.5 py-2 text-[11px] font-semibold transition-colors duration-300 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--app-focus-ring)] sm:px-4 sm:text-sm ${isMobile ? "min-h-12" : "min-h-11"
               } ${active
                 ? "text-[var(--app-primary-text)]"
                 : "text-[var(--app-text-muted)] hover:text-[var(--app-text)]"

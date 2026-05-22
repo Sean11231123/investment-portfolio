@@ -4,6 +4,7 @@ import { demoPortfolio } from "./data/demoPortfolio";
 import { Dashboard } from "./pages/Dashboard";
 import { ETFExposurePage } from "./pages/ETFExposurePage";
 import { HoldingsPage } from "./pages/HoldingsPage";
+import { MacroPage } from "./pages/MacroPage";
 import { SettingsPage } from "./pages/SettingsPage";
 import {
   clearHoldingsStorage,
@@ -31,7 +32,7 @@ import type {
 } from "./types/portfolio";
 import type { UniverseFileSummary } from "./types/universe";
 
-type PageKey = "dashboard" | "holdings" | "etf" | "settings";
+type PageKey = "dashboard" | "holdings" | "etf" | "macro" | "settings";
 
 function App() {
   const [activePage, setActivePage] = useState<PageKey>("dashboard");
@@ -198,6 +199,9 @@ function App() {
             universeAssets={universeAssets}
           />
         );
+
+      case "macro":
+        return <MacroPage />;
 
       case "settings":
         return (
