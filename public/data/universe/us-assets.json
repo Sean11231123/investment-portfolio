@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-05-21T12:35:24.876464Z",
-  "count": 10740,
-  "stockCount": 5568,
-  "etfCount": 5172,
-  "skippedCount": 1936,
+  "generatedAt": "2026-05-22T12:08:16.840926Z",
+  "count": 10739,
+  "stockCount": 5569,
+  "etfCount": 5170,
+  "skippedCount": 1940,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -25159,24 +25159,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BTOP",
-      "name": "Bitwise Trendwise BTC/ETH and Treasuries Rotation Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bitwise Trendwise BTC/ETH and Treasuries Rotation Strategy ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BTOP",
-      "stooqSymbol": "btop.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BTOT",
       "name": "iShares Total USD Fixed Income Market ETF",
       "type": "us_etf",
@@ -26254,24 +26236,6 @@
       "sourceSymbol": "BWB",
       "stooqSymbol": "bwb.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BWEB",
-      "name": "Bitwise Web3 ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bitwise Web3 ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BWEB",
-      "stooqSymbol": "bweb.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -46058,14 +46022,14 @@
     },
     {
       "symbol": "DMRC",
-      "name": "Digimarc Parent, Inc. - Common Stock",
+      "name": "Digimarc Corporation - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Digimarc Parent, Inc."
+        "Digimarc Corporation"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -49928,14 +49892,14 @@
     },
     {
       "symbol": "ECC",
-      "name": "Eagle Point Credit Company Inc. Common Stock",
+      "name": "Eagle Point Credit Company Common Share of Beneficial Interest",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Eagle Point Credit Company Inc. Common Stock"
+        "Eagle Point Credit Company Common Share of Beneficial Interest"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -149319,6 +149283,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SAGT",
       "stooqSymbol": "sagt.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SAGU",
+      "name": "Shreya Acquisition Group Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Shreya Acquisition Group Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SAGU",
+      "stooqSymbol": "sagu.us",
       "isETF": false,
       "dataQuality": "generated"
     },
