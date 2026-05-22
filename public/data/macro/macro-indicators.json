@@ -1,0 +1,657 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-22T02:44:03.668Z",
+  "source": "BLS",
+  "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+  "indicators": {
+    "US_CPI": {
+      "country": "US",
+      "category": "inflation",
+      "name": "US CPI",
+      "source": "BLS",
+      "sourceSeriesId": "CUSR0000SA0",
+      "period": "2026-04",
+      "level": 332.407,
+      "mom": 0.0064,
+      "yoy": 0.037792,
+      "unit": "index",
+      "frequency": "monthly",
+      "calculation": "index_change",
+      "note": "Seasonally adjusted CPI-U all items index.",
+      "status": "ok",
+      "history": [
+        {
+          "period": "2024-04",
+          "level": 313.023,
+          "mom": 0.002171,
+          "yoy": 0.033608
+        },
+        {
+          "period": "2024-05",
+          "level": 313.175,
+          "mom": 0.000486,
+          "yoy": 0.032443
+        },
+        {
+          "period": "2024-06",
+          "level": 313.044,
+          "mom": -0.000418,
+          "yoy": 0.029703
+        },
+        {
+          "period": "2024-07",
+          "level": 313.569,
+          "mom": 0.001677,
+          "yoy": 0.029415
+        },
+        {
+          "period": "2024-08",
+          "level": 314.062,
+          "mom": 0.001572,
+          "yoy": 0.026071
+        },
+        {
+          "period": "2024-09",
+          "level": 314.732,
+          "mom": 0.002133,
+          "yoy": 0.024265
+        },
+        {
+          "period": "2024-10",
+          "level": 315.631,
+          "mom": 0.002856,
+          "yoy": 0.025788
+        },
+        {
+          "period": "2024-11",
+          "level": 316.528,
+          "mom": 0.002842,
+          "yoy": 0.027195
+        },
+        {
+          "period": "2024-12",
+          "level": 317.604,
+          "mom": 0.003399,
+          "yoy": 0.028707
+        },
+        {
+          "period": "2025-01",
+          "level": 318.961,
+          "mom": 0.004273,
+          "yoy": 0.02991
+        },
+        {
+          "period": "2025-02",
+          "level": 319.679,
+          "mom": 0.002251,
+          "yoy": 0.028016
+        },
+        {
+          "period": "2025-03",
+          "level": 319.785,
+          "mom": 0.000332,
+          "yoy": 0.02382
+        },
+        {
+          "period": "2025-04",
+          "level": 320.302,
+          "mom": 0.001617,
+          "yoy": 0.023254
+        },
+        {
+          "period": "2025-05",
+          "level": 320.62,
+          "mom": 0.000993,
+          "yoy": 0.023773
+        },
+        {
+          "period": "2025-06",
+          "level": 321.435,
+          "mom": 0.002542,
+          "yoy": 0.026805
+        },
+        {
+          "period": "2025-07",
+          "level": 322.169,
+          "mom": 0.002284,
+          "yoy": 0.027426
+        },
+        {
+          "period": "2025-08",
+          "level": 323.291,
+          "mom": 0.003483,
+          "yoy": 0.029386
+        },
+        {
+          "period": "2025-09",
+          "level": 324.245,
+          "mom": 0.002951,
+          "yoy": 0.030226
+        },
+        {
+          "period": "2025-11",
+          "level": 325.063,
+          "mom": null,
+          "yoy": 0.026964
+        },
+        {
+          "period": "2025-12",
+          "level": 326.031,
+          "mom": 0.002978,
+          "yoy": 0.026533
+        },
+        {
+          "period": "2026-01",
+          "level": 326.588,
+          "mom": 0.001708,
+          "yoy": 0.023912
+        },
+        {
+          "period": "2026-02",
+          "level": 327.46,
+          "mom": 0.00267,
+          "yoy": 0.02434
+        },
+        {
+          "period": "2026-03",
+          "level": 330.293,
+          "mom": 0.008651,
+          "yoy": 0.03286
+        },
+        {
+          "period": "2026-04",
+          "level": 332.407,
+          "mom": 0.0064,
+          "yoy": 0.037792
+        }
+      ]
+    },
+    "US_CORE_CPI": {
+      "country": "US",
+      "category": "inflation",
+      "name": "US Core CPI",
+      "source": "BLS",
+      "sourceSeriesId": "CUSR0000SA0L1E",
+      "period": "2026-04",
+      "level": 335.423,
+      "mom": 0.003765,
+      "yoy": 0.027433,
+      "unit": "index",
+      "frequency": "monthly",
+      "calculation": "index_change",
+      "note": "Seasonally adjusted CPI-U all items less food and energy index.",
+      "status": "ok",
+      "history": [
+        {
+          "period": "2024-04",
+          "level": 317.649,
+          "mom": 0.002705,
+          "yoy": 0.03626
+        },
+        {
+          "period": "2024-05",
+          "level": 318.095,
+          "mom": 0.001404,
+          "yoy": 0.033944
+        },
+        {
+          "period": "2024-06",
+          "level": 318.39,
+          "mom": 0.000927,
+          "yoy": 0.032654
+        },
+        {
+          "period": "2024-07",
+          "level": 318.94,
+          "mom": 0.001727,
+          "yoy": 0.032302
+        },
+        {
+          "period": "2024-08",
+          "level": 319.75,
+          "mom": 0.00254,
+          "yoy": 0.032851
+        },
+        {
+          "period": "2024-09",
+          "level": 320.732,
+          "mom": 0.003071,
+          "yoy": 0.032824
+        },
+        {
+          "period": "2024-10",
+          "level": 321.731,
+          "mom": 0.003115,
+          "yoy": 0.032987
+        },
+        {
+          "period": "2024-11",
+          "level": 322.657,
+          "mom": 0.002878,
+          "yoy": 0.032859
+        },
+        {
+          "period": "2024-12",
+          "level": 323.259,
+          "mom": 0.001866,
+          "yoy": 0.032133
+        },
+        {
+          "period": "2025-01",
+          "level": 324.638,
+          "mom": 0.004266,
+          "yoy": 0.03283
+        },
+        {
+          "period": "2025-02",
+          "level": 325.465,
+          "mom": 0.002547,
+          "yoy": 0.031376
+        },
+        {
+          "period": "2025-03",
+          "level": 325.69,
+          "mom": 0.000691,
+          "yoy": 0.028088
+        },
+        {
+          "period": "2025-04",
+          "level": 326.467,
+          "mom": 0.002386,
+          "yoy": 0.02776
+        },
+        {
+          "period": "2025-05",
+          "level": 326.893,
+          "mom": 0.001305,
+          "yoy": 0.027658
+        },
+        {
+          "period": "2025-06",
+          "level": 327.658,
+          "mom": 0.00234,
+          "yoy": 0.029109
+        },
+        {
+          "period": "2025-07",
+          "level": 328.682,
+          "mom": 0.003125,
+          "yoy": 0.030545
+        },
+        {
+          "period": "2025-08",
+          "level": 329.7,
+          "mom": 0.003097,
+          "yoy": 0.031118
+        },
+        {
+          "period": "2025-09",
+          "level": 330.418,
+          "mom": 0.002178,
+          "yoy": 0.0302
+        },
+        {
+          "period": "2025-11",
+          "level": 331.043,
+          "mom": null,
+          "yoy": 0.02599
+        },
+        {
+          "period": "2025-12",
+          "level": 331.814,
+          "mom": 0.002329,
+          "yoy": 0.026465
+        },
+        {
+          "period": "2026-01",
+          "level": 332.793,
+          "mom": 0.00295,
+          "yoy": 0.02512
+        },
+        {
+          "period": "2026-02",
+          "level": 333.512,
+          "mom": 0.002161,
+          "yoy": 0.024725
+        },
+        {
+          "period": "2026-03",
+          "level": 334.165,
+          "mom": 0.001958,
+          "yoy": 0.026022
+        },
+        {
+          "period": "2026-04",
+          "level": 335.423,
+          "mom": 0.003765,
+          "yoy": 0.027433
+        }
+      ]
+    },
+    "US_PPI_FINAL_DEMAND": {
+      "country": "US",
+      "category": "inflation",
+      "name": "US PPI Final Demand",
+      "source": "BLS",
+      "sourceSeriesId": "WPSFD4",
+      "period": "2026-04",
+      "level": 156.496,
+      "mom": 0.013759,
+      "yoy": 0.059876,
+      "unit": "index",
+      "frequency": "monthly",
+      "calculation": "index_change",
+      "note": "Seasonally adjusted Producer Price Index for final demand.",
+      "status": "ok",
+      "history": [
+        {
+          "period": "2024-05",
+          "level": 144.224,
+          "mom": 0.000187,
+          "yoy": 0.025673
+        },
+        {
+          "period": "2024-06",
+          "level": 144.869,
+          "mom": 0.004472,
+          "yoy": 0.029645
+        },
+        {
+          "period": "2024-07",
+          "level": 144.922,
+          "mom": 0.000366,
+          "yoy": 0.024292
+        },
+        {
+          "period": "2024-08",
+          "level": 145.409,
+          "mom": 0.00336,
+          "yoy": 0.021066
+        },
+        {
+          "period": "2024-09",
+          "level": 145.803,
+          "mom": 0.00271,
+          "yoy": 0.02143
+        },
+        {
+          "period": "2024-10",
+          "level": 146.294,
+          "mom": 0.003368,
+          "yoy": 0.028436
+        },
+        {
+          "period": "2024-11",
+          "level": 146.447,
+          "mom": 0.001046,
+          "yoy": 0.028897
+        },
+        {
+          "period": "2024-12",
+          "level": 147.052,
+          "mom": 0.004131,
+          "yoy": 0.034376
+        },
+        {
+          "period": "2025-01",
+          "level": 147.975,
+          "mom": 0.006277,
+          "yoy": 0.037868
+        },
+        {
+          "period": "2025-02",
+          "level": 148.233,
+          "mom": 0.001744,
+          "yoy": 0.03402
+        },
+        {
+          "period": "2025-03",
+          "level": 148.055,
+          "mom": -0.001201,
+          "yoy": 0.031591
+        },
+        {
+          "period": "2025-04",
+          "level": 147.655,
+          "mom": -0.002702,
+          "yoy": 0.023981
+        },
+        {
+          "period": "2025-05",
+          "level": 148.153,
+          "mom": 0.003373,
+          "yoy": 0.027242
+        },
+        {
+          "period": "2025-06",
+          "level": 148.393,
+          "mom": 0.00162,
+          "yoy": 0.024325
+        },
+        {
+          "period": "2025-07",
+          "level": 149.597,
+          "mom": 0.008114,
+          "yoy": 0.032259
+        },
+        {
+          "period": "2025-08",
+          "level": 149.327,
+          "mom": -0.001805,
+          "yoy": 0.026945
+        },
+        {
+          "period": "2025-09",
+          "level": 150.245,
+          "mom": 0.006148,
+          "yoy": 0.030466
+        },
+        {
+          "period": "2025-10",
+          "level": 150.439,
+          "mom": 0.001291,
+          "yoy": 0.028333
+        },
+        {
+          "period": "2025-11",
+          "level": 151.054,
+          "mom": 0.004088,
+          "yoy": 0.031458
+        },
+        {
+          "period": "2025-12",
+          "level": 151.592,
+          "mom": 0.003562,
+          "yoy": 0.030873
+        },
+        {
+          "period": "2026-01",
+          "level": 152.435,
+          "mom": 0.005561,
+          "yoy": 0.03014
+        },
+        {
+          "period": "2026-02",
+          "level": 153.3,
+          "mom": 0.005675,
+          "yoy": 0.034183
+        },
+        {
+          "period": "2026-03",
+          "level": 154.372,
+          "mom": 0.006993,
+          "yoy": 0.042667
+        },
+        {
+          "period": "2026-04",
+          "level": 156.496,
+          "mom": 0.013759,
+          "yoy": 0.059876
+        }
+      ]
+    },
+    "US_UNEMPLOYMENT_RATE": {
+      "country": "US",
+      "category": "labor",
+      "name": "US Unemployment Rate",
+      "source": "BLS",
+      "sourceSeriesId": "LNS14000000",
+      "period": "2026-04",
+      "level": 4.3,
+      "mom": 0.0,
+      "yoy": 0.1,
+      "unit": "percent",
+      "frequency": "monthly",
+      "calculation": "percentage_point_change",
+      "note": "Seasonally adjusted civilian unemployment rate.",
+      "status": "ok",
+      "history": [
+        {
+          "period": "2024-04",
+          "level": 3.9,
+          "mom": 0.0,
+          "yoy": 0.5
+        },
+        {
+          "period": "2024-05",
+          "level": 3.9,
+          "mom": 0.0,
+          "yoy": 0.3
+        },
+        {
+          "period": "2024-06",
+          "level": 4.1,
+          "mom": 0.2,
+          "yoy": 0.5
+        },
+        {
+          "period": "2024-07",
+          "level": 4.2,
+          "mom": 0.1,
+          "yoy": 0.7
+        },
+        {
+          "period": "2024-08",
+          "level": 4.2,
+          "mom": 0.0,
+          "yoy": 0.5
+        },
+        {
+          "period": "2024-09",
+          "level": 4.1,
+          "mom": -0.1,
+          "yoy": 0.4
+        },
+        {
+          "period": "2024-10",
+          "level": 4.1,
+          "mom": 0.0,
+          "yoy": 0.2
+        },
+        {
+          "period": "2024-11",
+          "level": 4.2,
+          "mom": 0.1,
+          "yoy": 0.5
+        },
+        {
+          "period": "2024-12",
+          "level": 4.1,
+          "mom": -0.1,
+          "yoy": 0.3
+        },
+        {
+          "period": "2025-01",
+          "level": 4.0,
+          "mom": -0.1,
+          "yoy": 0.3
+        },
+        {
+          "period": "2025-02",
+          "level": 4.2,
+          "mom": 0.2,
+          "yoy": 0.3
+        },
+        {
+          "period": "2025-03",
+          "level": 4.2,
+          "mom": 0.0,
+          "yoy": 0.3
+        },
+        {
+          "period": "2025-04",
+          "level": 4.2,
+          "mom": 0.0,
+          "yoy": 0.3
+        },
+        {
+          "period": "2025-05",
+          "level": 4.3,
+          "mom": 0.1,
+          "yoy": 0.4
+        },
+        {
+          "period": "2025-06",
+          "level": 4.1,
+          "mom": -0.2,
+          "yoy": 0.0
+        },
+        {
+          "period": "2025-07",
+          "level": 4.3,
+          "mom": 0.2,
+          "yoy": 0.1
+        },
+        {
+          "period": "2025-08",
+          "level": 4.3,
+          "mom": 0.0,
+          "yoy": 0.1
+        },
+        {
+          "period": "2025-09",
+          "level": 4.4,
+          "mom": 0.1,
+          "yoy": 0.3
+        },
+        {
+          "period": "2025-11",
+          "level": 4.5,
+          "mom": null,
+          "yoy": 0.3
+        },
+        {
+          "period": "2025-12",
+          "level": 4.4,
+          "mom": -0.1,
+          "yoy": 0.3
+        },
+        {
+          "period": "2026-01",
+          "level": 4.3,
+          "mom": -0.1,
+          "yoy": 0.3
+        },
+        {
+          "period": "2026-02",
+          "level": 4.4,
+          "mom": 0.1,
+          "yoy": 0.2
+        },
+        {
+          "period": "2026-03",
+          "level": 4.3,
+          "mom": -0.1,
+          "yoy": 0.1
+        },
+        {
+          "period": "2026-04",
+          "level": 4.3,
+          "mom": 0.0,
+          "yoy": 0.1
+        }
+      ]
+    }
+  },
+  "errors": []
+}

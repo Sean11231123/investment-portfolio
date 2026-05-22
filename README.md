@@ -212,6 +212,31 @@ The scheduled workflow is:
 
 It can be run manually, also runs on weekdays, uses Python 3.12, and commits `public/data/universe/us-assets.json` only when the generated file changed. This workflow is separate from the US price workflow and the US ETF component workflow.
 
+## US Macro Indicator Prototype
+
+The macro prototype is intentionally separate from the portfolio valuation and market price pipelines. It fetches official no-key BLS data for US CPI, Core CPI, PPI final demand, and the unemployment rate:
+
+```bash
+python scripts/update_macro_indicators.py
+```
+
+The script writes:
+
+```text
+public/data/macro/macro-indicators.json
+```
+
+It uses seasonally adjusted BLS series where available so month-over-month calculations are meaningful:
+
+- `CUSR0000SA0`: CPI-U all items
+- `CUSR0000SA0L1E`: CPI-U all items less food and energy
+- `WPSFD4`: PPI final demand
+- `LNS14000000`: unemployment rate
+
+For CPI/Core CPI/PPI, `mom` and `yoy` are index changes. For unemployment, `mom` and `yoy` are percentage-point changes, not percent growth. Missing or non-numeric source values remain `null` and are never coerced to `0`.
+
+This is data validation only. There is no macro UI, no FOMC/event parser, no Taiwan macro support, and no investment signal or prediction logic yet.
+
 ## Crypto Asset Universe Update
 
 Crypto searchable metadata is generated outside the frontend by:
