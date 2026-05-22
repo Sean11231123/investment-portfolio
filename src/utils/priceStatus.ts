@@ -39,6 +39,12 @@ export function getPriceReason(
   }
 
   const error = quote.error ?? "";
+  if (metadata?.priceSource === "fund_nav_tw" || quote.source === "fund_nav_tw") {
+    return error.includes("temporarily unavailable") || error.includes("returned")
+      ? reason("provider_unavailable")
+      : reason("untracked");
+  }
+
   if (isProviderFailure(error)) {
     return reason("provider_unavailable");
   }

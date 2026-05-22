@@ -116,6 +116,7 @@ public/data/universe/
 Current universe files:
 
 - `tw-assets.json`: generated Taiwan listed stock/ETF metadata from TWSE public ISIN data plus TPEx OTC stock/ETF metadata from the official ISIN OTC source
+- `tw-fund-assets.json`: generated TWD domestic Taiwan fund metadata from the official SITCA CSV linked by data.gov.tw dataset 11109
 - `us-assets.json`: generated US stock/ETF metadata from Nasdaq Trader public symbol directory data
 - `crypto-assets.json`: generated crypto metadata from Binance Spot `exchangeInfo` plus CoinGecko `coins/list`
 
@@ -327,10 +328,13 @@ Price adapters live in `src/services/priceService.ts`.
 - Cash price is always `1` in its native currency.
 - Taiwan stock/ETF prices are read from `public/data/market/tw-prices.json`.
 - TPEx OTC stock/ETF prices are read from `public/data/market/tpex-otc-prices.json`.
+- Domestic Taiwan fund NAV is read from `public/data/market/tw-fund-nav.json`.
 - US stock/ETF prices are read from `public/data/market/us-prices.json`.
 - If a price is unavailable and no cache exists, market value is shown as unavailable instead of silently becoming zero.
 
 Binance ticker prices are quoted from USDT pairs. To preserve the app's existing accounting/display convention, built-in crypto assets such as BTC and ETH keep USD quote currency in the app, while generated universe crypto assets can remain USDT. Missing crypto prices remain unavailable/null and are never treated as zero.
+
+Domestic Taiwan fund NAV is supported at the static data/service layer only. The current pipeline uses the official SITCA CSV linked by data.gov.tw dataset 11109, writes a separate `tw-fund-assets.json` universe and `tw-fund-nav.json` NAV file, and includes TWD funds only. Offshore funds, non-TWD fund valuation, and fund-specific holding UI labels are planned for later phases. NAV should be displayed as fund NAV/淨值 where UI support is added; it is not a stock trading price.
 
 ## Market Data Status
 

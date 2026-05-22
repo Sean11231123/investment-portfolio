@@ -1,6 +1,7 @@
 export type AssetType =
   | "taiwan_stock"
   | "taiwan_etf"
+  | "taiwan_fund"
   | "us_stock"
   | "us_etf"
   | "crypto"
@@ -14,6 +15,7 @@ export type Market = "TW" | "US" | "CRYPTO" | "CASH" | "CUSTOM";
 export type PriceSource =
   | "twse"
   | "tpex_otc"
+  | "fund_nav_tw"
   | "yahoo"
   | "coingecko"
   | "manual"
@@ -79,6 +81,7 @@ export type PriceQuote = {
   source: string;
   lastUpdated?: string;
   tradeDate?: string;
+  navDate?: string;
   generatedAt?: string;
   status: "ok" | "cached" | "unavailable" | "error";
   error?: string;

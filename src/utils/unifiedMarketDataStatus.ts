@@ -69,12 +69,14 @@ type UnifiedMarketDataStatusInput = {
   now?: Date;
   universes?: {
     tw?: UniverseFile | null;
+    twFund?: UniverseFile | null;
     us?: UniverseFile | null;
     crypto?: UniverseFile | null;
   };
   prices?: {
     tw?: UnifiedPriceFile | null;
     tpexOtc?: UnifiedPriceFile | null;
+    twFundNav?: UnifiedPriceFile | null;
     us?: UnifiedPriceFile | null;
   };
   etfDatasets?: ETFComponentDataset[];
@@ -111,6 +113,12 @@ export function getUnifiedMarketDataStatus({
     universes?.us ?? buildUniverseSummary(universeAssets, universeFiles, "US"),
     "Nasdaq Trader",
   );
+  const twFundUniverseRow = summarizeUniverseFile(
+    "tw-fund-universe",
+    "境內基金清單",
+    universes?.twFund ?? buildUniverseSummaryBySource(universeFiles, "SITCA"),
+    "SITCA",
+  );
   const cryptoUniverseRow = summarizeUniverseFile(
     "crypto-universe",
     "加密貨幣清單",
@@ -141,6 +149,13 @@ export function getUnifiedMarketDataStatus({
     trackedSubset: true,
     detail: "美股價格為精選追蹤清單，非全市場。",
   });
+  const twFundNavRow = summarizePriceFile({
+    id: "tw-fund-nav",
+    name: "境內基金淨值",
+    file: prices?.twFundNav,
+    sourceLabel: "SITCA",
+    detail: "境內基金淨值使用獨立 SITCA 靜態資料，僅包含 TWD 基金；淨值不是股票成交價。",
+  });
   const cryptoPriceRow = summarizeCryptoRuntimePrices(holdingValues);
   const fxRow = summarizeFxStatus(fxRates, now);
   const etfRow = summarizeEtfComponents(etfDatasets);
@@ -149,12 +164,12 @@ export function getUnifiedMarketDataStatus({
     {
       id: "universe",
       title: "資產宇宙",
-      rows: [twUniverseRow, usUniverseRow, cryptoUniverseRow],
+      rows: [twUniverseRow, twFundUniverseRow, usUniverseRow, cryptoUniverseRow],
     },
     {
       id: "prices",
       title: "價格資料",
-      rows: [twPriceRow, tpexOtcPriceRow, usPriceRow, cryptoPriceRow, fxRow],
+      rows: [twPriceRow, tpexOtcPriceRow, twFundNavRow, usPriceRow, cryptoPriceRow, fxRow],
     },
     {
       id: "etf-components",
@@ -368,6 +383,20 @@ function buildUniverseSummary(
 
   const count = assets.filter((asset) => asset.market === market).length;
   return count > 0 ? { count } : null;
+}
+
+function buildUniverseSummaryBySource(
+  files: UniverseFileSummary[],
+  source: string,
+): UniverseFile | null {
+  const file = files.find((item) => item.source === source);
+  return file
+    ? {
+        count: file.count,
+        generatedAt: file.generatedAt,
+        source: file.source,
+      }
+    : null;
 }
 
 function getPriceCounts(file: UnifiedPriceFile) {

@@ -90,6 +90,7 @@ function useStaticPriceStatusFiles() {
   const [priceFiles, setPriceFiles] = useState<{
     tw?: UnifiedPriceFile | null;
     tpexOtc?: UnifiedPriceFile | null;
+    twFundNav?: UnifiedPriceFile | null;
     us?: UnifiedPriceFile | null;
   }>({});
 
@@ -99,10 +100,11 @@ function useStaticPriceStatusFiles() {
     Promise.all([
       loadStaticPriceFile("data/market/tw-prices.json"),
       loadStaticPriceFile("data/market/tpex-otc-prices.json"),
+      loadStaticPriceFile("data/market/tw-fund-nav.json"),
       loadStaticPriceFile("data/market/us-prices.json"),
-    ]).then(([tw, tpexOtc, us]) => {
+    ]).then(([tw, tpexOtc, twFundNav, us]) => {
       if (!cancelled) {
-        setPriceFiles({ tw, tpexOtc, us });
+        setPriceFiles({ tw, tpexOtc, twFundNav, us });
       }
     });
 

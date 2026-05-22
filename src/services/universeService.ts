@@ -16,6 +16,7 @@ import { normalizeSymbol } from "../data/assetRegistry";
 
 const DEFAULT_DATASETS = [
   "tw-assets.json",
+  "tw-fund-assets.json",
   "us-assets.json",
   "crypto-assets.json",
 ];
@@ -23,6 +24,7 @@ const DEFAULT_DATASETS = [
 const ASSET_TYPES = new Set<AssetType>([
   "taiwan_stock",
   "taiwan_etf",
+  "taiwan_fund",
   "us_stock",
   "us_etf",
   "crypto",
@@ -35,6 +37,7 @@ const CURRENCIES = new Set<Currency>(["TWD", "USD", "USDT"]);
 const PRICE_SOURCES = new Set<PriceSource>([
   "twse",
   "tpex_otc",
+  "fund_nav_tw",
   "yahoo",
   "coingecko",
   "manual",

@@ -38,6 +38,25 @@ type StaticTpexOtcPriceFile = StaticTwPriceFile & {
   segment: "otc";
 };
 
+type StaticTwFundQuote = StaticTwQuote & {
+  navDate?: string | null;
+};
+
+type StaticTwFundNavFile = {
+  version: number;
+  market: "TW";
+  segment: "domestic_fund";
+  source: string;
+  sourceUrl?: string;
+  generatedAt: string;
+  currencyPolicy: "TWD_ONLY";
+  quoteCount?: number;
+  pricedCount?: number;
+  unavailableCount?: number;
+  quotes: Record<string, StaticTwFundQuote>;
+  errors?: string[];
+};
+
 type StaticUsQuote = {
   symbol: string;
   name?: string;
@@ -124,6 +143,7 @@ export async function refreshPrices(
     refreshCryptoPrices(metadataBySymbol, next),
     refreshStaticTaiwanPrices(metadataBySymbol, next),
     refreshStaticTpexOtcPrices(metadataBySymbol, next),
+    refreshStaticTwFundNav(metadataBySymbol, next),
     refreshStaticUsPrices(metadataBySymbol, next),
   ]);
 
@@ -432,6 +452,63 @@ async function refreshStaticTpexOtcPrices(
   }
 }
 
+async function refreshStaticTwFundNav(
+  metadata: AssetMetadata[],
+  next: PriceCache,
+) {
+  const fundAssets = metadata.filter((item) => item.priceSource === "fund_nav_tw");
+  if (fundAssets.length === 0) {
+    return;
+  }
+
+  try {
+    const response = await fetch(
+      `${import.meta.env.BASE_URL}data/market/tw-fund-nav.json`,
+      { cache: "no-cache" },
+    );
+    if (!response.ok) {
+      throw new Error(`Static Taiwan fund NAV file returned ${response.status}`);
+    }
+
+    const data = (await response.json()) as StaticTwFundNavFile;
+    if (!isStaticTwFundNavFile(data)) {
+      throw new Error("Static Taiwan fund NAV file has an invalid format.");
+    }
+
+    for (const asset of fundAssets) {
+      const quote = data.quotes[asset.symbol];
+      if (quote && Number.isFinite(quote.price) && Number(quote.price) > 0) {
+        next[asset.symbol] = {
+          symbol: asset.symbol,
+          price: Number(quote.price),
+          currency: "TWD",
+          source: "static-tw-fund-nav-json",
+          navDate: quote.navDate ?? quote.tradeDate ?? undefined,
+          tradeDate: quote.tradeDate ?? quote.navDate ?? undefined,
+          generatedAt: data.generatedAt,
+          lastUpdated: quote.lastUpdated ?? data.generatedAt,
+          status: "ok",
+        };
+        continue;
+      }
+
+      next[asset.symbol] = fallbackQuote(
+        asset,
+        next,
+        getStaticTwFundNavError(quote, data),
+      );
+    }
+  } catch (error) {
+    for (const asset of fundAssets) {
+      next[asset.symbol] = fallbackQuote(
+        asset,
+        next,
+        `Domestic fund NAV static data is temporarily unavailable: ${getErrorMessage(error)}`,
+      );
+    }
+  }
+}
+
 async function refreshStaticUsPrices(
   metadata: AssetMetadata[],
   next: PriceCache,
@@ -523,6 +600,10 @@ function getUnavailablePriceMessage(metadata: AssetMetadata) {
     return "上櫃價格尚未追蹤。";
   }
 
+  if (metadata.priceSource === "fund_nav_tw") {
+    return "基金淨值尚未追蹤。";
+  }
+
   if (metadata.priceSource === "twse" || metadata.priceSource === "yahoo") {
     return "尚未取得台股/ETF 價格。";
   }
@@ -566,6 +647,21 @@ function getStaticTpexOtcError(
   }
 
   return "上櫃價格尚未追蹤。";
+}
+
+function getStaticTwFundNavError(
+  quote: StaticTwFundQuote | undefined,
+  data: StaticTwFundNavFile,
+) {
+  if (quote?.error) {
+    return quote.error;
+  }
+
+  if (data.errors && data.errors.length > 0) {
+    return data.errors.join("; ");
+  }
+
+  return "基金淨值尚未追蹤。";
 }
 
 function getStaticUsError(
@@ -625,6 +721,23 @@ function isStaticTpexOtcPriceFile(value: unknown): value is StaticTpexOtcPriceFi
   }
 
   return (value as StaticTpexOtcPriceFile).segment === "otc";
+}
+
+function isStaticTwFundNavFile(value: unknown): value is StaticTwFundNavFile {
+  if (!value || typeof value !== "object") {
+    return false;
+  }
+
+  const candidate = value as StaticTwFundNavFile;
+  return (
+    candidate.version === 1 &&
+    candidate.market === "TW" &&
+    candidate.segment === "domestic_fund" &&
+    candidate.currencyPolicy === "TWD_ONLY" &&
+    candidate.quotes !== null &&
+    typeof candidate.generatedAt === "string" &&
+    typeof candidate.quotes === "object"
+  );
 }
 
 function isStaticUsPriceFile(value: unknown): value is StaticUsPriceFile {
