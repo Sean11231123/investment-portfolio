@@ -345,7 +345,7 @@ The dashboard includes a unified `市場資料狀態` card. It is diagnostic onl
 The card summarizes four layers:
 
 - `資產宇宙`: Taiwan, US, and crypto searchable universe file counts plus generated timestamps.
-- `價格資料`: Taiwan static TWSE prices, US static Stooq tracked prices, runtime crypto pricing, and FX status.
+- `價格資料`: Taiwan static TWSE prices, TPEx OTC prices, domestic fund NAV, US static Stooq tracked prices, runtime crypto pricing, and FX status.
 - `ETF 成分資料`: ETF component JSON coverage for expanded ETFs such as 0050, 006208, 00878, SPY, QQQ, and VOO.
 - `資料說明 / 限制`: reminders that search metadata, price coverage, and ETF lookthrough coverage are separate.
 
