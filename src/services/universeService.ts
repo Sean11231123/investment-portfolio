@@ -1,9 +1,13 @@
 import type {
   AssetMetadata,
+  AssetBoard,
   AssetType,
+  ClassificationConfidence,
+  ClassificationSource,
   Currency,
   Market,
   PriceSource,
+  SecurityType,
 } from "../types/portfolio";
 import type {
   AssetUniverseLoadResult,
@@ -43,6 +47,37 @@ const PRICE_SOURCES = new Set<PriceSource>([
   "manual",
   "us_static",
   "cash",
+]);
+const BOARDS = new Set<AssetBoard>([
+  "main",
+  "innovation",
+  "emerging",
+  "fund",
+  "unknown",
+]);
+const SECURITY_TYPES = new Set<SecurityType>([
+  "stock",
+  "etf",
+  "fund",
+  "etn",
+  "reit",
+  "warrant",
+  "unknown",
+]);
+const CLASSIFICATION_SOURCES = new Set<ClassificationSource>([
+  "twse_isin",
+  "twse_openapi",
+  "tpex_isin",
+  "tpex_openapi",
+  "sitca_nav",
+  "existing_universe",
+  "manual_verified",
+  "unknown",
+]);
+const CLASSIFICATION_CONFIDENCES = new Set<ClassificationConfidence>([
+  "high",
+  "medium",
+  "low",
 ]);
 
 export async function loadAssetUniverse(): Promise<AssetUniverseLoadResult> {
@@ -218,6 +253,18 @@ function parseUniverseAsset(value: unknown): UniverseAsset {
     binanceSymbol: optionalString(asset.binanceSymbol),
     isETF: typeof asset.isETF === "boolean" ? asset.isETF : undefined,
     dataQuality: optionalString(asset.dataQuality) as UniverseAsset["dataQuality"],
+    board: optionalEnum(asset.board, BOARDS),
+    securityType: optionalEnum(asset.securityType, SECURITY_TYPES),
+    classificationSource: optionalEnum(
+      asset.classificationSource,
+      CLASSIFICATION_SOURCES,
+    ),
+    classificationConfidence: optionalEnum(
+      asset.classificationConfidence,
+      CLASSIFICATION_CONFIDENCES,
+    ),
+    classificationUpdatedAt: optionalIsoString(asset.classificationUpdatedAt),
+    classificationWarnings: parseStringArray(asset.classificationWarnings),
   };
 }
 
@@ -240,6 +287,16 @@ function optionalString(value: unknown) {
   return typeof value === "string" && value.trim().length > 0
     ? value.trim()
     : undefined;
+}
+
+function optionalEnum<T extends string>(value: unknown, allowed: Set<T>) {
+  const text = optionalString(value);
+  return text && allowed.has(text as T) ? (text as T) : undefined;
+}
+
+function optionalIsoString(value: unknown) {
+  const text = optionalString(value);
+  return text && !Number.isNaN(Date.parse(text)) ? text : undefined;
 }
 
 function isNonEmptyString(value: unknown): value is string {

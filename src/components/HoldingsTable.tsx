@@ -7,7 +7,8 @@ import {
   formatPercent,
 } from "../utils/format";
 import { getPriceReason } from "../utils/priceStatus";
-import { assetTypeLabels, marketLabels } from "../utils/portfolioCalculations";
+import { marketLabels } from "../utils/portfolioCalculations";
+import { getAssetClassificationLabel } from "../utils/assetClassification";
 import {
   AppBadge,
   AppButton,
@@ -84,7 +85,7 @@ export function HoldingsTable({
                     <Td strong>{row.metadata.symbol}</Td>
                     <Td>{row.metadata.name}</Td>
                     <Td>
-                      {assetTypeLabels[row.metadata.type]} /{" "}
+                      {getAssetClassificationLabel(row.metadata)} /{" "}
                       {marketLabels[row.metadata.market]}
                     </Td>
                     <Td>
@@ -166,7 +167,7 @@ function HoldingCard({
       </div>
 
       <div className="grid grid-cols-2 gap-3 text-sm">
-        <Info label="類型" value={`${assetTypeLabels[row.metadata.type]} / ${marketLabels[row.metadata.market]}`} />
+        <Info label="類型" value={`${getAssetClassificationLabel(row.metadata)} / ${marketLabels[row.metadata.market]}`} />
         <Info label="數量" value={`${formatNumber(row.holding.quantity, 6)} ${row.metadata.unitLabel}`} />
         <Info label={getQuoteValueLabel(row)} value={row.quote.price === null ? priceReason.label : formatNumber(row.quote.price, 6)} />
         <Info

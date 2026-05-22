@@ -1,4 +1,11 @@
-import type { AssetMetadata, Market } from "./portfolio";
+import type {
+  AssetBoard,
+  AssetMetadata,
+  ClassificationConfidence,
+  ClassificationSource,
+  Market,
+  SecurityType,
+} from "./portfolio";
 
 export type UniverseAsset = AssetMetadata & {
   exchange?: string;
@@ -9,6 +16,12 @@ export type UniverseAsset = AssetMetadata & {
   binanceSymbol?: string;
   isETF?: boolean;
   dataQuality?: "official" | "generated" | "manual" | "sample" | "seed" | "unverified";
+  board?: AssetBoard;
+  securityType?: SecurityType;
+  classificationSource?: ClassificationSource;
+  classificationConfidence?: ClassificationConfidence;
+  classificationUpdatedAt?: string;
+  classificationWarnings?: string[];
 };
 
 export type UniverseAssetFile = {

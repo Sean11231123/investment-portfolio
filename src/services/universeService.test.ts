@@ -62,6 +62,11 @@ describe("universe service", () => {
           sourceSymbol: "00981A",
           isETF: true,
           dataQuality: "generated",
+          board: "main",
+          securityType: "etf",
+          classificationSource: "twse_isin",
+          classificationConfidence: "high",
+          classificationWarnings: ["fixture warning"],
         },
       ],
       errors: [],
@@ -70,6 +75,11 @@ describe("universe service", () => {
     expect(parsed.assets[0].symbol).toBe("00981A");
     expect(parsed.assets[0].type).toBe("taiwan_etf");
     expect(parsed.assets[0].isETF).toBe(true);
+    expect(parsed.assets[0].board).toBe("main");
+    expect(parsed.assets[0].securityType).toBe("etf");
+    expect(parsed.assets[0].classificationSource).toBe("twse_isin");
+    expect(parsed.assets[0].classificationConfidence).toBe("high");
+    expect(parsed.assets[0].classificationWarnings).toEqual(["fixture warning"]);
   });
 
   it("parses a generated TPEx OTC universe asset", () => {
@@ -95,6 +105,10 @@ describe("universe service", () => {
           sourceSymbol: "8069",
           isETF: false,
           dataQuality: "generated",
+          board: "main",
+          securityType: "stock",
+          classificationSource: "tpex_isin",
+          classificationConfidence: "high",
         },
       ],
       errors: [],
@@ -104,6 +118,45 @@ describe("universe service", () => {
     expect(parsed.assets[0].priceSource).toBe("tpex_otc");
     expect(parsed.assets[0].exchange).toBe("TPEX");
     expect(parsed.assets[0].marketSegment).toBe("otc");
+    expect(parsed.assets[0].board).toBe("main");
+    expect(parsed.assets[0].securityType).toBe("stock");
+    expect(parsed.assets[0].classificationSource).toBe("tpex_isin");
+  });
+
+  it("ignores invalid optional classification metadata without crashing", () => {
+    const parsed = parseUniverseFile({
+      version: 1,
+      market: "TW",
+      source: "legacy-compatible",
+      generatedAt: "2026-05-14T00:00:00.000Z",
+      count: 1,
+      assets: [
+        {
+          symbol: "0050",
+          name: "TW ETF",
+          type: "taiwan_etf",
+          market: "TW",
+          currency: "TWD",
+          unitLabel: "\u80a1",
+          priceSource: "twse",
+          board: "bad-board",
+          securityType: "bad-type",
+          classificationSource: "bad-source",
+          classificationConfidence: "certain",
+          classificationUpdatedAt: "not-a-date",
+          classificationWarnings: ["kept", ""],
+        },
+      ],
+      errors: [],
+    });
+
+    expect(parsed.assets[0].symbol).toBe("0050");
+    expect(parsed.assets[0].board).toBeUndefined();
+    expect(parsed.assets[0].securityType).toBeUndefined();
+    expect(parsed.assets[0].classificationSource).toBeUndefined();
+    expect(parsed.assets[0].classificationConfidence).toBeUndefined();
+    expect(parsed.assets[0].classificationUpdatedAt).toBeUndefined();
+    expect(parsed.assets[0].classificationWarnings).toEqual(["kept"]);
   });
 
   it("parses a generated domestic Taiwan fund universe asset", () => {
@@ -127,6 +180,10 @@ describe("universe service", () => {
           source: "sitca-nav",
           sourceSymbol: "DIE02",
           dataQuality: "generated",
+          board: "fund",
+          securityType: "fund",
+          classificationSource: "sitca_nav",
+          classificationConfidence: "high",
         },
       ],
       errors: [],
@@ -136,6 +193,7 @@ describe("universe service", () => {
     expect(parsed.assets[0].type).toBe("taiwan_fund");
     expect(parsed.assets[0].priceSource).toBe("fund_nav_tw");
     expect(parsed.assets[0].marketSegment).toBe("fund");
+    expect(parsed.assets[0].securityType).toBe("fund");
   });
 
   it("loads fund universe separately without breaking other datasets", async () => {

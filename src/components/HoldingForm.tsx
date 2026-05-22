@@ -7,6 +7,7 @@ import {
   searchResolvedAssets,
 } from "../data/assetResolver";
 import type { AssetMetadata, AssetType, Holding } from "../types/portfolio";
+import { getAssetClassificationLabel } from "../utils/assetClassification";
 import { AppButton, AppCard, appInput, appMutedSurface, FieldShell, SectionHeader } from "./ui";
 
 type HoldingFormProps = {
@@ -205,7 +206,7 @@ export function HoldingForm({
                     <span className="font-semibold">{asset.symbol}</span>
                     <span className="text-[var(--app-text-subtle)]"> - {asset.name}</span>
                     <span className="ml-2 text-xs text-[var(--app-primary)]">
-                      {assetTypeLabels[asset.type]}
+                      {getAssetClassificationLabel(asset)}
                     </span>
                     {asset.type === "taiwan_fund" ? (
                       <span className="ml-2 text-xs text-[var(--app-text-subtle)]">

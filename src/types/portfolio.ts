@@ -22,6 +22,29 @@ export type PriceSource =
   | "us_static"
   | "cash";
 
+export type AssetBoard = "main" | "innovation" | "emerging" | "fund" | "unknown";
+
+export type SecurityType =
+  | "stock"
+  | "etf"
+  | "fund"
+  | "etn"
+  | "reit"
+  | "warrant"
+  | "unknown";
+
+export type ClassificationSource =
+  | "twse_isin"
+  | "twse_openapi"
+  | "tpex_isin"
+  | "tpex_openapi"
+  | "sitca_nav"
+  | "existing_universe"
+  | "manual_verified"
+  | "unknown";
+
+export type ClassificationConfidence = "high" | "medium" | "low";
+
 export type Holding = {
   id: string;
   type: AssetType;
@@ -56,6 +79,12 @@ export type AssetMetadata = {
   fundTaxId?: string;
   fundTypeCode?: string;
   beneficiaryCertificateCode?: string;
+  board?: AssetBoard;
+  securityType?: SecurityType;
+  classificationSource?: ClassificationSource;
+  classificationConfidence?: ClassificationConfidence;
+  classificationUpdatedAt?: string;
+  classificationWarnings?: string[];
   coingeckoId?: string;
   binanceSymbol?: string;
 };

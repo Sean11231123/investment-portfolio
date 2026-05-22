@@ -121,6 +121,7 @@ Current universe files:
 - `crypto-assets.json`: generated crypto metadata from Binance Spot `exchangeInfo` plus CoinGecko `coins/list`
 
 Taiwan active ETF style symbols, such as `00981A`, can appear in search when the TWSE source includes them and classifies them as ETFs. TPEx OTC stocks and ETFs can also appear in search with `exchange: "TPEX"` and `marketSegment: "otc"`.
+Taiwan stock/ETF universe entries also include optional classification metadata such as `board`, `securityType`, `classificationSource`, and `classificationConfidence`. `AssetType` remains broad (`taiwan_stock`, `taiwan_etf`, `taiwan_fund`), while finer labels are derived from metadata when it is available. Emerging stocks, separate Innovation Board support, ETF subtype automation, and ETF component expansion are not included in this metadata-only phase.
 US stocks and ETFs, such as `PLTR`, `META`, `AVGO`, `SCHD`, `IWM`, `TLT`, `DIA`, `XLE`, and `XLK`, can appear in search when the Nasdaq Trader source includes them.
 Crypto assets, such as `DOGE`, `AVAX`, `XRP`, `ADA`, and `LINK`, can appear in search when Binance lists active USDT spot pairs for them.
 
@@ -160,7 +161,7 @@ The script reads official no-key ISIN sources and writes one merged Taiwan unive
 public/data/universe/tw-assets.json
 ```
 
-It classifies listed and OTC common stocks as `taiwan_stock` and listed/OTC ETFs as `taiwan_etf`, including active ETF code patterns such as `00981A` when the source publishes them as ETFs. TWSE records keep `exchange: "TWSE"` and `marketSegment: "listed"`; TPEx OTC records use `exchange: "TPEX"` and `marketSegment: "otc"`. It skips obvious non-target rows such as warrants, ETNs, non-common preferred stock symbols, and identifiable leveraged, inverse, or futures ETF names.
+It classifies listed and OTC common stocks as `taiwan_stock` and listed/OTC ETFs as `taiwan_etf`, including active ETF code patterns such as `00981A` when the source publishes them as ETFs. TWSE records keep `exchange: "TWSE"` and `marketSegment: "listed"`; TPEx OTC records use `exchange: "TPEX"` and `marketSegment: "otc"`. The generated records are metadata-enriched with broad optional classification fields (`board`, `securityType`, `classificationSource`, and `classificationConfidence`) for display labels only. It skips obvious non-target rows such as warrants, ETNs, non-common preferred stock symbols, and identifiable leveraged, inverse, or futures ETF names.
 
 This universe is search metadata only. Searchable asset does not mean a price exists in the static market price files, and searchable ETF does not mean component data exists under `public/data/etf-components/`. TPEx OTC prices are tracked separately in `public/data/market/tpex-otc-prices.json` when the TPEx source provides valid close prices. Missing OTC prices remain unavailable/null and are shown as untracked, never zero; ETFs without component JSON remain `未展開 ETF` when priced.
 

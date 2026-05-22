@@ -121,6 +121,8 @@ def main() -> int:
     print(f"tpex otc assets: {merge_stats['tpex_added']}")
     print(f"stocks: {stock_count}")
     print(f"etfs: {etf_count}")
+    print(f"metadata-enriched assets: {count_metadata_enriched(assets)}")
+    print(f"classification warnings: {count_classification_warnings(assets)}")
     print(f"otc stocks: {otc_stock_count}")
     print(f"otc etfs: {otc_etf_count}")
     print(f"duplicates skipped: {merge_stats['duplicates']}")
@@ -144,6 +146,8 @@ def report_failure(output_path: Path, errors: list[str]) -> int:
     print("tpex otc assets: 0")
     print("stocks: 0")
     print("etfs: 0")
+    print("metadata-enriched assets: 0")
+    print("classification warnings: 0")
     print("otc stocks: 0")
     print("otc etfs: 0")
     print("duplicates skipped: 0")
@@ -254,6 +258,12 @@ def parse_isin_assets(
                 "sourceSymbol": symbol,
                 "isETF": asset_type == "taiwan_etf",
                 "dataQuality": "generated",
+                **build_classification_metadata(
+                    exchange=exchange,
+                    market_segment=market_segment,
+                    asset_type=asset_type,
+                    source=source,
+                ),
             },
         )
 
@@ -308,6 +318,8 @@ def build_payload(
         "tpexOtcCount": stats["tpex_added"],
         "tpexOtcSourceCount": stats["tpex_source"],
         "duplicateCount": stats["duplicates"],
+        "metadataEnrichedCount": count_metadata_enriched(assets),
+        "classificationWarningCount": count_classification_warnings(assets),
         "assets": assets,
         "errors": errors,
     }
@@ -317,6 +329,42 @@ def build_payload(
         payload["generatedAt"] = existing["generatedAt"]
 
     return payload
+
+
+def build_classification_metadata(
+    *,
+    exchange: str,
+    market_segment: str,
+    asset_type: str,
+    source: str,
+) -> dict[str, Any]:
+    security_type = "etf" if asset_type == "taiwan_etf" else "stock"
+    classification_source = "twse_isin" if source == "twse-isin" else "tpex_isin"
+    return {
+        "board": "main",
+        "securityType": security_type,
+        "classificationSource": classification_source,
+        "classificationConfidence": "high",
+    }
+
+
+def count_metadata_enriched(assets: list[dict[str, Any]]) -> int:
+    return sum(
+        1
+        for asset in assets
+        if asset.get("board")
+        and asset.get("securityType")
+        and asset.get("classificationSource")
+        and asset.get("classificationConfidence")
+    )
+
+
+def count_classification_warnings(assets: list[dict[str, Any]]) -> int:
+    return sum(
+        len(asset.get("classificationWarnings", []))
+        for asset in assets
+        if isinstance(asset.get("classificationWarnings"), list)
+    )
 
 
 def load_existing_payload(path: Path) -> dict[str, Any] | None:

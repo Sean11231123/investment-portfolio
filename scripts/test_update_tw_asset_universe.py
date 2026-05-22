@@ -56,6 +56,10 @@ class TaiwanAssetUniverseTests(unittest.TestCase):
         self.assertEqual(stock["type"], "taiwan_stock")
         self.assertEqual(stock["exchange"], "TWSE")
         self.assertEqual(stock["marketSegment"], "listed")
+        self.assertEqual(stock["board"], "main")
+        self.assertEqual(stock["securityType"], "stock")
+        self.assertEqual(stock["classificationSource"], "twse_isin")
+        self.assertEqual(stock["classificationConfidence"], "high")
         self.assertFalse(stock["isETF"])
 
     def test_classifies_regular_and_active_etfs(self) -> None:
@@ -63,6 +67,8 @@ class TaiwanAssetUniverseTests(unittest.TestCase):
         by_symbol = {asset["symbol"]: asset for asset in assets}
 
         self.assertEqual(by_symbol["0052"]["type"], "taiwan_etf")
+        self.assertEqual(by_symbol["0052"]["securityType"], "etf")
+        self.assertEqual(by_symbol["0052"]["classificationSource"], "twse_isin")
         self.assertEqual(by_symbol["00981A"]["type"], "taiwan_etf")
         self.assertTrue(by_symbol["00981A"]["isETF"])
 
@@ -84,7 +90,12 @@ class TaiwanAssetUniverseTests(unittest.TestCase):
         self.assertEqual(by_symbol["8069"]["marketSegment"], "otc")
         self.assertEqual(by_symbol["8069"]["currency"], "TWD")
         self.assertEqual(by_symbol["8069"]["priceSource"], "tpex_otc")
+        self.assertEqual(by_symbol["8069"]["board"], "main")
+        self.assertEqual(by_symbol["8069"]["securityType"], "stock")
+        self.assertEqual(by_symbol["8069"]["classificationSource"], "tpex_isin")
+        self.assertEqual(by_symbol["8069"]["classificationConfidence"], "high")
         self.assertEqual(by_symbol["006201"]["type"], "taiwan_etf")
+        self.assertEqual(by_symbol["006201"]["securityType"], "etf")
         self.assertTrue(by_symbol["006201"]["isETF"])
 
     def test_tpex_parser_skips_malformed_and_excluded_rows(self) -> None:
@@ -123,6 +134,8 @@ class TaiwanAssetUniverseTests(unittest.TestCase):
         self.assertEqual(payload["twseCount"], len(twse_assets))
         self.assertEqual(payload["tpexOtcCount"], 3)
         self.assertEqual(payload["duplicateCount"], 1)
+        self.assertEqual(payload["metadataEnrichedCount"], len(assets))
+        self.assertEqual(payload["classificationWarningCount"], 0)
         self.assertEqual(payload["errors"], [])
         self.assertIn("0052", {asset["symbol"] for asset in payload["assets"]})
         self.assertIn("00981A", {asset["symbol"] for asset in payload["assets"]})
