@@ -273,7 +273,7 @@ It stores official facts only: meeting dates, released/upcoming status, statemen
 
 In the browser, macro data is consumed only from the generated static files under `public/data/macro/`. The frontend macro data service validates those JSON files and reports unavailable/stale status if they are missing, malformed, or old. It does not call BLS or Federal Reserve live endpoints from the browser.
 
-The app includes a `總經` page that displays BLS indicators and official FOMC event records. Taiwan macro indicators are generated in the static data file, but the dedicated Taiwan UI section is planned for a later phase. Macro data is informational only: no FOMC sentiment classification, no policy-language summary, no market prediction, no trading signal, and no investment advice.
+The app includes a `總經` page with separate US and Taiwan macro sections plus official FOMC event records. The Taiwan section displays CPI, PPI, and unemployment from the generated static macro file. Macro data is informational only: no FOMC sentiment classification, no policy-language summary, no market prediction, no trading signal, and no investment advice.
 
 ## Crypto Asset Universe Update
 

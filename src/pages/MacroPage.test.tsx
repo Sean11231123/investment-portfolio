@@ -13,7 +13,7 @@ const indicatorsFile: MacroIndicatorsFile = {
   version: 1,
   generatedAt: "2026-05-22T00:00:00.000Z",
   source: "BLS",
-  indicatorCount: 4,
+  indicatorCount: 7,
   historyLimit: 24,
   indicators: {
     US_CPI: {
@@ -74,6 +74,54 @@ const indicatorsFile: MacroIndicatorsFile = {
       level: 4.3,
       mom: 0,
       yoy: 0.1,
+      unit: "percent_rate",
+      changeUnit: "percentage_point",
+      frequency: "monthly",
+      status: "ok",
+      history: [],
+    },
+    TW_CPI: {
+      country: "TW",
+      category: "inflation",
+      name: "Taiwan CPI",
+      source: "data.gov.tw / DGBAS",
+      sourceSeriesId: "消費者物價-指數",
+      period: "2026-03",
+      level: 110.36,
+      mom: -0.005138,
+      yoy: 0.012013,
+      unit: "index",
+      changeUnit: "decimal_return",
+      frequency: "monthly",
+      status: "ok",
+      history: [],
+    },
+    TW_PPI: {
+      country: "TW",
+      category: "inflation",
+      name: "Taiwan PPI",
+      source: "data.gov.tw / DGBAS",
+      sourceSeriesId: "生產者物價-指數",
+      period: "2026-03",
+      level: 116.63,
+      mom: 0.035882,
+      yoy: 0.025319,
+      unit: "index",
+      changeUnit: "decimal_return",
+      frequency: "monthly",
+      status: "ok",
+      history: [],
+    },
+    TW_UNEMPLOYMENT_RATE: {
+      country: "TW",
+      category: "labor",
+      name: "Taiwan Unemployment Rate",
+      source: "data.gov.tw / DGBAS",
+      sourceSeriesId: "失業率（百分比）",
+      period: "2026-03",
+      level: 3.34,
+      mom: 0.02,
+      yoy: -0.01,
       unit: "percent_rate",
       changeUnit: "percentage_point",
       frequency: "monthly",
@@ -161,6 +209,7 @@ describe("MacroPage", () => {
     );
 
     expect(html).toContain("總經觀察");
+    expect(html).toContain("美國總經");
     expect(html).toContain("US CPI");
     expect(html).toContain("US Core CPI");
     expect(html).toContain("US PPI Final Demand");
@@ -169,15 +218,32 @@ describe("MacroPage", () => {
     expect(html).toContain("Next upcoming FOMC");
   });
 
+  it("renders Taiwan macro section and indicator cards", () => {
+    const html = renderToStaticMarkup(
+      <MacroPageContent macroData={macroData} now={new Date("2026-05-22T00:00:00.000Z")} />,
+    );
+
+    expect(html).toContain("台灣總經");
+    expect(html).toContain("Taiwan CPI");
+    expect(html).toContain("Taiwan PPI");
+    expect(html).toContain("Taiwan Unemployment Rate");
+    expect(html).toContain("data.gov.tw / DGBAS");
+  });
+
   it("formats CPI/Core/PPI changes as percentages", () => {
     expect(formatMacroChange(0.037792, "decimal_return")).toBe("+3.78%");
     expect(formatMacroChange(0.0064, "decimal_return")).toBe("+0.64%");
+    expect(formatMacroChange(-0.005138, "decimal_return")).toBe("-0.51%");
+    expect(formatMacroChange(0.012013, "decimal_return")).toBe("+1.2%");
   });
 
   it("formats unemployment level and changes as percentage-point moves", () => {
     expect(formatMacroLevel(indicatorsFile.indicators.US_UNEMPLOYMENT_RATE)).toBe("4.3%");
+    expect(formatMacroLevel(indicatorsFile.indicators.TW_UNEMPLOYMENT_RATE)).toBe("3.34%");
     expect(formatMacroChange(0.1, "percentage_point")).toBe("+0.1 個百分點");
     expect(formatMacroChange(-0.1, "percentage_point")).toBe("-0.1 個百分點");
+    expect(formatMacroChange(0.02, "percentage_point")).toBe("+0.02 個百分點");
+    expect(formatMacroChange(-0.01, "percentage_point")).toBe("-0.01 個百分點");
   });
 
   it("detects latest completed and next upcoming FOMC events", () => {
@@ -213,7 +279,45 @@ describe("MacroPage", () => {
     expect(html).toContain("FOMC 事件資料暫時無法載入");
   });
 
+  it("renders missing Taiwan indicators without crashing", () => {
+    const html = renderToStaticMarkup(
+      <MacroPageContent
+        macroData={{
+          indicators: {
+            data: {
+              ...indicatorsFile,
+              indicators: {
+                US_CPI: indicatorsFile.indicators.US_CPI,
+                US_CORE_CPI: indicatorsFile.indicators.US_CORE_CPI,
+                US_PPI_FINAL_DEMAND: indicatorsFile.indicators.US_PPI_FINAL_DEMAND,
+                US_UNEMPLOYMENT_RATE: indicatorsFile.indicators.US_UNEMPLOYMENT_RATE,
+              },
+            },
+            status: "loaded",
+            errors: [],
+          },
+          events: { data: eventsFile, status: "loaded", errors: [] },
+        }}
+      />,
+    );
+
+    expect(html).toContain("US CPI");
+    expect(html).toContain("台灣總經資料暫時無法載入");
+    expect(html).toContain("Latest completed FOMC");
+  });
+
   it("uses dash for null values", () => {
     expect(formatMacroChange(null, "decimal_return")).toBe("—");
+  });
+
+  it("does not render prediction or sentiment language", () => {
+    const html = renderToStaticMarkup(
+      <MacroPageContent macroData={macroData} now={new Date("2026-05-22T00:00:00.000Z")} />,
+    );
+
+    expect(html).not.toContain("hawkish");
+    expect(html).not.toContain("dovish");
+    expect(html).not.toContain("買進");
+    expect(html).not.toContain("賣出");
   });
 });

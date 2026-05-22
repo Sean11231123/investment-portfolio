@@ -5,11 +5,17 @@ import { formatDateTime } from "../utils/format";
 import { getMacroDataStatus } from "../utils/macroDataStatus";
 import { AppBadge, AppCard, appMutedSurface, SectionHeader } from "../components/ui";
 
-const INDICATOR_ORDER = [
+const US_INDICATOR_ORDER = [
   "US_CPI",
   "US_CORE_CPI",
   "US_PPI_FINAL_DEMAND",
   "US_UNEMPLOYMENT_RATE",
+];
+
+const TAIWAN_INDICATOR_ORDER = [
+  "TW_CPI",
+  "TW_PPI",
+  "TW_UNEMPLOYMENT_RATE",
 ];
 
 const INDICATOR_LABELS: Record<string, string> = {
@@ -17,6 +23,9 @@ const INDICATOR_LABELS: Record<string, string> = {
   US_CORE_CPI: "US Core CPI",
   US_PPI_FINAL_DEMAND: "US PPI Final Demand",
   US_UNEMPLOYMENT_RATE: "US Unemployment Rate",
+  TW_CPI: "Taiwan CPI",
+  TW_PPI: "Taiwan PPI",
+  TW_UNEMPLOYMENT_RATE: "Taiwan Unemployment Rate",
 };
 
 const LINK_LABELS: Array<[keyof MacroEvent["links"], string]> = [
@@ -67,6 +76,7 @@ export function MacroPageContent({
 }) {
   const macroStatus = getMacroDataStatus(macroData, now);
   const indicators = macroData.indicators.data?.indicators ?? {};
+  const hasTaiwanIndicators = TAIWAN_INDICATOR_ORDER.some((id) => Boolean(indicators[id]));
   const latestCompleted = selectLatestCompletedFomc(macroData.events.data?.events ?? []);
   const nextUpcoming = selectNextUpcomingFomc(macroData.events.data?.events ?? []);
 
@@ -76,12 +86,12 @@ export function MacroPageContent({
 
       <AppCard>
         <SectionHeader
-          title="最新總經數據"
+          title="美國總經"
           description="BLS 靜態資料，顯示最新期間、MoM、YoY 與資料狀態。"
         />
         {macroData.indicators.data ? (
           <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-            {INDICATOR_ORDER.map((id) => (
+            {US_INDICATOR_ORDER.map((id) => (
               <MacroIndicatorCard
                 key={id}
                 id={id}
@@ -92,6 +102,33 @@ export function MacroPageContent({
           </div>
         ) : (
           <UnavailableCard title="總經指標暫時無法載入" errors={macroData.indicators.errors} />
+        )}
+      </AppCard>
+
+      <AppCard>
+        <SectionHeader
+          title="台灣總經"
+          description="data.gov.tw / DGBAS 靜態資料，顯示 CPI、PPI 與失業率。"
+        />
+        {macroData.indicators.data ? (
+          hasTaiwanIndicators ? (
+            <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+              {TAIWAN_INDICATOR_ORDER.map((id) => (
+                <MacroIndicatorCard
+                  key={id}
+                  id={id}
+                  indicator={indicators[id]}
+                  generatedAt={macroData.indicators.data?.generatedAt}
+                />
+              ))}
+            </div>
+          ) : (
+            <div className="mt-4">
+              <UnavailableCard title="台灣總經資料暫時無法載入" />
+            </div>
+          )
+        ) : (
+          <UnavailableCard title="台灣總經資料暫時無法載入" errors={macroData.indicators.errors} />
         )}
       </AppCard>
 
@@ -318,7 +355,7 @@ export function formatMacroLevel(indicator: MacroIndicator) {
     return "—";
   }
   if (indicator.unit === "percent_rate") {
-    return `${formatNumber(indicator.level, 1)}%`;
+    return `${formatNumber(indicator.level, 2)}%`;
   }
   return formatNumber(indicator.level, 3);
 }
@@ -331,7 +368,7 @@ export function formatMacroChange(
     return "—";
   }
   if (changeUnit === "percentage_point") {
-    return `${formatSignedNumber(value, 1)} 個百分點`;
+    return `${formatSignedNumber(value, 2)} 個百分點`;
   }
   return `${formatSignedNumber(value * 100, 2)}%`;
 }
