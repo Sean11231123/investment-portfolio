@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-05-21T13:33:18.810624Z",
-  "count": 422,
-  "binanceCount": 422,
-  "coingeckoMatchedCount": 248,
+  "generatedAt": "2026-05-22T12:35:20.929443Z",
+  "count": 424,
+  "binanceCount": 424,
+  "coingeckoMatchedCount": 250,
   "ambiguousCount": 167,
-  "skippedCount": 3162,
+  "skippedCount": 3166,
   "assets": [
     {
       "symbol": "0G",
@@ -2679,6 +2679,23 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GENIUS",
+      "name": "GENIUS",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "GENIUS"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GENIUSUSDT",
+      "binanceSymbol": "GENIUSUSDT",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GIGGLE",
       "name": "Giggle Fund",
       "type": "crypto",
@@ -4593,6 +4610,24 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "OPENUSDT",
       "binanceSymbol": "OPENUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OPG",
+      "name": "OpenGradient",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "OpenGradient"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "OPGUSDT",
+      "binanceSymbol": "OPGUSDT",
+      "coingeckoId": "opengradient",
       "dataQuality": "generated"
     },
     {
@@ -7363,19 +7398,20 @@
     },
     {
       "symbol": "ZKC",
-      "name": "ZKC",
+      "name": "Boundless",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "ZKC"
+        "Boundless"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "ZKCUSDT",
       "binanceSymbol": "ZKCUSDT",
+      "coingeckoId": "boundless",
       "dataQuality": "generated"
     },
     {
