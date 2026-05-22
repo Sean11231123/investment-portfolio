@@ -25,7 +25,7 @@ export type UnifiedStatusRow = {
 };
 
 export type UnifiedStatusSection = {
-  id: "universe" | "prices" | "etf-components" | "notes";
+  id: "universe" | "prices" | "etf-components" | "macro" | "notes";
   title: string;
   rows: UnifiedStatusRow[];
 };

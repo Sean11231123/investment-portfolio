@@ -255,6 +255,8 @@ It stores official facts only: meeting dates, released/upcoming status, statemen
 
 There is still no macro UI page yet.
 
+In the browser, macro data is consumed only from the generated static files under `public/data/macro/`. The frontend macro data service validates those JSON files and reports unavailable/stale status if they are missing, malformed, or old. It does not call BLS or Federal Reserve live endpoints from the browser.
+
 ## Crypto Asset Universe Update
 
 Crypto searchable metadata is generated outside the frontend by:

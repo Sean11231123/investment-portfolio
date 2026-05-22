@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
+import { loadMacroData } from "../services/macroDataService";
+import type { MacroData } from "../types/macro";
 import type { AssetMetadata, FxRates, HoldingValue } from "../types/portfolio";
 import type { UniverseFileSummary } from "../types/universe";
 import { formatDateTime } from "../utils/format";
+import { getMacroStatusSection } from "../utils/macroDataStatus";
 import {
   getUnifiedMarketDataStatus,
   type UnifiedPriceFile,
@@ -24,6 +27,7 @@ export function MarketDataStatusCard({
   universeFiles = [],
 }: MarketDataStatusCardProps) {
   const priceFiles = useStaticPriceStatusFiles();
+  const macroData = useStaticMacroData();
   const sections = getUnifiedMarketDataStatus({
     holdingValues,
     universeAssets,
@@ -31,6 +35,9 @@ export function MarketDataStatusCard({
     fxRates,
     prices: priceFiles,
   });
+  if (macroData) {
+    sections.splice(3, 0, getMacroStatusSection(macroData));
+  }
 
   return (
     <AppCard>
@@ -57,6 +64,26 @@ export function MarketDataStatusCard({
       </div>
     </AppCard>
   );
+}
+
+function useStaticMacroData() {
+  const [macroData, setMacroData] = useState<MacroData | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    loadMacroData().then((data) => {
+      if (!cancelled) {
+        setMacroData(data);
+      }
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  return macroData;
 }
 
 function useStaticPriceStatusFiles() {
