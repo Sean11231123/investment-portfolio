@@ -17,6 +17,10 @@ The app tracks Taiwan stocks, Taiwan ETFs, US stocks, US ETFs, crypto, and cash.
 - Export timestamped v2 JSON backups, preview imports before replacing holdings, and keep v1 MVP import migration.
 - Static ETF component lookthrough for 0050, 006208, 00878, VOO, SPY, and QQQ data, with automated US issuer updates where configured.
 - ETF exposure donut charts for aggregate lookthrough and single ETF lookthrough.
+- Five main tabs: `總覽`, `持倉`, `ETF`, `總經`, and `設定`.
+- Dark/light theme support.
+- TWSE listed and TPEx OTC Taiwan stock/ETF search metadata and static price coverage when official sources provide valid prices.
+- `總經` page with BLS US macro indicators and official Federal Reserve FOMC event metadata.
 - Mobile/PWA-friendly layout with bottom navigation, compact summary cards, and mobile holding cards.
 - GitHub Pages deployment workflow.
 
