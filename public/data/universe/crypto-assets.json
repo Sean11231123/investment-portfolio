@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-05-22T12:35:20.929443Z",
-  "count": 424,
-  "binanceCount": 424,
-  "coingeckoMatchedCount": 250,
-  "ambiguousCount": 167,
-  "skippedCount": 3166,
+  "generatedAt": "2026-05-27T13:49:42.973610Z",
+  "count": 419,
+  "binanceCount": 419,
+  "coingeckoMatchedCount": 249,
+  "ambiguousCount": 163,
+  "skippedCount": 3171,
   "assets": [
     {
       "symbol": "0G",
@@ -767,23 +767,6 @@
       "sourceSymbol": "ATUSDT",
       "binanceSymbol": "ATUSDT",
       "coingeckoId": "apro",
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ATA",
-      "name": "ATA",
-      "type": "crypto",
-      "market": "CRYPTO",
-      "currency": "USDT",
-      "unitLabel": "顆",
-      "priceSource": "manual",
-      "aliases": [
-        "ATA"
-      ],
-      "exchange": "BINANCE",
-      "source": "binance-exchangeinfo",
-      "sourceSymbol": "ATAUSDT",
-      "binanceSymbol": "ATAUSDT",
       "dataQuality": "generated"
     },
     {
@@ -2418,23 +2401,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "FARM",
-      "name": "FARM",
-      "type": "crypto",
-      "market": "CRYPTO",
-      "currency": "USDT",
-      "unitLabel": "顆",
-      "priceSource": "manual",
-      "aliases": [
-        "FARM"
-      ],
-      "exchange": "BINANCE",
-      "source": "binance-exchangeinfo",
-      "sourceSymbol": "FARMUSDT",
-      "binanceSymbol": "FARMUSDT",
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "FDUSD",
       "name": "First Digital USD",
       "type": "crypto",
@@ -2529,7 +2495,7 @@
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
         "FLOKI"
       ],
@@ -2537,6 +2503,7 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "FLOKIUSDT",
       "binanceSymbol": "FLOKIUSDT",
+      "coingeckoId": "floki",
       "dataQuality": "generated"
     },
     {
@@ -4140,24 +4107,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MLN",
-      "name": "Enzyme",
-      "type": "crypto",
-      "market": "CRYPTO",
-      "currency": "USDT",
-      "unitLabel": "顆",
-      "priceSource": "coingecko",
-      "aliases": [
-        "Enzyme"
-      ],
-      "exchange": "BINANCE",
-      "source": "binance-exchangeinfo",
-      "sourceSymbol": "MLNUSDT",
-      "binanceSymbol": "MLNUSDT",
-      "coingeckoId": "melon",
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "MMT",
       "name": "Momentum",
       "type": "crypto",
@@ -4823,23 +4772,6 @@
       "sourceSymbol": "PHAUSDT",
       "binanceSymbol": "PHAUSDT",
       "coingeckoId": "pha",
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PHB",
-      "name": "PHB",
-      "type": "crypto",
-      "market": "CRYPTO",
-      "currency": "USDT",
-      "unitLabel": "顆",
-      "priceSource": "manual",
-      "aliases": [
-        "PHB"
-      ],
-      "exchange": "BINANCE",
-      "source": "binance-exchangeinfo",
-      "sourceSymbol": "PHBUSDT",
-      "binanceSymbol": "PHBUSDT",
       "dataQuality": "generated"
     },
     {
@@ -6221,24 +6153,6 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "SYNUSDT",
       "binanceSymbol": "SYNUSDT",
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SYS",
-      "name": "Syscoin",
-      "type": "crypto",
-      "market": "CRYPTO",
-      "currency": "USDT",
-      "unitLabel": "顆",
-      "priceSource": "coingecko",
-      "aliases": [
-        "Syscoin"
-      ],
-      "exchange": "BINANCE",
-      "source": "binance-exchangeinfo",
-      "sourceSymbol": "SYSUSDT",
-      "binanceSymbol": "SYSUSDT",
-      "coingeckoId": "syscoin",
       "dataQuality": "generated"
     },
     {
