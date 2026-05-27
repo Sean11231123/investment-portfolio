@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-05-22T14:57:49.137031Z",
-  "count": 2232,
+  "generatedAt": "2026-05-27T12:30:54.713576Z",
+  "count": 2234,
   "twseCount": 1230,
-  "tpexOtcCount": 1002,
-  "tpexOtcSourceCount": 1002,
+  "tpexOtcCount": 1004,
+  "tpexOtcSourceCount": 1004,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2232,
+  "metadataEnrichedCount": 2234,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -5729,6 +5729,28 @@
       "board": "main",
       "securityType": "etf",
       "classificationSource": "twse_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "009822",
+      "name": "華南永昌未來金融",
+      "type": "taiwan_etf",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "華南永昌未來金融"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "009822",
+      "isETF": true,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "etf",
+      "classificationSource": "tpex_isin",
       "classificationConfidence": "high"
     },
     {
@@ -44405,6 +44427,28 @@
       "board": "main",
       "securityType": "stock",
       "classificationSource": "twse_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "7819",
+      "name": "精誠金融",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "精誠金融"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "7819",
+      "isETF": false,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "stock",
+      "classificationSource": "tpex_isin",
       "classificationConfidence": "high"
     },
     {
