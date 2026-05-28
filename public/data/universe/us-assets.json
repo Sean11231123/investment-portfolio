@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-05-25T12:53:26.131276Z",
-  "count": 10739,
-  "stockCount": 5569,
-  "etfCount": 5170,
-  "skippedCount": 1943,
+  "generatedAt": "2026-05-28T12:55:52.194170Z",
+  "count": 10755,
+  "stockCount": 5568,
+  "etfCount": 5187,
+  "skippedCount": 1941,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -2515,6 +2515,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ADDS",
+      "name": "Hedgeye Index Adds ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hedgeye Index Adds ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ADDS",
+      "stooqSymbol": "adds.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ADEA",
       "name": "Adeia Inc. - Common Stock",
       "type": "us_stock",
@@ -3757,24 +3775,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "AGAE",
-      "name": "Allied Gaming & Entertainment Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Allied Gaming & Entertainment Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AGAE",
-      "stooqSymbol": "agae.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "AGBK",
       "name": "AGI Inc Class A Common Shares",
       "type": "us_stock",
@@ -4729,6 +4729,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AIFA",
+      "name": "All In FutureTech Alliance, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "All In FutureTech Alliance, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AIFA",
+      "stooqSymbol": "aifa.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AIFC",
       "name": "AI Financial Corporation - Common Stock",
       "type": "us_stock",
@@ -5414,14 +5432,14 @@
     },
     {
       "symbol": "AIVC",
-      "name": "Amplify Bloomberg AI Value Chain ETF",
+      "name": "Amplify Bloomberg AI Equal Weight ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Amplify Bloomberg AI Value Chain ETF"
+        "Amplify Bloomberg AI Equal Weight ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -11133,6 +11151,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ASEA",
       "stooqSymbol": "asea.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ASEC",
+      "name": "American Century Securitized Credit ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "American Century Securitized Credit ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ASEC",
+      "stooqSymbol": "asec.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -23647,6 +23683,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BROL",
+      "name": "Baron Risk Optimized Large Cap ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Baron Risk Optimized Large Cap ETF"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BROL",
+      "stooqSymbol": "brol.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BROS",
       "name": "Dutch Bros Inc. Class A Common Stock",
       "type": "us_stock",
@@ -24907,6 +24961,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BTCU",
+      "name": "Direxion Daily Bitcoin Bull 2X ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion Daily Bitcoin Bull 2X ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BTCU",
+      "stooqSymbol": "btcu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BTCW",
       "name": "WisdomTree Bitcoin Fund",
       "type": "us_etf",
@@ -25065,24 +25137,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BTI",
       "stooqSymbol": "bti.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BTM",
-      "name": "Bitcoin Depot Inc. - Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bitcoin Depot Inc. - Class A Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BTM",
-      "stooqSymbol": "btm.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -28543,6 +28597,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CBRX",
+      "name": "Tradr 2X Long CBRS Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long CBRS Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CBRX",
+      "stooqSymbol": "cbrx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CBRZ",
+      "name": "Tradr 2X Short CBRS Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Short CBRS Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CBRZ",
+      "stooqSymbol": "cbrz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CBSE",
       "name": "Clough Select Equity ETF",
       "type": "us_etf",
@@ -28863,6 +28953,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CCAP",
       "stooqSymbol": "ccap.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CCAQ",
+      "name": "Collective Acquisition Corp. - Class A ordinary shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Collective Acquisition Corp. - Class A ordinary shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CCAQ",
+      "stooqSymbol": "ccaq.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -39470,14 +39578,14 @@
     },
     {
       "symbol": "CUPR",
-      "name": "Cuprina Holdings (Cayman) Limited - Ordinary shares",
+      "name": "Cuprina Holdings (Cayman) Limited - Class A Ordinary shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Cuprina Holdings (Cayman) Limited - Ordinary shares"
+        "Cuprina Holdings (Cayman) Limited - Class A Ordinary shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -56911,6 +57019,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "EVMU",
+      "name": "Direxion Daily Ether Bull 2X ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion Daily Ether Bull 2X ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EVMU",
+      "stooqSymbol": "evmu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "EVN",
       "name": "Eaton Vance Municipal Income Trust Common Stock",
       "type": "us_stock",
@@ -62559,6 +62685,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FITE",
       "stooqSymbol": "fite.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FITZ",
+      "name": "Fitz-Gerald Must Have Portfolio ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Fitz-Gerald Must Have Portfolio ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FITZ",
+      "stooqSymbol": "fitz.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -71635,24 +71779,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "GIG",
-      "name": "GigCapital7 Corp. - Class A Ordinary Share",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "GigCapital7 Corp. - Class A Ordinary Share"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GIG",
-      "stooqSymbol": "gig.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "GIGB",
       "name": "Goldman Sachs Access Investment Grade Corporate Bond ETF",
       "type": "us_etf",
@@ -72482,14 +72608,14 @@
     },
     {
       "symbol": "GLIBA",
-      "name": "GCI Liberty, Inc. - Series A GCI Group Common Stock",
+      "name": "Liberty Capital Corporation - Series A GCI Group Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "GCI Liberty, Inc. - Series A GCI Group Common Stock"
+        "Liberty Capital Corporation - Series A GCI Group Common Stock"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -72500,14 +72626,14 @@
     },
     {
       "symbol": "GLIBK",
-      "name": "GCI Liberty, Inc. - Series C GCI Group Common Stock",
+      "name": "Liberty Capital Corporation - Series C GCI Group Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "GCI Liberty, Inc. - Series C GCI Group Common Stock"
+        "Liberty Capital Corporation - Series C GCI Group Common Stock"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -78205,6 +78331,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HDRN",
+      "name": "Hadron Energy, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hadron Energy, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HDRN",
+      "stooqSymbol": "hdrn.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HDSN",
       "name": "Hudson Technologies, Inc. - Common Stock",
       "type": "us_stock",
@@ -80451,24 +80595,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "HOPE",
       "stooqSymbol": "hope.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "HOTH",
-      "name": "Hoth Therapeutics, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Hoth Therapeutics, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HOTH",
-      "stooqSymbol": "hoth.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -89725,24 +89851,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "IPOD",
-      "name": "Dune Acquisition Corporation II - Class A ordinary shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Dune Acquisition Corporation II - Class A ordinary shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IPOD",
-      "stooqSymbol": "ipod.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "IPOS",
       "name": "Renaissance Capital Greenwich Fund",
       "type": "us_etf",
@@ -95265,6 +95373,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "JPEM",
       "stooqSymbol": "jpem.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "JPFP",
+      "name": "JPMorgan Managed Futures Plus ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "JPMorgan Managed Futures Plus ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JPFP",
+      "stooqSymbol": "jpfp.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -107851,6 +107977,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MCHU",
+      "name": "Tradr 2X Long MCHP Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long MCHP Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MCHU",
+      "stooqSymbol": "mchu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MCHX",
       "name": "Marchex, Inc. - Class B Common Stock",
       "type": "us_stock",
@@ -112708,6 +112852,24 @@
       "sourceSymbol": "MQY",
       "stooqSymbol": "mqy.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MRA",
+      "name": "GraniteShares Autocallable MARA ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares Autocallable MARA ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MRA",
+      "stooqSymbol": "mra.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -119264,14 +119426,14 @@
     },
     {
       "symbol": "NL",
-      "name": "NL Industries, Inc. Common Stock",
+      "name": "NLI Holdings, Inc. Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NL Industries, Inc. Common Stock"
+        "NLI Holdings, Inc. Common Stock"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -123151,6 +123313,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NXPX",
+      "name": "Tradr 2X Long NXPI Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long NXPI Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NXPX",
+      "stooqSymbol": "nxpx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NXRT",
       "name": "NexPoint Residential Trust, Inc. Common Stock",
       "type": "us_stock",
@@ -124267,20 +124447,20 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "OCTVV",
-      "name": "Octave Intelligence plc - Class B Ordinary Shares When Issued",
+      "symbol": "OCTV",
+      "name": "Octave Intelligence plc - Class B Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Octave Intelligence plc - Class B Ordinary Shares When Issued"
+        "Octave Intelligence plc - Class B Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "OCTVV",
-      "stooqSymbol": "octvv.us",
+      "sourceSymbol": "OCTV",
+      "stooqSymbol": "octv.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -126031,6 +126211,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ONX",
+      "name": "Tradr 2X Long ON Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long ON Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ONX",
+      "stooqSymbol": "onx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "OOMA",
       "name": "Ooma, Inc. Common Stock",
       "type": "us_stock",
@@ -127180,6 +127378,24 @@
       "sourceSymbol": "OSS",
       "stooqSymbol": "oss.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OSSL",
+      "name": "Defiance Daily Target 2X Long OSS ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Daily Target 2X Long OSS ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OSSL",
+      "stooqSymbol": "ossl.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -138091,6 +138307,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PWRL",
+      "name": "Powerlaw Corp. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Powerlaw Corp."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PWRL",
+      "stooqSymbol": "pwrl.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PWS",
       "name": "Pacer WealthShield ETF",
       "type": "us_etf",
@@ -145471,6 +145705,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RKTO",
+      "name": "Rocket One Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Rocket One Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RKTO",
+      "stooqSymbol": "rkto.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RL",
       "name": "Ralph Lauren Corporation Common Stock",
       "type": "us_stock",
@@ -150274,6 +150526,24 @@
       "sourceSymbol": "SBXE",
       "stooqSymbol": "sbxe.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SCA",
+      "name": "GraniteShares Autocallable SMCI ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares Autocallable SMCI ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SCA",
+      "stooqSymbol": "sca.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -155169,6 +155439,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SKY",
       "stooqSymbol": "sky.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SKYA",
+      "name": "SkyAI, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "SkyAI, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SKYA",
+      "stooqSymbol": "skya.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -161690,14 +161978,14 @@
     },
     {
       "symbol": "STBQ",
-      "name": "Amplify Stablecoin Technology ETF",
+      "name": "Amplify Stablecoin Technology Leaders ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Amplify Stablecoin Technology ETF"
+        "Amplify Stablecoin Technology Leaders ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -162478,24 +162766,6 @@
       "sourceSymbol": "STSM",
       "stooqSymbol": "stsm.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "STSS",
-      "name": "Sharps Technology Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Sharps Technology Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "STSS",
-      "stooqSymbol": "stss.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -168386,14 +168656,14 @@
     },
     {
       "symbol": "TKNQ",
-      "name": "Amplify Tokenization Technology ETF",
+      "name": "Amplify Tokenization Technology Leaders ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Amplify Tokenization Technology ETF"
+        "Amplify Tokenization Technology Leaders ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -175009,6 +175279,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "UGLD",
+      "name": "Direxion Daily Gold Bull 2X ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion Daily Gold Bull 2X ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "UGLD",
+      "stooqSymbol": "ugld.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "UGRO",
       "name": "urban-gro, Inc. - Common Stock",
       "type": "us_stock",
@@ -177183,6 +177471,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "USLN",
       "stooqSymbol": "usln.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "USLV",
+      "name": "Direxion Daily Silver Bull 2X ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion Daily Silver Bull 2X ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "USLV",
+      "stooqSymbol": "uslv.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -181863,24 +182169,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VRDN",
       "stooqSymbol": "vrdn.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "VRE",
-      "name": "Veris Residential, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Veris Residential, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VRE",
-      "stooqSymbol": "vre.us",
       "isETF": false,
       "dataQuality": "generated"
     },
