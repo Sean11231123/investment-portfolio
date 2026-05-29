@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-05-28T12:55:52.194170Z",
-  "count": 10755,
-  "stockCount": 5568,
-  "etfCount": 5187,
-  "skippedCount": 1941,
+  "generatedAt": "2026-05-29T12:36:20.217891Z",
+  "count": 10759,
+  "stockCount": 5569,
+  "etfCount": 5190,
+  "skippedCount": 1948,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -171,6 +171,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AACO",
       "stooqSymbol": "aaco.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AACP",
+      "name": "Apogee Acquisition Corp - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Apogee Acquisition Corp - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AACP",
+      "stooqSymbol": "aacp.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -1503,6 +1521,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ACFN",
       "stooqSymbol": "acfn.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACGC",
+      "name": "ACP Holdings Acquisition Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ACP Holdings Acquisition Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACGC",
+      "stooqSymbol": "acgc.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -7807,24 +7843,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "AMWD",
-      "name": "American Woodmark Corporation - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "American Woodmark Corporation"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AMWD",
-      "stooqSymbol": "amwd.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "AMWL",
       "name": "American Well Corporation Class A Common Stock",
       "type": "us_stock",
@@ -9945,6 +9963,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ARCI",
       "stooqSymbol": "arci.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ARCL",
+      "name": "ARC Group Acquisition I Corp - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ARC Group Acquisition I Corp - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ARCL",
+      "stooqSymbol": "arcl.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -39901,24 +39937,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CVGW",
-      "name": "Calavo Growers, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Calavo Growers, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CVGW",
-      "stooqSymbol": "cvgw.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CVI",
       "name": "CVR Energy Inc. Common Stock",
       "type": "us_stock",
@@ -65623,6 +65641,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FOTO",
+      "name": "Tuttle Capital Pure Play Photonics ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tuttle Capital Pure Play Photonics ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FOTO",
+      "stooqSymbol": "foto.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FOUR",
       "name": "Shift4 Payments, Inc. Class A Common Stock",
       "type": "us_stock",
@@ -90963,6 +90999,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ISTB",
       "stooqSymbol": "istb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ISTM",
+      "name": "iShares Strategic Metals ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "iShares Strategic Metals ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ISTM",
+      "stooqSymbol": "istm.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -123151,6 +123205,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NXB",
+      "name": "NextBoat Inc. Common Stcok",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "NextBoat Inc. Common Stcok"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NXB",
+      "stooqSymbol": "nxb.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NXDR",
       "name": "Nextdoor Holdings, Inc. Class A Common Stock",
       "type": "us_stock",
@@ -127540,24 +127612,6 @@
       "sourceSymbol": "OTGL",
       "stooqSymbol": "otgl.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "OTH",
-      "name": "Off The Hook YS Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Off The Hook YS Inc. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "OTH",
-      "stooqSymbol": "oth.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -137768,16 +137822,16 @@
     },
     {
       "symbol": "PTN",
-      "name": "Palatin Technologies, Inc. Common Stock",
+      "name": "Palatin Technologies, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Palatin Technologies, Inc. Common Stock"
+        "Palatin Technologies, Inc."
       ],
-      "exchange": "NYSEAMERICAN",
+      "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PTN",
       "stooqSymbol": "ptn.us",
@@ -167017,6 +167071,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TEUP",
+      "name": "T-REX 2X Long TE Daily Target ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T-REX 2X Long TE Daily Target ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TEUP",
+      "stooqSymbol": "teup.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TEX",
       "name": "Terex Corporation Common Stock",
       "type": "us_stock",
@@ -169335,24 +169407,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TMED",
       "stooqSymbol": "tmed.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TMET",
-      "name": "iShares Transition-Enabling Metals ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "iShares Transition-Enabling Metals ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TMET",
-      "stooqSymbol": "tmet.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -179073,6 +179127,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VBK",
       "stooqSymbol": "vbk.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VBNB",
+      "name": "VanEck BNB ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VanEck BNB ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VBNB",
+      "stooqSymbol": "vbnb.us",
       "isETF": true,
       "dataQuality": "generated"
     },
