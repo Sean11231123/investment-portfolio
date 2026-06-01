@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-05-29T12:36:20.217891Z",
-  "count": 10759,
-  "stockCount": 5569,
-  "etfCount": 5190,
-  "skippedCount": 1948,
+  "generatedAt": "2026-06-01T15:44:38.329167Z",
+  "count": 10766,
+  "stockCount": 5571,
+  "etfCount": 5195,
+  "skippedCount": 1947,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -4082,14 +4082,14 @@
     },
     {
       "symbol": "AGIX",
-      "name": "KraneShares Artificial Intelligence & Technology ETF",
+      "name": "KraneShares Public-Private AI & Technology ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "KraneShares Artificial Intelligence & Technology ETF"
+        "KraneShares Public-Private AI & Technology ETF"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -11169,6 +11169,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ASCI",
       "stooqSymbol": "asci.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ASD",
+      "name": "Defiance Autism Impact ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Autism Impact ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ASD",
+      "stooqSymbol": "asd.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -18661,6 +18679,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BGCG",
+      "name": "Baillie Gifford International Concentrated Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Baillie Gifford International Concentrated Growth ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BGCG",
+      "stooqSymbol": "bgcg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BGDE",
       "name": "Big Digital Energy, Inc. - Common Stock",
       "type": "us_stock",
@@ -18693,6 +18729,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BGDV",
       "stooqSymbol": "bgdv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BGGG",
+      "name": "Baillie Gifford Long Term Global Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Baillie Gifford Long Term Global Growth ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BGGG",
+      "stooqSymbol": "bggg.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -42439,6 +42493,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DDFZ",
+      "name": "Innovator Equity Dual Directional 15 Buffer ETF - June",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Innovator Equity Dual Directional 15 Buffer ETF - June"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DDFZ",
+      "stooqSymbol": "ddfz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DDI",
       "name": "DoubleDown Interactive Co., Ltd. - American Depository Shares",
       "type": "us_stock",
@@ -42777,6 +42849,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DDTY",
       "stooqSymbol": "ddty.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DDTZ",
+      "name": "Innovator Equity Dual Directional 10 Buffer ETF - June",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Innovator Equity Dual Directional 10 Buffer ETF - June"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DDTZ",
+      "stooqSymbol": "ddtz.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -52898,14 +52988,14 @@
     },
     {
       "symbol": "EMCS",
-      "name": "Xtrackers MSCI Emerging Markets Climate Selection ETF",
+      "name": "Xtrackers MSCI Emerging Markets Select ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Xtrackers MSCI Emerging Markets Climate Selection ETF"
+        "Xtrackers MSCI Emerging Markets Select ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -53042,14 +53132,14 @@
     },
     {
       "symbol": "EMET",
-      "name": "VanEck Copper and Green Metals ETF",
+      "name": "VanEck Copper and Electrification Metals ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "VanEck Copper and Green Metals ETF"
+        "VanEck Copper and Electrification Metals ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -60615,6 +60705,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FDX",
       "stooqSymbol": "fdx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FDXF",
+      "name": "FedEx Freight Holding Company, Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FedEx Freight Holding Company, Inc. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FDXF",
+      "stooqSymbol": "fdxf.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -99122,14 +99230,14 @@
     },
     {
       "symbol": "KPHO",
-      "name": "KraneShares Dragon Capital Vietnam Growth Index ETF",
+      "name": "KraneShares Dragon Capital Growth of Vietnam Index ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "KraneShares Dragon Capital Vietnam Growth Index ETF"
+        "KraneShares Dragon Capital Growth of Vietnam Index ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -102933,6 +103041,42 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LILAK",
       "stooqSymbol": "lilak.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LILAV",
+      "name": "Liberty Latin America Ltd - Class A Common Stock Ex-Distribution When Issued",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Liberty Latin America Ltd - Class A Common Stock Ex-Distribution When Issued"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LILAV",
+      "stooqSymbol": "lilav.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LILKV",
+      "name": "Liberty Latin America Ltd - Class C Common Stock Ex-Distribution When Issued",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Liberty Latin America Ltd - Class C Common Stock Ex-Distribution When Issued"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LILKV",
+      "stooqSymbol": "lilkv.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -122845,24 +122989,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "NVRI",
-      "name": "Enviri Corporation Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Enviri Corporation Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NVRI",
-      "stooqSymbol": "nvri.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "NVS",
       "name": "Novartis AG Common Stock",
       "type": "us_stock",
@@ -139909,6 +140035,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "QH",
+      "name": "Quhuo Limited - American Depository Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Quhuo Limited - American Depository Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QH",
+      "stooqSymbol": "qh.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "QHDG",
       "name": "Innovator Hedged Nasdaq-100 ETF",
       "type": "us_etf",
@@ -145184,14 +145328,14 @@
     },
     {
       "symbol": "RIGS",
-      "name": "RiverFront Strategic Income Fund",
+      "name": "ALPS Strategic Income Fund",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "RiverFront Strategic Income Fund"
+        "ALPS Strategic Income Fund"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -147650,14 +147794,14 @@
     },
     {
       "symbol": "RSHO",
-      "name": "Tema American Reshoring ETF",
+      "name": "Tema U.S. Manufacturing & Reshoring ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Tema American Reshoring ETF"
+        "Tema U.S. Manufacturing & Reshoring ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -167967,24 +168111,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "THQ",
       "stooqSymbol": "thq.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "THR",
-      "name": "Thermon Group Holdings, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Thermon Group Holdings, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "THR",
-      "stooqSymbol": "thr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
