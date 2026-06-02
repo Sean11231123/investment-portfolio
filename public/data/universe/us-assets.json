@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-01T15:44:38.329167Z",
-  "count": 10766,
-  "stockCount": 5571,
-  "etfCount": 5195,
-  "skippedCount": 1947,
+  "generatedAt": "2026-06-02T13:02:54.433413Z",
+  "count": 10782,
+  "stockCount": 5570,
+  "etfCount": 5212,
+  "skippedCount": 1946,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -99,6 +99,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AAAC",
       "stooqSymbol": "aaac.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AAAD",
+      "name": "PGIM AAA CLO Aggregate Duration ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "PGIM AAA CLO Aggregate Duration ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AAAD",
+      "stooqSymbol": "aaad.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -1215,24 +1233,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ABVC",
       "stooqSymbol": "abvc.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ABVE",
-      "name": "Above Food Ingredients Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Above Food Ingredients Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ABVE",
-      "stooqSymbol": "abve.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -5211,6 +5211,42 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AIQ",
       "stooqSymbol": "aiq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AIQD",
+      "name": "MicroSectors -3? Short Artificial Intelligence (AI) ETNs",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors -3? Short Artificial Intelligence (AI) ETNs"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AIQD",
+      "stooqSymbol": "aiqd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AIQU",
+      "name": "MicroSectors 3? Long Artificial Intelligence (AI) ETNs",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors 3? Long Artificial Intelligence (AI) ETNs"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AIQU",
+      "stooqSymbol": "aiqu.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -32773,6 +32809,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CJUN",
+      "name": "Corgi U.S. Equities 15% Structured Buffer ETF - June Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 15% Structured Buffer ETF - June Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CJUN",
+      "stooqSymbol": "cjun.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CKX",
       "name": "CKX Lands, Inc. Common Stock",
       "type": "us_stock",
@@ -39235,6 +39289,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CTJN",
+      "name": "Corgi U.S. Equities 30% Structured Buffer ETF - June Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 30% Structured Buffer ETF - June Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CTJN",
+      "stooqSymbol": "ctjn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CTKB",
       "name": "Cytek Biosciences, Inc. - Common Stock",
       "type": "us_stock",
@@ -42116,14 +42188,14 @@
     },
     {
       "symbol": "DCOM",
-      "name": "Dime Community Bancshares, Inc. Common Stock",
+      "name": "Dime Commercial Bancshares, Inc. Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Dime Community Bancshares, Inc. Common Stock"
+        "Dime Commercial Bancshares, Inc. Common Stock"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -53275,6 +53347,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "EMJN",
+      "name": "Corgi Emerging Markets Equities 15% Structured Buffer ETF - June Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Emerging Markets Equities 15% Structured Buffer ETF - June Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EMJN",
+      "stooqSymbol": "emjn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "EMKT",
       "name": "Lazard Emerging Markets Opportunities ETF",
       "type": "us_etf",
@@ -61678,24 +61768,6 @@
       "sourceSymbol": "FFGX",
       "stooqSymbol": "ffgx.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "FFIC",
-      "name": "Flushing Financial Corporation - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Flushing Financial Corporation"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FFIC",
-      "stooqSymbol": "ffic.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -77935,6 +78007,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HBMX",
+      "name": "Tuttle Capital Concentrated Memory Stack ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tuttle Capital Concentrated Memory Stack ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HBMX",
+      "stooqSymbol": "hbmx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HBNB",
       "name": "Hotel101 Global Holdings Corp. - Class A Ordinary Shares",
       "type": "us_stock",
@@ -79839,6 +79929,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "HIYY",
       "stooqSymbol": "hiyy.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HJUN",
+      "name": "Corgi U.S. Equities 100% Structured Buffer ETF - June Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 100% Structured Buffer ETF - June Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HJUN",
+      "stooqSymbol": "hjun.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -85419,6 +85527,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IDHQ",
       "stooqSymbol": "idhq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IDJN",
+      "name": "Corgi International Developed Equities 15% Structured Buffer ETF - June Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi International Developed Equities 15% Structured Buffer ETF - June Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IDJN",
+      "stooqSymbol": "idjn.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -96327,6 +96453,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "JULZ",
       "stooqSymbol": "julz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "JUNC",
+      "name": "Corgi U.S. Equities 10% Structured Buffer ETF - June Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 10% Structured Buffer ETF - June Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JUNC",
+      "stooqSymbol": "junc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -122989,6 +123133,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NVRI",
+      "name": "Enviri Corporation Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Enviri Corporation Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NVRI",
+      "stooqSymbol": "nvri.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NVS",
       "name": "Novartis AG Common Stock",
       "type": "us_stock",
@@ -123472,6 +123634,24 @@
       "sourceSymbol": "NXP",
       "stooqSymbol": "nxp.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NXPG",
+      "name": "Leverage Shares 2X Long NXPI Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long NXPI Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NXPG",
+      "stooqSymbol": "nxpg.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -126262,6 +126442,24 @@
       "sourceSymbol": "ONFO",
       "stooqSymbol": "onfo.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ONG",
+      "name": "Leverage Shares 2X Long ON Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long ON Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ONG",
+      "stooqSymbol": "ong.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -140179,6 +140377,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "QJN",
+      "name": "Corgi Growth & Technology 10% Structured Buffer ETF - June Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Growth & Technology 10% Structured Buffer ETF - June Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QJN",
+      "stooqSymbol": "qjn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "QJUN",
       "name": "FT Vest Nasdaq-100 Buffer ETF - June",
       "type": "us_etf",
@@ -140787,6 +141003,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "QQHG",
       "stooqSymbol": "qqhg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QQJN",
+      "name": "Corgi Growth & Technology 15% Structured Buffer ETF - June Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Growth & Technology 15% Structured Buffer ETF - June Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QQJN",
+      "stooqSymbol": "qqjn.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -142336,6 +142570,24 @@
       "sourceSymbol": "RACE",
       "stooqSymbol": "race.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RACK",
+      "name": "VanEck Data Center Supply Chain ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VanEck Data Center Supply Chain ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RACK",
+      "stooqSymbol": "rack.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -151371,6 +151623,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SCJ",
       "stooqSymbol": "scj.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SCJN",
+      "name": "Corgi U.S. Small-Cap 15% Structured Buffer ETF - June Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Small-Cap 15% Structured Buffer ETF - June Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SCJN",
+      "stooqSymbol": "scjn.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -182623,24 +182893,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "VSCO",
-      "name": "Victorias Secret & Co. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Victorias Secret & Co. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VSCO",
-      "stooqSymbol": "vsco.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "VSDA",
       "name": "VictoryShares Dividend Accelerator ETF",
       "type": "us_etf",
@@ -182979,6 +183231,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VSTS",
       "stooqSymbol": "vsts.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VSXY",
+      "name": "Victorias Secret & Co. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Victorias Secret & Co. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VSXY",
+      "stooqSymbol": "vsxy.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -193006,6 +193276,24 @@
       "sourceSymbol": "ZIM",
       "stooqSymbol": "zim.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZINC",
+      "name": "Zacks Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Zacks Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ZINC",
+      "stooqSymbol": "zinc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
