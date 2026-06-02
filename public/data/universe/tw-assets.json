@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-05-28T12:43:31.902816Z",
-  "count": 2233,
-  "twseCount": 1230,
+  "generatedAt": "2026-06-02T12:50:24.431216Z",
+  "count": 2236,
+  "twseCount": 1233,
   "tpexOtcCount": 1003,
   "tpexOtcSourceCount": 1003,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2233,
+  "metadataEnrichedCount": 2236,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -56,6 +56,28 @@
       "classificationConfidence": "high"
     },
     {
+      "symbol": "00402A",
+      "name": "主動安聯美國科技",
+      "type": "taiwan_etf",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "twse",
+      "aliases": [
+        "主動安聯美國科技"
+      ],
+      "exchange": "TWSE",
+      "marketSegment": "listed",
+      "source": "twse-isin",
+      "sourceSymbol": "00402A",
+      "isETF": true,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "etf",
+      "classificationSource": "twse_isin",
+      "classificationConfidence": "high"
+    },
+    {
       "symbol": "00403A",
       "name": "主動統一升級50",
       "type": "taiwan_etf",
@@ -70,6 +92,50 @@
       "marketSegment": "listed",
       "source": "twse-isin",
       "sourceSymbol": "00403A",
+      "isETF": true,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "etf",
+      "classificationSource": "twse_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "00404A",
+      "name": "主動聯博動能50",
+      "type": "taiwan_etf",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "twse",
+      "aliases": [
+        "主動聯博動能50"
+      ],
+      "exchange": "TWSE",
+      "marketSegment": "listed",
+      "source": "twse-isin",
+      "sourceSymbol": "00404A",
+      "isETF": true,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "etf",
+      "classificationSource": "twse_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "00405A",
+      "name": "主動富邦台灣龍耀",
+      "type": "taiwan_etf",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "twse",
+      "aliases": [
+        "主動富邦台灣龍耀"
+      ],
+      "exchange": "TWSE",
+      "marketSegment": "listed",
+      "source": "twse-isin",
+      "sourceSymbol": "00405A",
       "isETF": true,
       "dataQuality": "generated",
       "board": "main",
