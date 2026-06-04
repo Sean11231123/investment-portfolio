@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-03T14:16:59.352544Z",
-  "count": 10827,
-  "stockCount": 5571,
-  "etfCount": 5256,
+  "generatedAt": "2026-06-04T12:33:25.552732Z",
+  "count": 10839,
+  "stockCount": 5572,
+  "etfCount": 5267,
   "skippedCount": 1950,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -23971,6 +23971,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BRSM",
+      "name": "MFS Blended Research Small-Mid Cap ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MFS Blended Research Small-Mid Cap ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BRSM",
+      "stooqSymbol": "brsm.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BRSP",
       "name": "BrightSpire Capital, Inc. Class A Common Stock",
       "type": "us_stock",
@@ -25101,6 +25119,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BTCI",
       "stooqSymbol": "btci.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BTCK",
+      "name": "7RCC Spot Bitcoin and Carbon Credit Futures ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "7RCC Spot Bitcoin and Carbon Credit Futures ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BTCK",
+      "stooqSymbol": "btck.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -28453,6 +28489,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CBIL",
+      "name": "Corgi 3-12 Month T-Bill ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi 3-12 Month T-Bill ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CBIL",
+      "stooqSymbol": "cbil.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CBIO",
       "name": "Crescent Biopharma, Inc. - Common Stock",
       "type": "us_stock",
@@ -31531,6 +31585,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CGOV",
+      "name": "Corgi 0-3 Month T-Bill ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi 0-3 Month T-Bill ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CGOV",
+      "stooqSymbol": "cgov.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CGRO",
       "name": "CoreValues Alpha Greater China Growth ETF",
       "type": "us_etf",
@@ -32467,6 +32539,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CHYG",
+      "name": "Corgi 0-5 Year High Yield Corporate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi 0-5 Year High Yield Corporate Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CHYG",
+      "stooqSymbol": "chyg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CHYM",
       "name": "Chime Financial, Inc. - Class A Common Stock",
       "type": "us_stock",
@@ -32553,6 +32643,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CIEG",
       "stooqSymbol": "cieg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CIEI",
+      "name": "Corgi 3-7 Year Treasury Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi 3-7 Year Treasury Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CIEI",
+      "stooqSymbol": "ciei.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -32878,6 +32986,24 @@
       "sourceSymbol": "CIVB",
       "stooqSymbol": "civb.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CIVG",
+      "name": "Corgi 1-5 Year Investment Grade Corporate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi 1-5 Year Investment Grade Corporate Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CIVG",
+      "stooqSymbol": "civg.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -39987,6 +40113,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CUSD",
       "stooqSymbol": "cusd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CUST",
+      "name": "Corgi 1-3 Year Treasury Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi 1-3 Year Treasury Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CUST",
+      "stooqSymbol": "cust.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -56605,6 +56749,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ETSS",
+      "name": "Energy Transition Special Opportunities Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Energy Transition Special Opportunities Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ETSS",
+      "stooqSymbol": "etss.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ETSY",
       "name": "Etsy, Inc. Common Stock",
       "type": "us_stock",
@@ -65839,24 +66001,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "FONR",
-      "name": "Fonar Corporation - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Fonar Corporation"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FONR",
-      "stooqSymbol": "fonr.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "FOPC",
       "name": "Frontier Asset Opportunistic Credit ETF",
       "type": "us_etf",
@@ -73867,24 +74011,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "GMUN",
-      "name": "Goldman Sachs Access Municipal Bond ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Goldman Sachs Access Municipal Bond ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GMUN",
-      "stooqSymbol": "gmun.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "GNE",
       "name": "Genie Energy Ltd. Class B Common Stock Stock",
       "type": "us_stock",
@@ -76077,24 +76203,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GSIE",
       "stooqSymbol": "gsie.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "GSIG",
-      "name": "Goldman Sachs Access Investment Grade Corporate 1-5 Year Bond ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Goldman Sachs Access Investment Grade Corporate 1-5 Year Bond ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GSIG",
-      "stooqSymbol": "gsig.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -83313,24 +83421,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "HZO",
       "stooqSymbol": "hzo.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "IAC",
-      "name": "IAC Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "IAC Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IAC",
-      "stooqSymbol": "iac.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -111343,6 +111433,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MIVL",
+      "name": "MFS Active International Value ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MFS Active International Value ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MIVL",
+      "stooqSymbol": "mivl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MIY",
       "name": "Blackrock MuniYield Michigan Quality Fund, Inc. Common Stock",
       "type": "us_stock",
@@ -135909,6 +136017,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PPL",
       "stooqSymbol": "ppl.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PPLI",
+      "name": "People Incorporated - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "People Incorporated"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PPLI",
+      "stooqSymbol": "ppli.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -162373,6 +162499,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SSMR",
+      "name": "Sunshine Silver Mining & Refining Company Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Sunshine Silver Mining & Refining Company Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SSMR",
+      "stooqSymbol": "ssmr.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SSNC",
       "name": "SS&C Technologies Holdings, Inc. - Common Stock",
       "type": "us_stock",
@@ -180013,6 +180157,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "VCHY",
+      "name": "Vanguard U.S. High-Yield Corporate Bond Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Vanguard U.S. High-Yield Corporate Bond Index ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VCHY",
+      "stooqSymbol": "vchy.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "VCIG",
       "name": "VCI Global Limited - Ordinary Share",
       "type": "us_stock",
@@ -180550,6 +180712,24 @@
       "sourceSymbol": "VEL",
       "stooqSymbol": "vel.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VELL",
+      "name": "Defiance Daily Target 2X Long VELO ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Daily Target 2X Long VELO ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VELL",
+      "stooqSymbol": "vell.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -188383,6 +188563,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "WYFL",
+      "name": "Defiance Daily Target 2X Long WYFI ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Daily Target 2X Long WYFI ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WYFL",
+      "stooqSymbol": "wyfl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "WYNN",
       "name": "Wynn Resorts, Limited - Common Stock",
       "type": "us_stock",
@@ -192591,6 +192789,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "YCL",
       "stooqSymbol": "ycl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YCLO",
+      "name": "Franklin BSP CLO ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Franklin BSP CLO ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YCLO",
+      "stooqSymbol": "yclo.us",
       "isETF": true,
       "dataQuality": "generated"
     },
