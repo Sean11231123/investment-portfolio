@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-06-02T12:50:24.431216Z",
-  "count": 2236,
-  "twseCount": 1233,
-  "tpexOtcCount": 1003,
-  "tpexOtcSourceCount": 1003,
+  "generatedAt": "2026-06-04T12:15:12.367267Z",
+  "count": 2238,
+  "twseCount": 1234,
+  "tpexOtcCount": 1004,
+  "tpexOtcSourceCount": 1004,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2236,
+  "metadataEnrichedCount": 2238,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -136,6 +136,28 @@
       "marketSegment": "listed",
       "source": "twse-isin",
       "sourceSymbol": "00405A",
+      "isETF": true,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "etf",
+      "classificationSource": "twse_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "00406A",
+      "name": "主動中信台灣收益",
+      "type": "taiwan_etf",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "twse",
+      "aliases": [
+        "主動中信台灣收益"
+      ],
+      "exchange": "TWSE",
+      "marketSegment": "listed",
+      "source": "twse-isin",
+      "sourceSymbol": "00406A",
       "isETF": true,
       "dataQuality": "generated",
       "board": "main",
@@ -42931,6 +42953,28 @@
       "board": "main",
       "securityType": "stock",
       "classificationSource": "twse_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "6945",
+      "name": "圓祥生技",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "圓祥生技"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "6945",
+      "isETF": false,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "stock",
+      "classificationSource": "tpex_isin",
       "classificationConfidence": "high"
     },
     {
