@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-04T12:33:25.552732Z",
-  "count": 10839,
-  "stockCount": 5572,
-  "etfCount": 5267,
-  "skippedCount": 1950,
+  "generatedAt": "2026-06-05T12:28:02.260947Z",
+  "count": 10845,
+  "stockCount": 5577,
+  "etfCount": 5268,
+  "skippedCount": 1955,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -88897,6 +88897,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "INFH",
+      "name": "Defiance Daily Target 2X Long INFQ ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Daily Target 2X Long INFQ ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "INFH",
+      "stooqSymbol": "infh.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "INFL",
       "name": "Horizon Kinetics Inflation Beneficiaries ETF",
       "type": "us_etf",
@@ -89055,6 +89073,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "INHD",
       "stooqSymbol": "inhd.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "INIO",
+      "name": "INNIO N.V. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "INNIO N.V. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "INIO",
+      "stooqSymbol": "inio.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -102807,6 +102843,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LFT",
       "stooqSymbol": "lft.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LFTO",
+      "name": "Liftoff Mobile, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Liftoff Mobile, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LFTO",
+      "stooqSymbol": "lfto.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -125779,6 +125833,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "OHAC",
+      "name": "Oceanhawk Acquisition Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Oceanhawk Acquisition Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OHAC",
+      "stooqSymbol": "ohac.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "OHI",
       "name": "Omega Healthcare Investors, Inc. Common Stock",
       "type": "us_stock",
@@ -131125,6 +131197,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PCPP",
+      "name": "Porter & Company Porter Portfolio Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Porter & Company Porter Portfolio Index ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PCPP",
+      "stooqSymbol": "pcpp.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PCQ",
       "name": "PIMCO California Municipal Income Fund Common Stock",
       "type": "us_stock",
@@ -131751,6 +131841,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PEBO",
       "stooqSymbol": "pebo.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PECE",
+      "name": "Peace Acquisition Corp - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Peace Acquisition Corp - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PECE",
+      "stooqSymbol": "pece.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -141241,6 +141349,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "QNT",
+      "name": "Quantinuum Inc. - Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Quantinuum Inc. - Class A Common Stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QNT",
+      "stooqSymbol": "qnt.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "QNTM",
       "name": "Quantum Biopharma Ltd. - Class B Subordinate Voting Shares",
       "type": "us_stock",
@@ -150152,14 +150278,14 @@
     },
     {
       "symbol": "SA",
-      "name": "Seabridge Gold, Inc. Ordinary Shares (Canada)",
+      "name": "Seabridge Gold, Inc. Common Shares New",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Seabridge Gold, Inc. Ordinary Shares (Canada)"
+        "Seabridge Gold, Inc. Common Shares New"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -157240,24 +157366,6 @@
       "sourceSymbol": "SMA",
       "stooqSymbol": "sma.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SMAP",
-      "name": "Amplify Small-Mid Cap Equity ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Amplify Small-Mid Cap Equity ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SMAP",
-      "stooqSymbol": "smap.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
