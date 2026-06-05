@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-06-04T12:15:12.367267Z",
-  "count": 2238,
+  "generatedAt": "2026-06-05T12:18:42.639179Z",
+  "count": 2237,
   "twseCount": 1234,
-  "tpexOtcCount": 1004,
-  "tpexOtcSourceCount": 1004,
+  "tpexOtcCount": 1003,
+  "tpexOtcSourceCount": 1003,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2238,
+  "metadataEnrichedCount": 2237,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -22999,28 +22999,6 @@
       "board": "main",
       "securityType": "stock",
       "classificationSource": "twse_isin",
-      "classificationConfidence": "high"
-    },
-    {
-      "symbol": "3426",
-      "name": "台興",
-      "type": "taiwan_stock",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "股",
-      "priceSource": "tpex_otc",
-      "aliases": [
-        "台興"
-      ],
-      "exchange": "TPEX",
-      "marketSegment": "otc",
-      "source": "tpex-isin",
-      "sourceSymbol": "3426",
-      "isETF": false,
-      "dataQuality": "generated",
-      "board": "main",
-      "securityType": "stock",
-      "classificationSource": "tpex_isin",
       "classificationConfidence": "high"
     },
     {
