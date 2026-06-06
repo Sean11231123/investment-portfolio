@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-06-04T13:32:10.688202Z",
+  "generatedAt": "2026-06-06T11:45:02.092748Z",
   "count": 419,
   "binanceCount": 419,
-  "coingeckoMatchedCount": 249,
-  "ambiguousCount": 163,
+  "coingeckoMatchedCount": 250,
+  "ambiguousCount": 162,
   "skippedCount": 3172,
   "assets": [
     {
@@ -788,19 +788,20 @@
     },
     {
       "symbol": "ATOM",
-      "name": "ATOM",
+      "name": "Cosmos Hub",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "ATOM"
+        "Cosmos Hub"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "ATOMUSDT",
       "binanceSymbol": "ATOMUSDT",
+      "coingeckoId": "cosmos",
       "dataQuality": "generated"
     },
     {
