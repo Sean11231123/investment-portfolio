@@ -2,64 +2,69 @@
   "version": 1,
   "market": "US",
   "source": "stooq",
-  "generatedAt": "2026-06-05T23:44:22.345Z",
-  "tradeDate": "2026-06-05",
+  "generatedAt": "2026-06-08T23:44:18.748Z",
+  "tradeDate": null,
   "currency": "USD",
   "quotes": {
     "AAPL": {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "price": 307.55661,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "aapl.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "aapl.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "MSFT": {
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
-      "price": 416.69,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "msft.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "msft.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "NVDA": {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 205.1,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "nvda.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "nvda.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "TSLA": {
       "symbol": "TSLA",
       "name": "Tesla Inc.",
-      "price": 390.81,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "tsla.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "tsla.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "META": {
       "symbol": "META",
       "name": "Meta Platforms, Inc.",
-      "price": 592.68,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "meta.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "meta.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "AMD": {
       "symbol": "AMD",
@@ -68,10 +73,10 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "amd.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "AVGO": {
       "symbol": "AVGO",
@@ -80,10 +85,10 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "avgo.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "AMZN": {
       "symbol": "AMZN",
@@ -92,21 +97,22 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "amzn.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "GOOGL": {
       "symbol": "GOOGL",
       "name": "Alphabet Inc. Class A",
-      "price": 368.8,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "googl.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "googl.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "GOOG": {
       "symbol": "GOOG",
@@ -115,21 +121,22 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "goog.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "NFLX": {
       "symbol": "NFLX",
       "name": "Netflix, Inc.",
-      "price": 82.21,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "nflx.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "nflx.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "PLTR": {
       "symbol": "PLTR",
@@ -138,21 +145,22 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "pltr.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "JPM": {
       "symbol": "JPM",
       "name": "JPMorgan Chase & Co.",
-      "price": 312.37,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "jpm.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "jpm.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "BAC": {
       "symbol": "BAC",
@@ -161,10 +169,10 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "bac.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "WMT": {
       "symbol": "WMT",
@@ -173,32 +181,34 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "wmt.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "COST": {
       "symbol": "COST",
       "name": "Costco Wholesale Corporation",
-      "price": 971.87,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "cost.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "cost.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "UNH": {
       "symbol": "UNH",
       "name": "UnitedHealth Group Incorporated",
-      "price": 399.47,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "unh.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "unh.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "XOM": {
       "symbol": "XOM",
@@ -207,32 +217,34 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "xom.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "CVX": {
       "symbol": "CVX",
       "name": "Chevron Corporation",
-      "price": 187.31,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "cvx.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "cvx.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "KO": {
       "symbol": "KO",
       "name": "The Coca-Cola Company",
-      "price": 79.48,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "ko.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "ko.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "PEP": {
       "symbol": "PEP",
@@ -241,10 +253,10 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "pep.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "MCD": {
       "symbol": "MCD",
@@ -253,76 +265,82 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "mcd.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "DIS": {
       "symbol": "DIS",
       "name": "The Walt Disney Company",
-      "price": 99.71,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "dis.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "dis.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "CRM": {
       "symbol": "CRM",
       "name": "Salesforce, Inc.",
-      "price": 185.66,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "crm.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "crm.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "ORCL": {
       "symbol": "ORCL",
       "name": "Oracle Corporation",
-      "price": 213.68,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "orcl.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "orcl.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "INTC": {
       "symbol": "INTC",
       "name": "Intel Corporation",
-      "price": 98.95,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "intc.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "intc.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "TSM": {
       "symbol": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Company Limited ADR",
-      "price": 415.17,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "tsm.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "tsm.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "ASML": {
       "symbol": "ASML",
       "name": "ASML Holding N.V. ADR",
-      "price": 1640.91,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "asml.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "asml.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "VOO": {
       "symbol": "VOO",
@@ -331,10 +349,10 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "voo.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "SPY": {
       "symbol": "SPY",
@@ -343,32 +361,34 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "spy.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "QQQ": {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust",
-      "price": 705.41,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "qqq.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "qqq.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "VT": {
       "symbol": "VT",
       "name": "Vanguard Total World Stock ETF",
-      "price": 153.645,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "vt.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "vt.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "VTI": {
       "symbol": "VTI",
@@ -377,21 +397,22 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "vti.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "SCHD": {
       "symbol": "SCHD",
       "name": "Schwab U.S. Dividend Equity ETF",
-      "price": 32.295,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "schd.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "schd.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "IWM": {
       "symbol": "IWM",
@@ -400,32 +421,34 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "iwm.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "TLT": {
       "symbol": "TLT",
       "name": "iShares 20+ Year Treasury Bond ETF",
-      "price": 85.06,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "tlt.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "tlt.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "DIA": {
       "symbol": "DIA",
       "name": "SPDR Dow Jones Industrial Average ETF Trust",
-      "price": 509.655,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "dia.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "dia.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "XLE": {
       "symbol": "XLE",
@@ -434,32 +457,34 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "xle.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "XLK": {
       "symbol": "XLK",
       "name": "Technology Select Sector SPDR Fund",
-      "price": 180.3,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "xlk.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "xlk.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "XLF": {
       "symbol": "XLF",
       "name": "Financial Select Sector SPDR Fund",
-      "price": 52.3,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "xlf.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "xlf.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "XLY": {
       "symbol": "XLY",
@@ -468,32 +493,34 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "xly.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "XLP": {
       "symbol": "XLP",
       "name": "Consumer Staples Select Sector SPDR Fund",
-      "price": 83.46,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "xlp.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "xlp.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "XLV": {
       "symbol": "XLV",
       "name": "Health Care Select Sector SPDR Fund",
-      "price": 153.01,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "xlv.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "xlv.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "XLI": {
       "symbol": "XLI",
@@ -502,54 +529,58 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "xli.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "XLU": {
       "symbol": "XLU",
       "name": "Utilities Select Sector SPDR Fund",
-      "price": 44.36,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "xlu.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "xlu.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "XLRE": {
       "symbol": "XLRE",
       "name": "Real Estate Select Sector SPDR Fund",
-      "price": 44.72,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "xlre.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "xlre.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "ARKK": {
       "symbol": "ARKK",
       "name": "ARK Innovation ETF",
-      "price": 74.55,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "arkk.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "arkk.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "SMH": {
       "symbol": "SMH",
       "name": "VanEck Semiconductor ETF",
-      "price": 569.73,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "smh.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "smh.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "SOXX": {
       "symbol": "SOXX",
@@ -558,10 +589,10 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "soxx.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "GLD": {
       "symbol": "GLD",
@@ -570,10 +601,10 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "gld.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "SLV": {
       "symbol": "SLV",
@@ -582,32 +613,34 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "slv.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "HYG": {
       "symbol": "HYG",
       "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
-      "price": 79.44,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "hyg.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "hyg.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "LQD": {
       "symbol": "LQD",
       "name": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
-      "price": 108.17,
+      "price": null,
       "currency": "USD",
       "source": "static-us-market-json",
-      "tradeDate": "2026-06-05",
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
-      "status": "ok",
-      "stooqSymbol": "lqd.us"
+      "tradeDate": null,
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
+      "status": "unavailable",
+      "stooqSymbol": "lqd.us",
+      "error": "HTTP Error 404: Not Found"
     },
     "BND": {
       "symbol": "BND",
@@ -616,10 +649,10 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "bnd.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     },
     "AGG": {
       "symbol": "AGG",
@@ -628,34 +661,67 @@
       "currency": "USD",
       "source": "static-us-market-json",
       "tradeDate": null,
-      "lastUpdated": "2026-06-05T23:44:22.345Z",
+      "lastUpdated": "2026-06-08T23:44:18.748Z",
       "status": "unavailable",
       "stooqSymbol": "agg.us",
-      "error": "Stooq close price unavailable: None"
+      "error": "HTTP Error 404: Not Found"
     }
   },
   "errors": [
-    "AMD: Stooq close price unavailable: None",
-    "AVGO: Stooq close price unavailable: None",
-    "AMZN: Stooq close price unavailable: None",
-    "GOOG: Stooq close price unavailable: None",
-    "PLTR: Stooq close price unavailable: None",
-    "BAC: Stooq close price unavailable: None",
-    "WMT: Stooq close price unavailable: None",
-    "XOM: Stooq close price unavailable: None",
-    "PEP: Stooq close price unavailable: None",
-    "MCD: Stooq close price unavailable: None",
-    "VOO: Stooq close price unavailable: None",
-    "SPY: Stooq close price unavailable: None",
-    "VTI: Stooq close price unavailable: None",
-    "IWM: Stooq close price unavailable: None",
-    "XLE: Stooq close price unavailable: None",
-    "XLY: Stooq close price unavailable: None",
-    "XLI: Stooq close price unavailable: None",
-    "SOXX: Stooq close price unavailable: None",
-    "GLD: Stooq close price unavailable: None",
-    "SLV: Stooq close price unavailable: None",
-    "BND: Stooq close price unavailable: None",
-    "AGG: Stooq close price unavailable: None"
+    "AAPL: HTTP Error 404: Not Found",
+    "MSFT: HTTP Error 404: Not Found",
+    "NVDA: HTTP Error 404: Not Found",
+    "TSLA: HTTP Error 404: Not Found",
+    "META: HTTP Error 404: Not Found",
+    "AMD: HTTP Error 404: Not Found",
+    "AVGO: HTTP Error 404: Not Found",
+    "AMZN: HTTP Error 404: Not Found",
+    "GOOGL: HTTP Error 404: Not Found",
+    "GOOG: HTTP Error 404: Not Found",
+    "NFLX: HTTP Error 404: Not Found",
+    "PLTR: HTTP Error 404: Not Found",
+    "JPM: HTTP Error 404: Not Found",
+    "BAC: HTTP Error 404: Not Found",
+    "WMT: HTTP Error 404: Not Found",
+    "COST: HTTP Error 404: Not Found",
+    "UNH: HTTP Error 404: Not Found",
+    "XOM: HTTP Error 404: Not Found",
+    "CVX: HTTP Error 404: Not Found",
+    "KO: HTTP Error 404: Not Found",
+    "PEP: HTTP Error 404: Not Found",
+    "MCD: HTTP Error 404: Not Found",
+    "DIS: HTTP Error 404: Not Found",
+    "CRM: HTTP Error 404: Not Found",
+    "ORCL: HTTP Error 404: Not Found",
+    "INTC: HTTP Error 404: Not Found",
+    "TSM: HTTP Error 404: Not Found",
+    "ASML: HTTP Error 404: Not Found",
+    "VOO: HTTP Error 404: Not Found",
+    "SPY: HTTP Error 404: Not Found",
+    "QQQ: HTTP Error 404: Not Found",
+    "VT: HTTP Error 404: Not Found",
+    "VTI: HTTP Error 404: Not Found",
+    "SCHD: HTTP Error 404: Not Found",
+    "IWM: HTTP Error 404: Not Found",
+    "TLT: HTTP Error 404: Not Found",
+    "DIA: HTTP Error 404: Not Found",
+    "XLE: HTTP Error 404: Not Found",
+    "XLK: HTTP Error 404: Not Found",
+    "XLF: HTTP Error 404: Not Found",
+    "XLY: HTTP Error 404: Not Found",
+    "XLP: HTTP Error 404: Not Found",
+    "XLV: HTTP Error 404: Not Found",
+    "XLI: HTTP Error 404: Not Found",
+    "XLU: HTTP Error 404: Not Found",
+    "XLRE: HTTP Error 404: Not Found",
+    "ARKK: HTTP Error 404: Not Found",
+    "SMH: HTTP Error 404: Not Found",
+    "SOXX: HTTP Error 404: Not Found",
+    "GLD: HTTP Error 404: Not Found",
+    "SLV: HTTP Error 404: Not Found",
+    "HYG: HTTP Error 404: Not Found",
+    "LQD: HTTP Error 404: Not Found",
+    "BND: HTTP Error 404: Not Found",
+    "AGG: HTTP Error 404: Not Found"
   ]
 }
