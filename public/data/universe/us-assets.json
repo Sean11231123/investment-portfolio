@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-05T12:28:02.260947Z",
+  "generatedAt": "2026-06-08T13:54:05.455099Z",
   "count": 10845,
-  "stockCount": 5577,
-  "etfCount": 5268,
-  "skippedCount": 1955,
+  "stockCount": 5575,
+  "etfCount": 5270,
+  "skippedCount": 1956,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -3574,6 +3574,24 @@
       "sourceSymbol": "AFG",
       "stooqSymbol": "afg.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AFGR",
+      "name": "First Trust Multi-Manager Large Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "First Trust Multi-Manager Large Growth ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AFGR",
+      "stooqSymbol": "afgr.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -9783,6 +9801,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AQEC",
       "stooqSymbol": "aqec.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AQLG",
+      "name": "HCM Large Cap Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "HCM Large Cap Growth ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AQLG",
+      "stooqSymbol": "aqlg.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -24439,6 +24475,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BSIN",
+      "name": "Big Sky Industrial Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Big Sky Industrial Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BSIN",
+      "stooqSymbol": "bsin.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BSJQ",
       "name": "Invesco BulletShares 2026 High Yield Corporate Bond ETF",
       "type": "us_etf",
@@ -31171,24 +31225,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CGCT",
-      "name": "Cartesian Growth Corporation III - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Cartesian Growth Corporation III - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CGCT",
-      "stooqSymbol": "cgct.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CGCV",
       "name": "Capital Group Conservative Equity ETF",
       "type": "us_etf",
@@ -34641,24 +34677,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CMTV",
       "stooqSymbol": "cmtv.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CMU",
-      "name": "MFS Municipal Income Trust Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "MFS Municipal Income Trust Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CMU",
-      "stooqSymbol": "cmu.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -41085,42 +41103,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CXDO",
       "stooqSymbol": "cxdo.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CXE",
-      "name": "MFS High Income Municipal Trust Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "MFS High Income Municipal Trust Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CXE",
-      "stooqSymbol": "cxe.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CXH",
-      "name": "MFS Investment Grade Municipal Trust Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "MFS Investment Grade Municipal Trust Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CXH",
-      "stooqSymbol": "cxh.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -59107,6 +59089,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FAC",
+      "name": "Factorial Energy Inc. - Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Factorial Energy Inc. - Class A Common Stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FAC",
+      "stooqSymbol": "fac.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FACT",
       "name": "FACT II Acquisition Corp. - Class A Ordinary Shares",
       "type": "us_stock",
@@ -66271,6 +66271,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FPAA",
+      "name": "FPA Global Allocation ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FPA Global Allocation ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FPAA",
+      "stooqSymbol": "fpaa.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FPAG",
       "name": "FPA Global Equity ETF",
       "type": "us_etf",
@@ -66879,6 +66897,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FRT",
       "stooqSymbol": "frt.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FRTT",
+      "name": "Fort Technology Inc. - Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Fort Technology Inc. - Common Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FRTT",
+      "stooqSymbol": "frtt.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -103532,14 +103568,14 @@
     },
     {
       "symbol": "LILAV",
-      "name": "Liberty Latin America Ltd - Class A Common Stock Ex-Distribution When Issued",
+      "name": "Liberty Latin America Ltd. - Class A Common Stock Ex-Distribution When Issued",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Liberty Latin America Ltd - Class A Common Stock Ex-Distribution When Issued"
+        "Liberty Latin America Ltd. - Class A Common Stock Ex-Distribution When Issued"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -103550,14 +103586,14 @@
     },
     {
       "symbol": "LILKV",
-      "name": "Liberty Latin America Ltd - Class C Common Stock Ex-Distribution When Issued",
+      "name": "Liberty Latin America Ltd. - Class C Common Stock Ex-Distribution When Issued",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Liberty Latin America Ltd - Class C Common Stock Ex-Distribution When Issued"
+        "Liberty Latin America Ltd. - Class C Common Stock Ex-Distribution When Issued"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -110174,14 +110210,14 @@
     },
     {
       "symbol": "MFM",
-      "name": "MFS Municipal Income Trust Common Stock",
+      "name": "Aberdeen Municipal Income Fund Common Shares of Beneficial Interest",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "MFS Municipal Income Trust Common Stock"
+        "Aberdeen Municipal Income Fund Common Shares of Beneficial Interest"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -112329,24 +112365,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MMKT",
       "stooqSymbol": "mmkt.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MMLG",
-      "name": "First Trust Multi-Manager Large Growth ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "First Trust Multi-Manager Large Growth ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MMLG",
-      "stooqSymbol": "mmlg.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -119601,6 +119619,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NHIC",
       "stooqSymbol": "nhic.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NHIV",
+      "name": "NewHold Investment Corp IV - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "NewHold Investment Corp IV - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NHIV",
+      "stooqSymbol": "nhiv.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -153553,24 +153589,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SELX",
-      "name": "Semilux International Ltd. - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Semilux International Ltd. - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SELX",
-      "stooqSymbol": "selx.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SEM",
       "name": "Select Medical Holdings Corporation Common Stock",
       "type": "us_stock",
@@ -157257,6 +157275,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SLVX",
       "stooqSymbol": "slvx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SLWS",
+      "name": "Wisdom Short Duration Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Wisdom Short Duration Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SLWS",
+      "stooqSymbol": "slws.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -163705,24 +163741,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "STRV",
-      "name": "Strive 500 ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Strive 500 ETF"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "STRV",
-      "stooqSymbol": "strv.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "STRW",
       "name": "Strawberry Fields REIT, Inc. Common Stock",
       "type": "us_stock",
@@ -163917,6 +163935,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "STXE",
       "stooqSymbol": "stxe.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "STXF",
+      "name": "Strive 500 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Strive 500 ETF"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "STXF",
+      "stooqSymbol": "stxf.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -178195,24 +178231,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "USEG",
-      "name": "U.S. Energy Corp. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "U.S. Energy Corp."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "USEG",
-      "stooqSymbol": "useg.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "USEP",
       "name": "Innovator U.S. Equity Ultra Buffer ETF - September",
       "type": "us_etf",
@@ -186705,24 +186723,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "WIP",
       "stooqSymbol": "wip.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "WISD",
-      "name": "Wisdom Short Duration Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Wisdom Short Duration Income ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "WISD",
-      "stooqSymbol": "wisd.us",
       "isETF": true,
       "dataQuality": "generated"
     },
