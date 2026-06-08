@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-03T12:56:46.894Z",
+  "generatedAt": "2026-06-08T13:00:29.045Z",
   "source": "BLS+DGBAS",
   "sourceName": "BLS and data.gov.tw / DGBAS static macro sources",
   "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/; https://apiservice.mol.gov.tw/OdService/download/A17030000J-000016-xC8",
@@ -502,10 +502,10 @@
       "name": "US Unemployment Rate",
       "source": "BLS",
       "sourceSeriesId": "LNS14000000",
-      "period": "2026-04",
+      "period": "2026-05",
       "level": 4.3,
       "mom": 0.0,
-      "yoy": 0.1,
+      "yoy": 0.0,
       "unit": "percent_rate",
       "changeUnit": "percentage_point",
       "frequency": "monthly",
@@ -513,12 +513,6 @@
       "note": "Seasonally adjusted civilian unemployment rate.",
       "status": "ok",
       "history": [
-        {
-          "period": "2024-04",
-          "level": 3.9,
-          "mom": 0.0,
-          "yoy": 0.5
-        },
         {
           "period": "2024-05",
           "level": 3.9,
@@ -656,6 +650,12 @@
           "level": 4.3,
           "mom": 0.0,
           "yoy": 0.1
+        },
+        {
+          "period": "2026-05",
+          "level": 4.3,
+          "mom": 0.0,
+          "yoy": 0.0
         }
       ]
     },
