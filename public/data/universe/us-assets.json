@@ -2,9 +2,9 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-08T13:54:05.455099Z",
-  "count": 10845,
-  "stockCount": 5575,
+  "generatedAt": "2026-06-09T12:26:51.753121Z",
+  "count": 10846,
+  "stockCount": 5576,
   "etfCount": 5270,
   "skippedCount": 1956,
   "sourceFiles": [
@@ -25717,24 +25717,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BU",
-      "name": "Defiance Daily Target 2X Long BU ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2X Long BU ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BU",
-      "stooqSymbol": "bu.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BUCK",
       "name": "Simplify Treasury Option Income ETF",
       "type": "us_etf",
@@ -40492,24 +40474,6 @@
       "sourceSymbol": "CVNA",
       "stooqSymbol": "cvna.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CVNX",
-      "name": "Defiance Daily Target 2X Long CVNA ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2X Long CVNA ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CVNX",
-      "stooqSymbol": "cvnx.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -60854,14 +60818,14 @@
     },
     {
       "symbol": "FDP",
-      "name": "Fresh Del Monte Produce, Inc. Common Stock",
+      "name": "Del Monte Corporation Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Fresh Del Monte Produce, Inc. Common Stock"
+        "Del Monte Corporation Ordinary Shares"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -115897,6 +115861,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MUZ",
+      "name": "Defiance Daily Target 2X Short MU ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Daily Target 2X Short MU ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MUZ",
+      "stooqSymbol": "muz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MUZE",
       "name": "Muzero Acquisition Corp - Class A Ordinary Shares",
       "type": "us_stock",
@@ -129704,14 +129686,14 @@
     },
     {
       "symbol": "PASW",
-      "name": "Ping An Biomedical Co., Ltd. - Ordinary Shares",
+      "name": "Ping An Biomedical Co., Ltd. - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Ping An Biomedical Co., Ltd. - Ordinary Shares"
+        "Ping An Biomedical Co., Ltd. - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -142497,6 +142479,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "QTUM",
       "stooqSymbol": "qtum.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QTUP",
+      "name": "Defiance Long Pure Quantum ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Long Pure Quantum ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QTUP",
+      "stooqSymbol": "qtup.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -186529,6 +186529,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "WHK",
+      "name": "WhiteHawk Minerals Corp Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "WhiteHawk Minerals Corp Class A Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WHK",
+      "stooqSymbol": "whk.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "WHLR",
       "name": "Wheeler Real Estate Investment Trust, Inc. - Common Stock",
       "type": "us_stock",
@@ -189752,14 +189770,14 @@
     },
     {
       "symbol": "XFLT",
-      "name": "XAI Octagon Floating Rate & Alternative Income Trust Common Shares of Beneficial Interest",
+      "name": "XAI Floating Rate & Alternative Income Trust Common Shares of Beneficial Interest",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "XAI Octagon Floating Rate & Alternative Income Trust Common Shares of Beneficial Interest"
+        "XAI Floating Rate & Alternative Income Trust Common Shares of Beneficial Interest"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
