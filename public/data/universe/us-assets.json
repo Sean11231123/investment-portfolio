@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-09T12:26:51.753121Z",
-  "count": 10846,
-  "stockCount": 5576,
-  "etfCount": 5270,
-  "skippedCount": 1956,
+  "generatedAt": "2026-06-10T12:46:24.064250Z",
+  "count": 10839,
+  "stockCount": 5581,
+  "etfCount": 5258,
+  "skippedCount": 1959,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -4780,6 +4780,24 @@
       "sourceSymbol": "AIBU",
       "stooqSymbol": "aibu.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AIBZ",
+      "name": "Bitzero Holdings Inc. - Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Bitzero Holdings Inc. - Common Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AIBZ",
+      "stooqSymbol": "aibz.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -9658,6 +9676,24 @@
       "sourceSymbol": "APUE",
       "stooqSymbol": "apue.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "APUR",
+      "name": "Aperture AC - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Aperture AC - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "APUR",
+      "stooqSymbol": "apur.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -24259,6 +24295,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BSCA",
+      "name": "Invesco BulletShares 2036 Corporate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Invesco BulletShares 2036 Corporate Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BSCA",
+      "stooqSymbol": "bsca.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BSCQ",
       "name": "Invesco BulletShares 2026 Corporate Bond ETF",
       "type": "us_etf",
@@ -35653,24 +35707,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "COII",
-      "name": "REX COIN Growth & Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "REX COIN Growth & Income ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "COII",
-      "stooqSymbol": "coii.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "COIN",
       "name": "Coinbase Global, Inc. - Class A Common Stock",
       "type": "us_stock",
@@ -40887,24 +40923,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CWI",
       "stooqSymbol": "cwi.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CWII",
-      "name": "REX CRWV Growth & Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "REX CRWV Growth & Income ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CWII",
-      "stooqSymbol": "cwii.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -52879,6 +52897,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ELOX",
+      "name": "Eloxx Pharmaceuticals, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Eloxx Pharmaceuticals, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ELOX",
+      "stooqSymbol": "elox.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ELPW",
       "name": "Elong Power Holding Limited - Class A Ordinary Shares",
       "type": "us_stock",
@@ -55575,6 +55611,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ERO",
       "stooqSymbol": "ero.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EROC",
+      "name": "ERock, Inc. Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ERock, Inc. Class A Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EROC",
+      "stooqSymbol": "eroc.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -71455,6 +71509,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GEQ",
+      "name": "Cambria Global EW 2 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Cambria Global EW 2 ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GEQ",
+      "stooqSymbol": "geq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GERN",
       "name": "Geron Corporation - Common Stock",
       "type": "us_stock",
@@ -72243,24 +72315,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GIEQ",
       "stooqSymbol": "gieq.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "GIF",
-      "name": "REX Growth & Income Universe ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "REX Growth & Income Universe ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GIF",
-      "stooqSymbol": "gif.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -80830,24 +80884,6 @@
       "sourceSymbol": "HOG",
       "stooqSymbol": "hog.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "HOII",
-      "name": "REX HOOD Growth & Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "REX HOOD Growth & Income ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HOII",
-      "stooqSymbol": "hoii.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -102379,24 +102415,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "LEGT",
-      "name": "Legato Merger Corp. III Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Legato Merger Corp. III Ordinary Shares"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LEGT",
-      "stooqSymbol": "legt.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "LEMB",
       "name": "iShares J.P. Morgan EM Local Currency Bond",
       "type": "us_etf",
@@ -104067,24 +104085,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LLDR",
       "stooqSymbol": "lldr.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "LLII",
-      "name": "REX LLY Growth & Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "REX LLY Growth & Income ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LLII",
-      "stooqSymbol": "llii.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -114418,24 +114418,6 @@
       "sourceSymbol": "MSIF",
       "stooqSymbol": "msif.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MSII",
-      "name": "REX MSTR Growth & Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "REX MSTR Growth & Income ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MSII",
-      "stooqSymbol": "msii.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -130459,6 +130441,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PBLS",
+      "name": "Parabilis Medicines, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Parabilis Medicines, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PBLS",
+      "stooqSymbol": "pbls.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PBM",
       "name": "Psyence Biomedical Ltd. - Common Shares",
       "type": "us_stock",
@@ -131265,24 +131265,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PCR",
       "stooqSymbol": "pcr.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PCRB",
-      "name": "Putnam ESG Core Bond ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Putnam ESG Core Bond ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PCRB",
-      "stooqSymbol": "pcrb.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -132655,24 +132637,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "PFUT",
-      "name": "Putnam Sustainable Future ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Putnam Sustainable Future ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PFUT",
-      "stooqSymbol": "pfut.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "PFX",
       "name": "PhenixFIN Corporation - Common Stock",
       "type": "us_stock",
@@ -133228,24 +133192,6 @@
       "sourceSymbol": "PHVS",
       "stooqSymbol": "phvs.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PHYD",
-      "name": "Putnam ESG High Yield ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Putnam ESG High Yield ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PHYD",
-      "stooqSymbol": "phyd.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -134167,24 +134113,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "PLDR",
-      "name": "Putnam Sustainable Leaders ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Putnam Sustainable Leaders ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PLDR",
-      "stooqSymbol": "pldr.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "PLG",
       "name": "Platinum Group Metals Ltd. Ordinary Shares (Canada)",
       "type": "us_stock",
@@ -134469,24 +134397,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PLTG",
       "stooqSymbol": "pltg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PLTI",
-      "name": "REX PLTR Growth & Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "REX PLTR Growth & Income ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PLTI",
-      "stooqSymbol": "plti.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -136003,24 +135913,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "PPEM",
-      "name": "Putnam PanAgora ESG Emerging Markets Equity ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Putnam PanAgora ESG Emerging Markets Equity ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PPEM",
-      "stooqSymbol": "ppem.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "PPG",
       "name": "PPG Industries, Inc. Common Stock",
       "type": "us_stock",
@@ -136089,24 +135981,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PPI",
       "stooqSymbol": "ppi.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PPIE",
-      "name": "Putnam PanAgora ESG International Equity ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Putnam PanAgora ESG International Equity ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PPIE",
-      "stooqSymbol": "ppie.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -138933,24 +138807,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PULS",
       "stooqSymbol": "puls.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PULT",
-      "name": "Putnam ESG Ultra Short ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Putnam ESG Ultra Short ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PULT",
-      "stooqSymbol": "pult.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -172323,6 +172179,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TRIP",
       "stooqSymbol": "trip.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TRLV",
+      "name": "Trulieve Cannabis Corp. Subordinate Voting Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Trulieve Cannabis Corp. Subordinate Voting Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TRLV",
+      "stooqSymbol": "trlv.us",
       "isETF": false,
       "dataQuality": "generated"
     },
