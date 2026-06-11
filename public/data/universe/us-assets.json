@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-10T12:46:24.064250Z",
-  "count": 10839,
-  "stockCount": 5581,
-  "etfCount": 5258,
-  "skippedCount": 1959,
+  "generatedAt": "2026-06-11T13:44:25.396049Z",
+  "count": 10848,
+  "stockCount": 5580,
+  "etfCount": 5268,
+  "skippedCount": 1955,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -23629,6 +23629,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BREZ",
+      "name": "Breeze Acquisition Corp. II - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Breeze Acquisition Corp. II - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BREZ",
+      "stooqSymbol": "brez.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BRF",
       "name": "VanEck Brazil Small-Cap ETF",
       "type": "us_etf",
@@ -24529,6 +24547,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BSGR",
+      "name": "Invesco BulletShares 2027 Treasury Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Invesco BulletShares 2027 Treasury Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BSGR",
+      "stooqSymbol": "bsgr.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BSGT",
+      "name": "Invesco BulletShares 2029 Treasury Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Invesco BulletShares 2029 Treasury Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BSGT",
+      "stooqSymbol": "bsgt.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BSIN",
       "name": "Big Sky Industrial Inc. - Common Stock",
       "type": "us_stock",
@@ -24687,6 +24741,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BSJX",
       "stooqSymbol": "bsjx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BSJY",
+      "name": "Invesco BulletShares 2034 High Yield Corporate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Invesco BulletShares 2034 High Yield Corporate Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BSJY",
+      "stooqSymbol": "bsjy.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -24993,6 +25065,60 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BSTP",
       "stooqSymbol": "bstp.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BSTS",
+      "name": "Invesco BulletShares 2028 Treasury Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Invesco BulletShares 2028 Treasury Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BSTS",
+      "stooqSymbol": "bsts.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BSTU",
+      "name": "Invesco BulletShares 2030 Treasury Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Invesco BulletShares 2030 Treasury Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BSTU",
+      "stooqSymbol": "bstu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BSTV",
+      "name": "Invesco BulletShares 2031 Treasury Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Invesco BulletShares 2031 Treasury Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BSTV",
+      "stooqSymbol": "bstv.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -47515,6 +47641,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DRMP",
+      "name": "Tuttle Capital Memory Stack Income Blast ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tuttle Capital Memory Stack Income Blast ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DRMP",
+      "stooqSymbol": "drmp.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DRN",
       "name": "Direxion Daily Real Estate Bull 3X ETF",
       "type": "us_etf",
@@ -66573,6 +66717,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FRBA",
       "stooqSymbol": "frba.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FRBT",
+      "name": "Forbright, Inc. - Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Forbright, Inc. - Class A Common Stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FRBT",
+      "stooqSymbol": "frbt.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -107581,24 +107743,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MASI",
-      "name": "Masimo Corporation - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Masimo Corporation"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MASI",
-      "stooqSymbol": "masi.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "MASK",
       "name": "3 E Network Technology Group Ltd - Class A Ordinary Shares",
       "type": "us_stock",
@@ -111789,24 +111933,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MLAB",
       "stooqSymbol": "mlab.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MLAC",
-      "name": "Mountain Lake Acquisition Corp. - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Mountain Lake Acquisition Corp. - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MLAC",
-      "stooqSymbol": "mlac.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -120988,24 +121114,6 @@
       "sourceSymbol": "NORW",
       "stooqSymbol": "norw.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "NOTV",
-      "name": "Inotiv, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Inotiv, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NOTV",
-      "stooqSymbol": "notv.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -133462,6 +133570,24 @@
       "sourceSymbol": "PIM",
       "stooqSymbol": "pim.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PINC",
+      "name": "PGIM Securitized Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "PGIM Securitized Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PINC",
+      "stooqSymbol": "pinc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -154579,6 +154705,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SGVA",
+      "name": "F/m Accumulator Ultrashort Treasury Fund",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "F/m Accumulator Ultrashort Treasury Fund"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SGVA",
+      "stooqSymbol": "sgva.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SGVT",
       "name": "Schwab Government Money Market ETF",
       "type": "us_etf",
@@ -171769,6 +171913,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TPUT",
+      "name": "T. Rowe Price Capital Appreciation Market Opportunities ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T. Rowe Price Capital Appreciation Market Opportunities ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TPUT",
+      "stooqSymbol": "tput.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TPVG",
       "name": "TriplePoint Venture Growth BDC Corp. Common Stock",
       "type": "us_stock",
@@ -179527,24 +179689,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "VACH",
-      "name": "Voyager Acquisition Corp - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Voyager Acquisition Corp - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VACH",
-      "stooqSymbol": "vach.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "VACI",
       "name": "Viking Acquisition Corp. I Class A Ordinary Shares",
       "type": "us_stock",
@@ -183411,6 +183555,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VRTX",
       "stooqSymbol": "vrtx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VRXA",
+      "name": "Veraxa Biotech AG - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Veraxa Biotech AG - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VRXA",
+      "stooqSymbol": "vrxa.us",
       "isETF": false,
       "dataQuality": "generated"
     },
