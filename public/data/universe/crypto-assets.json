@@ -2,10 +2,10 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-06-06T11:45:02.092748Z",
-  "count": 419,
-  "binanceCount": 419,
-  "coingeckoMatchedCount": 250,
+  "generatedAt": "2026-06-12T13:43:45.444827Z",
+  "count": 424,
+  "binanceCount": 424,
+  "coingeckoMatchedCount": 255,
   "ambiguousCount": 162,
   "skippedCount": 3172,
   "assets": [
@@ -1765,6 +1765,24 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "COWUSDT",
       "binanceSymbol": "COWUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CRCLB",
+      "name": "Circle Internet Group (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Circle Internet Group (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CRCLBUSDT",
+      "binanceSymbol": "CRCLBUSDT",
+      "coingeckoId": "circle-internet-group-bstock",
       "dataQuality": "generated"
     },
     {
@@ -4196,6 +4214,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MUB",
+      "name": "Micron Technology (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Micron Technology (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MUBUSDT",
+      "binanceSymbol": "MUBUSDT",
+      "coingeckoId": "micron-technology-bstock",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MUBARAK",
       "name": "MUBARAK",
       "type": "crypto",
@@ -4403,6 +4439,24 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "NOTUSDT",
       "binanceSymbol": "NOTUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NVDAB",
+      "name": "NVIDIA (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "NVIDIA (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NVDABUSDT",
+      "binanceSymbol": "NVDABUSDT",
+      "coingeckoId": "nvidia-bstocks",
       "dataQuality": "generated"
     },
     {
@@ -5783,6 +5837,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SNDKB",
+      "name": "SanDisk (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "SanDisk (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SNDKBUSDT",
+      "binanceSymbol": "SNDKBUSDT",
+      "coingeckoId": "sandisk-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SNX",
       "name": "Synthetix",
       "type": "crypto",
@@ -6399,6 +6471,24 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "TRXUSDT",
       "binanceSymbol": "TRXUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TSLAB",
+      "name": "Tesla (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Tesla (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TSLABUSDT",
+      "binanceSymbol": "TSLABUSDT",
+      "coingeckoId": "tesla-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
