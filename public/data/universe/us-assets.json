@@ -2,9 +2,9 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-11T13:44:25.396049Z",
-  "count": 10848,
-  "stockCount": 5580,
+  "generatedAt": "2026-06-12T12:44:00.180797Z",
+  "count": 10849,
+  "stockCount": 5581,
   "etfCount": 5268,
   "skippedCount": 1955,
   "sourceFiles": [
@@ -4280,14 +4280,14 @@
     },
     {
       "symbol": "AGNT",
-      "name": "eXp World Holdings, Inc. - Common Stock",
+      "name": "AGNT, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "eXp World Holdings, Inc."
+        "AGNT, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -13185,6 +13185,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AVAH",
       "stooqSymbol": "avah.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AVAT",
+      "name": "Avalanche Treasury Corporation - Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Avalanche Treasury Corporation - Class A Common Stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AVAT",
+      "stooqSymbol": "avat.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -34119,24 +34137,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CLSX",
       "stooqSymbol": "clsx.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CLSZ",
-      "name": "Tradr 2X Short CLSK Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tradr 2X Short CLSK Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CLSZ",
-      "stooqSymbol": "clsz.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -56101,24 +56101,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ESK",
-      "name": "REX-Osprey ETH + Staking ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "REX-Osprey ETH + Staking ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ESK",
-      "stooqSymbol": "esk.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ESLA",
       "name": "Estrella Immunopharma, Inc. - Common Stock",
       "type": "us_stock",
@@ -63320,16 +63302,16 @@
     },
     {
       "symbol": "FITB",
-      "name": "Fifth Third Bancorp - Common Stock",
+      "name": "Fifth Third Bancorp Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Fifth Third Bancorp"
+        "Fifth Third Bancorp Common Stock"
       ],
-      "exchange": "NASDAQ",
+      "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FITB",
       "stooqSymbol": "fitb.us",
@@ -80689,24 +80671,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "HLXX",
-      "name": "Tradr 2X Long HL Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tradr 2X Long HL Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HLXX",
-      "stooqSymbol": "hlxx.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "HMAY",
       "name": "Corgi U.S. Equities 100% Structured Buffer ETF - May Series",
       "type": "us_etf",
@@ -97357,24 +97321,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "KALV",
-      "name": "KalVista Pharmaceuticals, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "KalVista Pharmaceuticals, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KALV",
-      "stooqSymbol": "kalv.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "KAMO",
       "name": "Kensington Credit Opportunities ETF",
       "type": "us_etf",
@@ -109183,6 +109129,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MDCR",
+      "name": "Pacer Swan SOS Moderate December ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pacer Swan SOS Moderate December ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MDCR",
+      "stooqSymbol": "mdcr.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MDCX",
       "name": "Medicus Pharma Ltd. - Common Stock",
       "type": "us_stock",
@@ -111703,6 +111667,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MJUN",
+      "name": "Pacer Swan SOS Moderate June ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pacer Swan SOS Moderate June ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MJUN",
+      "stooqSymbol": "mjun.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MKAM",
       "name": "MKAM ETF",
       "type": "us_etf",
@@ -112258,6 +112240,24 @@
       "sourceSymbol": "MMA",
       "stooqSymbol": "mma.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MMAR",
+      "name": "Pacer Swan SOS Moderate March ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pacer Swan SOS Moderate March ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MMAR",
+      "stooqSymbol": "mmar.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -114274,6 +114274,24 @@
       "sourceSymbol": "MSDL",
       "stooqSymbol": "msdl.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MSEP",
+      "name": "Pacer Swan SOS Moderate September ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pacer Swan SOS Moderate September ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MSEP",
+      "stooqSymbol": "msep.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -152545,24 +152563,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SCVL",
-      "name": "Shoe Carnival, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Shoe Carnival, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SCVL",
-      "stooqSymbol": "scvl.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SCWO",
       "name": "374Water Inc. - common stock",
       "type": "us_stock",
@@ -155101,6 +155101,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SHOE",
+      "name": "Shoe Station Group, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Shoe Station Group, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SHOE",
+      "stooqSymbol": "shoe.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SHOO",
       "name": "Steven Madden, Ltd. - Common Stock",
       "type": "us_stock",
@@ -155187,6 +155205,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SHPU",
       "stooqSymbol": "shpu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SHRD",
+      "name": "Arimathea Catholic Core Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Arimathea Catholic Core Bond ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SHRD",
+      "stooqSymbol": "shrd.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -158143,24 +158179,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SMQ",
-      "name": "Tradr 1X Short Innovation 100 Monthly ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tradr 1X Short Innovation 100 Monthly ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SMQ",
-      "stooqSymbol": "smq.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SMR",
       "name": "NuScale Power Corporation Class A Common Stock",
       "type": "us_stock",
@@ -160174,6 +160192,24 @@
       "sourceSymbol": "SPCT",
       "stooqSymbol": "spct.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SPCX",
+      "name": "Space Exploration Technologies Corp. - Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Space Exploration Technologies Corp. - Class A Common Stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SPCX",
+      "stooqSymbol": "spcx.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -162244,24 +162280,6 @@
       "sourceSymbol": "SRPT",
       "stooqSymbol": "srpt.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SRPU",
-      "name": "Tradr 2X Long SRPT Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tradr 2X Long SRPT Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SRPU",
-      "stooqSymbol": "srpu.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
