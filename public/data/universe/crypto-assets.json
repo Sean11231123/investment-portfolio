@@ -2,10 +2,10 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-06-12T13:43:45.444827Z",
-  "count": 424,
-  "binanceCount": 424,
-  "coingeckoMatchedCount": 255,
+  "generatedAt": "2026-06-13T12:03:14.003737Z",
+  "count": 425,
+  "binanceCount": 425,
+  "coingeckoMatchedCount": 256,
   "ambiguousCount": 162,
   "skippedCount": 3172,
   "assets": [
@@ -5941,6 +5941,24 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "SOPHUSDT",
       "binanceSymbol": "SOPHUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SPCXB",
+      "name": "SpaceX (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "SpaceX (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SPCXBUSDT",
+      "binanceSymbol": "SPCXBUSDT",
+      "coingeckoId": "spacex-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
