@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-12T12:44:00.180797Z",
-  "count": 10849,
+  "generatedAt": "2026-06-15T15:32:03.938348Z",
+  "count": 10868,
   "stockCount": 5581,
-  "etfCount": 5268,
-  "skippedCount": 1955,
+  "etfCount": 5287,
+  "skippedCount": 1951,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -39073,6 +39073,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CSEN",
+      "name": "Cohen & Steers Future of Energy Active ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Cohen & Steers Future of Energy Active ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CSEN",
+      "stooqSymbol": "csen.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CSEX",
       "name": "Tradr 2X Long CLS Daily ETF",
       "type": "us_etf",
@@ -70681,6 +70699,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GCSH",
+      "name": "Guggenheim Ultra Short Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Guggenheim Ultra Short Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GCSH",
+      "stooqSymbol": "gcsh.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GCT",
       "name": "GigaCloud Technology Inc - Class A Ordinary Shares",
       "type": "us_stock",
@@ -72712,6 +72748,24 @@
       "sourceSymbol": "GIS",
       "stooqSymbol": "gis.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GISC",
+      "name": "Guggenheim Securitized Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Guggenheim Securitized Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GISC",
+      "stooqSymbol": "gisc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -81121,6 +81175,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HONAV",
+      "name": "Honeywell Aerospace Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Honeywell Aerospace Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HONAV",
+      "stooqSymbol": "honav.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HONG",
       "name": "Leverage Shares 2X Long HON Daily ETF",
       "type": "us_etf",
@@ -81136,6 +81208,24 @@
       "sourceSymbol": "HONG",
       "stooqSymbol": "hong.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HONIV",
+      "name": "Honeywell International Inc. - Common Stock Ex Distribution When Issued",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Honeywell International Inc. - Common Stock Ex Distribution When Issued"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HONIV",
+      "stooqSymbol": "honiv.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -81697,6 +81787,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HRSK",
+      "name": "Toews Agility Shares Hedged Risk ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Toews Agility Shares Hedged Risk ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HRSK",
+      "stooqSymbol": "hrsk.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HRTG",
       "name": "Heritage Insurance Holdings, Inc. Common Stock",
       "type": "us_stock",
@@ -81928,24 +82036,6 @@
       "sourceSymbol": "HSMV",
       "stooqSymbol": "hsmv.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "HSPT",
-      "name": "Horizon Space Acquisition II Corp. - Ordinary share",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Horizon Space Acquisition II Corp. - Ordinary share"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HSPT",
-      "stooqSymbol": "hspt.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -94333,6 +94423,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "JCAL",
+      "name": "JPMorgan California Tax Free Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "JPMorgan California Tax Free Bond ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JCAL",
+      "stooqSymbol": "jcal.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "JCAP",
       "name": "Jefferson Capital, Inc. - Common Stock",
       "type": "us_stock",
@@ -95629,24 +95737,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "JMG",
-      "name": "JM Group Limited Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "JM Group Limited Ordinary Shares"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "JMG",
-      "stooqSymbol": "jmg.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "JMHI",
       "name": "JPMorgan High Yield Municipal ETF",
       "type": "us_etf",
@@ -96705,6 +96795,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "JTEK",
       "stooqSymbol": "jtek.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "JTNY",
+      "name": "JPMorgan New York Tax Free Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "JPMorgan New York Tax Free Bond ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JTNY",
+      "stooqSymbol": "jtny.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -104841,6 +104949,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LODI",
       "stooqSymbol": "lodi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LOFF",
+      "name": "Direxion Daily SpaceX Bull 2X ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion Daily SpaceX Bull 2X ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LOFF",
+      "stooqSymbol": "loff.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -156703,6 +156829,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SLBT",
+      "name": "SL Science Holding Limited - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "SL Science Holding Limited - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SLBT",
+      "stooqSymbol": "slbt.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SLDB",
       "name": "Solid Biosciences Inc. - Common Stock",
       "type": "us_stock",
@@ -158845,6 +158989,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SNK",
+      "name": "GraniteShares 2x Short SpaceX Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares 2x Short SpaceX Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SNK",
+      "stooqSymbol": "snk.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SNN",
       "name": "Smith & Nephew SNATS, Inc. Common Stock",
       "type": "us_stock",
@@ -159943,6 +160105,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SPAL",
+      "name": "GraniteShares 2x Long SpaceX Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares 2x Long SpaceX Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SPAL",
+      "stooqSymbol": "spal.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SPAM",
       "name": "Themes Cybersecurity ETF",
       "type": "us_etf",
@@ -159975,6 +160155,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SPAQ",
       "stooqSymbol": "spaq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SPAX",
+      "name": "T-REX 2X Long SpaceX Daily Target ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T-REX 2X Long SpaceX Daily Target ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SPAX",
+      "stooqSymbol": "spax.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -160123,6 +160321,60 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SPCF",
+      "name": "ProShares Ultra SpaceX",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ProShares Ultra SpaceX"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SPCF",
+      "stooqSymbol": "spcf.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SPCG",
+      "name": "Tradr 2X Short SpaceX Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Short SpaceX Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SPCG",
+      "stooqSymbol": "spcg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SPCH",
+      "name": "Leverage Shares 2X Long SPCX Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long SPCX Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SPCH",
+      "stooqSymbol": "spch.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SPCI",
       "name": "Tuttle Capital Space Industry Income Blast ETF",
       "type": "us_etf",
@@ -160177,6 +160429,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SPCM",
+      "name": "Tradr 2X Long SpaceX Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long SpaceX Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SPCM",
+      "stooqSymbol": "spcm.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SPCQ",
+      "name": "Defiance Daily Target 2X Short SpaceX ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Daily Target 2X Short SpaceX ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SPCQ",
+      "stooqSymbol": "spcq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SPCT",
       "name": "Liberty One Spectrum ETF",
       "type": "us_etf",
@@ -160191,6 +160479,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SPCT",
       "stooqSymbol": "spct.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SPCU",
+      "name": "Defiance Daily Target 2X Long SpaceX ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Daily Target 2X Long SpaceX ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SPCU",
+      "stooqSymbol": "spcu.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -162730,6 +163036,24 @@
       "sourceSymbol": "SSP",
       "stooqSymbol": "ssp.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SSPC",
+      "name": "Leverage Shares 2X Short SPCX Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Short SPCX Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SSPC",
+      "stooqSymbol": "sspc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -166729,24 +167053,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TCGL",
-      "name": "TechCreate Group Ltd. Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "TechCreate Group Ltd. Class A Ordinary Shares"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TCGL",
-      "stooqSymbol": "tcgl.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TCHI",
       "name": "iShares MSCI China Multisector Tech ETF",
       "type": "us_etf",
@@ -169267,6 +169573,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TILC",
+      "name": "Thrivent International Large Cap ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Thrivent International Large Cap ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TILC",
+      "stooqSymbol": "tilc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TILE",
       "name": "Interface, Inc. - Common Stock",
       "type": "us_stock",
@@ -169533,6 +169857,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TIPZ",
       "stooqSymbol": "tipz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TISC",
+      "name": "Thrivent International Small Cap ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Thrivent International Small Cap ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TISC",
+      "stooqSymbol": "tisc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -193226,14 +193568,14 @@
     },
     {
       "symbol": "YGLD",
-      "name": "Simplify Gold Strategy PLUS Income ETF",
+      "name": "Simplify Gold Strategy ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Simplify Gold Strategy PLUS Income ETF"
+        "Simplify Gold Strategy ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
