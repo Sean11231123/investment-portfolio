@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-15T15:32:03.938348Z",
-  "count": 10868,
-  "stockCount": 5581,
-  "etfCount": 5287,
-  "skippedCount": 1951,
+  "generatedAt": "2026-06-16T14:34:28.845464Z",
+  "count": 10871,
+  "stockCount": 5578,
+  "etfCount": 5293,
+  "skippedCount": 1954,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -1053,24 +1053,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ABNG",
       "stooqSymbol": "abng.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ABNY",
-      "name": "YieldMax ABNB Option Income Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "YieldMax ABNB Option Income Strategy ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ABNY",
-      "stooqSymbol": "abny.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -2692,6 +2674,24 @@
       "sourceSymbol": "ADIL",
       "stooqSymbol": "adil.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ADIU",
+      "name": "Leverage Shares 2X Long ADI Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long ADI Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ADIU",
+      "stooqSymbol": "adiu.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -9121,6 +9121,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "APHG",
+      "name": "Leverage Shares 2X Long APH Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long APH Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "APHG",
+      "stooqSymbol": "aphg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "APHU",
       "name": "T-REX 2X Long APH Daily Target ETF",
       "type": "us_etf",
@@ -14737,6 +14755,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AXTL",
+      "name": "Leverage Shares 2X Long AXTI Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long AXTI Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AXTL",
+      "stooqSymbol": "axtl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AXTU",
       "name": "T-REX 2X Long AXTI Daily Target ETF",
       "type": "us_etf",
@@ -20026,6 +20062,24 @@
       "sourceSymbol": "BIT",
       "stooqSymbol": "bit.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BITA",
+      "name": "iShares Bitcoin Premium Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "iShares Bitcoin Premium Income ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BITA",
+      "stooqSymbol": "bita.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -45625,24 +45679,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "DISO",
-      "name": "YieldMax DIS Option Income Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "YieldMax DIS Option Income Strategy ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DISO",
-      "stooqSymbol": "diso.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "DISV",
       "name": "Dimensional International Small Cap Value ETF",
       "type": "us_etf",
@@ -61339,24 +61375,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "FEAT",
-      "name": "YieldMax Dorsey Wright Featured 5 Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "YieldMax Dorsey Wright Featured 5 Income ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FEAT",
-      "stooqSymbol": "feat.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "FEBM",
       "name": "FT Vest U.S. Equity Max Buffer ETF - February",
       "type": "us_etf",
@@ -63427,24 +63445,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "FIVY",
-      "name": "YieldMax Dorsey Wright Hybrid 5 Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "YieldMax Dorsey Wright Hybrid 5 Income ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FIVY",
-      "stooqSymbol": "fivy.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "FIW",
       "name": "First Trust Water ETF",
       "type": "us_etf",
@@ -65065,6 +65065,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FLZH",
+      "name": "Flash Sports & Media Holdings, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Flash Sports & Media Holdings, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FLZH",
+      "stooqSymbol": "flzh.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FMAC",
       "name": "Future Money Acquisition Corporation - Ordinary Shares",
       "type": "us_stock",
@@ -65782,6 +65800,24 @@
       "sourceSymbol": "FNF",
       "stooqSymbol": "fnf.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FNG",
+      "name": "Leverage Shares 2X Long FN Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long FN Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FNG",
+      "stooqSymbol": "fng.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -68068,6 +68104,24 @@
       "sourceSymbol": "FTGS",
       "stooqSymbol": "ftgs.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FTH",
+      "name": "Faeth Therapeutics, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Faeth Therapeutics, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FTH",
+      "stooqSymbol": "fth.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -74620,24 +74674,6 @@
       "sourceSymbol": "GOAU",
       "stooqSymbol": "goau.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "GOCO",
-      "name": "GoHealth, Inc. - Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "GoHealth, Inc. - Class A Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GOCO",
-      "stooqSymbol": "goco.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -98311,6 +98347,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "KEYG",
+      "name": "Leverage Shares 2X Long KEYS Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long KEYS Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KEYG",
+      "stooqSymbol": "keyg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "KEYS",
       "name": "Keysight Technologies Inc. Common Stock",
       "type": "us_stock",
@@ -100917,24 +100971,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "KVYO",
       "stooqSymbol": "kvyo.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "KW",
-      "name": "Kennedy-Wilson Holdings Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Kennedy-Wilson Holdings Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KW",
-      "stooqSymbol": "kw.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -108823,6 +108859,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MCHG",
+      "name": "Leverage Shares 2X Long MCHP Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long MCHP Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MCHG",
+      "stooqSymbol": "mchg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MCHI",
       "name": "iShares MSCI China ETF",
       "type": "us_etf",
@@ -109773,24 +109827,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MEGL",
       "stooqSymbol": "megl.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MEHA",
-      "name": "Functional Brands, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Functional Brands, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MEHA",
-      "stooqSymbol": "meha.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -159187,24 +159223,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SNSE",
-      "name": "Sensei Biotherapeutics, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Sensei Biotherapeutics, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SNSE",
-      "stooqSymbol": "snse.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SNSR",
       "name": "Global X Internet of Things ETF",
       "type": "us_etf",
@@ -168043,6 +168061,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TELG",
+      "name": "Leverage Shares 2X Long TEL Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long TEL Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TELG",
+      "stooqSymbol": "telg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TELO",
       "name": "Telomir Pharmaceuticals, Inc. - Common Stock",
       "type": "us_stock",
@@ -173479,6 +173515,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TSEG",
+      "name": "Leverage Shares 2X Long TSEM Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long TSEM Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TSEG",
+      "stooqSymbol": "tseg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TSEL",
       "name": "Touchstone Sands Capital US Select Growth ETF",
       "type": "us_etf",
@@ -176752,24 +176806,6 @@
       "sourceSymbol": "UGLD",
       "stooqSymbol": "ugld.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "UGRO",
-      "name": "urban-gro, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "urban-gro, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "UGRO",
-      "stooqSymbol": "ugro.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -192429,6 +192465,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XSOE",
       "stooqSymbol": "xsoe.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XSPC",
+      "name": "VegaShares SpaceX & Beyond Earth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VegaShares SpaceX & Beyond Earth ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XSPC",
+      "stooqSymbol": "xspc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
