@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-15T14:44:15.188Z",
+  "generatedAt": "2026-06-16T13:13:18.625Z",
   "source": "SITCA",
   "sourceUrl": "https://www.sitca.org.tw/MemberK0000/F/03/nav.csv",
   "market": "TW",
   "segment": "domestic_fund",
-  "count": 2001,
+  "count": 2003,
   "assets": [
     {
       "symbol": "TW_FUND_00512527_TWD_AH22_00957B",
@@ -15556,6 +15556,29 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TW_FUND_00641986_TWD_AH21_009823",
+      "name": "群益標普500ETF基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE20",
+      "fundCode": "DIE20",
+      "fundTaxId": "00641986",
+      "issuer": "群益投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "009823",
+      "aliases": [
+        "群益投信",
+        "00641986"
+      ],
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TW_FUND_00650252_TWD_AL11_00992A",
       "name": "群益台灣科技創新主動式ETF基金",
       "type": "taiwan_fund",
@@ -15598,6 +15621,29 @@
       "aliases": [
         "群益投信",
         "00667893"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00682986_TWD_AH21_009824",
+      "name": "群益美國科技巨頭ETF基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE21",
+      "fundCode": "DIE21",
+      "fundTaxId": "00682986",
+      "issuer": "群益投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "009824",
+      "aliases": [
+        "群益投信",
+        "00682986"
       ],
       "dataQuality": "generated"
     },
