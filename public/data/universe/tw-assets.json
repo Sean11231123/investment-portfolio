@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-06-16T13:12:50.592389Z",
-  "count": 2241,
-  "twseCount": 1236,
-  "tpexOtcCount": 1005,
-  "tpexOtcSourceCount": 1005,
+  "generatedAt": "2026-06-17T12:36:19.692395Z",
+  "count": 2243,
+  "twseCount": 1237,
+  "tpexOtcCount": 1006,
+  "tpexOtcSourceCount": 1006,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2241,
+  "metadataEnrichedCount": 2243,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -5883,6 +5883,50 @@
       "board": "main",
       "securityType": "etf",
       "classificationSource": "tpex_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "009823",
+      "name": "群益S&P500",
+      "type": "taiwan_etf",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "群益S&P500"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "009823",
+      "isETF": true,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "etf",
+      "classificationSource": "tpex_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "009824",
+      "name": "群益美國科技巨頭",
+      "type": "taiwan_etf",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "twse",
+      "aliases": [
+        "群益美國科技巨頭"
+      ],
+      "exchange": "TWSE",
+      "marketSegment": "listed",
+      "source": "twse-isin",
+      "sourceSymbol": "009824",
+      "isETF": true,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "etf",
+      "classificationSource": "twse_isin",
       "classificationConfidence": "high"
     },
     {
