@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-16T14:34:28.845464Z",
-  "count": 10871,
+  "generatedAt": "2026-06-17T13:03:19.561717Z",
+  "count": 10868,
   "stockCount": 5578,
-  "etfCount": 5293,
-  "skippedCount": 1954,
+  "etfCount": 5290,
+  "skippedCount": 1958,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -1954,6 +1954,24 @@
       "sourceSymbol": "ACOG",
       "stooqSymbol": "acog.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACOM",
+      "name": "Harbor Active Commodity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Harbor Active Commodity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACOM",
+      "stooqSymbol": "acom.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -11835,24 +11853,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ASR",
       "stooqSymbol": "asr.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ASRT",
-      "name": "Assertio Holdings, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Assertio Holdings, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ASRT",
-      "stooqSymbol": "asrt.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -27697,6 +27697,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CAES",
+      "name": "Cantor Equity Partners VII, Inc. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Cantor Equity Partners VII, Inc. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CAES",
+      "stooqSymbol": "caes.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CAF",
       "name": "Morgan Stanley China A Share Fund Inc. Common Stock",
       "type": "us_stock",
@@ -35905,24 +35923,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "COIO",
-      "name": "Leverage Shares 2x Capped Accelerated COIN Monthly ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2x Capped Accelerated COIN Monthly ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "COIO",
-      "stooqSymbol": "coio.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "COIW",
       "name": "Roundhill COIN WeeklyPay ETF",
       "type": "us_etf",
@@ -41283,6 +41283,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CXDO",
       "stooqSymbol": "cxdo.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CXII",
+      "name": "Churchill Capital Corp XII - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Churchill Capital Corp XII - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CXII",
+      "stooqSymbol": "cxii.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -62794,6 +62812,24 @@
       "sourceSymbol": "FHI",
       "stooqSymbol": "fhi.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FHIL",
+      "name": "Federated Hermes International Leaders ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Federated Hermes International Leaders ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FHIL",
+      "stooqSymbol": "fhil.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -97591,6 +97627,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "KAZR",
+      "name": "Skyline Builders Group Holding Limited - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Skyline Builders Group Holding Limited - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KAZR",
+      "stooqSymbol": "kazr.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "KB",
       "name": "KB Financial Group Inc",
       "type": "us_stock",
@@ -103797,42 +103851,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LILAK",
       "stooqSymbol": "lilak.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "LILAV",
-      "name": "Liberty Latin America Ltd. - Class A Common Stock Ex-Distribution When Issued",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Liberty Latin America Ltd. - Class A Common Stock Ex-Distribution When Issued"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LILAV",
-      "stooqSymbol": "lilav.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "LILKV",
-      "name": "Liberty Latin America Ltd. - Class C Common Stock Ex-Distribution When Issued",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Liberty Latin America Ltd. - Class C Common Stock Ex-Distribution When Issued"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LILKV",
-      "stooqSymbol": "lilkv.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -114817,24 +114835,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MSOO",
-      "name": "Leverage Shares 2x Capped Accelerated MSTR Monthly ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2x Capped Accelerated MSTR Monthly ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MSOO",
-      "stooqSymbol": "msoo.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "MSOS",
       "name": "AdvisorShares Pure US Cannabis ETF",
       "type": "us_etf",
@@ -123259,6 +123259,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NVA",
+      "name": "Nova Minerals Corp Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Nova Minerals Corp Common Stock"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NVA",
+      "stooqSymbol": "nva.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NVAX",
       "name": "Novavax, Inc. - Common Stock",
       "type": "us_stock",
@@ -123471,24 +123489,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NVDL",
       "stooqSymbol": "nvdl.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "NVDO",
-      "name": "Leverage Shares 2x Capped Accelerated NVDA Monthly ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2x Capped Accelerated NVDA Monthly ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NVDO",
-      "stooqSymbol": "nvdo.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -134524,24 +134524,6 @@
       "sourceSymbol": "PLNT",
       "stooqSymbol": "plnt.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PLOO",
-      "name": "Leverage Shares 2x Capped Accelerated PLTR Monthly ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2x Capped Accelerated PLTR Monthly ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PLOO",
-      "stooqSymbol": "ploo.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -152419,24 +152401,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SCLS",
-      "name": "Stoneport Advisors Commodity Long Short ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Stoneport Advisors Commodity Long Short ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SCLS",
-      "stooqSymbol": "scls.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SCLX",
       "name": "Scilex Holding Company - Common Stock",
       "type": "us_stock",
@@ -156429,24 +156393,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SJT",
       "stooqSymbol": "sjt.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SKBL",
-      "name": "Skyline Builders Group Holding Limited - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Skyline Builders Group Holding Limited - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SKBL",
-      "stooqSymbol": "skbl.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -173763,24 +173709,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TSLL",
       "stooqSymbol": "tsll.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TSLO",
-      "name": "Leverage Shares 2x Capped Accelerated TSLA Monthly ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2x Capped Accelerated TSLA Monthly ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TSLO",
-      "stooqSymbol": "tslo.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -192375,6 +192303,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XSHD",
       "stooqSymbol": "xshd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XSHP",
+      "name": "Kurv SpaceX Enhanced Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Kurv SpaceX Enhanced Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XSHP",
+      "stooqSymbol": "xshp.us",
       "isETF": true,
       "dataQuality": "generated"
     },
