@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-17T12:36:52.144Z",
+  "generatedAt": "2026-06-18T12:02:49.194Z",
   "source": "SITCA",
   "sourceUrl": "https://www.sitca.org.tw/MemberK0000/F/03/nav.csv",
   "market": "TW",
   "segment": "domestic_fund",
-  "count": 1999,
+  "count": 2003,
   "assets": [
     {
       "symbol": "TW_FUND_00512527_TWD_AH22_00957B",
@@ -4309,6 +4309,29 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TW_FUND_26203846_TWD_AI2_T0587Y",
+      "name": "元大印尼指數基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIO39",
+      "fundCode": "DIO39",
+      "fundTaxId": "26203846",
+      "issuer": "元大投信",
+      "fundTypeCode": "AI2",
+      "beneficiaryCertificateCode": "T0587Y",
+      "aliases": [
+        "元大投信",
+        "26203846"
+      ],
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TW_FUND_26203851_TWD_AI2_T0585Y",
       "name": "元大巴西指數基金",
       "type": "taiwan_fund",
@@ -4581,6 +4604,52 @@
       "aliases": [
         "元大投信",
         "42307684B"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_42321314A_TWD_AC21_T0598A",
+      "name": "元大新興印尼機會債券基金-新台幣A類型不配息",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIO56",
+      "fundCode": "DIO56",
+      "fundTaxId": "42321314A",
+      "issuer": "元大投信",
+      "fundTypeCode": "AC21",
+      "beneficiaryCertificateCode": "T0598A",
+      "aliases": [
+        "元大投信",
+        "42321314A"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_42321314B_TWD_AC21_T0598B",
+      "name": "元大新興印尼機會債券基金-新台幣B類型配息",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIO57",
+      "fundCode": "DIO57",
+      "fundTaxId": "42321314B",
+      "issuer": "元大投信",
+      "fundTypeCode": "AC21",
+      "beneficiaryCertificateCode": "T0598B",
+      "aliases": [
+        "元大投信",
+        "42321314B"
       ],
       "dataQuality": "generated"
     },
@@ -7065,6 +7134,29 @@
       "aliases": [
         "瀚亞投信",
         "00663876D"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_10357632A_TWD_AA2_T0735Y",
+      "name": "瀚亞非洲基金-新臺幣",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DFO03",
+      "fundCode": "DFO03",
+      "fundTaxId": "10357632A",
+      "issuer": "瀚亞投信",
+      "fundTypeCode": "AA2",
+      "beneficiaryCertificateCode": "T0735Y",
+      "aliases": [
+        "瀚亞投信",
+        "10357632A"
       ],
       "dataQuality": "generated"
     },
