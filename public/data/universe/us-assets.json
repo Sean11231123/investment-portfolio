@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-17T13:03:19.561717Z",
-  "count": 10868,
-  "stockCount": 5578,
-  "etfCount": 5290,
-  "skippedCount": 1958,
+  "generatedAt": "2026-06-18T12:41:13.420066Z",
+  "count": 10872,
+  "stockCount": 5581,
+  "etfCount": 5291,
+  "skippedCount": 1960,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -60169,6 +60169,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FCBM",
+      "name": "First Carolina Financial Services, Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "First Carolina Financial Services, Inc. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FCBM",
+      "stooqSymbol": "fcbm.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FCCO",
       "name": "First Community Corporation - Common Stock",
       "type": "us_stock",
@@ -63333,6 +63351,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FISI",
       "stooqSymbol": "fisi.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FISN",
+      "name": "Deep Fission, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Deep Fission, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FISN",
+      "stooqSymbol": "fisn.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -97552,6 +97588,24 @@
       "sourceSymbol": "KAPR",
       "stooqSymbol": "kapr.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KARD",
+      "name": "Kardigan, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Kardigan, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KARD",
+      "stooqSymbol": "kard.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -134887,6 +134941,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PLUN",
+      "name": "Plutonian Acquisition Corp II Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Plutonian Acquisition Corp II Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PLUN",
+      "stooqSymbol": "plun.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PLUR",
       "name": "Pluri Inc. - Common Stock",
       "type": "us_stock",
@@ -135409,24 +135481,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "PMNT",
-      "name": "Perfect Moment Ltd. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Perfect Moment Ltd. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PMNT",
-      "stooqSymbol": "pmnt.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "PMNV",
       "name": "PGIM S&P 500 Max Buffer ETF - November",
       "type": "us_etf",
@@ -135572,14 +135626,14 @@
     },
     {
       "symbol": "PN",
-      "name": "Skycorp Solar Group Limited - Class A Ordinary Shares",
+      "name": "PN Smart Energy Limited - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Skycorp Solar Group Limited - Class A Ordinary Shares"
+        "PN Smart Energy Limited - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -177148,6 +177202,24 @@
       "sourceSymbol": "UMAC",
       "stooqSymbol": "umac.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "UMAL",
+      "name": "Defiance Daily Target 2X Long UMAC ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Daily Target 2X Long UMAC ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "UMAL",
+      "stooqSymbol": "umal.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
