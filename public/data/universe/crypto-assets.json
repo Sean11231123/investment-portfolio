@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-06-18T13:43:44.168265Z",
-  "count": 425,
-  "binanceCount": 425,
-  "coingeckoMatchedCount": 256,
-  "ambiguousCount": 162,
-  "skippedCount": 3172,
+  "generatedAt": "2026-06-19T13:49:55.754243Z",
+  "count": 423,
+  "binanceCount": 423,
+  "coingeckoMatchedCount": 257,
+  "ambiguousCount": 159,
+  "skippedCount": 3177,
   "assets": [
     {
       "symbol": "0G",
@@ -1716,23 +1716,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "COS",
-      "name": "COS",
-      "type": "crypto",
-      "market": "CRYPTO",
-      "currency": "USDT",
-      "unitLabel": "顆",
-      "priceSource": "manual",
-      "aliases": [
-        "COS"
-      ],
-      "exchange": "BINANCE",
-      "source": "binance-exchangeinfo",
-      "sourceSymbol": "COSUSDT",
-      "binanceSymbol": "COSUSDT",
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "COTI",
       "name": "COTI",
       "type": "crypto",
@@ -2742,7 +2725,7 @@
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
         "GMT"
       ],
@@ -2750,6 +2733,7 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "GMTUSDT",
       "binanceSymbol": "GMTUSDT",
+      "coingeckoId": "stepn",
       "dataQuality": "generated"
     },
     {
@@ -2964,23 +2948,6 @@
       "sourceSymbol": "HFTUSDT",
       "binanceSymbol": "HFTUSDT",
       "coingeckoId": "hashflow",
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "HIGH",
-      "name": "HIGH",
-      "type": "crypto",
-      "market": "CRYPTO",
-      "currency": "USDT",
-      "unitLabel": "顆",
-      "priceSource": "manual",
-      "aliases": [
-        "HIGH"
-      ],
-      "exchange": "BINANCE",
-      "source": "binance-exchangeinfo",
-      "sourceSymbol": "HIGHUSDT",
-      "binanceSymbol": "HIGHUSDT",
       "dataQuality": "generated"
     },
     {
@@ -3967,24 +3934,6 @@
       "sourceSymbol": "MBLUSDT",
       "binanceSymbol": "MBLUSDT",
       "coingeckoId": "moviebloc",
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MBOX",
-      "name": "Mobox",
-      "type": "crypto",
-      "market": "CRYPTO",
-      "currency": "USDT",
-      "unitLabel": "顆",
-      "priceSource": "coingecko",
-      "aliases": [
-        "Mobox"
-      ],
-      "exchange": "BINANCE",
-      "source": "binance-exchangeinfo",
-      "sourceSymbol": "MBOXUSDT",
-      "binanceSymbol": "MBOXUSDT",
-      "coingeckoId": "mobox",
       "dataQuality": "generated"
     },
     {
@@ -5270,6 +5219,24 @@
       "sourceSymbol": "RAYUSDT",
       "binanceSymbol": "RAYUSDT",
       "coingeckoId": "raydium",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RE",
+      "name": "RE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "RE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "REUSDT",
+      "binanceSymbol": "REUSDT",
+      "coingeckoId": "re",
       "dataQuality": "generated"
     },
     {
