@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-19T13:01:27.934736Z",
-  "count": 10879,
-  "stockCount": 5583,
-  "etfCount": 5296,
-  "skippedCount": 1961,
+  "generatedAt": "2026-06-22T15:09:21.752917Z",
+  "count": 10881,
+  "stockCount": 5587,
+  "etfCount": 5294,
+  "skippedCount": 1967,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -19994,14 +19994,14 @@
     },
     {
       "symbol": "BIRD",
-      "name": "Allbirds, Inc. - Class A Common Stock",
+      "name": "Smartbird, Inc. - Class A Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Allbirds, Inc. - Class A Common Stock"
+        "Smartbird, Inc. - Class A Common Stock"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -26437,24 +26437,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BULX",
-      "name": "GraniteShares 2x Long BULL Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "GraniteShares 2x Long BULL Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BULX",
-      "stooqSymbol": "bulx.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BUR",
       "name": "Burford Capital Limited Ordinary Shares",
       "type": "us_stock",
@@ -27856,6 +27838,24 @@
       "sourceSymbol": "CAIE",
       "stooqSymbol": "caie.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CAII",
+      "name": "Collective Acquisition Corp. II - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Collective Acquisition Corp. II - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CAII",
+      "stooqSymbol": "caii.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -32967,24 +32967,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CIEN",
       "stooqSymbol": "cien.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CIF",
-      "name": "MFS Intermediate High Income Fund Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "MFS Intermediate High Income Fund Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CIF",
-      "stooqSymbol": "cif.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -47443,6 +47425,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DQJN",
+      "name": "FT Vest Nasdaq-100 Dual Directional Buffer ETF - June",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest Nasdaq-100 Dual Directional Buffer ETF - June"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DQJN",
+      "stooqSymbol": "dqjn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DRAI",
       "name": "Draco Evolution AI ETF",
       "type": "us_etf",
@@ -56911,24 +56911,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ETRL",
-      "name": "GraniteShares 2x Long ETOR Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "GraniteShares 2x Long ETOR Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ETRL",
-      "stooqSymbol": "etrl.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ETS",
       "name": "Elite Express Holding Inc. - Class A Common Stock",
       "type": "us_stock",
@@ -63337,6 +63319,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FIRY",
+      "name": "Firy Inc. Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Firy Inc. Class A Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FIRY",
+      "stooqSymbol": "firy.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FIS",
       "name": "Fidelity National Information Services, Inc. Common Stock",
       "type": "us_stock",
@@ -68251,6 +68251,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FTHA",
+      "name": "Forefront Tech Holdings Acquisition Corp - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Forefront Tech Holdings Acquisition Corp - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FTHA",
+      "stooqSymbol": "ftha.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FTHB",
       "name": "FIS Faith Income ETF",
       "type": "us_etf",
@@ -70785,6 +70803,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GCDT",
       "stooqSymbol": "gcdt.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GCGR",
+      "name": "General Catalyst Global Resilience Merger Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "General Catalyst Global Resilience Merger Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GCGR",
+      "stooqSymbol": "gcgr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -78382,6 +78418,24 @@
       "sourceSymbol": "HAPI",
       "stooqSymbol": "hapi.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HAPN",
+      "name": "Happen, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Happen, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HAPN",
+      "stooqSymbol": "hapn.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -98563,6 +98617,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "KEYY",
+      "name": "Keystone Acquisition Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Keystone Acquisition Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KEYY",
+      "stooqSymbol": "keyy.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "KF",
       "name": "Korea Fund, Inc. (The) New Common Stock",
       "type": "us_stock",
@@ -102123,24 +102195,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LBTYK",
       "stooqSymbol": "lbtyk.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "LC",
-      "name": "LendingClub Corporation Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "LendingClub Corporation Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LC",
-      "stooqSymbol": "lc.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -108859,6 +108913,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MCAH",
+      "name": "Mountain Crest Acquisition 6 Corp. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Mountain Crest Acquisition 6 Corp. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MCAH",
+      "stooqSymbol": "mcah.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MCB",
       "name": "Metropolitan Bank Holding Corp. Common Stock",
       "type": "us_stock",
@@ -109198,24 +109270,6 @@
       "sourceSymbol": "MCOW",
       "stooqSymbol": "mcow.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MCR",
-      "name": "MFS Charter Income Trust Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "MFS Charter Income Trust Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MCR",
-      "stooqSymbol": "mcr.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -112874,14 +112928,14 @@
     },
     {
       "symbol": "MMT",
-      "name": "MFS Multimarket Income Trust Common Stock",
+      "name": "Aberdeen Multi-Market Income Fund Common Shares of Beneficial Interest",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "MFS Multimarket Income Trust Common Stock"
+        "Aberdeen Multi-Market Income Fund Common Shares of Beneficial Interest"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -114547,24 +114601,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MSDD",
-      "name": "GraniteShares 2x Short MSTR Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "GraniteShares 2x Short MSTR Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MSDD",
-      "stooqSymbol": "msdd.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "MSDL",
       "name": "Morgan Stanley Direct Lending Fund Common Stock",
       "type": "us_stock",
@@ -115605,6 +115641,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MTNB",
       "stooqSymbol": "mtnb.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MTNE",
+      "name": "CH4 Natural Solutions Corporation Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "CH4 Natural Solutions Corporation Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MTNE",
+      "stooqSymbol": "mtne.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -148945,24 +148999,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "RSHO",
-      "name": "Tema U.S. Manufacturing & Reshoring ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tema U.S. Manufacturing & Reshoring ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RSHO",
-      "stooqSymbol": "rsho.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "RSI",
       "name": "Rush Street Interactive, Inc. Class A Common Stock",
       "type": "us_stock",
@@ -156663,24 +156699,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SKK",
       "stooqSymbol": "skk.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SKLZ",
-      "name": "Skillz Inc. Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Skillz Inc. Class A Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SKLZ",
-      "stooqSymbol": "sklz.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -186655,6 +186673,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "WELD",
+      "name": "Tema U.S. Manufacturing & Reshoring ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tema U.S. Manufacturing & Reshoring ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WELD",
+      "stooqSymbol": "weld.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "WELL",
       "name": "Welltower Inc. Common Stock",
       "type": "us_stock",
@@ -193352,14 +193388,14 @@
     },
     {
       "symbol": "YALL",
-      "name": "God Bless America ETF",
+      "name": "Truth Social God Bless America ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "God Bless America ETF"
+        "Truth Social God Bless America ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
