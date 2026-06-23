@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-22T15:09:21.752917Z",
-  "count": 10881,
+  "generatedAt": "2026-06-23T12:25:36.673311Z",
+  "count": 10898,
   "stockCount": 5587,
-  "etfCount": 5294,
+  "etfCount": 5311,
   "skippedCount": 1967,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -117,6 +117,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AAAD",
       "stooqSymbol": "aaad.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AAAP",
+      "name": "Pacer Barings CLO Market Flex ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pacer Barings CLO Market Flex ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AAAP",
+      "stooqSymbol": "aaap.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -11929,6 +11947,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ASTG",
+      "name": "Leverage Shares 2X Long ASTS Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long ASTS Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ASTG",
+      "stooqSymbol": "astg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ASTH",
       "name": "Astrana Health Inc. - Common Stock",
       "type": "us_stock",
@@ -17599,6 +17635,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BD",
+      "name": "Russell Investments Core Plus Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Russell Investments Core Plus Bond ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BD",
+      "stooqSymbol": "bd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BDBT",
       "name": "Bluemonte Core Bond ETF",
       "type": "us_etf",
@@ -20781,6 +20835,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BKLC",
       "stooqSymbol": "bklc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BKLG",
+      "name": "BNY Mellon US Large Cap Equity Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BNY Mellon US Large Cap Equity Growth ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BKLG",
+      "stooqSymbol": "bklg.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -30397,6 +30469,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CDNG",
+      "name": "Leverage Shares 2X Long CDNS Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long CDNS Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CDNG",
+      "stooqSymbol": "cdng.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CDNL",
       "name": "Cardinal Infrastructure Group Inc. - Class A Common Stock",
       "type": "us_stock",
@@ -38335,6 +38425,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CRIB",
+      "name": "Russell Investments Global Real Estate ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Russell Investments Global Real Estate ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CRIB",
+      "stooqSymbol": "crib.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CRIS",
       "name": "Curis, Inc. - Common Stock",
       "type": "us_stock",
@@ -39182,14 +39290,14 @@
     },
     {
       "symbol": "CSHP",
-      "name": "iShares Enhanced Short-Term Bond Active ETF",
+      "name": "iShares Dynamic Short-Term Active ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "iShares Enhanced Short-Term Bond Active ETF"
+        "iShares Dynamic Short-Term Active ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -44037,6 +44145,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DFAI",
       "stooqSymbol": "dfai.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DFAL",
+      "name": "Dimensional US Large Cap Core Equity Market ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Dimensional US Large Cap Core Equity Market ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DFAL",
+      "stooqSymbol": "dfal.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -54640,6 +54766,24 @@
       "sourceSymbol": "ENTG",
       "stooqSymbol": "entg.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ENTL",
+      "name": "Leverage Shares 2X Long ENTG Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long ENTG Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ENTL",
+      "stooqSymbol": "entl.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -66289,6 +66433,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FOMG",
+      "name": "Leverage Shares 2X Long FORM Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long FORM Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FOMG",
+      "stooqSymbol": "fomg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FOPC",
       "name": "Frontier Asset Opportunistic Credit ETF",
       "type": "us_etf",
@@ -66682,6 +66844,24 @@
       "sourceSymbol": "FPS",
       "stooqSymbol": "fps.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FPSX",
+      "name": "Leverage Shares 2X Long FPS Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long FPS Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FPSX",
+      "stooqSymbol": "fpsx.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -72208,6 +72388,24 @@
       "sourceSymbol": "GFS",
       "stooqSymbol": "gfs.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GFSG",
+      "name": "Leverage Shares 2X Long GFS Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long GFS Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GFSG",
+      "stooqSymbol": "gfsg.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -81712,6 +81910,24 @@
       "sourceSymbol": "HPE",
       "stooqSymbol": "hpe.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HPEL",
+      "name": "Leverage Shares 2X Long HPE Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long HPE Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HPEL",
+      "stooqSymbol": "hpel.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -105259,24 +105475,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "LOKV",
-      "name": "Live Oak Acquisition Corp. V - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Live Oak Acquisition Corp. V - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LOKV",
-      "stooqSymbol": "lokv.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "LOMA",
       "name": "Loma Negra Compania Industrial Argentina Sociedad Anonima ADS",
       "type": "us_stock",
@@ -115732,6 +115930,24 @@
       "sourceSymbol": "MTRX",
       "stooqSymbol": "mtrx.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MTSG",
+      "name": "Leverage Shares 2X Long MTSI Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long MTSI Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MTSG",
+      "stooqSymbol": "mtsg.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -128696,14 +128912,14 @@
     },
     {
       "symbol": "OSRH",
-      "name": "OSR Holdings, Inc. - Common Stock",
+      "name": "OSR Health, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "OSR Holdings, Inc."
+        "OSR Health, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -131193,6 +131409,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PBRG",
       "stooqSymbol": "pbrg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PBSC",
+      "name": "Pacer Barings Secured Credit Flex ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pacer Barings Secured Credit Flex ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PBSC",
+      "stooqSymbol": "pbsc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -137659,6 +137893,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PRXI",
+      "name": "Praxis Impact International ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Praxis Impact International ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PRXI",
+      "stooqSymbol": "prxi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PRXV",
       "name": "Praxis Impact Large Cap Value ETF",
       "type": "us_etf",
@@ -141382,6 +141634,24 @@
       "sourceSymbol": "QLDY",
       "stooqSymbol": "qldy.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QLEP",
+      "name": "Quantum Leap Acquisition Corp Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Quantum Leap Acquisition Corp Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QLEP",
+      "stooqSymbol": "qlep.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -158629,6 +158899,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SMTG",
+      "name": "Leverage Shares 2X Long SMTC Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long SMTC Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SMTG",
+      "stooqSymbol": "smtg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SMTH",
       "name": "ALPS Smith Core Plus Bond ETF",
       "type": "us_etf",
@@ -158914,24 +159202,6 @@
       "sourceSymbol": "SNAV",
       "stooqSymbol": "snav.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SNBR",
-      "name": "Sleep Number Corporation - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Sleep Number Corporation"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SNBR",
-      "stooqSymbol": "snbr.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -160610,14 +160880,14 @@
     },
     {
       "symbol": "SPCQ",
-      "name": "Defiance Daily Target 2X Short SpaceX ETF",
+      "name": "Defiance Daily Target 2X Short SPCX ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Defiance Daily Target 2X Short SpaceX ETF"
+        "Defiance Daily Target 2X Short SPCX ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -160646,14 +160916,14 @@
     },
     {
       "symbol": "SPCU",
-      "name": "Defiance Daily Target 2X Long SpaceX ETF",
+      "name": "Defiance Daily Target 2X Long SPCX ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Defiance Daily Target 2X Long SpaceX ETF"
+        "Defiance Daily Target 2X Long SPCX ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -169447,6 +169717,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "THOR",
+      "name": "Thornburg Premium Income Builder ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Thornburg Premium Income Builder ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "THOR",
+      "stooqSymbol": "thor.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "THQ",
       "name": "abrdn Healthcare Opportunities Fund Shares of Beneficial Interest",
       "type": "us_stock",
@@ -171189,6 +171477,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TMQ",
       "stooqSymbol": "tmq.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TMS",
+      "name": "Teamshares Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Teamshares Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TMS",
+      "stooqSymbol": "tms.us",
       "isETF": false,
       "dataQuality": "generated"
     },
