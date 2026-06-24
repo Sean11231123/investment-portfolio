@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-23T12:25:36.673311Z",
-  "count": 10898,
-  "stockCount": 5587,
-  "etfCount": 5311,
-  "skippedCount": 1967,
+  "generatedAt": "2026-06-24T12:10:13.829155Z",
+  "count": 10918,
+  "stockCount": 5585,
+  "etfCount": 5333,
+  "skippedCount": 1966,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -1867,6 +1867,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ACLZ",
+      "name": "Corgi ACLS 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi ACLS 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACLZ",
+      "stooqSymbol": "aclz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ACM",
       "name": "AECOM Common Stock",
       "type": "us_stock",
@@ -1882,6 +1900,24 @@
       "sourceSymbol": "ACM",
       "stooqSymbol": "acm.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACMM",
+      "name": "Corgi ACMR 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi ACMR 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACMM",
+      "stooqSymbol": "acmm.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -2421,6 +2457,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ACYN",
       "stooqSymbol": "acyn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACYQ",
+      "name": "FT Vest Autocallable Barrier & High Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest Autocallable Barrier & High Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACYQ",
+      "stooqSymbol": "acyq.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -28111,6 +28165,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CAMC",
+      "name": "Corgi CAMT 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi CAMT 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CAMC",
+      "stooqSymbol": "camc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CAML",
       "name": "Congress Large Cap Growth ETF",
       "type": "us_etf",
@@ -28504,6 +28576,24 @@
       "sourceSymbol": "CART",
       "stooqSymbol": "cart.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CARX",
+      "name": "Corgi CART 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi CART 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CARX",
+      "stooqSymbol": "carx.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -38839,6 +38929,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CRUC",
+      "name": "Corgi CRUS 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi CRUS 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CRUC",
+      "stooqSymbol": "cruc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CRUS",
       "name": "Cirrus Logic, Inc. - Common Stock",
       "type": "us_stock",
@@ -44038,24 +44146,6 @@
       "sourceSymbol": "DEUS",
       "stooqSymbol": "deus.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DEVS",
-      "name": "DevvStream Corp. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "DevvStream Corp."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DEVS",
-      "stooqSymbol": "devs.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -50806,6 +50896,24 @@
       "sourceSymbol": "ECH",
       "stooqSymbol": "ech.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ECHO",
+      "name": "EchoStar Corporation - Common stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "EchoStar Corporation - Common stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ECHO",
+      "stooqSymbol": "echo.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -69346,6 +69454,24 @@
       "sourceSymbol": "FUSB",
       "stooqSymbol": "fusb.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FUSD",
+      "name": "Federated Hermes Ultrashort Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Federated Hermes Ultrashort Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FUSD",
+      "stooqSymbol": "fusd.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -88105,6 +88231,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "IINC",
+      "name": "Alki Consolidated Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Alki Consolidated Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IINC",
+      "stooqSymbol": "iinc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "IIPR",
       "name": "Innovative Industrial Properties, Inc. Common Stock",
       "type": "us_stock",
@@ -98833,6 +98977,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "KEYX",
+      "name": "Corgi KEYS 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi KEYS 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KEYX",
+      "stooqSymbol": "keyx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "KEYY",
       "name": "Keystone Acquisition Corp. - Class A Ordinary Shares",
       "type": "us_stock",
@@ -102070,6 +102232,24 @@
       "sourceSymbol": "LARK",
       "stooqSymbol": "lark.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LASC",
+      "name": "Corgi LASR 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi LASR 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LASC",
+      "stooqSymbol": "lasc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -106303,6 +106483,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LRNX",
+      "name": "Corgi LRN 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi LRN 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LRNX",
+      "stooqSymbol": "lrnx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LRNZ",
       "name": "TrueShares Technology, AI & Deep Learning ETF",
       "type": "us_etf",
@@ -106408,6 +106606,24 @@
       "sourceSymbol": "LSCC",
       "stooqSymbol": "lscc.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LSCP",
+      "name": "Natixis Loomis Sayles Dynamic Core Plus ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Natixis Loomis Sayles Dynamic Core Plus ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LSCP",
+      "stooqSymbol": "lscp.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -106552,6 +106768,24 @@
       "sourceSymbol": "LSTA",
       "stooqSymbol": "lsta.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LSTB",
+      "name": "Natixis Loomis Sayles Total Return Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Natixis Loomis Sayles Total Return Bond ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LSTB",
+      "stooqSymbol": "lstb.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -108082,24 +108316,6 @@
       "sourceSymbol": "MARA",
       "stooqSymbol": "mara.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MARB",
-      "name": "First Trust Merger Arbitrage ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "First Trust Merger Arbitrage ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MARB",
-      "stooqSymbol": "marb.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -113431,6 +113647,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MNSX",
+      "name": "Corgi MNST 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi MNST 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MNSX",
+      "stooqSymbol": "mnsx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MNTK",
       "name": "Montauk Renewables, Inc. - Common Stock",
       "type": "us_stock",
@@ -115102,6 +115336,24 @@
       "sourceSymbol": "MSIF",
       "stooqSymbol": "msif.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MSIX",
+      "name": "Corgi MSI 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi MSI 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MSIX",
+      "stooqSymbol": "msix.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -122827,6 +123079,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NTRL",
+      "name": "First Trust Equity Market Neutral ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "First Trust Equity Market Neutral ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NTRL",
+      "stooqSymbol": "ntrl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NTRP",
       "name": "NextTrip, Inc. - Common Stock",
       "type": "us_stock",
@@ -127759,6 +128029,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ONTX",
+      "name": "Corgi ONTO 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi ONTO 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ONTX",
+      "stooqSymbol": "ontx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ONX",
       "name": "Tradr 2X Long ON Daily ETF",
       "type": "us_etf",
@@ -128529,24 +128817,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ORIQ",
       "stooqSymbol": "oriq.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ORIS",
-      "name": "Oriental Rise Holdings Limited - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Oriental Rise Holdings Limited - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ORIS",
-      "stooqSymbol": "oris.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -143887,6 +144157,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RAM",
+      "name": "Roundhill T-REX 2X Long DRAM Daily Target ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Roundhill T-REX 2X Long DRAM Daily Target ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RAM",
+      "stooqSymbol": "ram.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RAMP",
       "name": "LiveRamp Holdings, Inc. Common Stock",
       "type": "us_stock",
@@ -147595,6 +147883,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RMBC",
+      "name": "Corgi RMBS 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi RMBS 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RMBC",
+      "stooqSymbol": "rmbc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RMBI",
       "name": "Richmond Mutual Bancorporation, Inc. - Common Stock",
       "type": "us_stock",
@@ -147700,6 +148006,24 @@
       "sourceSymbol": "RMD",
       "stooqSymbol": "rmd.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RMHY",
+      "name": "Global X Adaptive Risk Managed Yield ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Global X Adaptive Risk Managed Yield ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RMHY",
+      "stooqSymbol": "rmhy.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -149972,14 +150296,14 @@
     },
     {
       "symbol": "RUM",
-      "name": "Rumble Inc. - Class A Common Stock",
+      "name": "RUM Group Inc. - Class A Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Rumble Inc. - Class A Common Stock"
+        "RUM Group Inc. - Class A Common Stock"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -151606,24 +151930,6 @@
       "sourceSymbol": "SATO",
       "stooqSymbol": "sato.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SATS",
-      "name": "EchoStar Corporation - Common stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "EchoStar Corporation - Common stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SATS",
-      "stooqSymbol": "sats.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -156393,6 +156699,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SIMS",
       "stooqSymbol": "sims.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SIMX",
+      "name": "Corgi SIMO 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi SIMO 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SIMX",
+      "stooqSymbol": "simx.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -172669,6 +172993,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TPLX",
+      "name": "Corgi TPL 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi TPL 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TPLX",
+      "stooqSymbol": "tplx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TPOR",
       "name": "Direxion Daily Transportation Bull 3X ETF",
       "type": "us_etf",
@@ -177742,6 +178084,24 @@
       "sourceSymbol": "UMC",
       "stooqSymbol": "umc.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "UMCX",
+      "name": "Corgi UMC 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi UMC 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "UMCX",
+      "stooqSymbol": "umcx.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
