@@ -2,9 +2,9 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-06-23T12:47:41.650872Z",
-  "count": 423,
-  "binanceCount": 423,
+  "generatedAt": "2026-06-24T12:29:49.619574Z",
+  "count": 427,
+  "binanceCount": 427,
   "coingeckoMatchedCount": 257,
   "ambiguousCount": 159,
   "skippedCount": 3179,
@@ -484,6 +484,23 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "ALTUSDT",
       "binanceSymbol": "ALTUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AMDB",
+      "name": "AMDB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "AMDB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AMDBUSDT",
+      "binanceSymbol": "AMDBUSDT",
       "dataQuality": "generated"
     },
     {
@@ -2403,6 +2420,23 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "EWYB",
+      "name": "EWYB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "EWYB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "EWYBUSDT",
+      "binanceSymbol": "EWYBUSDT",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FDUSD",
       "name": "First Digital USD",
       "type": "crypto",
@@ -3195,6 +3229,23 @@
       "sourceSymbol": "INJUSDT",
       "binanceSymbol": "INJUSDT",
       "coingeckoId": "injective-protocol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "INTCB",
+      "name": "INTCB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "INTCB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "INTCBUSDT",
+      "binanceSymbol": "INTCBUSDT",
       "dataQuality": "generated"
     },
     {
@@ -4142,6 +4193,23 @@
       "sourceSymbol": "MOVRUSDT",
       "binanceSymbol": "MOVRUSDT",
       "coingeckoId": "moonriver",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MSTRB",
+      "name": "MSTRB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "MSTRB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MSTRBUSDT",
+      "binanceSymbol": "MSTRBUSDT",
       "dataQuality": "generated"
     },
     {
