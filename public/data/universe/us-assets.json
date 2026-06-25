@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-24T12:10:13.829155Z",
-  "count": 10918,
-  "stockCount": 5585,
-  "etfCount": 5333,
-  "skippedCount": 1966,
+  "generatedAt": "2026-06-25T12:07:01.196562Z",
+  "count": 10925,
+  "stockCount": 5584,
+  "etfCount": 5341,
+  "skippedCount": 1965,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -2997,24 +2997,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ADTN",
       "stooqSymbol": "adtn.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ADTX",
-      "name": "Aditxt, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Aditxt, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ADTX",
-      "stooqSymbol": "adtx.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -7429,6 +7411,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AMEI",
+      "name": "Amana Equity Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Amana Equity Income ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AMEI",
+      "stooqSymbol": "amei.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AMEM",
+      "name": "Amana Developing World ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Amana Developing World ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AMEM",
+      "stooqSymbol": "amem.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AMG",
       "name": "Affiliated Managers Group, Inc. Common Stock",
       "type": "us_stock",
@@ -7465,6 +7483,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AMGR",
+      "name": "Amana Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Amana Growth ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AMGR",
+      "stooqSymbol": "amgr.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AMH",
       "name": "American Homes 4 Rent Common Shares of Beneficial Interest",
       "type": "us_stock",
@@ -7480,6 +7516,24 @@
       "sourceSymbol": "AMH",
       "stooqSymbol": "amh.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AMHI",
+      "name": "American Beacon Aberdeen Municipal High Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "American Beacon Aberdeen Municipal High Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AMHI",
+      "stooqSymbol": "amhi.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -21812,14 +21866,14 @@
     },
     {
       "symbol": "BLX",
-      "name": "Banco Latinoamericano de Comercio Exterior, S.A.",
+      "name": "Bladex, Inc. Class E Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Banco Latinoamericano de Comercio Exterior, S.A."
+        "Bladex, Inc. Class E Common Stock"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -28904,14 +28958,14 @@
     },
     {
       "symbol": "CBAT",
-      "name": "CBAK Energy Technology, Inc. - Common Stock",
+      "name": "CBAK Energy Technology Limited - Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "CBAK Energy Technology, Inc."
+        "CBAK Energy Technology Limited - Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -41161,24 +41215,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CWAN",
-      "name": "Clearwater Analytics Holdings, Inc. Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Clearwater Analytics Holdings, Inc. Class A Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CWAN",
-      "stooqSymbol": "cwan.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CWB",
       "name": "State Street SPDR Bloomberg Convertible Securities ETF",
       "type": "us_etf",
@@ -47551,6 +47587,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DPC",
+      "name": "DPC Holdings PLC Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "DPC Holdings PLC Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DPC",
+      "stooqSymbol": "dpc.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DPG",
       "name": "Duff & Phelps Utility and Infrastructure Fund Inc.",
       "type": "us_stock",
@@ -47673,6 +47727,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DRAI",
       "stooqSymbol": "drai.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DRAL",
+      "name": "Defiance Daily Target 2X Long DRAM ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Daily Target 2X Long DRAM ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DRAL",
+      "stooqSymbol": "dral.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -142267,6 +142339,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "QNDX",
+      "name": "State Street SPDR Portfolio Nasdaq 100 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "State Street SPDR Portfolio Nasdaq 100 ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QNDX",
+      "stooqSymbol": "qndx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "QNST",
       "name": "QuinStreet, Inc. - Common Stock",
       "type": "us_stock",
@@ -158715,6 +158805,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SMH",
       "stooqSymbol": "smh.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SMHC",
+      "name": "VanEck China Semiconductor ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VanEck China Semiconductor ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SMHC",
+      "stooqSymbol": "smhc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -191259,6 +191367,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XIDV",
       "stooqSymbol": "xidv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XIGV",
+      "name": "Defiance US 100 Tech Ex Software ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance US 100 Tech Ex Software ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XIGV",
+      "stooqSymbol": "xigv.us",
       "isETF": true,
       "dataQuality": "generated"
     },
