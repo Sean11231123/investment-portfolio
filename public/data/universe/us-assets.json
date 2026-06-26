@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-25T12:07:01.196562Z",
-  "count": 10925,
-  "stockCount": 5584,
-  "etfCount": 5341,
-  "skippedCount": 1965,
+  "generatedAt": "2026-06-26T12:02:19.409859Z",
+  "count": 10943,
+  "stockCount": 5583,
+  "etfCount": 5360,
+  "skippedCount": 1970,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -3217,6 +3217,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AEHG",
+      "name": "Leverage Shares 2X Long AEHR Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long AEHR Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AEHG",
+      "stooqSymbol": "aehg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AEHL",
       "name": "Antelope Enterprise Holdings Limited - Class A Ordinary Shares",
       "type": "us_stock",
@@ -4802,14 +4820,14 @@
     },
     {
       "symbol": "AIB",
-      "name": "BlockchAIn Digital Infrastructure, Inc Common Shares",
+      "name": "AIB Data Centers Inc. Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "BlockchAIn Digital Infrastructure, Inc Common Shares"
+        "AIB Data Centers Inc. Common Stock"
       ],
       "exchange": "NYSEAMERICAN",
       "source": "nasdaqtrader-symbol-directory",
@@ -5697,6 +5715,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AIVL",
       "stooqSymbol": "aivl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AIX",
+      "name": "Defiance US 100 Tech AI Moat ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance US 100 Tech AI Moat ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AIX",
+      "stooqSymbol": "aix.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -7051,6 +7087,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AMAA",
+      "name": "Corgi AMZN 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi AMZN 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AMAA",
+      "stooqSymbol": "amaa.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AMAL",
       "name": "Amalgamated Financial Corp. - Common Stock",
       "type": "us_stock",
@@ -7300,6 +7354,24 @@
       "sourceSymbol": "AMD",
       "stooqSymbol": "amd.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AMDC",
+      "name": "Corgi AMD 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi AMD 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AMDC",
+      "stooqSymbol": "amdc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -9568,6 +9640,24 @@
       "sourceSymbol": "APP",
       "stooqSymbol": "app.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "APPC",
+      "name": "Corgi APP 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi APP 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "APPC",
+      "stooqSymbol": "appc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -12160,6 +12250,24 @@
       "sourceSymbol": "ASTS",
       "stooqSymbol": "asts.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ASTT",
+      "name": "Corgi ASTS 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi ASTS 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ASTT",
+      "stooqSymbol": "astt.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -36153,6 +36261,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "COIW",
       "stooqSymbol": "coiw.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "COIX",
+      "name": "Corgi COIN 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi COIN 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "COIX",
+      "stooqSymbol": "coix.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -60313,6 +60439,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FBX",
+      "name": "Corgi META 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi META 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FBX",
+      "stooqSymbol": "fbx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FBY",
       "name": "YieldMax META Option Income Strategy ETF",
       "type": "us_etf",
@@ -75286,6 +75430,24 @@
       "sourceSymbol": "GOF",
       "stooqSymbol": "gof.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GOGL",
+      "name": "Corgi GOOGL 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi GOOGL 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GOGL",
+      "stooqSymbol": "gogl.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -102109,6 +102271,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LADM",
+      "name": "Pacer Swan SOS Laddered Moderate ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pacer Swan SOS Laddered Moderate ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LADM",
+      "stooqSymbol": "ladm.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LADR",
       "name": "Ladder Capital Corp Class A Common Stock",
       "type": "us_stock",
@@ -111973,6 +112153,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MIC",
+      "name": "Corgi MU 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi MU 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MIC",
+      "stooqSymbol": "mic.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MICC",
       "name": "The Magnum Ice Cream Company N.V. Ordinary Shares",
       "type": "us_stock",
@@ -115159,6 +115357,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MSFC",
+      "name": "Corgi MSFT 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi MSFT 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MSFC",
+      "stooqSymbol": "msfc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MSFD",
       "name": "Direxion Daily MSFT Bear 1X ETF",
       "type": "us_etf",
@@ -115677,6 +115893,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MSTB",
       "stooqSymbol": "mstb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MSTC",
+      "name": "Corgi MSTR 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi MSTR 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MSTC",
+      "stooqSymbol": "mstc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -124101,6 +124335,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NVBW",
       "stooqSymbol": "nvbw.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NVC",
+      "name": "Corgi NVDA 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi NVDA 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NVC",
+      "stooqSymbol": "nvc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -135517,6 +135769,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PLTL",
+      "name": "Corgi PLTR 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi PLTR 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PLTL",
+      "stooqSymbol": "pltl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PLTM",
       "name": "GraniteShares Platinum Shares ETF",
       "type": "us_etf",
@@ -137349,24 +137619,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PR",
       "stooqSymbol": "pr.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PRA",
-      "name": "ProAssurance Corporation Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ProAssurance Corporation Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PRA",
-      "stooqSymbol": "pra.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -153913,24 +154165,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SDM",
-      "name": "Smart Digital Group Limited - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Smart Digital Group Limited - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SDM",
-      "stooqSymbol": "sdm.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SDMF",
       "name": "Simplify DBi CTA Managed Futures Index ETF",
       "type": "us_etf",
@@ -156811,6 +157045,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SIND",
+      "name": "Sinda Ltd. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Sinda Ltd. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SIND",
+      "stooqSymbol": "sind.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SINT",
       "name": "SiNtx Technologies, Inc. - Common Stock",
       "type": "us_stock",
@@ -159670,6 +159922,24 @@
       "sourceSymbol": "SNDA",
       "stooqSymbol": "snda.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SNDC",
+      "name": "Corgi SNDK 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi SNDK 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SNDC",
+      "stooqSymbol": "sndc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -169213,6 +169483,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TESC",
+      "name": "Corgi TSLA 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi TSLA 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TESC",
+      "stooqSymbol": "tesc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TESL",
       "name": "Simplify Volt TSLA Revolution ETF",
       "type": "us_etf",
@@ -176143,6 +176431,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TWSC",
+      "name": "Corgi TSM 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi TSM 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TWSC",
+      "stooqSymbol": "twsc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TWST",
       "name": "Twist Bioscience Corporation - Common Stock",
       "type": "us_stock",
@@ -177202,6 +177508,24 @@
       "sourceSymbol": "UCTT",
       "stooqSymbol": "uctt.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "UCTX",
+      "name": "Corgi UCTT 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi UCTT 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "UCTX",
+      "stooqSymbol": "uctx.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -183398,14 +183722,14 @@
     },
     {
       "symbol": "VIVO",
-      "name": "VivoPower PLC - Ordinary Shares",
+      "name": "VivoPower PLC - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "VivoPower PLC - Ordinary Shares"
+        "VivoPower PLC - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
