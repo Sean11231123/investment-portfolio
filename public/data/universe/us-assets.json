@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-29T13:54:53.976268Z",
-  "count": 10945,
-  "stockCount": 5587,
-  "etfCount": 5358,
-  "skippedCount": 1971,
+  "generatedAt": "2026-06-30T12:00:45.277317Z",
+  "count": 10963,
+  "stockCount": 5588,
+  "etfCount": 5375,
+  "skippedCount": 1969,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -1684,6 +1684,24 @@
       "sourceSymbol": "ACHV",
       "stooqSymbol": "achv.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACHX",
+      "name": "Corgi ACHR 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi ACHR 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACHX",
+      "stooqSymbol": "achx.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -10957,6 +10975,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ARMA",
+      "name": "Corgi ARM 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi ARM 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ARMA",
+      "stooqSymbol": "arma.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ARMG",
       "name": "Leverage Shares 2X Long ARM Daily ETF",
       "type": "us_etf",
@@ -11961,6 +11997,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ASMU",
       "stooqSymbol": "asmu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ASMZ",
+      "name": "Corgi ASML 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi ASML 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ASMZ",
+      "stooqSymbol": "asmz.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -13761,6 +13815,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AVGB",
       "stooqSymbol": "avgb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AVGC",
+      "name": "Corgi AVGO 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi AVGO 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AVGC",
+      "stooqSymbol": "avgc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -18283,6 +18355,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BEC",
+      "name": "Corgi BE 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi BE 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BEC",
+      "stooqSymbol": "bec.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BEDY",
       "name": "BNY Mellon Enhanced Dividend and Income ETF",
       "type": "us_etf",
@@ -20534,14 +20624,14 @@
     },
     {
       "symbol": "BITX",
-      "name": "2x Bitcoin Strategy ETF",
+      "name": "2x Bitcoin ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "2x Bitcoin Strategy ETF"
+        "2x Bitcoin ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -25358,14 +25448,14 @@
     },
     {
       "symbol": "BSR",
-      "name": "Beacon Selective Risk ETF",
+      "name": "Beacon Unified Catalyst ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Beacon Selective Risk ETF"
+        "Beacon Unified Catalyst ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -26236,24 +26326,6 @@
       "sourceSymbol": "BTX",
       "stooqSymbol": "btx.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BTYB",
-      "name": "VistaShares BitBonds 5 Yr Enhanced Weekly Distribution ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "VistaShares BitBonds 5 Yr Enhanced Weekly Distribution ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BTYB",
-      "stooqSymbol": "btyb.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -33328,6 +33400,24 @@
       "sourceSymbol": "CIEN",
       "stooqSymbol": "cien.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CIFC",
+      "name": "Corgi CIFR 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi CIFR 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CIFC",
+      "stooqSymbol": "cifc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -46075,6 +46165,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DISK",
+      "name": "Tema Memory ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tema Memory ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DISK",
+      "stooqSymbol": "disk.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DISV",
       "name": "Dimensional International Small Cap Value ETF",
       "type": "us_etf",
@@ -55215,6 +55323,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ENZL",
       "stooqSymbol": "enzl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EO",
+      "name": "Corgi EOSE 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi EOSE 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EO",
+      "stooqSymbol": "eo.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -73831,6 +73957,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GLAS",
+      "name": "Glass House Brands Inc. Subordinate Voting Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Glass House Brands Inc. Subordinate Voting Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GLAS",
+      "stooqSymbol": "glas.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GLBE",
       "name": "Global-E Online Ltd. - ordinary shares",
       "type": "us_stock",
@@ -74025,24 +74169,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GLDW",
       "stooqSymbol": "gldw.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "GLDY",
-      "name": "Defiance Gold Enhanced Options Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Gold Enhanced Options Income ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GLDY",
-      "stooqSymbol": "gldy.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -74551,6 +74677,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GLX",
+      "name": "Corgi GLXY 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi GLXY 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GLX",
+      "stooqSymbol": "glx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GLXG",
       "name": "Galaxy Payroll Group Limited - Class A Ordinary Shares",
       "type": "us_stock",
@@ -74674,6 +74818,24 @@
       "sourceSymbol": "GME",
       "stooqSymbol": "gme.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GMEC",
+      "name": "Corgi GME 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi GME 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GMEC",
+      "stooqSymbol": "gmec.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -75484,6 +75646,24 @@
       "sourceSymbol": "GOLF",
       "stooqSymbol": "golf.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GOLI",
+      "name": "Defiance Gold Enhanced Options Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Gold Enhanced Options Income ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GOLI",
+      "stooqSymbol": "goli.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -90967,6 +91147,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "IONC",
+      "name": "Corgi IONQ 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi IONQ 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IONC",
+      "stooqSymbol": "ionc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "IONL",
       "name": "GraniteShares 2x Long IONQ Daily ETF",
       "type": "us_etf",
@@ -91126,6 +91324,24 @@
       "sourceSymbol": "IOSP",
       "stooqSymbol": "iosp.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IOSX",
+      "name": "Corgi AAPL 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi AAPL 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IOSX",
+      "stooqSymbol": "iosx.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -102610,6 +102826,24 @@
       "sourceSymbol": "LAZ",
       "stooqSymbol": "laz.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LAZR",
+      "name": "Tema Photonics & Optical ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tema Photonics & Optical ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LAZR",
+      "stooqSymbol": "lazr.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -128929,6 +129163,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ORAC",
+      "name": "Corgi ORCL 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi ORCL 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ORAC",
+      "stooqSymbol": "orac.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ORBS",
       "name": "Eightco Holdings Inc. - Common Stock",
       "type": "us_stock",
@@ -144625,6 +144877,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RANK",
+      "name": "Defiance KSM TipRanks Analyst ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance KSM TipRanks Analyst ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RANK",
+      "stooqSymbol": "rank.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RAPP",
       "name": "Rapport Therapeutics, Inc. - Common Stock",
       "type": "us_stock",
@@ -148060,6 +148330,24 @@
       "sourceSymbol": "RKTO",
       "stooqSymbol": "rkto.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RKX",
+      "name": "Corgi RKLB 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi RKLB 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RKX",
+      "stooqSymbol": "rkx.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -158860,6 +159148,24 @@
       "sourceSymbol": "SMC",
       "stooqSymbol": "smc.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SMCC",
+      "name": "Corgi SMCI 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi SMCI 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SMCC",
+      "stooqSymbol": "smcc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -186719,7 +187025,7 @@
       "aliases": [
         "Pabrai Wagons ETF"
       ],
-      "exchange": "NYSE",
+      "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "WAGN",
       "stooqSymbol": "wagn.us",
@@ -193347,6 +193653,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XQQI",
       "stooqSymbol": "xqqi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XQTM",
+      "name": "Corgi Quantum Computing 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Quantum Computing 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XQTM",
+      "stooqSymbol": "xqtm.us",
       "isETF": true,
       "dataQuality": "generated"
     },
