@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-06-26T12:26:50.586826Z",
-  "count": 427,
-  "binanceCount": 427,
+  "generatedAt": "2026-06-30T12:24:21.553271Z",
+  "count": 426,
+  "binanceCount": 426,
   "coingeckoMatchedCount": 257,
-  "ambiguousCount": 159,
-  "skippedCount": 3182,
+  "ambiguousCount": 158,
+  "skippedCount": 3187,
   "assets": [
     {
       "symbol": "0G",
@@ -6420,23 +6420,6 @@
       "sourceSymbol": "TNSRUSDT",
       "binanceSymbol": "TNSRUSDT",
       "coingeckoId": "tensor",
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TON",
-      "name": "TON",
-      "type": "crypto",
-      "market": "CRYPTO",
-      "currency": "USDT",
-      "unitLabel": "顆",
-      "priceSource": "manual",
-      "aliases": [
-        "TON"
-      ],
-      "exchange": "BINANCE",
-      "source": "binance-exchangeinfo",
-      "sourceSymbol": "TONUSDT",
-      "binanceSymbol": "TONUSDT",
       "dataQuality": "generated"
     },
     {
