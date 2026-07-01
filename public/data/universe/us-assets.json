@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-06-30T12:00:45.277317Z",
-  "count": 10963,
-  "stockCount": 5588,
-  "etfCount": 5375,
-  "skippedCount": 1969,
+  "generatedAt": "2026-07-01T12:24:18.023170Z",
+  "count": 10974,
+  "stockCount": 5585,
+  "etfCount": 5389,
+  "skippedCount": 1968,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -3519,6 +3519,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AESI",
       "stooqSymbol": "aesi.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AESP",
+      "name": "Aeon Acquisition I Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Aeon Acquisition I Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AESP",
+      "stooqSymbol": "aesp.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -10719,6 +10737,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ARKD",
       "stooqSymbol": "arkd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ARKE",
+      "name": "ARK DIET Q3 Buffer ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ARK DIET Q3 Buffer ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ARKE",
+      "stooqSymbol": "arke.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -21538,24 +21574,6 @@
       "sourceSymbol": "BLCV",
       "stooqSymbol": "blcv.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BLD",
-      "name": "TopBuild Corp. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "TopBuild Corp. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BLD",
-      "stooqSymbol": "bld.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -33400,6 +33418,24 @@
       "sourceSymbol": "CIEN",
       "stooqSymbol": "cien.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CIEX",
+      "name": "Tradr 2X Long CIEN Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long CIEN Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CIEX",
+      "stooqSymbol": "ciex.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -51259,6 +51295,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ECHX",
+      "name": "Leverage Shares 2X Long ECHO Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long ECHO Daily ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ECHX",
+      "stooqSymbol": "echx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ECL",
       "name": "Ecolab Inc. Common Stock",
       "type": "us_stock",
@@ -62131,6 +62185,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FECM",
+      "name": "First Eagle Core Municipal ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "First Eagle Core Municipal ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FECM",
+      "stooqSymbol": "fecm.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FEDM",
       "name": "FlexShares ESG & Climate Developed Markets ex-US Core Index Fund",
       "type": "us_etf",
@@ -62596,6 +62668,24 @@
       "sourceSymbol": "FERG",
       "stooqSymbol": "ferg.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FESC",
+      "name": "First Eagle Small Cap Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "First Eagle Small Cap Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FESC",
+      "stooqSymbol": "fesc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -81949,6 +82039,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HODO",
+      "name": "House of Doge Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "House of Doge Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HODO",
+      "stooqSymbol": "hodo.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HODU",
       "name": "Direxion Daily HOOD Bull 2X ETF",
       "type": "us_etf",
@@ -96241,24 +96349,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "JHG",
-      "name": "Janus Henderson Group plc Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Janus Henderson Group plc Ordinary Shares"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "JHG",
-      "stooqSymbol": "jhg.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "JHHY",
       "name": "John Hancock High Yield ETF",
       "type": "us_etf",
@@ -97911,6 +98001,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "JULH",
       "stooqSymbol": "julh.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "JULI",
+      "name": "AllianzIM International Equity Buffer15 Uncapped Jul ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "AllianzIM International Equity Buffer15 Uncapped Jul ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JULI",
+      "stooqSymbol": "juli.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -100234,6 +100342,24 @@
       "sourceSymbol": "KMDA",
       "stooqSymbol": "kmda.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KMEM",
+      "name": "Kurv Memory Select ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Kurv Memory Select ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KMEM",
+      "stooqSymbol": "kmem.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -109468,6 +109594,24 @@
       "sourceSymbol": "MBCE",
       "stooqSymbol": "mbce.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MBGL",
+      "name": "Mobility Global Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Mobility Global Inc. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MBGL",
+      "stooqSymbol": "mbgl.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -123291,6 +123435,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NSIT",
       "stooqSymbol": "nsit.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NSLR",
+      "name": "Neostellar Capital Corp. - Closed End Fund",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Neostellar Capital Corp. - Closed End Fund"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NSLR",
+      "stooqSymbol": "nslr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -137893,6 +138055,78 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PQV",
+      "name": "PGIM S&P 500 Quarterly Buffer 5 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "PGIM S&P 500 Quarterly Buffer 5 ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PQV",
+      "stooqSymbol": "pqv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PQX",
+      "name": "PGIM S&P 500 Quarterly Buffer 10 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "PGIM S&P 500 Quarterly Buffer 10 ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PQX",
+      "stooqSymbol": "pqx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PQXV",
+      "name": "PGIM S&P 500 Quarterly Buffer 15 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "PGIM S&P 500 Quarterly Buffer 15 ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PQXV",
+      "stooqSymbol": "pqxv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PQXX",
+      "name": "PGIM S&P 500 Quarterly Buffer 20 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "PGIM S&P 500 Quarterly Buffer 20 ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PQXX",
+      "stooqSymbol": "pqxx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PR",
       "name": "Permian Resources Corporation Class A Common Stock",
       "type": "us_stock",
@@ -142948,6 +143182,24 @@
       "sourceSymbol": "QNTM",
       "stooqSymbol": "qntm.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QNTU",
+      "name": "Tradr 2X Long QNT Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long QNT Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QNTU",
+      "stooqSymbol": "qntu.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -148603,6 +148855,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RMBX",
+      "name": "Tradr 2X Long RMBS Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long RMBS Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RMBX",
+      "stooqSymbol": "rmbx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RMCA",
       "name": "Rockefeller California Municipal Bond ETF",
       "type": "us_etf",
@@ -152545,24 +152815,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SATG",
-      "name": "Leverage Shares 2X Long SATS Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long SATS Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SATG",
-      "stooqSymbol": "satg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SATL",
       "name": "Satellogic Inc. - Class A Common Stock",
       "type": "us_stock",
@@ -155137,24 +155389,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SEM",
-      "name": "Select Medical Holdings Corporation Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Select Medical Holdings Corporation Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SEM",
-      "stooqSymbol": "sem.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SEMG",
       "name": "Suncoast Select Growth ETF",
       "type": "us_etf",
@@ -157240,24 +157474,6 @@
       "sourceSymbol": "SIL",
       "stooqSymbol": "sil.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SILA",
-      "name": "Sila Realty Trust, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Sila Realty Trust, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SILA",
-      "stooqSymbol": "sila.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -164569,24 +164785,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SSSS",
-      "name": "SuRo Capital Corp. - Closed End Fund",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "SuRo Capital Corp. - Closed End Fund"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SSSS",
-      "stooqSymbol": "ssss.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SST",
       "name": "System1, Inc. Class A Common Stock",
       "type": "us_stock",
@@ -164889,24 +165087,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "STE",
       "stooqSymbol": "ste.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "STEL",
-      "name": "Stellar Bancorp, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Stellar Bancorp, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "STEL",
-      "stooqSymbol": "stel.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -168094,24 +168274,6 @@
       "sourceSymbol": "TBG",
       "stooqSymbol": "tbg.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TBH",
-      "name": "Brag House Holdings, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Brag House Holdings, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TBH",
-      "stooqSymbol": "tbh.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -175117,6 +175279,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TSEU",
+      "name": "Tradr 2X Long TSEM Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long TSEM Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TSEU",
+      "stooqSymbol": "tseu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TSHA",
       "name": "Taysha Gene Therapies, Inc. - Common Stock",
       "type": "us_stock",
@@ -176086,6 +176266,24 @@
       "sourceSymbol": "TTMI",
       "stooqSymbol": "ttmi.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TTMX",
+      "name": "Tradr 2X Long TTMI Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long TTMI Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TTMX",
+      "stooqSymbol": "ttmx.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
