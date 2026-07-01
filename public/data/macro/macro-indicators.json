@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-30T11:30:00.550Z",
+  "generatedAt": "2026-07-01T11:40:55.363Z",
   "source": "BLS+DGBAS",
   "sourceName": "BLS and data.gov.tw / DGBAS static macro sources",
   "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/; https://apiservice.mol.gov.tw/OdService/download/A17030000J-000016-xC8",
@@ -665,10 +665,10 @@
       "name": "Taiwan CPI",
       "source": "data.gov.tw / DGBAS",
       "sourceSeriesId": "消費者物價-指數",
-      "period": "2026-04",
-      "level": 111.23,
-      "mom": 0.007883,
-      "yoy": 0.017379,
+      "period": "2026-05",
+      "level": 111.43,
+      "mom": 0.001888,
+      "yoy": 0.022012,
       "unit": "index",
       "changeUnit": "decimal_return",
       "frequency": "monthly",
@@ -677,15 +677,9 @@
       "status": "ok",
       "history": [
         {
-          "period": "2025-04",
-          "level": 109.33,
-          "mom": null,
-          "yoy": null
-        },
-        {
           "period": "2025-05",
           "level": 109.03,
-          "mom": -0.002744,
+          "mom": null,
           "yoy": null
         },
         {
@@ -750,9 +744,15 @@
         },
         {
           "period": "2026-04",
-          "level": 111.23,
-          "mom": 0.007883,
-          "yoy": 0.017379
+          "level": 111.22,
+          "mom": 0.007793,
+          "yoy": null
+        },
+        {
+          "period": "2026-05",
+          "level": 111.43,
+          "mom": 0.001888,
+          "yoy": 0.022012
         }
       ]
     },
@@ -762,10 +762,10 @@
       "name": "Taiwan PPI",
       "source": "data.gov.tw / DGBAS",
       "sourceSeriesId": "生產者物價-指數",
-      "period": "2026-04",
-      "level": 121.82,
-      "mom": 0.030365,
-      "yoy": 0.08545,
+      "period": "2026-05",
+      "level": 122.06,
+      "mom": -0.000655,
+      "yoy": 0.141068,
       "unit": "index",
       "changeUnit": "decimal_return",
       "frequency": "monthly",
@@ -774,15 +774,9 @@
       "status": "ok",
       "history": [
         {
-          "period": "2025-04",
-          "level": 112.23,
-          "mom": null,
-          "yoy": null
-        },
-        {
           "period": "2025-05",
           "level": 106.97,
-          "mom": -0.046868,
+          "mom": null,
           "yoy": null
         },
         {
@@ -835,21 +829,27 @@
         },
         {
           "period": "2026-02",
-          "level": 112.63,
-          "mom": 0.011314,
+          "level": 112.67,
+          "mom": 0.011673,
           "yoy": null
         },
         {
           "period": "2026-03",
-          "level": 118.23,
-          "mom": 0.04972,
+          "level": 118.37,
+          "mom": 0.05059,
           "yoy": null
         },
         {
           "period": "2026-04",
-          "level": 121.82,
-          "mom": 0.030365,
-          "yoy": 0.08545
+          "level": 122.14,
+          "mom": 0.031849,
+          "yoy": null
+        },
+        {
+          "period": "2026-05",
+          "level": 122.06,
+          "mom": -0.000655,
+          "yoy": 0.141068
         }
       ]
     },
@@ -859,10 +859,10 @@
       "name": "Taiwan Unemployment Rate",
       "source": "data.gov.tw / DGBAS",
       "sourceSeriesId": "失業率（百分比）",
-      "period": "2026-04",
-      "level": 3.3,
-      "mom": -0.04,
-      "yoy": -0.02,
+      "period": "2026-05",
+      "level": 3.27,
+      "mom": -0.03,
+      "yoy": -0.03,
       "unit": "percent_rate",
       "changeUnit": "percentage_point",
       "frequency": "monthly",
@@ -871,15 +871,9 @@
       "status": "ok",
       "history": [
         {
-          "period": "2025-04",
-          "level": 3.32,
-          "mom": null,
-          "yoy": null
-        },
-        {
           "period": "2025-05",
           "level": 3.3,
-          "mom": -0.02,
+          "mom": null,
           "yoy": null
         },
         {
@@ -946,7 +940,13 @@
           "period": "2026-04",
           "level": 3.3,
           "mom": -0.04,
-          "yoy": -0.02
+          "yoy": null
+        },
+        {
+          "period": "2026-05",
+          "level": 3.27,
+          "mom": -0.03,
+          "yoy": -0.03
         }
       ]
     }
