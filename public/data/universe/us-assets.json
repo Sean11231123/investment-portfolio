@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-01T12:24:18.023170Z",
-  "count": 10974,
-  "stockCount": 5585,
-  "etfCount": 5389,
-  "skippedCount": 1968,
+  "generatedAt": "2026-07-02T11:57:10.253282Z",
+  "count": 10985,
+  "stockCount": 5587,
+  "etfCount": 5398,
+  "skippedCount": 1966,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -12757,24 +12757,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ATLN",
-      "name": "Atlantic International Corp. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Atlantic International Corp."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ATLN",
-      "stooqSymbol": "atln.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ATLO",
       "name": "Ames National Corporation - Common Stock",
       "type": "us_stock",
@@ -25465,6 +25447,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BSP",
+      "name": "Bending Spoons S.p.A. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Bending Spoons S.p.A. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BSP",
+      "stooqSymbol": "bsp.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BSR",
       "name": "Beacon Unified Catalyst ETF",
       "type": "us_etf",
@@ -31423,24 +31423,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CEPT",
-      "name": "Cantor Equity Partners II, Inc. - Class A ordinary share",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Cantor Equity Partners II, Inc. - Class A ordinary share"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CEPT",
-      "stooqSymbol": "cept.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CEPV",
       "name": "Cantor Equity Partners V, Inc. - Class A Ordinary Shares",
       "type": "us_stock",
@@ -33116,14 +33098,14 @@
     },
     {
       "symbol": "CHRN",
-      "name": "ChronoScale Corporation - Common Stock",
+      "name": "ChronoScale Holdings Corporation - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "ChronoScale Corporation"
+        "ChronoScale Holdings Corporation"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -33673,6 +33655,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CIRC",
+      "name": "Circle8 Group, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Circle8 Group, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CIRC",
+      "stooqSymbol": "circ.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CISO",
       "name": "CISO Global, Inc. - Common Stock",
       "type": "us_stock",
@@ -33796,6 +33796,24 @@
       "sourceSymbol": "CJMB",
       "stooqSymbol": "cjmb.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CJUL",
+      "name": "Corgi U.S. Equities 15% Structured Buffer ETF - July Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 15% Structured Buffer ETF - July Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CJUL",
+      "stooqSymbol": "cjul.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -36874,6 +36892,24 @@
       "sourceSymbol": "COPP",
       "stooqSymbol": "copp.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "COPR",
+      "name": "Idaho Copper Corporation Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Idaho Copper Corporation Common Stock"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "COPR",
+      "stooqSymbol": "copr.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -40275,6 +40311,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CTIF",
       "stooqSymbol": "ctif.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CTJL",
+      "name": "Corgi U.S. Equities 30% Structured Buffer ETF - July Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 30% Structured Buffer ETF - July Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CTJL",
+      "stooqSymbol": "ctjl.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -54424,6 +54478,24 @@
       "sourceSymbol": "EMIS",
       "stooqSymbol": "emis.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EMJL",
+      "name": "Corgi Emerging Markets Equities 15% Structured Buffer ETF - July Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Emerging Markets Equities 15% Structured Buffer ETF - July Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EMJL",
+      "stooqSymbol": "emjl.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -70429,6 +70501,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FXHO",
+      "name": "UTime Limited - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "UTime Limited - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FXHO",
+      "stooqSymbol": "fxho.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FXI",
       "name": "iShares China Large-Cap ETF",
       "type": "us_etf",
@@ -81463,6 +81553,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HJLY",
+      "name": "Corgi U.S. Equities 100% Structured Buffer ETF - July Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 100% Structured Buffer ETF - July Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HJLY",
+      "stooqSymbol": "hjly.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HJUN",
       "name": "Corgi U.S. Equities 100% Structured Buffer ETF - June Series",
       "type": "us_etf",
@@ -87093,6 +87201,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IDHQ",
       "stooqSymbol": "idhq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IDJL",
+      "name": "Corgi International Developed Equities 15% Structured Buffer ETF - July Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi International Developed Equities 15% Structured Buffer ETF - July Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IDJL",
+      "stooqSymbol": "idjl.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -93253,6 +93379,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ITG",
+      "name": "ITG, Inc. - Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ITG, Inc. - Class A Common Stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ITG",
+      "stooqSymbol": "itg.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ITGR",
       "name": "Integer Holdings Corporation Common Stock",
       "type": "us_stock",
@@ -97983,6 +98127,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "JULB",
       "stooqSymbol": "julb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "JULC",
+      "name": "Corgi U.S. Equities 10% Structured Buffer ETF - July Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 10% Structured Buffer ETF - July Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JULC",
+      "stooqSymbol": "julc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -105003,6 +105165,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LILAK",
       "stooqSymbol": "lilak.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LIME",
+      "name": "Neutron Holdings, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Neutron Holdings, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LIME",
+      "stooqSymbol": "lime.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -129469,24 +129649,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ORGN",
-      "name": "Origin Materials, Inc. - Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Origin Materials, Inc. - Class A Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ORGN",
-      "stooqSymbol": "orgn.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ORGO",
       "name": "Organogenesis Holdings Inc. - Class A",
       "type": "us_stock",
@@ -142663,6 +142825,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "QJL",
+      "name": "Corgi Growth & Technology 10% Structured Buffer ETF - July Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Growth & Technology 10% Structured Buffer ETF - July Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QJL",
+      "stooqSymbol": "qjl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "QJN",
       "name": "Corgi Growth & Technology 10% Structured Buffer ETF - June Series",
       "type": "us_etf",
@@ -143361,6 +143541,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "QQHG",
       "stooqSymbol": "qqhg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QQJL",
+      "name": "Corgi Growth & Technology 15% Structured Buffer ETF - July Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Growth & Technology 15% Structured Buffer ETF - July Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QQJL",
+      "stooqSymbol": "qqjl.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -144820,24 +145018,6 @@
       "sourceSymbol": "RAAA",
       "stooqSymbol": "raaa.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "RAAQ",
-      "name": "Real Asset Acquisition Corp. - Class A Ordinary Share",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Real Asset Acquisition Corp. - Class A Ordinary Share"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RAAQ",
-      "stooqSymbol": "raaq.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -154057,6 +154237,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SCJL",
+      "name": "Corgi U.S. Small-Cap 15% Structured Buffer ETF - July Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Small-Cap 15% Structured Buffer ETF - July Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SCJL",
+      "stooqSymbol": "scjl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SCJN",
       "name": "Corgi U.S. Small-Cap 15% Structured Buffer ETF - June Series",
       "type": "us_etf",
@@ -155080,6 +155278,24 @@
       "sourceSymbol": "SECU",
       "stooqSymbol": "secu.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SECZ",
+      "name": "Securitize Corp. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Securitize Corp. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SECZ",
+      "stooqSymbol": "secz.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -161834,14 +162050,14 @@
     },
     {
       "symbol": "SPAX",
-      "name": "T-REX 2X Long SpaceX Daily Target ETF",
+      "name": "T-REX 2X Long SPCX Daily Target ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "T-REX 2X Long SpaceX Daily Target ETF"
+        "T-REX 2X Long SPCX Daily Target ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -190489,24 +190705,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "WTO",
-      "name": "UTime Limited - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "UTime Limited - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "WTO",
-      "stooqSymbol": "wto.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "WTPI",
       "name": "WisdomTree Equity Premium Income Fund",
       "type": "us_etf",
@@ -193424,14 +193622,14 @@
     },
     {
       "symbol": "XOM",
-      "name": "Exxon Mobil Corporation Common Stock",
+      "name": "ExxonMobil Holdings Corporation Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Exxon Mobil Corporation Common Stock"
+        "ExxonMobil Holdings Corporation Common Stock"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
