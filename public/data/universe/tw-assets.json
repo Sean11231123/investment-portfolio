@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-06-25T11:48:37.438342Z",
-  "count": 2243,
+  "generatedAt": "2026-07-02T11:08:15.567204Z",
+  "count": 2244,
   "twseCount": 1236,
-  "tpexOtcCount": 1007,
-  "tpexOtcSourceCount": 1007,
+  "tpexOtcCount": 1008,
+  "tpexOtcSourceCount": 1008,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2243,
+  "metadataEnrichedCount": 2244,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -6433,6 +6433,28 @@
       "board": "main",
       "securityType": "etf",
       "classificationSource": "twse_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "00990B",
+      "name": "國泰收益非投等債",
+      "type": "taiwan_etf",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "國泰收益非投等債"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "00990B",
+      "isETF": true,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "etf",
+      "classificationSource": "tpex_isin",
       "classificationConfidence": "high"
     },
     {
