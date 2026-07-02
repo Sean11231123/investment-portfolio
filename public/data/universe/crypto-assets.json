@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-07-01T12:48:28.532778Z",
-  "count": 431,
-  "binanceCount": 431,
+  "generatedAt": "2026-07-02T12:21:33.888485Z",
+  "count": 432,
+  "binanceCount": 432,
   "coingeckoMatchedCount": 262,
-  "ambiguousCount": 158,
-  "skippedCount": 3187,
+  "ambiguousCount": 159,
+  "skippedCount": 3193,
   "assets": [
     {
       "symbol": "0G",
@@ -2839,6 +2839,23 @@
       "sourceSymbol": "GPSUSDT",
       "binanceSymbol": "GPSUSDT",
       "coingeckoId": "goplus-security",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GRAM",
+      "name": "GRAM",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "GRAM"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GRAMUSDT",
+      "binanceSymbol": "GRAMUSDT",
       "dataQuality": "generated"
     },
     {
