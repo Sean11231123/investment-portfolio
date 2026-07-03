@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-02T11:57:10.253282Z",
-  "count": 10985,
-  "stockCount": 5587,
+  "generatedAt": "2026-07-03T11:55:51.456209Z",
+  "count": 10986,
+  "stockCount": 5588,
   "etfCount": 5398,
-  "skippedCount": 1966,
+  "skippedCount": 1971,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -77733,6 +77733,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GSRF",
       "stooqSymbol": "gsrf.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GSRV",
+      "name": "GSR V Acquisition Corp. - Class A ordinary shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GSR V Acquisition Corp. - Class A ordinary shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GSRV",
+      "stooqSymbol": "gsrv.us",
       "isETF": false,
       "dataQuality": "generated"
     },
