@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-03T11:55:51.456209Z",
-  "count": 10986,
-  "stockCount": 5588,
+  "generatedAt": "2026-07-06T13:31:40.970716Z",
+  "count": 10989,
+  "stockCount": 5591,
   "etfCount": 5398,
-  "skippedCount": 1971,
+  "skippedCount": 1975,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -676,24 +676,6 @@
       "sourceSymbol": "AAUC",
       "stooqSymbol": "aauc.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "AAUM",
-      "name": "Tema Alternative Asset Managers ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tema Alternative Asset Managers ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AAUM",
-      "stooqSymbol": "aaum.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -78331,6 +78313,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GUAC",
+      "name": "Berto Acquisition Corp. II - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Berto Acquisition Corp. II - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GUAC",
+      "stooqSymbol": "guac.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GUG",
       "name": "Guggenheim Active Allocation Fund Common Shares of Beneficial Interest",
       "type": "us_stock",
@@ -87057,6 +87057,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IDA",
       "stooqSymbol": "ida.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IDAC",
+      "name": "Iron Dome Acquisition I Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Iron Dome Acquisition I Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IDAC",
+      "stooqSymbol": "idac.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -105565,24 +105583,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "LIXT",
-      "name": "Lixte Biotechnology Holdings, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Lixte Biotechnology Holdings, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LIXT",
-      "stooqSymbol": "lixt.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "LJAN",
       "name": "Innovator Premium Income 15 Buffer ETF - January",
       "type": "us_etf",
@@ -112136,14 +112136,14 @@
     },
     {
       "symbol": "MGF",
-      "name": "MFS Government Markets Income Trust Common Stock",
+      "name": "Aberdeen Government Markets Income Fund Common Shares of Beneficial Interest",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "MFS Government Markets Income Trust Common Stock"
+        "Aberdeen Government Markets Income Fund Common Shares of Beneficial Interest"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -112784,14 +112784,14 @@
     },
     {
       "symbol": "MIDDV",
-      "name": "Middleby Corp. - Common Stock Ex-Distribution When Issued",
+      "name": "The Middleby Corporation - Common Stock Ex-Distribution When Issued",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Middleby Corp. - Common Stock Ex-Distribution When Issued"
+        "The Middleby Corporation - Common Stock Ex-Distribution When Issued"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -112928,14 +112928,14 @@
     },
     {
       "symbol": "MIN",
-      "name": "MFS Intermediate Income Trust Common Stock",
+      "name": "Aberdeen Intermediate Income Fund Common Shares of Beneficial Interest",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "MFS Intermediate Income Trust Common Stock"
+        "Aberdeen Intermediate Income Fund Common Shares of Beneficial Interest"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -122103,6 +122103,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NLY",
       "stooqSymbol": "nly.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NMAD",
+      "name": "Nomad Power Solutions, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Nomad Power Solutions, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NMAD",
+      "stooqSymbol": "nmad.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -139171,6 +139189,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PRVT",
+      "name": "Tema Alternative Asset Managers ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tema Alternative Asset Managers ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PRVT",
+      "stooqSymbol": "prvt.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PRXG",
       "name": "Praxis Impact Large Cap Growth ETF",
       "type": "us_etf",
@@ -140337,6 +140373,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PSX",
       "stooqSymbol": "psx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PTAC",
+      "name": "Patriot Acquisition Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Patriot Acquisition Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PTAC",
+      "stooqSymbol": "ptac.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -166838,14 +166892,14 @@
     },
     {
       "symbol": "SVC",
-      "name": "Service Properties Trust - Shares of Beneficial Interest",
+      "name": "Service Properties Trust - Common Shares of Beneficial Interest",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Service Properties Trust - Shares of Beneficial Interest"
+        "Service Properties Trust - Common Shares of Beneficial Interest"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
