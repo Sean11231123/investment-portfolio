@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-07T12:17:30.872994Z",
-  "count": 11009,
-  "stockCount": 5588,
-  "etfCount": 5421,
-  "skippedCount": 1973,
+  "generatedAt": "2026-07-08T11:31:20.759601Z",
+  "count": 11013,
+  "stockCount": 5589,
+  "etfCount": 5424,
+  "skippedCount": 1977,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -4118,14 +4118,14 @@
     },
     {
       "symbol": "AGGA",
-      "name": "EA Astoria Dynamic Core US Fixed Income ETF",
+      "name": "EA Astoria Beacon Dynamic Core US Fixed Income ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "EA Astoria Dynamic Core US Fixed Income ETF"
+        "EA Astoria Beacon Dynamic Core US Fixed Income ETF"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -6795,6 +6795,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ALPS",
       "stooqSymbol": "alps.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ALPX",
+      "name": "Alpex Acquisition Corporation - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Alpex Acquisition Corporation - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ALPX",
+      "stooqSymbol": "alpx.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -17146,6 +17164,24 @@
       "sourceSymbol": "BBUC",
       "stooqSymbol": "bbuc.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BBUL",
+      "name": "GraniteShares 2x Long BB Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares 2x Long BB Daily ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BBUL",
+      "stooqSymbol": "bbul.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -70480,6 +70516,24 @@
       "sourceSymbol": "FXA",
       "stooqSymbol": "fxa.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FXAC",
+      "name": "FortuneX Acquisition Corporation - Ordinary shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FortuneX Acquisition Corporation - Ordinary shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FXAC",
+      "stooqSymbol": "fxac.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -128533,24 +128587,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "OLPX",
-      "name": "Olaplex Holdings, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Olaplex Holdings, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "OLPX",
-      "stooqSymbol": "olpx.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "OM",
       "name": "Outset Medical, Inc. - Common Stock",
       "type": "us_stock",
@@ -141202,6 +141238,24 @@
       "sourceSymbol": "PUK",
       "stooqSymbol": "puk.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PUL",
+      "name": "GraniteShares 2x Long P Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares 2x Long P Daily ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PUL",
+      "stooqSymbol": "pul.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -161581,6 +161635,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SNTQ",
+      "name": "MRP SynthEquity Nasdaq 100 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MRP SynthEquity Nasdaq 100 ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SNTQ",
+      "stooqSymbol": "sntq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SNWV",
       "name": "SANUWAVE Health, Inc. - Common Stock",
       "type": "us_stock",
@@ -171140,14 +171212,14 @@
     },
     {
       "symbol": "TGLS",
-      "name": "Tecnoglass Inc. Ordinary Shares",
+      "name": "Tecnoglass Inc. Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Tecnoglass Inc. Ordinary Shares"
+        "Tecnoglass Inc. Common Stock"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
