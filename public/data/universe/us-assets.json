@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-08T11:31:20.759601Z",
-  "count": 11013,
-  "stockCount": 5589,
-  "etfCount": 5424,
+  "generatedAt": "2026-07-09T12:21:52.545420Z",
+  "count": 11028,
+  "stockCount": 5591,
+  "etfCount": 5437,
   "skippedCount": 1977,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -21523,6 +21523,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BKYI",
+      "name": "BIO-key International, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BIO-key International, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BKYI",
+      "stooqSymbol": "bkyi.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BL",
       "name": "BlackLine, Inc. - Common Stock",
       "type": "us_stock",
@@ -27499,6 +27517,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BWQG",
+      "name": "BWM Quality Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BWM Quality Growth ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BWQG",
+      "stooqSymbol": "bwqg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BWTG",
       "name": "Brendan Wood TopGun Index ETF",
       "type": "us_etf",
@@ -31492,6 +31528,24 @@
       "sourceSymbol": "CEPI",
       "stooqSymbol": "cepi.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CEPL",
+      "name": "Capstone Energy Plus, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Capstone Energy Plus, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CEPL",
+      "stooqSymbol": "cepl.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -48721,6 +48775,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DRVR",
+      "name": "Amplify S&P 500 Dividend Drivers ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Amplify S&P 500 Dividend Drivers ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DRVR",
+      "stooqSymbol": "drvr.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DSAC",
       "name": "Daedalus Special Acquisition Corp. - Class A Ordinary Shares",
       "type": "us_stock",
@@ -64147,6 +64219,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FINA",
+      "name": "Fidelity MSCI North American Subset Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Fidelity MSCI North American Subset Index ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FINA",
+      "stooqSymbol": "fina.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FINS",
       "name": "Angel Oak Financial Strategies Income Term Trust Common Shares of Beneficial Interest",
       "type": "us_stock",
@@ -65048,14 +65138,14 @@
     },
     {
       "symbol": "FLDZ",
-      "name": "RiverNorth Patriot ETF",
+      "name": "TrueShares Patriot Defense ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "RiverNorth Patriot ETF"
+        "TrueShares Patriot Defense ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -68680,6 +68770,24 @@
       "sourceSymbol": "FSP",
       "stooqSymbol": "fsp.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FSPC",
+      "name": "First Trust Bloomberg Space Economy ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "First Trust Bloomberg Space Economy ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FSPC",
+      "stooqSymbol": "fspc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -107555,7 +107663,7 @@
       "aliases": [
         "TrueShares Technology, AI & Deep Learning ETF"
       ],
-      "exchange": "NYSEARCA",
+      "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LRNZ",
       "stooqSymbol": "lrnz.us",
@@ -116941,24 +117049,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MSW",
-      "name": "Ming Shing Group Holdings Limited - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Ming Shing Group Holdings Limited - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MSW",
-      "stooqSymbol": "msw.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "MT",
       "name": "Arcelor Mittal NY Registry Shares NEW",
       "type": "us_stock",
@@ -123943,6 +124033,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NSIG",
+      "name": "North Square Growth Opportunities ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "North Square Growth Opportunities ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NSIG",
+      "stooqSymbol": "nsig.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NSIT",
       "name": "Insight Enterprises, Inc. - Common Stock",
       "type": "us_stock",
@@ -123958,6 +124066,24 @@
       "sourceSymbol": "NSIT",
       "stooqSymbol": "nsit.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NSIV",
+      "name": "North Square Disciplined Value ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "North Square Disciplined Value ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NSIV",
+      "stooqSymbol": "nsiv.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -137119,6 +137245,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PMA",
+      "name": "Ming Shing Group Holdings Limited - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Ming Shing Group Holdings Limited - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PMA",
+      "stooqSymbol": "pma.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PMAP",
       "name": "PGIM S&P 500 Max Buffer ETF - April",
       "type": "us_etf",
@@ -141313,6 +141457,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PUR",
+      "name": "Defiance Daily Target 2X Long PURR ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Daily Target 2X Long PURR ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PUR",
+      "stooqSymbol": "pur.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PURR",
       "name": "Hyperliquid Strategies Inc - Common Stock",
       "type": "us_stock",
@@ -141580,6 +141742,24 @@
       "sourceSymbol": "PWRL",
       "stooqSymbol": "pwrl.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PWRZ",
+      "name": "TrueShares Eagle Global Renewable Energy Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "TrueShares Eagle Global Renewable Energy Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PWRZ",
+      "stooqSymbol": "pwrz.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -149971,6 +150151,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RNMN",
+      "name": "RiverNorth Market Neutral ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "RiverNorth Market Neutral ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RNMN",
+      "stooqSymbol": "rnmn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RNR",
       "name": "RenaissanceRe Holdings Ltd. Common Stock",
       "type": "us_stock",
@@ -150076,24 +150274,6 @@
       "sourceSymbol": "RNW",
       "stooqSymbol": "rnw.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "RNWZ",
-      "name": "TrueShares Eagle Global Renewable Energy Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "TrueShares Eagle Global Renewable Energy Income ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RNWZ",
-      "stooqSymbol": "rnwz.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -159763,6 +159943,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SLVY",
+      "name": "FT Vest Silver Strategy & Target Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest Silver Strategy & Target Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SLVY",
+      "stooqSymbol": "slvy.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SLWS",
       "name": "Wisdom Short Duration Income ETF",
       "type": "us_etf",
@@ -162856,24 +163054,6 @@
       "sourceSymbol": "SPCX",
       "stooqSymbol": "spcx.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SPCZ",
-      "name": "RiverNorth Enhanced Pre-Merger SPAC ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "RiverNorth Enhanced Pre-Merger SPAC ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SPCZ",
-      "stooqSymbol": "spcz.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -175639,6 +175819,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TRUM",
+      "name": "VanEck Materials TruSector ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VanEck Materials TruSector ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TRUM",
+      "stooqSymbol": "trum.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TRUN",
+      "name": "VanEck Energy TruSector ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VanEck Energy TruSector ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TRUN",
+      "stooqSymbol": "trun.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TRUO",
       "name": "VanEck Consumer Staples TruSector ETF",
       "type": "us_etf",
@@ -175675,6 +175891,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TRUR",
+      "name": "VanEck Real Estate TruSector ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VanEck Real Estate TruSector ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TRUR",
+      "stooqSymbol": "trur.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TRUT",
       "name": "VanEck Technology TruSector ETF",
       "type": "us_etf",
@@ -175689,6 +175923,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TRUT",
       "stooqSymbol": "trut.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TRUU",
+      "name": "VanEck Utilities TruSector ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VanEck Utilities TruSector ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TRUU",
+      "stooqSymbol": "truu.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -190846,6 +191098,24 @@
       "sourceSymbol": "WSO",
       "stooqSymbol": "wso.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WSPC",
+      "name": "WisdomTree Space Economy Fund",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "WisdomTree Space Economy Fund"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WSPC",
+      "stooqSymbol": "wspc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
