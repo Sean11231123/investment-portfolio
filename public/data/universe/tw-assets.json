@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-07-08T10:35:49.827387Z",
-  "count": 2245,
+  "generatedAt": "2026-07-10T12:07:19.005719Z",
+  "count": 2246,
   "twseCount": 1237,
-  "tpexOtcCount": 1008,
-  "tpexOtcSourceCount": 1008,
+  "tpexOtcCount": 1009,
+  "tpexOtcSourceCount": 1009,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2245,
+  "metadataEnrichedCount": 2246,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -2213,14 +2213,14 @@
     },
     {
       "symbol": "00775B",
-      "name": "新光投等債15+",
+      "name": "台新投等債15+",
       "type": "taiwan_etf",
       "market": "TW",
       "currency": "TWD",
       "unitLabel": "股",
       "priceSource": "twse",
       "aliases": [
-        "新光投等債15+"
+        "台新投等債15+"
       ],
       "exchange": "TWSE",
       "marketSegment": "listed",
@@ -2763,14 +2763,14 @@
     },
     {
       "symbol": "00844B",
-      "name": "新光15年IG金融債",
+      "name": "台新15年IG金融債",
       "type": "taiwan_etf",
       "market": "TW",
       "currency": "TWD",
       "unitLabel": "股",
       "priceSource": "tpex_otc",
       "aliases": [
-        "新光15年IG金融債"
+        "台新15年IG金融債"
       ],
       "exchange": "TPEX",
       "marketSegment": "otc",
@@ -3181,14 +3181,14 @@
     },
     {
       "symbol": "00867B",
-      "name": "新光A-BBB電信債",
+      "name": "台新A-BBB電信債",
       "type": "taiwan_etf",
       "market": "TW",
       "currency": "TWD",
       "unitLabel": "股",
       "priceSource": "tpex_otc",
       "aliases": [
-        "新光A-BBB電信債"
+        "台新A-BBB電信債"
       ],
       "exchange": "TPEX",
       "marketSegment": "otc",
@@ -3775,14 +3775,14 @@
     },
     {
       "symbol": "00904",
-      "name": "新光臺灣半導體30",
+      "name": "台新臺灣半導體30",
       "type": "taiwan_etf",
       "market": "TW",
       "currency": "TWD",
       "unitLabel": "股",
       "priceSource": "twse",
       "aliases": [
-        "新光臺灣半導體30"
+        "台新臺灣半導體30"
       ],
       "exchange": "TWSE",
       "marketSegment": "listed",
@@ -5161,14 +5161,14 @@
     },
     {
       "symbol": "00970B",
-      "name": "新光BBB投等債20+",
+      "name": "台新BBB投等債20+",
       "type": "taiwan_etf",
       "market": "TW",
       "currency": "TWD",
       "unitLabel": "股",
       "priceSource": "tpex_otc",
       "aliases": [
-        "新光BBB投等債20+"
+        "台新BBB投等債20+"
       ],
       "exchange": "TPEX",
       "marketSegment": "otc",
@@ -5337,14 +5337,14 @@
     },
     {
       "symbol": "009805",
-      "name": "新光美國電力基建",
+      "name": "台新美國電力基建",
       "type": "taiwan_etf",
       "market": "TW",
       "currency": "TWD",
       "unitLabel": "股",
       "priceSource": "twse",
       "aliases": [
-        "新光美國電力基建"
+        "台新美國電力基建"
       ],
       "exchange": "TWSE",
       "marketSegment": "listed",
@@ -5949,6 +5949,28 @@
       "board": "main",
       "securityType": "etf",
       "classificationSource": "twse_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "009825",
+      "name": "聯邦美國金融創新",
+      "type": "taiwan_etf",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "聯邦美國金融創新"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "009825",
+      "isETF": true,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "etf",
+      "classificationSource": "tpex_isin",
       "classificationConfidence": "high"
     },
     {
