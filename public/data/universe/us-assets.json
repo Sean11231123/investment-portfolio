@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-09T12:21:52.545420Z",
-  "count": 11028,
-  "stockCount": 5591,
-  "etfCount": 5437,
-  "skippedCount": 1977,
+  "generatedAt": "2026-07-10T12:15:01.984659Z",
+  "count": 11043,
+  "stockCount": 5590,
+  "etfCount": 5453,
+  "skippedCount": 1980,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -6022,6 +6022,24 @@
       "sourceSymbol": "AKTS",
       "stooqSymbol": "akts.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ALA",
+      "name": "Corgi ALAB 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi ALAB 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ALA",
+      "stooqSymbol": "ala.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -15529,6 +15547,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BABC",
+      "name": "Corgi BABA 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi BABA 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BABC",
+      "stooqSymbol": "babc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BABO",
       "name": "YieldMax BABA Option Income Strategy ETF",
       "type": "us_etf",
@@ -23050,6 +23086,24 @@
       "sourceSymbol": "BNL",
       "stooqSymbol": "bnl.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BNMC",
+      "name": "Corgi BMNR 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi BMNR 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BNMC",
+      "stooqSymbol": "bnmc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -58910,14 +58964,14 @@
     },
     {
       "symbol": "EVTV",
-      "name": "Envirotech Vehicles, Inc. - Common stock",
+      "name": "Azio AI Holdings, Inc. - Common stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Envirotech Vehicles, Inc. - Common stock"
+        "Azio AI Holdings, Inc. - Common stock"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -73075,6 +73129,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GEVC",
+      "name": "Corgi GEV 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi GEV 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GEVC",
+      "stooqSymbol": "gevc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GEVG",
       "name": "Leverage Shares 2X Long GEV Daily ETF",
       "type": "us_etf",
@@ -82705,6 +82777,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HOOC",
+      "name": "Corgi HOOD 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi HOOD 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HOOC",
+      "stooqSymbol": "hooc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HOOD",
       "name": "Robinhood Markets, Inc. - Class A Common Stock",
       "type": "us_stock",
@@ -91291,6 +91381,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "INT",
+      "name": "Corgi INTC 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi INTC 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "INT",
+      "stooqSymbol": "int.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "INTA",
       "name": "Intapp, Inc. - Common Stock",
       "type": "us_stock",
@@ -92511,6 +92619,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IQMM",
       "stooqSymbol": "iqmm.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IQQ",
+      "name": "iShares Nasdaq 100 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "iShares Nasdaq 100 ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IQQ",
+      "stooqSymbol": "iqq.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -97624,6 +97750,24 @@
       "sourceSymbol": "JOB",
       "stooqSymbol": "job.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "JOBC",
+      "name": "Corgi JOBY 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi JOBY 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JOBC",
+      "stooqSymbol": "jobc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -105777,6 +105921,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LIT",
       "stooqSymbol": "lit.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LITC",
+      "name": "Corgi LITE 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi LITE 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LITC",
+      "stooqSymbol": "litc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -145129,6 +145291,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "QUA",
+      "name": "Corgi QBTS 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi QBTS 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QUA",
+      "stooqSymbol": "qua.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "QUAD",
       "name": "Quad Graphics, Inc Class A Common Stock",
       "type": "us_stock",
@@ -159458,14 +159638,14 @@
     },
     {
       "symbol": "SLGB",
-      "name": "Smart Logistics Global Limited - Ordinary Shares",
+      "name": "Smart Logistics Global Limited - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Smart Logistics Global Limited - Ordinary Shares"
+        "Smart Logistics Global Limited - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -160933,6 +161113,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SMRX",
+      "name": "Corgi SMR 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi SMR 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SMRX",
+      "stooqSymbol": "smrx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SMSI",
       "name": "Smith Micro Software, Inc. - Common Stock",
       "type": "us_stock",
@@ -162081,6 +162279,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SOFA",
       "stooqSymbol": "sofa.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SOFC",
+      "name": "Corgi SOFI 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi SOFI 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SOFC",
+      "stooqSymbol": "sofc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -169285,24 +169501,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TBRG",
-      "name": "TruBridge, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "TruBridge, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TBRG",
-      "stooqSymbol": "tbrg.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TBT",
       "name": "ProShares UltraShort Lehman 20 Year Treasury",
       "type": "us_etf",
@@ -170560,6 +170758,24 @@
       "sourceSymbol": "TEM",
       "stooqSymbol": "tem.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TEMC",
+      "name": "Corgi TEM 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi TEM 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TEMC",
+      "stooqSymbol": "temc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -180661,6 +180877,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "UPSC",
+      "name": "Corgi UPST 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi UPST 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "UPSC",
+      "stooqSymbol": "upsc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "UPSD",
       "name": "Aptus Large Cap Upside ETF",
       "type": "us_etf",
@@ -182368,6 +182602,24 @@
       "sourceSymbol": "UUU",
       "stooqSymbol": "uuu.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "UUUC",
+      "name": "Corgi UUUU 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi UUUU 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "UUUC",
+      "stooqSymbol": "uuuc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -188884,6 +189136,24 @@
       "sourceSymbol": "WDC",
       "stooqSymbol": "wdc.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WDCC",
+      "name": "Corgi WDC 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi WDC 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WDCC",
+      "stooqSymbol": "wdcc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
