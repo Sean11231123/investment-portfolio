@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-10T12:15:01.984659Z",
-  "count": 11043,
-  "stockCount": 5590,
-  "etfCount": 5453,
-  "skippedCount": 1980,
+  "generatedAt": "2026-07-13T12:22:45.372890Z",
+  "count": 11039,
+  "stockCount": 5592,
+  "etfCount": 5447,
+  "skippedCount": 1983,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -3358,24 +3358,6 @@
       "sourceSymbol": "AEMD",
       "stooqSymbol": "aemd.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "AEMS",
-      "name": "Anfield Enhanced Market ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Anfield Enhanced Market ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AEMS",
-      "stooqSymbol": "aems.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -15367,6 +15349,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AZIO",
+      "name": "Azio AI Holdings, Inc. - Common stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Azio AI Holdings, Inc. - Common stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AZIO",
+      "stooqSymbol": "azio.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AZN",
       "name": "AstraZeneca PLC Ordinary Shares",
       "type": "us_stock",
@@ -20655,24 +20655,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BITI",
       "stooqSymbol": "biti.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BITK",
-      "name": "Tuttle Capital IBIT 0DTE Covered Call ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tuttle Capital IBIT 0DTE Covered Call ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BITK",
-      "stooqSymbol": "bitk.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -58963,24 +58945,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "EVTV",
-      "name": "Azio AI Holdings, Inc. - Common stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Azio AI Holdings, Inc. - Common stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EVTV",
-      "stooqSymbol": "evtv.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "EVUS",
       "name": "iShares ESG Aware MSCI USA Value ETF",
       "type": "us_etf",
@@ -73396,6 +73360,24 @@
       "sourceSymbol": "GFSG",
       "stooqSymbol": "gfsg.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GFUZ",
+      "name": "General Fusion Group Ltd. - Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "General Fusion Group Ltd. - Common Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GFUZ",
+      "stooqSymbol": "gfuz.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -88965,24 +88947,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IGSB",
       "stooqSymbol": "igsb.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "IGTR",
-      "name": "Innovator Gradient Tactical Rotation Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Innovator Gradient Tactical Rotation Strategy ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IGTR",
-      "stooqSymbol": "igtr.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -109255,24 +109219,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MAGO",
-      "name": "Tuttle Capital Magnificent 7 Income Blast ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tuttle Capital Magnificent 7 Income Blast ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MAGO",
-      "stooqSymbol": "mago.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "MAGS",
       "name": "Roundhill Magnificent Seven ETF",
       "type": "us_etf",
@@ -123763,6 +123709,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NQLT",
+      "name": "Neuberger Quality Select ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Neuberger Quality Select ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NQLT",
+      "stooqSymbol": "nqlt.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NRC",
       "name": "NRC Health - Common Stock",
       "type": "us_stock",
@@ -131644,24 +131608,6 @@
       "sourceSymbol": "PAAS",
       "stooqSymbol": "paas.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PAAU",
-      "name": "T-REX 2X Long PAAS Daily Target ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "T-REX 2X Long PAAS Daily Target ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PAAU",
-      "stooqSymbol": "paau.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -143473,24 +143419,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "QHDG",
-      "name": "Innovator Hedged Nasdaq-100 ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Innovator Hedged Nasdaq-100 ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "QHDG",
-      "stooqSymbol": "qhdg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "QHY",
       "name": "WisdomTree U.S. High Yield Corporate Bond Fund",
       "type": "us_etf",
@@ -145899,6 +145827,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "RACC",
       "stooqSymbol": "racc.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RACD",
+      "name": "Research Alliance Corporation IV - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Research Alliance Corporation IV - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RACD",
+      "stooqSymbol": "racd.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -151084,24 +151030,6 @@
       "sourceSymbol": "RPGL",
       "stooqSymbol": "rpgl.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "RPHS",
-      "name": "Regents Park Hedged Market Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Regents Park Hedged Market Strategy ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RPHS",
-      "stooqSymbol": "rphs.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -167611,24 +167539,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SVAC",
-      "name": "Spring Valley Acquisition Corp. III - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Spring Valley Acquisition Corp. III - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SVAC",
-      "stooqSymbol": "svac.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SVAL",
       "name": "iShares US Small Cap Value Factor ETF",
       "type": "us_etf",
@@ -177853,6 +177763,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TVIV",
+      "name": "Texas Ventures Acquisition IV Corp - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Texas Ventures Acquisition IV Corp - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TVIV",
+      "stooqSymbol": "tviv.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TVRD",
       "name": "Tvardi Therapeutics, Inc. - Common Stock",
       "type": "us_stock",
@@ -184546,24 +184474,6 @@
       "sourceSymbol": "VFH",
       "stooqSymbol": "vfh.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "VFL",
-      "name": "abrdn National Municipal Income Fund Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "abrdn National Municipal Income Fund Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VFL",
-      "stooqSymbol": "vfl.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -196803,6 +196713,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "YIBO",
       "stooqSymbol": "yibo.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YICC",
+      "name": "Yorkville International Capital Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Yorkville International Capital Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YICC",
+      "stooqSymbol": "yicc.us",
       "isETF": false,
       "dataQuality": "generated"
     },
