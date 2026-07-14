@@ -2,10 +2,10 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-07-10T12:37:31.494620Z",
-  "count": 438,
-  "binanceCount": 438,
-  "coingeckoMatchedCount": 268,
+  "generatedAt": "2026-07-14T11:44:56.989705Z",
+  "count": 439,
+  "binanceCount": 439,
+  "coingeckoMatchedCount": 269,
   "ambiguousCount": 159,
   "skippedCount": 3197,
   "assets": [
@@ -5977,6 +5977,24 @@
       "sourceSymbol": "SIGNUSDT",
       "binanceSymbol": "SIGNUSDT",
       "coingeckoId": "sign-global",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SKHYB",
+      "name": "SK Hynix (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "SK Hynix (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SKHYBUSDT",
+      "binanceSymbol": "SKHYBUSDT",
+      "coingeckoId": "sk-hynix-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
