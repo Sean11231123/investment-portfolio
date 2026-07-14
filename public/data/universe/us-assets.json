@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-13T12:22:45.372890Z",
-  "count": 11039,
-  "stockCount": 5592,
-  "etfCount": 5447,
+  "generatedAt": "2026-07-14T11:11:59.192294Z",
+  "count": 11055,
+  "stockCount": 5588,
+  "etfCount": 5467,
   "skippedCount": 1983,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -22747,24 +22747,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BNBX",
-      "name": "BNB Plus Corp. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "BNB Plus Corp."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BNBX",
-      "stooqSymbol": "bnbx.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BNC",
       "name": "CEA Industries Inc. - Common Stock",
       "type": "us_stock",
@@ -31081,6 +31063,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CDPI",
+      "name": "Columbia High Dividend Premium Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Columbia High Dividend Premium Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CDPI",
+      "stooqSymbol": "cdpi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CDRE",
       "name": "Cadre Holdings, Inc. Common Stock",
       "type": "us_stock",
@@ -38821,6 +38821,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CRD",
+      "name": "Corgi CRDO 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi CRDO 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CRD",
+      "stooqSymbol": "crd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CRDD",
       "name": "Cardano ETF",
       "type": "us_etf",
@@ -39628,6 +39646,24 @@
       "sourceSymbol": "CRVS",
       "stooqSymbol": "crvs.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CRWC",
+      "name": "Corgi CRWD 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi CRWD 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CRWC",
+      "stooqSymbol": "crwc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -41158,24 +41194,6 @@
       "sourceSymbol": "CURX",
       "stooqSymbol": "curx.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CUSD",
-      "name": "CrossingBridge Ultra-Short Duration ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "CrossingBridge Ultra-Short Duration ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CUSD",
-      "stooqSymbol": "cusd.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -52555,24 +52573,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "EEX",
-      "name": "Emerald Holding, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Emerald Holding, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EEX",
-      "stooqSymbol": "eex.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "EFA",
       "name": "iShares MSCI EAFE ETF",
       "type": "us_etf",
@@ -57376,24 +57376,6 @@
       "sourceSymbol": "ESPO",
       "stooqSymbol": "espo.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ESPR",
-      "name": "Esperion Therapeutics, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Esperion Therapeutics, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ESPR",
-      "stooqSymbol": "espr.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -81679,6 +81661,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HIMC",
+      "name": "Corgi HIMS 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi HIMS 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HIMC",
+      "stooqSymbol": "himc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HIMS",
       "name": "Hims & Hers Health, Inc. Class A Common Stock",
       "type": "us_stock",
@@ -84988,6 +84988,24 @@
       "sourceSymbol": "HYNE",
       "stooqSymbol": "hyne.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HYNX",
+      "name": "T-REX 2X Long SKHY Daily Target ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T-REX 2X Long SKHY Daily Target ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HYNX",
+      "stooqSymbol": "hynx.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -92835,6 +92853,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IRE",
       "stooqSymbol": "ire.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IREC",
+      "name": "Corgi IREN 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi IREN 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IREC",
+      "stooqSymbol": "irec.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -105115,6 +105151,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LGDS",
+      "name": "JPMorgan Fundamental Data Science Large Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "JPMorgan Fundamental Data Science Large Growth ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LGDS",
+      "stooqSymbol": "lgds.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LGDX",
       "name": "Intech S&P Large Cap Diversified Alpha ETF",
       "type": "us_etf",
@@ -113161,6 +113215,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MHX",
+      "name": "Corgi MARA 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi MARA 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MHX",
+      "stooqSymbol": "mhx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MHY",
       "name": "Man Active High Yield ETF",
       "type": "us_etf",
@@ -116239,15 +116311,33 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MRVX",
+      "name": "Corgi MRVL 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi MRVL 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MRVX",
+      "stooqSymbol": "mrvx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MRX",
-      "name": "Marex Group plc - Ordinary Shares",
+      "name": "Marex Group Limited - Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Marex Group plc - Ordinary Shares"
+        "Marex Group Limited - Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -119983,6 +120073,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NBIC",
+      "name": "Corgi NBIS 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi NBIS 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NBIC",
+      "stooqSymbol": "nbic.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NBIE",
       "name": "Neuberger International Core Equity ETF",
       "type": "us_etf",
@@ -123493,6 +123601,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NOWX",
+      "name": "Corgi NOW 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi NOW 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NOWX",
+      "stooqSymbol": "nowx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NP",
       "name": "Neptune Insurance Holdings Inc. Class A Common Stock",
       "type": "us_stock",
@@ -125974,6 +126100,24 @@
       "sourceSymbol": "NVO",
       "stooqSymbol": "nvo.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NVOC",
+      "name": "Corgi NVO 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi NVO 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NVOC",
+      "stooqSymbol": "nvoc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -131031,6 +131175,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "OUSA",
       "stooqSymbol": "ousa.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OUSL",
+      "name": "Defiance Daily Target 2X Long OUST ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Daily Target 2X Long OUST ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OUSL",
+      "stooqSymbol": "ousl.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -136215,24 +136377,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PJAN",
       "stooqSymbol": "pjan.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PJBF",
-      "name": "PGIM Jennison Better Future ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "PGIM Jennison Better Future ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PJBF",
-      "stooqSymbol": "pjbf.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -146875,6 +147019,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RDDC",
+      "name": "Corgi RDDT 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi RDDT 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RDDC",
+      "stooqSymbol": "rddc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RDDT",
       "name": "Reddit, Inc. Class A Common Stock",
       "type": "us_stock",
@@ -147358,6 +147520,24 @@
       "sourceSymbol": "REBN",
       "stooqSymbol": "rebn.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RECI",
+      "name": "Columbia Research Enhanced Core Premium Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Columbia Research Enhanced Core Premium Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RECI",
+      "stooqSymbol": "reci.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -148585,6 +148765,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RGTC",
+      "name": "Corgi RGTI 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi RGTI 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RGTC",
+      "stooqSymbol": "rgtc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RGTI",
       "name": "Rigetti Computing, Inc. - Common stock",
       "type": "us_stock",
@@ -149194,6 +149392,24 @@
       "sourceSymbol": "RIV",
       "stooqSymbol": "riv.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RIVC",
+      "name": "Corgi RIVN 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi RIVN 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RIVC",
+      "stooqSymbol": "rivc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -159025,6 +159241,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SK",
+      "name": "Corgi SK hynix 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi SK hynix 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SK",
+      "stooqSymbol": "sk.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SKE",
       "name": "Skeena Resources Limited Common Shares",
       "type": "us_stock",
@@ -159057,6 +159291,60 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SKF",
       "stooqSymbol": "skf.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SKHU",
+      "name": "ProShares Ultra SK hynix",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ProShares Ultra SK hynix"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SKHU",
+      "stooqSymbol": "skhu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SKHX",
+      "name": "Leverage Shares 2X Long SK Hynix Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long SK Hynix Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SKHX",
+      "stooqSymbol": "skhx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SKHZ",
+      "name": "Leverage Shares 1X Short SK Hynix Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 1X Short SK Hynix Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SKHZ",
+      "stooqSymbol": "skhz.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -186619,6 +186907,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "VRC",
+      "name": "Corgi VRT 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi VRT 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VRC",
+      "stooqSymbol": "vrc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "VRCA",
       "name": "Verrica Pharmaceuticals Inc. - Common Stock",
       "type": "us_stock",
@@ -191299,24 +191605,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "WSR",
-      "name": "Whitestone REIT Common Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Whitestone REIT Common Shares"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "WSR",
-      "stooqSymbol": "wsr.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "WST",
       "name": "West Pharmaceutical Services, Inc. Common Stock",
       "type": "us_stock",
@@ -194972,14 +195260,14 @@
     },
     {
       "symbol": "XPRO",
-      "name": "Expro Group Holdings N.V. Common Stock",
+      "name": "Expro Ltd Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Expro Group Holdings N.V. Common Stock"
+        "Expro Ltd Ordinary Shares"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
