@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-14T11:11:59.192294Z",
-  "count": 11055,
+  "generatedAt": "2026-07-15T11:15:36.161057Z",
+  "count": 11068,
   "stockCount": 5588,
-  "etfCount": 5467,
-  "skippedCount": 1983,
+  "etfCount": 5480,
+  "skippedCount": 1982,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -423,6 +423,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AAOX",
       "stooqSymbol": "aaox.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AAOZ",
+      "name": "Tradr 2X Short AAOI Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Short AAOI Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AAOZ",
+      "stooqSymbol": "aaoz.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -21613,24 +21631,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BLCN",
-      "name": "Siren NexGen Economy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Siren NexGen Economy ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BLCN",
-      "stooqSymbol": "blcn.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BLCO",
       "name": "Bausch + Lomb Corporation Common Shares",
       "type": "us_stock",
@@ -24403,6 +24403,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BRKH",
+      "name": "Burtech Acquisition Corp II - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Burtech Acquisition Corp II - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BRKH",
+      "stooqSymbol": "brkh.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BRKL",
       "name": "Corgi BRKB 2x Daily ETF",
       "type": "us_etf",
@@ -26127,6 +26145,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BTCZ",
       "stooqSymbol": "btcz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BTDL",
+      "name": "GraniteShares 2x Long BTDR Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares 2x Long BTDR Daily ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BTDL",
+      "stooqSymbol": "btdl.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -82184,14 +82220,14 @@
     },
     {
       "symbol": "HLP",
-      "name": "Hongli Group Inc. - Ordinary Shares",
+      "name": "Hongli Group Inc. - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Hongli Group Inc. - Ordinary Shares"
+        "Hongli Group Inc. - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -97375,6 +97411,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "JLCO",
+      "name": "John Hancock Large Cap Opportunities ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "John Hancock Large Cap Opportunities ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JLCO",
+      "stooqSymbol": "jlco.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "JLHL",
       "name": "Julong Holding Limited - Class A Ordinary Shares",
       "type": "us_stock",
@@ -102847,6 +102901,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "KWH",
+      "name": "GMO Power Infrastructure ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GMO Power Infrastructure ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KWH",
+      "stooqSymbol": "kwh.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "KWIN",
       "name": "KraneShares Wahed Alternative Income Index ETF",
       "type": "us_etf",
@@ -104428,24 +104500,6 @@
       "sourceSymbol": "LEA",
       "stooqSymbol": "lea.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "LEAD",
-      "name": "Siren DIVCON Leaders Dividend ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Siren DIVCON Leaders Dividend ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LEAD",
-      "stooqSymbol": "lead.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -108445,6 +108499,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LUMA",
+      "name": "KraneShares Photonic and Optical ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "KraneShares Photonic and Optical ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LUMA",
+      "stooqSymbol": "luma.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LUMN",
       "name": "Lumen Technologies, Inc. Common Stock",
       "type": "us_stock",
@@ -109976,14 +110048,14 @@
     },
     {
       "symbol": "MAXI",
-      "name": "Simplify Bitcoin Strategy PLUS Income ETF",
+      "name": "Simplify Bitcoin Strategy ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Simplify Bitcoin Strategy PLUS Income ETF"
+        "Simplify Bitcoin Strategy ETF"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -124465,6 +124537,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NTAL",
+      "name": "GraniteShares 2x Long NTAP Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares 2x Long NTAP Daily ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NTAL",
+      "stooqSymbol": "ntal.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NTAP",
       "name": "NetApp, Inc. - Common Stock",
       "type": "us_stock",
@@ -130423,6 +130513,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ORCZ",
+      "name": "Tradr 2X Short ORCL Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Short ORCL Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ORCZ",
+      "stooqSymbol": "orcz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ORGO",
       "name": "Organogenesis Holdings Inc. - Class A",
       "type": "us_stock",
@@ -136184,14 +136292,14 @@
     },
     {
       "symbol": "PIM",
-      "name": "Putnam Master Intermediate Income Trust Common Stock",
+      "name": "Franklin Master Intermediate Income Trust Shares of Beneficial Interest",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Putnam Master Intermediate Income Trust Common Stock"
+        "Franklin Master Intermediate Income Trust Shares of Beneficial Interest"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -137804,14 +137912,14 @@
     },
     {
       "symbol": "PMM",
-      "name": "Putnam Managed Municipal Income Trust Common Stock",
+      "name": "Franklin Managed Municipal Income Trust Shares of Beneficial Interest",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Putnam Managed Municipal Income Trust Common Stock"
+        "Franklin Managed Municipal Income Trust Shares of Beneficial Interest"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -137912,14 +138020,14 @@
     },
     {
       "symbol": "PMO",
-      "name": "Putnam Municipal Opportunities Trust Common Stock",
+      "name": "Franklin Municipal Opportunities Trust Shares of Beneficial Interest",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Putnam Municipal Opportunities Trust Common Stock"
+        "Franklin Municipal Opportunities Trust Shares of Beneficial Interest"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -138830,14 +138938,14 @@
     },
     {
       "symbol": "PPT",
-      "name": "Putnam Premier Income Trust Common Stock",
+      "name": "Franklin Premier Income Trust Shares of Beneficial Interest",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Putnam Premier Income Trust Common Stock"
+        "Franklin Premier Income Trust Shares of Beneficial Interest"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -143415,6 +143523,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "QEW",
       "stooqSymbol": "qew.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QFF",
+      "name": "Qualivian Focus Fund ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Qualivian Focus Fund ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QFF",
+      "stooqSymbol": "qff.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -156883,6 +157009,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SEUS",
+      "name": "SEI QiM U.S. Equity Factor Allocation Active ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "SEI QiM U.S. Equity Factor Allocation Active ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SEUS",
+      "stooqSymbol": "seus.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SEV",
       "name": "Aptera Motors Corp. - Class B Common Stock",
       "type": "us_stock",
@@ -159259,6 +159403,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SKDD",
+      "name": "GraniteShares 2x Short SK Hynix Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares 2x Short SK Hynix Daily ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SKDD",
+      "stooqSymbol": "skdd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SKE",
       "name": "Skeena Resources Limited Common Shares",
       "type": "us_stock",
@@ -159291,6 +159453,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SKF",
       "stooqSymbol": "skf.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SKHL",
+      "name": "Direxion Daily SK Hynix Bull 2X ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion Daily SK Hynix Bull 2X ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SKHL",
+      "stooqSymbol": "skhl.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -159472,6 +159652,24 @@
       "sourceSymbol": "SKT",
       "stooqSymbol": "skt.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SKUU",
+      "name": "GraniteShares 2x Long SK Hynix Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares 2x Long SK Hynix Daily ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SKUU",
+      "stooqSymbol": "skuu.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -170203,6 +170401,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TDCL",
+      "name": "GraniteShares 2x Long TDC Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares 2x Long TDC Daily ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TDCL",
+      "stooqSymbol": "tdcl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TDEC",
       "name": "FT Vest Emerging Markets Buffer ETF - December",
       "type": "us_etf",
@@ -170438,14 +170654,14 @@
     },
     {
       "symbol": "TDTH",
-      "name": "Trident Digital Tech Holdings Ltd - American Depository Shares",
+      "name": "Trident Digital Tech Holdings Ltd - Class B Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Trident Digital Tech Holdings Ltd - American Depository Shares"
+        "Trident Digital Tech Holdings Ltd - Class B Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -173817,6 +174033,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TMFX",
       "stooqSymbol": "tmfx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TMGN",
+      "name": "TappAlpha Cboe Magnificent 10 Growth & Daily Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "TappAlpha Cboe Magnificent 10 Growth & Daily Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TMGN",
+      "stooqSymbol": "tmgn.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -194881,24 +195115,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "XOMA",
-      "name": "XOMA Royalty Corporation - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "XOMA Royalty Corporation"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "XOMA",
-      "stooqSymbol": "xoma.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "XOMO",
       "name": "YieldMax XOM Option Income Strategy ETF",
       "type": "us_etf",
@@ -197361,6 +197577,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "YSEP",
       "stooqSymbol": "ysep.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YSPC",
+      "name": "YieldMax SPCX Option Income Strategy ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "YieldMax SPCX Option Income Strategy ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YSPC",
+      "stooqSymbol": "yspc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
