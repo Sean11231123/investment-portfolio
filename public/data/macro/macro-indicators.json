@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-14T10:20:00.356Z",
+  "generatedAt": "2026-07-15T10:22:48.809Z",
   "source": "BLS+DGBAS",
   "sourceName": "BLS and data.gov.tw / DGBAS static macro sources",
   "sourceUrl": "https://api.bls.gov/publicAPI/v2/timeseries/data/; https://apiservice.mol.gov.tw/OdService/download/A17030000J-000016-xC8",
@@ -13,10 +13,10 @@
       "name": "US CPI",
       "source": "BLS",
       "sourceSeriesId": "CUSR0000SA0",
-      "period": "2026-05",
-      "level": 333.979,
-      "mom": 0.004729,
-      "yoy": 0.041666,
+      "period": "2026-06",
+      "level": 332.568,
+      "mom": -0.004225,
+      "yoy": 0.034635,
       "unit": "index",
       "changeUnit": "decimal_return",
       "frequency": "monthly",
@@ -24,12 +24,6 @@
       "note": "Seasonally adjusted CPI-U all items index.",
       "status": "ok",
       "history": [
-        {
-          "period": "2024-05",
-          "level": 313.175,
-          "mom": 0.000486,
-          "yoy": 0.032443
-        },
         {
           "period": "2024-06",
           "level": 313.044,
@@ -167,6 +161,12 @@
           "level": 333.979,
           "mom": 0.004729,
           "yoy": 0.041666
+        },
+        {
+          "period": "2026-06",
+          "level": 332.568,
+          "mom": -0.004225,
+          "yoy": 0.034635
         }
       ]
     },
@@ -176,10 +176,10 @@
       "name": "US Core CPI",
       "source": "BLS",
       "sourceSeriesId": "CUSR0000SA0L1E",
-      "period": "2026-05",
-      "level": 336.121,
-      "mom": 0.002081,
-      "yoy": 0.028229,
+      "period": "2026-06",
+      "level": 336.065,
+      "mom": -0.000167,
+      "yoy": 0.025658,
       "unit": "index",
       "changeUnit": "decimal_return",
       "frequency": "monthly",
@@ -187,12 +187,6 @@
       "note": "Seasonally adjusted CPI-U all items less food and energy index.",
       "status": "ok",
       "history": [
-        {
-          "period": "2024-05",
-          "level": 318.095,
-          "mom": 0.001404,
-          "yoy": 0.033944
-        },
         {
           "period": "2024-06",
           "level": 318.39,
@@ -330,6 +324,12 @@
           "level": 336.121,
           "mom": 0.002081,
           "yoy": 0.028229
+        },
+        {
+          "period": "2026-06",
+          "level": 336.065,
+          "mom": -0.000167,
+          "yoy": 0.025658
         }
       ]
     },
