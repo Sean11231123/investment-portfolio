@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-15T11:15:36.161057Z",
-  "count": 11068,
-  "stockCount": 5588,
-  "etfCount": 5480,
-  "skippedCount": 1982,
+  "generatedAt": "2026-07-16T11:21:33.193135Z",
+  "count": 11072,
+  "stockCount": 5586,
+  "etfCount": 5486,
+  "skippedCount": 1981,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -7804,6 +7804,24 @@
       "sourceSymbol": "AMLX",
       "stooqSymbol": "amlx.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AMMO",
+      "name": "VistaShares Defense Supercycle ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VistaShares Defense Supercycle ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AMMO",
+      "stooqSymbol": "ammo.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -38137,24 +38155,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CPRX",
-      "name": "Catalyst Pharmaceuticals, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Catalyst Pharmaceuticals, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CPRX",
-      "stooqSymbol": "cprx.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CPRY",
       "name": "Calamos Russell 2000 Structured Alt Protection ETF January",
       "type": "us_etf",
@@ -40257,6 +40257,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CSQ",
       "stooqSymbol": "csq.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CSQR",
+      "name": "Csquare, Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Csquare, Inc. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CSQR",
+      "stooqSymbol": "csqr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -48343,6 +48361,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DPU",
+      "name": "Top KingWin Ltd - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Top KingWin Ltd - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DPU",
+      "stooqSymbol": "dpu.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DPZ",
       "name": "Domino's Pizza Inc - Common Stock",
       "type": "us_stock",
@@ -48681,6 +48717,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DRMP",
       "stooqSymbol": "drmp.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DRMY",
+      "name": "XFUNDS Memory Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "XFUNDS Memory Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DRMY",
+      "stooqSymbol": "drmy.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -71293,6 +71347,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GALX",
+      "name": "VistaShares Space Supercycle ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VistaShares Space Supercycle ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GALX",
+      "stooqSymbol": "galx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GAM",
       "name": "General American Investors, Inc. Common Stock",
       "type": "us_stock",
@@ -78453,24 +78525,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GTLB",
       "stooqSymbol": "gtlb.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "GTLS",
-      "name": "Chart Industries, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Chart Industries, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GTLS",
-      "stooqSymbol": "gtls.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -103963,24 +104017,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "LCDL",
-      "name": "GraniteShares 2x Long LCID Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "GraniteShares 2x Long LCID Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LCDL",
-      "stooqSymbol": "lcdl.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "LCDS",
       "name": "JPMorgan Fundamental Data Science Large Core ETF",
       "type": "us_etf",
@@ -125599,24 +125635,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "NUVL",
-      "name": "Nuvalent, Inc. - Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Nuvalent, Inc. - Class A Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NUVL",
-      "stooqSymbol": "nuvl.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "NUW",
       "name": "Nuveen AMT-Free Municipal Value Fund",
       "type": "us_stock",
@@ -141547,24 +141565,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "PTNM",
-      "name": "Pitanium Limited - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Pitanium Limited - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PTNM",
-      "stooqSymbol": "ptnm.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "PTNQ",
       "name": "Pacer Trendpilot 100 ETF",
       "type": "us_etf",
@@ -152343,6 +152343,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "RTH",
       "stooqSymbol": "rth.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RTOO",
+      "name": "VistaShares Robotics Supercycle ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VistaShares Robotics Supercycle ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RTOO",
+      "stooqSymbol": "rtoo.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -166549,6 +166567,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "STDN",
+      "name": "Standard Nuclear, Inc. Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Standard Nuclear, Inc. Class A Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "STDN",
+      "stooqSymbol": "stdn.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "STE",
       "name": "STERIS plc (Ireland) Ordinary Shares",
       "type": "us_stock",
@@ -173259,6 +173295,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TKNS",
       "stooqSymbol": "tkns.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TKNZ",
+      "name": "T. Rowe Price Active Crypto ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T. Rowe Price Active Crypto ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TKNZ",
+      "stooqSymbol": "tknz.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -188905,24 +188959,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "WAI",
-      "name": "Top KingWin Ltd - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Top KingWin Ltd - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "WAI",
-      "stooqSymbol": "wai.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "WAL",
       "name": "Western Alliance Bancorporation Common Stock (DE)",
       "type": "us_stock",
@@ -197559,6 +197595,42 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "YQQQ",
       "stooqSymbol": "yqqq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YSAG",
+      "name": "Y'all Street Physical Silver ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Y'all Street Physical Silver ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YSAG",
+      "stooqSymbol": "ysag.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YSAU",
+      "name": "Y'all Street Physical Gold ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Y'all Street Physical Gold ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YSAU",
+      "stooqSymbol": "ysau.us",
       "isETF": true,
       "dataQuality": "generated"
     },
