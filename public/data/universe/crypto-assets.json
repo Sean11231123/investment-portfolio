@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-07-14T11:44:56.989705Z",
-  "count": 439,
-  "binanceCount": 439,
-  "coingeckoMatchedCount": 269,
-  "ambiguousCount": 159,
+  "generatedAt": "2026-07-16T11:54:09.387666Z",
+  "count": 449,
+  "binanceCount": 449,
+  "coingeckoMatchedCount": 278,
+  "ambiguousCount": 160,
   "skippedCount": 3197,
   "assets": [
     {
@@ -133,6 +133,24 @@
       "sourceSymbol": "2ZUSDT",
       "binanceSymbol": "2ZUSDT",
       "coingeckoId": "doublezero",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AAOIB",
+      "name": "Applied Optoelectronics (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Applied Optoelectronics (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AAOIBUSDT",
+      "binanceSymbol": "AAOIBUSDT",
+      "coingeckoId": "applied-optoelectronics-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -662,6 +680,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ARMB",
+      "name": "Arm (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Arm (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ARMBUSDT",
+      "binanceSymbol": "ARMBUSDT",
+      "coingeckoId": "arm-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ARPA",
       "name": "ARPA",
       "type": "crypto",
@@ -855,6 +891,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AVGOB",
+      "name": "Broadcom (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Broadcom (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AVGOBUSDT",
+      "binanceSymbol": "AVGOBUSDT",
+      "coingeckoId": "broadcom-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AVNT",
       "name": "Avantis",
       "type": "crypto",
@@ -924,6 +978,24 @@
       "sourceSymbol": "AXSUSDT",
       "binanceSymbol": "AXSUSDT",
       "coingeckoId": "axie-infinity",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BABAB",
+      "name": "Alibaba (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Alibaba (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BABABUSDT",
+      "binanceSymbol": "BABABUSDT",
+      "coingeckoId": "alibaba-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -3114,7 +3186,7 @@
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
         "HOME"
       ],
@@ -3122,7 +3194,24 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "HOMEUSDT",
       "binanceSymbol": "HOMEUSDT",
-      "coingeckoId": "home",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HOODB",
+      "name": "Robinhood (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Robinhood (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HOODBUSDT",
+      "binanceSymbol": "HOODBUSDT",
+      "coingeckoId": "robinhood-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -3176,6 +3265,24 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "HYPERUSDT",
       "binanceSymbol": "HYPERUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IBMB",
+      "name": "IBM (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "IBM (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "IBMBUSDT",
+      "binanceSymbol": "IBMBUSDT",
+      "coingeckoId": "ibm-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -4303,6 +4410,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MRVLB",
+      "name": "Marvell Technology (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Marvell Technology (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MRVLBUSDT",
+      "binanceSymbol": "MRVLBUSDT",
+      "coingeckoId": "marvell-technology-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MSFTB",
       "name": "Microsoft (bStocks Tokenized Stock)",
       "type": "crypto",
@@ -4547,6 +4672,24 @@
       "sourceSymbol": "NMRUSDT",
       "binanceSymbol": "NMRUSDT",
       "coingeckoId": "numeraire",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NOKB",
+      "name": "Nokia (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Nokia (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "NOKBUSDT",
+      "binanceSymbol": "NOKBUSDT",
+      "coingeckoId": "nokia-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -5573,6 +5716,24 @@
       "sourceSymbol": "RIFUSDT",
       "binanceSymbol": "RIFUSDT",
       "coingeckoId": "rif-token",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RKLBB",
+      "name": "Rocket Lab (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Rocket Lab (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RKLBBUSDT",
+      "binanceSymbol": "RKLBBUSDT",
+      "coingeckoId": "rocket-lab-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -6740,6 +6901,24 @@
       "sourceSymbol": "TSLABUSDT",
       "binanceSymbol": "TSLABUSDT",
       "coingeckoId": "tesla-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TSMB",
+      "name": "TSMC (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "TSMC (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TSMBUSDT",
+      "binanceSymbol": "TSMBUSDT",
+      "coingeckoId": "tsmc-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
