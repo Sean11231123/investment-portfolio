@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-16T11:21:33.193135Z",
-  "count": 11072,
-  "stockCount": 5586,
+  "generatedAt": "2026-07-17T11:09:23.935440Z",
+  "count": 11074,
+  "stockCount": 5588,
   "etfCount": 5486,
-  "skippedCount": 1981,
+  "skippedCount": 1980,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -9662,14 +9662,14 @@
     },
     {
       "symbol": "APM",
-      "name": "Aptorum Group Limited - Class A Ordinary Shares",
+      "name": "Aptorum Group Limited - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Aptorum Group Limited - Class A Ordinary Shares"
+        "Aptorum Group Limited"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -45747,6 +45747,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DG",
       "stooqSymbol": "dg.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DGAC",
+      "name": "Disciplined Growth Acquisition Corporation Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Disciplined Growth Acquisition Corporation Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DGAC",
+      "stooqSymbol": "dgac.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -143672,14 +143690,14 @@
     },
     {
       "symbol": "QH",
-      "name": "Quhuo Limited - American Depository Shares",
+      "name": "Quhuo Limited - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Quhuo Limited - American Depository Shares"
+        "Quhuo Limited - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -144136,6 +144154,24 @@
       "sourceSymbol": "QMID",
       "stooqSymbol": "qmid.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QMLS",
+      "name": "QumulusAI, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "QumulusAI, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QMLS",
+      "stooqSymbol": "qmls.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
