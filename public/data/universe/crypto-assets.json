@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-07-16T11:54:09.387666Z",
-  "count": 449,
-  "binanceCount": 449,
-  "coingeckoMatchedCount": 278,
+  "generatedAt": "2026-07-18T11:18:19.446110Z",
+  "count": 450,
+  "binanceCount": 450,
+  "coingeckoMatchedCount": 279,
   "ambiguousCount": 160,
-  "skippedCount": 3197,
+  "skippedCount": 3199,
   "assets": [
     {
       "symbol": "0G",
@@ -291,6 +291,24 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "ADXUSDT",
       "binanceSymbol": "ADXUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AERO",
+      "name": "Aerodrome Finance",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Aerodrome Finance"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AEROUSDT",
+      "binanceSymbol": "AEROUSDT",
+      "coingeckoId": "aerodrome-finance",
       "dataQuality": "generated"
     },
     {
