@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-17T11:09:23.935440Z",
-  "count": 11074,
-  "stockCount": 5588,
-  "etfCount": 5486,
+  "generatedAt": "2026-07-20T12:04:00.512770Z",
+  "count": 11076,
+  "stockCount": 5589,
+  "etfCount": 5487,
   "skippedCount": 1980,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -9658,24 +9658,6 @@
       "sourceSymbol": "APLZ",
       "stooqSymbol": "aplz.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "APM",
-      "name": "Aptorum Group Limited - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Aptorum Group Limited"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "APM",
-      "stooqSymbol": "apm.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -27067,24 +27049,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BURU",
-      "name": "Nuburu, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Nuburu, Inc. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BURU",
-      "stooqSymbol": "buru.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BUSA",
       "name": "Brandes U.S. Value ETF",
       "type": "us_etf",
@@ -27693,6 +27657,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BX",
       "stooqSymbol": "bx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BXBL",
+      "name": "BOXABL, Inc. - Common stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BOXABL, Inc. - Common stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BXBL",
+      "stooqSymbol": "bxbl.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -45895,6 +45877,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DGJL",
+      "name": "FT Vest U.S. Equity Buffer & Digital Return ETF - July",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest U.S. Equity Buffer & Digital Return ETF - July"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DGJL",
+      "stooqSymbol": "dgjl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DGLO",
       "name": "First Trust RBA Deglobalization ETF",
       "type": "us_etf",
@@ -47642,14 +47642,14 @@
     },
     {
       "symbol": "DMRA",
-      "name": "Damora Therapeutics, Inc. - Common Stock",
+      "name": "Damora Therapeutics, Inc. - Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Damora Therapeutics, Inc."
+        "Damora Therapeutics, Inc. - Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -63769,24 +63769,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "FGMC",
-      "name": "FG Merger II Corp. - Common stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "FG Merger II Corp. - Common stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FGMC",
-      "stooqSymbol": "fgmc.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "FGNX",
       "name": "FG Nexus Inc. - Common Stock",
       "type": "us_stock",
@@ -76514,14 +76496,14 @@
     },
     {
       "symbol": "GORO",
-      "name": "Gold Resource Corporation Common Stock",
+      "name": "Goldgroup Mining Inc. Common Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Gold Resource Corporation Common Stock"
+        "Goldgroup Mining Inc. Common Shares"
       ],
       "exchange": "NYSEAMERICAN",
       "source": "nasdaqtrader-symbol-directory",
@@ -78476,14 +78458,14 @@
     },
     {
       "symbol": "GTES",
-      "name": "Gates Industrial Corporation plc Ordinary Shares",
+      "name": "Gates Industrial Corporation Ltd. Common Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Gates Industrial Corporation plc Ordinary Shares"
+        "Gates Industrial Corporation Ltd. Common Shares"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -102596,14 +102578,14 @@
     },
     {
       "symbol": "KSTR",
-      "name": "KraneShares SSE STAR Market 50 Index ETF",
+      "name": "KraneShares China Technology & Semiconductor STAR 50 Index ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "KraneShares SSE STAR Market 50 Index ETF"
+        "KraneShares China Technology & Semiconductor STAR 50 Index ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -107001,6 +106983,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LODI",
       "stooqSymbol": "lodi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LOEV",
+      "name": "Harding Loevner International Developed Markets Select Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Harding Loevner International Developed Markets Select Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LOEV",
+      "stooqSymbol": "loev.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -112330,6 +112330,24 @@
       "sourceSymbol": "MEXX",
       "stooqSymbol": "mexx.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MF",
+      "name": "MindForge Inc. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MindForge Inc. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MF",
+      "stooqSymbol": "mf.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -122377,6 +122395,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NIKI",
+      "name": "Niki BioSolutions, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Niki BioSolutions, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NIKI",
+      "stooqSymbol": "niki.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NIKL",
       "name": "Sprott Nickel Miners ETF",
       "type": "us_etf",
@@ -128245,24 +128281,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ODV",
-      "name": "Osisko Development Corp. Common Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Osisko Development Corp. Common Shares"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ODV",
-      "stooqSymbol": "odv.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ODYS",
       "name": "Odysight.ai Inc. - Common Stock",
       "type": "us_stock",
@@ -128529,6 +128547,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "OGEN",
       "stooqSymbol": "ogen.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OGG",
+      "name": "Osisko Gold Group Inc. Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Osisko Gold Group Inc. Common Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OGG",
+      "stooqSymbol": "ogg.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -153625,24 +153661,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SAEF",
-      "name": "Schwab Ariel Opportunities ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Schwab Ariel Opportunities ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SAEF",
-      "stooqSymbol": "saef.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SAFE",
       "name": "Safehold Inc. New Common Stock",
       "type": "us_stock",
@@ -158301,6 +158319,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SHOP",
       "stooqSymbol": "shop.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SHOT",
+      "name": "RMG ML Sports Holdings - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "RMG ML Sports Holdings - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SHOT",
+      "stooqSymbol": "shot.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -179545,24 +179581,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "UBXG",
-      "name": "U-BX Technology Ltd. - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "U-BX Technology Ltd. - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "UBXG",
-      "stooqSymbol": "ubxg.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "UCAR",
       "name": "U Power Limited - Class A Ordinary Shares",
       "type": "us_stock",
@@ -185788,6 +185806,24 @@
       "sourceSymbol": "VIGI",
       "stooqSymbol": "vigi.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VII",
+      "name": "Viking Acquisition Corp. II Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Viking Acquisition Corp. II Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VII",
+      "stooqSymbol": "vii.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
