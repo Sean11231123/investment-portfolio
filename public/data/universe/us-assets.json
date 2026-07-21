@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-20T12:04:00.512770Z",
-  "count": 11076,
-  "stockCount": 5589,
-  "etfCount": 5487,
-  "skippedCount": 1980,
+  "generatedAt": "2026-07-21T11:29:48.389018Z",
+  "count": 11074,
+  "stockCount": 5586,
+  "etfCount": 5488,
+  "skippedCount": 1979,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -4568,14 +4568,14 @@
     },
     {
       "symbol": "AGRZ",
-      "name": "Agroz Inc. - Ordinary Shares",
+      "name": "Agroz Inc. - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Agroz Inc. - Ordinary Shares"
+        "Agroz Inc. - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -5086,6 +5086,24 @@
       "sourceSymbol": "AIHS",
       "stooqSymbol": "aihs.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AIHY",
+      "name": "Defiance AI Hyperscale Leaders ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance AI Hyperscale Leaders ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AIHY",
+      "stooqSymbol": "aihy.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -20191,6 +20209,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BID",
+      "name": "Tribeca Strategic Acquisition Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tribeca Strategic Acquisition Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BID",
+      "stooqSymbol": "bid.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BIDD",
       "name": "iShares International Dividend Active ETF",
       "type": "us_etf",
@@ -33745,6 +33781,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CIGL",
+      "name": "Concorde International Group Ltd - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Concorde International Group Ltd - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CIGL",
+      "stooqSymbol": "cigl.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CII",
       "name": "BlackRock Enhanced Large Cap Core Fund, Inc. Common Stock",
       "type": "us_stock",
@@ -39016,24 +39070,6 @@
       "sourceSymbol": "CRED",
       "stooqSymbol": "cred.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CREG",
-      "name": "Smart Powerr Corp. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Smart Powerr Corp."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CREG",
-      "stooqSymbol": "creg.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -101803,24 +101839,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "KORE",
-      "name": "KORE Group Holdings, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "KORE Group Holdings, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KORE",
-      "stooqSymbol": "kore.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "KORP",
       "name": "American Century Diversified Corporate Bond ETF",
       "type": "us_etf",
@@ -121675,24 +121693,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "NFBK",
-      "name": "Northfield Bancorp, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Northfield Bancorp, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NFBK",
-      "stooqSymbol": "nfbk.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "NFE",
       "name": "New Fortress Energy Inc. - Class A Common Stock",
       "type": "us_stock",
@@ -134235,24 +134235,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PCSA",
       "stooqSymbol": "pcsa.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PCSC",
-      "name": "Perceptive Capital Solutions Corp - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Perceptive Capital Solutions Corp - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PCSC",
-      "stooqSymbol": "pcsc.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -197578,24 +197560,6 @@
       "sourceSymbol": "YOLO",
       "stooqSymbol": "yolo.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "YOOV",
-      "name": "Concorde International Group Ltd - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Concorde International Group Ltd - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "YOOV",
-      "stooqSymbol": "yoov.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
