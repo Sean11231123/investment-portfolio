@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-21T11:29:48.389018Z",
-  "count": 11074,
-  "stockCount": 5586,
-  "etfCount": 5488,
-  "skippedCount": 1979,
+  "generatedAt": "2026-07-22T11:30:51.989806Z",
+  "count": 11072,
+  "stockCount": 5585,
+  "etfCount": 5487,
+  "skippedCount": 1980,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -6130,24 +6130,6 @@
       "sourceSymbol": "ALBG",
       "stooqSymbol": "albg.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ALBT",
-      "name": "Avalon GloboCare Corp. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Avalon GloboCare Corp."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ALBT",
-      "stooqSymbol": "albt.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -30703,24 +30685,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CCRN",
-      "name": "Cross Country Healthcare, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Cross Country Healthcare, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CCRN",
-      "stooqSymbol": "ccrn.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CCRP",
       "name": "Columbia Corporate Bond ETF",
       "type": "us_etf",
@@ -33003,6 +32967,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CHEF",
       "stooqSymbol": "chef.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CHGA",
+      "name": "Change Agents Corporation - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Change Agents Corporation"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CHGA",
+      "stooqSymbol": "chga.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -38512,6 +38494,24 @@
       "sourceSymbol": "CPT",
       "stooqSymbol": "cpt.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CPTL",
+      "name": "Global X Morningstar Capital Allocation Leaders ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Global X Morningstar Capital Allocation Leaders ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CPTL",
+      "stooqSymbol": "cptl.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -55291,24 +55291,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "EMTL",
-      "name": "State Street DoubleLine Emerging Markets Fixed Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "State Street DoubleLine Emerging Markets Fixed Income ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EMTL",
-      "stooqSymbol": "emtl.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "EMTY",
       "name": "ProShares Decline of the Retail Store ETF",
       "type": "us_etf",
@@ -68269,6 +68251,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FRNM",
+      "name": "Freenome, Inc. - Common stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Freenome, Inc. - Common stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FRNM",
+      "stooqSymbol": "frnm.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FRNW",
       "name": "Fidelity Clean Energy ETF",
       "type": "us_etf",
@@ -77270,14 +77270,14 @@
     },
     {
       "symbol": "GREE",
-      "name": "Greenidge Generation Holdings Inc. - Class A Common Stock",
+      "name": "Vulcan Infrastructure and Power Inc. - Class A Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Greenidge Generation Holdings Inc. - Class A Common Stock"
+        "Vulcan Infrastructure and Power Inc. - Class A Common Stock"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -82342,6 +82342,24 @@
       "sourceSymbol": "HLT",
       "stooqSymbol": "hlt.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HLTH",
+      "name": "Tema Healthcare AI ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tema Healthcare AI ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HLTH",
+      "stooqSymbol": "hlth.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -102199,24 +102217,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "KRMA",
-      "name": "Global X Conscious Companies ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Global X Conscious Companies ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KRMA",
-      "stooqSymbol": "krma.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "KRMD",
       "name": "KORU Medical Systems, Inc. - Common Stock",
       "type": "us_stock",
@@ -106480,24 +106480,6 @@
       "sourceSymbol": "LMBS",
       "stooqSymbol": "lmbs.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "LMFA",
-      "name": "LM Funding America, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "LM Funding America, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LMFA",
-      "stooqSymbol": "lmfa.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -111861,6 +111843,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MEDP",
       "stooqSymbol": "medp.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MEDS",
+      "name": "DataMeds AI, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "DataMeds AI, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MEDS",
+      "stooqSymbol": "meds.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -124353,24 +124353,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NRXS",
       "stooqSymbol": "nrxs.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "NSA",
-      "name": "National Storage Affiliates Trust Common Shares of Beneficial Interest",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "National Storage Affiliates Trust Common Shares of Beneficial Interest"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NSA",
-      "stooqSymbol": "nsa.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -142051,6 +142033,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PWCM",
+      "name": "PowerCompute, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "PowerCompute, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PWCM",
+      "stooqSymbol": "pwcm.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PWER",
       "name": "Nomura Energy Transition ETF",
       "type": "us_etf",
@@ -145018,24 +145018,6 @@
       "sourceSymbol": "QRED",
       "stooqSymbol": "qred.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "QRFT",
-      "name": "QRAFT AI-Enhanced U.S. Large Cap ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "QRAFT AI-Enhanced U.S. Large Cap ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "QRFT",
-      "stooqSymbol": "qrft.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -190431,24 +190413,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "WGO",
       "stooqSymbol": "wgo.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "WGRX",
-      "name": "Wellgistics Health, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Wellgistics Health, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "WGRX",
-      "stooqSymbol": "wgrx.us",
       "isETF": false,
       "dataQuality": "generated"
     },
