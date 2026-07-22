@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-07-15T11:00:53.146326Z",
-  "count": 2247,
-  "twseCount": 1238,
+  "generatedAt": "2026-07-22T11:17:03.143899Z",
+  "count": 2248,
+  "twseCount": 1239,
   "tpexOtcCount": 1009,
   "tpexOtcSourceCount": 1009,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2247,
+  "metadataEnrichedCount": 2248,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -43107,6 +43107,28 @@
       "board": "main",
       "securityType": "stock",
       "classificationSource": "tpex_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "6947",
+      "name": "台鎔科技",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "twse",
+      "aliases": [
+        "台鎔科技"
+      ],
+      "exchange": "TWSE",
+      "marketSegment": "listed",
+      "source": "twse-isin",
+      "sourceSymbol": "6947",
+      "isETF": false,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "stock",
+      "classificationSource": "twse_isin",
       "classificationConfidence": "high"
     },
     {
