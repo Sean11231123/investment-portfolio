@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-22T11:30:51.989806Z",
-  "count": 11072,
-  "stockCount": 5585,
-  "etfCount": 5487,
-  "skippedCount": 1980,
+  "generatedAt": "2026-07-23T11:33:53.741285Z",
+  "count": 11074,
+  "stockCount": 5583,
+  "etfCount": 5491,
+  "skippedCount": 1978,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -28269,24 +28269,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CADL",
       "stooqSymbol": "cadl.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CAE",
-      "name": "CAE Inc. Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "CAE Inc. Ordinary Shares"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CAE",
-      "stooqSymbol": "cae.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -71419,24 +71401,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "GAMB",
-      "name": "Gambling.com Group Limited - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Gambling.com Group Limited - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GAMB",
-      "stooqSymbol": "gamb.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "GAME",
       "name": "GameSquare Holdings, Inc. - Common stock",
       "type": "us_stock",
@@ -77697,6 +77661,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GRRR",
       "stooqSymbol": "grrr.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GRSD",
+      "name": "Grandstand Limited - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Grandstand Limited - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GRSD",
+      "stooqSymbol": "grsd.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -84559,6 +84541,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HWIV",
+      "name": "Hotchkis & Wiley International Value Fund",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hotchkis & Wiley International Value Fund"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HWIV",
+      "stooqSymbol": "hwiv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HWKN",
       "name": "Hawkins, Inc. - Common Stock",
       "type": "us_stock",
@@ -84592,6 +84592,24 @@
       "sourceSymbol": "HWM",
       "stooqSymbol": "hwm.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HWO",
+      "name": "Hotchkis & Wiley Opportunities Fund",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hotchkis & Wiley Opportunities Fund"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HWO",
+      "stooqSymbol": "hwo.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -110331,24 +110349,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MBAI",
       "stooqSymbol": "mbai.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MBAV",
-      "name": "M3-Brigade Acquisition V Corp. - Class A Ordinary shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "M3-Brigade Acquisition V Corp. - Class A Ordinary shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MBAV",
-      "stooqSymbol": "mbav.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -138127,6 +138127,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PMTL",
+      "name": "First Trust Indxx Quality Precious Metals Miners ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "First Trust Indxx Quality Precious Metals Miners ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PMTL",
+      "stooqSymbol": "pmtl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PMTR",
       "name": "Perimeter Acquisition Corp. I - Class A Ordinary Shares",
       "type": "us_stock",
@@ -146277,6 +146295,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "RAM",
       "stooqSymbol": "ram.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RAML",
+      "name": "Leverage Shares 2X Long Memory Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long Memory Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RAML",
+      "stooqSymbol": "raml.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -157743,24 +157779,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SGP",
       "stooqSymbol": "sgp.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SGRP",
-      "name": "SPAR Group, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "SPAR Group, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SGRP",
-      "stooqSymbol": "sgrp.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -186201,6 +186219,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VLO",
       "stooqSymbol": "vlo.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VLOS",
+      "name": "Velos Acquisition I Corp. - Class A Ordinary shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Velos Acquisition I Corp. - Class A Ordinary shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VLOS",
+      "stooqSymbol": "vlos.us",
       "isETF": false,
       "dataQuality": "generated"
     },
