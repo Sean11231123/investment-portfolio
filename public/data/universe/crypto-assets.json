@@ -2,10 +2,10 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-07-18T11:18:19.446110Z",
-  "count": 450,
-  "binanceCount": 450,
-  "coingeckoMatchedCount": 279,
+  "generatedAt": "2026-07-23T12:02:51.597043Z",
+  "count": 460,
+  "binanceCount": 460,
+  "coingeckoMatchedCount": 289,
   "ambiguousCount": 160,
   "skippedCount": 3199,
   "assets": [
@@ -999,6 +999,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AXTIB",
+      "name": "AXT (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "AXT (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "AXTIBUSDT",
+      "binanceSymbol": "AXTIBUSDT",
+      "coingeckoId": "axt-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BABAB",
       "name": "Alibaba (bStocks Tokenized Stock)",
       "type": "crypto",
@@ -1890,6 +1908,24 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "CRVUSDT",
       "binanceSymbol": "CRVUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CRWVB",
+      "name": "CoreWeave (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "CoreWeave (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CRWVBUSDT",
+      "binanceSymbol": "CRWVBUSDT",
+      "coingeckoId": "coreweave-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -3445,6 +3481,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "INTWB",
+      "name": "GraniteShares 2X Long INTC ETF (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "GraniteShares 2X Long INTC ETF (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "INTWBUSDT",
+      "binanceSymbol": "INTWBUSDT",
+      "coingeckoId": "graniteshares-2x-long-intc-etf-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "IO",
       "name": "io.net",
       "type": "crypto",
@@ -3795,6 +3849,24 @@
       "sourceSymbol": "KNCUSDT",
       "binanceSymbol": "KNCUSDT",
       "coingeckoId": "kyber-network-crystal",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KORUB",
+      "name": "South Korea Bull 3X ETF (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "South Korea Bull 3X ETF (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "KORUBUSDT",
+      "binanceSymbol": "KORUBUSDT",
+      "coingeckoId": "south-korea-bull-3x-etf-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -4534,6 +4606,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MUUB",
+      "name": "Direxion MU Bull 2X ETF (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Direxion MU Bull 2X ETF (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MUUBUSDT",
+      "binanceSymbol": "MUUBUSDT",
+      "coingeckoId": "direxion-mu-bull-2x-etf-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MVLLB",
+      "name": "GraniteShares 2X Long MRVL ETF (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "GraniteShares 2X Long MRVL ETF (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MVLLBUSDT",
+      "binanceSymbol": "MVLLBUSDT",
+      "coingeckoId": "graniteshares-2x-long-mrvl-etf-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NBISB",
       "name": "Nebius (bStocks Tokenized Stock)",
       "type": "crypto",
@@ -4970,6 +5078,24 @@
       "sourceSymbol": "ORCAUSDT",
       "binanceSymbol": "ORCAUSDT",
       "coingeckoId": "orca",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ORCLB",
+      "name": "Oracle (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Oracle (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ORCLBUSDT",
+      "binanceSymbol": "ORCLBUSDT",
+      "coingeckoId": "oracle-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -5503,6 +5629,24 @@
       "sourceSymbol": "QNTUSDT",
       "binanceSymbol": "QNTUSDT",
       "coingeckoId": "quant-network",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QNTB",
+      "name": "Quantinuum (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Quantinuum (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "QNTBUSDT",
+      "binanceSymbol": "QNTBUSDT",
+      "coingeckoId": "quantinuum-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -6266,6 +6410,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SNXXB",
+      "name": "Tradr 2X Long SNDK ETF (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Tradr 2X Long SNDK ETF (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SNXXBUSDT",
+      "binanceSymbol": "SNXXBUSDT",
+      "coingeckoId": "tradr-2x-long-sndk-etf-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SOL",
       "name": "Solana",
       "type": "crypto",
@@ -6832,6 +6994,24 @@
       "sourceSymbol": "TOWNSUSDT",
       "binanceSymbol": "TOWNSUSDT",
       "coingeckoId": "towns",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TQQQB",
+      "name": "ProShares UltraPro QQQ (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "ProShares UltraPro QQQ (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TQQQBUSDT",
+      "binanceSymbol": "TQQQBUSDT",
+      "coingeckoId": "proshares-ultrapro-qqq-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
