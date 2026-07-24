@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-23T11:33:53.741285Z",
+  "generatedAt": "2026-07-24T11:26:12.463059Z",
   "count": 11074,
-  "stockCount": 5583,
-  "etfCount": 5491,
+  "stockCount": 5582,
+  "etfCount": 5492,
   "skippedCount": 1978,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -693,6 +693,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AAUA",
       "stooqSymbol": "aaua.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AAUB",
+      "name": "Alpha Architect US Equity 4 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Alpha Architect US Equity 4 ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AAUB",
+      "stooqSymbol": "aaub.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -2728,24 +2746,6 @@
       "sourceSymbol": "ADEA",
       "stooqSymbol": "adea.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ADFI",
-      "name": "Anfield Dynamic Fixed Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Anfield Dynamic Fixed Income ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ADFI",
-      "stooqSymbol": "adfi.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -28269,6 +28269,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CADL",
       "stooqSymbol": "cadl.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CAE",
+      "name": "CAE Inc - Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "CAE Inc - Common Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CAE",
+      "stooqSymbol": "cae.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -56677,6 +56695,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "EQQQ",
+      "name": "ProShares Ultra QQQ Equal Weight",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ProShares Ultra QQQ Equal Weight"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EQQQ",
+      "stooqSymbol": "eqqq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "EQR",
       "name": "Equity Residential Common Shares of Beneficial Interest",
       "type": "us_stock",
@@ -77229,24 +77265,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GRDX",
       "stooqSymbol": "grdx.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "GREE",
-      "name": "Vulcan Infrastructure and Power Inc. - Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Vulcan Infrastructure and Power Inc. - Class A Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GREE",
-      "stooqSymbol": "gree.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -126463,24 +126481,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "NVVE",
-      "name": "Nuvve Holding Corp. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Nuvve Holding Corp."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NVVE",
-      "stooqSymbol": "nvve.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "NVX",
       "name": "NOVONIX Limited - American Depository Shares",
       "type": "us_stock",
@@ -174181,24 +174181,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TMHC",
-      "name": "Taylor Morrison Home Corporation Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Taylor Morrison Home Corporation Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TMHC",
-      "stooqSymbol": "tmhc.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TMLP",
       "name": "Tortoise MLP ETF",
       "type": "us_etf",
@@ -185896,6 +185878,24 @@
       "sourceSymbol": "VIOV",
       "stooqSymbol": "viov.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VIP",
+      "name": "Vulcan Infrastructure and Power Inc. - Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Vulcan Infrastructure and Power Inc. - Class A Common Stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VIP",
+      "stooqSymbol": "vip.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
