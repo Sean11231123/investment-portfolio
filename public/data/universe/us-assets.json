@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-24T11:26:12.463059Z",
-  "count": 11074,
-  "stockCount": 5582,
-  "etfCount": 5492,
-  "skippedCount": 1978,
+  "generatedAt": "2026-07-27T12:45:07.961775Z",
+  "count": 11079,
+  "stockCount": 5583,
+  "etfCount": 5496,
+  "skippedCount": 1983,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -14323,24 +14323,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "AVNS",
-      "name": "Avanos Medical, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Avanos Medical, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AVNS",
-      "stooqSymbol": "avns.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "AVNT",
       "name": "Avient Corporation Common Stock",
       "type": "us_stock",
@@ -15742,6 +15724,24 @@
       "sourceSymbol": "BAFN",
       "stooqSymbol": "bafn.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BAGX",
+      "name": "EA Bridgeway Aggressive Investors ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "EA Bridgeway Aggressive Investors ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BAGX",
+      "stooqSymbol": "bagx.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -19489,6 +19489,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BGFI",
+      "name": "BNY Mellon Global Fixed Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BNY Mellon Global Fixed Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BGFI",
+      "stooqSymbol": "bgfi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BGGG",
       "name": "Baillie Gifford Long Term Global Growth ETF",
       "type": "us_etf",
@@ -20493,6 +20511,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BIOA",
       "stooqSymbol": "bioa.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BIOT",
+      "name": "Instinct Bio Technical Company Holdings Inc. - Common stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Instinct Bio Technical Company Holdings Inc. - Common stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BIOT",
+      "stooqSymbol": "biot.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -22693,6 +22729,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BMSI",
+      "name": "BNY Mellon Muti-Sector Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BNY Mellon Muti-Sector Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BMSI",
+      "stooqSymbol": "bmsi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BMVP",
       "name": "Invesco Bloomberg MVP Multi-factor ETF",
       "type": "us_etf",
@@ -24742,6 +24796,24 @@
       "sourceSymbol": "BRSP",
       "stooqSymbol": "brsp.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BRSV",
+      "name": "EA Bridgeway Select Small-Cap Value ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "EA Bridgeway Select Small-Cap Value ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BRSV",
+      "stooqSymbol": "brsv.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -27100,6 +27172,24 @@
       "sourceSymbol": "BUSE",
       "stooqSymbol": "buse.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BUSM",
+      "name": "EA Bridgeway Ultra-Small Company Market ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "EA Bridgeway Ultra-Small Company Market ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BUSM",
+      "stooqSymbol": "busm.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -39052,24 +39142,6 @@
       "sourceSymbol": "CRE",
       "stooqSymbol": "cre.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CRED",
-      "name": "Columbia Research Enhanced Real Estate ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Columbia Research Enhanced Real Estate ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CRED",
-      "stooqSymbol": "cred.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -55201,24 +55273,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "EMPG",
-      "name": "Empro Group Inc. - Ordinary shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Empro Group Inc. - Ordinary shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EMPG",
-      "stooqSymbol": "empg.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "EMQQ",
       "name": "EMQQ The Emerging Markets Internet ETF",
       "type": "us_etf",
@@ -69889,6 +69943,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FTRA",
+      "name": "FutureCorp Space Acquisition 1 Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FutureCorp Space Acquisition 1 Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FTRA",
+      "stooqSymbol": "ftra.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FTRB",
       "name": "Federated Hermes Total Return Bond ETF",
       "type": "us_etf",
@@ -77103,24 +77175,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GRAB",
       "stooqSymbol": "grab.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "GRAF",
-      "name": "Graf Global Corp. Class A ordinary shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Graf Global Corp. Class A ordinary shares"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GRAF",
-      "stooqSymbol": "graf.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -92605,6 +92659,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "IPVV",
+      "name": "InterPrivate Investment Partners V, Inc. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "InterPrivate Investment Partners V, Inc. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IPVV",
+      "stooqSymbol": "ipvv.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "IPW",
       "name": "iPower Inc. - Common Stock",
       "type": "us_stock",
@@ -105359,7 +105431,7 @@
       "aliases": [
         "Langar Global HealthTech ETF"
       ],
-      "exchange": "NYSEARCA",
+      "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LGHT",
       "stooqSymbol": "lght.us",
@@ -109346,16 +109418,16 @@
     },
     {
       "symbol": "MAGA",
-      "name": "Point Bridge America First ETF",
+      "name": "Truth Social America First ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Point Bridge America First ETF"
+        "Truth Social America First ETF"
       ],
-      "exchange": "BATS",
+      "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MAGA",
       "stooqSymbol": "maga.us",
@@ -143006,16 +143078,16 @@
     },
     {
       "symbol": "QBTS",
-      "name": "D-Wave Quantum Inc. Common Shares",
+      "name": "D-Wave Quantum Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "D-Wave Quantum Inc. Common Shares"
+        "D-Wave Quantum Inc."
       ],
-      "exchange": "NYSE",
+      "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "QBTS",
       "stooqSymbol": "qbts.us",
@@ -155673,6 +155745,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SCSC",
       "stooqSymbol": "scsc.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SCTX",
+      "name": "Scribe Therapeutics Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Scribe Therapeutics Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SCTX",
+      "stooqSymbol": "sctx.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -174865,6 +174955,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TONT",
+      "name": "Graf Global Corp. Class A ordinary shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Graf Global Corp. Class A ordinary shares"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TONT",
+      "stooqSymbol": "tont.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TONX",
       "name": "TON Strategy Company - Common Stock",
       "type": "us_stock",
@@ -175964,16 +176072,16 @@
     },
     {
       "symbol": "TRIN",
-      "name": "Trinity Capital Inc. - Common Stock",
+      "name": "Trinity Capital Inc. Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Trinity Capital Inc."
+        "Trinity Capital Inc. Common Stock"
       ],
-      "exchange": "NASDAQ",
+      "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TRIN",
       "stooqSymbol": "trin.us",
@@ -187857,24 +187965,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VST",
       "stooqSymbol": "vst.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "VSTD",
-      "name": "Vestand Inc. - Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Vestand Inc. - Class A Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VSTD",
-      "stooqSymbol": "vstd.us",
       "isETF": false,
       "dataQuality": "generated"
     },
