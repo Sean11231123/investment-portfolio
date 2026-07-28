@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-27T12:45:07.961775Z",
-  "count": 11079,
+  "generatedAt": "2026-07-28T11:46:20.191606Z",
+  "count": 11083,
   "stockCount": 5583,
-  "etfCount": 5496,
-  "skippedCount": 1983,
+  "etfCount": 5500,
+  "skippedCount": 1981,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -30555,24 +30555,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CCII",
       "stooqSymbol": "ccii.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CCIX",
-      "name": "Churchill Capital Corp IX - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Churchill Capital Corp IX - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CCIX",
-      "stooqSymbol": "ccix.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -108445,6 +108427,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LTGR",
+      "name": "Long Table Growth Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Long Table Growth Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LTGR",
+      "stooqSymbol": "ltgr.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LTH",
       "name": "Life Time Group Holdings, Inc. Common Stock",
       "type": "us_stock",
@@ -117157,6 +117157,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MSOL",
+      "name": "Morgan Stanley Solana Trust",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Morgan Stanley Solana Trust"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MSOL",
+      "stooqSymbol": "msol.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MSOS",
       "name": "AdvisorShares Pure US Cannabis ETF",
       "type": "us_etf",
@@ -117226,6 +117244,24 @@
       "sourceSymbol": "MSS",
       "stooqSymbol": "mss.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MSSE",
+      "name": "Morgan Stanley Ethereum Trust",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Morgan Stanley Ethereum Trust"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MSSE",
+      "stooqSymbol": "msse.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -146407,6 +146443,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RAMZ",
+      "name": "T-REX 2X Inverse DRAM Daily Target ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T-REX 2X Inverse DRAM Daily Target ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RAMZ",
+      "stooqSymbol": "ramz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RAND",
       "name": "Rand Capital Corporation - Closed End Fund",
       "type": "us_stock",
@@ -150364,24 +150418,6 @@
       "sourceSymbol": "RMI",
       "stooqSymbol": "rmi.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "RMIF",
-      "name": "LHA Risk-Managed Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "LHA Risk-Managed Income ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RMIF",
-      "stooqSymbol": "rmif.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -159619,6 +159655,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SKHA",
+      "name": "Tradr 2X Long SK hynix Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long SK hynix Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SKHA",
+      "stooqSymbol": "skha.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SKHL",
       "name": "Direxion Daily SK Hynix Bull 2X ETF",
       "type": "us_etf",
@@ -159633,6 +159687,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SKHL",
       "stooqSymbol": "skhl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SKHN",
+      "name": "Tradr 2X Short SK hynix Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Short SK hynix Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SKHN",
+      "stooqSymbol": "skhn.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -166694,14 +166766,14 @@
     },
     {
       "symbol": "STCE",
-      "name": "Schwab Crypto Thematic ETF",
+      "name": "Schwab Crypto Thematic Natural Language Processing ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Schwab Crypto Thematic ETF"
+        "Schwab Crypto Thematic Natural Language Processing ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -188923,24 +188995,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "VYNE",
-      "name": "VYNE Therapeutics Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "VYNE Therapeutics Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VYNE",
-      "stooqSymbol": "vyne.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "VYX",
       "name": "NCR Voyix Corporation Common Stock",
       "type": "us_stock",
@@ -196930,6 +196984,24 @@
       "sourceSymbol": "YANG",
       "stooqSymbol": "yang.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YARW",
+      "name": "Yarrow Bioscience, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Yarrow Bioscience, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YARW",
+      "stooqSymbol": "yarw.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
