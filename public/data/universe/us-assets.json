@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-28T11:46:20.191606Z",
-  "count": 11083,
-  "stockCount": 5583,
-  "etfCount": 5500,
-  "skippedCount": 1981,
+  "generatedAt": "2026-07-29T11:49:32.870342Z",
+  "count": 11082,
+  "stockCount": 5586,
+  "etfCount": 5496,
+  "skippedCount": 1983,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -1090,24 +1090,6 @@
       "sourceSymbol": "ABNB",
       "stooqSymbol": "abnb.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ABNG",
-      "name": "Leverage Shares 2x Long ABNB Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2x Long ABNB Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ABNG",
-      "stooqSymbol": "abng.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -15079,24 +15061,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "AXPG",
-      "name": "Leverage Shares 2x Long AXP Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2x Long AXP Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AXPG",
-      "stooqSymbol": "axpg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "AXR",
       "name": "AMREP Corporation Common Stock",
       "type": "us_stock",
@@ -19831,6 +19795,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BGUS",
+      "name": "Baillie Gifford U.S. Equity Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Baillie Gifford U.S. Equity Growth ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BGUS",
+      "stooqSymbol": "bgus.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BGX",
       "name": "Blackstone Long Short Credit Income Fund Common Shares",
       "type": "us_stock",
@@ -22816,6 +22798,24 @@
       "sourceSymbol": "BNAI",
       "stooqSymbol": "bnai.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BNAV",
+      "name": "Amplify Fairlead Tactical Bitcoin ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Amplify Fairlead Tactical Bitcoin ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BNAV",
+      "stooqSymbol": "bnav.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -35491,24 +35491,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CMGG",
-      "name": "Leverage Shares 2X Long CMG Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long CMG Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CMGG",
-      "stooqSymbol": "cmgg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CMI",
       "name": "Cummins Inc. Common Stock",
       "type": "us_stock",
@@ -35830,24 +35812,6 @@
       "sourceSymbol": "CNC",
       "stooqSymbol": "cnc.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CNCG",
-      "name": "Leverage Shares 2X Long CNC Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long CNC Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CNCG",
-      "stooqSymbol": "cncg.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -39649,6 +39613,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CRTO",
+      "name": "Criteo S.A. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Criteo S.A. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CRTO",
+      "stooqSymbol": "crto.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CRUC",
       "name": "Corgi CRUS 2x Daily ETF",
       "type": "us_etf",
@@ -42525,24 +42507,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CZA",
       "stooqSymbol": "cza.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CZAR",
-      "name": "Themes Natural Monopoly ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Themes Natural Monopoly ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CZAR",
-      "stooqSymbol": "czar.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -47890,24 +47854,6 @@
       "sourceSymbol": "DNN",
       "stooqSymbol": "dnn.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DNNG",
-      "name": "Leverage Shares 2x Long DNN Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2x Long DNN Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DNNG",
-      "stooqSymbol": "dnng.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -76315,6 +76261,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GOIB",
+      "name": "Direxion GOOGL Defined Income Boost ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion GOOGL Defined Income Boost ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GOIB",
+      "stooqSymbol": "goib.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GOLD",
       "name": "Gold.com, Inc. Common Stock",
       "type": "us_stock",
@@ -84523,24 +84487,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "HWAY",
-      "name": "Themes US Infrastructure ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Themes US Infrastructure ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HWAY",
-      "stooqSymbol": "hway.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "HWBK",
       "name": "Hawthorn Bancshares, Inc. - Common Stock",
       "type": "us_stock",
@@ -90031,6 +89977,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "IMC",
+      "name": "IMC Rare Earths Ltd Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "IMC Rare Earths Ltd Ordinary Shares"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IMC",
+      "stooqSymbol": "imc.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "IMCB",
       "name": "iShares Morningstar Mid-Cap ETF",
       "type": "us_etf",
@@ -92062,6 +92026,24 @@
       "sourceSymbol": "IONC",
       "stooqSymbol": "ionc.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IOND",
+      "name": "Ionic Digital Inc. - Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Ionic Digital Inc. - Class A Common Stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IOND",
+      "stooqSymbol": "iond.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -103459,24 +103441,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "LACG",
-      "name": "Leverage Shares 2X Long LAC Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long LAC Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LACG",
-      "stooqSymbol": "lacg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "LAD",
       "name": "Lithia Motors, Inc. Common Stock",
       "type": "us_stock",
@@ -112027,6 +111991,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MEIB",
+      "name": "Direxion META Defined Income Boost ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion META Defined Income Boost ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MEIB",
+      "stooqSymbol": "meib.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MELI",
       "name": "MercadoLibre, Inc. - Common Stock",
       "type": "us_stock",
@@ -112910,14 +112892,14 @@
     },
     {
       "symbol": "MGC",
-      "name": "Vanguard Mega Cap ETF",
+      "name": "Vanguard Morningstar Mega Cap ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Vanguard Mega Cap ETF"
+        "Vanguard Morningstar Mega Cap ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -112982,14 +112964,14 @@
     },
     {
       "symbol": "MGK",
-      "name": "Vanguard Mega Cap Growth ETF",
+      "name": "Vanguard Morningstar Mega Cap Growth ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Vanguard Mega Cap Growth ETF"
+        "Vanguard Morningstar Mega Cap Growth ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -113252,14 +113234,14 @@
     },
     {
       "symbol": "MGV",
-      "name": "Vanguard Mega Cap Value ETF",
+      "name": "Vanguard Morningstar Mega Cap Value ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Vanguard Mega Cap Value ETF"
+        "Vanguard Morningstar Mega Cap Value ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -118198,6 +118180,24 @@
       "sourceSymbol": "MUFG",
       "stooqSymbol": "mufg.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MUIB",
+      "name": "Direxion MU Defined Income Boost ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion MU Defined Income Boost ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MUIB",
+      "stooqSymbol": "muib.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -126247,6 +126247,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NVIB",
+      "name": "Direxion NVDA Defined Income Boost ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion NVDA Defined Income Boost ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NVIB",
+      "stooqSymbol": "nvib.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NVII",
       "name": "REX NVDA Growth & Income ETF",
       "type": "us_etf",
@@ -130837,24 +130855,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ORLG",
-      "name": "Leverage Shares 2X Long ORLY Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long ORLY Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ORLG",
-      "stooqSymbol": "orlg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ORLY",
       "name": "O'Reilly Automotive, Inc. - Common Stock",
       "type": "us_stock",
@@ -130978,24 +130978,6 @@
       "sourceSymbol": "OSBC",
       "stooqSymbol": "osbc.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "OSCG",
-      "name": "Leverage Shares 2X Long OSCR Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long OSCR Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "OSCG",
-      "stooqSymbol": "oscg.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -137152,6 +137134,24 @@
       "sourceSymbol": "PLGO",
       "stooqSymbol": "plgo.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PLIB",
+      "name": "Direxion PLTR Defined Income Boost ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion PLTR Defined Income Boost ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PLIB",
+      "stooqSymbol": "plib.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -154737,24 +154737,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SBTU",
       "stooqSymbol": "sbtu.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SBU",
-      "name": "Leverage Shares 2X Long SBUX Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long SBUX Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SBU",
-      "stooqSymbol": "sbu.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -177187,6 +177169,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TSIB",
+      "name": "Direxion TSLA Defined Income Boost ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion TSLA Defined Income Boost ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TSIB",
+      "stooqSymbol": "tsib.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TSIC",
       "name": "Truth Social American Icons ETF",
       "type": "us_etf",
@@ -181615,24 +181615,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "UPSG",
-      "name": "Leverage Shares 2X Long UPS Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long UPS Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "UPSG",
-      "stooqSymbol": "upsg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "UPST",
       "name": "Upstart Holdings, Inc. - Common stock",
       "type": "us_stock",
@@ -182857,24 +182839,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "USRD",
-      "name": "Themes US R&D Champions ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Themes US R&D Champions ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "USRD",
-      "stooqSymbol": "usrd.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "USRT",
       "name": "iShares Core U.S. REIT ETF",
       "type": "us_etf",
@@ -183974,14 +183938,14 @@
     },
     {
       "symbol": "VB",
-      "name": "Vanguard Small-Cap ETF",
+      "name": "Vanguard Morningstar Small-Cap ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Vanguard Small-Cap ETF"
+        "Vanguard Morningstar Small-Cap ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -184226,14 +184190,14 @@
     },
     {
       "symbol": "VBK",
-      "name": "Vanguard Small-Cap Growth ETF",
+      "name": "Vanguard Morningstar Small-Cap Growth ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Vanguard Small-Cap Growth ETF"
+        "Vanguard Morningstar Small-Cap Growth ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -184298,14 +184262,14 @@
     },
     {
       "symbol": "VBR",
-      "name": "Vanguard Small-Cap Value ETF",
+      "name": "Vanguard Morningstar Small-Cap Value ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Vanguard Small-Cap Value ETF"
+        "Vanguard Morningstar Small-Cap Value ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -186944,14 +186908,14 @@
     },
     {
       "symbol": "VO",
-      "name": "Vanguard Mid-Cap ETF",
+      "name": "Vanguard Morningstar Mid-Cap ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Vanguard Mid-Cap ETF"
+        "Vanguard Morningstar Mid-Cap ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -186962,14 +186926,14 @@
     },
     {
       "symbol": "VOE",
-      "name": "Vanguard Mid-Cap Value ETF",
+      "name": "Vanguard Morningstar Mid-Cap Value ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Vanguard Mid-Cap Value ETF"
+        "Vanguard Morningstar Mid-Cap Value ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -187142,14 +187106,14 @@
     },
     {
       "symbol": "VOT",
-      "name": "Vanguard Mid-Cap Growth ETF",
+      "name": "Vanguard Morningstar Mid-Cap Growth ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Vanguard Mid-Cap Growth ETF"
+        "Vanguard Morningstar Mid-Cap Growth ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -188330,14 +188294,14 @@
     },
     {
       "symbol": "VTI",
-      "name": "Vanguard Total Stock Market ETF",
+      "name": "Vanguard Morningstar Total Stock Market ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Vanguard Total Stock Market ETF"
+        "Vanguard Morningstar Total Stock Market ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -188510,14 +188474,14 @@
     },
     {
       "symbol": "VTV",
-      "name": "Vanguard Value ETF",
+      "name": "Vanguard Morningstar Value ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Vanguard Value ETF"
+        "Vanguard Morningstar Value ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -188600,14 +188564,14 @@
     },
     {
       "symbol": "VUG",
-      "name": "Vanguard Growth ETF",
+      "name": "Vanguard Morningstar Growth ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Vanguard Growth ETF"
+        "Vanguard Morningstar Growth ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -188744,14 +188708,14 @@
     },
     {
       "symbol": "VV",
-      "name": "Vanguard Large-Cap ETF",
+      "name": "Vanguard Morningstar Large-Cap ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Vanguard Large-Cap ETF"
+        "Vanguard Morningstar Large-Cap ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -192016,6 +191980,24 @@
       "sourceSymbol": "WSM",
       "stooqSymbol": "wsm.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WSMD",
+      "name": "Wasatch Small/Mid Cap ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Wasatch Small/Mid Cap ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WSMD",
+      "stooqSymbol": "wsmd.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
