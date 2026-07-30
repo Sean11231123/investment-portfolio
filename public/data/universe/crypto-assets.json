@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-07-29T12:21:21.640940Z",
+  "generatedAt": "2026-07-30T12:04:22.673881Z",
   "count": 470,
   "binanceCount": 470,
-  "coingeckoMatchedCount": 289,
-  "ambiguousCount": 160,
-  "skippedCount": 3199,
+  "coingeckoMatchedCount": 286,
+  "ambiguousCount": 163,
+  "skippedCount": 3200,
   "assets": [
     {
       "symbol": "0G",
@@ -2051,20 +2051,19 @@
     },
     {
       "symbol": "CVX",
-      "name": "Convex Finance",
+      "name": "CVX",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
-        "Convex Finance"
+        "CVX"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "CVXUSDT",
       "binanceSymbol": "CVXUSDT",
-      "coingeckoId": "convex-finance",
       "dataQuality": "generated"
     },
     {
@@ -2179,7 +2178,7 @@
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
         "DIA"
       ],
@@ -2187,7 +2186,6 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "DIAUSDT",
       "binanceSymbol": "DIAUSDT",
-      "coingeckoId": "dia-data",
       "dataQuality": "generated"
     },
     {
@@ -6867,20 +6865,19 @@
     },
     {
       "symbol": "STRK",
-      "name": "Starknet",
+      "name": "STRK",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
-        "Starknet"
+        "STRK"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "STRKUSDT",
       "binanceSymbol": "STRKUSDT",
-      "coingeckoId": "starknet",
       "dataQuality": "generated"
     },
     {
