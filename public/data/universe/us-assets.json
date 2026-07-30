@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-29T11:49:32.870342Z",
-  "count": 11082,
-  "stockCount": 5586,
-  "etfCount": 5496,
-  "skippedCount": 1983,
+  "generatedAt": "2026-07-30T11:33:37.296582Z",
+  "count": 11087,
+  "stockCount": 5588,
+  "etfCount": 5499,
+  "skippedCount": 1982,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -10543,6 +10543,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ARCP",
+      "name": "Aristotle Core Plus Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Aristotle Core Plus Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ARCP",
+      "stooqSymbol": "arcp.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ARCT",
       "name": "Arcturus Therapeutics Holdings Inc. - Common Stock",
       "type": "us_stock",
@@ -11170,6 +11188,24 @@
       "sourceSymbol": "ARMP",
       "stooqSymbol": "armp.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ARMS",
+      "name": "Aristotle Multi-Sector Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Aristotle Multi-Sector Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ARMS",
+      "stooqSymbol": "arms.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -97753,6 +97789,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "JMKE",
+      "name": "Jersey Mike's Subs Inc. Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Jersey Mike's Subs Inc. Class A Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JMKE",
+      "stooqSymbol": "jmke.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "JMM",
       "name": "Nuveen Multi-Market Income Fund (MA)",
       "type": "us_stock",
@@ -147937,6 +147991,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "REF",
+      "name": "Reformation Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Reformation Inc. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "REF",
+      "stooqSymbol": "ref.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "REFA",
       "name": "Columbia Research Enhanced International Equity ETF",
       "type": "us_etf",
@@ -156339,6 +156411,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SDTY",
       "stooqSymbol": "sdty.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SDUR",
+      "name": "Aristotle Short Term Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Aristotle Short Term Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SDUR",
+      "stooqSymbol": "sdur.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -178538,14 +178628,14 @@
     },
     {
       "symbol": "TVGN",
-      "name": "Tevogen Bio Holdings Inc. - Common Stock",
+      "name": "Tevogen Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Tevogen Bio Holdings Inc."
+        "Tevogen Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
