@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-07-30T12:04:22.673881Z",
-  "count": 470,
-  "binanceCount": 470,
-  "coingeckoMatchedCount": 286,
+  "generatedAt": "2026-07-31T12:17:53.245744Z",
+  "count": 469,
+  "binanceCount": 469,
+  "coingeckoMatchedCount": 295,
   "ambiguousCount": 163,
-  "skippedCount": 3200,
+  "skippedCount": 3201,
   "assets": [
     {
       "symbol": "0G",
@@ -155,19 +155,20 @@
     },
     {
       "symbol": "AAPLB",
-      "name": "AAPLB",
+      "name": "Apple (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "AAPLB"
+        "Apple (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "AAPLBUSDT",
       "binanceSymbol": "AAPLBUSDT",
+      "coingeckoId": "apple-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -326,24 +327,6 @@
       "sourceSymbol": "AEROUSDT",
       "binanceSymbol": "AEROUSDT",
       "coingeckoId": "aerodrome-finance",
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "AEUR",
-      "name": "Anchored Coins AEUR",
-      "type": "crypto",
-      "market": "CRYPTO",
-      "currency": "USDT",
-      "unitLabel": "顆",
-      "priceSource": "coingecko",
-      "aliases": [
-        "Anchored Coins AEUR"
-      ],
-      "exchange": "BINANCE",
-      "source": "binance-exchangeinfo",
-      "sourceSymbol": "AEURUSDT",
-      "binanceSymbol": "AEURUSDT",
-      "coingeckoId": "anchored-coins-eur",
       "dataQuality": "generated"
     },
     {
@@ -523,19 +506,20 @@
     },
     {
       "symbol": "AMATB",
-      "name": "AMATB",
+      "name": "Applied Materials (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "AMATB"
+        "Applied Materials (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "AMATBUSDT",
       "binanceSymbol": "AMATBUSDT",
+      "coingeckoId": "applied-materials-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -575,19 +559,20 @@
     },
     {
       "symbol": "AMZNB",
-      "name": "AMZNB",
+      "name": "Amazon (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "AMZNB"
+        "Amazon (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "AMZNBUSDT",
       "binanceSymbol": "AMZNBUSDT",
+      "coingeckoId": "amazon-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -1277,19 +1262,20 @@
     },
     {
       "symbol": "BEB",
-      "name": "BEB",
+      "name": "Bloom Energy (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "BEB"
+        "Bloom Energy (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "BEBUSDT",
       "binanceSymbol": "BEBUSDT",
+      "coingeckoId": "bloom-energy-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -2120,19 +2106,20 @@
     },
     {
       "symbol": "DELLB",
-      "name": "DELLB",
+      "name": "Dell (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "DELLB"
+        "Dell (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "DELLBUSDT",
       "binanceSymbol": "DELLBUSDT",
+      "coingeckoId": "dell-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -2753,19 +2740,20 @@
     },
     {
       "symbol": "FLNCB",
-      "name": "FLNCB",
+      "name": "Fluence Energy (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "FLNCB"
+        "Fluence Energy (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "FLNCBUSDT",
       "binanceSymbol": "FLNCBUSDT",
+      "coingeckoId": "fluence-energy-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -3158,19 +3146,20 @@
     },
     {
       "symbol": "GSB",
-      "name": "GSB",
+      "name": "Goldman Sachs (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "GSB"
+        "Goldman Sachs (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "GSBUSDT",
       "binanceSymbol": "GSBUSDT",
+      "coingeckoId": "goldman-sachs-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -5643,19 +5632,20 @@
     },
     {
       "symbol": "PYPLB",
-      "name": "PYPLB",
+      "name": "Paypal (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "PYPLB"
+        "Paypal (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "PYPLBUSDT",
       "binanceSymbol": "PYPLBUSDT",
+      "coingeckoId": "paypal-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -6509,19 +6499,20 @@
     },
     {
       "symbol": "SMHB",
-      "name": "SMHB",
+      "name": "VanEck Semiconductor ETF (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "SMHB"
+        "VanEck Semiconductor ETF (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "SMHBUSDT",
       "binanceSymbol": "SMHBUSDT",
+      "coingeckoId": "vaneck-semiconductor-etf-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -6669,19 +6660,20 @@
     },
     {
       "symbol": "SOXSB",
-      "name": "SOXSB",
+      "name": "Direxion Semiconductor Bear 3X ETF (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "SOXSB"
+        "Direxion Semiconductor Bear 3X ETF (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "SOXSBUSDT",
       "binanceSymbol": "SOXSBUSDT",
+      "coingeckoId": "direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
