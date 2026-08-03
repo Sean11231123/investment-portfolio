@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-07-31T11:48:45.851146Z",
-  "count": 11087,
-  "stockCount": 5588,
-  "etfCount": 5499,
-  "skippedCount": 1982,
+  "generatedAt": "2026-08-03T12:44:58.555227Z",
+  "count": 11086,
+  "stockCount": 5589,
+  "etfCount": 5497,
+  "skippedCount": 1990,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -3627,24 +3627,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AFB",
       "stooqSymbol": "afb.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "AFBI",
-      "name": "Affinity Bancshares, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Affinity Bancshares, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AFBI",
-      "stooqSymbol": "afbi.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -9657,6 +9639,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "APMC",
       "stooqSymbol": "apmc.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "APMD",
+      "name": "Apnimed, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Apnimed, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "APMD",
+      "stooqSymbol": "apmd.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -17506,6 +17506,24 @@
       "sourceSymbol": "BCCC",
       "stooqSymbol": "bccc.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BCCQ",
+      "name": "Bleichroeder Acquisition Corp. III - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Bleichroeder Acquisition Corp. III - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BCCQ",
+      "stooqSymbol": "bccq.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -30397,6 +30415,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CCCT",
+      "name": "Columbus Circle Capital Corp III - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Columbus Circle Capital Corp III - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CCCT",
+      "stooqSymbol": "ccct.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CCD",
       "name": "Calamos Dynamic Convertible & Income Fund - Closed End Fund",
       "type": "us_stock",
@@ -36225,6 +36261,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CNSP",
       "stooqSymbol": "cnsp.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CNSY",
+      "name": "Cerenome, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Cerenome, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CNSY",
+      "stooqSymbol": "cnsy.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -43825,6 +43879,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DDFG",
+      "name": "Innovator Equity Dual Directional 15 Buffer ETF - August",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Innovator Equity Dual Directional 15 Buffer ETF - August"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DDFG",
+      "stooqSymbol": "ddfg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DDFJ",
       "name": "Innovator Equity Dual Directional 15 Buffer ETF - January",
       "type": "us_etf",
@@ -44181,6 +44253,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DDTF",
       "stooqSymbol": "ddtf.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DDTG",
+      "name": "Innovator Equity Dual Directional 10 Buffer ETF - August",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Innovator Equity Dual Directional 10 Buffer ETF - August"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DDTG",
+      "stooqSymbol": "ddtg.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -54315,24 +54405,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ELS",
       "stooqSymbol": "els.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ELSE",
-      "name": "Electro-Sensors, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Electro-Sensors, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ELSE",
-      "stooqSymbol": "else.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -70699,6 +70771,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FWAC",
+      "name": "Futurewave Acquisition Corporation - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Futurewave Acquisition Corporation - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FWAC",
+      "stooqSymbol": "fwac.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FWD",
       "name": "AB Disruptors ETF",
       "type": "us_etf",
@@ -73162,24 +73252,6 @@
       "sourceSymbol": "GEO",
       "stooqSymbol": "geo.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "GEOA",
-      "name": "WisdomTree GeoAlpha Opportunities Fund",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "WisdomTree GeoAlpha Opportunities Fund"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GEOA",
-      "stooqSymbol": "geoa.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -87475,24 +87547,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ICOI",
-      "name": "Bitwise COIN Option Income Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bitwise COIN Option Income Strategy ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ICOI",
-      "stooqSymbol": "icoi.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ICON",
       "name": "Icon Energy Corp. - Common stock",
       "type": "us_stock",
@@ -87579,24 +87633,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ICPY",
       "stooqSymbol": "icpy.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ICRC",
-      "name": "Bitwise CRCL Option Income Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bitwise CRCL Option Income Strategy ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ICRC",
-      "stooqSymbol": "icrc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -88429,24 +88465,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "IETH",
-      "name": "Bitwise Ethereum Option Income Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bitwise Ethereum Option Income Strategy ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IETH",
-      "stooqSymbol": "ieth.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "IEUR",
       "name": "iShares Core MSCI Europe ETF",
       "type": "us_etf",
@@ -89073,24 +89091,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IGM",
       "stooqSymbol": "igm.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "IGME",
-      "name": "Bitwise GME Option Income Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bitwise GME Option Income Strategy ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IGME",
-      "stooqSymbol": "igme.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -90319,24 +90319,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "IMRA",
-      "name": "Bitwise MARA Option Income Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bitwise MARA Option Income Strategy ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IMRA",
-      "stooqSymbol": "imra.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "IMRX",
       "name": "Immuneering Corporation - Class A Common Stock",
       "type": "us_stock",
@@ -90370,24 +90352,6 @@
       "sourceSymbol": "IMSR",
       "stooqSymbol": "imsr.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "IMST",
-      "name": "Bitwise MSTR Option Income Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bitwise MSTR Option Income Strategy ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IMST",
-      "stooqSymbol": "imst.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -97753,6 +97717,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "JLVP",
+      "name": "JPMorgan U.S. Large Cap Value Plus ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "JPMorgan U.S. Large Cap Value Plus ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JLVP",
+      "stooqSymbol": "jlvp.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "JMBS",
       "name": "Janus Henderson Mortgage-Backed Securities ETF",
       "type": "us_etf",
@@ -100346,14 +100328,14 @@
     },
     {
       "symbol": "KEMQ",
-      "name": "KraneShares Emerging Markets Consumer Technology Index ETF",
+      "name": "KraneShares Public-Private Emerging Markets Internet and Technology ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "KraneShares Emerging Markets Consumer Technology Index ETF"
+        "KraneShares Public-Private Emerging Markets Internet and Technology ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -103023,24 +103005,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "KUST",
       "stooqSymbol": "kust.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "KVAC",
-      "name": "Keen Vision Acquisition Corporation - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Keen Vision Acquisition Corporation - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KVAC",
-      "stooqSymbol": "kvac.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -120973,6 +120937,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NCO",
+      "name": "Southern Cross Acquisition I Corp. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Southern Cross Acquisition I Corp. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NCO",
+      "stooqSymbol": "nco.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NCPB",
       "name": "Nuveen Core Plus Bond ETF",
       "type": "us_etf",
@@ -127957,6 +127939,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "OCAC",
+      "name": "Ocean Capital Acquisition Corporation Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Ocean Capital Acquisition Corporation Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OCAC",
+      "stooqSymbol": "ocac.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "OCC",
       "name": "Optical Cable Corporation - Common Stock",
       "type": "us_stock",
@@ -130401,6 +130401,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "OPPE",
       "stooqSymbol": "oppe.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OPPG",
+      "name": "WisdomTree GeoAlpha Opportunities Fund",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "WisdomTree GeoAlpha Opportunities Fund"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OPPG",
+      "stooqSymbol": "oppg.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -136742,14 +136760,14 @@
     },
     {
       "symbol": "PJIO",
-      "name": "PGIM Jennison International Opportunities ETF",
+      "name": "PGIM Jennison Focused International Equity ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "PGIM Jennison International Opportunities ETF"
+        "PGIM Jennison Focused International Equity ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -141382,24 +141400,6 @@
       "sourceSymbol": "PSTR",
       "stooqSymbol": "pstr.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PSTV",
-      "name": "PLUS THERAPEUTICS, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "PLUS THERAPEUTICS, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PSTV",
-      "stooqSymbol": "pstv.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -149841,6 +149841,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "RIZE",
       "stooqSymbol": "rize.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RJCA",
+      "name": "RJ ClariVest Capital Appreciation ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "RJ ClariVest Capital Appreciation ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RJCA",
+      "stooqSymbol": "rjca.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -160083,24 +160101,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SKYQ",
       "stooqSymbol": "skyq.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SKYT",
-      "name": "SkyWater Technology, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "SkyWater Technology, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SKYT",
-      "stooqSymbol": "skyt.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -178875,24 +178875,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TWN",
       "stooqSymbol": "twn.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TWO",
-      "name": "Two Harbors Investment Corp",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Two Harbors Investment Corp"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TWO",
-      "stooqSymbol": "two.us",
       "isETF": false,
       "dataQuality": "generated"
     },
