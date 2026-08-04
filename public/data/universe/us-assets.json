@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-03T12:44:58.555227Z",
-  "count": 11086,
-  "stockCount": 5589,
-  "etfCount": 5497,
-  "skippedCount": 1990,
+  "generatedAt": "2026-08-04T11:49:20.310957Z",
+  "count": 11100,
+  "stockCount": 5590,
+  "etfCount": 5510,
+  "skippedCount": 1989,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -2763,6 +2763,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ADI",
       "stooqSymbol": "adi.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ADIG",
+      "name": "ADI Global Distribution Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ADI Global Distribution Inc. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ADIG",
+      "stooqSymbol": "adig.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -13276,6 +13294,24 @@
       "sourceSymbol": "AUDC",
       "stooqSymbol": "audc.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AUGC",
+      "name": "Corgi U.S. Equities 10% Structured Buffer ETF - August Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 10% Structured Buffer ETF - August Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AUGC",
+      "stooqSymbol": "augc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -29479,6 +29515,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CAUG",
+      "name": "Corgi U.S. Equities 15% Structured Buffer ETF - August Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 15% Structured Buffer ETF - August Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CAUG",
+      "stooqSymbol": "caug.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CAVA",
       "name": "CAVA Group, Inc. Common Stock",
       "type": "us_stock",
@@ -33040,6 +33094,24 @@
       "sourceSymbol": "CHD",
       "stooqSymbol": "chd.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CHDG",
+      "name": "Calamos Active Hedged Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Calamos Active Hedged Equity ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CHDG",
+      "stooqSymbol": "chdg.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -40672,6 +40744,24 @@
       "sourceSymbol": "CTAS",
       "stooqSymbol": "ctas.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CTAU",
+      "name": "Corgi U.S. Equities 30% Structured Buffer ETF - August Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 30% Structured Buffer ETF - August Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CTAU",
+      "stooqSymbol": "ctau.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -54589,6 +54679,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "EMAU",
+      "name": "Corgi Emerging Markets Equities 15% Structured Buffer ETF - August Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Emerging Markets Equities 15% Structured Buffer ETF - August Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EMAU",
+      "stooqSymbol": "emau.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "EMB",
       "name": "iShares J.P. Morgan USD Emerging Markets Bond ETF",
       "type": "us_etf",
@@ -64899,6 +65007,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FIYY",
       "stooqSymbol": "fiyy.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FIZY",
+      "name": "Fitz-Gerald Must Have Portfolio and Options Overlay ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Fitz-Gerald Must Have Portfolio and Options Overlay ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FIZY",
+      "stooqSymbol": "fizy.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -80041,6 +80167,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HAUG",
+      "name": "Corgi U.S. Equities 100% Structured Buffer ETF - August Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 100% Structured Buffer ETF - August Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HAUG",
+      "stooqSymbol": "haug.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HAUS",
       "name": "Residential REIT ETF",
       "type": "us_etf",
@@ -87760,6 +87904,24 @@
       "sourceSymbol": "IDAI",
       "stooqSymbol": "idai.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IDAU",
+      "name": "Corgi International Developed Equities 15% Structured Buffer ETF - August Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi International Developed Equities 15% Structured Buffer ETF - August Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IDAU",
+      "stooqSymbol": "idau.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -108226,24 +108388,6 @@
       "sourceSymbol": "LSGR",
       "stooqSymbol": "lsgr.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "LSH",
-      "name": "Lakeside Holding Limited - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Lakeside Holding Limited"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LSH",
-      "stooqSymbol": "lsh.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -142969,6 +143113,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "QAU",
+      "name": "Corgi Growth & Technology 10% Structured Buffer ETF - August Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Growth & Technology 10% Structured Buffer ETF - August Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QAU",
+      "stooqSymbol": "qau.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "QB",
       "name": "ProShares Nasdaq-100 Dynamic Buffer ETF",
       "type": "us_etf",
@@ -144535,6 +144697,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "QNME",
+      "name": "Quanome Technologies, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Quanome Technologies, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QNME",
+      "stooqSymbol": "qnme.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "QNST",
       "name": "QuinStreet, Inc. - Common Stock",
       "type": "us_stock",
@@ -144693,6 +144873,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "QQA",
       "stooqSymbol": "qqa.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QQAU",
+      "name": "Corgi Growth & Technology 15% Structured Buffer ETF - August Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Growth & Technology 15% Structured Buffer ETF - August Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QQAU",
+      "stooqSymbol": "qqau.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -152942,14 +153140,14 @@
     },
     {
       "symbol": "RVNU",
-      "name": "Xtrackers Municipal Infrastructure Revenue Bond ETF",
+      "name": "Xtrackers Municipal Infrastructure Revenue Bond Active ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Xtrackers Municipal Infrastructure Revenue Bond ETF"
+        "Xtrackers Municipal Infrastructure Revenue Bond Active ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -154917,6 +155115,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SCAP",
       "stooqSymbol": "scap.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SCAU",
+      "name": "Corgi U.S. Small-Cap 15% Structured Buffer ETF - August Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Small-Cap 15% Structured Buffer ETF - August Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SCAU",
+      "stooqSymbol": "scau.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -161383,6 +161599,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SMHD",
+      "name": "MicroSectors -3x Short Semiconductor ETNs",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors -3x Short Semiconductor ETNs"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SMHD",
+      "stooqSymbol": "smhd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SMHI",
       "name": "SEACOR Marine Holdings Inc. Common Stock",
       "type": "us_stock",
@@ -161398,6 +161632,24 @@
       "sourceSymbol": "SMHI",
       "stooqSymbol": "smhi.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SMHU",
+      "name": "MicroSectors 3x Long Semiconductor ETNs",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors 3x Long Semiconductor ETNs"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SMHU",
+      "stooqSymbol": "smhu.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -167193,6 +167445,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "STLD",
       "stooqSymbol": "stld.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "STLN",
+      "name": "Starling Oncology Institute, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Starling Oncology Institute, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "STLN",
+      "stooqSymbol": "stln.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -174991,24 +175261,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TOI",
-      "name": "The Oncology Institute, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "The Oncology Institute, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TOI",
-      "stooqSymbol": "toi.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TOK",
       "name": "iShares MSCI Kokusai ETF",
       "type": "us_etf",
@@ -178875,6 +179127,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TWN",
       "stooqSymbol": "twn.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TWO",
+      "name": "Two Harbors Investment Corp",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Two Harbors Investment Corp"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TWO",
+      "stooqSymbol": "two.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -197811,24 +198081,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "YOU",
       "stooqSymbol": "you.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "YPF",
-      "name": "YPF Sociedad Anonima Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "YPF Sociedad Anonima Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "YPF",
-      "stooqSymbol": "ypf.us",
       "isETF": false,
       "dataQuality": "generated"
     },
