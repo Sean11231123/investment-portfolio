@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-04T11:49:20.310957Z",
-  "count": 11100,
-  "stockCount": 5590,
-  "etfCount": 5510,
-  "skippedCount": 1989,
+  "generatedAt": "2026-08-05T11:45:35.082626Z",
+  "count": 11102,
+  "stockCount": 5591,
+  "etfCount": 5511,
+  "skippedCount": 1993,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -51349,24 +51349,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "EA",
-      "name": "Electronic Arts Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Electronic Arts Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EA",
-      "stooqSymbol": "ea.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "EAD",
       "name": "Allspring Income Opportunities Fund Common Shares",
       "type": "us_stock",
@@ -62326,6 +62308,24 @@
       "sourceSymbol": "FDM",
       "stooqSymbol": "fdm.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FDMM",
+      "name": "Freedom Metals Acquisition Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Freedom Metals Acquisition Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FDMM",
+      "stooqSymbol": "fdmm.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -100543,6 +100543,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "KEO",
+      "name": "Kurv Equity Option Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Kurv Equity Option Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KEO",
+      "stooqSymbol": "keo.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "KEP",
       "name": "Korea Electric Power Corporation Common Stock",
       "type": "us_stock",
@@ -128062,6 +128080,24 @@
       "sourceSymbol": "OBTC",
       "stooqSymbol": "obtc.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OBX",
+      "name": "Obsidian Therapeutics, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Obsidian Therapeutics, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OBX",
+      "stooqSymbol": "obx.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -167450,14 +167486,14 @@
     },
     {
       "symbol": "STLN",
-      "name": "Starling Oncology Institute, Inc. - Common Stock",
+      "name": "Starling Oncology, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Starling Oncology Institute, Inc."
+        "Starling Oncology, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
