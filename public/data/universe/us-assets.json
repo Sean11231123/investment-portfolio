@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-05T11:45:35.082626Z",
-  "count": 11102,
-  "stockCount": 5591,
-  "etfCount": 5511,
-  "skippedCount": 1993,
+  "generatedAt": "2026-08-06T11:51:26.542703Z",
+  "count": 11110,
+  "stockCount": 5593,
+  "etfCount": 5517,
+  "skippedCount": 1994,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -5913,6 +5913,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AKAF",
       "stooqSymbol": "akaf.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AKAL",
+      "name": "T-REX 2X Long AKAM Daily Target ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T-REX 2X Long AKAM Daily Target ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AKAL",
+      "stooqSymbol": "akal.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -13131,6 +13149,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ATS",
       "stooqSymbol": "ats.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ATTO",
+      "name": "Attovia Therapeutics, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Attovia Therapeutics, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ATTO",
+      "stooqSymbol": "atto.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -47422,6 +47458,24 @@
       "sourceSymbol": "DLB",
       "stooqSymbol": "dlb.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DLCU",
+      "name": "U.S. Large Company Portfolio: ETF Class Shares",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "U.S. Large Company Portfolio: ETF Class Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DLCU",
+      "stooqSymbol": "dlcu.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -95899,6 +95953,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "JAB",
+      "name": "JAB Acquisition Corp I - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "JAB Acquisition Corp I - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JAB",
+      "stooqSymbol": "jab.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "JABS",
       "name": "Janus Henderson Asset-Backed Securities ETF",
       "type": "us_etf",
@@ -107293,6 +107365,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LOFD",
+      "name": "Direxion Daily SpaceX Bear 2X ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion Daily SpaceX Bear 2X ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LOFD",
+      "stooqSymbol": "lofd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LOFF",
       "name": "Direxion Daily SpaceX Bull 2X ETF",
       "type": "us_etf",
@@ -109323,6 +109413,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LYLD",
       "stooqSymbol": "lyld.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LYTE",
+      "name": "Roundhill Photonics & Optics ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Roundhill Photonics & Optics ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LYTE",
+      "stooqSymbol": "lyte.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -128263,6 +128371,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "OCNL",
+      "name": "T-REX 2X Long DOCN Daily Target ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T-REX 2X Long DOCN Daily Target ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OCNL",
+      "stooqSymbol": "ocnl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "OCS",
       "name": "Oculis Holding AG - Ordinary shares",
       "type": "us_stock",
@@ -135262,6 +135388,24 @@
       "sourceSymbol": "PENN",
       "stooqSymbol": "penn.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PENU",
+      "name": "T-REX 2X Long PENG Daily Target ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T-REX 2X Long PENG Daily Target ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PENU",
+      "stooqSymbol": "penu.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -170743,6 +170887,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TCGX",
+      "name": "TCGX Acquisition Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "TCGX Acquisition Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TCGX",
+      "stooqSymbol": "tcgx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TCHI",
       "name": "iShares MSCI China Multisector Tech ETF",
       "type": "us_etf",
@@ -188181,24 +188343,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VSEC",
       "stooqSymbol": "vsec.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "VSEE",
-      "name": "VSee Health, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "VSee Health, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VSEE",
-      "stooqSymbol": "vsee.us",
       "isETF": false,
       "dataQuality": "generated"
     },
