@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-06T11:51:26.542703Z",
-  "count": 11110,
-  "stockCount": 5593,
-  "etfCount": 5517,
-  "skippedCount": 1994,
+  "generatedAt": "2026-08-07T10:36:04.202119Z",
+  "count": 11115,
+  "stockCount": 5596,
+  "etfCount": 5519,
+  "skippedCount": 1993,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -8722,6 +8722,24 @@
       "sourceSymbol": "ANGO",
       "stooqSymbol": "ango.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANGU",
+      "name": "SEI Ang Research Enhanced U.S. Large Cap ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "SEI Ang Research Enhanced U.S. Large Cap ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANGU",
+      "stooqSymbol": "angu.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -23395,24 +23413,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BNZI",
-      "name": "Banzai International, Inc. - Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Banzai International, Inc. - Class A Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BNZI",
-      "stooqSymbol": "bnzi.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BOAT",
       "name": "SonicShares Global Shipping ETF",
       "type": "us_etf",
@@ -25011,6 +25011,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BRUN",
       "stooqSymbol": "brun.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BRVE",
+      "name": "Braveheart Bio, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Braveheart Bio, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BRVE",
+      "stooqSymbol": "brve.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -98869,24 +98887,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "JRE",
-      "name": "Janus Henderson U.S. Real Estate ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Janus Henderson U.S. Real Estate ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "JRE",
-      "stooqSymbol": "jre.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "JRI",
       "name": "Nuveen Real Asset Income and Growth Fund Common Shares of Beneficial Interest",
       "type": "us_stock",
@@ -121135,6 +121135,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NCLD",
+      "name": "Roundhill Neocloud ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Roundhill Neocloud ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NCLD",
+      "stooqSymbol": "ncld.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NCLH",
       "name": "Norwegian Cruise Line Holdings Ltd. Ordinary Shares",
       "type": "us_stock",
@@ -132957,6 +132975,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PAR",
       "stooqSymbol": "par.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PARA",
+      "name": "Banzai International, Inc. - Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Banzai International, Inc. - Class A Common Stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PARA",
+      "stooqSymbol": "para.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -147430,6 +147466,24 @@
       "sourceSymbol": "RCAX",
       "stooqSymbol": "rcax.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RCBC",
+      "name": "River City Bank - Common stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "River City Bank - Common stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RCBC",
+      "stooqSymbol": "rcbc.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -173479,6 +173533,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TIH",
+      "name": "The Investment House ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "The Investment House ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TIH",
+      "stooqSymbol": "tih.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TII",
       "name": "Titan Mining Corporation Common Shares",
       "type": "us_stock",
@@ -175923,6 +175995,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TOYO",
       "stooqSymbol": "toyo.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TP",
+      "name": "Ticketplus Ltd. Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Ticketplus Ltd. Ordinary Shares"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TP",
+      "stooqSymbol": "tp.us",
       "isETF": false,
       "dataQuality": "generated"
     },
