@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-07T10:36:04.202119Z",
-  "count": 11115,
-  "stockCount": 5596,
-  "etfCount": 5519,
-  "skippedCount": 1993,
+  "generatedAt": "2026-08-10T10:48:20.846804Z",
+  "count": 11122,
+  "stockCount": 5598,
+  "etfCount": 5524,
+  "skippedCount": 1992,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -10828,6 +10828,24 @@
       "sourceSymbol": "ARI",
       "stooqSymbol": "ari.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ARIA",
+      "name": "ARIA Opportunities ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ARIA Opportunities ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ARIA",
+      "stooqSymbol": "aria.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -22243,6 +22261,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BLSM",
+      "name": "BlossomHill Therapeutics, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BlossomHill Therapeutics, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BLSM",
+      "stooqSymbol": "blsm.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BLST",
       "name": "Bluemonte Short Term Bond ETF",
       "type": "us_etf",
@@ -25372,6 +25408,24 @@
       "sourceSymbol": "BSCZ",
       "stooqSymbol": "bscz.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BSEM",
+      "name": "BioStem Technologies, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BioStem Technologies, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BSEM",
+      "stooqSymbol": "bsem.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -61897,24 +61951,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "FCT",
-      "name": "First Trust Senior Floating Rate Income Fund II Common Shares of Beneficial Interest",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "First Trust Senior Floating Rate Income Fund II Common Shares of Beneficial Interest"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FCT",
-      "stooqSymbol": "fct.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "FCTE",
       "name": "SMI 3Fourteen Full-Cycle Trend ETF",
       "type": "us_etf",
@@ -63837,6 +63873,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FFLV",
       "stooqSymbol": "fflv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FFLX",
+      "name": "First Trust Flexible Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "First Trust Flexible Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FFLX",
+      "stooqSymbol": "fflx.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -72499,6 +72553,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GCPB",
+      "name": "Goldman Sachs Core Plus Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Goldman Sachs Core Plus Bond ETF"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GCPB",
+      "stooqSymbol": "gcpb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GCSH",
       "name": "Guggenheim Ultra Short Income ETF",
       "type": "us_etf",
@@ -74494,6 +74566,24 @@
       "sourceSymbol": "GILT",
       "stooqSymbol": "gilt.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GINC",
+      "name": "Goldman Sachs Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Goldman Sachs Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GINC",
+      "stooqSymbol": "ginc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -108679,6 +108769,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LTGO",
+      "name": "Latigo Biotherapeutics, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Latigo Biotherapeutics, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LTGO",
+      "stooqSymbol": "ltgo.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LTGR",
       "name": "Long Table Growth Corp. - Class A Ordinary Shares",
       "type": "us_stock",
@@ -117284,14 +117392,14 @@
     },
     {
       "symbol": "MSGY",
-      "name": "Masonglory Limited - Ordinary Shares",
+      "name": "Masonglory Limited - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Masonglory Limited - Ordinary Shares"
+        "Masonglory Limited - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -136561,6 +136669,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PHOX",
+      "name": "Aura AI Photonics ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Aura AI Photonics ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PHOX",
+      "stooqSymbol": "phox.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PHR",
       "name": "Phreesia, Inc. Common Stock",
       "type": "us_stock",
@@ -146368,6 +146494,24 @@
       "sourceSymbol": "QVAL",
       "stooqSymbol": "qval.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QVCG",
+      "name": "QVC Group, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "QVC Group, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QVCG",
+      "stooqSymbol": "qvcg.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -167985,24 +168129,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "STRR",
       "stooqSymbol": "strr.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "STRS",
-      "name": "Stratus Properties Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Stratus Properties Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "STRS",
-      "stooqSymbol": "strs.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -193208,14 +193334,14 @@
     },
     {
       "symbol": "WVE",
-      "name": "Wave Life Sciences Ltd. - Ordinary Shares",
+      "name": "Wave Life Sciences, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Wave Life Sciences Ltd. - Ordinary Shares"
+        "Wave Life Sciences, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
