@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-10T10:48:20.846804Z",
-  "count": 11122,
+  "generatedAt": "2026-08-11T10:35:22.134019Z",
+  "count": 11132,
   "stockCount": 5598,
-  "etfCount": 5524,
-  "skippedCount": 1992,
+  "etfCount": 5534,
+  "skippedCount": 1993,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -36207,24 +36207,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CNK",
       "stooqSymbol": "cnk.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CNL",
-      "name": "Collective Mining Ltd. Common Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Collective Mining Ltd. Common Shares"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CNL",
-      "stooqSymbol": "cnl.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -85351,6 +85333,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HYGD",
+      "name": "MicroSectors -3x Short High Yield Corporate Bond (HYG) ETNs",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors -3x Short High Yield Corporate Bond (HYG) ETNs"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HYGD",
+      "stooqSymbol": "hygd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HYGH",
       "name": "iShares Interest Rate Hedged High Yield Bond ETF",
       "type": "us_etf",
@@ -85383,6 +85383,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "HYGM",
       "stooqSymbol": "hygm.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HYGU",
+      "name": "MicroSectors 3x Long High Yield Corporate Bond (HYG) ETNs",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors 3x Long High Yield Corporate Bond (HYG) ETNs"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HYGU",
+      "stooqSymbol": "hygu.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -106537,6 +106555,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LITG",
+      "name": "Leverage Shares 2X Long LITE Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long LITE Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LITG",
+      "stooqSymbol": "litg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LITL",
       "name": "Simplify Piper Sandler US Small-Cap PLUS Income ETF",
       "type": "us_etf",
@@ -108049,6 +108085,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LQDD",
+      "name": "MicroSectors -3x Short Investment Grade Corporate Bond (LQD) ETNs",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors -3x Short Investment Grade Corporate Bond (LQD) ETNs"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LQDD",
+      "stooqSymbol": "lqdd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LQDH",
       "name": "iShares Interest Rate Hedged Corporate Bond ETF",
       "type": "us_etf",
@@ -108118,6 +108172,24 @@
       "sourceSymbol": "LQDT",
       "stooqSymbol": "lqdt.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LQDU",
+      "name": "MicroSectors 3x Long Investment Grade Corporate Bond (LQD) ETNs",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors 3x Long Investment Grade Corporate Bond (LQD) ETNs"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LQDU",
+      "stooqSymbol": "lqdu.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -116599,6 +116671,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MRAX",
+      "name": "Tradr 2X Long MRAM Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long MRAM Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MRAX",
+      "stooqSymbol": "mrax.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MRBK",
       "name": "Meridian Corporation - Common Stock",
       "type": "us_stock",
@@ -119386,6 +119476,24 @@
       "sourceSymbol": "MXL",
       "stooqSymbol": "mxl.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MXLL",
+      "name": "Leverage Shares 2X Long MXL Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long MXL Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MXLL",
+      "stooqSymbol": "mxll.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -159925,6 +160033,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SITX",
+      "name": "Tradr 2X Long SITM Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long SITM Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SITX",
+      "stooqSymbol": "sitx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SIVR",
       "name": "abrdn Physical Silver Shares ETF",
       "type": "us_etf",
@@ -167824,6 +167950,24 @@
       "sourceSymbol": "STLD",
       "stooqSymbol": "stld.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "STLL",
+      "name": "Leverage Shares 2X Long STRL Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long STRL Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "STLL",
+      "stooqSymbol": "stll.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -181651,6 +181795,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "UMCU",
+      "name": "Tradr 2X Long UMC Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long UMC Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "UMCU",
+      "stooqSymbol": "umcu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "UMCX",
       "name": "Corgi UMC 2x Daily ETF",
       "type": "us_etf",
@@ -191745,6 +191907,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "WKSP",
       "stooqSymbol": "wksp.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WLCO",
+      "name": "Wilco 63 Corporation - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Wilco 63 Corporation - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WLCO",
+      "stooqSymbol": "wlco.us",
       "isETF": false,
       "dataQuality": "generated"
     },
