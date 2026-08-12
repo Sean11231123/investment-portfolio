@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-07-29T11:32:06.157304Z",
-  "count": 2227,
-  "twseCount": 1219,
+  "generatedAt": "2026-08-12T09:41:12.461447Z",
+  "count": 2228,
+  "twseCount": 1220,
   "tpexOtcCount": 1008,
   "tpexOtcSourceCount": 1008,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2227,
+  "metadataEnrichedCount": 2228,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -33453,14 +33453,14 @@
     },
     {
       "symbol": "5904",
-      "name": "寶雅",
+      "name": "寶雅*",
       "type": "taiwan_stock",
       "market": "TW",
       "currency": "TWD",
       "unitLabel": "股",
       "priceSource": "tpex_otc",
       "aliases": [
-        "寶雅"
+        "寶雅*"
       ],
       "exchange": "TPEX",
       "marketSegment": "otc",
@@ -44405,6 +44405,28 @@
       "board": "main",
       "securityType": "stock",
       "classificationSource": "tpex_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "7855",
+      "name": "和運租車",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "twse",
+      "aliases": [
+        "和運租車"
+      ],
+      "exchange": "TWSE",
+      "marketSegment": "listed",
+      "source": "twse-isin",
+      "sourceSymbol": "7855",
+      "isETF": false,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "stock",
+      "classificationSource": "twse_isin",
       "classificationConfidence": "high"
     },
     {
