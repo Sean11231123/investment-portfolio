@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-11T10:35:22.134019Z",
-  "count": 11132,
+  "generatedAt": "2026-08-12T10:43:44.999611Z",
+  "count": 11139,
   "stockCount": 5598,
-  "etfCount": 5534,
-  "skippedCount": 1993,
+  "etfCount": 5541,
+  "skippedCount": 1992,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -36211,6 +36211,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CNL",
+      "name": "Collective Mining Ltd. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Collective Mining Ltd."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CNL",
+      "stooqSymbol": "cnl.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CNM",
       "name": "Core & Main, Inc. Class A Common Stock",
       "type": "us_stock",
@@ -40600,6 +40618,24 @@
       "sourceSymbol": "CSR",
       "stooqSymbol": "csr.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CSRA",
+      "name": "Cohen & Steers Real Assets Active ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Cohen & Steers Real Assets Active ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CSRA",
+      "stooqSymbol": "csra.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -60205,6 +60241,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "EXPN",
+      "name": "Horizon Expansion Leaders ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Horizon Expansion Leaders ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EXPN",
+      "stooqSymbol": "expn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "EXPO",
       "name": "Exponent, Inc. - Common Stock",
       "type": "us_stock",
@@ -71740,6 +71794,24 @@
       "sourceSymbol": "GAIN",
       "stooqSymbol": "gain.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GAIQ",
+      "name": "Guinness Atkinson Global Innovators Fund: ETF Class Shares",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Guinness Atkinson Global Innovators Fund: ETF Class Shares"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GAIQ",
+      "stooqSymbol": "gaiq.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -112171,24 +112243,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MDV",
-      "name": "Modiv Industrial, Inc. Class C Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Modiv Industrial, Inc. Class C Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MDV",
-      "stooqSymbol": "mdv.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "MDWD",
       "name": "MediWound Ltd. - Ordinary Shares",
       "type": "us_stock",
@@ -116347,6 +116401,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MPDB",
+      "name": "m+ DynaBuffer ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "m+ DynaBuffer ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MPDB",
+      "stooqSymbol": "mpdb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MPDY",
+      "name": "m+ DualYield Autocall ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "m+ DualYield Autocall ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MPDY",
+      "stooqSymbol": "mpdy.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MPG",
       "name": "Leverage Shares 2X Long MP Daily ETF",
       "type": "us_etf",
@@ -116361,6 +116451,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MPG",
       "stooqSymbol": "mpg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MPIM",
+      "name": "m+ Income Momentum Autocall ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "m+ Income Momentum Autocall ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MPIM",
+      "stooqSymbol": "mpim.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -126280,24 +126388,6 @@
       "sourceSymbol": "NUSC",
       "stooqSymbol": "nusc.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "NUTR",
-      "name": "Nusatrip Incorporated - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Nusatrip Incorporated"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NUTR",
-      "stooqSymbol": "nutr.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -163417,6 +163507,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SNSC",
+      "name": "SunScout Holding Limited Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "SunScout Holding Limited Class A Ordinary Shares"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SNSC",
+      "stooqSymbol": "snsc.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SNSR",
       "name": "Global X Internet of Things ETF",
       "type": "us_etf",
@@ -174236,14 +174344,14 @@
     },
     {
       "symbol": "TJGC",
-      "name": "TJGC Group Limited - ordinary shares",
+      "name": "TJGC Group Limited - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "TJGC Group Limited - ordinary shares"
+        "TJGC Group Limited - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -198495,6 +198603,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "YLDW",
       "stooqSymbol": "yldw.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YLDY",
+      "name": "Horizon High Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Horizon High Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YLDY",
+      "stooqSymbol": "yldy.us",
       "isETF": true,
       "dataQuality": "generated"
     },
