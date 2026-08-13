@@ -2,10 +2,10 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-08-11T11:05:19.885140Z",
-  "count": 479,
-  "binanceCount": 479,
-  "coingeckoMatchedCount": 302,
+  "generatedAt": "2026-08-13T11:11:19.302114Z",
+  "count": 480,
+  "binanceCount": 480,
+  "coingeckoMatchedCount": 303,
   "ambiguousCount": 166,
   "skippedCount": 3201,
   "assets": [
@@ -3108,6 +3108,24 @@
       "sourceSymbol": "GLWBUSDT",
       "binanceSymbol": "GLWBUSDT",
       "coingeckoId": "corning-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GMEB",
+      "name": "GameStop (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "GameStop (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GMEBUSDT",
+      "binanceSymbol": "GMEBUSDT",
+      "coingeckoId": "gamestop-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
