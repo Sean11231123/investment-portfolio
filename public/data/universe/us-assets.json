@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-12T10:43:44.999611Z",
-  "count": 11139,
-  "stockCount": 5598,
-  "etfCount": 5541,
-  "skippedCount": 1992,
+  "generatedAt": "2026-08-13T10:45:13.450951Z",
+  "count": 11142,
+  "stockCount": 5600,
+  "etfCount": 5542,
+  "skippedCount": 1990,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -4495,24 +4495,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "AGRH",
-      "name": "iShares Interest Rate Hedged U.S. Aggregate Bond ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "iShares Interest Rate Hedged U.S. Aggregate Bond ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AGRH",
-      "stooqSymbol": "agrh.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "AGRO",
       "name": "Adecoagro S.A. Common Shares",
       "type": "us_stock",
@@ -8887,24 +8869,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ANSC",
-      "name": "Agriculture & Natural Solutions Acquisition Corporation - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Agriculture & Natural Solutions Acquisition Corporation - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ANSC",
-      "stooqSymbol": "ansc.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ANTA",
       "name": "Antalpha Platform Holding Company - Class A Ordinary Shares",
       "type": "us_stock",
@@ -8920,6 +8884,24 @@
       "sourceSymbol": "ANTA",
       "stooqSymbol": "anta.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANTW",
+      "name": "Anthropic AI Lab Ecosystem ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Anthropic AI Lab Ecosystem ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANTW",
+      "stooqSymbol": "antw.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -18838,24 +18820,6 @@
       "sourceSymbol": "BELFB",
       "stooqSymbol": "belfb.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BELT",
-      "name": "iShares U.S. Select Equity Active ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "iShares U.S. Select Equity Active ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BELT",
-      "stooqSymbol": "belt.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -42961,6 +42925,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DACL",
+      "name": "REX Defensive Autocallable Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "REX Defensive Autocallable Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DACL",
+      "stooqSymbol": "dacl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DADS",
       "name": "Digital Asset Debt Strategy ETF",
       "type": "us_etf",
@@ -45118,6 +45100,24 @@
       "sourceSymbol": "DEO",
       "stooqSymbol": "deo.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DEPW",
+      "name": "Google DeepMind AI Lab Ecosystem ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Google DeepMind AI Lab Ecosystem ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DEPW",
+      "stooqSymbol": "depw.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -51615,78 +51615,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "EALT",
       "stooqSymbol": "ealt.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "EAOA",
-      "name": "iShares ESG Aware 80/20 Aggressive Allocation ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "iShares ESG Aware 80/20 Aggressive Allocation ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EAOA",
-      "stooqSymbol": "eaoa.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "EAOK",
-      "name": "iShares ESG Aware 30/70 Conservative Allocation ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "iShares ESG Aware 30/70 Conservative Allocation ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EAOK",
-      "stooqSymbol": "eaok.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "EAOM",
-      "name": "iShares ESG Aware 40/60 Moderate Allocation ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "iShares ESG Aware 40/60 Moderate Allocation ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EAOM",
-      "stooqSymbol": "eaom.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "EAOR",
-      "name": "iShares ESG Aware 60/40 Balanced Allocation ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "iShares ESG Aware 60/40 Balanced Allocation ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EAOR",
-      "stooqSymbol": "eaor.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -72482,14 +72410,14 @@
     },
     {
       "symbol": "GCDT",
-      "name": "Green Circle Decarbonize Technology Limited Ordinary Shares",
+      "name": "Green Circle Decarbonize Technology Limited Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Green Circle Decarbonize Technology Limited Ordinary Shares"
+        "Green Circle Decarbonize Technology Limited Class A Ordinary Shares"
       ],
       "exchange": "NYSEAMERICAN",
       "source": "nasdaqtrader-symbol-directory",
@@ -80577,6 +80505,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "HBDC",
       "stooqSymbol": "hbdc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HBIL",
+      "name": "Harbor Short Term Treasury ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Harbor Short Term Treasury ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HBIL",
+      "stooqSymbol": "hbil.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -95086,24 +95032,6 @@
       "sourceSymbol": "IVR",
       "stooqSymbol": "ivr.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "IVRS",
-      "name": "iShares Future Metaverse Tech and Communications ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "iShares Future Metaverse Tech and Communications ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IVRS",
-      "stooqSymbol": "ivrs.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -116455,6 +116383,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MPIA",
+      "name": "m+ Nasdaq-100 Accelerator Autocall ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "m+ Nasdaq-100 Accelerator Autocall ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MPIA",
+      "stooqSymbol": "mpia.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MPIM",
       "name": "m+ Income Momentum Autocall ETF",
       "type": "us_etf",
@@ -118180,6 +118126,24 @@
       "sourceSymbol": "MTAL",
       "stooqSymbol": "mtal.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MTAW",
+      "name": "Meta AI Lab Ecosystem ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Meta AI Lab Ecosystem ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MTAW",
+      "stooqSymbol": "mtaw.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -128209,6 +128173,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "OAIW",
+      "name": "OpenAI Lab Ecosystem ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "OpenAI Lab Ecosystem ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OAIW",
+      "stooqSymbol": "oaiw.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "OAKG",
       "name": "Oakmark Global Large Cap ETF",
       "type": "us_etf",
@@ -137835,6 +137817,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PLCE",
       "stooqSymbol": "plce.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PLCI",
+      "name": "Pelican Acquisition II Corporation - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pelican Acquisition II Corporation - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PLCI",
+      "stooqSymbol": "plci.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -153657,6 +153657,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "RVI",
       "stooqSymbol": "rvi.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RVII",
+      "name": "Robinhood Ventures Fund II Common Shares of Beneficial Interest",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Robinhood Ventures Fund II Common Shares of Beneficial Interest"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RVII",
+      "stooqSymbol": "rvii.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -187969,6 +187987,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "VOGX",
+      "name": "Vogenx Inc - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Vogenx Inc"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VOGX",
+      "stooqSymbol": "vogx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "VOLT",
       "name": "Tema Electrification ETF",
       "type": "us_etf",
@@ -193978,6 +194014,24 @@
       "sourceSymbol": "XAIR",
       "stooqSymbol": "xair.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XAIW",
+      "name": "SpaceXAI Lab Ecosystem ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "SpaceXAI Lab Ecosystem ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XAIW",
+      "stooqSymbol": "xaiw.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
