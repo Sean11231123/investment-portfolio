@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-08-13T11:11:19.302114Z",
+  "generatedAt": "2026-08-14T11:08:37.553814Z",
   "count": 480,
   "binanceCount": 480,
-  "coingeckoMatchedCount": 303,
-  "ambiguousCount": 166,
+  "coingeckoMatchedCount": 305,
+  "ambiguousCount": 164,
   "skippedCount": 3201,
   "assets": [
     {
@@ -1374,7 +1374,7 @@
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
         "BFUSD"
       ],
@@ -1382,6 +1382,7 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "BFUSDUSDT",
       "binanceSymbol": "BFUSDUSDT",
+      "coingeckoId": "bfusd",
       "dataQuality": "generated"
     },
     {
@@ -7620,7 +7621,7 @@
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
         "USD1"
       ],
@@ -7628,6 +7629,7 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "USD1USDT",
       "binanceSymbol": "USD1USDT",
+      "coingeckoId": "usd1-wlfi",
       "dataQuality": "generated"
     },
     {
