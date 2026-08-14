@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-13T10:45:13.450951Z",
-  "count": 11142,
+  "generatedAt": "2026-08-14T10:41:03.416251Z",
+  "count": 11146,
   "stockCount": 5600,
-  "etfCount": 5542,
-  "skippedCount": 1990,
+  "etfCount": 5546,
+  "skippedCount": 1991,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -18841,6 +18841,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BEMD",
+      "name": "BNY Mellon Emerging Markets Debt ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BNY Mellon Emerging Markets Debt ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BEMD",
+      "stooqSymbol": "bemd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BEN",
       "name": "Franklin Resources, Inc. Common Stock",
       "type": "us_stock",
@@ -23323,24 +23341,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BNRG",
-      "name": "Brenmiller Energy Ltd - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Brenmiller Energy Ltd - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BNRG",
-      "stooqSymbol": "bnrg.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BNS",
       "name": "Bank Nova Scotia Halifax Pfd 3 Ordinary Shares",
       "type": "us_stock",
@@ -24759,6 +24759,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BRN",
       "stooqSymbol": "brn.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BRNX",
+      "name": "BrenX Ltd. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BrenX Ltd. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BRNX",
+      "stooqSymbol": "brnx.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -32827,6 +32845,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CGPT",
+      "name": "VegaShares AI Inference ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VegaShares AI Inference ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CGPT",
+      "stooqSymbol": "cgpt.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CGRO",
       "name": "CoreValues Alpha Greater China Growth ETF",
       "type": "us_etf",
@@ -37360,6 +37396,24 @@
       "sourceSymbol": "COOK",
       "stooqSymbol": "cook.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "COOL",
+      "name": "VegaShares AI Thermal, Cooling & Power Management ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VegaShares AI Thermal, Cooling & Power Management ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "COOL",
+      "stooqSymbol": "cool.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -74245,6 +74299,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GHXI",
+      "name": "Gores Holdings XI, Inc. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Gores Holdings XI, Inc. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GHXI",
+      "stooqSymbol": "ghxi.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GHY",
       "name": "PGIM Global High Yield Fund, Inc.",
       "type": "us_stock",
@@ -80380,6 +80452,24 @@
       "sourceSymbol": "HAVA",
       "stooqSymbol": "hava.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HAWG",
+      "name": "HCM Hedged Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "HCM Hedged Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HAWG",
+      "stooqSymbol": "hawg.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -145089,24 +145179,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "QMLS",
       "stooqSymbol": "qmls.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "QMMM",
-      "name": "QMMM Holdings Limited - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "QMMM Holdings Limited - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "QMMM",
-      "stooqSymbol": "qmmm.us",
       "isETF": false,
       "dataQuality": "generated"
     },
