@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-14T10:41:03.416251Z",
-  "count": 11146,
-  "stockCount": 5600,
-  "etfCount": 5546,
-  "skippedCount": 1991,
+  "generatedAt": "2026-08-17T10:15:51.805295Z",
+  "count": 11147,
+  "stockCount": 5599,
+  "etfCount": 5548,
+  "skippedCount": 1990,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -2101,6 +2101,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ACQQ",
+      "name": "ProShares Nasdaq-100 Autocallable Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ProShares Nasdaq-100 Autocallable Income ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACQQ",
+      "stooqSymbol": "acqq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ACR",
       "name": "ACRES Commercial Realty Corp. Common Stock",
       "type": "us_stock",
@@ -2155,6 +2173,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ACRT",
+      "name": "ProShares Russell 2000 Autocallable Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ProShares Russell 2000 Autocallable Income ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACRT",
+      "stooqSymbol": "acrt.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ACRV",
       "name": "Acrivon Therapeutics, Inc. - Common Stock",
       "type": "us_stock",
@@ -2205,6 +2241,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ACSI",
       "stooqSymbol": "acsi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACSP",
+      "name": "ProShares S&P 500 Autocallable Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ProShares S&P 500 Autocallable Income ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACSP",
+      "stooqSymbol": "acsp.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -13801,24 +13855,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "AVB",
-      "name": "AvalonBay Communities, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "AvalonBay Communities, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AVB",
-      "stooqSymbol": "avb.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "AVBC",
       "name": "Avidia Bancorp, Inc. Common Stock",
       "type": "us_stock",
@@ -16735,24 +16771,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BBBY",
-      "name": "Bed Bath & Beyond, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bed Bath & Beyond, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BBBY",
-      "stooqSymbol": "bbby.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BBC",
       "name": "Virtus Biotech Clinical Trials ETF",
       "type": "us_etf",
@@ -17794,24 +17812,6 @@
       "sourceSymbol": "BCH",
       "stooqSymbol": "bch.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BCHI",
-      "name": "GMO Beyond China ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "GMO Beyond China ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BCHI",
-      "stooqSymbol": "bchi.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -18860,14 +18860,14 @@
     },
     {
       "symbol": "BEN",
-      "name": "Franklin Resources, Inc. Common Stock",
+      "name": "Franklin Templeton, Inc. Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Franklin Resources, Inc. Common Stock"
+        "Franklin Templeton, Inc. Common Stock"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -23018,14 +23018,14 @@
     },
     {
       "symbol": "BNDC",
-      "name": "FlexShares Core Select Bond Fund",
+      "name": "Northern Trust Core Bond ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Core Select Bond Fund"
+        "Northern Trust Core Bond ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -31622,14 +31622,14 @@
     },
     {
       "symbol": "CEFS",
-      "name": "Saba Closed-End Funds ETF",
+      "name": "Saba Opportunistic Hedged Closed-End Funds ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Saba Closed-End Funds ETF"
+        "Saba Opportunistic Hedged Closed-End Funds ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -57506,14 +57506,14 @@
     },
     {
       "symbol": "ESG",
-      "name": "FlexShares STOXX US ESG Select Index Fund",
+      "name": "Northern Trust STOXX US ESG Select ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares STOXX US ESG Select Index Fund"
+        "Northern Trust STOXX US ESG Select ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -57560,14 +57560,14 @@
     },
     {
       "symbol": "ESGG",
-      "name": "FlexShares STOXX Global ESG Select Index Fund",
+      "name": "Northern Trust STOXX Global ESG Select ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares STOXX Global ESG Select Index Fund"
+        "Northern Trust STOXX Global ESG Select ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -59500,6 +59500,24 @@
       "sourceSymbol": "EWA",
       "stooqSymbol": "ewa.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EWAV",
+      "name": "East West Ave Acquisition Corp. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "East West Ave Acquisition Corp."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EWAV",
+      "stooqSymbol": "ewav.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -62996,14 +63014,14 @@
     },
     {
       "symbol": "FEDM",
-      "name": "FlexShares ESG & Climate Developed Markets ex-US Core Index Fund",
+      "name": "Northern Trust ESG & Climate Developed Markets ex-US Core ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares ESG & Climate Developed Markets ex-US Core Index Fund"
+        "Northern Trust ESG & Climate Developed Markets ex-US Core ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -63050,14 +63068,14 @@
     },
     {
       "symbol": "FEIG",
-      "name": "FlexShares ESG & Climate Investment Grade Corporate Core Index Fund",
+      "name": "Northern Trust ESG & Climate Investment Grade Corporate Core ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares ESG & Climate Investment Grade Corporate Core Index Fund"
+        "Northern Trust ESG & Climate Investment Grade Corporate Core ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -63536,14 +63554,14 @@
     },
     {
       "symbol": "FEUS",
-      "name": "FlexShares ESG & Climate US Large Cap Core Index Fund",
+      "name": "Northern Trust ESG & Climate US Large Cap Core ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares ESG & Climate US Large Cap Core Index Fund"
+        "Northern Trust ESG & Climate US Large Cap Core ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -77558,14 +77576,14 @@
     },
     {
       "symbol": "GQRE",
-      "name": "FlexShares Global Quality Real Estate Index Fund",
+      "name": "Northern Trust Global Quality Real Estate ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Global Quality Real Estate Index Fund"
+        "Northern Trust Global Quality Real Estate ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -79322,14 +79340,14 @@
     },
     {
       "symbol": "GUNR",
-      "name": "FlexShares Global Upstream Natural Resources Index Fund ETF",
+      "name": "Northern Trust Morningstar Global Upstream Natural Resources ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Global Upstream Natural Resources Index Fund ETF"
+        "Northern Trust Morningstar Global Upstream Natural Resources ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -85514,14 +85532,14 @@
     },
     {
       "symbol": "HYGV",
-      "name": "FlexShares High Yield Value-Scored Bond Index Fund",
+      "name": "Northern Trust High Yield Value-Scored Bond ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares High Yield Value-Scored Bond Index Fund"
+        "Northern Trust High Yield Value-Scored Bond ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -92875,24 +92893,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "IPCX",
-      "name": "Inflection Point Acquisition Corp. III - Class A ordinary shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Inflection Point Acquisition Corp. III - Class A ordinary shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IPCX",
-      "stooqSymbol": "ipcx.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "IPDN",
       "name": "Professional Diversity Network, Inc. - Common Stock",
       "type": "us_stock",
@@ -93146,14 +93146,14 @@
     },
     {
       "symbol": "IQDF",
-      "name": "FlexShares International Quality Dividend Index Fund",
+      "name": "Northern Trust International Quality Dividend ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares International Quality Dividend Index Fund"
+        "Northern Trust International Quality Dividend ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -93182,14 +93182,14 @@
     },
     {
       "symbol": "IQDY",
-      "name": "FlexShares International Quality Dividend Dynamic Index Fund",
+      "name": "Northern Trust International Quality Dividend Dynamic ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares International Quality Dividend Dynamic Index Fund"
+        "Northern Trust International Quality Dividend Dynamic ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -106862,14 +106862,14 @@
     },
     {
       "symbol": "LKOR",
-      "name": "FlexShares Credit-Scored US Long Corporate Bond Index Fund",
+      "name": "Northern Trust Credit-Scored US Long Corporate Bond ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Credit-Scored US Long Corporate Bond Index Fund"
+        "Northern Trust Credit-Scored US Long Corporate Bond ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -111272,14 +111272,14 @@
     },
     {
       "symbol": "MBSD",
-      "name": "FlexShares Disciplined Duration MBS Index Fund",
+      "name": "Northern Trust Disciplined Duration MBS ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Disciplined Duration MBS Index Fund"
+        "Northern Trust Disciplined Duration MBS ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -122738,14 +122738,14 @@
     },
     {
       "symbol": "NFRA",
-      "name": "FlexShares STOXX Global Broad Infrastructure Index Fund",
+      "name": "Northern Trust STOXX Global Broad Infrastructure ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares STOXX Global Broad Infrastructure Index Fund"
+        "Northern Trust STOXX Global Broad Infrastructure ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -134653,24 +134653,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "PCCE",
-      "name": "Polen Capital China Growth ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Polen Capital China Growth ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PCCE",
-      "stooqSymbol": "pcce.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "PCEB",
       "name": "Polen Euro High Yield Bond ETF",
       "type": "us_etf",
@@ -134761,24 +134743,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "PCGG",
-      "name": "Polen Capital Global Growth ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Polen Capital Global Growth ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PCGG",
-      "stooqSymbol": "pcgg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "PCHI",
       "name": "Polen High Income ETF",
       "type": "us_etf",
@@ -134811,24 +134775,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PCI",
       "stooqSymbol": "pci.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PCIG",
-      "name": "Polen Capital International Growth ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Polen Capital International Growth ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PCIG",
-      "stooqSymbol": "pcig.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -144320,14 +144266,14 @@
     },
     {
       "symbol": "QDEF",
-      "name": "FlexShares Quality Dividend Defensive Index Fund",
+      "name": "Northern Trust Quality Dividend Defensive ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Quality Dividend Defensive Index Fund"
+        "Northern Trust Quality Dividend Defensive ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -144356,14 +144302,14 @@
     },
     {
       "symbol": "QDF",
-      "name": "FlexShares Quality Dividend Index Fund",
+      "name": "Northern Trust Quality Dividend ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Quality Dividend Index Fund"
+        "Northern Trust Quality Dividend ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -144878,14 +144824,14 @@
     },
     {
       "symbol": "QLC",
-      "name": "FlexShares US Quality Large Cap Index Fund",
+      "name": "Northern Trust US Quality Large Cap ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares US Quality Large Cap Index Fund"
+        "Northern Trust US Quality Large Cap ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -145004,14 +144950,14 @@
     },
     {
       "symbol": "QLV",
-      "name": "FlexShares US Quality Low Volatility Index Fund",
+      "name": "Northern Trust US Quality Low Volatility ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares US Quality Low Volatility Index Fund"
+        "Northern Trust US Quality Low Volatility ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -145022,14 +144968,14 @@
     },
     {
       "symbol": "QLVD",
-      "name": "FlexShares Developed Markets ex-US Quality Low Volatility Index Fund",
+      "name": "Northern Trust Developed Markets ex-US Quality Low Volatility ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Developed Markets ex-US Quality Low Volatility Index Fund"
+        "Northern Trust Developed Markets ex-US Quality Low Volatility ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -145040,14 +144986,14 @@
     },
     {
       "symbol": "QLVE",
-      "name": "FlexShares Emerging Markets Quality Low Volatility Index Fund",
+      "name": "Northern Trust Emerging Markets Quality Low Volatility ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Emerging Markets Quality Low Volatility Index Fund"
+        "Northern Trust Emerging Markets Quality Low Volatility ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -147506,14 +147452,14 @@
     },
     {
       "symbol": "RAVI",
-      "name": "FlexShares Ultra-Short Income Fund",
+      "name": "Northern Trust Ultra-Short Fixed Income ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Ultra-Short Income Fund"
+        "Northern Trust Ultra-Short Fixed Income ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -159709,6 +159655,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SIC",
+      "name": "Tema Power Semiconductor ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tema Power Semiconductor ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SIC",
+      "stooqSymbol": "sic.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SID",
       "name": "Companhia Siderurgica Nacional S.A. Common Stock",
       "type": "us_stock",
@@ -160826,14 +160790,14 @@
     },
     {
       "symbol": "SKOR",
-      "name": "FlexShares Credit-Scored US Corporate Bond Index Fund",
+      "name": "Northern Trust Credit-Scored US Corporate Bond ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Credit-Scored US Corporate Bond Index Fund"
+        "Northern Trust Credit-Scored US Corporate Bond ETF"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -171950,14 +171914,14 @@
     },
     {
       "symbol": "TDTF",
-      "name": "FlexShares iBoxx 5 Year Target Duration TIPS Index Fund",
+      "name": "Northern Trust iBoxx 5-Year Target Duration TIPS ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares iBoxx 5 Year Target Duration TIPS Index Fund"
+        "Northern Trust iBoxx 5-Year Target Duration TIPS ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -171986,14 +171950,14 @@
     },
     {
       "symbol": "TDTT",
-      "name": "FlexShares iBoxx 3 Year Target Duration TIPS Index Fund",
+      "name": "Northern Trust iBoxx 3-Year Target Duration TIPS ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares iBoxx 3 Year Target Duration TIPS Index Fund"
+        "Northern Trust iBoxx 3-Year Target Duration TIPS ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -173515,6 +173479,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "THEO",
+      "name": "BOA Acquisition Corp. II - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BOA Acquisition Corp. II - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "THEO",
+      "stooqSymbol": "theo.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "THEQ",
       "name": "T. Rowe Price Hedged Equity ETF",
       "type": "us_etf",
@@ -174128,14 +174110,14 @@
     },
     {
       "symbol": "TILT",
-      "name": "FlexShares Mornigstar US Market Factors Tilt Index Fund ETF",
+      "name": "Northern Trust Morningstar US Market Factor Tilt ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Mornigstar US Market Factors Tilt Index Fund ETF"
+        "Northern Trust Morningstar US Market Factor Tilt ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -174938,14 +174920,14 @@
     },
     {
       "symbol": "TLTD",
-      "name": "FlexShares Morningstar Developed Markets ex-US Factor Tilt Index Fund",
+      "name": "Northern Trust Morningstar Developed Markets ex-US Factor Tilt ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Morningstar Developed Markets ex-US Factor Tilt Index Fund"
+        "Northern Trust Morningstar Developed Markets ex-US Factor Tilt ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -174956,14 +174938,14 @@
     },
     {
       "symbol": "TLTE",
-      "name": "FlexShares Morningstar Emerging Markets Factor Tilt Index Fund",
+      "name": "Northern Trust Morningstar Emerging Markets Factor Tilt ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "FlexShares Morningstar Emerging Markets Factor Tilt Index Fund"
+        "Northern Trust Morningstar Emerging Markets Factor Tilt ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -199615,6 +199597,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ZDIS",
+      "name": "Virtus Zevenbergen Discovery Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Virtus Zevenbergen Discovery Growth ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ZDIS",
+      "stooqSymbol": "zdis.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ZECP",
       "name": "Zacks Earnings Consistent Portfolio ETF",
       "type": "us_etf",
@@ -199845,6 +199845,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ZINC",
       "stooqSymbol": "zinc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZINN",
+      "name": "Virtus Zevenbergen Innovative Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Virtus Zevenbergen Innovative Growth ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ZINN",
+      "stooqSymbol": "zinn.us",
       "isETF": true,
       "dataQuality": "generated"
     },
