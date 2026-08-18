@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-17T10:15:51.805295Z",
-  "count": 11147,
-  "stockCount": 5599,
-  "etfCount": 5548,
-  "skippedCount": 1990,
+  "generatedAt": "2026-08-18T10:03:49.892417Z",
+  "count": 11154,
+  "stockCount": 5602,
+  "etfCount": 5552,
+  "skippedCount": 1993,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -15345,6 +15345,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AXTL",
       "stooqSymbol": "axtl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AXTQ",
+      "name": "Tradr 2X Short AXTI Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Short AXTI Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AXTQ",
+      "stooqSymbol": "axtq.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -32413,6 +32431,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CGCF",
+      "name": "Cartesian Growth Corporation IV - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Cartesian Growth Corporation IV - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CGCF",
+      "stooqSymbol": "cgcf.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CGCP",
       "name": "Capital Group Core Plus Income ETF",
       "type": "us_etf",
@@ -36910,6 +36946,24 @@
       "sourceSymbol": "COHN",
       "stooqSymbol": "cohn.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "COHQ",
+      "name": "Tradr 2X Short COHR Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Short COHR Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "COHQ",
+      "stooqSymbol": "cohq.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -44991,24 +45045,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DEEP",
       "stooqSymbol": "deep.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DEFI",
-      "name": "Hashdex Bitcoin ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Hashdex Bitcoin ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DEFI",
-      "stooqSymbol": "defi.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -57034,24 +57070,6 @@
       "sourceSymbol": "EQQQ",
       "stooqSymbol": "eqqq.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "EQR",
-      "name": "Equity Residential Common Shares of Beneficial Interest",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Equity Residential Common Shares of Beneficial Interest"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EQR",
-      "stooqSymbol": "eqr.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -70354,24 +70372,6 @@
       "sourceSymbol": "FTRI",
       "stooqSymbol": "ftri.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "FTRK",
-      "name": "FAST TRACK GROUP - Ordinary shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "FAST TRACK GROUP - Ordinary shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FTRK",
-      "stooqSymbol": "ftrk.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -85999,6 +85999,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "IA",
+      "name": "Innovative Solutions and Support, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Innovative Solutions and Support, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IA",
+      "stooqSymbol": "ia.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IACL",
+      "name": "GraniteShares US 100 Autocallable Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares US 100 Autocallable Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IACL",
+      "stooqSymbol": "iacl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "IACO",
       "name": "Idea Acquisition Corp. - Class A Ordinary Shares",
       "type": "us_stock",
@@ -94186,24 +94222,6 @@
       "sourceSymbol": "ISSB",
       "stooqSymbol": "issb.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ISSC",
-      "name": "Innovative Solutions and Support, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Innovative Solutions and Support, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ISSC",
-      "stooqSymbol": "issc.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -109525,6 +109543,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LWLX",
+      "name": "Tradr 2X Long LWLG Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long LWLG Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LWLX",
+      "stooqSymbol": "lwlx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LXEO",
       "name": "Lexeo Therapeutics, Inc. - Common Stock",
       "type": "us_stock",
@@ -112887,6 +112923,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "METL",
       "stooqSymbol": "metl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "METQ",
+      "name": "Tradr 2X Short META Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Short META Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "METQ",
+      "stooqSymbol": "metq.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -116847,6 +116901,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MRBK",
       "stooqSymbol": "mrbk.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MRCO",
+      "name": "Mercator Acquisition Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Mercator Acquisition Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MRCO",
+      "stooqSymbol": "mrco.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -126355,6 +126427,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NUR",
+      "name": "Nuran Wireless Inc. - Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Nuran Wireless Inc. - Common Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NUR",
+      "stooqSymbol": "nur.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NURE",
       "name": "Nuveen Short-Term REIT ETF",
       "type": "us_etf",
@@ -127647,6 +127737,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NXGL",
       "stooqSymbol": "nxgl.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NXH",
+      "name": "Neighborhood Intelligence, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Neighborhood Intelligence, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NXH",
+      "stooqSymbol": "nxh.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -170419,24 +170527,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TALK",
-      "name": "Talkspace, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Talkspace, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TALK",
-      "stooqSymbol": "talk.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TALO",
       "name": "Talos Energy, Inc. Common Stock",
       "type": "us_stock",
@@ -187717,6 +187807,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "VMRK",
+      "name": "Vivmark Residential Common Shares of Beneficial Interest",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Vivmark Residential Common Shares of Beneficial Interest"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VMRK",
+      "stooqSymbol": "vmrk.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "VMSB",
       "name": "Voya Multi-Sector Income ETF",
       "type": "us_etf",
@@ -190377,6 +190485,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "WAT",
       "stooqSymbol": "wat.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WATR",
+      "name": "Air Water Ventures Limited - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Air Water Ventures Limited - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WATR",
+      "stooqSymbol": "watr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
