@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-17T09:14:44.935Z",
+  "generatedAt": "2026-08-18T09:08:52.793Z",
   "source": "SITCA",
   "sourceUrl": "https://www.sitca.org.tw/MemberK0000/F/03/nav.csv",
   "market": "TW",
   "segment": "domestic_fund",
-  "count": 2051,
+  "count": 2052,
   "assets": [
     {
       "symbol": "TW_FUND_00512527_TWD_AH22_00957B",
@@ -19600,6 +19600,29 @@
       "aliases": [
         "聯博投信",
         "38633217B"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_38633217E_TWD_AJ2_T1812J",
+      "name": "聯博多重資產傘型基金之聯博亞太多重資產基金-N類型(新台幣)",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIO72",
+      "fundCode": "DIO72",
+      "fundTaxId": "38633217E",
+      "issuer": "聯博投信",
+      "fundTypeCode": "AJ2",
+      "beneficiaryCertificateCode": "T1812J",
+      "aliases": [
+        "聯博投信",
+        "38633217E"
       ],
       "dataQuality": "generated"
     },
