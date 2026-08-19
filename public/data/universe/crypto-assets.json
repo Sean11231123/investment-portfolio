@@ -2,10 +2,10 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-08-17T10:48:32.723625Z",
+  "generatedAt": "2026-08-19T10:46:58.699274Z",
   "count": 474,
   "binanceCount": 474,
-  "coingeckoMatchedCount": 300,
+  "coingeckoMatchedCount": 301,
   "ambiguousCount": 163,
   "skippedCount": 3207,
   "assets": [
@@ -6172,7 +6172,7 @@
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
         "RONIN"
       ],
@@ -6180,6 +6180,7 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "RONINUSDT",
       "binanceSymbol": "RONINUSDT",
+      "coingeckoId": "ronin-2",
       "dataQuality": "generated"
     },
     {
