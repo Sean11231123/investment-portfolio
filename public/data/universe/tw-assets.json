@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-08-12T09:41:12.461447Z",
-  "count": 2228,
+  "generatedAt": "2026-08-19T09:04:48.556025Z",
+  "count": 2230,
   "twseCount": 1220,
-  "tpexOtcCount": 1008,
-  "tpexOtcSourceCount": 1008,
+  "tpexOtcCount": 1010,
+  "tpexOtcSourceCount": 1010,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2228,
+  "metadataEnrichedCount": 2230,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -229,6 +229,28 @@
       "board": "main",
       "securityType": "etf",
       "classificationSource": "twse_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "00411A",
+      "name": "主動統一前沿科技",
+      "type": "taiwan_etf",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "主動統一前沿科技"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "00411A",
+      "isETF": true,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "etf",
+      "classificationSource": "tpex_isin",
       "classificationConfidence": "high"
     },
     {
@@ -6142,6 +6164,28 @@
       "marketSegment": "otc",
       "source": "tpex-isin",
       "sourceSymbol": "00987B",
+      "isETF": true,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "etf",
+      "classificationSource": "tpex_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "00987D",
+      "name": "主動統一美債量化",
+      "type": "taiwan_etf",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "主動統一美債量化"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "00987D",
       "isETF": true,
       "dataQuality": "generated",
       "board": "main",
