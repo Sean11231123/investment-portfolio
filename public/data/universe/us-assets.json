@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-18T10:03:49.892417Z",
-  "count": 11154,
-  "stockCount": 5602,
-  "etfCount": 5552,
-  "skippedCount": 1993,
+  "generatedAt": "2026-08-19T10:05:39.398760Z",
+  "count": 11172,
+  "stockCount": 5603,
+  "etfCount": 5569,
+  "skippedCount": 1988,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -4675,6 +4675,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AHBM",
+      "name": "Amplify Top 10 Asia Memory ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Amplify Top 10 Asia Memory ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AHBM",
+      "stooqSymbol": "ahbm.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AHCO",
       "name": "AdaptHealth Corp. - Common Stock",
       "type": "us_stock",
@@ -5266,6 +5284,24 @@
       "sourceSymbol": "AIN",
       "stooqSymbol": "ain.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AINF",
+      "name": "Defiance Inference AI Chip ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Inference AI Chip ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AINF",
+      "stooqSymbol": "ainf.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -9265,24 +9301,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "AOTS",
-      "name": "AOT Software Platform ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "AOT Software Platform ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AOTS",
-      "stooqSymbol": "aots.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "AOUT",
       "name": "American Outdoor Brands, Inc. - Common Stock",
       "type": "us_stock",
@@ -11133,6 +11151,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ARKX",
       "stooqSymbol": "arkx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ARKY",
+      "name": "ARK Active Autocallable Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ARK Active Autocallable Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ARKY",
+      "stooqSymbol": "arky.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -31640,14 +31676,14 @@
     },
     {
       "symbol": "CEFS",
-      "name": "Saba Opportunistic Hedged Closed-End Funds ETF",
+      "name": "Saba Closed-End Funds ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Saba Opportunistic Hedged Closed-End Funds ETF"
+        "Saba Closed-End Funds ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -39790,6 +39826,24 @@
       "sourceSymbol": "CRNX",
       "stooqSymbol": "crnx.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CROB",
+      "name": "Defiance China Robotics ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance China Robotics ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CROB",
+      "stooqSymbol": "crob.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -65173,6 +65227,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FIXX",
+      "name": "Leverage Shares 2X Long FIX Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long FIX Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FIXX",
+      "stooqSymbol": "fixx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FIYY",
       "name": "GraniteShares YieldBOOST 20Y Treasuries ETF",
       "type": "us_etf",
@@ -65709,6 +65781,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FLEE",
       "stooqSymbol": "flee.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FLEL",
+      "name": "Leverage Shares 2X Long FLEX Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long FLEX Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FLEL",
+      "stooqSymbol": "flel.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -69832,6 +69922,24 @@
       "sourceSymbol": "FTFT",
       "stooqSymbol": "ftft.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FTG",
+      "name": "FullerThaler Behavioral Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FullerThaler Behavioral Growth ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FTG",
+      "stooqSymbol": "ftg.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -99949,6 +100057,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "KAIT",
+      "name": "KraneShares Asia AI Technology ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "KraneShares Asia AI Technology ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KAIT",
+      "stooqSymbol": "kait.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "KALA",
       "name": "KALA BIO, Inc. - Common Stock",
       "type": "us_stock",
@@ -109723,6 +109849,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LYNX",
+      "name": "Lyntris Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Lyntris Inc. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LYNX",
+      "stooqSymbol": "lynx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LYTE",
       "name": "Roundhill Photonics & Optics ETF",
       "type": "us_etf",
@@ -112567,6 +112711,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MEGX",
+      "name": "Corgi U.S. Mega-Cap Growth 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Mega-Cap Growth 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MEGX",
+      "stooqSymbol": "megx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MEI",
       "name": "Methode Electronics, Inc. Common Stock",
       "type": "us_stock",
@@ -113589,24 +113751,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MGK",
       "stooqSymbol": "mgk.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MGKX",
-      "name": "Corgi U.S. Mega-Cap Growth 2x Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Corgi U.S. Mega-Cap Growth 2x Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MGKX",
-      "stooqSymbol": "mgkx.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -118918,6 +119062,24 @@
       "sourceSymbol": "MUFG",
       "stooqSymbol": "mufg.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MUG",
+      "name": "Leverage Shares 2X Long MU Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long MU Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MUG",
+      "stooqSymbol": "mug.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -135046,6 +135208,24 @@
       "sourceSymbol": "PCOR",
       "stooqSymbol": "pcor.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PCOV",
+      "name": "Principal Equity Premium Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Principal Equity Premium Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PCOV",
+      "stooqSymbol": "pcov.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -152023,6 +152203,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ROBX",
+      "name": "Amplify Top 10 Robotics ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Amplify Top 10 Robotics ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ROBX",
+      "stooqSymbol": "robx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ROC",
       "name": "Rank One Computing Corporation - Common stock",
       "type": "us_stock",
@@ -168313,6 +168511,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "STMX",
+      "name": "Leverage Shares 2X Long STM Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long STM Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "STMX",
+      "stooqSymbol": "stmx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "STN",
       "name": "Stantec Inc Common Stock",
       "type": "us_stock",
@@ -183667,6 +183883,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "USGX",
+      "name": "Corgi U.S. Growth 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Growth 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "USGX",
+      "stooqSymbol": "usgx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "USHY",
       "name": "iShares Broad USD High Yield Corporate Bond ETF",
       "type": "us_etf",
@@ -183811,6 +184045,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "USLX",
+      "name": "Corgi U.S. Large-Cap 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Large-Cap 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "USLX",
+      "stooqSymbol": "uslx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "USMC",
       "name": "Principal U.S. Mega-Cap ETF",
       "type": "us_etf",
@@ -183879,6 +184131,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "USMV",
       "stooqSymbol": "usmv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "USMX",
+      "name": "Corgi U.S. Mid-Cap 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Mid-Cap 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "USMX",
+      "stooqSymbol": "usmx.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -184095,6 +184365,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "USSH",
       "stooqSymbol": "ussh.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "USSX",
+      "name": "Corgi U.S. Small-Cap 2x Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Small-Cap 2x Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "USSX",
+      "stooqSymbol": "ussx.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -185463,24 +185751,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VBR",
       "stooqSymbol": "vbr.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "VBX",
-      "name": "Corgi U.S. Small-Cap 2x Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Corgi U.S. Small-Cap 2x Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VBX",
-      "stooqSymbol": "vbx.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -188289,24 +188559,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VOOV",
       "stooqSymbol": "voov.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "VOOX",
-      "name": "Corgi U.S. Large-Cap 2x Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Corgi U.S. Large-Cap 2x Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VOOX",
-      "stooqSymbol": "voox.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -191750,14 +192002,14 @@
     },
     {
       "symbol": "WGMI",
-      "name": "CoinShares Bitcoin Mining ETF",
+      "name": "CoinShares Bitcoin Mining and Digital Power ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "CoinShares Bitcoin Mining ETF"
+        "CoinShares Bitcoin Mining and Digital Power ETF"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -194773,6 +195025,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "XCSH",
+      "name": "XFUNDS 1-3 Month BOX ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "XFUNDS 1-3 Month BOX ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XCSH",
+      "stooqSymbol": "xcsh.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "XCUR",
       "name": "Exicure, Inc. - Common Stock",
       "type": "us_stock",
@@ -196969,6 +197239,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "XQBT",
+      "name": "Amplify Top 10 Quantum ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Amplify Top 10 Quantum ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XQBT",
+      "stooqSymbol": "xqbt.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "XQQI",
       "name": "NEOS Boosted Nasdaq-100 High Income ETF",
       "type": "us_etf",
@@ -197869,38 +198157,56 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "XVO",
-      "name": "Corgi U.S. Mid-Cap 2x Daily ETF",
+      "symbol": "XVAP",
+      "name": "FT Vest AAPL & Target Income ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Corgi U.S. Mid-Cap 2x Daily ETF"
+        "FT Vest AAPL & Target Income ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "XVO",
-      "stooqSymbol": "xvo.us",
+      "sourceSymbol": "XVAP",
+      "stooqSymbol": "xvap.us",
       "isETF": true,
       "dataQuality": "generated"
     },
     {
-      "symbol": "XVUG",
-      "name": "Corgi U.S. Growth 2x Daily ETF",
+      "symbol": "XVNV",
+      "name": "FT Vest NVDA & Target Income ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Corgi U.S. Growth 2x Daily ETF"
+        "FT Vest NVDA & Target Income ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "XVUG",
-      "stooqSymbol": "xvug.us",
+      "sourceSymbol": "XVNV",
+      "stooqSymbol": "xvnv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XVTS",
+      "name": "FT Vest TSLA & Target Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest TSLA & Target Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XVTS",
+      "stooqSymbol": "xvts.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -197956,6 +198262,24 @@
       "sourceSymbol": "XWEL",
       "stooqSymbol": "xwel.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XWNG",
+      "name": "Amplify Top 10 Space ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Amplify Top 10 Space ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XWNG",
+      "stooqSymbol": "xwng.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
