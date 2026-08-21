@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-08-19T10:46:58.699274Z",
+  "generatedAt": "2026-08-21T10:48:14.254256Z",
   "count": 474,
   "binanceCount": 474,
-  "coingeckoMatchedCount": 301,
-  "ambiguousCount": 163,
+  "coingeckoMatchedCount": 300,
+  "ambiguousCount": 164,
   "skippedCount": 3207,
   "assets": [
     {
@@ -331,20 +331,19 @@
     },
     {
       "symbol": "AGLD",
-      "name": "Adventure Gold",
+      "name": "AGLD",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
-        "Adventure Gold"
+        "AGLD"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "AGLDUSDT",
       "binanceSymbol": "AGLDUSDT",
-      "coingeckoId": "adventure-gold",
       "dataQuality": "generated"
     },
     {
