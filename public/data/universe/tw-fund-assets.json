@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-21T09:14:35.682Z",
+  "generatedAt": "2026-08-24T09:24:47.245Z",
   "source": "SITCA",
   "sourceUrl": "https://www.sitca.org.tw/MemberK0000/F/03/nav.csv",
   "market": "TW",
   "segment": "domestic_fund",
-  "count": 2048,
+  "count": 2051,
   "assets": [
     {
       "symbol": "TW_FUND_00512527_TWD_AH22_00957B",
@@ -22824,6 +22824,29 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TW_FUND_00672586_TWD_AL21_00409A",
+      "name": "復華全球未來50主動式ETF基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIA03",
+      "fundCode": "DIA03",
+      "fundTaxId": "00672586",
+      "issuer": "復華投信",
+      "fundTypeCode": "AL21",
+      "beneficiaryCertificateCode": "00409A",
+      "aliases": [
+        "復華投信",
+        "00672586"
+      ],
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TW_FUND_00683789_TWD_AI1_T22D1Y",
       "name": "復華台灣菁英50指數基金",
       "type": "taiwan_fund",
@@ -42577,6 +42600,52 @@
       "aliases": [
         "台新投信",
         "00671405A"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00719180A_TWD_AA2_T4779A",
+      "name": "台新全球AI電力基金(累積A)新台幣",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIOV4",
+      "fundCode": "DIOV4",
+      "fundTaxId": "00719180A",
+      "issuer": "台新投信",
+      "fundTypeCode": "AA2",
+      "beneficiaryCertificateCode": "T4779A",
+      "aliases": [
+        "台新投信",
+        "00719180A"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00719180B_TWD_AA2_T4779B",
+      "name": "台新全球AI電力基金(後收NA)新台幣",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIOV5",
+      "fundCode": "DIOV5",
+      "fundTaxId": "00719180B",
+      "issuer": "台新投信",
+      "fundTypeCode": "AA2",
+      "beneficiaryCertificateCode": "T4779B",
+      "aliases": [
+        "台新投信",
+        "00719180B"
       ],
       "dataQuality": "generated"
     },
