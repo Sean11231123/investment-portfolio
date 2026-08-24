@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-21T10:12:48.804359Z",
-  "count": 11183,
+  "generatedAt": "2026-08-24T10:22:10.610975Z",
+  "count": 11182,
   "stockCount": 5602,
-  "etfCount": 5581,
+  "etfCount": 5580,
   "skippedCount": 1984,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -18711,24 +18711,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BEDY",
       "stooqSymbol": "bedy.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BEDZ",
-      "name": "AdvisorShares Hotel ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "AdvisorShares Hotel ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BEDZ",
-      "stooqSymbol": "bedz.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -52879,6 +52861,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "EDVA",
+      "name": "Endovia Health Sciences, Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Endovia Health Sciences, Inc. Common Stock"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EDVA",
+      "stooqSymbol": "edva.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "EDZ",
       "name": "Direxion Emerging Markets Bear 3X ETF",
       "type": "us_etf",
@@ -54068,14 +54068,14 @@
     },
     {
       "symbol": "EIC",
-      "name": "Eagle Point Income Company Inc. Common Stock",
+      "name": "Eagle Point Income Company Common Shares of Beneficial Interest",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Eagle Point Income Company Inc. Common Stock"
+        "Eagle Point Income Company Common Shares of Beneficial Interest"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -121891,24 +121891,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "NCL",
-      "name": "Northann Corp. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Northann Corp. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NCL",
-      "stooqSymbol": "ncl.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "NCLD",
       "name": "Roundhill Neocloud ETF",
       "type": "us_etf",
@@ -132327,6 +132309,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "OSPN",
       "stooqSymbol": "ospn.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OSPR",
+      "name": "Osprey Acquisition Corp. III - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Osprey Acquisition Corp. III - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OSPR",
+      "stooqSymbol": "ospr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -149126,14 +149126,14 @@
     },
     {
       "symbol": "REAX",
-      "name": "The Real Brokerage, Inc. - Common Shares",
+      "name": "The Real Brokerage, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "The Real Brokerage, Inc. - Common Shares"
+        "The Real Brokerage, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -155817,24 +155817,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SBET",
       "stooqSymbol": "sbet.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SBEV",
-      "name": "Splash Beverage Group, Inc. (NV) Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Splash Beverage Group, Inc. (NV) Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SBEV",
-      "stooqSymbol": "sbev.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -167067,6 +167049,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SPYX",
       "stooqSymbol": "spyx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SQBA",
+      "name": "FT Vest U.S. Equity Quarterly 15 Buffer ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest U.S. Equity Quarterly 15 Buffer ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SQBA",
+      "stooqSymbol": "sqba.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -187480,24 +187480,6 @@
       "sourceSymbol": "VIAV",
       "stooqSymbol": "viav.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "VICE",
-      "name": "AdvisorShares Vice ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "AdvisorShares Vice ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VICE",
-      "stooqSymbol": "vice.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
