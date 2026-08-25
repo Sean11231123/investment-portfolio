@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-24T10:22:10.610975Z",
-  "count": 11182,
-  "stockCount": 5602,
-  "etfCount": 5580,
-  "skippedCount": 1984,
+  "generatedAt": "2026-08-25T10:13:49.255343Z",
+  "count": 11185,
+  "stockCount": 5601,
+  "etfCount": 5584,
+  "skippedCount": 1986,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -26218,6 +26218,24 @@
       "sourceSymbol": "BSY",
       "stooqSymbol": "bsy.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BTA",
+      "name": "Beacon Tactical Alternatives Risk ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Beacon Tactical Alternatives Risk ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BTA",
+      "stooqSymbol": "bta.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -99841,6 +99859,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "JULV",
+      "name": "VanEck U.S. Equity Buffer ETF - July",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VanEck U.S. Equity Buffer ETF - July"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JULV",
+      "stooqSymbol": "julv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "JULW",
       "name": "AllianzIM U.S. Large Cap Buffer20 Jul ETF",
       "type": "us_etf",
@@ -104769,6 +104805,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LBO",
       "stooqSymbol": "lbo.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LBOX",
+      "name": "GraniteShares Short Term Box ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares Short Term Box ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LBOX",
+      "stooqSymbol": "lbox.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -114417,6 +114471,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MI",
       "stooqSymbol": "mi.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MIAC",
+      "name": "Meridian3 Industrials Acquisition Corp - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Meridian3 Industrials Acquisition Corp - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MIAC",
+      "stooqSymbol": "miac.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -128210,14 +128282,14 @@
     },
     {
       "symbol": "NXT",
-      "name": "Nextpower Inc. - Class A Common Stock",
+      "name": "Nextpower Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Nextpower Inc. - Class A Common Stock"
+        "Nextpower Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -149126,14 +149198,14 @@
     },
     {
       "symbol": "REAX",
-      "name": "The Real Brokerage, Inc. - Common Stock",
+      "name": "Real REMAX Group Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "The Real Brokerage, Inc."
+        "Real REMAX Group Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -151569,24 +151641,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "RM",
       "stooqSymbol": "rm.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "RMAX",
-      "name": "RE/MAX Holdings, Inc. Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "RE/MAX Holdings, Inc. Class A Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RMAX",
-      "stooqSymbol": "rmax.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -180409,24 +180463,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TWO",
-      "name": "Two Harbors Investment Corp",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Two Harbors Investment Corp"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TWO",
-      "stooqSymbol": "two.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TWOX",
       "name": "iShares Large Cap Accelerated Outcome ETF",
       "type": "us_etf",
@@ -200152,6 +200188,24 @@
       "sourceSymbol": "ZCMD",
       "stooqSymbol": "zcmd.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZCSH",
+      "name": "The Zcash ETF Shares",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "The Zcash ETF Shares"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ZCSH",
+      "stooqSymbol": "zcsh.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
