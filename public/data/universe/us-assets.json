@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-25T10:13:49.255343Z",
-  "count": 11185,
-  "stockCount": 5601,
-  "etfCount": 5584,
-  "skippedCount": 1986,
+  "generatedAt": "2026-08-26T10:18:09.591945Z",
+  "count": 11196,
+  "stockCount": 5600,
+  "etfCount": 5596,
+  "skippedCount": 1982,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -2674,6 +2674,24 @@
       "sourceSymbol": "ADBG",
       "stooqSymbol": "adbg.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ADBT",
+      "name": "Advasa Holdings, Inc. - Common stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Advasa Holdings, Inc. - Common stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ADBT",
+      "stooqSymbol": "adbt.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -29205,6 +29223,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CAOS",
       "stooqSymbol": "caos.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CAPA",
+      "name": "Defiance AI Capacitors Leaders ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance AI Capacitors Leaders ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CAPA",
+      "stooqSymbol": "capa.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -66897,24 +66933,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FLYX",
       "stooqSymbol": "flyx.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "FLZH",
-      "name": "Flash Sports & Media Holdings, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Flash Sports & Media Holdings, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FLZH",
-      "stooqSymbol": "flzh.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -119461,6 +119479,60 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MUNF",
+      "name": "Northern Trust 2036 Tax-Exempt Distributing Ladder ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Northern Trust 2036 Tax-Exempt Distributing Ladder ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MUNF",
+      "stooqSymbol": "munf.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MUNG",
+      "name": "Northern Trust 2046 Tax-Exempt Distributing Ladder ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Northern Trust 2046 Tax-Exempt Distributing Ladder ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MUNG",
+      "stooqSymbol": "mung.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MUNH",
+      "name": "Northern Trust 2056 Tax-Exempt Distributing Ladder ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Northern Trust 2056 Tax-Exempt Distributing Ladder ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MUNH",
+      "stooqSymbol": "munh.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MUNI",
       "name": "PIMCO Intermediate Municipal Bond Active Exchange-Traded Fund",
       "type": "us_etf",
@@ -119475,6 +119547,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MUNI",
       "stooqSymbol": "muni.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MUNJ",
+      "name": "Northern Trust 2031 Tax-Exempt Distributing Ladder ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Northern Trust 2031 Tax-Exempt Distributing Ladder ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MUNJ",
+      "stooqSymbol": "munj.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -132403,24 +132493,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "OSRH",
-      "name": "OSR Health, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "OSR Health, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "OSRH",
-      "stooqSymbol": "osrh.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "OSS",
       "name": "One Stop Systems, Inc. - Common Stock",
       "type": "us_stock",
@@ -132544,6 +132616,24 @@
       "sourceSymbol": "OTAI",
       "stooqSymbol": "otai.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OTAX",
+      "name": "Optimal Tax Managed Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Optimal Tax Managed Equity ETF"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OTAX",
+      "stooqSymbol": "otax.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -142462,6 +142552,24 @@
       "sourceSymbol": "PSO",
       "stooqSymbol": "pso.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PSOX",
+      "name": "Tema MLCC & PowerSemi ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tema MLCC & PowerSemi ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PSOX",
+      "stooqSymbol": "psox.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -160195,24 +160303,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SIC",
-      "name": "Tema Power Semiconductor ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tema Power Semiconductor ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SIC",
-      "stooqSymbol": "sic.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SID",
       "name": "Companhia Siderurgica Nacional S.A. Common Stock",
       "type": "us_stock",
@@ -174861,6 +174951,78 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TIPD",
       "stooqSymbol": "tipd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TIPE",
+      "name": "Northern Trust 2031 Inflation-Linked Distributing Ladder ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Northern Trust 2031 Inflation-Linked Distributing Ladder ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TIPE",
+      "stooqSymbol": "tipe.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TIPF",
+      "name": "Northern Trust 2036 Inflation-Linked Distributing Ladder ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Northern Trust 2036 Inflation-Linked Distributing Ladder ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TIPF",
+      "stooqSymbol": "tipf.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TIPG",
+      "name": "Northern Trust 2046 Inflation-Linked Distributing Ladder ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Northern Trust 2046 Inflation-Linked Distributing Ladder ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TIPG",
+      "stooqSymbol": "tipg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TIPH",
+      "name": "Northern Trust 2056 Inflation-Linked Distributing Ladder ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Northern Trust 2056 Inflation-Linked Distributing Ladder ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TIPH",
+      "stooqSymbol": "tiph.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -198427,6 +198589,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "XVSP",
+      "name": "FT Vest SPCX & Target Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest SPCX & Target Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XVSP",
+      "stooqSymbol": "xvsp.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "XVTS",
       "name": "FT Vest TSLA & Target Income ETF",
       "type": "us_etf",
@@ -199575,6 +199755,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "YQQQ",
       "stooqSymbol": "yqqq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YRAM",
+      "name": "YieldMax Memory and Storage Portfolio Option Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "YieldMax Memory and Storage Portfolio Option Income ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YRAM",
+      "stooqSymbol": "yram.us",
       "isETF": true,
       "dataQuality": "generated"
     },
