@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T09:24:47.245Z",
+  "generatedAt": "2026-08-26T09:16:29.881Z",
   "source": "SITCA",
   "sourceUrl": "https://www.sitca.org.tw/MemberK0000/F/03/nav.csv",
   "market": "TW",
   "segment": "domestic_fund",
-  "count": 2051,
+  "count": 2053,
   "assets": [
     {
       "symbol": "TW_FUND_00512527_TWD_AH22_00957B",
@@ -8721,6 +8721,29 @@
       "aliases": [
         "玉山投信",
         "00664002"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00719668_TWD_AH21_009827",
+      "name": "玉山未來全球算力ETF基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIEDR",
+      "fundCode": "DIEDR",
+      "fundTaxId": "00719668",
+      "issuer": "玉山投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "009827",
+      "aliases": [
+        "玉山投信",
+        "00719668"
       ],
       "dataQuality": "generated"
     },
@@ -26224,6 +26247,29 @@
       "aliases": [
         "中國信託投信",
         "00682450"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00719359_TWD_AH21_009828",
+      "name": "中國信託台日韓PCB ETF基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE29",
+      "fundCode": "DIE29",
+      "fundTaxId": "00719359",
+      "issuer": "中國信託投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "009828",
+      "aliases": [
+        "中國信託投信",
+        "00719359"
       ],
       "dataQuality": "generated"
     },
