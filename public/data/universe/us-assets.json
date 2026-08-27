@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-26T10:18:09.591945Z",
-  "count": 11196,
+  "generatedAt": "2026-08-27T20:00:17.927739Z",
+  "count": 11197,
   "stockCount": 5600,
-  "etfCount": 5596,
-  "skippedCount": 1982,
+  "etfCount": 5597,
+  "skippedCount": 1987,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -154,6 +154,24 @@
       "sourceSymbol": "AAAU",
       "stooqSymbol": "aaau.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AAC",
+      "name": "Ares Acquisition Corporation III Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Ares Acquisition Corporation III Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AAC",
+      "stooqSymbol": "aac.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -3415,6 +3433,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AEMC",
+      "name": "Harbor AlphaEdge Mid Cap Core ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Harbor AlphaEdge Mid Cap Core ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AEMC",
+      "stooqSymbol": "aemc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AEMD",
       "name": "Aethlon Medical, Inc. - Common Stock",
       "type": "us_stock",
@@ -3430,6 +3466,42 @@
       "sourceSymbol": "AEMD",
       "stooqSymbol": "aemd.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AEMG",
+      "name": "Harbor AlphaEdge Mid Cap Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Harbor AlphaEdge Mid Cap Growth ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AEMG",
+      "stooqSymbol": "aemg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AEMV",
+      "name": "Harbor AlphaEdge Mid Cap Value ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Harbor AlphaEdge Mid Cap Value ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AEMV",
+      "stooqSymbol": "aemv.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -3559,6 +3631,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AESB",
+      "name": "Harbor AlphaEdge Small Cap Core ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Harbor AlphaEdge Small Cap Core ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AESB",
+      "stooqSymbol": "aesb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AESG",
+      "name": "Harbor AlphaEdge Small Cap Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Harbor AlphaEdge Small Cap Growth ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AESG",
+      "stooqSymbol": "aesg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AESI",
       "name": "Atlas Energy Solutions Inc. Common Stock",
       "type": "us_stock",
@@ -3574,6 +3682,24 @@
       "sourceSymbol": "AESI",
       "stooqSymbol": "aesi.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AESL",
+      "name": "Harbor AlphaEdge Small Cap Value ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Harbor AlphaEdge Small Cap Value ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AESL",
+      "stooqSymbol": "aesl.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -5103,24 +5229,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AIG",
       "stooqSymbol": "aig.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "AIHS",
-      "name": "Senmiao Technology Limited - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Senmiao Technology Limited"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AIHS",
-      "stooqSymbol": "aihs.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -35923,24 +36031,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CMII",
-      "name": "Columbus Circle Capital Corp II - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Columbus Circle Capital Corp II - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CMII",
-      "stooqSymbol": "cmii.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CMND",
       "name": "Clearmind Medicine Inc. - Common Shares",
       "type": "us_stock",
@@ -49783,6 +49873,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DSPC",
+      "name": "Leverage Shares 1X Short SPCX Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 1X Short SPCX Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DSPC",
+      "stooqSymbol": "dspc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DSPY",
       "name": "Tema S&P 500 Historical Weight ETF Strategy",
       "type": "us_etf",
@@ -50701,24 +50809,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "DVIN",
-      "name": "WEBs Industrials XLI Defined Volatility ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "WEBs Industrials XLI Defined Volatility ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DVIN",
-      "stooqSymbol": "dvin.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "DVLT",
       "name": "Datavault AI Inc. - Common Stock",
       "type": "us_stock",
@@ -50827,24 +50917,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "DVRE",
-      "name": "WEBs Real Estate XLRE Defined Volatility ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "WEBs Real Estate XLRE Defined Volatility ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DVRE",
-      "stooqSymbol": "dvre.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "DVSP",
       "name": "WEBs SPY Defined Volatility ETF",
       "type": "us_etf",
@@ -50863,24 +50935,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "DVUT",
-      "name": "WEBs Utilities XLU Defined Volatility ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "WEBs Utilities XLU Defined Volatility ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DVUT",
-      "stooqSymbol": "dvut.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "DVVY",
       "name": "Invesco Diversified Dividend Opportunities ETF",
       "type": "us_etf",
@@ -50895,150 +50949,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DVVY",
       "stooqSymbol": "dvvy.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DVXB",
-      "name": "WEBs Materials XLB Defined Volatility ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "WEBs Materials XLB Defined Volatility ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DVXB",
-      "stooqSymbol": "dvxb.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DVXC",
-      "name": "WEBs Communication Services XLC Defined Volatility ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "WEBs Communication Services XLC Defined Volatility ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DVXC",
-      "stooqSymbol": "dvxc.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DVXE",
-      "name": "WEBs Energy XLE Defined Volatility ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "WEBs Energy XLE Defined Volatility ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DVXE",
-      "stooqSymbol": "dvxe.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DVXF",
-      "name": "WEBs Financial XLF Defined Volatility ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "WEBs Financial XLF Defined Volatility ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DVXF",
-      "stooqSymbol": "dvxf.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DVXK",
-      "name": "WEBs Technology XLK Defined Volatility ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "WEBs Technology XLK Defined Volatility ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DVXK",
-      "stooqSymbol": "dvxk.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DVXP",
-      "name": "WEBs Consumer Staples XLP Defined Volatility ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "WEBs Consumer Staples XLP Defined Volatility ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DVXP",
-      "stooqSymbol": "dvxp.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DVXV",
-      "name": "WEBs Health Care XLV Defined Volatility ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "WEBs Health Care XLV Defined Volatility ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DVXV",
-      "stooqSymbol": "dvxv.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DVXY",
-      "name": "WEBs Consumer Discretionary XLY Defined Volatility ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "WEBs Consumer Discretionary XLY Defined Volatility ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DVXY",
-      "stooqSymbol": "dvxy.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -80887,6 +80797,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HBIT",
+      "name": "Hedgeye Hedged Bitcoin ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hedgeye Hedged Bitcoin ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HBIT",
+      "stooqSymbol": "hbit.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HBM",
       "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
       "type": "us_stock",
@@ -85312,6 +85240,24 @@
       "sourceSymbol": "HWC",
       "stooqSymbol": "hwc.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HWGV",
+      "name": "Hotchkis & Wiley Global Value Fund",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hotchkis & Wiley Global Value Fund"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HWGV",
+      "stooqSymbol": "hwgv.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -93469,6 +93415,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "IPXG",
+      "name": "Inection Point Acquisition Corp. VII - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Inection Point Acquisition Corp. VII - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IPXG",
+      "stooqSymbol": "ipxg.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "IQDF",
       "name": "Northern Trust International Quality Dividend ETF",
       "type": "us_etf",
@@ -99661,6 +99625,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "JTTT",
+      "name": "JATT III Acquisition Corp - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "JATT III Acquisition Corp - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JTTT",
+      "stooqSymbol": "jttt.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "JUCY",
       "name": "Aptus Enhanced Yield ETF",
       "type": "us_etf",
@@ -105543,24 +105525,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LEE",
       "stooqSymbol": "lee.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "LEG",
-      "name": "Leggett & Platt, Incorporated Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leggett & Platt, Incorporated Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LEG",
-      "stooqSymbol": "leg.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -116167,6 +116131,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MNGU",
+      "name": "MicroSectors 3x Long MANGOS+ ex Private Companies ETNs",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors 3x Long MANGOS+ ex Private Companies ETNs"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MNGU",
+      "stooqSymbol": "mngu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MNKD",
       "name": "MannKind Corporation - Common Stock",
       "type": "us_stock",
@@ -126441,24 +126423,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NTWO",
       "stooqSymbol": "ntwo.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "NTZ",
-      "name": "Natuzzi, S.p.A.",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Natuzzi, S.p.A."
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NTZ",
-      "stooqSymbol": "ntz.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -140823,6 +140787,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PRAE",
       "stooqSymbol": "prae.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PRAM",
+      "name": "Defiance Memory & Photonics ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Memory & Photonics ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PRAM",
+      "stooqSymbol": "pram.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -172508,14 +172490,14 @@
     },
     {
       "symbol": "TDOT",
-      "name": "21shares Polkadot ETF",
+      "name": "21shares Polkadot Staking ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "21shares Polkadot ETF"
+        "21shares Polkadot Staking ETF"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -174019,6 +174001,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TGRZ",
+      "name": "China AI Tigers LLM ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "China AI Tigers LLM ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TGRZ",
+      "stooqSymbol": "tgrz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TGS",
       "name": "Transportadora de Gas del Sur SA TGS Common Stock",
       "type": "us_stock",
@@ -174578,14 +174578,14 @@
     },
     {
       "symbol": "THYP",
-      "name": "21shares Hyperliquid ETF",
+      "name": "21shares Hyperliquid Staking ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "21shares Hyperliquid ETF"
+        "21shares Hyperliquid Staking ETF"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -179636,14 +179636,14 @@
     },
     {
       "symbol": "TSUI",
-      "name": "21Shares Sui ETF",
+      "name": "21Shares Sui Staking ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "21Shares Sui ETF"
+        "21Shares Sui Staking ETF"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -185661,6 +185661,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VACI",
       "stooqSymbol": "vaci.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VAI",
+      "name": "Valor Energy Incorporated - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Valor Energy Incorporated"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VAI",
+      "stooqSymbol": "vai.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -192613,24 +192631,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "WILC",
-      "name": "G. Willi-Food International, Ltd. - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "G. Willi-Food International, Ltd. - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "WILC",
-      "stooqSymbol": "wilc.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "WIMA",
       "name": "WisdomTree International Adaptive Moving Average Fund",
       "type": "us_etf",
@@ -198298,6 +198298,24 @@
       "sourceSymbol": "XTEN",
       "stooqSymbol": "xten.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XTER",
+      "name": "Karman Line Acquisition Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Karman Line Acquisition Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XTER",
+      "stooqSymbol": "xter.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
