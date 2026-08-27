@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-08-26T10:51:52.699003Z",
-  "count": 474,
-  "binanceCount": 474,
+  "generatedAt": "2026-08-27T20:32:02.213614Z",
+  "count": 475,
+  "binanceCount": 475,
   "coingeckoMatchedCount": 300,
-  "ambiguousCount": 164,
+  "ambiguousCount": 165,
   "skippedCount": 3210,
   "assets": [
     {
@@ -2266,6 +2266,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DJTB",
+      "name": "Trump Media & Technology Group Corp (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Trump Media & Technology Group Corp (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "DJTBUSDT",
+      "binanceSymbol": "DJTBUSDT",
+      "coingeckoId": "trump-media-technology-group-cord-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DODO",
       "name": "DODO",
       "type": "crypto",
@@ -3135,7 +3153,7 @@
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
         "GMX"
       ],
@@ -3143,7 +3161,6 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "GMXUSDT",
       "binanceSymbol": "GMXUSDT",
-      "coingeckoId": "gmx",
       "dataQuality": "generated"
     },
     {
