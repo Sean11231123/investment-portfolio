@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-27T20:00:17.927739Z",
-  "count": 11197,
-  "stockCount": 5600,
-  "etfCount": 5597,
+  "generatedAt": "2026-08-28T20:59:10.621961Z",
+  "count": 11187,
+  "stockCount": 5597,
+  "etfCount": 5590,
   "skippedCount": 1987,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -6903,24 +6903,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ALNY",
       "stooqSymbol": "alny.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ALOT",
-      "name": "AstroNova, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "AstroNova, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ALOT",
-      "stooqSymbol": "alot.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -17005,24 +16987,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BBCQ",
-      "name": "Bleichroeder Acquisition Corp. II - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bleichroeder Acquisition Corp. II - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BBCQ",
-      "stooqSymbol": "bbcq.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BBDC",
       "name": "Barings BDC, Inc. Common Stock",
       "type": "us_stock",
@@ -17685,24 +17649,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BCAL",
       "stooqSymbol": "bcal.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BCAR",
-      "name": "D. Boral ARC Acquisition I Corp. - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "D. Boral ARC Acquisition I Corp. - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BCAR",
-      "stooqSymbol": "bcar.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -19809,24 +19755,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BGH",
       "stooqSymbol": "bgh.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BGI",
-      "name": "Birks Group Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Birks Group Inc. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BGI",
-      "stooqSymbol": "bgi.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -35294,14 +35222,14 @@
     },
     {
       "symbol": "CLOO",
-      "name": "NYLI Investment Grade CLO ETF",
+      "name": "NYLIM Investment Grade CLO ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI Investment Grade CLO ETF"
+        "NYLIM Investment Grade CLO ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -38516,14 +38444,14 @@
     },
     {
       "symbol": "CPLB",
-      "name": "NYLI MacKay Core Plus Bond ETF",
+      "name": "NYLIM MacKay Core Plus Bond ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI MacKay Core Plus Bond ETF"
+        "NYLIM MacKay Core Plus Bond ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -47803,24 +47731,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "DKNX",
-      "name": "Defiance Daily Target 2X Long DKNG ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2X Long DKNG ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DKNX",
-      "stooqSymbol": "dknx.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "DKS",
       "name": "Dick's Sporting Goods Inc Common Stock",
       "type": "us_stock",
@@ -49491,24 +49401,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DRN",
       "stooqSymbol": "drn.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DRNL",
-      "name": "Defiance 2X Daily Long Pure Drone and Aerial Automation ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance 2X Daily Long Pure Drone and Aerial Automation ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DRNL",
-      "stooqSymbol": "drnl.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -61497,24 +61389,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FBRT",
       "stooqSymbol": "fbrt.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "FBRX",
-      "name": "Forte Biosciences, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Forte Biosciences, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FBRX",
-      "stooqSymbol": "fbrx.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -82148,14 +82022,14 @@
     },
     {
       "symbol": "HFXI",
-      "name": "NYLI FTSE International Equity Currency Neutral ETF",
+      "name": "NYLIM FTSE International Equity Currency Neutral ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI FTSE International Equity Currency Neutral ETF"
+        "NYLIM FTSE International Equity Currency Neutral ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -83727,24 +83601,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "HOOY",
       "stooqSymbol": "hooy.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "HOOZ",
-      "name": "Defiance Daily Target 2X Short HOOD ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2X Short HOOD ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HOOZ",
-      "stooqSymbol": "hooz.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -88574,14 +88430,14 @@
     },
     {
       "symbol": "IDEF",
-      "name": "iShares Defense Industrials Active ETF",
+      "name": "iShares Defense Industrials and Tech Active ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "iShares Defense Industrials Active ETF"
+        "iShares Defense Industrials and Tech Active ETF"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -93488,14 +93344,14 @@
     },
     {
       "symbol": "IQHI",
-      "name": "NYLI MacKay High Income ETF",
+      "name": "NYLIM MacKay High Income ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI MacKay High Income ETF"
+        "NYLIM MacKay High Income ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -93613,33 +93469,15 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "IQRA",
-      "name": "NYLI CBRE Real Assets ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "NYLI CBRE Real Assets ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IQRA",
-      "stooqSymbol": "iqra.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "IQSI",
-      "name": "NYLI Candriam International Equity ETF",
+      "name": "NYLIM Candriam International Equity ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI Candriam International Equity ETF"
+        "NYLIM Candriam International Equity ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -93650,14 +93488,14 @@
     },
     {
       "symbol": "IQSM",
-      "name": "NYLI Candriam U.S. Mid Cap Equity ETF",
+      "name": "NYLIM Candriam U.S. Mid Cap Equity ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI Candriam U.S. Mid Cap Equity ETF"
+        "NYLIM Candriam U.S. Mid Cap Equity ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -93686,14 +93524,14 @@
     },
     {
       "symbol": "IQSU",
-      "name": "NYLI Candriam U.S. Large Cap Equity ETF",
+      "name": "NYLIM Candriam U.S. Large Cap Equity ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI Candriam U.S. Large Cap Equity ETF"
+        "NYLIM Candriam U.S. Large Cap Equity ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -95666,14 +95504,14 @@
     },
     {
       "symbol": "IWFG",
-      "name": "NYLI Winslow Focused Large Cap Growth ETF",
+      "name": "NYLIM Winslow Focused Large Cap Growth ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI Winslow Focused Large Cap Growth ETF"
+        "NYLIM Winslow Focused Large Cap Growth ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -95702,14 +95540,14 @@
     },
     {
       "symbol": "IWLG",
-      "name": "NYLI Winslow Large Cap Growth ETF",
+      "name": "NYLIM Winslow Large Cap Growth ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI Winslow Large Cap Growth ETF"
+        "NYLIM Winslow Large Cap Growth ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -102973,6 +102811,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "KPO",
+      "name": "Kensington Premium Opportunities ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Kensington Premium Opportunities ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KPO",
+      "stooqSymbol": "kpo.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "KPRO",
       "name": "KraneShares 100% KWEB Defined Outcome January 2027 ETF",
       "type": "us_etf",
@@ -105044,14 +104900,14 @@
     },
     {
       "symbol": "LCLG",
-      "name": "Logan Capital Broad Innovative Growth ETF",
+      "name": "Logan Capital Large Cap Growth ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Logan Capital Broad Innovative Growth ETF"
+        "Logan Capital Large Cap Growth ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -107437,24 +107293,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "LMNX",
-      "name": "Defiance Daily Target 2x Long LMND ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2x Long LMND ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LMNX",
-      "stooqSymbol": "lmnx.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "LMRI",
       "name": "Lumexa Imaging Holdings, Inc. - Common Stock",
       "type": "us_stock",
@@ -108860,14 +108698,14 @@
     },
     {
       "symbol": "LRND",
-      "name": "NYLI U.S. Large Cap R&D Leaders ETF",
+      "name": "NYLIM U.S. Large Cap R&D Leaders ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI U.S. Large Cap R&D Leaders ETF"
+        "NYLIM U.S. Large Cap R&D Leaders ETF"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -112874,14 +112712,14 @@
     },
     {
       "symbol": "MEGI",
-      "name": "NYLI CBRE Global Infrastructure Megatrends Term Fund Common Shares",
+      "name": "NYLIM CBRE Global Infrastructure Megatrends Term Fund Common Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI CBRE Global Infrastructure Megatrends Term Fund Common Shares"
+        "NYLIM CBRE Global Infrastructure Megatrends Term Fund Common Shares"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -115682,14 +115520,14 @@
     },
     {
       "symbol": "MMCA",
-      "name": "NYLI MacKay California Muni Intermediate ETF",
+      "name": "NYLIM MacKay California Muni Intermediate ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI MacKay California Muni Intermediate ETF"
+        "NYLIM MacKay California Muni Intermediate ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -115700,14 +115538,14 @@
     },
     {
       "symbol": "MMD",
-      "name": "NYLI MacKay DefinedTerm Muni Opportunities Fund Common Shares",
+      "name": "NYLIM MacKay DefinedTerm Muni Opportunities Fund Common Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI MacKay DefinedTerm Muni Opportunities Fund Common Shares"
+        "NYLIM MacKay DefinedTerm Muni Opportunities Fund Common Shares"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -115772,14 +115610,14 @@
     },
     {
       "symbol": "MMIN",
-      "name": "NYLI MacKay Muni Insured ETF",
+      "name": "NYLIM MacKay Muni Insured ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI MacKay Muni Insured ETF"
+        "NYLIM MacKay Muni Insured ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -115790,14 +115628,14 @@
     },
     {
       "symbol": "MMIT",
-      "name": "NYLI MacKay Muni Intermediate ETF",
+      "name": "NYLIM MacKay Muni Intermediate ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI MacKay Muni Intermediate ETF"
+        "NYLIM MacKay Muni Intermediate ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -115862,14 +115700,14 @@
     },
     {
       "symbol": "MMMA",
-      "name": "NYLI MacKay Muni Allocation ETF",
+      "name": "NYLIM MacKay Muni Allocation ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI MacKay Muni Allocation ETF"
+        "NYLIM MacKay Muni Allocation ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -115916,14 +115754,14 @@
     },
     {
       "symbol": "MMSD",
-      "name": "NYLI MacKay Muni Short Duration ETF",
+      "name": "NYLIM MacKay Muni Short Duration ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI MacKay Muni Short Duration ETF"
+        "NYLIM MacKay Muni Short Duration ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -116042,14 +115880,14 @@
     },
     {
       "symbol": "MNA",
-      "name": "NYLI Merger Arbitrage ETF",
+      "name": "NYLIM Merger Arbitrage ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI Merger Arbitrage ETF"
+        "NYLIM Merger Arbitrage ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -116937,24 +116775,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MPIM",
       "stooqSymbol": "mpim.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MPL",
-      "name": "Defiance Daily Target 2X Long MP ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2X Long MP ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MPL",
-      "stooqSymbol": "mpl.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -123872,14 +123692,14 @@
     },
     {
       "symbol": "NISM",
-      "name": "NYLI International Small-Mid Cap Equity ETF",
+      "name": "NYLIM International Small-Mid Cap Equity ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI International Small-Mid Cap Equity ETF"
+        "NYLIM International Small-Mid Cap Equity ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -130348,24 +130168,6 @@
       "sourceSymbol": "OKLO",
       "stooqSymbol": "oklo.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "OKLS",
-      "name": "Defiance Daily Target 2X Short OKLO ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2X Short OKLO ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "OKLS",
-      "stooqSymbol": "okls.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -142627,6 +142429,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PSQL",
+      "name": "Pasqal Holding SA - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pasqal Holding SA - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PSQL",
+      "stooqSymbol": "psql.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PSQO",
       "name": "Palmer Square Credit Opportunities ETF",
       "type": "us_etf",
@@ -144230,14 +144050,14 @@
     },
     {
       "symbol": "QAI",
-      "name": "NYLI Hedge Multi-Strategy Tracker ETF",
+      "name": "NYLIM Hedge Multi-Strategy Tracker ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI Hedge Multi-Strategy Tracker ETF"
+        "NYLIM Hedge Multi-Strategy Tracker ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -149593,6 +149413,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "REIX",
+      "name": "NYLIM CBRE Real Estate & Infrastructure ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "NYLIM CBRE Real Estate & Infrastructure ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "REIX",
+      "stooqSymbol": "reix.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "REK",
       "name": "ProShares Short Real Estate",
       "type": "us_etf",
@@ -151498,24 +151336,6 @@
       "sourceSymbol": "RKT",
       "stooqSymbol": "rkt.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "RKTL",
-      "name": "Defiance Daily Target 2X Long RKT ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2X Long RKT ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RKTL",
-      "stooqSymbol": "rktl.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -158000,14 +157820,14 @@
     },
     {
       "symbol": "SECR",
-      "name": "NYLI MacKay Securitized Income ETF",
+      "name": "NYLIM MacKay Securitized Income ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI MacKay Securitized Income ETF"
+        "NYLIM MacKay Securitized Income ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -193640,14 +193460,14 @@
     },
     {
       "symbol": "WRND",
-      "name": "NYLI Global Equity R&D Leaders ETF",
+      "name": "NYLIM Global Equity R&D Leaders ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NYLI Global Equity R&D Leaders ETF"
+        "NYLIM Global Equity R&D Leaders ETF"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -196267,6 +196087,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "XLAB",
+      "name": "Exascale Labs Holdings Inc. - Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Exascale Labs Holdings Inc. - Class A Common Stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XLAB",
+      "stooqSymbol": "xlab.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "XLB",
       "name": "State Street Materials Select Sector SPDR ETF",
       "type": "us_etf",
@@ -197582,14 +197420,14 @@
     },
     {
       "symbol": "XPON",
-      "name": "Expion360 Inc. - Common Stock",
+      "name": "Expion Energy, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Expion360 Inc."
+        "Expion Energy, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -200584,24 +200422,6 @@
       "sourceSymbol": "ZETA",
       "stooqSymbol": "zeta.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ZETX",
-      "name": "Defiance Daily Target 2x Long ZETA ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2x Long ZETA ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ZETX",
-      "stooqSymbol": "zetx.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
