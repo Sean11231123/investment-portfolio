@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-28T20:59:10.621961Z",
-  "count": 11187,
-  "stockCount": 5597,
-  "etfCount": 5590,
-  "skippedCount": 1987,
+  "generatedAt": "2026-08-31T17:14:32.284052Z",
+  "count": 11189,
+  "stockCount": 5598,
+  "etfCount": 5591,
+  "skippedCount": 1988,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -3412,6 +3412,24 @@
       "sourceSymbol": "AEIS",
       "stooqSymbol": "aeis.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AELV",
+      "name": "Harbor AlphaEdge Large Cap Value ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Harbor AlphaEdge Large Cap Value ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AELV",
+      "stooqSymbol": "aelv.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -10885,24 +10903,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "AREN",
-      "name": "The Arena Group Holdings, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "The Arena Group Holdings, Inc. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AREN",
-      "stooqSymbol": "aren.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ARES",
       "name": "Ares Management Corporation Class A Common Stock",
       "type": "us_stock",
@@ -13113,6 +13113,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ATLO",
       "stooqSymbol": "atlo.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ATLQ",
+      "name": "JAB Acquisition Corp I - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "JAB Acquisition Corp I - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ATLQ",
+      "stooqSymbol": "atlq.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -17613,24 +17631,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BC",
       "stooqSymbol": "bc.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BCAB",
-      "name": "BioAtla, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "BioAtla, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BCAB",
-      "stooqSymbol": "bcab.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -68863,6 +68863,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FRUT",
+      "name": "Yorkville America MANGOS Plus Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Yorkville America MANGOS Plus Index ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FRUT",
+      "stooqSymbol": "frut.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FRVO",
       "name": "Fervo Energy Company - Class A common stock",
       "type": "us_stock",
@@ -96277,24 +96295,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "JAB",
-      "name": "JAB Acquisition Corp I - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "JAB Acquisition Corp I - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "JAB",
-      "stooqSymbol": "jab.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "JABS",
       "name": "Janus Henderson Asset-Backed Securities ETF",
       "type": "us_etf",
@@ -110569,24 +110569,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MAPP",
-      "name": "Harbor Multi-Asset Explorer ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Harbor Multi-Asset Explorer ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MAPP",
-      "stooqSymbol": "mapp.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "MAR",
       "name": "Marriott International - Class A Common Stock",
       "type": "us_stock",
@@ -110854,6 +110836,24 @@
       "sourceSymbol": "MATH",
       "stooqSymbol": "math.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MATR",
+      "name": "Harbor Multi-Asset Explorer ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Harbor Multi-Asset Explorer ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MATR",
+      "stooqSymbol": "matr.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -111182,14 +111182,14 @@
     },
     {
       "symbol": "MBAI",
-      "name": "Check-Cap Ltd. - Ordinary Share",
+      "name": "MBody AI Ltd. - Ordinary Share",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Check-Cap Ltd. - Ordinary Share"
+        "MBody AI Ltd. - Ordinary Share"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -131180,16 +131180,16 @@
     },
     {
       "symbol": "OPAD",
-      "name": "Offerpad Solutions Inc. Class A Common Stock",
+      "name": "Offerpad Solutions Inc. - Class A Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Offerpad Solutions Inc. Class A Common Stock"
+        "Offerpad Solutions Inc. - Class A Common Stock"
       ],
-      "exchange": "NYSE",
+      "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "OPAD",
       "stooqSymbol": "opad.us",
@@ -133137,6 +133137,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PAAC",
       "stooqSymbol": "paac.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PAAI",
+      "name": "Paradium.AI, Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Paradium.AI, Inc. Common Stock"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PAAI",
+      "stooqSymbol": "paai.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -144788,14 +144806,14 @@
     },
     {
       "symbol": "QDTE",
-      "name": "Roundhill Innovation-100 0DTE Covered Call Strategy ETF",
+      "name": "Roundhill Nasdaq-100 0DTE Covered Call ETF Strategy ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Roundhill Innovation-100 0DTE Covered Call Strategy ETF"
+        "Roundhill Nasdaq-100 0DTE Covered Call ETF Strategy ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -155368,6 +155386,24 @@
       "sourceSymbol": "SAMM",
       "stooqSymbol": "samm.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SAMO",
+      "name": "Samos Energy Acquisition Corporation Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Samos Energy Acquisition Corporation Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SAMO",
+      "stooqSymbol": "samo.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -169934,14 +169970,14 @@
     },
     {
       "symbol": "SVRN",
-      "name": "OceanPal Inc. - Common Stock",
+      "name": "SVRN, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "OceanPal Inc."
+        "SVRN, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -177616,6 +177652,24 @@
       "sourceSymbol": "TRBF",
       "stooqSymbol": "trbf.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TRBG",
+      "name": "TurboGen Ltd. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "TurboGen Ltd. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TRBG",
+      "stooqSymbol": "trbg.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -188020,24 +188074,6 @@
       "sourceSymbol": "VLGEA",
       "stooqSymbol": "vlgea.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "VLLU",
-      "name": "Harbor AlphaEdge Large Cap Value ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Harbor AlphaEdge Large Cap Value ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VLLU",
-      "stooqSymbol": "vllu.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
