@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-08-27T20:32:02.213614Z",
+  "generatedAt": "2026-09-01T14:55:04.256144Z",
   "count": 475,
   "binanceCount": 475,
-  "coingeckoMatchedCount": 300,
-  "ambiguousCount": 165,
+  "coingeckoMatchedCount": 299,
+  "ambiguousCount": 166,
   "skippedCount": 3210,
   "assets": [
     {
@@ -6587,20 +6587,19 @@
     },
     {
       "symbol": "SLP",
-      "name": "Smooth Love Potion",
+      "name": "SLP",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
-        "Smooth Love Potion"
+        "SLP"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "SLPUSDT",
       "binanceSymbol": "SLPUSDT",
-      "coingeckoId": "smooth-love-potion",
       "dataQuality": "generated"
     },
     {
