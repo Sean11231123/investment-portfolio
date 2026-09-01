@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-08-31T17:14:32.284052Z",
-  "count": 11189,
-  "stockCount": 5598,
-  "etfCount": 5591,
-  "skippedCount": 1988,
+  "generatedAt": "2026-09-01T14:18:49.387716Z",
+  "count": 11193,
+  "stockCount": 5600,
+  "etfCount": 5593,
+  "skippedCount": 1989,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -4329,6 +4329,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AGGH",
       "stooqSymbol": "aggh.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AGGM",
+      "name": "iShares 1-10 Year U.S. Aggregate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "iShares 1-10 Year U.S. Aggregate Bond ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AGGM",
+      "stooqSymbol": "aggm.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -72229,24 +72247,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "GBF",
-      "name": "iShares Government/Credit Bond ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "iShares Government/Credit Bond ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GBF",
-      "stooqSymbol": "gbf.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "GBFH",
       "name": "GBank Financial Holdings Inc. - Common Stock",
       "type": "us_stock",
@@ -74853,6 +74853,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GIX",
       "stooqSymbol": "gix.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GIXI",
+      "name": "Gix Internet Ltd. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Gix Internet Ltd. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GIXI",
+      "stooqSymbol": "gixi.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -85297,6 +85315,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HXF",
+      "name": "Mast HedgeIndex Managed Futures Strategy ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Mast HedgeIndex Managed Futures Strategy ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HXF",
+      "stooqSymbol": "hxf.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HXHX",
       "name": "Haoxin Holdings Limited - Class A Ordinary Shares",
       "type": "us_stock",
@@ -94312,6 +94348,24 @@
       "sourceSymbol": "ISRG",
       "stooqSymbol": "isrg.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ISRL",
+      "name": "Defiance KSM Israel 120 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance KSM Israel 120 ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ISRL",
+      "stooqSymbol": "isrl.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -119723,7 +119777,7 @@
       "aliases": [
         "Miller Value Partners Appreciation ETF"
       ],
-      "exchange": "NYSEARCA",
+      "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MVPA",
       "stooqSymbol": "mvpa.us",
@@ -159202,6 +159256,24 @@
       "sourceSymbol": "SGLC",
       "stooqSymbol": "sglc.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SGLD",
+      "name": "Scorpio Gold Corporation - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Scorpio Gold Corporation"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SGLD",
+      "stooqSymbol": "sgld.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -200930,14 +201002,14 @@
     },
     {
       "symbol": "ZONE",
-      "name": "CleanCore Solutions Inc. Class B Common Stock",
+      "name": "Zone Frontier Inc. Class B Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "CleanCore Solutions Inc. Class B Common Stock"
+        "Zone Frontier Inc. Class B Common Stock"
       ],
       "exchange": "NYSEAMERICAN",
       "source": "nasdaqtrader-symbol-directory",
