@@ -2,7 +2,7 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-08-31T16:18:06.367046Z",
+  "generatedAt": "2026-09-02T13:35:22.734310Z",
   "count": 2230,
   "twseCount": 1220,
   "tpexOtcCount": 1010,
@@ -25686,6 +25686,28 @@
       "classificationConfidence": "high"
     },
     {
+      "symbol": "3718",
+      "name": "中光電投控",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "中光電投控"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "3718",
+      "isETF": false,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "stock",
+      "classificationSource": "tpex_isin",
+      "classificationConfidence": "high"
+    },
+    {
       "symbol": "4102",
       "name": "永日",
       "type": "taiwan_stock",
@@ -31794,28 +31816,6 @@
       "marketSegment": "otc",
       "source": "tpex-isin",
       "sourceSymbol": "5364",
-      "isETF": false,
-      "dataQuality": "generated",
-      "board": "main",
-      "securityType": "stock",
-      "classificationSource": "tpex_isin",
-      "classificationConfidence": "high"
-    },
-    {
-      "symbol": "5371",
-      "name": "中光電",
-      "type": "taiwan_stock",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "股",
-      "priceSource": "tpex_otc",
-      "aliases": [
-        "中光電"
-      ],
-      "exchange": "TPEX",
-      "marketSegment": "otc",
-      "source": "tpex-isin",
-      "sourceSymbol": "5371",
       "isETF": false,
       "dataQuality": "generated",
       "board": "main",
