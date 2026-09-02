@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-01T14:18:49.387716Z",
-  "count": 11193,
-  "stockCount": 5600,
-  "etfCount": 5593,
-  "skippedCount": 1989,
+  "generatedAt": "2026-09-02T13:53:05.112848Z",
+  "count": 11195,
+  "stockCount": 5598,
+  "etfCount": 5597,
+  "skippedCount": 1991,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -39937,24 +39937,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CRNX",
-      "name": "Crinetics Pharmaceuticals, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Crinetics Pharmaceuticals, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CRNX",
-      "stooqSymbol": "crnx.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CROB",
       "name": "Defiance China Robotics ETF",
       "type": "us_etf",
@@ -47403,6 +47385,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DIVG",
       "stooqSymbol": "divg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DIVH",
+      "name": "Integrity Dividend Harvest ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Integrity Dividend Harvest ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DIVH",
+      "stooqSymbol": "divh.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -82993,24 +82993,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "HLX",
-      "name": "Helix Energy Solutions Group, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Helix Energy Solutions Group, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HLX",
-      "stooqSymbol": "hlx.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "HLXC",
       "name": "Helix Acquisition Corp. III - Class A Ordinary Shares",
       "type": "us_stock",
@@ -83655,6 +83637,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "HOPE",
       "stooqSymbol": "hope.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HOS",
+      "name": "Hornbeck Offshore Services, Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hornbeck Offshore Services, Inc. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HOS",
+      "stooqSymbol": "hos.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -122071,24 +122071,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "NCSM",
-      "name": "NCS Multistage Holdings, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "NCS Multistage Holdings, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NCSM",
-      "stooqSymbol": "ncsm.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "NCT",
       "name": "Intercont (Cayman) Limited - Class A Ordinary shares",
       "type": "us_stock",
@@ -125595,6 +125577,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NRXS",
       "stooqSymbol": "nrxs.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NSAI",
+      "name": "NorthStrive Acquisition Corp I. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "NorthStrive Acquisition Corp I. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NSAI",
+      "stooqSymbol": "nsai.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -161203,6 +161203,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SKHQ",
+      "name": "Leverage Shares 2X Short Sk Hynix Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Short Sk Hynix Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SKHQ",
+      "stooqSymbol": "skhq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SKHU",
       "name": "ProShares Ultra SK hynix",
       "type": "us_etf",
@@ -181525,6 +181543,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "UCBG",
+      "name": "State Street SPDR UC Investments 90/10 Endowment Strategy Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "State Street SPDR UC Investments 90/10 Endowment Strategy Index ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "UCBG",
+      "stooqSymbol": "ucbg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "UCC",
       "name": "ProShares Ultra Consumer Discretionary",
       "type": "us_etf",
@@ -188919,6 +188955,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VOOV",
       "stooqSymbol": "voov.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VOOY",
+      "name": "XFUNDS Large Cap Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "XFUNDS Large Cap Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VOOY",
+      "stooqSymbol": "vooy.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -199291,6 +199345,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "YFOR",
+      "name": "YYForce Inc. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "YYForce Inc. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YFOR",
+      "stooqSymbol": "yfor.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "YFYA",
       "name": "Yields for You Income Strategy A ETF",
       "type": "us_etf",
@@ -200007,24 +200079,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "YYAI",
       "stooqSymbol": "yyai.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "YYGH",
-      "name": "YY Group Holding Limited - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "YY Group Holding Limited - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "YYGH",
-      "stooqSymbol": "yygh.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -201196,24 +201250,6 @@
       "sourceSymbol": "ZTAX",
       "stooqSymbol": "ztax.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ZTEK",
-      "name": "Zentek Ltd. - common stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Zentek Ltd. - common stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ZTEK",
-      "stooqSymbol": "ztek.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
