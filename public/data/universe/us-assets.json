@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-02T13:53:05.112848Z",
-  "count": 11195,
-  "stockCount": 5598,
-  "etfCount": 5597,
-  "skippedCount": 1991,
+  "generatedAt": "2026-09-03T13:53:53.911145Z",
+  "count": 11197,
+  "stockCount": 5599,
+  "etfCount": 5598,
+  "skippedCount": 1990,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -98797,6 +98797,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "JONE",
+      "name": "Jones Ventures INTL Acquisition1 Corp - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Jones Ventures INTL Acquisition1 Corp - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JONE",
+      "stooqSymbol": "jone.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "JOUL",
       "name": "Corgi High Voltage Grid Equipment ETF",
       "type": "us_etf",
@@ -137947,6 +137965,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PJSM",
+      "name": "PGIM Jennison Small-Mid Cap Core Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "PGIM Jennison Small-Mid Cap Core Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PJSM",
+      "stooqSymbol": "pjsm.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PJT",
       "name": "PJT Partners Inc. Class A Common Stock",
       "type": "us_stock",
@@ -141471,24 +141507,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PRVS",
       "stooqSymbol": "prvs.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PRVT",
-      "name": "Tema Alternative Asset Managers ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tema Alternative Asset Managers ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PRVT",
-      "stooqSymbol": "prvt.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -178803,6 +178821,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TSCV",
       "stooqSymbol": "tscv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TSCZ",
+      "name": "T. Rowe Price Securitized Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T. Rowe Price Securitized Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TSCZ",
+      "stooqSymbol": "tscz.us",
       "isETF": true,
       "dataQuality": "generated"
     },
