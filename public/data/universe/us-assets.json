@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-03T13:53:53.911145Z",
-  "count": 11197,
-  "stockCount": 5599,
-  "etfCount": 5598,
+  "generatedAt": "2026-09-04T13:48:08.076766Z",
+  "count": 11198,
+  "stockCount": 5598,
+  "etfCount": 5600,
   "skippedCount": 1990,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -9621,24 +9621,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "APG",
       "stooqSymbol": "apg.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "APGE",
-      "name": "Apogee Therapeutics, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Apogee Therapeutics, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "APGE",
-      "stooqSymbol": "apge.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -26797,24 +26779,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BTOG",
-      "name": "Bit Origin Limited - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bit Origin Limited - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BTOG",
-      "stooqSymbol": "btog.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BTOT",
       "name": "iShares Total USD Fixed Income Market ETF",
       "type": "us_etf",
@@ -34358,14 +34322,14 @@
     },
     {
       "symbol": "CIK",
-      "name": "Credit Suisse Asset Management Income Fund, Inc. Common Stock",
+      "name": "UBS Asset Management Income Fund, Inc. Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Credit Suisse Asset Management Income Fund, Inc. Common Stock"
+        "UBS Asset Management Income Fund, Inc. Common Stock"
       ],
       "exchange": "NYSEAMERICAN",
       "source": "nasdaqtrader-symbol-directory",
@@ -46940,14 +46904,14 @@
     },
     {
       "symbol": "DHY",
-      "name": "Credit Suisse High Yield Credit Fund Common Stock",
+      "name": "UBS Asset Management High Yield Credit Fund Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Credit Suisse High Yield Credit Fund Common Stock"
+        "UBS Asset Management High Yield Credit Fund Common Stock"
       ],
       "exchange": "NYSEAMERICAN",
       "source": "nasdaqtrader-symbol-directory",
@@ -83911,6 +83875,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HQDG",
+      "name": "Raub Brock Dividend Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Raub Brock Dividend Growth ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HQDG",
+      "stooqSymbol": "hqdg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HQGO",
       "name": "Hartford US Quality Growth ETF",
       "type": "us_etf",
@@ -97570,24 +97552,6 @@
       "sourceSymbol": "JETU",
       "stooqSymbol": "jetu.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "JFB",
-      "name": "JFB Construction Holdings - Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "JFB Construction Holdings - Class A Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "JFB",
-      "stooqSymbol": "jfb.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -137929,6 +137893,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PJIN",
+      "name": "PGIM Jennison International Core Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "PGIM Jennison International Core Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PJIN",
+      "stooqSymbol": "pjin.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PJIO",
       "name": "PGIM Jennison Focused International Equity ETF",
       "type": "us_etf",
@@ -159436,6 +159418,24 @@
       "sourceSymbol": "SGRW",
       "stooqSymbol": "sgrw.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SGRX",
+      "name": "SANGRIX INC. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "SANGRIX INC. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SGRX",
+      "stooqSymbol": "sgrx.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -198442,6 +198442,24 @@
       "sourceSymbol": "XTN",
       "stooqSymbol": "xtn.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XTND",
+      "name": "Xtend AI Robotics, Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Xtend AI Robotics, Inc. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XTND",
+      "stooqSymbol": "xtnd.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
