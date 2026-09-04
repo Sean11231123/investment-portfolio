@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-09-03T14:35:38.158675Z",
-  "count": 476,
-  "binanceCount": 476,
+  "generatedAt": "2026-09-04T14:22:51.210739Z",
+  "count": 477,
+  "binanceCount": 477,
   "coingeckoMatchedCount": 296,
-  "ambiguousCount": 166,
-  "skippedCount": 3213,
+  "ambiguousCount": 167,
+  "skippedCount": 3215,
   "assets": [
     {
       "symbol": "0G",
@@ -4448,6 +4448,23 @@
       "sourceSymbol": "MANTRAUSDT",
       "binanceSymbol": "MANTRAUSDT",
       "coingeckoId": "mantra",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MARSCOIN",
+      "name": "MARSCOIN",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "MARSCOIN"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MARSCOINUSDT",
+      "binanceSymbol": "MARSCOINUSDT",
       "dataQuality": "generated"
     },
     {
