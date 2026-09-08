@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-04T13:48:08.076766Z",
+  "generatedAt": "2026-09-08T13:53:57.530718Z",
   "count": 11198,
   "stockCount": 5598,
   "etfCount": 5600,
-  "skippedCount": 1990,
+  "skippedCount": 1991,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -6980,14 +6980,14 @@
     },
     {
       "symbol": "ALP",
-      "name": "Alpha Compute Corp - Common Stock",
+      "name": "Alpha Compute Corp - Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Alpha Compute Corp"
+        "Alpha Compute Corp - Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -7372,6 +7372,24 @@
       "sourceSymbol": "AMAA",
       "stooqSymbol": "amaa.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AMAC",
+      "name": "AMR Resources Acquisition Corp - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "AMR Resources Acquisition Corp - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AMAC",
+      "stooqSymbol": "amac.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -13887,6 +13905,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AUUD",
       "stooqSymbol": "auud.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AUXX",
+      "name": "Gold X2 Mining Inc. Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Gold X2 Mining Inc. Common Shares"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AUXX",
+      "stooqSymbol": "auxx.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -26290,24 +26326,6 @@
       "sourceSymbol": "BTA",
       "stooqSymbol": "bta.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BTAI",
-      "name": "BioXcel Therapeutics, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "BioXcel Therapeutics, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BTAI",
-      "stooqSymbol": "btai.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -108244,24 +108262,6 @@
       "sourceSymbol": "LPRE",
       "stooqSymbol": "lpre.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "LPSN",
-      "name": "LivePerson, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "LivePerson, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LPSN",
-      "stooqSymbol": "lpsn.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
