@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-09-04T14:22:51.210739Z",
-  "count": 477,
-  "binanceCount": 477,
-  "coingeckoMatchedCount": 296,
+  "generatedAt": "2026-09-09T14:37:29.787262Z",
+  "count": 479,
+  "binanceCount": 479,
+  "coingeckoMatchedCount": 300,
   "ambiguousCount": 167,
-  "skippedCount": 3215,
+  "skippedCount": 3219,
   "assets": [
     {
       "symbol": "0G",
@@ -523,19 +523,20 @@
     },
     {
       "symbol": "AMDB",
-      "name": "AMDB",
+      "name": "Advanced Micro Devices (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "AMDB"
+        "Advanced Micro Devices (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "AMDBUSDT",
       "binanceSymbol": "AMDBUSDT",
+      "coingeckoId": "advanced-micro-devices-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -2038,6 +2039,23 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CRMB",
+      "name": "CRMB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "CRMB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "CRMBUSDT",
+      "binanceSymbol": "CRMBUSDT",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CRV",
       "name": "CRV",
       "type": "crypto",
@@ -2760,19 +2778,20 @@
     },
     {
       "symbol": "EWYB",
-      "name": "EWYB",
+      "name": "iShares MSCI South Korea ETF (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "EWYB"
+        "iShares MSCI South Korea ETF (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "EWYBUSDT",
       "binanceSymbol": "EWYBUSDT",
+      "coingeckoId": "ishares-msci-south-korea-etf-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -3412,6 +3431,23 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HIMSB",
+      "name": "HIMSB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "HIMSB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HIMSBUSDT",
+      "binanceSymbol": "HIMSBUSDT",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HIVE",
       "name": "HIVE",
       "type": "crypto",
@@ -3677,19 +3713,20 @@
     },
     {
       "symbol": "INTCB",
-      "name": "INTCB",
+      "name": "Intel (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "INTCB"
+        "Intel (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "INTCBUSDT",
       "binanceSymbol": "INTCBUSDT",
+      "coingeckoId": "intel-tokenized-bstocks",
       "dataQuality": "generated"
     },
     {
@@ -4801,19 +4838,20 @@
     },
     {
       "symbol": "MSTRB",
-      "name": "MSTRB",
+      "name": "Strategy (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "MSTRB"
+        "Strategy (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "MSTRBUSDT",
       "binanceSymbol": "MSTRBUSDT",
+      "coingeckoId": "strategy-tokenized-bstocks",
       "dataQuality": "generated"
     },
     {
