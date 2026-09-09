@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-08T13:53:57.530718Z",
-  "count": 11198,
+  "generatedAt": "2026-09-09T13:56:34.638044Z",
+  "count": 11202,
   "stockCount": 5598,
-  "etfCount": 5600,
+  "etfCount": 5604,
   "skippedCount": 1991,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -11948,14 +11948,14 @@
     },
     {
       "symbol": "ASBP",
-      "name": "Aspire Biopharma Holdings, Inc. - Common Stock",
+      "name": "Aspire-Lakewood Holdings, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Aspire Biopharma Holdings, Inc."
+        "Aspire-Lakewood Holdings, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -31027,6 +31027,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CCML",
+      "name": "Roundhill MLCC & Electronic Components ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Roundhill MLCC & Electronic Components ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CCML",
+      "stooqSymbol": "ccml.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CCNE",
       "name": "CNB Financial Corporation - Common Stock",
       "type": "us_stock",
@@ -42871,24 +42889,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CYCN",
-      "name": "Cyclerion Therapeutics, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Cyclerion Therapeutics, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CYCN",
-      "stooqSymbol": "cycn.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CYCU",
       "name": "Cycurion, Inc. - Common Stock",
       "type": "us_stock",
@@ -46990,6 +46990,24 @@
       "sourceSymbol": "DIBS",
       "stooqSymbol": "dibs.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DICE",
+      "name": "Tema Trading & Prediction Markets ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tema Trading & Prediction Markets ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DICE",
+      "stooqSymbol": "dice.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -100345,6 +100363,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "KATT",
+      "name": "T-REX 2X Long PURR Daily Target ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T-REX 2X Long PURR Daily Target ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KATT",
+      "stooqSymbol": "katt.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "KAUG",
       "name": "Innovator US Small Cap Power Buffer ETF - August",
       "type": "us_etf",
@@ -103225,6 +103261,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "KRSA",
+      "name": "Korsana Biosciences, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Korsana Biosciences, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KRSA",
+      "stooqSymbol": "krsa.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "KRSP",
       "name": "Rice Acquisition Corporation 3 Class A Ordinary Shares",
       "type": "us_stock",
@@ -103870,24 +103924,6 @@
       "sourceSymbol": "KWIN",
       "stooqSymbol": "kwin.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "KWM",
-      "name": "K Wave Media, Ltd. - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "K Wave Media, Ltd. - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KWM",
-      "stooqSymbol": "kwm.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -127921,6 +127957,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NXAT",
+      "name": "Nexus Advanced Technologies Inc. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Nexus Advanced Technologies Inc. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NXAT",
+      "stooqSymbol": "nxat.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NXB",
       "name": "NextBoat Inc. Common Stcok",
       "type": "us_stock",
@@ -137174,14 +137228,14 @@
     },
     {
       "symbol": "PHGE",
-      "name": "BiomX Inc. COmmon Stock",
+      "name": "BiomX Inc. Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "BiomX Inc. COmmon Stock"
+        "BiomX Inc. Common Stock"
       ],
       "exchange": "NYSEAMERICAN",
       "source": "nasdaqtrader-symbol-directory",
@@ -178732,6 +178786,24 @@
       "sourceSymbol": "TRX",
       "stooqSymbol": "trx.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TRXS",
+      "name": "Canary Staked TRX ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Canary Staked TRX ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TRXS",
+      "stooqSymbol": "trxs.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
