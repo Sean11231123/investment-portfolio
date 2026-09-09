@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-09-04T12:51:59.672575Z",
-  "count": 2230,
+  "generatedAt": "2026-09-09T13:05:32.397083Z",
+  "count": 2231,
   "twseCount": 1220,
-  "tpexOtcCount": 1010,
-  "tpexOtcSourceCount": 1010,
+  "tpexOtcCount": 1011,
+  "tpexOtcSourceCount": 1011,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2230,
+  "metadataEnrichedCount": 2231,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -44383,6 +44383,28 @@
       "board": "main",
       "securityType": "stock",
       "classificationSource": "twse_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "7825",
+      "name": "和亞智慧",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "和亞智慧"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "7825",
+      "isETF": false,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "stock",
+      "classificationSource": "tpex_isin",
       "classificationConfidence": "high"
     },
     {
