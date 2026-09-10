@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-09T13:56:34.638044Z",
-  "count": 11202,
-  "stockCount": 5598,
-  "etfCount": 5604,
+  "generatedAt": "2026-09-10T13:51:14.659238Z",
+  "count": 11218,
+  "stockCount": 5600,
+  "etfCount": 5618,
   "skippedCount": 1991,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -1378,6 +1378,42 @@
       "sourceSymbol": "ACB",
       "stooqSymbol": "acb.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACBE",
+      "name": "Pacer Metaurus Enhanced Core Income Autocallable ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pacer Metaurus Enhanced Core Income Autocallable ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACBE",
+      "stooqSymbol": "acbe.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACBH",
+      "name": "Pacer Metaurus High Income Autocallable ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pacer Metaurus High Income Autocallable ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACBH",
+      "stooqSymbol": "acbh.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -5233,6 +5269,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AIFR",
+      "name": "Defiance Global Foundries ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Global Foundries ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AIFR",
+      "stooqSymbol": "aifr.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AIFU",
       "name": "AIFU Inc. - Class A Ordinary Share",
       "type": "us_stock",
@@ -5392,6 +5446,24 @@
       "sourceSymbol": "AIMD",
       "stooqSymbol": "aimd.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AIMG",
+      "name": "Defiance AI Magnificent 10 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance AI Magnificent 10 ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AIMG",
+      "stooqSymbol": "aimg.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -13420,6 +13492,24 @@
       "sourceSymbol": "ATTR",
       "stooqSymbol": "attr.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ATTT",
+      "name": "Atlas Trinity Tech Limited - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Atlas Trinity Tech Limited - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ATTT",
+      "stooqSymbol": "attt.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -25101,6 +25191,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BRT",
       "stooqSymbol": "brt.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BRTM",
+      "name": "B&R Technology Merger Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "B&R Technology Merger Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BRTM",
+      "stooqSymbol": "brtm.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -39195,6 +39303,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CRAK",
       "stooqSymbol": "crak.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CRAM",
+      "name": "Defiance China Memory ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance China Memory ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CRAM",
+      "stooqSymbol": "cram.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -56206,6 +56332,24 @@
       "sourceSymbol": "EO",
       "stooqSymbol": "eo.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EOCN",
+      "name": "Eocene Ltd. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Eocene Ltd. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EOCN",
+      "stooqSymbol": "eocn.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -75502,24 +75646,6 @@
       "sourceSymbol": "GLL",
       "stooqSymbol": "gll.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "GLMD",
-      "name": "Galmed Pharmaceuticals Ltd. - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Galmed Pharmaceuticals Ltd. - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GLMD",
-      "stooqSymbol": "glmd.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -113593,6 +113719,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MFSD",
+      "name": "MFS Active Short Duration Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MFS Active Short Duration Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MFSD",
+      "stooqSymbol": "mfsd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MFSG",
       "name": "MFS Active Growth ETF",
       "type": "us_etf",
@@ -113661,6 +113805,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MFSV",
       "stooqSymbol": "mfsv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MFSX",
+      "name": "MFS Active Short Muni Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MFS Active Short Muni Bond ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MFSX",
+      "stooqSymbol": "mfsx.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -125253,6 +125415,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NQLT",
       "stooqSymbol": "nqlt.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NRAM",
+      "name": "Yorkville America Next Generation Memory Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Yorkville America Next Generation Memory Index ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NRAM",
+      "stooqSymbol": "nram.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -139082,14 +139262,14 @@
     },
     {
       "symbol": "PMA",
-      "name": "Ming Shing Group Holdings Limited - Ordinary Shares",
+      "name": "PMA Graphene Technology Group Inc. - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Ming Shing Group Holdings Limited - Ordinary Shares"
+        "PMA Graphene Technology Group Inc. - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -148042,24 +148222,6 @@
       "sourceSymbol": "RAVI",
       "stooqSymbol": "ravi.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "RAY",
-      "name": "Raytech Holding Limited - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Raytech Holding Limited - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RAY",
-      "stooqSymbol": "ray.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -170347,6 +170509,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SWRD",
+      "name": "Stewards Inc - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Stewards Inc"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SWRD",
+      "stooqSymbol": "swrd.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SWVL",
       "name": "Swvl Holdings Corp - Ordinary Shares",
       "type": "us_stock",
@@ -186799,6 +186979,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "VEEM",
+      "name": "VanEck MSCI EM Analyst Sentiment ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VanEck MSCI EM Analyst Sentiment ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VEEM",
+      "stooqSymbol": "veem.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "VEEV",
       "name": "Veeva Systems Inc. Class A Common Stock",
       "type": "us_stock",
@@ -186885,6 +187083,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VEGN",
       "stooqSymbol": "vegn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VEGX",
+      "name": "International Vegan Climate ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "International Vegan Climate ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VEGX",
+      "stooqSymbol": "vegx.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -196447,6 +196663,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "XLCD",
+      "name": "MicroSectors -3x Short Communication Services (XLC) ETNs",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors -3x Short Communication Services (XLC) ETNs"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XLCD",
+      "stooqSymbol": "xlcd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "XLCI",
       "name": "State Street Communication Services Select Sector SPDR Premium Income ETF",
       "type": "us_etf",
@@ -196461,6 +196695,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XLCI",
       "stooqSymbol": "xlci.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XLCU",
+      "name": "MicroSectors 3x Long Communication Services (XLC) ETNs",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors 3x Long Communication Services (XLC) ETNs"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XLCU",
+      "stooqSymbol": "xlcu.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -196731,6 +196983,42 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XLP",
       "stooqSymbol": "xlp.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XLPD",
+      "name": "MicroSectors -3x Short Consumer Staples (XLP) ETNs",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors -3x Short Consumer Staples (XLP) ETNs"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XLPD",
+      "stooqSymbol": "xlpd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XLPU",
+      "name": "MicroSectors 3x Long Consumer Staples (XLP) ETNs",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors 3x Long Consumer Staples (XLP) ETNs"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XLPU",
+      "stooqSymbol": "xlpu.us",
       "isETF": true,
       "dataQuality": "generated"
     },
