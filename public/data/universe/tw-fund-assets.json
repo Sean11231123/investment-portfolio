@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T13:07:14.286Z",
+  "generatedAt": "2026-09-10T13:03:57.505Z",
   "source": "SITCA",
   "sourceUrl": "https://www.sitca.org.tw/MemberK0000/F/03/nav.csv",
   "market": "TW",
   "segment": "domestic_fund",
-  "count": 2061,
+  "count": 2065,
   "assets": [
     {
       "symbol": "TW_FUND_00512527_TWD_AH22_00957B",
@@ -29697,6 +29697,98 @@
       "aliases": [
         "野村投信",
         "00685034B"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00722571A_TWD_AJ2_T32BLA",
+      "name": "野村台日優選多重資產基金-累積類型新臺幣計價",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIOHU",
+      "fundCode": "DIOHU",
+      "fundTaxId": "00722571A",
+      "issuer": "野村投信",
+      "fundTypeCode": "AJ2",
+      "beneficiaryCertificateCode": "T32BLA",
+      "aliases": [
+        "野村投信",
+        "00722571A"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00722571B_TWD_AJ2_T32BLB",
+      "name": "野村台日優選多重資產基金-月配類型新臺幣計價",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIOHV",
+      "fundCode": "DIOHV",
+      "fundTaxId": "00722571B",
+      "issuer": "野村投信",
+      "fundTypeCode": "AJ2",
+      "beneficiaryCertificateCode": "T32BLB",
+      "aliases": [
+        "野村投信",
+        "00722571B"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00722571C_TWD_AJ2_T32BLC",
+      "name": "野村台日優選多重資產基金-累積N類型新臺幣計價",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIOHW",
+      "fundCode": "DIOHW",
+      "fundTaxId": "00722571C",
+      "issuer": "野村投信",
+      "fundTypeCode": "AJ2",
+      "beneficiaryCertificateCode": "T32BLC",
+      "aliases": [
+        "野村投信",
+        "00722571C"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00722571D_TWD_AJ2_T32BLD",
+      "name": "野村台日優選多重資產基金-月配N類型新臺幣計價",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIOHX",
+      "fundCode": "DIOHX",
+      "fundTaxId": "00722571D",
+      "issuer": "野村投信",
+      "fundTypeCode": "AJ2",
+      "beneficiaryCertificateCode": "T32BLD",
+      "aliases": [
+        "野村投信",
+        "00722571D"
       ],
       "dataQuality": "generated"
     },
