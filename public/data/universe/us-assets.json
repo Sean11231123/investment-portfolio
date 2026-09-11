@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-10T13:51:14.659238Z",
-  "count": 11218,
-  "stockCount": 5600,
-  "etfCount": 5618,
-  "skippedCount": 1991,
+  "generatedAt": "2026-09-11T13:50:47.094044Z",
+  "count": 11221,
+  "stockCount": 5601,
+  "etfCount": 5620,
+  "skippedCount": 1993,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -73579,6 +73579,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GEMQ",
+      "name": "Goldman Sachs Data Enhanced Emerging Markets Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Goldman Sachs Data Enhanced Emerging Markets Equity ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GEMQ",
+      "stooqSymbol": "gemq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GEN",
       "name": "Gen Digital Inc. - Common Stock",
       "type": "us_stock",
@@ -83079,6 +83097,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "HLP",
       "stooqSymbol": "hlp.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HLSQ",
+      "name": "Tessera Defense and Homeland Security Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tessera Defense and Homeland Security Inc. Common Stock"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HLSQ",
+      "stooqSymbol": "hlsq.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -115375,6 +115411,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MLCC",
+      "name": "Global X MLCC & Electronic Components ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Global X MLCC & Electronic Components ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MLCC",
+      "stooqSymbol": "mlcc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MLCI",
       "name": "Mount Logan Capital Inc. - Common Stock",
       "type": "us_stock",
@@ -129397,6 +129451,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "OCLT",
+      "name": "OceanLight Acquisition Corporation - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "OceanLight Acquisition Corporation - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OCLT",
+      "stooqSymbol": "oclt.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "OCNL",
       "name": "T-REX 2X Long DOCN Daily Target ETF",
       "type": "us_etf",
@@ -137403,24 +137475,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PHG",
       "stooqSymbol": "phg.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PHGE",
-      "name": "BiomX Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "BiomX Inc. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PHGE",
-      "stooqSymbol": "phge.us",
       "isETF": false,
       "dataQuality": "generated"
     },
