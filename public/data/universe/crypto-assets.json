@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-09-09T14:37:29.787262Z",
+  "generatedAt": "2026-09-11T14:27:11.889516Z",
   "count": 479,
   "binanceCount": 479,
   "coingeckoMatchedCount": 300,
-  "ambiguousCount": 167,
+  "ambiguousCount": 169,
   "skippedCount": 3219,
   "assets": [
     {
@@ -2040,19 +2040,20 @@
     },
     {
       "symbol": "CRMB",
-      "name": "CRMB",
+      "name": "Salesforce (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "CRMB"
+        "Salesforce (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "CRMBUSDT",
       "binanceSymbol": "CRMBUSDT",
+      "coingeckoId": "salesforce-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -3432,19 +3433,20 @@
     },
     {
       "symbol": "HIMSB",
-      "name": "HIMSB",
+      "name": "Hims & Hers (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "HIMSB"
+        "Hims & Hers (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "HIMSBUSDT",
       "binanceSymbol": "HIMSBUSDT",
+      "coingeckoId": "hims-hers-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -6063,7 +6065,7 @@
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
         "RE"
       ],
@@ -6071,7 +6073,6 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "REUSDT",
       "binanceSymbol": "REUSDT",
-      "coingeckoId": "re",
       "dataQuality": "generated"
     },
     {
@@ -6289,20 +6290,19 @@
     },
     {
       "symbol": "RPL",
-      "name": "Rocket Pool",
+      "name": "RPL",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
-        "Rocket Pool"
+        "RPL"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "RPLUSDT",
       "binanceSymbol": "RPLUSDT",
-      "coingeckoId": "rocket-pool",
       "dataQuality": "generated"
     },
     {
