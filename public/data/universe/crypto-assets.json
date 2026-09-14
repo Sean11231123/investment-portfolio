@@ -2,9 +2,9 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-09-11T14:27:11.889516Z",
-  "count": 479,
-  "binanceCount": 479,
+  "generatedAt": "2026-09-14T16:22:24.350516Z",
+  "count": 480,
+  "binanceCount": 480,
   "coingeckoMatchedCount": 300,
   "ambiguousCount": 169,
   "skippedCount": 3219,
@@ -1488,6 +1488,23 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "BNBUSDT",
       "binanceSymbol": "BNBUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BNCB",
+      "name": "BNCB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BNCB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BNCBUSDT",
+      "binanceSymbol": "BNCBUSDT",
       "dataQuality": "generated"
     },
     {
