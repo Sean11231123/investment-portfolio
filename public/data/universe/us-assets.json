@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-11T13:50:47.094044Z",
-  "count": 11221,
-  "stockCount": 5601,
-  "etfCount": 5620,
-  "skippedCount": 1993,
+  "generatedAt": "2026-09-14T16:00:08.978704Z",
+  "count": 11223,
+  "stockCount": 5602,
+  "etfCount": 5621,
+  "skippedCount": 1997,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -1090,6 +1090,24 @@
       "sourceSymbol": "ABNB",
       "stooqSymbol": "abnb.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ABND",
+      "name": "American Century Core Plus Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "American Century Core Plus Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ABND",
+      "stooqSymbol": "abnd.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -3898,6 +3916,42 @@
       "sourceSymbol": "AFCG",
       "stooqSymbol": "afcg.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AFDM",
+      "name": "First Trust Active Factor International ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "First Trust Active Factor International ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AFDM",
+      "stooqSymbol": "afdm.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AFEM",
+      "name": "First Trust Active Factor Emerging Markets ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "First Trust Active Factor Emerging Markets ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AFEM",
+      "stooqSymbol": "afem.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -12897,24 +12951,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ASYS",
       "stooqSymbol": "asys.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ATAI",
-      "name": "AtaiBeckley Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "AtaiBeckley Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ATAI",
-      "stooqSymbol": "atai.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -27589,6 +27625,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BURU",
+      "name": "Nuburu, Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Nuburu, Inc. Common Stock"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BURU",
+      "stooqSymbol": "buru.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BUSA",
       "name": "Brandes U.S. Value ETF",
       "type": "us_etf",
@@ -29372,14 +29426,14 @@
     },
     {
       "symbol": "CAPA",
-      "name": "Defiance AI Capacitors Leaders ETF",
+      "name": "Defiance AI Capacitors & MLCC ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Defiance AI Capacitors Leaders ETF"
+        "Defiance AI Capacitors & MLCC ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -48505,6 +48559,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DMXU",
+      "name": "Xtrackers Bloomberg Developed Markets ex US Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Xtrackers Bloomberg Developed Markets ex US Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DMXU",
+      "stooqSymbol": "dmxu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DNA",
       "name": "Ginkgo Bioworks Holdings, Inc. Class A Common Stock",
       "type": "us_stock",
@@ -51849,24 +51921,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "EART",
       "stooqSymbol": "eart.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "EASG",
-      "name": "Xtrackers MSCI EAFE Selection Equity ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Xtrackers MSCI EAFE Selection Equity ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EASG",
-      "stooqSymbol": "easg.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -71024,14 +71078,14 @@
     },
     {
       "symbol": "FUSI",
-      "name": "American Century Multisector Floating Income ETF",
+      "name": "American Century Ultrashort Income ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "American Century Multisector Floating Income ETF"
+        "American Century Ultrashort Income ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -86180,14 +86234,14 @@
     },
     {
       "symbol": "HYSA",
-      "name": "BondBloxx USD High Yield Bond Sector Rotation ETF",
+      "name": "BondBloxx High Yield Income ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "BondBloxx USD High Yield Bond Sector Rotation ETF"
+        "BondBloxx High Yield Income ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -101642,16 +101696,16 @@
     },
     {
       "symbol": "KHC",
-      "name": "The Kraft Heinz Company - Common Stock",
+      "name": "The Kraft Heinz Company Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "The Kraft Heinz Company"
+        "The Kraft Heinz Company Common Stock"
       ],
-      "exchange": "NASDAQ",
+      "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "KHC",
       "stooqSymbol": "khc.us",
@@ -119745,24 +119799,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MUSE",
       "stooqSymbol": "muse.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MUSI",
-      "name": "American Century Multisector Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "American Century Multisector Income ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MUSI",
-      "stooqSymbol": "musi.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -140954,14 +140990,14 @@
     },
     {
       "symbol": "PRAE",
-      "name": "PlanRock Alternative Growth ETF",
+      "name": "PlanRock Equity Plus Alternatives ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "PlanRock Alternative Growth ETF"
+        "PlanRock Equity Plus Alternatives ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -150309,42 +150345,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "RFDA",
       "stooqSymbol": "rfda.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "RFDI",
-      "name": "First Trust RiverFront Dynamic Developed International ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "First Trust RiverFront Dynamic Developed International ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RFDI",
-      "stooqSymbol": "rfdi.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "RFEM",
-      "name": "First Trust RiverFront Dynamic Emerging Markets ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "First Trust RiverFront Dynamic Emerging Markets ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RFEM",
-      "stooqSymbol": "rfem.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -173731,6 +173731,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TEVA",
+      "name": "Teva Pharmaceutical Industries Limited Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Teva Pharmaceutical Industries Limited Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TEVA",
+      "stooqSymbol": "teva.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TEX",
       "name": "Terex Corporation Common Stock",
       "type": "us_stock",
@@ -175384,6 +175402,24 @@
       "sourceSymbol": "TITN",
       "stooqSymbol": "titn.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TIZE",
+      "name": "TCW Securitized Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "TCW Securitized Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TIZE",
+      "stooqSymbol": "tize.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
