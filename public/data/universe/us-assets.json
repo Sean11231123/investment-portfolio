@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-14T16:00:08.978704Z",
-  "count": 11223,
-  "stockCount": 5602,
-  "etfCount": 5621,
+  "generatedAt": "2026-09-15T14:28:58.703356Z",
+  "count": 11240,
+  "stockCount": 5603,
+  "etfCount": 5637,
   "skippedCount": 1997,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -12952,6 +12952,24 @@
       "sourceSymbol": "ASYS",
       "stooqSymbol": "asys.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AT",
+      "name": "Defiance Robotics Actuators ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance Robotics Actuators ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AT",
+      "stooqSymbol": "at.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -40765,6 +40783,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CSEP",
+      "name": "Corgi U.S. Equities 15% Structured Buffer ETF - September Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 15% Structured Buffer ETF - September Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CSEP",
+      "stooqSymbol": "csep.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CSEX",
       "name": "Tradr 2X Long CLS Daily ETF",
       "type": "us_etf",
@@ -41716,6 +41752,24 @@
       "sourceSymbol": "CTS",
       "stooqSymbol": "cts.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CTSE",
+      "name": "Corgi U.S. Equities 30% Structured Buffer ETF - September Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 30% Structured Buffer ETF - September Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CTSE",
+      "stooqSymbol": "ctse.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -55791,6 +55845,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "EMSC",
       "stooqSymbol": "emsc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EMSE",
+      "name": "Corgi Emerging Markets Equities 15% Structured Buffer ETF - September Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Emerging Markets Equities 15% Structured Buffer ETF - September Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EMSE",
+      "stooqSymbol": "emse.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -84523,6 +84595,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HSEP",
+      "name": "Corgi U.S. Equities 100% Structured Buffer ETF - September Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 100% Structured Buffer ETF - September Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HSEP",
+      "stooqSymbol": "hsep.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HSHP",
       "name": "Himalaya Shipping Ltd. Common Shares",
       "type": "us_stock",
@@ -88983,6 +89073,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IDRV",
       "stooqSymbol": "idrv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IDSE",
+      "name": "Corgi International Developed Equities 15% Structured Buffer ETF - September Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi International Developed Equities 15% Structured Buffer ETF - September Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IDSE",
+      "stooqSymbol": "idse.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -100975,6 +101083,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "KCHP",
+      "name": "KICK Korea Semiconductor Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "KICK Korea Semiconductor Index ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KCHP",
+      "stooqSymbol": "kchp.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "KCHV",
       "name": "Kochav Defense Acquisition Corp. - Class A Ordinary Shares",
       "type": "us_stock",
@@ -108513,6 +108639,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LPRE",
       "stooqSymbol": "lpre.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LPSV",
+      "name": "Lone Peak SMID Value ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Lone Peak SMID Value ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LPSV",
+      "stooqSymbol": "lpsv.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -126859,6 +127003,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NUIB",
+      "name": "Nuveen Impact Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Nuveen Impact Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NUIB",
+      "stooqSymbol": "nuib.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NUIF",
       "name": "Nuveen US Infrastructure ETF",
       "type": "us_etf",
@@ -135711,6 +135873,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PCOV",
       "stooqSymbol": "pcov.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PCPC",
+      "name": "Porter & Company Property & Casualty Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Porter & Company Property & Casualty Index ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PCPC",
+      "stooqSymbol": "pcpc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -146731,6 +146911,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "QQSE",
+      "name": "Corgi Growth & Technology 15% Structured Buffer ETF - September Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Growth & Technology 15% Structured Buffer ETF - September Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QQSE",
+      "stooqSymbol": "qqse.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "QQUP",
       "name": "ProShares Ultra QQQ Mega",
       "type": "us_etf",
@@ -146890,6 +147088,24 @@
       "sourceSymbol": "QS",
       "stooqSymbol": "qs.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QSE",
+      "name": "Corgi Growth & Technology 10% Structured Buffer ETF - September Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Growth & Technology 10% Structured Buffer ETF - September Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QSE",
+      "stooqSymbol": "qse.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -152329,6 +152545,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RNAQ",
+      "name": "Rainier Acquisition Corporation - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Rainier Acquisition Corporation - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RNAQ",
+      "stooqSymbol": "rnaq.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RNAZ",
       "name": "TransCode Therapeutics, Inc. - Common Stock",
       "type": "us_stock",
@@ -155659,6 +155893,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SALI",
+      "name": "Schroders US Autocallable Ladder Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Schroders US Autocallable Ladder Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SALI",
+      "stooqSymbol": "sali.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SAM",
       "name": "Boston Beer Company, Inc. (The) Common Stock",
       "type": "us_stock",
@@ -157477,6 +157729,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SCSE",
+      "name": "Corgi U.S. Small-Cap 15% Structured Buffer ETF - September Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Small-Cap 15% Structured Buffer ETF - September Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SCSE",
+      "stooqSymbol": "scse.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SCTX",
       "name": "Scribe Therapeutics Inc. - Common Stock",
       "type": "us_stock",
@@ -158662,6 +158932,24 @@
       "sourceSymbol": "SENS",
       "stooqSymbol": "sens.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SEPC",
+      "name": "Corgi U.S. Equities 10% Structured Buffer ETF - September Series",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi U.S. Equities 10% Structured Buffer ETF - September Series"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SEPC",
+      "stooqSymbol": "sepc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -199035,6 +199323,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XUDV",
       "stooqSymbol": "xudv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XUSM",
+      "name": "MarketDesk International Momentum ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MarketDesk International Momentum ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XUSM",
+      "stooqSymbol": "xusm.us",
       "isETF": true,
       "dataQuality": "generated"
     },
