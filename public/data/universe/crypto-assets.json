@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-09-15T15:01:59.321226Z",
-  "count": 480,
-  "binanceCount": 480,
-  "coingeckoMatchedCount": 300,
+  "generatedAt": "2026-09-16T14:59:23.110850Z",
+  "count": 482,
+  "binanceCount": 482,
+  "coingeckoMatchedCount": 303,
   "ambiguousCount": 169,
-  "skippedCount": 3219,
+  "skippedCount": 3223,
   "assets": [
     {
       "symbol": "0G",
@@ -1492,19 +1492,20 @@
     },
     {
       "symbol": "BNCB",
-      "name": "BNCB",
+      "name": "CEA Industries (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "BNCB"
+        "CEA Industries (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "BNCBUSDT",
       "binanceSymbol": "BNCBUSDT",
+      "coingeckoId": "cea-industries-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -3268,6 +3269,24 @@
       "sourceSymbol": "GOOGLBUSDT",
       "binanceSymbol": "GOOGLBUSDT",
       "coingeckoId": "alphabet-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GPROB",
+      "name": "GoPro (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "GoPro (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "GPROBUSDT",
+      "binanceSymbol": "GPROBUSDT",
+      "coingeckoId": "gopro-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -6073,6 +6092,24 @@
       "sourceSymbol": "RAYUSDT",
       "binanceSymbol": "RAYUSDT",
       "coingeckoId": "raydium",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RDDTB",
+      "name": "Reddit (bStocks Tokenized Stock)",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "Reddit (bStocks Tokenized Stock)"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RDDTBUSDT",
+      "binanceSymbol": "RDDTBUSDT",
+      "coingeckoId": "reddit-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
