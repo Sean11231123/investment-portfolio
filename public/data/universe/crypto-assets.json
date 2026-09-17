@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-09-16T14:59:23.110850Z",
+  "generatedAt": "2026-09-17T15:01:52.132398Z",
   "count": 482,
   "binanceCount": 482,
-  "coingeckoMatchedCount": 303,
-  "ambiguousCount": 169,
+  "coingeckoMatchedCount": 304,
+  "ambiguousCount": 168,
   "skippedCount": 3223,
   "assets": [
     {
@@ -5955,19 +5955,20 @@
     },
     {
       "symbol": "QNT",
-      "name": "QNT",
+      "name": "Quant",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "QNT"
+        "Quant"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "QNTUSDT",
       "binanceSymbol": "QNTUSDT",
+      "coingeckoId": "quant-network",
       "dataQuality": "generated"
     },
     {
