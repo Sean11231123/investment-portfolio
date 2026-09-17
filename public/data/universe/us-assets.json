@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-16T14:22:07.089169Z",
-  "count": 11245,
-  "stockCount": 5603,
-  "etfCount": 5642,
-  "skippedCount": 1996,
+  "generatedAt": "2026-09-17T14:27:39.843127Z",
+  "count": 11254,
+  "stockCount": 5605,
+  "etfCount": 5649,
+  "skippedCount": 1999,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -9333,24 +9333,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ANVS",
       "stooqSymbol": "anvs.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ANY",
-      "name": "Sphere 3D Corp. - Common Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Sphere 3D Corp. - Common Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ANY",
-      "stooqSymbol": "any.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -26618,14 +26600,14 @@
     },
     {
       "symbol": "BTCC",
-      "name": "Grayscale Bitcoin Covered Call ETF",
+      "name": "Grayscale Bitcoin High Income ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Grayscale Bitcoin Covered Call ETF"
+        "Grayscale Bitcoin High Income ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -29983,6 +29965,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CATL",
+      "name": "Catalyst Acquisition Corp. - Class A Ordinary Share",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Catalyst Acquisition Corp. - Class A Ordinary Share"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CATL",
+      "stooqSymbol": "catl.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CATO",
       "name": "Cato Corporation (The) Class A Common Stock",
       "type": "us_stock",
@@ -32986,6 +32986,24 @@
       "sourceSymbol": "CGEN",
       "stooqSymbol": "cgen.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CGFS",
+      "name": "CG Flagship Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "CG Flagship Equity ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CGFS",
+      "stooqSymbol": "cgfs.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -49639,6 +49657,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DRK",
+      "name": "DarkHorse Technologies Inc. - Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "DarkHorse Technologies Inc. - Common Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DRK",
+      "stooqSymbol": "drk.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DRKY",
       "name": "VistaShares Target 15 DRUKMacro Distribution ETF",
       "type": "us_etf",
@@ -58334,14 +58370,14 @@
     },
     {
       "symbol": "ETCO",
-      "name": "Grayscale Ethereum Covered Call ETF",
+      "name": "Grayscale Ethereum High Income ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Grayscale Ethereum Covered Call ETF"
+        "Grayscale Ethereum High Income ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -85261,6 +85297,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HUMM",
+      "name": "800VDC AI Datacenter Ecosystem ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "800VDC AI Datacenter Ecosystem ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HUMM",
+      "stooqSymbol": "humm.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HUMN",
       "name": "Roundhill Humanoid Robotics ETF",
       "type": "us_etf",
@@ -101750,14 +101804,14 @@
     },
     {
       "symbol": "KFII",
-      "name": "K - Class A Ordinary shares",
+      "name": "K&F Growth Acquisition Corp. II - Class A Ordinary shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "K - Class A Ordinary shares"
+        "K&F Growth Acquisition Corp. II - Class A Ordinary shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -116563,6 +116617,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MNGZ",
+      "name": "Yorkville America 2X Long MANGOS Plus Daily Target ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Yorkville America 2X Long MANGOS Plus Daily Target ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MNGZ",
+      "stooqSymbol": "mngz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MNKD",
       "name": "MannKind Corporation - Common Stock",
       "type": "us_stock",
@@ -119043,6 +119115,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MTA",
       "stooqSymbol": "mta.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MTAK",
+      "name": "Market Technology Acquisition Corp - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Market Technology Acquisition Corp - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MTAK",
+      "stooqSymbol": "mtak.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -144157,6 +144247,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PWRX",
+      "name": "Westwood Salient Enhanced Power & Infrastructure ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Westwood Salient Enhanced Power & Infrastructure ETF"
+      ],
+      "exchange": "US",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PWRX",
+      "stooqSymbol": "pwrx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PWRZ",
       "name": "TrueShares Eagle Global Renewable Energy Income ETF",
       "type": "us_etf",
@@ -151659,24 +151767,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "RITM",
       "stooqSymbol": "ritm.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "RITR",
-      "name": "Reitar Logtech Holdings Limited - Ordinary shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Reitar Logtech Holdings Limited - Ordinary shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RITR",
-      "stooqSymbol": "ritr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -173065,6 +173155,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TDNA",
+      "name": "T. Rowe Price Biotech ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T. Rowe Price Biotech ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TDNA",
+      "stooqSymbol": "tdna.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TDOC",
       "name": "Teladoc Health, Inc. Common Stock",
       "type": "us_stock",
@@ -176035,6 +176143,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TLAC",
+      "name": "Three Lions Acquisition Corp. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Three Lions Acquisition Corp. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TLAC",
+      "stooqSymbol": "tlac.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TLCI",
       "name": "Touchstone International Equity ETF",
       "type": "us_etf",
@@ -176787,6 +176913,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TMH",
       "stooqSymbol": "tmh.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TMID",
+      "name": "T. Rowe Price Mid Cap Equity Research ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T. Rowe Price Mid Cap Equity Research ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TMID",
+      "stooqSymbol": "tmid.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -179577,6 +179721,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TSEC",
       "stooqSymbol": "tsec.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TSEE",
+      "name": "T. Rowe Price Small Cap ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T. Rowe Price Small Cap ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TSEE",
+      "stooqSymbol": "tsee.us",
       "isETF": true,
       "dataQuality": "generated"
     },
