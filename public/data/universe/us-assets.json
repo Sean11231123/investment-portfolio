@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-17T14:27:39.843127Z",
-  "count": 11254,
-  "stockCount": 5605,
-  "etfCount": 5649,
-  "skippedCount": 1999,
+  "generatedAt": "2026-09-18T13:52:51.760783Z",
+  "count": 11257,
+  "stockCount": 5607,
+  "etfCount": 5650,
+  "skippedCount": 2001,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -12718,6 +12718,24 @@
       "sourceSymbol": "ASST",
       "stooqSymbol": "asst.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ASSX",
+      "name": "T-REX 2X Long ASST Daily Target ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T-REX 2X Long ASST Daily Target ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ASSX",
+      "stooqSymbol": "assx.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -58747,6 +58765,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ETRA",
+      "name": "Electra Therapeutics, Inc. - Common stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Electra Therapeutics, Inc. - Common stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ETRA",
+      "stooqSymbol": "etra.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ETS",
       "name": "Elite Express Holding Inc. - Class A Common Stock",
       "type": "us_stock",
@@ -71510,14 +71546,14 @@
     },
     {
       "symbol": "FWONA",
-      "name": "Liberty Media Corporation - Series A Liberty Formula One Common Stock",
+      "name": "Liberty Media Corporation - Series A Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Liberty Media Corporation - Series A Liberty Formula One Common Stock"
+        "Liberty Media Corporation - Series A Common Stock"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -71528,14 +71564,14 @@
     },
     {
       "symbol": "FWONK",
-      "name": "Liberty Media Corporation - Series C Liberty Formula One Common Stock",
+      "name": "Liberty Media Corporation - Series C Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Liberty Media Corporation - Series C Liberty Formula One Common Stock"
+        "Liberty Media Corporation - Series C Common Stock"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -81535,24 +81571,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "HCWC",
-      "name": "Healthy Choice Wellness Corp. Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Healthy Choice Wellness Corp. Class A Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HCWC",
-      "stooqSymbol": "hcwc.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "HD",
       "name": "Home Depot, Inc. (The) Common Stock",
       "type": "us_stock",
@@ -84033,6 +84051,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "HOS",
       "stooqSymbol": "hos.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HOST",
+      "name": "Host Digital Inc. Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Host Digital Inc. Class A Common Stock"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HOST",
+      "stooqSymbol": "host.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -91031,7 +91067,7 @@
       "aliases": [
         "Brookmont Catastrophic Bond ETF"
       ],
-      "exchange": "NYSEARCA",
+      "exchange": "US",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ILS",
       "stooqSymbol": "ils.us",
@@ -130693,6 +130729,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "OIG",
+      "name": "Orion180 Insurance Group Inc. - Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Orion180 Insurance Group Inc. - Class A Common Stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OIG",
+      "stooqSymbol": "oig.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "OIH",
       "name": "VanEck Oil Services ETF",
       "type": "us_etf",
@@ -165055,24 +165109,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SNYR",
-      "name": "Synergy CHC Corp. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Synergy CHC Corp."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SNYR",
-      "stooqSymbol": "snyr.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SO",
       "name": "Southern Company (The) Common Stock",
       "type": "us_stock",
@@ -197002,6 +197038,24 @@
       "sourceSymbol": "XIGV",
       "stooqSymbol": "xigv.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XIII",
+      "name": "Churchill Capital Corp XIII - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Churchill Capital Corp XIII - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XIII",
+      "stooqSymbol": "xiii.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
