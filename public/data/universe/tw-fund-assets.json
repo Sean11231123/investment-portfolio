@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T13:45:56.754Z",
+  "generatedAt": "2026-09-18T13:06:51.129Z",
   "source": "SITCA",
   "sourceUrl": "https://www.sitca.org.tw/MemberK0000/F/03/nav.csv",
   "market": "TW",
   "segment": "domestic_fund",
-  "count": 2067,
+  "count": 2066,
   "assets": [
     {
       "symbol": "TW_FUND_00512527_TWD_AH22_00957B",
@@ -974,98 +974,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TW_FUND_88342220A_TWD_AG_T0134A",
-      "name": "兆豐新加坡交易所房地產收益基金-新台幣-累積型",
-      "type": "taiwan_fund",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "單位",
-      "priceSource": "fund_nav_tw",
-      "exchange": "SITCA",
-      "marketSegment": "fund",
-      "source": "sitca-nav",
-      "sourceSymbol": "DIO78",
-      "fundCode": "DIO78",
-      "fundTaxId": "88342220A",
-      "issuer": "兆豐投信",
-      "fundTypeCode": "AG",
-      "beneficiaryCertificateCode": "T0134A",
-      "aliases": [
-        "兆豐投信",
-        "88342220A"
-      ],
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TW_FUND_88342220B_TWD_AG_T0134B",
-      "name": "兆豐新加坡交易所房地產收益基金-新台幣-配息型",
-      "type": "taiwan_fund",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "單位",
-      "priceSource": "fund_nav_tw",
-      "exchange": "SITCA",
-      "marketSegment": "fund",
-      "source": "sitca-nav",
-      "sourceSymbol": "DIO79",
-      "fundCode": "DIO79",
-      "fundTaxId": "88342220B",
-      "issuer": "兆豐投信",
-      "fundTypeCode": "AG",
-      "beneficiaryCertificateCode": "T0134B",
-      "aliases": [
-        "兆豐投信",
-        "88342220B"
-      ],
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TW_FUND_88342220C_TWD_AG_T0134C",
-      "name": "兆豐新加坡交易所房地產收益基金-新台幣-後收累積型",
-      "type": "taiwan_fund",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "單位",
-      "priceSource": "fund_nav_tw",
-      "exchange": "SITCA",
-      "marketSegment": "fund",
-      "source": "sitca-nav",
-      "sourceSymbol": "DIO80",
-      "fundCode": "DIO80",
-      "fundTaxId": "88342220C",
-      "issuer": "兆豐投信",
-      "fundTypeCode": "AG",
-      "beneficiaryCertificateCode": "T0134C",
-      "aliases": [
-        "兆豐投信",
-        "88342220C"
-      ],
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TW_FUND_88342220D_TWD_AG_T0134D",
-      "name": "兆豐新加坡交易所房地產收益基金-新台幣-後收配息型",
-      "type": "taiwan_fund",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "單位",
-      "priceSource": "fund_nav_tw",
-      "exchange": "SITCA",
-      "marketSegment": "fund",
-      "source": "sitca-nav",
-      "sourceSymbol": "DIO81",
-      "fundCode": "DIO81",
-      "fundTaxId": "88342220D",
-      "issuer": "兆豐投信",
-      "fundTypeCode": "AG",
-      "beneficiaryCertificateCode": "T0134D",
-      "aliases": [
-        "兆豐投信",
-        "88342220D"
-      ],
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TW_FUND_88351249_TWD_AH11_00921",
       "name": "兆豐台灣產業龍頭存股等權重ETF基金",
       "type": "taiwan_fund",
@@ -1407,6 +1315,75 @@
       "aliases": [
         "第一金投信",
         "00685061"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00724938A_TWD_AJ2_T0368A",
+      "name": "第一金全球動態入息多重資產基金-累積型-新臺幣",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIOC6",
+      "fundCode": "DIOC6",
+      "fundTaxId": "00724938A",
+      "issuer": "第一金投信",
+      "fundTypeCode": "AJ2",
+      "beneficiaryCertificateCode": "T0368A",
+      "aliases": [
+        "第一金投信",
+        "00724938A"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00724938B_TWD_AJ2_T0368B",
+      "name": "第一金全球動態入息多重資產基金-配息型-新臺幣",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIOC7",
+      "fundCode": "DIOC7",
+      "fundTaxId": "00724938B",
+      "issuer": "第一金投信",
+      "fundTypeCode": "AJ2",
+      "beneficiaryCertificateCode": "T0368B",
+      "aliases": [
+        "第一金投信",
+        "00724938B"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00724938E_TWD_AJ2_T0368E",
+      "name": "第一金全球動態入息多重資產基金-配息型-新臺幣-N",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIOD0",
+      "fundCode": "DIOD0",
+      "fundTaxId": "00724938E",
+      "issuer": "第一金投信",
+      "fundTypeCode": "AJ2",
+      "beneficiaryCertificateCode": "T0368E",
+      "aliases": [
+        "第一金投信",
+        "00724938E"
       ],
       "dataQuality": "generated"
     },
