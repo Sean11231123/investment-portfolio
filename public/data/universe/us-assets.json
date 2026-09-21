@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-18T13:52:51.760783Z",
-  "count": 11257,
-  "stockCount": 5607,
-  "etfCount": 5650,
+  "generatedAt": "2026-09-21T16:01:38.333371Z",
+  "count": 11260,
+  "stockCount": 5606,
+  "etfCount": 5654,
   "skippedCount": 2001,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -40747,24 +40747,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CSAN",
-      "name": "Cosan S.A. ADS",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Cosan S.A. ADS"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CSAN",
-      "stooqSymbol": "csan.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CSB",
       "name": "VictoryShares US Small Cap High Div Volatility Wtd ETF",
       "type": "us_etf",
@@ -41392,6 +41374,24 @@
       "sourceSymbol": "CTAA",
       "stooqSymbol": "ctaa.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CTAG",
+      "name": "Calamos Timpani Active SMID Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Calamos Timpani Active SMID Growth ETF"
+      ],
+      "exchange": "US",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CTAG",
+      "stooqSymbol": "ctag.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -49437,6 +49437,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DQJN",
       "stooqSymbol": "dqjn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DQSE",
+      "name": "FT Vest Nasdaq-100 Dual Directional Buffer ETF - September",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest Nasdaq-100 Dual Directional Buffer ETF - September"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DQSE",
+      "stooqSymbol": "dqse.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -146731,6 +146749,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "QQBF",
+      "name": "FT Vest Nasdaq-100 Quarterly 15 Buffer ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest Nasdaq-100 Quarterly 15 Buffer ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QQBF",
+      "stooqSymbol": "qqbf.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "QQDN",
       "name": "ProShares UltraShort QQQ Mega",
       "type": "us_etf",
@@ -158680,6 +158716,24 @@
       "sourceSymbol": "SEB",
       "stooqSymbol": "seb.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SECA",
+      "name": "Main Active Rotation ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Main Active Rotation ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SECA",
+      "stooqSymbol": "seca.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
