@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-21T16:01:38.333371Z",
-  "count": 11260,
+  "generatedAt": "2026-09-22T14:11:50.645456Z",
+  "count": 11261,
   "stockCount": 5606,
-  "etfCount": 5654,
-  "skippedCount": 2001,
+  "etfCount": 5655,
+  "skippedCount": 2000,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -25155,24 +25155,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BROS",
       "stooqSymbol": "bros.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BRR",
-      "name": "ProCap Financial, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ProCap Financial, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BRR",
-      "stooqSymbol": "brr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -56389,6 +56371,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ENRG",
+      "name": "Ninepoint North American Energy Independence ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Ninepoint North American Energy Independence ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ENRG",
+      "stooqSymbol": "enrg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ENS",
       "name": "EnerSys Common Stock",
       "type": "us_stock",
@@ -58384,6 +58384,24 @@
       "sourceSymbol": "ESUM",
       "stooqSymbol": "esum.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ESYN",
+      "name": "EnerSyn Global Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "EnerSyn Global Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ESYN",
+      "stooqSymbol": "esyn.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -73075,6 +73093,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GCPU",
+      "name": "Grayscale AI Compute ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Grayscale AI Compute ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GCPU",
+      "stooqSymbol": "gcpu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GCSH",
       "name": "Guggenheim Ultra Short Income ETF",
       "type": "us_etf",
@@ -85636,24 +85672,6 @@
       "sourceSymbol": "HWGV",
       "stooqSymbol": "hwgv.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "HWH",
-      "name": "HWH International Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "HWH International Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HWH",
-      "stooqSymbol": "hwh.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -106591,24 +106609,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "LGCF",
-      "name": "Themes US Cash Flow Champions ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Themes US Cash Flow Champions ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LGCF",
-      "stooqSymbol": "lgcf.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "LGCL",
       "name": "Lucas GC Limited - Class A Ordinary Shares",
       "type": "us_stock",
@@ -107236,24 +107236,6 @@
       "sourceSymbol": "LIME",
       "stooqSymbol": "lime.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "LIMI",
-      "name": "Themes Lithium & Battery Metal Miners ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Themes Lithium & Battery Metal Miners ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LIMI",
-      "stooqSymbol": "limi.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -116653,6 +116635,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MNGB",
+      "name": "Yorkville America 2X Inverse MANGOS Plus Daily Target ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Yorkville America 2X Inverse MANGOS Plus Daily Target ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MNGB",
+      "stooqSymbol": "mngb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MNGU",
       "name": "MicroSectors 3x Long MANGOS+ ex Private Companies ETNs",
       "type": "us_etf",
@@ -116758,24 +116758,6 @@
       "sourceSymbol": "MNRO",
       "stooqSymbol": "mnro.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MNRS",
-      "name": "Grayscale Bitcoin Miners ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Grayscale Bitcoin Miners ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MNRS",
-      "stooqSymbol": "mnrs.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -124051,24 +124033,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "NHIC",
-      "name": "NewHold Investment Corp III - Class A Ordinary shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "NewHold Investment Corp III - Class A Ordinary shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NHIC",
-      "stooqSymbol": "nhic.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "NHIV",
       "name": "NewHold Investment Corp IV - Class A Ordinary Shares",
       "type": "us_stock",
@@ -128457,6 +128421,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NWBI",
       "stooqSymbol": "nwbi.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NWCL",
+      "name": "newcleo plc - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "newcleo plc - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NWCL",
+      "stooqSymbol": "nwcl.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -146965,6 +146947,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "QQQB",
+      "name": "VistaShares Shield Nasdaq 100 Enhanced Protection ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VistaShares Shield Nasdaq 100 Enhanced Protection ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QQQB",
+      "stooqSymbol": "qqqb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "QQQD",
       "name": "Direxion Daily Magnificent 7 Bear 1X ETF",
       "type": "us_etf",
@@ -163417,24 +163417,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SMCF",
-      "name": "Themes US Small Cap Cash Flow Champions ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Themes US Small Cap Cash Flow Champions ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SMCF",
-      "stooqSymbol": "smcf.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SMCI",
       "name": "Super Micro Computer, Inc. - Common Stock",
       "type": "us_stock",
@@ -170793,6 +170775,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SVCO",
       "stooqSymbol": "svco.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SVIA",
+      "name": "Silvia, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Silvia, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SVIA",
+      "stooqSymbol": "svia.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -189945,6 +189945,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VOO",
       "stooqSymbol": "voo.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VOOB",
+      "name": "VistaShares Shield S&P 500 Enhanced Protection ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VistaShares Shield S&P 500 Enhanced Protection ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VOOB",
+      "stooqSymbol": "voob.us",
       "isETF": true,
       "dataQuality": "generated"
     },
