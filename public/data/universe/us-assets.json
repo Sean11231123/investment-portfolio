@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-22T14:11:50.645456Z",
-  "count": 11261,
-  "stockCount": 5606,
-  "etfCount": 5655,
+  "generatedAt": "2026-09-23T14:27:16.607004Z",
+  "count": 11277,
+  "stockCount": 5605,
+  "etfCount": 5672,
   "skippedCount": 2000,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -5175,6 +5175,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AIBD",
       "stooqSymbol": "aibd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AIBF",
+      "name": "iShares Future AI Beneficiaries ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "iShares Future AI Beneficiaries ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AIBF",
+      "stooqSymbol": "aibf.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -33868,6 +33886,24 @@
       "sourceSymbol": "CHI",
       "stooqSymbol": "chi.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CHIP",
+      "name": "REX AI Chipmaking ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "REX AI Chipmaking ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CHIP",
+      "stooqSymbol": "chip.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -93038,14 +93074,14 @@
     },
     {
       "symbol": "INVE",
-      "name": "Identiv, Inc. - Common Stock",
+      "name": "INVE Technologies, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Identiv, Inc."
+        "INVE Technologies, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -120883,6 +120919,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MYCP",
+      "name": "State Street My2036 Corporate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "State Street My2036 Corporate Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MYCP",
+      "stooqSymbol": "mycp.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MYE",
       "name": "Myers Industries, Inc. Common Stock",
       "type": "us_stock",
@@ -121027,6 +121081,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MYHF",
+      "name": "State Street My2032 High Yield Corporate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "State Street My2032 High Yield Corporate Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MYHF",
+      "stooqSymbol": "myhf.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MYI",
       "name": "Blackrock MuniYield Quality Fund III, Inc Common Stock",
       "type": "us_stock",
@@ -121167,6 +121239,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MYMK",
       "stooqSymbol": "mymk.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MYML",
+      "name": "State Street My2032 Municipal Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "State Street My2032 Municipal Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MYML",
+      "stooqSymbol": "myml.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -123040,6 +123130,24 @@
       "sourceSymbol": "NECB",
       "stooqSymbol": "necb.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NECK",
+      "name": "xETFs AI Bottlenecks ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "xETFs AI Bottlenecks ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NECK",
+      "stooqSymbol": "neck.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -139459,24 +139567,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "PLTS",
-      "name": "Platinum Analytics Cayman Limited - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Platinum Analytics Cayman Limited - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PLTS",
-      "stooqSymbol": "plts.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "PLTU",
       "name": "Direxion Daily PLTR Bull 2X ETF",
       "type": "us_etf",
@@ -146817,6 +146907,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "QQHG",
       "stooqSymbol": "qqhg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QQI",
+      "name": "Invesco Nasdaq International Innovators 100 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Invesco Nasdaq International Innovators 100 ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QQI",
+      "stooqSymbol": "qqi.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -181651,6 +181759,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TXCA",
+      "name": "Northern Trust California Intermediate Tax-Exempt Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Northern Trust California Intermediate Tax-Exempt Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TXCA",
+      "stooqSymbol": "txca.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TXG",
       "name": "10x Genomics, Inc. - Common Stock",
       "type": "us_stock",
@@ -181737,6 +181863,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TXNU",
       "stooqSymbol": "txnu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TXNY",
+      "name": "Northern Trust New York Intermediate Tax-Exempt Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Northern Trust New York Intermediate Tax-Exempt Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TXNY",
+      "stooqSymbol": "txny.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -189463,6 +189607,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "VMHY",
+      "name": "VictoryShares Municipal High Yield ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VictoryShares Municipal High Yield ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VMHY",
+      "stooqSymbol": "vmhy.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "VMI",
       "name": "Valmont Industries, Inc. Common Stock",
       "type": "us_stock",
@@ -189531,6 +189693,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VMSB",
       "stooqSymbol": "vmsb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VMSD",
+      "name": "VictoryShares Short-Duration Municipal ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VictoryShares Short-Duration Municipal ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VMSD",
+      "stooqSymbol": "vmsd.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -199759,6 +199939,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "XVAD",
+      "name": "FT Vest AMD & Target Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest AMD & Target Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XVAD",
+      "stooqSymbol": "xvad.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "XVAP",
       "name": "FT Vest AAPL & Target Income ETF",
       "type": "us_etf",
@@ -199777,6 +199975,78 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "XVAZ",
+      "name": "FT Vest AMZN & Target Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest AMZN & Target Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XVAZ",
+      "stooqSymbol": "xvaz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XVGL",
+      "name": "FT Vest GOOG & Target Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest GOOG & Target Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XVGL",
+      "stooqSymbol": "xvgl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XVMS",
+      "name": "FT Vest MSFT & Target Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest MSFT & Target Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XVMS",
+      "stooqSymbol": "xvms.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XVMT",
+      "name": "FT Vest META & Target Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest META & Target Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XVMT",
+      "stooqSymbol": "xvmt.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "XVNV",
       "name": "FT Vest NVDA & Target Income ETF",
       "type": "us_etf",
@@ -199791,6 +200061,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XVNV",
       "stooqSymbol": "xvnv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XVPT",
+      "name": "FT Vest PLTR & Target Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest PLTR & Target Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XVPT",
+      "stooqSymbol": "xvpt.us",
       "isETF": true,
       "dataQuality": "generated"
     },
