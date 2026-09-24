@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-09-23T15:02:01.026244Z",
+  "generatedAt": "2026-09-24T15:08:17.407877Z",
   "count": 485,
   "binanceCount": 485,
   "coingeckoMatchedCount": 304,
   "ambiguousCount": 168,
-  "skippedCount": 3225,
+  "skippedCount": 3228,
   "assets": [
     {
       "symbol": "0G",
@@ -3660,6 +3660,23 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HYPE",
+      "name": "HYPE",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "HYPE"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "HYPEUSDT",
+      "binanceSymbol": "HYPEUSDT",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HYPER",
       "name": "HYPER",
       "type": "crypto",
@@ -6448,20 +6465,19 @@
     },
     {
       "symbol": "RVN",
-      "name": "Ravencoin",
+      "name": "RVN",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
-        "Ravencoin"
+        "RVN"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "RVNUSDT",
       "binanceSymbol": "RVNUSDT",
-      "coingeckoId": "ravencoin",
       "dataQuality": "generated"
     },
     {
@@ -7279,19 +7295,20 @@
     },
     {
       "symbol": "SYN",
-      "name": "SYN",
+      "name": "Synapse",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "SYN"
+        "Synapse"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "SYNUSDT",
       "binanceSymbol": "SYNUSDT",
+      "coingeckoId": "synapse-2",
       "dataQuality": "generated"
     },
     {
@@ -7783,23 +7800,6 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "USDEUSDT",
       "binanceSymbol": "USDEUSDT",
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "USDP",
-      "name": "USDP",
-      "type": "crypto",
-      "market": "CRYPTO",
-      "currency": "USDT",
-      "unitLabel": "顆",
-      "priceSource": "manual",
-      "aliases": [
-        "USDP"
-      ],
-      "exchange": "BINANCE",
-      "source": "binance-exchangeinfo",
-      "sourceSymbol": "USDPUSDT",
-      "binanceSymbol": "USDPUSDT",
       "dataQuality": "generated"
     },
     {
