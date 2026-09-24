@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-23T14:27:16.607004Z",
-  "count": 11277,
+  "generatedAt": "2026-09-24T14:27:23.868966Z",
+  "count": 11281,
   "stockCount": 5605,
-  "etfCount": 5672,
-  "skippedCount": 2000,
+  "etfCount": 5676,
+  "skippedCount": 2002,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -27049,24 +27049,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BTR",
-      "name": "Beacon Tactical Risk ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Beacon Tactical Risk ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BTR",
-      "stooqSymbol": "btr.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BTRN",
       "name": "Global X Bitcoin Trend Strategy ETF",
       "type": "us_etf",
@@ -49171,24 +49153,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "DOMO",
-      "name": "Domo, Inc. - Class B Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Domo, Inc. - Class B Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DOMO",
-      "stooqSymbol": "domo.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "DON",
       "name": "WisdomTree U.S. MidCap Dividend Fund",
       "type": "us_etf",
@@ -65710,6 +65674,24 @@
       "sourceSymbol": "FJAN",
       "stooqSymbol": "fjan.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FJDI",
+      "name": "ARC Group Securities Acquisition I - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ARC Group Securities Acquisition I - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FJDI",
+      "stooqSymbol": "fjdi.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -85333,6 +85315,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HUCK",
+      "name": "Huckleberry.ai, Inc. - Class B Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Huckleberry.ai, Inc. - Class B Common Stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HUCK",
+      "stooqSymbol": "huck.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HUDI",
       "name": "Huadi International Group Co., Ltd. - Ordinary Shares",
       "type": "us_stock",
@@ -85603,24 +85603,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "HVII",
-      "name": "Hennessy Capital Investment Corp. VII - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Hennessy Capital Investment Corp. VII - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HVII",
-      "stooqSymbol": "hvii.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "HVMC",
       "name": "Highview Merger Corp. - Class A Ordinary Share",
       "type": "us_stock",
@@ -85762,6 +85744,24 @@
       "sourceSymbol": "HWM",
       "stooqSymbol": "hwm.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HWMV",
+      "name": "Hotchkis & Wiley Mid-Cap Value Fund",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hotchkis & Wiley Mid-Cap Value Fund"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HWMV",
+      "stooqSymbol": "hwmv.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -114457,6 +114457,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MGIN",
+      "name": "Man Active Global Infrastructure ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Man Active Global Infrastructure ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MGIN",
+      "stooqSymbol": "mgin.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MGK",
       "name": "Vanguard Morningstar Mega Cap Growth ETF",
       "type": "us_etf",
@@ -131698,6 +131716,24 @@
       "sourceSymbol": "ONEH",
       "stooqSymbol": "oneh.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ONEN",
+      "name": "ONE Nuclear Energy Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ONE Nuclear Energy Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ONEN",
+      "stooqSymbol": "onen.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -172687,24 +172723,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TBPH",
-      "name": "Theravance Biopharma, Inc. - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Theravance Biopharma, Inc. - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TBPH",
-      "stooqSymbol": "tbph.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TBT",
       "name": "ProShares UltraShort Lehman 20 Year Treasury",
       "type": "us_etf",
@@ -176449,6 +176467,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TLIE",
+      "name": "American Beacon The London Company Income Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "American Beacon The London Company Income Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TLIE",
+      "stooqSymbol": "tlie.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TLIH",
       "name": "Ten-League International Holdings Limited - Ordinary Shares",
       "type": "us_stock",
@@ -177957,6 +177993,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TOPW",
       "stooqSymbol": "topw.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TORK",
+      "name": "KraneShares Actuator ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "KraneShares Actuator ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TORK",
+      "stooqSymbol": "tork.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -186796,6 +186850,24 @@
       "sourceSymbol": "VAI",
       "stooqSymbol": "vai.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VAIC",
+      "name": "VegaShares US Equity Autocallable Conservative Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VegaShares US Equity Autocallable Conservative Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VAIC",
+      "stooqSymbol": "vaic.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
