@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-24T14:27:23.868966Z",
-  "count": 11281,
-  "stockCount": 5605,
-  "etfCount": 5676,
+  "generatedAt": "2026-09-25T14:45:03.704631Z",
+  "count": 11286,
+  "stockCount": 5607,
+  "etfCount": 5679,
   "skippedCount": 2002,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -3088,6 +3088,24 @@
       "sourceSymbol": "ADPV",
       "stooqSymbol": "adpv.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ADRX",
+      "name": "ADARx Pharmaceuticals, Inc. - Common stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ADARx Pharmaceuticals, Inc. - Common stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ADRX",
+      "stooqSymbol": "adrx.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -135193,6 +135211,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PBCS",
+      "name": "Portfolio Building Block World Consumer Staples ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Portfolio Building Block World Consumer Staples ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PBCS",
+      "stooqSymbol": "pbcs.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PBD",
       "name": "Invesco Global Clean Energy ETF",
       "type": "us_etf",
@@ -135823,6 +135859,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PBUB",
+      "name": "Portfolio Building Block US Banks ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Portfolio Building Block US Banks ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PBUB",
+      "stooqSymbol": "pbub.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PBUS",
       "name": "Invesco MSCI USA ETF",
       "type": "us_etf",
@@ -135855,6 +135909,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PBW",
       "stooqSymbol": "pbw.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PBWN",
+      "name": "Portfolio Building Block World Ex US Industrials ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Portfolio Building Block World Ex US Industrials ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PBWN",
+      "stooqSymbol": "pbwn.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -140463,6 +140535,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PN",
       "stooqSymbol": "pn.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PNAQ",
+      "name": "Pinnacle Acquisition Corporation Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pinnacle Acquisition Corporation Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PNAQ",
+      "stooqSymbol": "pnaq.us",
       "isETF": false,
       "dataQuality": "generated"
     },
