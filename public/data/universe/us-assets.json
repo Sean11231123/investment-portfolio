@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-25T14:45:03.704631Z",
-  "count": 11286,
+  "generatedAt": "2026-09-28T17:49:21.098291Z",
+  "count": 11288,
   "stockCount": 5607,
-  "etfCount": 5679,
-  "skippedCount": 2002,
+  "etfCount": 5681,
+  "skippedCount": 1994,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -44456,14 +44456,14 @@
     },
     {
       "symbol": "DCOR",
-      "name": "Dimensional US Core Equity 1 ETF",
+      "name": "US Core Equity 1 Portfolio ETF Class Shares",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Dimensional US Core Equity 1 ETF"
+        "US Core Equity 1 Portfolio ETF Class Shares"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -45914,14 +45914,14 @@
     },
     {
       "symbol": "DFAR",
-      "name": "Dimensional US Real Estate ETF",
+      "name": "DFA Real Estate Securities Portfolio ETF Class Shares",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Dimensional US Real Estate ETF"
+        "DFA Real Estate Securities Portfolio ETF Class Shares"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -46580,14 +46580,14 @@
     },
     {
       "symbol": "DFSV",
-      "name": "Dimensional US Small Cap Value ETF",
+      "name": "US Small Cap Value Portfolio ETF Class Shares",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Dimensional US Small Cap Value ETF"
+        "US Small Cap Value Portfolio ETF Class Shares"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -50666,14 +50666,14 @@
     },
     {
       "symbol": "DUHP",
-      "name": "Dimensional US High Profitability ETF",
+      "name": "US High Relative Profitability Portfolio ETF Class Shares",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Dimensional US High Profitability ETF"
+        "US High Relative Profitability Portfolio ETF Class Shares"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -51692,14 +51692,14 @@
     },
     {
       "symbol": "DXUV",
-      "name": "Dimensional US Vector Equity ETF",
+      "name": "US Vector Equity Portfolio ETF Class Shares",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Dimensional US Vector Equity ETF"
+        "US Vector Equity Portfolio ETF Class Shares"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -64525,6 +64525,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FGC",
+      "name": "FG Communities Holdings Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FG Communities Holdings Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FGC",
+      "stooqSymbol": "fgc.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FGD",
       "name": "First Trust DJ Global Select Dividend",
       "type": "us_etf",
@@ -64630,24 +64648,6 @@
       "sourceSymbol": "FGM",
       "stooqSymbol": "fgm.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "FGNX",
-      "name": "FG Nexus Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "FG Nexus Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FGNX",
-      "stooqSymbol": "fgnx.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -77716,6 +77716,24 @@
       "sourceSymbol": "GOVZ",
       "stooqSymbol": "govz.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GOW",
+      "name": "GOWell Energy Technology - Ordinary shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GOWell Energy Technology - Ordinary shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GOW",
+      "stooqSymbol": "gow.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -93667,24 +93685,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "IPEX",
-      "name": "Inflection Point Acquisition Corp. - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Inflection Point Acquisition Corp. - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IPEX",
-      "stooqSymbol": "ipex.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "IPFX",
       "name": "Inflection Point Acquisition Corp. VI - Class A Ordinary Shares",
       "type": "us_stock",
@@ -105598,6 +105598,24 @@
       "sourceSymbol": "LCII",
       "stooqSymbol": "lcii.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LCIV",
+      "name": "Logan Capital International ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Logan Capital International ETF"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LCIV",
+      "stooqSymbol": "lciv.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -137731,6 +137749,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PFRX",
+      "name": "Putnam Focused U.S. Research ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Putnam Focused U.S. Research ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PFRX",
+      "stooqSymbol": "pfrx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PFS",
       "name": "Provident Financial Services, Inc Common Stock",
       "type": "us_stock",
@@ -157207,24 +157243,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SBXD",
-      "name": "SilverBox Corp IV Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "SilverBox Corp IV Class A Ordinary Shares"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SBXD",
-      "stooqSymbol": "sbxd.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SBXE",
       "name": "SilverBox Corp V Class A Ordinary Shares",
       "type": "us_stock",
@@ -175473,6 +175491,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "THRM",
       "stooqSymbol": "thrm.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "THRMV",
+      "name": "Gentherm Inc - Gentherm Inc Common Stock When-Issued",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Gentherm Inc - Gentherm Inc Common Stock When-Issued"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "THRMV",
+      "stooqSymbol": "thrmv.us",
       "isETF": false,
       "dataQuality": "generated"
     },
