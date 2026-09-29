@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-28T17:49:21.098291Z",
-  "count": 11288,
+  "generatedAt": "2026-09-29T16:08:43.104604Z",
+  "count": 11291,
   "stockCount": 5607,
-  "etfCount": 5681,
-  "skippedCount": 1994,
+  "etfCount": 5684,
+  "skippedCount": 1992,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -72841,24 +72841,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "GBTG",
-      "name": "Global Business Travel Group, Inc. Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Global Business Travel Group, Inc. Class A Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GBTG",
-      "stooqSymbol": "gbtg.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "GBUG",
       "name": "Sprott Active Gold & Silver Miners ETF",
       "type": "us_etf",
@@ -88768,6 +88750,24 @@
       "sourceSymbol": "ICMB",
       "stooqSymbol": "icmb.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ICMO",
+      "name": "Symmetry Panoramic International Country Momentum ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Symmetry Panoramic International Country Momentum ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ICMO",
+      "stooqSymbol": "icmo.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -105601,24 +105601,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "LCIV",
-      "name": "Logan Capital International ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Logan Capital International ETF"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LCIV",
-      "stooqSymbol": "lciv.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "LCLG",
       "name": "Logan Capital Large Cap Growth ETF",
       "type": "us_etf",
@@ -110080,6 +110062,24 @@
       "sourceSymbol": "LUMN",
       "stooqSymbol": "lumn.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LUNC",
+      "name": "Longnook Uncommon Compounders ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Longnook Uncommon Compounders ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LUNC",
+      "stooqSymbol": "lunc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -120325,6 +120325,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MUY",
+      "name": "YieldMax MU Option Income Strategy ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "YieldMax MU Option Income Strategy ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MUY",
+      "stooqSymbol": "muy.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MUYY",
       "name": "GraniteShares YieldBOOST MU ETF",
       "type": "us_etf",
@@ -126280,6 +126298,24 @@
       "sourceSymbol": "NRP",
       "stooqSymbol": "nrp.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NRR",
+      "name": "Common Shares of Beneficial Interest of Bitwise NEAR ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Common Shares of Beneficial Interest of Bitwise NEAR ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NRR",
+      "stooqSymbol": "nrr.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -156001,6 +156037,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RZAI",
+      "name": "Roze AI Inc. - Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Roze AI Inc. - Common Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RZAI",
+      "stooqSymbol": "rzai.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RZG",
       "name": "Invesco S&P SmallCap 600 Pure Growth ETF",
       "type": "us_etf",
@@ -178142,14 +178196,14 @@
     },
     {
       "symbol": "TORO",
-      "name": "Toro Corp. - Common stock",
+      "name": "Toro Corp. - Common Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Toro Corp. - Common stock"
+        "Toro Corp. - Common Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
