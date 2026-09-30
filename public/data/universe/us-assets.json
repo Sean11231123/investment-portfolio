@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-29T16:08:43.104604Z",
-  "count": 11291,
-  "stockCount": 5607,
-  "etfCount": 5684,
+  "generatedAt": "2026-09-30T16:05:58.714697Z",
+  "count": 11297,
+  "stockCount": 5606,
+  "etfCount": 5691,
   "skippedCount": 1992,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -1489,6 +1489,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ACCV",
+      "name": "Accelevation Holdings Corp. - Class A ordinary shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Accelevation Holdings Corp. - Class A ordinary shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACCV",
+      "stooqSymbol": "accv.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ACDC",
       "name": "ProFrac Holding Corp. - Class A Common Stock",
       "type": "us_stock",
@@ -1810,6 +1828,24 @@
       "sourceSymbol": "ACIC",
       "stooqSymbol": "acic.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACIG",
+      "name": "Hartford Alpha Capture International Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hartford Alpha Capture International Growth ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACIG",
+      "stooqSymbol": "acig.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -2295,6 +2331,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ACSI",
       "stooqSymbol": "acsi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACSM",
+      "name": "Hartford Alpha Capture SMID Cap ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hartford Alpha Capture SMID Cap ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACSM",
+      "stooqSymbol": "acsm.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -6169,24 +6223,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "AIXC",
-      "name": "AIxCrypto Holdings, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "AIxCrypto Holdings, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AIXC",
-      "stooqSymbol": "aixc.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "AIYY",
       "name": "YieldMax AI Option Income Strategy ETF",
       "type": "us_etf",
@@ -8740,24 +8776,6 @@
       "sourceSymbol": "AMZD",
       "stooqSymbol": "amzd.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "AMZE",
-      "name": "Amaze Holdings, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Amaze Holdings, Inc. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AMZE",
-      "stooqSymbol": "amze.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -14841,6 +14859,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AVMV",
       "stooqSymbol": "avmv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AVNC",
+      "name": "Avantis All International Core Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Avantis All International Core Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AVNC",
+      "stooqSymbol": "avnc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -23324,14 +23360,14 @@
     },
     {
       "symbol": "BNC",
-      "name": "CEA Industries Inc. - Common Stock",
+      "name": "BNB Standard Corporation - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "CEA Industries Inc."
+        "BNB Standard Corporation"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -43951,6 +43987,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DBAR",
+      "name": "IMGP DBI Absolute Return ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "IMGP DBI Absolute Return ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DBAR",
+      "stooqSymbol": "dbar.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DBAW",
       "name": "Xtrackers MSCI All World ex US Hedged Equity ETF",
       "type": "us_etf",
@@ -44272,24 +44326,6 @@
       "sourceSymbol": "DBP",
       "stooqSymbol": "dbp.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DBRG",
-      "name": "DigitalBridge Group, Inc.",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "DigitalBridge Group, Inc."
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DBRG",
-      "stooqSymbol": "dbrg.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -56209,6 +56245,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ENHE",
+      "name": "iShares Enhanced Emerging Markets Active ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "iShares Enhanced Emerging Markets Active ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ENHE",
+      "stooqSymbol": "enhe.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ENHI",
       "name": "iShares Enhanced International Active ETF",
       "type": "us_etf",
@@ -64432,6 +64486,24 @@
       "sourceSymbol": "FFOX",
       "stooqSymbol": "ffox.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FFR",
+      "name": "FF EAI Robotics Ecosystem Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FF EAI Robotics Ecosystem Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FFR",
+      "stooqSymbol": "ffr.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -74169,24 +74241,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GERN",
       "stooqSymbol": "gern.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "GETY",
-      "name": "Getty Images Holdings, Inc. Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Getty Images Holdings, Inc. Class A Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GETY",
-      "stooqSymbol": "gety.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -95683,6 +95737,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "IVAI",
+      "name": "Ives Ultra AI Opportunities Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Ives Ultra AI Opportunities Inc. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IVAI",
+      "stooqSymbol": "ivai.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "IVAL",
       "name": "Alpha Architect International Quantitative Value ETF",
       "type": "us_etf",
@@ -99874,6 +99946,24 @@
       "sourceSymbol": "JQC",
       "stooqSymbol": "jqc.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "JQTY",
+      "name": "Jensen U.S. Quality Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Jensen U.S. Quality Index ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JQTY",
+      "stooqSymbol": "jqty.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -105598,6 +105688,24 @@
       "sourceSymbol": "LCII",
       "stooqSymbol": "lcii.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LCIV",
+      "name": "Logan Capital International ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Logan Capital International ETF"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LCIV",
+      "stooqSymbol": "lciv.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -173264,14 +173372,14 @@
     },
     {
       "symbol": "TCV",
-      "name": "Towle Value ETF",
+      "name": "Towle Small-Cap Value ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Towle Value ETF"
+        "Towle Small-Cap Value ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
