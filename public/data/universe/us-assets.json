@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-09-30T16:05:58.714697Z",
-  "count": 11297,
-  "stockCount": 5606,
-  "etfCount": 5691,
-  "skippedCount": 1992,
+  "generatedAt": "2026-10-01T16:42:14.086232Z",
+  "count": 11308,
+  "stockCount": 5609,
+  "etfCount": 5699,
+  "skippedCount": 1991,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -34357,6 +34357,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CHWM",
+      "name": "Chilwa Minerals Limited - American Depository Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Chilwa Minerals Limited - American Depository Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CHWM",
+      "stooqSymbol": "chwm.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CHWY",
       "name": "Chewy, Inc. Class A Common Stock",
       "type": "us_stock",
@@ -52029,6 +52047,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "EAFG",
       "stooqSymbol": "eafg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EAFH",
+      "name": "Xtrackers MSCI EAFE 50% Hedged Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Xtrackers MSCI EAFE 50% Hedged Equity ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EAFH",
+      "stooqSymbol": "eafh.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -82130,14 +82166,14 @@
     },
     {
       "symbol": "HELP",
-      "name": "Cybin Inc. - Common Stock",
+      "name": "Helus Pharma Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Cybin Inc."
+        "Helus Pharma Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -107905,6 +107941,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LLMA",
+      "name": "Global X LLM ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Global X LLM ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LLMA",
+      "stooqSymbol": "llma.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LLY",
       "name": "Eli Lilly and Company Common Stock",
       "type": "us_stock",
@@ -113954,14 +114008,14 @@
     },
     {
       "symbol": "METV",
-      "name": "Roundhill Ball Metaverse ETF",
+      "name": "Roundhill Metaverse ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Roundhill Ball Metaverse ETF"
+        "Roundhill Metaverse ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -116434,6 +116488,42 @@
       "sourceSymbol": "MMED",
       "stooqSymbol": "mmed.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MMEDV",
+      "name": "MiniMed Group, Inc. - Common Stock When Issued",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MiniMed Group, Inc. - Common Stock When Issued"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MMEDV",
+      "stooqSymbol": "mmedv.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MMHI",
+      "name": "NYLIM MacKay Muni High Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "NYLIM MacKay Muni High Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MMHI",
+      "stooqSymbol": "mmhi.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -130243,6 +130333,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "OCT",
+      "name": "VanEck U.S. Equity Buffer ETF - October",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VanEck U.S. Equity Buffer ETF - October"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OCT",
+      "stooqSymbol": "oct.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "OCTB",
       "name": "Aptus October Buffer ETF",
       "type": "us_etf",
@@ -130275,6 +130383,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "OCTH",
       "stooqSymbol": "octh.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OCTI",
+      "name": "AllianzIM International Equity Buffer15 Uncapped Oct ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "AllianzIM International Equity Buffer15 Uncapped Oct ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OCTI",
+      "stooqSymbol": "octi.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -132507,6 +132633,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "OPLN",
       "stooqSymbol": "opln.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OPNW",
+      "name": "OpenWorld, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "OpenWorld, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OPNW",
+      "stooqSymbol": "opnw.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -151862,14 +152006,14 @@
     },
     {
       "symbol": "RHRX",
-      "name": "RH Tactical Rotation ETF",
+      "name": "Adaptive Tactical Rotation ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "RH Tactical Rotation ETF"
+        "Adaptive Tactical Rotation ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -173551,6 +173695,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TDEM",
+      "name": "T. Rowe Price Dynamic Emerging Markets Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T. Rowe Price Dynamic Emerging Markets Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TDEM",
+      "stooqSymbol": "tdem.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TDF",
       "name": "Templeton Dragon Fund, Inc. Common Stock",
       "type": "us_stock",
@@ -179326,6 +179488,24 @@
       "sourceSymbol": "TRI",
       "stooqSymbol": "tri.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TRIL",
+      "name": "VegaShares Trillions ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VegaShares Trillions ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TRIL",
+      "stooqSymbol": "tril.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -190993,24 +191173,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "VRME",
-      "name": "VerifyMe, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "VerifyMe, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VRME",
-      "stooqSymbol": "vrme.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "VRNS",
       "name": "Varonis Systems, Inc. - Common Stock",
       "type": "us_stock",
@@ -192376,6 +192538,24 @@
       "sourceSymbol": "VYLD",
       "stooqSymbol": "vyld.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VYLR",
+      "name": "Vylor Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Vylor Inc. Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VYLR",
+      "stooqSymbol": "vylr.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -199832,14 +200012,14 @@
     },
     {
       "symbol": "XSPC",
-      "name": "VegaShares SpaceX & Beyond Earth ETF",
+      "name": "VegaShares Space & AI ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "VegaShares SpaceX & Beyond Earth ETF"
+        "VegaShares Space & AI ETF"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -200547,6 +200727,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XWNG",
       "stooqSymbol": "xwng.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XX",
+      "name": "Roundhill S&P 500 Target 10,000 2030 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Roundhill S&P 500 Target 10,000 2030 ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XX",
+      "stooqSymbol": "xx.us",
       "isETF": true,
       "dataQuality": "generated"
     },
