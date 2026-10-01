@@ -7,526 +7,526 @@
   "sourceType": "invesco_json",
   "sourceNote": "Automated US ETF component data generated from issuer downloadable holdings. If update fails, the previous valid JSON remains.",
   "sourceUrl": "https://dng-api.invesco.com/cache/v1/accounts/en_US/shareclasses/QQQ/holdings/fund?idType=ticker&interval=monthly&productType=ETF",
-  "asOfDate": "2026-09-28",
-  "lastUpdated": "2026-09-30T01:55:37Z",
+  "asOfDate": "2026-09-29",
+  "lastUpdated": "2026-10-01T01:56:22Z",
   "dataQuality": "official",
   "componentCount": 103,
-  "totalWeight": 1.00134224,
+  "totalWeight": 1.00133842,
   "components": [
     {
       "symbol": "NVDA",
       "name": "NVIDIA Corp",
-      "weight": 0.08400569
+      "weight": 0.08322927
     },
     {
       "symbol": "AAPL",
       "name": "Apple Inc",
-      "weight": 0.07513539
+      "weight": 0.07298727
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft Corp",
-      "weight": 0.05752655
+      "weight": 0.05737937
     },
     {
       "symbol": "MU",
       "name": "Micron Technology Inc",
-      "weight": 0.04999526
+      "weight": 0.0504182
     },
     {
       "symbol": "AMD",
       "name": "Advanced Micro Devices Inc",
-      "weight": 0.04167819
+      "weight": 0.04157225
     },
     {
       "symbol": "AMZN",
       "name": "Amazon.com Inc",
-      "weight": 0.04039314
+      "weight": 0.04039555
     },
     {
       "symbol": "META",
       "name": "Meta Platforms Inc",
-      "weight": 0.03237397
+      "weight": 0.03335375
     },
     {
       "symbol": "GOOGL",
       "name": "Alphabet Inc Class A",
-      "weight": 0.03059866
-    },
-    {
-      "symbol": "TSLA",
-      "name": "Tesla Inc",
-      "weight": 0.02856801
+      "weight": 0.03037295
     },
     {
       "symbol": "GOOG",
       "name": "Alphabet Inc Class C",
-      "weight": 0.0285186
+      "weight": 0.02830574
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla Inc",
+      "weight": 0.02814181
     },
     {
       "symbol": "SPCX",
       "name": "Space Exploration Technologies Corp",
-      "weight": 0.02621014
-    },
-    {
-      "symbol": "INTC",
-      "name": "Intel Corp",
-      "weight": 0.02560685
+      "weight": 0.02683431
     },
     {
       "symbol": "AVGO",
       "name": "Broadcom Inc",
-      "weight": 0.02534885
+      "weight": 0.02569607
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel Corp",
+      "weight": 0.02553237
     },
     {
       "symbol": "WMT",
       "name": "Walmart Inc",
-      "weight": 0.02220902
+      "weight": 0.02177011
     },
     {
       "symbol": "PLTR",
       "name": "Palantir Technologies Inc",
-      "weight": 0.01811631
+      "weight": 0.01803002
     },
     {
       "symbol": "CSCO",
       "name": "Cisco Systems Inc",
-      "weight": 0.01766988
+      "weight": 0.01766673
     },
     {
       "symbol": "COST",
       "name": "Costco Wholesale Corp",
-      "weight": 0.01719061
-    },
-    {
-      "symbol": "LRCX",
-      "name": "Lam Research Corp",
-      "weight": 0.01654454
+      "weight": 0.0171865
     },
     {
       "symbol": "AMAT",
       "name": "Applied Materials Inc",
-      "weight": 0.01622439
+      "weight": 0.01703108
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research Corp",
+      "weight": 0.01700301
     },
     {
       "symbol": "PANW",
       "name": "Palo Alto Networks Inc",
-      "weight": 0.01342136
+      "weight": 0.01326817
     },
     {
       "symbol": "NFLX",
       "name": "Netflix Inc",
-      "weight": 0.0121074
+      "weight": 0.01226933
     },
     {
       "symbol": "CRWD",
       "name": "Crowdstrike Holdings Inc",
-      "weight": 0.01114917
+      "weight": 0.01127611
     },
     {
       "symbol": "TXN",
       "name": "Texas Instruments Inc",
-      "weight": 0.01067506
-    },
-    {
-      "symbol": "SNDK",
-      "name": "Sandisk Corp",
-      "weight": 0.0105337
+      "weight": 0.01078257
     },
     {
       "symbol": "KLAC",
       "name": "KLA Corp",
-      "weight": 0.01038078
+      "weight": 0.01076257
     },
     {
-      "symbol": "AMGN",
-      "name": "Amgen Inc",
-      "weight": 0.00949434
+      "symbol": "SNDK",
+      "name": "Sandisk Corp",
+      "weight": 0.01061575
     },
     {
       "symbol": "MRVL",
       "name": "Marvell Technology Inc",
-      "weight": 0.00927751
+      "weight": 0.00967642
+    },
+    {
+      "symbol": "AMGN",
+      "name": "Amgen Inc",
+      "weight": 0.00959975
     },
     {
       "symbol": "LIN",
       "name": "Linde PLC",
-      "weight": 0.00913935
+      "weight": 0.00914635
     },
     {
       "symbol": "STX",
       "name": "Seagate Technology Holdings PLC",
-      "weight": 0.00877907
+      "weight": 0.00868449
     },
     {
       "symbol": "QCOM",
       "name": "QUALCOMM Inc",
-      "weight": 0.00826977
+      "weight": 0.00810405
     },
     {
       "symbol": "ADI",
       "name": "Analog Devices Inc",
-      "weight": 0.00804773
+      "weight": 0.0080879
     },
     {
       "symbol": "GILD",
       "name": "Gilead Sciences Inc",
-      "weight": 0.00797059
-    },
-    {
-      "symbol": "TMUS",
-      "name": "T-Mobile US Inc",
-      "weight": 0.007499
-    },
-    {
-      "symbol": "PEP",
-      "name": "PepsiCo Inc",
-      "weight": 0.00745345
+      "weight": 0.00786231
     },
     {
       "symbol": "SHOP",
       "name": "Shopify Inc",
-      "weight": 0.00730999
+      "weight": 0.0075103
+    },
+    {
+      "symbol": "PEP",
+      "name": "PepsiCo Inc",
+      "weight": 0.0074485
+    },
+    {
+      "symbol": "TMUS",
+      "name": "T-Mobile US Inc",
+      "weight": 0.00732764
     },
     {
       "symbol": "ASML",
       "name": "ASML Holding NV",
-      "weight": 0.00699485
+      "weight": 0.00722884
     },
     {
       "symbol": "WDC",
       "name": "Western Digital Corp",
-      "weight": 0.00686317
+      "weight": 0.00685287
     },
     {
       "symbol": "ISRG",
       "name": "Intuitive Surgical Inc",
-      "weight": 0.00615456
+      "weight": 0.00610331
     },
     {
       "symbol": "VRTX",
       "name": "Vertex Pharmaceuticals Inc",
-      "weight": 0.00561725
+      "weight": 0.00559572
     },
     {
       "symbol": "FTNT",
       "name": "Fortinet Inc",
-      "weight": 0.00543381
+      "weight": 0.00541131
     },
     {
       "symbol": "ARM",
       "name": "ARM Holdings PLC",
-      "weight": 0.00518973
+      "weight": 0.0053681
     },
     {
       "symbol": "BKNG",
       "name": "Booking Holdings Inc",
-      "weight": 0.00518543
+      "weight": 0.00512652
     },
     {
       "symbol": "SBUX",
       "name": "Starbucks Corp",
-      "weight": 0.00456156
+      "weight": 0.00455986
     },
     {
       "symbol": "ADP",
       "name": "Automatic Data Processing Inc",
-      "weight": 0.00439739
-    },
-    {
-      "symbol": "APP",
-      "name": "AppLovin Corp",
-      "weight": 0.00394136
+      "weight": 0.00438819
     },
     {
       "symbol": "MAR",
       "name": "Marriott International Inc/MD",
-      "weight": 0.00393553
+      "weight": 0.00396077
     },
     {
       "symbol": "CEG",
       "name": "Constellation Energy Corp",
-      "weight": 0.00387549
+      "weight": 0.0039292
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin Corp",
+      "weight": 0.00390034
     },
     {
       "symbol": "ADBE",
       "name": "Adobe Inc",
-      "weight": 0.00385672
+      "weight": 0.0038848
     },
     {
       "symbol": "DDOG",
       "name": "Datadog Inc",
-      "weight": 0.00377954
+      "weight": 0.00376981
     },
     {
       "symbol": "CDNS",
       "name": "Cadence Design Systems Inc",
-      "weight": 0.00377879
+      "weight": 0.00374182
     },
     {
       "symbol": "MELI",
       "name": "MercadoLibre Inc",
-      "weight": 0.00364611
-    },
-    {
-      "symbol": "CSX",
-      "name": "CSX Corp",
-      "weight": 0.00363814
+      "weight": 0.00366503
     },
     {
       "symbol": "LITE",
       "name": "Lumentum Holdings Inc",
-      "weight": 0.00347101
+      "weight": 0.00366007
+    },
+    {
+      "symbol": "CSX",
+      "name": "CSX Corp",
+      "weight": 0.00364388
     },
     {
       "symbol": "MNST",
       "name": "Monster Beverage Corp",
-      "weight": 0.00343893
-    },
-    {
-      "symbol": "CTAS",
-      "name": "Cintas Corp",
-      "weight": 0.00337122
+      "weight": 0.00342205
     },
     {
       "symbol": "SNPS",
       "name": "Synopsys Inc",
-      "weight": 0.00336127
+      "weight": 0.00333416
+    },
+    {
+      "symbol": "CTAS",
+      "name": "Cintas Corp",
+      "weight": 0.00331669
     },
     {
       "symbol": "WBD",
       "name": "Warner Bros Discovery Inc",
-      "weight": 0.00325841
-    },
-    {
-      "symbol": "CMCSA",
-      "name": "Comcast Corp",
-      "weight": 0.00323902
-    },
-    {
-      "symbol": "MDLZ",
-      "name": "Mondelez International Inc",
-      "weight": 0.00322597
-    },
-    {
-      "symbol": "ROST",
-      "name": "Ross Stores Inc",
-      "weight": 0.00320042
-    },
-    {
-      "symbol": "REGN",
-      "name": "Regeneron Pharmaceuticals Inc",
-      "weight": 0.00319545
-    },
-    {
-      "symbol": "INTU",
-      "name": "Intuit Inc",
-      "weight": 0.00309502
+      "weight": 0.00324648
     },
     {
       "symbol": "DASH",
       "name": "DoorDash Inc",
-      "weight": 0.00306502
+      "weight": 0.00320807
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "Comcast Corp",
+      "weight": 0.0032042
+    },
+    {
+      "symbol": "REGN",
+      "name": "Regeneron Pharmaceuticals Inc",
+      "weight": 0.00318158
+    },
+    {
+      "symbol": "MDLZ",
+      "name": "Mondelez International Inc",
+      "weight": 0.00317335
+    },
+    {
+      "symbol": "ROST",
+      "name": "Ross Stores Inc",
+      "weight": 0.00315767
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit Inc",
+      "weight": 0.00307295
     },
     {
       "symbol": "ORLY",
       "name": "O'Reilly Automotive Inc",
-      "weight": 0.00293931
-    },
-    {
-      "symbol": "HON",
-      "name": "Honeywell International Inc",
-      "weight": 0.00281567
+      "weight": 0.00291836
     },
     {
       "symbol": "MPWR",
       "name": "Monolithic Power Systems Inc",
-      "weight": 0.002789
+      "weight": 0.00279313
+    },
+    {
+      "symbol": "HON",
+      "name": "Honeywell International Inc",
+      "weight": 0.00279145
     },
     {
       "symbol": "ABNB",
       "name": "Airbnb Inc",
-      "weight": 0.00275017
+      "weight": 0.00276
     },
     {
       "symbol": "AEP",
       "name": "American Electric Power Co Inc",
-      "weight": 0.00270262
+      "weight": 0.00272219
     },
     {
       "symbol": "TER",
       "name": "Teradyne Inc",
-      "weight": 0.00263516
+      "weight": 0.00264103
     },
     {
       "symbol": "ALAB",
       "name": "Astera Labs Inc",
-      "weight": 0.00255989
+      "weight": 0.00260215
     },
     {
       "symbol": "NXPI",
       "name": "NXP Semiconductors NV",
-      "weight": 0.00251397
+      "weight": 0.00251032
     },
     {
       "symbol": "PCAR",
       "name": "PACCAR Inc",
-      "weight": 0.00246835
+      "weight": 0.0024666
     },
     {
       "symbol": "FAST",
       "name": "Fastenal Co",
-      "weight": 0.0024335
-    },
-    {
-      "symbol": "MSTR",
-      "name": "Strategy Inc",
-      "weight": 0.00240634
-    },
-    {
-      "symbol": "BKR",
-      "name": "Baker Hughes Co",
-      "weight": 0.00238159
+      "weight": 0.00240303
     },
     {
       "symbol": "NBIS",
       "name": "Nebius Group NV",
-      "weight": 0.00232182
+      "weight": 0.00237177
     },
     {
-      "symbol": "PDD",
-      "name": "PDD Holdings Inc",
-      "weight": 0.00220193
+      "symbol": "MSTR",
+      "name": "Strategy Inc",
+      "weight": 0.00236366
     },
     {
-      "symbol": "FANG",
-      "name": "Diamondback Energy Inc",
-      "weight": 0.00217855
+      "symbol": "BKR",
+      "name": "Baker Hughes Co",
+      "weight": 0.00232678
     },
     {
       "symbol": "USD",
       "name": "CASH &amp; EQUIVALENTS",
-      "weight": 0.0021497
+      "weight": 0.00218966
+    },
+    {
+      "symbol": "PDD",
+      "name": "PDD Holdings Inc",
+      "weight": 0.0021697
+    },
+    {
+      "symbol": "FANG",
+      "name": "Diamondback Energy Inc",
+      "weight": 0.00215908
     },
     {
       "symbol": "HONA",
       "name": "Honeywell Aerospace Inc",
-      "weight": 0.00202696
+      "weight": 0.00206425
     },
     {
       "symbol": "PYPL",
       "name": "PayPal Holdings Inc",
-      "weight": 0.00194967
-    },
-    {
-      "symbol": "CCEP",
-      "name": "Coca-Cola Europacific Partners PLC",
-      "weight": 0.00187904
+      "weight": 0.00193169
     },
     {
       "symbol": "XEL",
       "name": "Xcel Energy Inc",
-      "weight": 0.00183577
+      "weight": 0.00186594
     },
     {
-      "symbol": "ADSK",
-      "name": "Autodesk Inc",
-      "weight": 0.00181817
-    },
-    {
-      "symbol": "RKLB",
-      "name": "Rocket Lab Corp",
-      "weight": 0.00181398
-    },
-    {
-      "symbol": "KDP",
-      "name": "Keurig Dr Pepper Inc",
-      "weight": 0.0018107
+      "symbol": "CCEP",
+      "name": "Coca-Cola Europacific Partners PLC",
+      "weight": 0.00186462
     },
     {
       "symbol": "MCHP",
       "name": "Microchip Technology Inc",
-      "weight": 0.00177768
+      "weight": 0.00179246
+    },
+    {
+      "symbol": "KDP",
+      "name": "Keurig Dr Pepper Inc",
+      "weight": 0.00178239
+    },
+    {
+      "symbol": "ADSK",
+      "name": "Autodesk Inc",
+      "weight": 0.00177931
     },
     {
       "symbol": "IDXX",
       "name": "IDEXX Laboratories Inc",
-      "weight": 0.00175006
+      "weight": 0.00176094
     },
     {
       "symbol": "EXC",
       "name": "Exelon Corp",
-      "weight": 0.00174755
+      "weight": 0.00175824
+    },
+    {
+      "symbol": "RKLB",
+      "name": "Rocket Lab Corp",
+      "weight": 0.00174782
     },
     {
       "symbol": "FER",
       "name": "Ferrovial NV",
-      "weight": 0.00170836
+      "weight": 0.00166818
     },
     {
       "symbol": "CRWV",
       "name": "CoreWeave Inc",
-      "weight": 0.00163904
+      "weight": 0.00165221
     },
     {
       "symbol": "TTWO",
       "name": "Take-Two Interactive Software Inc",
-      "weight": 0.00158862
+      "weight": 0.00158872
     },
     {
       "symbol": "WDAY",
       "name": "Workday Inc",
-      "weight": 0.00155209
-    },
-    {
-      "symbol": "TRI",
-      "name": "Thomson Reuters Corp",
-      "weight": 0.00153986
+      "weight": 0.00155358
     },
     {
       "symbol": "ODFL",
       "name": "Old Dominion Freight Line Inc",
-      "weight": 0.00153973
+      "weight": 0.00154187
+    },
+    {
+      "symbol": "TRI",
+      "name": "Thomson Reuters Corp",
+      "weight": 0.00151949
     },
     {
       "symbol": "PAYX",
       "name": "Paychex Inc",
-      "weight": 0.00148297
+      "weight": 0.00148007
     },
     {
       "symbol": "ROP",
       "name": "Roper Technologies Inc",
-      "weight": 0.00147004
+      "weight": 0.00144817
     },
     {
       "symbol": "AXON",
       "name": "Axon Enterprise Inc",
-      "weight": 0.00144882
+      "weight": 0.00142827
     },
     {
       "symbol": "ALNY",
       "name": "Alnylam Pharmaceuticals Inc",
-      "weight": 0.00143468
+      "weight": 0.00142451
     },
     {
       "symbol": "NQZ6",
       "name": "CME E-Mini NASDAQ 100 Index Future",
-      "weight": 0.00138938
+      "weight": 0.00137993
     },
     {
       "symbol": "DXCM",
       "name": "Dexcom Inc",
-      "weight": 0.0013734
+      "weight": 0.00136995
     },
     {
       "symbol": "GEHC",
       "name": "GE HealthCare Technologies Inc",
-      "weight": 0.0012665
+      "weight": 0.00125785
     },
     {
       "symbol": "CPRT",
       "name": "Copart Inc",
-      "weight": 0.00105811
+      "weight": 0.00105284
     }
   ]
 }
