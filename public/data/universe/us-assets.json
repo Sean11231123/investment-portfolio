@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-01T16:42:14.086232Z",
-  "count": 11308,
-  "stockCount": 5609,
-  "etfCount": 5699,
-  "skippedCount": 1991,
+  "generatedAt": "2026-10-02T15:58:17.468849Z",
+  "count": 11307,
+  "stockCount": 5606,
+  "etfCount": 5701,
+  "skippedCount": 1988,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -18388,6 +18388,24 @@
       "sourceSymbol": "BCO",
       "stooqSymbol": "bco.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BCOM",
+      "name": "Rareview Bloomberg Commodity Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Rareview Bloomberg Commodity Index ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BCOM",
+      "stooqSymbol": "bcom.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -37647,24 +37665,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "COKE",
       "stooqSymbol": "coke.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "COLA",
-      "name": "Columbus Acquisition Corp - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Columbus Acquisition Corp - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "COLA",
-      "stooqSymbol": "cola.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -69598,24 +69598,6 @@
       "sourceSymbol": "FSCS",
       "stooqSymbol": "fscs.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "FSEA",
-      "name": "First Seacoast Bancorp, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "First Seacoast Bancorp, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FSEA",
-      "stooqSymbol": "fsea.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -116833,6 +116815,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MN",
+      "name": "Corgi MANGOS ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi MANGOS ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MN",
+      "stooqSymbol": "mn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MNA",
       "name": "NYLIM Merger Arbitrage ETF",
       "type": "us_etf",
@@ -126841,20 +126841,20 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "NSTS",
-      "name": "NSTS Bancorp, Inc. - Common Stock",
+      "symbol": "NSTR",
+      "name": "NorthStar Earth & Space Enterprises, Inc. Common Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "NSTS Bancorp, Inc."
+        "NorthStar Earth & Space Enterprises, Inc. Common Shares"
       ],
-      "exchange": "NASDAQ",
+      "exchange": "NYSEAMERICAN",
       "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NSTS",
-      "stooqSymbol": "nsts.us",
+      "sourceSymbol": "NSTR",
+      "stooqSymbol": "nstr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -144572,14 +144572,14 @@
     },
     {
       "symbol": "PUSA",
-      "name": "Aureus Greenway Holdings Inc. - Common Stock",
+      "name": "Powerus Corporation - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Aureus Greenway Holdings Inc."
+        "Powerus Corporation"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -156735,6 +156735,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SAIL",
       "stooqSymbol": "sail.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SAIQ",
+      "name": "WISeSat.Space Holdings Corp. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "WISeSat.Space Holdings Corp. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SAIQ",
+      "stooqSymbol": "saiq.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -175819,24 +175837,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "THRMV",
-      "name": "Gentherm Inc - Gentherm Inc Common Stock When-Issued",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Gentherm Inc - Gentherm Inc Common Stock When-Issued"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "THRMV",
-      "stooqSymbol": "thrmv.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "THRO",
       "name": "iShares U.S. Thematic Rotation Active ETF",
       "type": "us_etf",
@@ -187281,24 +187281,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VAC",
       "stooqSymbol": "vac.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "VACI",
-      "name": "Viking Acquisition Corp. I Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Viking Acquisition Corp. I Class A Ordinary Shares"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VACI",
-      "stooqSymbol": "vaci.us",
       "isETF": false,
       "dataQuality": "generated"
     },
