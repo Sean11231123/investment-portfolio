@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-10-02T14:54:22.731640Z",
-  "count": 2231,
-  "twseCount": 1220,
-  "tpexOtcCount": 1011,
-  "tpexOtcSourceCount": 1011,
+  "generatedAt": "2026-10-05T17:18:16.944265Z",
+  "count": 2233,
+  "twseCount": 1221,
+  "tpexOtcCount": 1012,
+  "tpexOtcSourceCount": 1012,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2231,
+  "metadataEnrichedCount": 2233,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -273,6 +273,28 @@
       "board": "main",
       "securityType": "etf",
       "classificationSource": "tpex_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "00412A",
+      "name": "主動安聯亞半導體",
+      "type": "taiwan_etf",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "twse",
+      "aliases": [
+        "主動安聯亞半導體"
+      ],
+      "exchange": "TWSE",
+      "marketSegment": "listed",
+      "source": "twse-isin",
+      "sourceSymbol": "00412A",
+      "isETF": true,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "etf",
+      "classificationSource": "twse_isin",
       "classificationConfidence": "high"
     },
     {
@@ -39208,6 +39230,28 @@
       "marketSegment": "otc",
       "source": "tpex-isin",
       "sourceSymbol": "6603",
+      "isETF": false,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "stock",
+      "classificationSource": "tpex_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "6604",
+      "name": "儒億",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "儒億"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "6604",
       "isETF": false,
       "dataQuality": "generated",
       "board": "main",
