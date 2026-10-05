@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-02T15:58:17.468849Z",
-  "count": 11307,
+  "generatedAt": "2026-10-05T18:51:08.577735Z",
+  "count": 11304,
   "stockCount": 5606,
-  "etfCount": 5701,
-  "skippedCount": 1988,
+  "etfCount": 5698,
+  "skippedCount": 1985,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -3879,24 +3879,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AESR",
       "stooqSymbol": "aesr.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "AETH",
-      "name": "Bitwise Trendwise Ether and Treasuries Rotation Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bitwise Trendwise Ether and Treasuries Rotation Strategy ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AETH",
-      "stooqSymbol": "aeth.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -45023,7 +45005,7 @@
       "aliases": [
         "Dillard's, Inc. Common Stock"
       ],
-      "exchange": "NYSE",
+      "exchange": "US",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DDS",
       "stooqSymbol": "dds.us",
@@ -45059,7 +45041,7 @@
       "aliases": [
         "Dillard's Capital Trust I"
       ],
-      "exchange": "NYSE",
+      "exchange": "US",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DDT",
       "stooqSymbol": "ddt.us",
@@ -45896,14 +45878,14 @@
     },
     {
       "symbol": "DFAC",
-      "name": "Dimensional U.S. Core Equity 2 ETF",
+      "name": "U.S. Core Equity 2 Portfolio ETF Class Shares",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Dimensional U.S. Core Equity 2 ETF"
+        "U.S. Core Equity 2 Portfolio ETF Class Shares"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -45986,14 +45968,14 @@
     },
     {
       "symbol": "DFAS",
-      "name": "Dimensional U.S. Small Cap ETF",
+      "name": "U.S. Small Cap Portfolio: ETF Class Shares",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Dimensional U.S. Small Cap ETF"
+        "U.S. Small Cap Portfolio: ETF Class Shares"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -46004,14 +45986,14 @@
     },
     {
       "symbol": "DFAT",
-      "name": "Dimensional U.S. Targeted Value ETF",
+      "name": "U.S. Targeted Value Portfolio ETF Class Shares",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Dimensional U.S. Targeted Value ETF"
+        "U.S. Targeted Value Portfolio ETF Class Shares"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -49582,24 +49564,6 @@
       "sourceSymbol": "DRAY",
       "stooqSymbol": "dray.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DRCT",
-      "name": "Direct Digital Holdings, Inc. - Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Direct Digital Holdings, Inc. - Class A Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DRCT",
-      "stooqSymbol": "drct.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -80257,24 +80221,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "GWH",
-      "name": "ESS Tech, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ESS Tech, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GWH",
-      "stooqSymbol": "gwh.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "GWRE",
       "name": "Guidewire Software, Inc. Common Stock",
       "type": "us_stock",
@@ -91039,24 +90985,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ILCB",
-      "name": "iShares Morningstar Large-Cap ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "iShares Morningstar Large-Cap ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ILCB",
-      "stooqSymbol": "ilcb.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ILCG",
       "name": "iShares Morningstar Large-Cap Growth ETF",
       "type": "us_etf",
@@ -93793,6 +93721,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "IPHX",
+      "name": "Inflection Point Acquisition Corp. VIII - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Inflection Point Acquisition Corp. VIII - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IPHX",
+      "stooqSymbol": "iphx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "IPI",
       "name": "Intrepid Potash, Inc Common Stock",
       "type": "us_stock",
@@ -94707,24 +94653,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ISBG",
       "stooqSymbol": "isbg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ISCB",
-      "name": "iShares Morningstar Small-Cap ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "iShares Morningstar Small-Cap ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ISCB",
-      "stooqSymbol": "iscb.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -116293,6 +116221,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MLRG",
+      "name": "iShares MSCI USA ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "iShares MSCI USA ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MLRG",
+      "stooqSymbol": "mlrg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MLSS",
       "name": "Milestone Scientific, Inc. Common Stock",
       "type": "us_stock",
@@ -118990,6 +118936,24 @@
       "sourceSymbol": "MSM",
       "stooqSymbol": "msm.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MSML",
+      "name": "iShares MSCI USA Small-Cap ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "iShares MSCI USA Small-Cap ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MSML",
+      "stooqSymbol": "msml.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -172939,6 +172903,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TBCV",
+      "name": "Thunder Bridge Capital Partners V, Ltd. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Thunder Bridge Capital Partners V, Ltd. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TBCV",
+      "stooqSymbol": "tbcv.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TBF",
       "name": "ProShares Short 20+ Year Treasury",
       "type": "us_etf",
@@ -189805,6 +189787,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "VJET",
+      "name": "Flyte Aviation, Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Flyte Aviation, Inc. Common Stock"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VJET",
+      "stooqSymbol": "vjet.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "VKI",
       "name": "Invesco Advantage Municipal Income Trust II Common Shares of Beneficial Interest (DE)",
       "type": "us_stock",
@@ -191695,24 +191695,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "VTAK",
-      "name": "Catheter Precision, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Catheter Precision, Inc. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VTAK",
-      "stooqSymbol": "vtak.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "VTC",
       "name": "Vanguard Total Corporate Bond ETF",
       "type": "us_etf",
@@ -192771,24 +192753,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "WAL",
       "stooqSymbol": "wal.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "WALD",
-      "name": "Waldencast plc - Class A Ordinary Share",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Waldencast plc - Class A Ordinary Share"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "WALD",
-      "stooqSymbol": "wald.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -195259,6 +195223,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "WQEY",
+      "name": "WISeQey Corp - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "WISeQey Corp - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WQEY",
+      "stooqSymbol": "wqey.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "WQTM",
       "name": "WisdomTree Quantum Computing Fund",
       "type": "us_etf",
@@ -196893,24 +196875,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XBJL",
       "stooqSymbol": "xbjl.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "XBNB",
-      "name": "Teucrium xETFs 2x Long Daily BNB ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Teucrium xETFs 2x Long Daily BNB ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "XBNB",
-      "stooqSymbol": "xbnb.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -203157,24 +203121,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ZSB",
       "stooqSymbol": "zsb.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ZSC",
-      "name": "USCF Sustainable Commodity Strategy Fund",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "USCF Sustainable Commodity Strategy Fund"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ZSC",
-      "stooqSymbol": "zsc.us",
       "isETF": true,
       "dataQuality": "generated"
     },
