@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-05T18:51:08.577735Z",
-  "count": 11304,
-  "stockCount": 5606,
-  "etfCount": 5698,
-  "skippedCount": 1985,
+  "generatedAt": "2026-10-06T16:17:01.280274Z",
+  "count": 11305,
+  "stockCount": 5604,
+  "etfCount": 5701,
+  "skippedCount": 1984,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -76459,6 +76459,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GMAC",
+      "name": "Simplify Brookwood Global Macro ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Simplify Brookwood Global Macro ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GMAC",
+      "stooqSymbol": "gmac.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GMAR",
       "name": "FT Vest U.S. Equity Moderate Buffer ETF - March",
       "type": "us_etf",
@@ -82431,6 +82449,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "HFGO",
       "stooqSymbol": "hfgo.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HFIX",
+      "name": "Nomura High Yield Total Return ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Nomura High Yield Total Return ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HFIX",
+      "stooqSymbol": "hfix.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -106303,24 +106339,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "LESL",
-      "name": "Leslie's, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leslie's, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LESL",
-      "stooqSymbol": "lesl.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "LEU",
       "name": "Centrus Energy Corp. Class A Common Stock",
       "type": "us_stock",
@@ -110120,16 +110138,16 @@
     },
     {
       "symbol": "LUMN",
-      "name": "Lumen Technologies, Inc. Common Stock",
+      "name": "Lumen Technologies, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Lumen Technologies, Inc. Common Stock"
+        "Lumen Technologies, Inc."
       ],
-      "exchange": "NYSE",
+      "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LUMN",
       "stooqSymbol": "lumn.us",
@@ -143419,24 +143437,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "PSKY",
-      "name": "Paramount Skydance Corporation - Class B Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Paramount Skydance Corporation - Class B Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PSKY",
-      "stooqSymbol": "psky.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "PSL",
       "name": "Invesco Dorsey Wright Consumer Staples Momentum ETF",
       "type": "us_etf",
@@ -147862,24 +147862,6 @@
       "sourceSymbol": "QRMI",
       "stooqSymbol": "qrmi.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "QRVO",
-      "name": "Qorvo, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Qorvo, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "QRVO",
-      "stooqSymbol": "qrvo.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -162873,6 +162855,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SKYA",
       "stooqSymbol": "skya.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SKYD",
+      "name": "Skydance Corporation Class B Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Skydance Corporation Class B Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SKYD",
+      "stooqSymbol": "skyd.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -183015,6 +183015,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "UBEW",
       "stooqSymbol": "ubew.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "UBIQ",
+      "name": "AAM Ubiquitous ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "AAM Ubiquitous ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "UBIQ",
+      "stooqSymbol": "ubiq.us",
       "isETF": true,
       "dataQuality": "generated"
     },
