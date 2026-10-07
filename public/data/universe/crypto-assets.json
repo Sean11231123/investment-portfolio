@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-10-06T16:49:28.594573Z",
-  "count": 491,
-  "binanceCount": 491,
-  "coingeckoMatchedCount": 317,
-  "ambiguousCount": 168,
+  "generatedAt": "2026-10-07T17:25:57.229802Z",
+  "count": 495,
+  "binanceCount": 495,
+  "coingeckoMatchedCount": 316,
+  "ambiguousCount": 169,
   "skippedCount": 3229,
   "assets": [
     {
@@ -1214,20 +1214,19 @@
     },
     {
       "symbol": "BAND",
-      "name": "Band",
+      "name": "BAND",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
-        "Band"
+        "BAND"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "BANDUSDT",
       "binanceSymbol": "BANDUSDT",
-      "coingeckoId": "band-protocol",
       "dataQuality": "generated"
     },
     {
@@ -4053,6 +4052,23 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "JPMB",
+      "name": "JPMB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "JPMB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "JPMBUSDT",
+      "binanceSymbol": "JPMBUSDT",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "JST",
       "name": "JUST",
       "type": "crypto",
@@ -4456,6 +4472,23 @@
       "sourceSymbol": "LITEBUSDT",
       "binanceSymbol": "LITEBUSDT",
       "coingeckoId": "lumentum-holdings-bstocks-tokenized-stock",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LLYB",
+      "name": "LLYB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "LLYB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "LLYBUSDT",
+      "binanceSymbol": "LLYBUSDT",
       "dataQuality": "generated"
     },
     {
@@ -6681,6 +6714,23 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SECZB",
+      "name": "SECZB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "SECZB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SECZBUSDT",
+      "binanceSymbol": "SECZBUSDT",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SEI",
       "name": "SEI",
       "type": "crypto",
@@ -7879,6 +7929,23 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "USDEUSDT",
       "binanceSymbol": "USDEUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "USDEB",
+      "name": "USDEB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "USDEB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "USDEBUSDT",
+      "binanceSymbol": "USDEBUSDT",
       "dataQuality": "generated"
     },
     {
