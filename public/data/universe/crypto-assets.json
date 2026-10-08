@@ -2,10 +2,10 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-10-07T17:25:57.229802Z",
+  "generatedAt": "2026-10-08T17:24:29.897436Z",
   "count": 495,
   "binanceCount": 495,
-  "coingeckoMatchedCount": 316,
+  "coingeckoMatchedCount": 320,
   "ambiguousCount": 169,
   "skippedCount": 3229,
   "assets": [
@@ -4053,19 +4053,20 @@
     },
     {
       "symbol": "JPMB",
-      "name": "JPMB",
+      "name": "JPMorgan Chase (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "JPMB"
+        "JPMorgan Chase (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "JPMBUSDT",
       "binanceSymbol": "JPMBUSDT",
+      "coingeckoId": "jpmorgan-chase-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -4476,19 +4477,20 @@
     },
     {
       "symbol": "LLYB",
-      "name": "LLYB",
+      "name": "Eli Lilly (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "LLYB"
+        "Eli Lilly (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "LLYBUSDT",
       "binanceSymbol": "LLYBUSDT",
+      "coingeckoId": "eli-lilly-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -6715,19 +6717,20 @@
     },
     {
       "symbol": "SECZB",
-      "name": "SECZB",
+      "name": "Securitize (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "SECZB"
+        "Securitize (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "SECZBUSDT",
       "binanceSymbol": "SECZBUSDT",
+      "coingeckoId": "securitize-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -7933,19 +7936,20 @@
     },
     {
       "symbol": "USDEB",
-      "name": "USDEB",
+      "name": "StablecoinX (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "USDEB"
+        "StablecoinX (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "USDEBUSDT",
       "binanceSymbol": "USDEBUSDT",
+      "coingeckoId": "stablecoinx-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
