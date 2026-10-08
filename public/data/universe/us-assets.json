@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-06T16:17:01.280274Z",
-  "count": 11305,
-  "stockCount": 5604,
-  "etfCount": 5701,
-  "skippedCount": 1984,
+  "generatedAt": "2026-10-08T16:58:07.653441Z",
+  "count": 11312,
+  "stockCount": 5602,
+  "etfCount": 5710,
+  "skippedCount": 1981,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -2638,6 +2638,24 @@
       "sourceSymbol": "ACXP",
       "stooqSymbol": "acxp.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACYB",
+      "name": "FT Vest Laddered Autocallable Buffer & Resilient Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest Laddered Autocallable Buffer & Resilient Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACYB",
+      "stooqSymbol": "acyb.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -9392,14 +9410,14 @@
     },
     {
       "symbol": "AOCT",
-      "name": "Innovator Equity Defined Protection ETF - 2 Yr to October 2026",
+      "name": "Innovator Equity Defined Protection ETF - 2 Yr to October 2028",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Innovator Equity Defined Protection ETF - 2 Yr to October 2026"
+        "Innovator Equity Defined Protection ETF - 2 Yr to October 2028"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -17257,6 +17275,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BBCI",
+      "name": "Bradbury Capital Inc. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Bradbury Capital Inc. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BBCI",
+      "stooqSymbol": "bbci.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BBCP",
       "name": "Concrete Pumping Holdings, Inc. - Common Stock",
       "type": "us_stock",
@@ -22330,24 +22366,6 @@
       "sourceSymbol": "BLES",
       "stooqSymbol": "bles.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BLFS",
-      "name": "BioLife Solutions, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "BioLife Solutions, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BLFS",
-      "stooqSymbol": "blfs.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -39393,6 +39411,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CPTL",
       "stooqSymbol": "cptl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CPU",
+      "name": "Amplify Top 10 Semiconductors ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Amplify Top 10 Semiconductors ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CPU",
+      "stooqSymbol": "cpu.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -91111,24 +91147,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ILLR",
-      "name": "Triller Group Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Triller Group Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ILLR",
-      "stooqSymbol": "illr.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ILLU",
       "name": "Illumination Acquisition Corp I - Class A Ordinary Shares",
       "type": "us_stock",
@@ -129793,6 +129811,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "OAKL",
+      "name": "Oakmark U.S. Concentrated ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Oakmark U.S. Concentrated ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OAKL",
+      "stooqSymbol": "oakl.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "OAKM",
       "name": "Oakmark U.S. Large Cap ETF",
       "type": "us_etf",
@@ -152203,6 +152239,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RINK",
+      "name": "Russell Investments Multisector Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Russell Investments Multisector Bond ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RINK",
+      "stooqSymbol": "rink.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RINT",
       "name": "Russell Investments International Developed Equity ETF",
       "type": "us_etf",
@@ -157564,6 +157618,24 @@
       "sourceSymbol": "SCAP",
       "stooqSymbol": "scap.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SCAT",
+      "name": "Southern Cross Acquisition II Corp. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Southern Cross Acquisition II Corp. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SCAT",
+      "stooqSymbol": "scat.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -163417,24 +163489,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SLP",
-      "name": "Simulations Plus, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Simulations Plus, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SLP",
-      "stooqSymbol": "slp.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SLQD",
       "name": "iShares 0-5 Year Investment Grade Corporate Bond ETF",
       "type": "us_etf",
@@ -163575,6 +163629,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SLV",
       "stooqSymbol": "slv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SLVI",
+      "name": "NEOS Silver High Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "NEOS Silver High Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SLVI",
+      "stooqSymbol": "slvi.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -164800,6 +164872,24 @@
       "sourceSymbol": "SMTI",
       "stooqSymbol": "smti.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SMTJ",
+      "name": "Synera Funds Takumi+ ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Synera Funds Takumi+ ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SMTJ",
+      "stooqSymbol": "smtj.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -167305,24 +167395,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SPKL",
-      "name": "Spark I Acquisition Corp. - Class A Ordinary Share",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Spark I Acquisition Corp. - Class A Ordinary Share"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SPKL",
-      "stooqSymbol": "spkl.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SPLB",
       "name": "State Street SPDR Portfolio Long Term Corporate Bond ETF",
       "type": "us_etf",
@@ -168147,6 +168219,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SPXN",
       "stooqSymbol": "spxn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SPXP",
+      "name": "Direxion U.S. 500 Plus ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion U.S. 500 Plus ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SPXP",
+      "stooqSymbol": "spxp.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -173282,16 +173372,16 @@
     },
     {
       "symbol": "TCBI",
-      "name": "Texas Capital Bancshares, Inc. - Common Stock",
+      "name": "Texas Capital Bancshares, Inc. Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Texas Capital Bancshares, Inc."
+        "Texas Capital Bancshares, Inc. Common Stock"
       ],
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TCBI",
       "stooqSymbol": "tcbi.us",
@@ -192955,24 +193045,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "WBD",
-      "name": "Warner Bros. Discovery, Inc. - Series A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Warner Bros. Discovery, Inc. - Series A Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "WBD",
-      "stooqSymbol": "wbd.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "WBI",
       "name": "WaterBridge Infrastructure LLC Class A Shares Representing Limited Liability Company Interests",
       "type": "us_stock",
@@ -195169,6 +195241,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "WORX",
+      "name": "SCWorx Corp. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "SCWorx Corp."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WORX",
+      "stooqSymbol": "worx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "WPAC",
       "name": "White Pearl Acquisition Corp. Class A Ordinary Shares",
       "type": "us_stock",
@@ -195601,6 +195691,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "WSLS",
+      "name": "WisdomTree Efficient Long/Short U.S. SmallCap Equity Fund",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "WisdomTree Efficient Long/Short U.S. SmallCap Equity Fund"
+      ],
+      "exchange": "US",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WSLS",
+      "stooqSymbol": "wsls.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "WSM",
       "name": "Williams-Sonoma, Inc. Common Stock (DE)",
       "type": "us_stock",
@@ -195759,6 +195867,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "WTAI",
       "stooqSymbol": "wtai.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WTAL",
+      "name": "WisdomTree Global Alpha Fund",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "WisdomTree Global Alpha Fund"
+      ],
+      "exchange": "US",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WTAL",
+      "stooqSymbol": "wtal.us",
       "isETF": true,
       "dataQuality": "generated"
     },
