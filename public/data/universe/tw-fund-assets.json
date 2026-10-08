@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T15:51:20.726Z",
+  "generatedAt": "2026-10-08T15:57:37.902Z",
   "source": "SITCA",
   "sourceUrl": "https://www.sitca.org.tw/MemberK0000/F/03/nav.csv",
   "market": "TW",
   "segment": "domestic_fund",
-  "count": 2009,
+  "count": 2023,
   "assets": [
     {
       "symbol": "TW_FUND_00512527_TWD_AH22_00957B",
@@ -4677,6 +4677,29 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TW_FUND_31830488_TWD_AH21_006206",
+      "name": "元大上證50基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE07",
+      "fundCode": "DIE07",
+      "fundTaxId": "31830488",
+      "issuer": "元大投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "006206",
+      "aliases": [
+        "元大投信",
+        "31830488"
+      ],
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TW_FUND_38546966A_TWD_AD2_T0595A",
       "name": "元大人民幣貨幣市場基金-新台幣",
       "type": "taiwan_fund",
@@ -4765,6 +4788,52 @@
       "aliases": [
         "元大投信",
         "38639090A"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_42300232_TWD_AH23_00638R",
+      "name": "元大滬深300單日反向1倍基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE02",
+      "fundCode": "DIE02",
+      "fundTaxId": "42300232",
+      "issuer": "元大投信",
+      "fundTypeCode": "AH23",
+      "beneficiaryCertificateCode": "00638R",
+      "aliases": [
+        "元大投信",
+        "42300232"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_42300253_TWD_AH23_00637L",
+      "name": "元大滬深300單日正向2倍基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE01",
+      "fundCode": "DIE01",
+      "fundTaxId": "42300253",
+      "issuer": "元大投信",
+      "fundTypeCode": "AH23",
+      "beneficiaryCertificateCode": "00637L",
+      "aliases": [
+        "元大投信",
+        "42300253"
       ],
       "dataQuality": "generated"
     },
@@ -11784,6 +11853,29 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TW_FUND_26334740_TWD_AH21_006205",
+      "name": "富邦上証180基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE06",
+      "fundCode": "DIE06",
+      "fundTaxId": "26334740",
+      "issuer": "富邦投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "006205",
+      "aliases": [
+        "富邦投信",
+        "26334740"
+      ],
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TW_FUND_31827147A_TWD_AC23_T2038A",
       "name": "富邦亞洲非投資等級債券基金(新台幣A)",
       "type": "taiwan_fund",
@@ -11895,6 +11987,75 @@
       "aliases": [
         "富邦投信",
         "31840182"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_38633011_TWD_AH23_00633L",
+      "name": "富邦中國ETF傘型基金之富邦上証180單日正向兩倍基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE01",
+      "fundCode": "DIE01",
+      "fundTaxId": "38633011",
+      "issuer": "富邦投信",
+      "fundTypeCode": "AH23",
+      "beneficiaryCertificateCode": "00633L",
+      "aliases": [
+        "富邦投信",
+        "38633011"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_38633027_TWD_AH23_00634R",
+      "name": "富邦中國ETF傘型基金之富邦上証180單日反向一倍基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE02",
+      "fundCode": "DIE02",
+      "fundTaxId": "38633027",
+      "issuer": "富邦投信",
+      "fundTypeCode": "AH23",
+      "beneficiaryCertificateCode": "00634R",
+      "aliases": [
+        "富邦投信",
+        "38633027"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_42302273_TWD_AH21_00639",
+      "name": "富邦深証100基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE07",
+      "fundCode": "DIE07",
+      "fundTaxId": "42302273",
+      "issuer": "富邦投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "00639",
+      "aliases": [
+        "富邦投信",
+        "42302273"
       ],
       "dataQuality": "generated"
     },
@@ -12746,6 +12907,29 @@
       "aliases": [
         "富邦投信",
         "73988876"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_74721518_TWD_AH21_00783",
+      "name": "富邦多元收益ⅡETF傘型基金之富邦中國中証中小500ETF基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE29",
+      "fundCode": "DIE29",
+      "fundTaxId": "74721518",
+      "issuer": "富邦投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "00783",
+      "aliases": [
+        "富邦投信",
+        "74721518"
       ],
       "dataQuality": "generated"
     },
@@ -16587,6 +16771,29 @@
       "aliases": [
         "群益投信",
         "42301416B"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_42323777_TWD_AH21_00643",
+      "name": "群益深証中小100基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE01",
+      "fundCode": "DIE01",
+      "fundTaxId": "42323777",
+      "issuer": "群益投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "00643",
+      "aliases": [
+        "群益投信",
+        "42323777"
       ],
       "dataQuality": "generated"
     },
@@ -22824,6 +23031,29 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TW_FUND_31835478_TWD_AH21_006207",
+      "name": "復華滬深300 A股基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE01",
+      "fundCode": "DIE01",
+      "fundTaxId": "31835478",
+      "issuer": "復華投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "006207",
+      "aliases": [
+        "復華投信",
+        "31835478"
+      ],
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TW_FUND_31980113A_TWD_AA2_T2286Y",
       "name": "復華全球消費基金-新臺幣",
       "type": "taiwan_fund",
@@ -23671,6 +23901,29 @@
       "aliases": [
         "復華投信",
         "76918662A"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_78744463_TWD_AH21_00877",
+      "name": "復華中國5G通信ETF基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE18",
+      "fundCode": "DIE18",
+      "fundTaxId": "78744463",
+      "issuer": "復華投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "00877",
+      "aliases": [
+        "復華投信",
+        "78744463"
       ],
       "dataQuality": "generated"
     },
@@ -35543,6 +35796,29 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TW_FUND_42260528_TWD_AH21_00636",
+      "name": "國泰富時中國A50基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE01",
+      "fundCode": "DIE01",
+      "fundTaxId": "42260528",
+      "issuer": "國泰投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "00636",
+      "aliases": [
+        "國泰投信",
+        "42260528"
+      ],
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TW_FUND_42331684A_TWD_AB2_T3769A",
       "name": "國泰亞太入息平衡基金-新台幣A(不配息)",
       "type": "taiwan_fund",
@@ -35585,6 +35861,52 @@
       "aliases": [
         "國泰投信",
         "42331684B"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_42385127_TWD_AH23_00656R",
+      "name": "國泰A50傘型基金之富時中國A50單日反向1倍基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE03",
+      "fundCode": "DIE03",
+      "fundTaxId": "42385127",
+      "issuer": "國泰投信",
+      "fundTypeCode": "AH23",
+      "beneficiaryCertificateCode": "00656R",
+      "aliases": [
+        "國泰投信",
+        "42385127"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_42385148_TWD_AH23_00655L",
+      "name": "國泰A50傘型基金之富時中國A50單日正向2倍基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE02",
+      "fundCode": "DIE02",
+      "fundTaxId": "42385148",
+      "issuer": "國泰投信",
+      "fundTypeCode": "AH23",
+      "beneficiaryCertificateCode": "00655L",
+      "aliases": [
+        "國泰投信",
+        "42385148"
       ],
       "dataQuality": "generated"
     },
