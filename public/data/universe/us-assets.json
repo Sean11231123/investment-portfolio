@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-08T16:58:07.653441Z",
-  "count": 11312,
-  "stockCount": 5602,
-  "etfCount": 5710,
-  "skippedCount": 1981,
+  "generatedAt": "2026-10-09T16:37:27.615728Z",
+  "count": 11317,
+  "stockCount": 5603,
+  "etfCount": 5714,
+  "skippedCount": 1980,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -5733,6 +5733,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AIO",
       "stooqSymbol": "aio.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AIOK",
+      "name": "AI OKTO CORP. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "AI OKTO CORP."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AIOK",
+      "stooqSymbol": "aiok.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -18676,6 +18694,24 @@
       "sourceSymbol": "BD",
       "stooqSymbol": "bd.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BDAI",
+      "name": "Biddance AI Systems, Inc. - Class A Ordinary Share",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Biddance AI Systems, Inc. - Class A Ordinary Share"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BDAI",
+      "stooqSymbol": "bdai.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -49460,14 +49496,14 @@
     },
     {
       "symbol": "DPU",
-      "name": "Top KingWin Ltd - Class A Ordinary Shares",
+      "name": "Nexpu Ltd. - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Top KingWin Ltd - Class A Ordinary Shares"
+        "Nexpu Ltd. - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -83299,24 +83335,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "HKIT",
-      "name": "Hitek Global Inc. - Class A Ordinary Share",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Hitek Global Inc. - Class A Ordinary Share"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HKIT",
-      "stooqSymbol": "hkit.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "HKPD",
       "name": "Cellyan Biotechnology Co., Ltd - Class A Ordinary Shares",
       "type": "us_stock",
@@ -111235,24 +111253,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MAMK",
-      "name": "MaxsMaking Inc. - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "MaxsMaking Inc. - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MAMK",
-      "stooqSymbol": "mamk.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "MAMO",
       "name": "Massimo Group - Common Stock",
       "type": "us_stock",
@@ -115214,14 +115214,14 @@
     },
     {
       "symbol": "MID",
-      "name": "American Century Mid Cap Growth Impact ETF",
+      "name": "American Century Mid Cap Growth Insights ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "American Century Mid Cap Growth Impact ETF"
+        "American Century Mid Cap Growth Insights ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -128479,24 +128479,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "NVNI",
-      "name": "Nvni Group Limited - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Nvni Group Limited - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NVNI",
-      "stooqSymbol": "nvni.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "NVNO",
       "name": "enVVeno Medical Corporation - Common Stock",
       "type": "us_stock",
@@ -132796,6 +132778,24 @@
       "sourceSymbol": "OPTH",
       "stooqSymbol": "opth.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OPTO",
+      "name": "Tuttle Capital Photonics Income Blast ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tuttle Capital Photonics Income Blast ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OPTO",
+      "stooqSymbol": "opto.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -155296,6 +155296,24 @@
       "sourceSymbol": "RTRE",
       "stooqSymbol": "rtre.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RTSN",
+      "name": "Retension Pharmaceuticals, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Retension Pharmaceuticals, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RTSN",
+      "stooqSymbol": "rtsn.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -180355,6 +180373,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TRXB",
+      "name": "TRex Bio, Inc. - Common stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "TRex Bio, Inc. - Common stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TRXB",
+      "stooqSymbol": "trxb.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TRXS",
       "name": "Canary Staked TRX ETF",
       "type": "us_etf",
@@ -189261,6 +189297,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VGT",
       "stooqSymbol": "vgt.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VGTX",
+      "name": "XFUNDS Technology Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "XFUNDS Technology Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VGTX",
+      "stooqSymbol": "vgtx.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -200875,6 +200929,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "XXQQ",
+      "name": "Subversive Growth 100 Redacted ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Subversive Growth 100 Redacted ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XXQQ",
+      "stooqSymbol": "xxqq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "XXRP",
       "name": "Teucrium 2x Long Daily XRP ETF",
       "type": "us_etf",
@@ -200889,6 +200961,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XXRP",
       "stooqSymbol": "xxrp.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XXSP",
+      "name": "Subversive S&P 500 Redacted ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Subversive S&P 500 Redacted ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XXSP",
+      "stooqSymbol": "xxsp.us",
       "isETF": true,
       "dataQuality": "generated"
     },
