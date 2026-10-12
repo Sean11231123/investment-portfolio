@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-09T16:37:27.615728Z",
+  "generatedAt": "2026-10-12T19:22:04.427883Z",
   "count": 11317,
   "stockCount": 5603,
   "etfCount": 5714,
-  "skippedCount": 1980,
+  "skippedCount": 1979,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -2026,6 +2026,24 @@
       "sourceSymbol": "ACM",
       "stooqSymbol": "acm.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACMG",
+      "name": "American Century Mid Cap Growth Insights ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "American Century Mid Cap Growth Insights ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACMG",
+      "stooqSymbol": "acmg.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -94531,6 +94549,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "IRLA",
+      "name": "IRulya Therapeutics Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "IRulya Therapeutics Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IRLA",
+      "stooqSymbol": "irla.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "IRM",
       "name": "Iron Mountain Incorporated (Delaware)Common Stock REIT",
       "type": "us_stock",
@@ -115210,24 +115246,6 @@
       "sourceSymbol": "MICC",
       "stooqSymbol": "micc.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MID",
-      "name": "American Century Mid Cap Growth Insights ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "American Century Mid Cap Growth Insights ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MID",
-      "stooqSymbol": "mid.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -147033,24 +147051,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "QNC",
       "stooqSymbol": "qnc.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "QNCX",
-      "name": "Quince Therapeutics, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Quince Therapeutics, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "QNCX",
-      "stooqSymbol": "qncx.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -192866,14 +192866,14 @@
     },
     {
       "symbol": "WAFU",
-      "name": "Wah Fu Education Group Limited - Ordinary Shares",
+      "name": "Wah Fu Education & Technology Group Ltd. - Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Wah Fu Education Group Limited - Ordinary Shares"
+        "Wah Fu Education & Technology Group Ltd. - Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -199850,14 +199850,14 @@
     },
     {
       "symbol": "XRPN",
-      "name": "Armada Acquisition Corp. II - Class A Ordinary Shares",
+      "name": "Evernorth Holdings Inc. - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Armada Acquisition Corp. II - Class A Ordinary Shares"
+        "Evernorth Holdings Inc. - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
