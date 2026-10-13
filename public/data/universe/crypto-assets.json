@@ -2,10 +2,10 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-10-08T17:24:29.897436Z",
-  "count": 495,
-  "binanceCount": 495,
-  "coingeckoMatchedCount": 320,
+  "generatedAt": "2026-10-13T17:36:10.463240Z",
+  "count": 496,
+  "binanceCount": 496,
+  "coingeckoMatchedCount": 321,
   "ambiguousCount": 169,
   "skippedCount": 3229,
   "assets": [
@@ -6590,6 +6590,24 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "RVNUSDT",
       "binanceSymbol": "RVNUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RWUSD",
+      "name": "RWUSD",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "coingecko",
+      "aliases": [
+        "RWUSD"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "RWUSDUSDT",
+      "binanceSymbol": "RWUSDUSDT",
+      "coingeckoId": "rwusd",
       "dataQuality": "generated"
     },
     {
