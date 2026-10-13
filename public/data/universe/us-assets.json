@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-12T19:22:04.427883Z",
-  "count": 11317,
+  "generatedAt": "2026-10-13T17:08:44.821841Z",
+  "count": 11307,
   "stockCount": 5603,
-  "etfCount": 5714,
-  "skippedCount": 1979,
+  "etfCount": 5704,
+  "skippedCount": 1978,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -9067,24 +9067,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ANEW",
-      "name": "ProShares MSCI Transformational Changes ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ProShares MSCI Transformational Changes ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ANEW",
-      "stooqSymbol": "anew.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ANF",
       "name": "Abercrombie & Fitch Company Common Stock",
       "type": "us_stock",
@@ -15651,6 +15633,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AXIN",
       "stooqSymbol": "axin.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AXNX",
+      "name": "Axonex AI Group Limited - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Axonex AI Group Limited - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AXNX",
+      "stooqSymbol": "axnx.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -35455,24 +35455,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CLIX",
-      "name": "ProShares Long Online/Short Stores ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ProShares Long Online/Short Stores ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CLIX",
-      "stooqSymbol": "clix.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CLM",
       "name": "Cornerstone Strategic Investment Fund, Inc. Common Shares",
       "type": "us_stock",
@@ -41665,24 +41647,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CTEX",
-      "name": "ProShares S&P Kensho Cleantech ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ProShares S&P Kensho Cleantech ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CTEX",
-      "stooqSymbol": "ctex.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CTGO",
       "name": "Contango Silver & Gold Inc. Common Stock",
       "type": "us_stock",
@@ -43966,24 +43930,6 @@
       "sourceSymbol": "DASH",
       "stooqSymbol": "dash.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DAT",
-      "name": "ProShares Big Data Refiners ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ProShares Big Data Refiners ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DAT",
-      "stooqSymbol": "dat.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -111235,24 +111181,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MAKX",
-      "name": "ProShares S&P Kensho Smart Factories ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ProShares S&P Kensho Smart Factories ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MAKX",
-      "stooqSymbol": "makx.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "MAMA",
       "name": "Mama's Creations, Inc. - Common Stock",
       "type": "us_stock",
@@ -115372,24 +115300,6 @@
       "sourceSymbol": "MILN",
       "stooqSymbol": "miln.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MIMI",
-      "name": "Mint Incorporation Limited - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Mint Incorporation Limited - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MIMI",
-      "stooqSymbol": "mimi.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -130019,7 +129929,7 @@
       "aliases": [
         "Origin Bancorp, Inc. Common Stock"
       ],
-      "exchange": "NYSE",
+      "exchange": "US",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "OBK",
       "stooqSymbol": "obk.us",
@@ -131896,24 +131806,6 @@
       "sourceSymbol": "ONCY",
       "stooqSymbol": "oncy.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "OND",
-      "name": "ProShares On-Demand ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ProShares On-Demand ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "OND",
-      "stooqSymbol": "ond.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -153625,6 +153517,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RNTZ",
+      "name": "Rantizo - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Rantizo - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RNTZ",
+      "stooqSymbol": "rntz.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RNW",
       "name": "ReNew Energy Global plc - Class A Shares",
       "type": "us_stock",
@@ -162787,24 +162697,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SKK",
-      "name": "SKK Holdings Limited - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "SKK Holdings Limited - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SKK",
-      "stooqSymbol": "skk.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SKM",
       "name": "SK Telecom Co., Ltd. Common Stock",
       "type": "us_stock",
@@ -171121,24 +171013,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SUPL",
-      "name": "ProShares Supply Chain Logistics ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ProShares Supply Chain Logistics ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SUPL",
-      "stooqSymbol": "supl.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SUPN",
       "name": "Supernus Pharmaceuticals, Inc. - Common Stock",
       "type": "us_stock",
@@ -176319,24 +176193,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TINS",
       "stooqSymbol": "tins.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TINT",
-      "name": "ProShares Smart Materials ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ProShares Smart Materials ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TINT",
-      "stooqSymbol": "tint.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -183487,24 +183343,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "UCYB",
-      "name": "ProShares Ultra Nasdaq Cybersecurity",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ProShares Ultra Nasdaq Cybersecurity"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "UCYB",
-      "stooqSymbol": "ucyb.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "UDEC",
       "name": "Innovator U.S. Equity Ultra Buffer ETF - December",
       "type": "us_etf",
@@ -188740,24 +188578,6 @@
       "sourceSymbol": "VERI",
       "stooqSymbol": "veri.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "VERS",
-      "name": "ProShares Metaverse ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ProShares Metaverse ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VERS",
-      "stooqSymbol": "vers.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
