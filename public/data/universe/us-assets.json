@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-13T17:08:44.821841Z",
-  "count": 11307,
-  "stockCount": 5603,
-  "etfCount": 5704,
-  "skippedCount": 1978,
+  "generatedAt": "2026-10-14T14:40:47.096563Z",
+  "count": 11312,
+  "stockCount": 5600,
+  "etfCount": 5712,
+  "skippedCount": 1975,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -1738,6 +1738,24 @@
       "sourceSymbol": "ACHC",
       "stooqSymbol": "achc.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACHP",
+      "name": "Global X Asia Semiconductor ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Global X Asia Semiconductor ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACHP",
+      "stooqSymbol": "achp.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -31459,24 +31477,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CCO",
-      "name": "Clear Channel Outdoor Holdings, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Clear Channel Outdoor Holdings, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CCO",
-      "stooqSymbol": "cco.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CCOI",
       "name": "Cogent Communications Holdings, Inc. - Common Stock",
       "type": "us_stock",
@@ -46273,6 +46273,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DFGV",
+      "name": "DFA Intermediate Government Fixed Income Portfolio: ETF Class Shares",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "DFA Intermediate Government Fixed Income Portfolio: ETF Class Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DFGV",
+      "stooqSymbol": "dfgv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DFGX",
       "name": "Dimensional International Core Fixed Income ETF",
       "type": "us_etf",
@@ -56044,24 +56062,6 @@
       "sourceSymbol": "EMR",
       "stooqSymbol": "emr.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "EMSC",
-      "name": "Sophus Capital Emerging Market Small Cap ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Sophus Capital Emerging Market Small Cap ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EMSC",
-      "stooqSymbol": "emsc.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -66970,6 +66970,24 @@
       "sourceSymbol": "FLSA",
       "stooqSymbol": "flsa.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FLSC",
+      "name": "Frazier Life Sciences Acquisition Corp. II - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Frazier Life Sciences Acquisition Corp. II - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FLSC",
+      "stooqSymbol": "flsc.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -86863,24 +86881,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "IAE",
-      "name": "Voya Asia Pacific High Dividend Equity Income Fund ING Asia Pacific High Dividend Equity Income Fund Common Shares of Beneficial Interest",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Voya Asia Pacific High Dividend Equity Income Fund ING Asia Pacific High Dividend Equity Income Fund Common Shares of Beneficial Interest"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IAE",
-      "stooqSymbol": "iae.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "IAF",
       "name": "abrdn Australia Equity Fund, Inc. Common Stock",
       "type": "us_stock",
@@ -90532,24 +90532,6 @@
       "sourceSymbol": "IHAK",
       "stooqSymbol": "ihak.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "IHD",
-      "name": "Voya Emerging Markets High Income Dividend Equity Fund Common Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Voya Emerging Markets High Income Dividend Equity Fund Common Shares"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IHD",
-      "stooqSymbol": "ihd.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -105386,14 +105368,14 @@
     },
     {
       "symbol": "LB",
-      "name": "LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests",
+      "name": "LandBridge Corporation Class A Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests"
+        "LandBridge Corporation Class A Common Stock"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -114724,6 +114706,24 @@
       "sourceSymbol": "MGNX",
       "stooqSymbol": "mgnx.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MGOL",
+      "name": "Leverage Shares MANGOS ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares MANGOS ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MGOL",
+      "stooqSymbol": "mgol.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -128948,16 +128948,16 @@
     },
     {
       "symbol": "NXDR",
-      "name": "Nextdoor Holdings, Inc. Class A Common Stock",
+      "name": "Nextdoor Holdings, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Nextdoor Holdings, Inc. Class A Common Stock"
+        "Nextdoor Holdings, Inc."
       ],
-      "exchange": "NYSE",
+      "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NXDR",
       "stooqSymbol": "nxdr.us",
@@ -137475,6 +137475,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PEPS",
       "stooqSymbol": "peps.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PEPT",
+      "name": "REX Peptide ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "REX Peptide ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PEPT",
+      "stooqSymbol": "pept.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -146152,24 +146170,6 @@
       "sourceSymbol": "QEMM",
       "stooqSymbol": "qemm.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "QETA",
-      "name": "Quetta Acquisition Corporation - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Quetta Acquisition Corporation"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "QETA",
-      "stooqSymbol": "qeta.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -155169,6 +155169,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "RTH",
       "stooqSymbol": "rth.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RTHY",
+      "name": "F/m Long-Term Treasury Inflation-Protected Security (TIPS) ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "F/m Long-Term Treasury Inflation-Protected Security (TIPS) ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RTHY",
+      "stooqSymbol": "rthy.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -198193,6 +198211,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "XLEM",
+      "name": "State Street S&P 500 Energy Market Sector SPDR ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "State Street S&P 500 Energy Market Sector SPDR ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XLEM",
+      "stooqSymbol": "xlem.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "XLEX",
       "name": "Corgi U.S. Energy 2x Daily ETF",
       "type": "us_etf",
@@ -198373,6 +198409,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "XLKM",
+      "name": "State Street S&P 500 Technology Market Sector SPDR ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "State Street S&P 500 Technology Market Sector SPDR ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XLKM",
+      "stooqSymbol": "xlkm.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "XLKX",
       "name": "Corgi U.S. Technology 2x Daily ETF",
       "type": "us_etf",
@@ -198441,6 +198495,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XLPD",
       "stooqSymbol": "xlpd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XLPM",
+      "name": "State Street S&P 500 Consumer Staples Market Sector SPDR ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "State Street S&P 500 Consumer Staples Market Sector SPDR ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XLPM",
+      "stooqSymbol": "xlpm.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -198693,6 +198765,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XLYI",
       "stooqSymbol": "xlyi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XLYM",
+      "name": "State Street S&P 500 Consumer Discretionary Market Sector SPDR ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "State Street S&P 500 Consumer Discretionary Market Sector SPDR ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XLYM",
+      "stooqSymbol": "xlym.us",
       "isETF": true,
       "dataQuality": "generated"
     },
