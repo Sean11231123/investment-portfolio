@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-10-13T17:36:10.463240Z",
-  "count": 496,
-  "binanceCount": 496,
+  "generatedAt": "2026-10-14T15:10:17.516963Z",
+  "count": 500,
+  "binanceCount": 500,
   "coingeckoMatchedCount": 321,
-  "ambiguousCount": 169,
+  "ambiguousCount": 170,
   "skippedCount": 3229,
   "assets": [
     {
@@ -1313,6 +1313,23 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "BBUSDT",
       "binanceSymbol": "BBUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BBB",
+      "name": "BBB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BBB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BBBUSDT",
+      "binanceSymbol": "BBBUSDT",
       "dataQuality": "generated"
     },
     {
@@ -4757,6 +4774,23 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MDBB",
+      "name": "MDBB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "MDBB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "MDBBUSDT",
+      "binanceSymbol": "MDBBUSDT",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ME",
       "name": "ME",
       "type": "crypto",
@@ -5724,6 +5758,23 @@
       "sourceSymbol": "PENDLEUSDT",
       "binanceSymbol": "PENDLEUSDT",
       "coingeckoId": "pendle",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PENGB",
+      "name": "PENGB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "PENGB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "PENGBUSDT",
+      "binanceSymbol": "PENGBUSDT",
       "dataQuality": "generated"
     },
     {
@@ -8020,6 +8071,23 @@
       "sourceSymbol": "USUALUSDT",
       "binanceSymbol": "USUALUSDT",
       "coingeckoId": "usual",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "UVXYB",
+      "name": "UVXYB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "UVXYB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "UVXYBUSDT",
+      "binanceSymbol": "UVXYBUSDT",
       "dataQuality": "generated"
     },
     {
