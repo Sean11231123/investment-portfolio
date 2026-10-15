@@ -2,10 +2,10 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-10-14T15:10:17.516963Z",
+  "generatedAt": "2026-10-15T15:02:46.478739Z",
   "count": 500,
   "binanceCount": 500,
-  "coingeckoMatchedCount": 321,
+  "coingeckoMatchedCount": 320,
   "ambiguousCount": 170,
   "skippedCount": 3229,
   "assets": [
@@ -3344,20 +3344,19 @@
     },
     {
       "symbol": "GNS",
-      "name": "Gains Network",
+      "name": "GNS",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
-        "Gains Network"
+        "GNS"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "GNSUSDT",
       "binanceSymbol": "GNSUSDT",
-      "coingeckoId": "gains-network",
       "dataQuality": "generated"
     },
     {
