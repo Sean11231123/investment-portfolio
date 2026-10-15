@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-14T14:40:47.096563Z",
-  "count": 11312,
-  "stockCount": 5600,
-  "etfCount": 5712,
-  "skippedCount": 1975,
+  "generatedAt": "2026-10-15T14:25:39.574625Z",
+  "count": 11318,
+  "stockCount": 5602,
+  "etfCount": 5716,
+  "skippedCount": 1973,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -15277,6 +15277,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AVUC",
+      "name": "Avantis U.S. Core Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Avantis U.S. Core Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AVUC",
+      "stooqSymbol": "avuc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AVUQ",
       "name": "Avantis U.S. Quality ETF",
       "type": "us_etf",
@@ -23143,6 +23161,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BMMX",
+      "name": "Black Mammoth Metals Corporation - Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Black Mammoth Metals Corporation - Common Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BMMX",
+      "stooqSymbol": "bmmx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BMN",
       "name": "BlackRock 2037 Municipal Target Term Trust Common Shares of Beneficial Interest",
       "type": "us_stock",
@@ -28360,24 +28396,6 @@
       "sourceSymbol": "BWMX",
       "stooqSymbol": "bwmx.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BWOW",
-      "name": "Bitwise Dogecoin ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bitwise Dogecoin ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BWOW",
-      "stooqSymbol": "bwow.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -72553,6 +72571,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GANZ",
+      "name": "Tuttle Capital Thematic ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tuttle Capital Thematic ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GANZ",
+      "stooqSymbol": "ganz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GAP",
       "name": "Gap, Inc. (The) Common Stock",
       "type": "us_stock",
@@ -86360,14 +86396,14 @@
     },
     {
       "symbol": "HYGW",
-      "name": "iShares High Yield Corporate Bond BuyWrite Strategy ETF",
+      "name": "iShares HYG Premium Income+ ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "iShares High Yield Corporate Bond BuyWrite Strategy ETF"
+        "iShares HYG Premium Income+ ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -86986,6 +87022,24 @@
       "sourceSymbol": "IALT",
       "stooqSymbol": "ialt.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IAM",
+      "name": "Iambic Therapeutics, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Iambic Therapeutics, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IAM",
+      "stooqSymbol": "iam.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -96098,14 +96152,14 @@
     },
     {
       "symbol": "IVVW",
-      "name": "iShares S&P 500 BuyWrite ETF",
+      "name": "iShares IVV Premium Income+ ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "iShares S&P 500 BuyWrite ETF"
+        "iShares IVV Premium Income+ ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -96314,14 +96368,14 @@
     },
     {
       "symbol": "IWMW",
-      "name": "iShares Russell 2000 BuyWrite ETF",
+      "name": "iShares IWM Premium Income+ ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "iShares Russell 2000 BuyWrite ETF"
+        "iShares IWM Premium Income+ ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -109220,14 +109274,14 @@
     },
     {
       "symbol": "LQDW",
-      "name": "iShares Investment Grade Corporate Bond BuyWrite Strategy ETF",
+      "name": "iShares LQD Premium Income+ ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "iShares Investment Grade Corporate Bond BuyWrite Strategy ETF"
+        "iShares LQD Premium Income+ ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -164695,6 +164749,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SMRZ",
+      "name": "Global X Small Modular Reactor ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Global X Small Modular Reactor ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SMRZ",
+      "stooqSymbol": "smrz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SMSI",
       "name": "Smith Micro Software, Inc. - Common Stock",
       "type": "us_stock",
@@ -177152,14 +177224,14 @@
     },
     {
       "symbol": "TLTW",
-      "name": "iShares 20+ Year Treasury Bond BuyWrite Strategy ETF",
+      "name": "iShares TLT Premium Income+ ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "iShares 20+ Year Treasury Bond BuyWrite Strategy ETF"
+        "iShares TLT Premium Income+ ETF"
       ],
       "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
@@ -192937,6 +193009,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "WBEM",
+      "name": "William Blair Emerging Markets Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "William Blair Emerging Markets Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WBEM",
+      "stooqSymbol": "wbem.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "WBI",
       "name": "WaterBridge Infrastructure LLC Class A Shares Representing Limited Liability Company Interests",
       "type": "us_stock",
@@ -192952,6 +193042,24 @@
       "sourceSymbol": "WBI",
       "stooqSymbol": "wbi.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WBIE",
+      "name": "William Blair International Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "William Blair International Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WBIE",
+      "stooqSymbol": "wbie.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
