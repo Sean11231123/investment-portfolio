@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-15T14:25:39.574625Z",
-  "count": 11318,
-  "stockCount": 5602,
-  "etfCount": 5716,
+  "generatedAt": "2026-10-16T14:18:51.508166Z",
+  "count": 11335,
+  "stockCount": 5605,
+  "etfCount": 5730,
   "skippedCount": 1973,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -81,6 +81,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AAAA",
       "stooqSymbol": "aaaa.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AAAB",
+      "name": "Corgi FTSE Aaa-A Intermediate Corporate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE Aaa-A Intermediate Corporate Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AAAB",
+      "stooqSymbol": "aaab.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -3595,24 +3613,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "AELV",
-      "name": "Harbor AlphaEdge Large Cap Value ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Harbor AlphaEdge Large Cap Value ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AELV",
-      "stooqSymbol": "aelv.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "AEM",
       "name": "Agnico Eagle Mines Limited Common Stock",
       "type": "us_stock",
@@ -4509,6 +4509,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AGGA",
       "stooqSymbol": "agga.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AGGB",
+      "name": "Corgi FTSE U.S. Aggregate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE U.S. Aggregate Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AGGB",
+      "stooqSymbol": "aggb.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -8527,6 +8545,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AMRO",
+      "name": "Amaero Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Amaero Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AMRO",
+      "stooqSymbol": "amro.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AMRX",
       "name": "Amneal Pharmaceuticals, Inc. - Class A Common Stock",
       "type": "us_stock",
@@ -9100,6 +9136,24 @@
       "sourceSymbol": "ANF",
       "stooqSymbol": "anf.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANG",
+      "name": "Corgi FTSE Fallen Angels Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE Fallen Angels Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANG",
+      "stooqSymbol": "ang.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -17235,6 +17289,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BBB",
       "stooqSymbol": "bbb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BBBB",
+      "name": "Corgi FTSE BBB Rated Corporate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE BBB Rated Corporate Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BBBB",
+      "stooqSymbol": "bbbb.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -42093,6 +42165,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CTXR",
       "stooqSymbol": "ctxr.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CTY",
+      "name": "City Therapeutics, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "City Therapeutics, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CTY",
+      "stooqSymbol": "cty.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -70825,6 +70915,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FTN",
+      "name": "Corgi FTSE 5-10 Year IG Corporate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE 5-10 Year IG Corporate Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FTN",
+      "stooqSymbol": "ftn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FTNJ",
       "name": "Franklin New Jersey Municipal Income ETF",
       "type": "us_etf",
@@ -73053,6 +73161,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GCAL",
       "stooqSymbol": "gcal.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GCB",
+      "name": "Corgi FTSE Intermediate Government/Credit Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE Intermediate Government/Credit Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GCB",
+      "stooqSymbol": "gcb.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -82813,6 +82939,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HH",
+      "name": "Corgi FTSE High Yield Corporate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE High Yield Corporate Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HH",
+      "stooqSymbol": "hh.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HHH",
       "name": "Howard Hughes Holdings Inc. Common Stock",
       "type": "us_stock",
@@ -83980,6 +84124,24 @@
       "sourceSymbol": "HOG",
       "stooqSymbol": "hog.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HOID",
+      "name": "Tuttle - Rareview Humanoid Robotics ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tuttle - Rareview Humanoid Robotics ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HOID",
+      "stooqSymbol": "hoid.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -87799,24 +87961,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "IBIC",
-      "name": "iShares iBonds Oct 2026 Term TIPS ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "iShares iBonds Oct 2026 Term TIPS ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IBIC",
-      "stooqSymbol": "ibic.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "IBID",
       "name": "iShares iBonds Oct 2027 Term TIPS ETF",
       "type": "us_etf",
@@ -90190,6 +90334,24 @@
       "sourceSymbol": "IGAC",
       "stooqSymbol": "igac.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IGB",
+      "name": "Corgi FTSE U.S. IG Corporate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE U.S. IG Corporate Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IGB",
+      "stooqSymbol": "igb.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -107347,6 +107509,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LIGB",
+      "name": "Corgi FTSE 10 Year IG Corporate Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE 10 Year IG Corporate Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LIGB",
+      "stooqSymbol": "ligb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LII",
       "name": "Lennox International, Inc. Common Stock",
       "type": "us_stock",
@@ -109863,6 +110043,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LTAX",
       "stooqSymbol": "ltax.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LTB",
+      "name": "Corgi FTSE 20 Year U.S. Treasury Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE 20 Year U.S. Treasury Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LTB",
+      "stooqSymbol": "ltb.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -116452,6 +116650,24 @@
       "sourceSymbol": "MMEDV",
       "stooqSymbol": "mmedv.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MMF",
+      "name": "Corgi Money Market ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi Money Market ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MMF",
+      "stooqSymbol": "mmf.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -171517,6 +171733,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SVTN",
+      "name": "Corgi FTSE 7-10 Year U.S. Treasury Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE 7-10 Year U.S. Treasury Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SVTN",
+      "stooqSymbol": "svtn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SVV",
       "name": "Savers Value Village, Inc. Common Stock",
       "type": "us_stock",
@@ -173619,6 +173853,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TCX",
       "stooqSymbol": "tcx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TCXB",
+      "name": "TCGX Acquisition Corp. II - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "TCGX Acquisition Corp. II - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TCXB",
+      "stooqSymbol": "tcxb.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -178087,6 +178339,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TNTW",
+      "name": "Corgi FTSE 10-20 Year U.S. Treasury Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE 10-20 Year U.S. Treasury Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TNTW",
+      "stooqSymbol": "tntw.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TNUK",
       "name": "Tortoise Nuclear Renaissance ETF",
       "type": "us_etf",
@@ -181687,6 +181957,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TTTT",
+      "name": "Corgi FTSE U.S. TIPS Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE U.S. TIPS Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TTTT",
+      "stooqSymbol": "tttt.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TTWO",
       "name": "Take-Two Interactive Software, Inc. - Common Stock",
       "type": "us_stock",
@@ -183034,6 +183322,24 @@
       "sourceSymbol": "UAVS",
       "stooqSymbol": "uavs.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "UB",
+      "name": "Corgi FTSE U.S. Treasury Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Corgi FTSE U.S. Treasury Bond ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "UB",
+      "stooqSymbol": "ub.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
