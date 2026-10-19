@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-10-15T14:07:36.207834Z",
-  "count": 2235,
-  "twseCount": 1223,
+  "generatedAt": "2026-10-19T15:48:05.826800Z",
+  "count": 2236,
+  "twseCount": 1224,
   "tpexOtcCount": 1012,
   "tpexOtcSourceCount": 1012,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2235,
+  "metadataEnrichedCount": 2236,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -37739,6 +37739,28 @@
       "board": "main",
       "securityType": "stock",
       "classificationSource": "tpex_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "6467",
+      "name": "泰合",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "twse",
+      "aliases": [
+        "泰合"
+      ],
+      "exchange": "TWSE",
+      "marketSegment": "listed",
+      "source": "twse-isin",
+      "sourceSymbol": "6467",
+      "isETF": false,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "stock",
+      "classificationSource": "twse_isin",
       "classificationConfidence": "high"
     },
     {

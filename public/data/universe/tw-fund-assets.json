@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T13:38:06.027Z",
+  "generatedAt": "2026-10-19T15:49:04.068Z",
   "source": "SITCA",
   "sourceUrl": "https://www.sitca.org.tw/MemberK0000/F/03/nav.csv",
   "market": "TW",
@@ -349,6 +349,29 @@
       "aliases": [
         "兆豐投信",
         "00681895D"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00734443_TWD_AH21_009832",
+      "name": "兆豐美國黃金礦業ETF基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE04",
+      "fundCode": "DIE04",
+      "fundTaxId": "00734443",
+      "issuer": "兆豐投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "009832",
+      "aliases": [
+        "兆豐投信",
+        "00734443"
       ],
       "dataQuality": "generated"
     },
@@ -30502,29 +30525,6 @@
       "aliases": [
         "野村投信",
         "19330754D"
-      ],
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TW_FUND_20089404_TWD_AA2_T3227Y",
-      "name": "野村泰國基金",
-      "type": "taiwan_fund",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "單位",
-      "priceSource": "fund_nav_tw",
-      "exchange": "SITCA",
-      "marketSegment": "fund",
-      "source": "sitca-nav",
-      "sourceSymbol": "DFO04",
-      "fundCode": "DFO04",
-      "fundTaxId": "20089404",
-      "issuer": "野村投信",
-      "fundTypeCode": "AA2",
-      "beneficiaryCertificateCode": "T3227Y",
-      "aliases": [
-        "野村投信",
-        "20089404"
       ],
       "dataQuality": "generated"
     },
