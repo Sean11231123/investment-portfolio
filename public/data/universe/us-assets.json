@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-16T14:18:51.508166Z",
-  "count": 11335,
-  "stockCount": 5605,
-  "etfCount": 5730,
-  "skippedCount": 1973,
+  "generatedAt": "2026-10-19T16:38:23.568780Z",
+  "count": 11334,
+  "stockCount": 5603,
+  "etfCount": 5731,
+  "skippedCount": 1972,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -1939,6 +1939,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ACIV",
+      "name": "Hartford Alpha Capture International Value ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hartford Alpha Capture International Value ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACIV",
+      "stooqSymbol": "aciv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ACIW",
       "name": "ACI Worldwide, Inc. - Common Stock",
       "type": "us_stock",
@@ -2547,24 +2565,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ACV",
       "stooqSymbol": "acv.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ACVA",
-      "name": "ACV Auctions Inc. Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "ACV Auctions Inc. Class A Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ACVA",
-      "stooqSymbol": "acva.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -5392,6 +5392,24 @@
       "sourceSymbol": "AIDX",
       "stooqSymbol": "aidx.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AIED",
+      "name": "Defiance LLM Catalyst Momentum ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance LLM Catalyst Momentum ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AIED",
+      "stooqSymbol": "aied.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -8362,24 +8380,6 @@
       "sourceSymbol": "AMOD",
       "stooqSymbol": "amod.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "AMOM",
-      "name": "QRAFT AI-Enhanced U.S. Large Cap Momentum ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "QRAFT AI-Enhanced U.S. Large Cap Momentum ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AMOM",
-      "stooqSymbol": "amom.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -13383,24 +13383,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ATII",
       "stooqSymbol": "atii.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ATKR",
-      "name": "Atkore Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Atkore Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ATKR",
-      "stooqSymbol": "atkr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -27301,24 +27283,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BTRN",
-      "name": "Global X Bitcoin Trend Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Global X Bitcoin Trend Strategy ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BTRN",
-      "stooqSymbol": "btrn.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BTSG",
       "name": "BrightSpring Health Services, Inc. - Common Stock",
       "type": "us_stock",
@@ -32234,16 +32198,16 @@
     },
     {
       "symbol": "CECO",
-      "name": "CECO Environmental Corp. - Common Stock",
+      "name": "CECO Environmental Corp. Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "CECO Environmental Corp."
+        "CECO Environmental Corp. Common Stock"
       ],
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CECO",
       "stooqSymbol": "ceco.us",
@@ -44581,6 +44545,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DCM",
+      "name": "DeFi Capital Markets, Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "DeFi Capital Markets, Inc. Common Stock"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DCM",
+      "stooqSymbol": "dcm.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DCMT",
       "name": "DoubleLine Commodity Strategy ETF",
       "type": "us_etf",
@@ -53996,14 +53978,14 @@
     },
     {
       "symbol": "EFTY",
-      "name": "Etoiles Capital Group Co., Ltd. - Class A Ordinary Shares",
+      "name": "Etoiles Capital Group Co., Ltd. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Etoiles Capital Group Co., Ltd. - Class A Ordinary Shares"
+        "Etoiles Capital Group Co., Ltd."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -83245,6 +83227,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HINC",
+      "name": "Hartford High Yield ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hartford High Yield ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HINC",
+      "stooqSymbol": "hinc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HIND",
       "name": "Vyome Holdings, Inc. - Common Stock",
       "type": "us_stock",
@@ -88466,16 +88466,16 @@
     },
     {
       "symbol": "IBOC",
-      "name": "International Bancshares Corporation - Common Stock",
+      "name": "International Bancshares Corporation Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "International Bancshares Corporation"
+        "International Bancshares Corporation Common Stock"
       ],
-      "exchange": "NASDAQ",
+      "exchange": "US",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IBOC",
       "stooqSymbol": "iboc.us",
@@ -94833,24 +94833,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IRTR",
       "stooqSymbol": "irtr.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "IRVH",
-      "name": "Global X Interest Rate Volatility & Inflation Hedge ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Global X Interest Rate Volatility & Inflation Hedge ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IRVH",
-      "stooqSymbol": "irvh.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -106087,6 +106069,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LCU",
+      "name": "Lion Copper Corp. - Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Lion Copper Corp. - Common Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LCU",
+      "stooqSymbol": "lcu.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LCUT",
       "name": "Lifetime Brands, Inc. - Common Stock",
       "type": "us_stock",
@@ -109630,24 +109630,6 @@
       "sourceSymbol": "LRGG",
       "stooqSymbol": "lrgg.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "LRHC",
-      "name": "La Rosa Holdings Corp. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "La Rosa Holdings Corp."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LRHC",
-      "stooqSymbol": "lrhc.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -116631,24 +116613,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MMED",
       "stooqSymbol": "mmed.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MMEDV",
-      "name": "MiniMed Group, Inc. - Common Stock When Issued",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "MiniMed Group, Inc. - Common Stock When Issued"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MMEDV",
-      "stooqSymbol": "mmedv.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -124628,14 +124592,14 @@
     },
     {
       "symbol": "NHP",
-      "name": "National Healthcare Properties, Inc. - Class A Common Stock",
+      "name": "National Healthcare Properties, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "National Healthcare Properties, Inc. - Class A Common Stock"
+        "National Healthcare Properties, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -146101,24 +146065,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "QCLR",
-      "name": "Global X NASDAQ 100 Collar 95-110 ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Global X NASDAQ 100 Collar 95-110 ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "QCLR",
-      "stooqSymbol": "qclr.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "QCLS",
       "name": "Q/C Technologies, Inc. - Common Stock",
       "type": "us_stock",
@@ -160213,6 +160159,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SEQ",
+      "name": "Sequoia ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Sequoia ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SEQ",
+      "stooqSymbol": "seq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SER",
       "name": "Serina Therapeutics, Inc. Common Stock",
       "type": "us_stock",
@@ -168799,6 +168763,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SQBR",
+      "name": "FT Vest U.S. Equity Quarterly 20 Barrier ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest U.S. Equity Quarterly 20 Barrier ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SQBR",
+      "stooqSymbol": "sqbr.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SQFT",
       "name": "Presidio Property Trust, Inc. - Class A Common Stock",
       "type": "us_stock",
@@ -169245,6 +169227,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SRTA",
       "stooqSymbol": "srta.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SRTM",
+      "name": "Stratum Holdings Corp. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Stratum Holdings Corp."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SRTM",
+      "stooqSymbol": "srtm.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -187159,24 +187159,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "UUU",
-      "name": "Universal Safety Products, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Universal Safety Products, Inc. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "UUU",
-      "stooqSymbol": "uuu.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "UUUC",
       "name": "Corgi UUUU 2x Daily ETF",
       "type": "us_etf",
@@ -194791,6 +194773,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "WINC",
+      "name": "William Blair Emerging Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "William Blair Emerging Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WINC",
+      "stooqSymbol": "winc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "WING",
       "name": "Wingstop Inc. - Common Stock",
       "type": "us_stock",
@@ -197505,24 +197505,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XCHG",
       "stooqSymbol": "xchg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "XCLR",
-      "name": "Global X S&P 500 Collar 95-110 ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Global X S&P 500 Collar 95-110 ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "XCLR",
-      "stooqSymbol": "xclr.us",
       "isETF": true,
       "dataQuality": "generated"
     },
