@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-19T16:38:23.568780Z",
-  "count": 11334,
-  "stockCount": 5603,
-  "etfCount": 5731,
+  "generatedAt": "2026-10-20T14:30:10.209096Z",
+  "count": 11321,
+  "stockCount": 5602,
+  "etfCount": 5719,
   "skippedCount": 1972,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -5323,6 +5323,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AIBN",
+      "name": "Defiance AI Infrastructure Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance AI Infrastructure Bond ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AIBN",
+      "stooqSymbol": "aibn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AIBU",
       "name": "Direxion Daily AI and Big Data Bull 2X ETF",
       "type": "us_etf",
@@ -6634,24 +6652,6 @@
       "sourceSymbol": "ALB",
       "stooqSymbol": "alb.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ALBG",
-      "name": "Leverage Shares 2X Long ALB Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long ALB Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ALBG",
-      "stooqSymbol": "albg.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -22747,24 +22747,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BLSG",
-      "name": "Leverage Shares 2X Long BLSH Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long BLSH Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BLSG",
-      "stooqSymbol": "blsg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BLSH",
       "name": "Bullish Ordinary Shares",
       "type": "us_stock",
@@ -28863,24 +28845,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BZFD",
       "stooqSymbol": "bzfd.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BZH",
-      "name": "Beazer Homes USA, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Beazer Homes USA, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BZH",
-      "stooqSymbol": "bzh.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -40348,24 +40312,6 @@
       "sourceSymbol": "CRMT",
       "stooqSymbol": "crmt.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CRMU",
-      "name": "Leverage Shares 2x Long CRML Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2x Long CRML Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CRMU",
-      "stooqSymbol": "crmu.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -62743,24 +62689,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "FCXG",
-      "name": "Leverage Shares 2x Long FCX Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2x Long FCX Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FCXG",
-      "stooqSymbol": "fcxg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "FDAT",
       "name": "Tactical Advantage ETF",
       "type": "us_etf",
@@ -74119,24 +74047,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "GEMG",
-      "name": "Leverage Shares 2X Long GEMI Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long GEMI Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GEMG",
-      "stooqSymbol": "gemg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "GEMI",
       "name": "Gemini Space Station, Inc. - Class A Common Stock",
       "type": "us_stock",
@@ -76114,24 +76024,6 @@
       "sourceSymbol": "GLED",
       "stooqSymbol": "gled.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "GLGG",
-      "name": "Leverage Shares 2X Long GLXY Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long GLXY Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GLGG",
-      "stooqSymbol": "glgg.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -119839,6 +119731,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MTGG",
+      "name": "MayTech Global Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MayTech Global Growth ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MTGG",
+      "stooqSymbol": "mtgg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MTGP",
       "name": "WisdomTree Mortgage Plus Bond Fund",
       "type": "us_etf",
@@ -123687,24 +123597,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NEMD",
       "stooqSymbol": "nemd.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "NEMG",
-      "name": "Leverage Shares 2x Long NEM Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2x Long NEM Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NEMG",
-      "stooqSymbol": "nemg.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -127665,24 +127557,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NUEM",
       "stooqSymbol": "nuem.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "NUG",
-      "name": "Leverage Shares 2X Long NU Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long NU Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NUG",
-      "stooqSymbol": "nug.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -132619,24 +132493,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "OPEG",
-      "name": "Leverage Shares 2X Long OPEN Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long OPEN Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "OPEG",
-      "stooqSymbol": "opeg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "OPEN",
       "name": "Opendoor Technologies Inc - Common Stock",
       "type": "us_stock",
@@ -136234,24 +136090,6 @@
       "sourceSymbol": "PBR",
       "stooqSymbol": "pbr.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PBRG",
-      "name": "Leverage Shares 2X Long PBR Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long PBR Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PBRG",
-      "stooqSymbol": "pbrg.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -143397,24 +143235,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PSEP",
       "stooqSymbol": "psep.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PSET",
-      "name": "Principal Quality ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Principal Quality ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PSET",
-      "stooqSymbol": "pset.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -165974,14 +165794,14 @@
     },
     {
       "symbol": "SOAR",
-      "name": "Volato Group, Inc. Class A Common Stock",
+      "name": "SOAR AI, Inc. Class A Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Volato Group, Inc. Class A Common Stock"
+        "SOAR AI, Inc. Class A Common Stock"
       ],
       "exchange": "NYSEAMERICAN",
       "source": "nasdaqtrader-symbol-directory",
@@ -183883,24 +183703,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "UECG",
-      "name": "Leverage Shares 2x Long UEC Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2x Long UEC Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "UECG",
-      "stooqSymbol": "uecg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "UEIC",
       "name": "Universal Electronics Inc. - Common Stock",
       "type": "us_stock",
@@ -187696,24 +187498,6 @@
       "sourceSymbol": "VAL",
       "stooqSymbol": "val.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "VALG",
-      "name": "Leverage Shares 2X Long VALE Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long VALE Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VALG",
-      "stooqSymbol": "valg.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -203644,24 +203428,6 @@
       "sourceSymbol": "ZS",
       "stooqSymbol": "zs.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ZSB",
-      "name": "USCF Sustainable Battery Metals Strategy Fund",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "USCF Sustainable Battery Metals Strategy Fund"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ZSB",
-      "stooqSymbol": "zsb.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
