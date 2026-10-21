@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-20T14:30:10.209096Z",
-  "count": 11321,
-  "stockCount": 5602,
-  "etfCount": 5719,
-  "skippedCount": 1972,
+  "generatedAt": "2026-10-21T14:40:58.539173Z",
+  "count": 11320,
+  "stockCount": 5603,
+  "etfCount": 5717,
+  "skippedCount": 1973,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -2947,24 +2947,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ADDS",
-      "name": "Hedgeye Index Adds ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Hedgeye Index Adds ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ADDS",
-      "stooqSymbol": "adds.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ADEA",
       "name": "Adeia Inc. - Common Stock",
       "type": "us_stock",
@@ -5107,6 +5089,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AHIC",
+      "name": "Allspring Short-Term High Income Fund ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Allspring Short-Term High Income Fund ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AHIC",
+      "stooqSymbol": "ahic.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AHLT",
       "name": "AHL Trend ETF",
       "type": "us_etf",
@@ -5211,6 +5211,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AHYB",
       "stooqSymbol": "ahyb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AHYM",
+      "name": "Allspring High Yield Municipal Bond Fund ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Allspring High Yield Municipal Bond Fund ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AHYM",
+      "stooqSymbol": "ahym.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -12988,6 +13006,24 @@
       "sourceSymbol": "ASTL",
       "stooqSymbol": "astl.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ASTM",
+      "name": "Allspring Strategic Municipal Bond Fund ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Allspring Strategic Municipal Bond Fund ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ASTM",
+      "stooqSymbol": "astm.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -27067,24 +27103,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BTF",
-      "name": "CoinShares Bitcoin and Ether ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "CoinShares Bitcoin and Ether ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BTF",
-      "stooqSymbol": "btf.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BTG",
       "name": "B2Gold Corp Common shares (Canada)",
       "type": "us_stock",
@@ -39001,24 +39019,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CPNX",
-      "name": "Tradr 2X Long CPNG Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tradr 2X Long CPNG Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CPNX",
-      "stooqSymbol": "cpnx.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CPOP",
       "name": "Pop Culture Group Co., Ltd - Class A Ordinary Shares",
       "type": "us_stock",
@@ -47565,24 +47565,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DIM",
       "stooqSymbol": "dim.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DIME",
-      "name": "CoinShares Altcoins ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "CoinShares Altcoins ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DIME",
-      "stooqSymbol": "dime.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -76747,6 +76729,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GMIE",
+      "name": "GMO International Equity Fund, ETF Class",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GMO International Equity Fund, ETF Class"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GMIE",
+      "stooqSymbol": "gmie.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GMM",
       "name": "Global Mofy AI Limited - Class A Ordinary Shares",
       "type": "us_stock",
@@ -82219,24 +82219,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "HELS",
-      "name": "Hedgeye 130/30 Equity ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Hedgeye 130/30 Equity ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HELS",
-      "stooqSymbol": "hels.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "HELX",
       "name": "Franklin Genomic Advancements ETF",
       "type": "us_etf",
@@ -84160,24 +84142,6 @@
       "sourceSymbol": "HONA",
       "stooqSymbol": "hona.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "HONG",
-      "name": "Leverage Shares 2X Long HON Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Leverage Shares 2X Long HON Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HONG",
-      "stooqSymbol": "hong.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -120523,24 +120487,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MUSQ",
-      "name": "MUSQ Global Music Industry Index ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "MUSQ Global Music Industry Index ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MUSQ",
-      "stooqSymbol": "musq.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "MUST",
       "name": "Columbia Multi-Sector Municipal Income ETF",
       "type": "us_etf",
@@ -129250,24 +129196,6 @@
       "sourceSymbol": "NXPL",
       "stooqSymbol": "nxpl.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "NXPX",
-      "name": "Tradr 2X Long NXPI Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tradr 2X Long NXPI Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NXPX",
-      "stooqSymbol": "nxpx.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -141259,6 +141187,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "POM",
+      "name": "POMDOCTOR LIMITED - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "POMDOCTOR LIMITED - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "POM",
+      "stooqSymbol": "pom.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "POMG",
+      "name": "PRIMECAP Odyssey Discovery ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "PRIMECAP Odyssey Discovery ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "POMG",
+      "stooqSymbol": "pomg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PONO",
       "name": "Pono Capital Four, Inc. - Class A Ordinary Shares",
       "type": "us_stock",
@@ -141274,24 +141238,6 @@
       "sourceSymbol": "PONO",
       "stooqSymbol": "pono.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PONX",
-      "name": "Tradr 2X Long PONY Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tradr 2X Long PONY Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PONX",
-      "stooqSymbol": "ponx.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -149554,6 +149500,24 @@
       "sourceSymbol": "RBRK",
       "stooqSymbol": "rbrk.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RBTX",
+      "name": "iShares Future Robotics and Related Technologies Active ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "iShares Future Robotics and Related Technologies Active ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RBTX",
+      "stooqSymbol": "rbtx.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -158215,6 +158179,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SCIN",
+      "name": "Schwab International Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Schwab International Bond ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SCIN",
+      "stooqSymbol": "scin.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SCIO",
       "name": "First Trust Structured Credit Income Opportunities ETF",
       "type": "us_etf",
@@ -165015,24 +164997,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SMYY",
       "stooqSymbol": "smyy.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SMZ",
-      "name": "Tradr 2X Short SMR Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tradr 2X Short SMR Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SMZ",
-      "stooqSymbol": "smz.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -176935,6 +176899,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TLCE",
+      "name": "Thrivent Large Cap Stock ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Thrivent Large Cap Stock ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TLCE",
+      "stooqSymbol": "tlce.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TLCI",
       "name": "Touchstone International Equity ETF",
       "type": "us_etf",
@@ -177476,14 +177458,14 @@
     },
     {
       "symbol": "TMDE",
-      "name": "TMD Energy Limited Ordinary Shares",
+      "name": "TMD Energy Limited Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "TMD Energy Limited Ordinary Shares"
+        "TMD Energy Limited Class A Ordinary Shares"
       ],
       "exchange": "NYSEAMERICAN",
       "source": "nasdaqtrader-symbol-directory",
@@ -180697,24 +180679,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TSEU",
-      "name": "Tradr 2X Long TSEM Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tradr 2X Long TSEM Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TSEU",
-      "stooqSymbol": "tseu.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TSHA",
       "name": "Taysha Gene Therapies, Inc. - Common Stock",
       "type": "us_stock",
@@ -180783,6 +180747,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TSIC",
       "stooqSymbol": "tsic.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TSIE",
+      "name": "Thrivent Securitized Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Thrivent Securitized Income ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TSIE",
+      "stooqSymbol": "tsie.us",
       "isETF": true,
       "dataQuality": "generated"
     },
