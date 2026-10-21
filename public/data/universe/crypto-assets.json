@@ -2,12 +2,12 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-10-15T15:02:46.478739Z",
-  "count": 500,
-  "binanceCount": 500,
-  "coingeckoMatchedCount": 320,
+  "generatedAt": "2026-10-21T15:17:09.521471Z",
+  "count": 505,
+  "binanceCount": 505,
+  "coingeckoMatchedCount": 323,
   "ambiguousCount": 170,
-  "skippedCount": 3229,
+  "skippedCount": 3231,
   "assets": [
     {
       "symbol": "0G",
@@ -1650,6 +1650,23 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BOTB",
+      "name": "BOTB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BOTB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BOTBUSDT",
+      "binanceSymbol": "BOTBUSDT",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BREV",
       "name": "Brevis",
       "type": "crypto",
@@ -1665,6 +1682,23 @@
       "sourceSymbol": "BREVUSDT",
       "binanceSymbol": "BREVUSDT",
       "coingeckoId": "brevis",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BRKBB",
+      "name": "BRKBB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "BRKBB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "BRKBBUSDT",
+      "binanceSymbol": "BRKBBUSDT",
       "dataQuality": "generated"
     },
     {
@@ -2514,14 +2548,14 @@
     },
     {
       "symbol": "DRAMB",
-      "name": "Roundhill Memory ETF (bStocks Tokenized Stock)",
+      "name": "Roundhill Memory ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
       "priceSource": "coingecko",
       "aliases": [
-        "Roundhill Memory ETF (bStocks Tokenized Stock)"
+        "Roundhill Memory ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
@@ -2886,14 +2920,14 @@
     },
     {
       "symbol": "EWYB",
-      "name": "iShares MSCI South Korea ETF (bStocks Tokenized Stock)",
+      "name": "iShares MSCI South Korea ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
       "priceSource": "coingecko",
       "aliases": [
-        "iShares MSCI South Korea ETF (bStocks Tokenized Stock)"
+        "iShares MSCI South Korea ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
@@ -3910,14 +3944,14 @@
     },
     {
       "symbol": "INTWB",
-      "name": "GraniteShares 2X Long INTC ETF (bStocks Tokenized Stock)",
+      "name": "GraniteShares 2X Long INTC ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
       "priceSource": "coingecko",
       "aliases": [
-        "GraniteShares 2X Long INTC ETF (bStocks Tokenized Stock)"
+        "GraniteShares 2X Long INTC ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
@@ -4317,14 +4351,14 @@
     },
     {
       "symbol": "KORUB",
-      "name": "South Korea Bull 3X ETF (bStocks Tokenized Stock)",
+      "name": "South Korea Bull 3X ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
       "priceSource": "coingecko",
       "aliases": [
-        "South Korea Bull 3X ETF (bStocks Tokenized Stock)"
+        "South Korea Bull 3X ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
@@ -4349,6 +4383,23 @@
       "sourceSymbol": "KSMUSDT",
       "binanceSymbol": "KSMUSDT",
       "coingeckoId": "kusama",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KSTRB",
+      "name": "KSTRB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "KSTRB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "KSTRBUSDT",
+      "binanceSymbol": "KSTRBUSDT",
       "dataQuality": "generated"
     },
     {
@@ -4774,19 +4825,20 @@
     },
     {
       "symbol": "MDBB",
-      "name": "MDBB",
+      "name": "MongoDB (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "MDBB"
+        "MongoDB (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "MDBBUSDT",
       "binanceSymbol": "MDBBUSDT",
+      "coingeckoId": "mongodb-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -5142,14 +5194,14 @@
     },
     {
       "symbol": "MUUB",
-      "name": "Direxion MU Bull 2X ETF (bStocks Tokenized Stock)",
+      "name": "Direxion MU Bull 2X ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
       "priceSource": "coingecko",
       "aliases": [
-        "Direxion MU Bull 2X ETF (bStocks Tokenized Stock)"
+        "Direxion MU Bull 2X ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
@@ -5160,14 +5212,14 @@
     },
     {
       "symbol": "MVLLB",
-      "name": "GraniteShares 2X Long MRVL ETF (bStocks Tokenized Stock)",
+      "name": "GraniteShares 2X Long MRVL ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
       "priceSource": "coingecko",
       "aliases": [
-        "GraniteShares 2X Long MRVL ETF (bStocks Tokenized Stock)"
+        "GraniteShares 2X Long MRVL ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
@@ -5761,19 +5813,20 @@
     },
     {
       "symbol": "PENGB",
-      "name": "PENGB",
+      "name": "Penguin Solutions (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "PENGB"
+        "Penguin Solutions (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "PENGBUSDT",
       "binanceSymbol": "PENGBUSDT",
+      "coingeckoId": "penguin-solutions-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -7013,14 +7066,14 @@
     },
     {
       "symbol": "SMHB",
-      "name": "VanEck Semiconductor ETF (bStocks Tokenized Stock)",
+      "name": "VanEck Semiconductor ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
       "priceSource": "coingecko",
       "aliases": [
-        "VanEck Semiconductor ETF (bStocks Tokenized Stock)"
+        "VanEck Semiconductor ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
@@ -7067,14 +7120,14 @@
     },
     {
       "symbol": "SNXXB",
-      "name": "Tradr 2X Long SNDK ETF (bStocks Tokenized Stock)",
+      "name": "Tradr 2X Long SNDK ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
       "priceSource": "coingecko",
       "aliases": [
-        "Tradr 2X Long SNDK ETF (bStocks Tokenized Stock)"
+        "Tradr 2X Long SNDK ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
@@ -7156,14 +7209,14 @@
     },
     {
       "symbol": "SOXLB",
-      "name": "Semicon Bull 3X ETF (bStocks Tokenized Stock)",
+      "name": "Semicon Bull 3X ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
       "priceSource": "coingecko",
       "aliases": [
-        "Semicon Bull 3X ETF (bStocks Tokenized Stock)"
+        "Semicon Bull 3X ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
@@ -7174,14 +7227,14 @@
     },
     {
       "symbol": "SOXSB",
-      "name": "Direxion Semiconductor Bear 3X ETF (bStocks Tokenized Stock)",
+      "name": "Direxion Semiconductor Bear 3X ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
       "priceSource": "coingecko",
       "aliases": [
-        "Direxion Semiconductor Bear 3X ETF (bStocks Tokenized Stock)"
+        "Direxion Semiconductor Bear 3X ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
@@ -7635,6 +7688,23 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TMFB",
+      "name": "TMFB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "TMFB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "TMFBUSDT",
+      "binanceSymbol": "TMFBUSDT",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TNSR",
       "name": "Tensor",
       "type": "crypto",
@@ -8074,19 +8144,20 @@
     },
     {
       "symbol": "UVXYB",
-      "name": "UVXYB",
+      "name": "ProShares Ultra VIX Short-Term Futures ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "UVXYB"
+        "ProShares Ultra VIX Short-Term Futures ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "UVXYBUSDT",
       "binanceSymbol": "UVXYBUSDT",
+      "coingeckoId": "proshares-ultra-vix-short-term-futures-etf-bstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
@@ -8158,6 +8229,23 @@
       "sourceSymbol": "VIRTUALUSDT",
       "binanceSymbol": "VIRTUALUSDT",
       "coingeckoId": "virtual-protocol",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VSTB",
+      "name": "VSTB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "VSTB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "VSTBUSDT",
+      "binanceSymbol": "VSTBUSDT",
       "dataQuality": "generated"
     },
     {
