@@ -2,10 +2,10 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-10-21T15:17:09.521471Z",
+  "generatedAt": "2026-10-22T15:17:58.523074Z",
   "count": 505,
   "binanceCount": 505,
-  "coingeckoMatchedCount": 323,
+  "coingeckoMatchedCount": 328,
   "ambiguousCount": 170,
   "skippedCount": 3231,
   "assets": [
@@ -1651,19 +1651,20 @@
     },
     {
       "symbol": "BOTB",
-      "name": "BOTB",
+      "name": "RoboStrategy (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "BOTB"
+        "RoboStrategy (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "BOTBUSDT",
       "binanceSymbol": "BOTBUSDT",
+      "coingeckoId": "robostrategy-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -1686,19 +1687,20 @@
     },
     {
       "symbol": "BRKBB",
-      "name": "BRKBB",
+      "name": "Berkshire Hathaway (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "BRKBB"
+        "Berkshire Hathaway (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "BRKBBUSDT",
       "binanceSymbol": "BRKBBUSDT",
+      "coingeckoId": "berkshire-hathaway-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -4387,19 +4389,20 @@
     },
     {
       "symbol": "KSTRB",
-      "name": "KSTRB",
+      "name": "KraneShares STAR Market 50 ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "KSTRB"
+        "KraneShares STAR Market 50 ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "KSTRBUSDT",
       "binanceSymbol": "KSTRBUSDT",
+      "coingeckoId": "kraneshares-star-market-50-etf-bstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
@@ -7689,19 +7692,20 @@
     },
     {
       "symbol": "TMFB",
-      "name": "TMFB",
+      "name": "Direxion Daily 20 Year Treasury Bull 3X ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "TMFB"
+        "Direxion Daily 20 Year Treasury Bull 3X ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "TMFBUSDT",
       "binanceSymbol": "TMFBUSDT",
+      "coingeckoId": "direxion-daily-20-year-treasury-bull-3x-etf-bstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
@@ -8233,19 +8237,20 @@
     },
     {
       "symbol": "VSTB",
-      "name": "VSTB",
+      "name": "Vistra Corp (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "VSTB"
+        "Vistra Corp (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "VSTBUSDT",
       "binanceSymbol": "VSTBUSDT",
+      "coingeckoId": "vistra-corp-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
