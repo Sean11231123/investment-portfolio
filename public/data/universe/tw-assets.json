@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-10-21T14:02:17.732298Z",
-  "count": 2237,
+  "generatedAt": "2026-10-22T14:28:42.107254Z",
+  "count": 2239,
   "twseCount": 1224,
-  "tpexOtcCount": 1013,
-  "tpexOtcSourceCount": 1013,
+  "tpexOtcCount": 1015,
+  "tpexOtcSourceCount": 1015,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2237,
+  "metadataEnrichedCount": 2239,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -42208,6 +42208,28 @@
       "classificationConfidence": "high"
     },
     {
+      "symbol": "6898",
+      "name": "程曦資訊",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "程曦資訊"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "6898",
+      "isETF": false,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "stock",
+      "classificationSource": "tpex_isin",
+      "classificationConfidence": "high"
+    },
+    {
       "symbol": "6899",
       "name": "創為精密",
       "type": "taiwan_stock",
@@ -42733,6 +42755,28 @@
       "board": "main",
       "securityType": "stock",
       "classificationSource": "twse_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "6938",
+      "name": "藍新資訊",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "tpex_otc",
+      "aliases": [
+        "藍新資訊"
+      ],
+      "exchange": "TPEX",
+      "marketSegment": "otc",
+      "source": "tpex-isin",
+      "sourceSymbol": "6938",
+      "isETF": false,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "stock",
+      "classificationSource": "tpex_isin",
       "classificationConfidence": "high"
     },
     {
