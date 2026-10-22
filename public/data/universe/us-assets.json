@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-21T14:40:58.539173Z",
-  "count": 11320,
-  "stockCount": 5603,
-  "etfCount": 5717,
-  "skippedCount": 1973,
+  "generatedAt": "2026-10-22T14:41:33.476278Z",
+  "count": 11325,
+  "stockCount": 5604,
+  "etfCount": 5721,
+  "skippedCount": 1972,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -13401,24 +13401,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ATI",
       "stooqSymbol": "ati.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ATII",
-      "name": "Archimedes Tech SPAC Partners II Co. - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Archimedes Tech SPAC Partners II Co. - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ATII",
-      "stooqSymbol": "atii.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -43987,6 +43969,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DAVI",
+      "name": "Davion Healthcare Plc - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Davion Healthcare Plc - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DAVI",
+      "stooqSymbol": "davi.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DAX",
       "name": "Global X DAX Germany ETF",
       "type": "us_etf",
@@ -55273,6 +55273,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "EMAG",
+      "name": "Emerging Markets AI Mag 3 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Emerging Markets AI Mag 3 ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EMAG",
+      "stooqSymbol": "emag.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "EMAT",
       "name": "Evolution Metals & Technologies Corp. - Common Stock",
       "type": "us_stock",
@@ -65134,6 +65152,24 @@
       "sourceSymbol": "FIEE",
       "stooqSymbol": "fiee.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FIFT",
+      "name": "HCM Select 50 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "HCM Select 50 ETF"
+      ],
+      "exchange": "US",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FIFT",
+      "stooqSymbol": "fift.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -88893,6 +88929,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ICMO",
       "stooqSymbol": "icmo.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ICOM",
+      "name": "Tema Commodity Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tema Commodity Income ETF"
+      ],
+      "exchange": "US",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ICOM",
+      "stooqSymbol": "icom.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -121996,6 +122050,24 @@
       "sourceSymbol": "NANC",
       "stooqSymbol": "nanc.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NANO",
+      "name": "Forge Nano Holdings Inc. - Common stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Forge Nano Holdings Inc. - Common stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NANO",
+      "stooqSymbol": "nano.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -175941,6 +176013,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "THRO",
       "stooqSymbol": "thro.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "THRU",
+      "name": "Tema Commodity Infrastructure ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tema Commodity Infrastructure ETF"
+      ],
+      "exchange": "US",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "THRU",
+      "stooqSymbol": "thru.us",
       "isETF": true,
       "dataQuality": "generated"
     },
