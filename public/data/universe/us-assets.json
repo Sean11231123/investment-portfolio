@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-22T14:41:33.476278Z",
-  "count": 11325,
+  "generatedAt": "2026-10-23T14:27:44.770597Z",
+  "count": 11328,
   "stockCount": 5604,
-  "etfCount": 5721,
-  "skippedCount": 1972,
+  "etfCount": 5724,
+  "skippedCount": 1971,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -110749,6 +110749,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LYCA",
+      "name": "Lycia Therapeutics, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Lycia Therapeutics, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LYCA",
+      "stooqSymbol": "lyca.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LYEL",
       "name": "Lyell Immunopharma, Inc. - Common Stock",
       "type": "us_stock",
@@ -134041,6 +134059,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "OVQ",
+      "name": "Overlay Shares Nasdaq 100 Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Overlay Shares Nasdaq 100 Income ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OVQ",
+      "stooqSymbol": "ovq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "OVS",
       "name": "Overlay Shares Small Cap Equity ETF",
       "type": "us_etf",
@@ -135261,6 +135297,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PAX",
       "stooqSymbol": "pax.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PAXG",
+      "name": "Pine Tree Acquisition Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pine Tree Acquisition Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PAXG",
+      "stooqSymbol": "paxg.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -137566,24 +137620,6 @@
       "sourceSymbol": "PEPT",
       "stooqSymbol": "pept.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PERF",
-      "name": "Perfect Corp. Class A Ordinary Share",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Perfect Corp. Class A Ordinary Share"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PERF",
-      "stooqSymbol": "perf.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -147231,6 +147267,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "QQBF",
       "stooqSymbol": "qqbf.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "QQDH",
+      "name": "Tuttle Capital Innovation 100 Income & Hedge ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tuttle Capital Innovation 100 Income & Hedge ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QQDH",
+      "stooqSymbol": "qqdh.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -159187,24 +159241,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SDST",
-      "name": "Stardust Power Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Stardust Power Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SDST",
-      "stooqSymbol": "sdst.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SDTY",
       "name": "YieldMax S&P 500 0DTE Covered Call Strategy ETF",
       "type": "us_etf",
@@ -164601,6 +164637,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SMN",
       "stooqSymbol": "smn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SMNG",
+      "name": "xETFs Samsung Group ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "xETFs Samsung Group ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SMNG",
+      "stooqSymbol": "smng.us",
       "isETF": true,
       "dataQuality": "generated"
     },
