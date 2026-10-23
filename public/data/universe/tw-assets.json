@@ -2,13 +2,13 @@
   "version": 1,
   "market": "TW",
   "source": "twse-isin-listed-and-tpex-otc-securities",
-  "generatedAt": "2026-10-22T14:28:42.107254Z",
-  "count": 2239,
-  "twseCount": 1224,
+  "generatedAt": "2026-10-23T13:43:01.836132Z",
+  "count": 2240,
+  "twseCount": 1225,
   "tpexOtcCount": 1015,
   "tpexOtcSourceCount": 1015,
   "duplicateCount": 0,
-  "metadataEnrichedCount": 2239,
+  "metadataEnrichedCount": 2240,
   "classificationWarningCount": 0,
   "assets": [
     {
@@ -12223,14 +12223,14 @@
     },
     {
       "symbol": "2072",
-      "name": "世紀風電",
+      "name": "世紀能源",
       "type": "taiwan_stock",
       "market": "TW",
       "currency": "TWD",
       "unitLabel": "股",
       "priceSource": "twse",
       "aliases": [
-        "世紀風電"
+        "世紀能源"
       ],
       "exchange": "TWSE",
       "marketSegment": "listed",
@@ -43437,6 +43437,28 @@
       "board": "main",
       "securityType": "stock",
       "classificationSource": "tpex_isin",
+      "classificationConfidence": "high"
+    },
+    {
+      "symbol": "7710",
+      "name": "東擎科技",
+      "type": "taiwan_stock",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "股",
+      "priceSource": "twse",
+      "aliases": [
+        "東擎科技"
+      ],
+      "exchange": "TWSE",
+      "marketSegment": "listed",
+      "source": "twse-isin",
+      "sourceSymbol": "7710",
+      "isETF": false,
+      "dataQuality": "generated",
+      "board": "main",
+      "securityType": "stock",
+      "classificationSource": "twse_isin",
       "classificationConfidence": "high"
     },
     {
