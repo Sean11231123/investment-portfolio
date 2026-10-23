@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-10-22T15:17:58.523074Z",
+  "generatedAt": "2026-10-23T15:06:09.211412Z",
   "count": 505,
   "binanceCount": 505,
-  "coingeckoMatchedCount": 328,
-  "ambiguousCount": 170,
+  "coingeckoMatchedCount": 326,
+  "ambiguousCount": 172,
   "skippedCount": 3231,
   "assets": [
     {
@@ -313,20 +313,19 @@
     },
     {
       "symbol": "AERO",
-      "name": "Aerodrome Finance",
+      "name": "AERO",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
-        "Aerodrome Finance"
+        "AERO"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "AEROUSDT",
       "binanceSymbol": "AEROUSDT",
-      "coingeckoId": "aerodrome-finance",
       "dataQuality": "generated"
     },
     {
@@ -8219,20 +8218,19 @@
     },
     {
       "symbol": "VIRTUAL",
-      "name": "Virtuals Protocol",
+      "name": "VIRTUAL",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
-        "Virtuals Protocol"
+        "VIRTUAL"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "VIRTUALUSDT",
       "binanceSymbol": "VIRTUALUSDT",
-      "coingeckoId": "virtual-protocol",
       "dataQuality": "generated"
     },
     {
