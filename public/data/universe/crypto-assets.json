@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-10-23T15:06:09.211412Z",
+  "generatedAt": "2026-10-25T14:23:06.127268Z",
   "count": 505,
   "binanceCount": 505,
-  "coingeckoMatchedCount": 326,
-  "ambiguousCount": 172,
+  "coingeckoMatchedCount": 327,
+  "ambiguousCount": 171,
   "skippedCount": 3231,
   "assets": [
     {
@@ -8218,19 +8218,20 @@
     },
     {
       "symbol": "VIRTUAL",
-      "name": "VIRTUAL",
+      "name": "Virtuals Protocol",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "VIRTUAL"
+        "Virtuals Protocol"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "VIRTUALUSDT",
       "binanceSymbol": "VIRTUALUSDT",
+      "coingeckoId": "virtual-protocol",
       "dataQuality": "generated"
     },
     {
