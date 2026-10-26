@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-23T14:27:44.770597Z",
-  "count": 11328,
-  "stockCount": 5604,
-  "etfCount": 5724,
-  "skippedCount": 1971,
+  "generatedAt": "2026-10-26T16:18:48.347070Z",
+  "count": 11326,
+  "stockCount": 5601,
+  "etfCount": 5725,
+  "skippedCount": 1972,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -1345,24 +1345,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ACA",
-      "name": "Arcosa, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Arcosa, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ACA",
-      "stooqSymbol": "aca.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ACAA",
       "name": "Averin Capital Acquisition Corp. - Class A Ordinary Shares",
       "type": "us_stock",
@@ -1899,6 +1881,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ACII",
       "stooqSymbol": "acii.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACIN",
+      "name": "Hartford Alpha Capture International Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hartford Alpha Capture International Equity ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACIN",
+      "stooqSymbol": "acin.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -3916,6 +3916,24 @@
       "sourceSymbol": "AESR",
       "stooqSymbol": "aesr.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AETR",
+      "name": "Aetherion Technologies Inc. - Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Aetherion Technologies Inc. - Common Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AETR",
+      "stooqSymbol": "aetr.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -30235,6 +30253,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CAYN",
+      "name": "Calamos Least-Of Autocallable Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Calamos Least-Of Autocallable Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CAYN",
+      "stooqSymbol": "cayn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CB",
       "name": "Chubb Limited Common Stock",
       "type": "us_stock",
@@ -31798,24 +31834,6 @@
       "sourceSymbol": "CDE",
       "stooqSymbol": "cde.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CDEI",
-      "name": "Calvert US Large-Cap Diversity, Equity and Inclusion Index ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Calvert US Large-Cap Diversity, Equity and Inclusion Index ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CDEI",
-      "stooqSymbol": "cdei.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -54985,24 +55003,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ELME",
-      "name": "Elme Communities Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Elme Communities Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ELME",
-      "stooqSymbol": "elme.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ELMT",
       "name": "The Elmet Group Co. - Common Stock",
       "type": "us_stock",
@@ -62271,6 +62271,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FCCO",
       "stooqSymbol": "fcco.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FCDH",
+      "name": "Forcendra Holding Limited - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Forcendra Holding Limited - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FCDH",
+      "stooqSymbol": "fcdh.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -74530,24 +74548,6 @@
       "sourceSymbol": "GFF",
       "stooqSymbol": "gff.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "GFGF",
-      "name": "Guru Favorite Stocks ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Guru Favorite Stocks ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GFGF",
-      "stooqSymbol": "gfgf.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -134977,24 +134977,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "PAPL",
-      "name": "Pineapple Financial Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Pineapple Financial Inc. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PAPL",
-      "stooqSymbol": "papl.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "PAPR",
       "name": "Innovator U.S. Equity Power Buffer ETF - April",
       "type": "us_etf",
@@ -144211,6 +144193,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PTIV",
+      "name": "Pineapple Financial Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Pineapple Financial Inc. Common Stock"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PTIV",
+      "stooqSymbol": "ptiv.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PTL",
       "name": "Inspire 500 ETF",
       "type": "us_etf",
@@ -149049,6 +149049,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "RACK",
       "stooqSymbol": "rack.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RADD",
+      "name": "AB US Research Advanced ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "AB US Research Advanced ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RADD",
+      "stooqSymbol": "radd.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -191767,24 +191785,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "VSME",
-      "name": "VS Media Holdings Limited - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "VS Media Holdings Limited - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VSME",
-      "stooqSymbol": "vsme.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "VSMV",
       "name": "VictoryShares US Multi-Factor Minimum Volatility ETF",
       "type": "us_etf",
@@ -193945,24 +193945,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "WEAV",
-      "name": "Weave Communications, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Weave Communications, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "WEAV",
-      "stooqSymbol": "weav.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "WEBL",
       "name": "Direxion Daily Dow Jones Internet Bull 3X ETF",
       "type": "us_etf",
@@ -195525,24 +195507,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "WPM",
       "stooqSymbol": "wpm.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "WPRT",
-      "name": "Westport Fuel Systems Inc - Common Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Westport Fuel Systems Inc - Common Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "WPRT",
-      "stooqSymbol": "wprt.us",
       "isETF": false,
       "dataQuality": "generated"
     },
