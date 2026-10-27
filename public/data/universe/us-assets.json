@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-26T16:18:48.347070Z",
-  "count": 11326,
+  "generatedAt": "2026-10-27T15:33:01.898727Z",
+  "count": 11320,
   "stockCount": 5601,
-  "etfCount": 5725,
-  "skippedCount": 1972,
+  "etfCount": 5719,
+  "skippedCount": 1971,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -101227,24 +101227,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "KBAB",
-      "name": "KraneShares 2x Long BABA Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "KraneShares 2x Long BABA Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KBAB",
-      "stooqSymbol": "kbab.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "KBDC",
       "name": "Kayne Anderson BDC, Inc. Common Stock",
       "type": "us_stock",
@@ -101260,24 +101242,6 @@
       "sourceSymbol": "KBDC",
       "stooqSymbol": "kbdc.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "KBDU",
-      "name": "KraneShares 2x Long BIDU Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "KraneShares 2x Long BIDU Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KBDU",
-      "stooqSymbol": "kbdu.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -101475,24 +101439,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "KBWY",
       "stooqSymbol": "kbwy.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "KCAI",
-      "name": "KraneShares China Alpha Index ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "KraneShares China Alpha Index ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KCAI",
-      "stooqSymbol": "kcai.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -102307,24 +102253,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "KHYB",
-      "name": "KraneShares Asia Pacific High Income USD Bond ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "KraneShares Asia Pacific High Income USD Bond ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KHYB",
-      "stooqSymbol": "khyb.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "KIDS",
       "name": "OrthoPediatrics Corp. - Common Stock",
       "type": "us_stock",
@@ -102483,24 +102411,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "KJAN",
       "stooqSymbol": "kjan.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "KJD",
-      "name": "KraneShares 2x Long JD Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "KraneShares 2x Long JD Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KJD",
-      "stooqSymbol": "kjd.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -102915,24 +102825,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "KMID",
       "stooqSymbol": "kmid.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "KMLI",
-      "name": "KraneShares 2x Long MELI Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "KraneShares 2x Long MELI Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KMLI",
-      "stooqSymbol": "kmli.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -103618,24 +103510,6 @@
       "sourceSymbol": "KOYN",
       "stooqSymbol": "koyn.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "KPDD",
-      "name": "KraneShares 2x Long PDD Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "KraneShares 2x Long PDD Daily ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KPDD",
-      "stooqSymbol": "kpdd.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -118903,6 +118777,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MSGK",
+      "name": "MSG Knickerbockers Corp. Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MSG Knickerbockers Corp. Class A Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MSGK",
+      "stooqSymbol": "msgk.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MSGM",
       "name": "Motorsport Games Inc. - Class A Common Stock",
       "type": "us_stock",
@@ -118921,20 +118813,20 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MSGS",
-      "name": "Madison Square Garden Sports Corp. Class A Common Stock (New)",
+      "symbol": "MSGR",
+      "name": "MSG Rangers Corp. Class A Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Madison Square Garden Sports Corp. Class A Common Stock (New)"
+        "MSG Rangers Corp. Class A Common Stock"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MSGS",
-      "stooqSymbol": "msgs.us",
+      "sourceSymbol": "MSGR",
+      "stooqSymbol": "msgr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -122157,24 +122049,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NAT",
       "stooqSymbol": "nat.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "NATH",
-      "name": "Nathan's Famous, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Nathan's Famous, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NATH",
-      "stooqSymbol": "nath.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -135014,14 +134888,14 @@
     },
     {
       "symbol": "PARA",
-      "name": "Banzai International, Inc. - Class A Common Stock",
+      "name": "Parabolic Technologies, Inc. - Class A Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Banzai International, Inc. - Class A Common Stock"
+        "Parabolic Technologies, Inc. - Class A Common Stock"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -178789,24 +178663,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TOT",
-      "name": "LionShares U.S. Equity Total Return ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "LionShares U.S. Equity Total Return ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TOT",
-      "stooqSymbol": "tot.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TOTL",
       "name": "State Street DoubleLine Total Return Tactical ETF",
       "type": "us_etf",
@@ -193333,6 +193189,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "WBMO",
+      "name": "VanEck Wealth Builder ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VanEck Wealth Builder ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WBMO",
+      "stooqSymbol": "wbmo.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "WBTN",
       "name": "WEBTOON Entertainment Inc. - Common stock",
       "type": "us_stock",
@@ -202257,6 +202131,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "YSEP",
       "stooqSymbol": "ysep.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YSKH",
+      "name": "YieldMax SKHY Option Income Strategy ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "YieldMax SKHY Option Income Strategy ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YSKH",
+      "stooqSymbol": "yskh.us",
       "isETF": true,
       "dataQuality": "generated"
     },
