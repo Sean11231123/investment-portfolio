@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-27T15:33:01.898727Z",
-  "count": 11320,
+  "generatedAt": "2026-10-28T16:16:55.861417Z",
+  "count": 11316,
   "stockCount": 5601,
-  "etfCount": 5719,
+  "etfCount": 5715,
   "skippedCount": 1971,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -51169,24 +51169,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "DVAL",
-      "name": "BrandywineGLOBAL-Dynamic US Large Cap Value ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "BrandywineGLOBAL-Dynamic US Large Cap Value ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DVAL",
-      "stooqSymbol": "dval.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "DVDN",
       "name": "Kingsbarn Dividend Opportunity ETF",
       "type": "us_etf",
@@ -55558,24 +55540,6 @@
       "sourceSymbol": "EME",
       "stooqSymbol": "eme.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "EMEM",
-      "name": "Sophus Capital Emerging Market ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Sophus Capital Emerging Market ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EMEM",
-      "stooqSymbol": "emem.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -64594,6 +64558,24 @@
       "sourceSymbol": "FFSM",
       "stooqSymbol": "ffsm.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FFTT",
+      "name": "Masonglory Limited - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Masonglory Limited - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FFTT",
+      "stooqSymbol": "fftt.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -118831,24 +118813,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MSGY",
-      "name": "Masonglory Limited - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Masonglory Limited - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MSGY",
-      "stooqSymbol": "msgy.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "MSI",
       "name": "Motorola Solutions, Inc. Common Stock",
       "type": "us_stock",
@@ -120177,24 +120141,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MULL",
       "stooqSymbol": "mull.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MULT",
-      "name": "Franklin Multisector Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Franklin Multisector Income ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MULT",
-      "stooqSymbol": "mult.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -186021,24 +185967,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "USFE",
       "stooqSymbol": "usfe.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "USFI",
-      "name": "BrandywineGLOBAL - U.S. Fixed Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "BrandywineGLOBAL - U.S. Fixed Income ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "USFI",
-      "stooqSymbol": "usfi.us",
       "isETF": true,
       "dataQuality": "generated"
     },
