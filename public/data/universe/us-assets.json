@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-28T16:16:55.861417Z",
-  "count": 11316,
-  "stockCount": 5601,
-  "etfCount": 5715,
-  "skippedCount": 1971,
+  "generatedAt": "2026-10-29T16:24:57.993963Z",
+  "count": 11321,
+  "stockCount": 5602,
+  "etfCount": 5719,
+  "skippedCount": 1972,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -3015,24 +3015,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ADIG",
       "stooqSymbol": "adig.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ADIL",
-      "name": "Adial Pharmaceuticals, Inc - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Adial Pharmaceuticals, Inc"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ADIL",
-      "stooqSymbol": "adil.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -16119,6 +16101,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AZO",
       "stooqSymbol": "azo.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AZR",
+      "name": "Azora Therapeutics, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Azora Therapeutics, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AZR",
+      "stooqSymbol": "azr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -54805,6 +54805,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ELCF",
+      "name": "Eventide Large Cap Focus ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Eventide Large Cap Focus ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ELCF",
+      "stooqSymbol": "elcf.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ELCV",
       "name": "Strategy Shares Eventide High Dividend ETF",
       "type": "us_etf",
@@ -58567,6 +58585,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ETDG",
+      "name": "Eventide Dividend Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Eventide Dividend Growth ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ETDG",
+      "stooqSymbol": "etdg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ETEC",
       "name": "iShares Breakthrough Environmental Solutions ETF",
       "type": "us_etf",
@@ -61732,6 +61768,24 @@
       "sourceSymbol": "FBDT",
       "stooqSymbol": "fbdt.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FBEQ",
+      "name": "Franklin US Equity Bitcoin Drip Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Franklin US Equity Bitcoin Drip Index ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FBEQ",
+      "stooqSymbol": "fbeq.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -65044,6 +65098,24 @@
       "sourceSymbol": "FIBK",
       "stooqSymbol": "fibk.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FIBT",
+      "name": "Franklin US Innovation Bitcoin DRIP Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Franklin US Innovation Bitcoin DRIP Index ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FIBT",
+      "stooqSymbol": "fibt.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -72855,6 +72927,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GBAB",
       "stooqSymbol": "gbab.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GBC",
+      "name": "Georgia Banking Company, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Georgia Banking Company, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GBC",
+      "stooqSymbol": "gbc.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -122090,14 +122180,14 @@
     },
     {
       "symbol": "NAVI",
-      "name": "Navient Corporation - Common Stock",
+      "name": "Navient Holdings, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Navient Corporation"
+        "Navient Holdings, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -138533,7 +138623,7 @@
       "aliases": [
         "PGIM Active High Yield Bond ETF"
       ],
-      "exchange": "NYSEARCA",
+      "exchange": "BATS",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PHYL",
       "stooqSymbol": "phyl.us",
@@ -163274,14 +163364,14 @@
     },
     {
       "symbol": "SLMT",
-      "name": "Brera Holdings PLC - Class B Ordinary Shares",
+      "name": "Solmate Infrastructure Public Limited Company - Class B Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Brera Holdings PLC - Class B Ordinary Shares"
+        "Solmate Infrastructure Public Limited Company - Class B Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
