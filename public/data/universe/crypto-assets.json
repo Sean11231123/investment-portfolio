@@ -2,10 +2,10 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-10-28T16:38:38.637201Z",
+  "generatedAt": "2026-10-30T16:42:11.532234Z",
   "count": 508,
   "binanceCount": 508,
-  "coingeckoMatchedCount": 327,
+  "coingeckoMatchedCount": 332,
   "ambiguousCount": 169,
   "skippedCount": 3234,
   "assets": [
@@ -700,19 +700,20 @@
     },
     {
       "symbol": "APPB",
-      "name": "APPB",
+      "name": "Applovin (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "APPB"
+        "Applovin (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "APPBUSDT",
       "binanceSymbol": "APPBUSDT",
+      "coingeckoId": "applovin-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -1738,19 +1739,20 @@
     },
     {
       "symbol": "BSPB",
-      "name": "BSPB",
+      "name": "Bending Spoons (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "BSPB"
+        "Bending Spoons (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "BSPBUSDT",
       "binanceSymbol": "BSPBUSDT",
+      "coingeckoId": "bending-spoons-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -3254,19 +3256,20 @@
     },
     {
       "symbol": "GEVB",
-      "name": "GEVB",
+      "name": "GE Vernova (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "GEVB"
+        "GE Vernova (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "GEVBUSDT",
       "binanceSymbol": "GEVBUSDT",
+      "coingeckoId": "ge-vernova-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -6997,19 +7000,20 @@
     },
     {
       "symbol": "SKDDB",
-      "name": "SKDDB",
+      "name": "GraniteShares 2x Short SK Hynix Daily ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "SKDDB"
+        "GraniteShares 2x Short SK Hynix Daily ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "SKDDBUSDT",
       "binanceSymbol": "SKDDBUSDT",
+      "coingeckoId": "graniteshares-2x-short-sk-hynix-daily-etf-bbstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
@@ -7050,19 +7054,20 @@
     },
     {
       "symbol": "SKUUB",
-      "name": "SKUUB",
+      "name": "GraniteShares 2x Long SK Hynix Daily ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "SKUUB"
+        "GraniteShares 2x Long SK Hynix Daily ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "SKUUBUSDT",
       "binanceSymbol": "SKUUBUSDT",
+      "coingeckoId": "graniteshares-2x-long-sk-hynix-daily-etf-bstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
