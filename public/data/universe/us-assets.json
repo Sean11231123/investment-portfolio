@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-10-29T16:24:57.993963Z",
-  "count": 11321,
-  "stockCount": 5602,
+  "generatedAt": "2026-10-30T16:15:35.475725Z",
+  "count": 11320,
+  "stockCount": 5601,
   "etfCount": 5719,
-  "skippedCount": 1972,
+  "skippedCount": 1966,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -12775,6 +12775,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ASPE",
+      "name": "Aspen Neuroscience, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Aspen Neuroscience, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ASPE",
+      "stooqSymbol": "aspe.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ASPI",
       "name": "ASP Isotopes Inc. - Common Stock",
       "type": "us_stock",
@@ -17937,6 +17955,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BBT",
       "stooqSymbol": "bbt.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BBTX",
+      "name": "Bambusa Therapeutics, Inc. - Common stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Bambusa Therapeutics, Inc. - Common stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BBTX",
+      "stooqSymbol": "bbtx.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -36320,14 +36356,14 @@
     },
     {
       "symbol": "CMDT",
-      "name": "PIMCO Commodity Strategy Active Exchange-Traded Fund",
+      "name": "PIMCO Commodity and Bond Strategy Active Exchange-Traded Fund",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "PIMCO Commodity Strategy Active Exchange-Traded Fund"
+        "PIMCO Commodity and Bond Strategy Active Exchange-Traded Fund"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -38336,14 +38372,14 @@
     },
     {
       "symbol": "CORP",
-      "name": "PIMCO Investment Grade Corporate Bond Index Exchange-Traded Fund",
+      "name": "PIMCO Investment Grade Corporate Bond Exchange-Traded Fund",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "PIMCO Investment Grade Corporate Bond Index Exchange-Traded Fund"
+        "PIMCO Investment Grade Corporate Bond Exchange-Traded Fund"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -51943,24 +51979,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "DYNC",
-      "name": "Dynamix Corporation - Class A Ordinary Share",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Dynamix Corporation - Class A Ordinary Share"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DYNC",
-      "stooqSymbol": "dync.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "DYNF",
       "name": "iShares U.S. Equity Factor Rotation Active ETF",
       "type": "us_etf",
@@ -55922,14 +55940,14 @@
     },
     {
       "symbol": "EMNT",
-      "name": "PIMCO Enhanced Short Maturity Active ESG Exchange-Traded Fund",
+      "name": "PIMCO Enhanced Short Maturity Active ESG and Bond Exchange-Traded Fund",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "PIMCO Enhanced Short Maturity Active ESG Exchange-Traded Fund"
+        "PIMCO Enhanced Short Maturity Active ESG and Bond Exchange-Traded Fund"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -73453,24 +73471,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "GCTK",
-      "name": "GlucoTrack, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "GlucoTrack, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GCTK",
-      "stooqSymbol": "gctk.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "GCTS",
       "name": "GCT Semiconductor Holding, Inc. Common Stock",
       "type": "us_stock",
@@ -86792,14 +86792,14 @@
     },
     {
       "symbol": "HYS",
-      "name": "PIMCO 0-5 Year High Yield Corporat Bond Index Exchange-Traded Fund",
+      "name": "PIMCO 0-5 Year High Yield Corporate Bond Exchange-Traded Fund",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "PIMCO 0-5 Year High Yield Corporat Bond Index Exchange-Traded Fund"
+        "PIMCO 0-5 Year High Yield Corporate Bond Exchange-Traded Fund"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -108211,24 +108211,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "LNAI",
-      "name": "Lunai Bioworks Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Lunai Bioworks Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LNAI",
-      "stooqSymbol": "lnai.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "LNC",
       "name": "Lincoln National Corporation Common Stock",
       "type": "us_stock",
@@ -108734,14 +108716,14 @@
     },
     {
       "symbol": "LONZ",
-      "name": "PIMCO Senior Loan Active Exchange-Traded Fund",
+      "name": "PIMCO Senior Loan and Short-Term Active ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "PIMCO Senior Loan Active Exchange-Traded Fund"
+        "PIMCO Senior Loan and Short-Term Active ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -125829,6 +125811,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NOMD",
       "stooqSymbol": "nomd.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "NORD",
+      "name": "Nordicus Partners Corporation - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Nordicus Partners Corporation"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NORD",
+      "stooqSymbol": "nord.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -201717,24 +201717,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "YHGJ",
       "stooqSymbol": "yhgj.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "YHNA",
-      "name": "YHN Acquisition I Limited - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "YHN Acquisition I Limited - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "YHNA",
-      "stooqSymbol": "yhna.us",
       "isETF": false,
       "dataQuality": "generated"
     },
