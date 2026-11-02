@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T15:16:39.037Z",
+  "generatedAt": "2026-11-02T18:43:01.159Z",
   "source": "SITCA",
   "sourceUrl": "https://www.sitca.org.tw/MemberK0000/F/03/nav.csv",
   "market": "TW",
   "segment": "domestic_fund",
-  "count": 2086,
+  "count": 2091,
   "assets": [
     {
       "symbol": "TW_FUND_00512527_TWD_AH22_00957B",
@@ -9691,7 +9691,7 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TW_FUND_73990649_TWD_AA1_T0808Y",
+      "symbol": "TW_FUND_73990649A_TWD_AA1_T0808Y",
       "name": "玉山科技島基金",
       "type": "taiwan_fund",
       "market": "TW",
@@ -9703,13 +9703,36 @@
       "source": "sitca-nav",
       "sourceSymbol": "DDO07",
       "fundCode": "DDO07",
-      "fundTaxId": "73990649",
+      "fundTaxId": "73990649A",
       "issuer": "玉山投信",
       "fundTypeCode": "AA1",
       "beneficiaryCertificateCode": "T0808Y",
       "aliases": [
         "玉山投信",
-        "73990649"
+        "73990649A"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_73990649B_TWD_AA1_T0808B",
+      "name": "玉山科技島基金-N級別",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DDO23",
+      "fundCode": "DDO23",
+      "fundTaxId": "73990649B",
+      "issuer": "玉山投信",
+      "fundTypeCode": "AA1",
+      "beneficiaryCertificateCode": "T0808B",
+      "aliases": [
+        "玉山投信",
+        "73990649B"
       ],
       "dataQuality": "generated"
     },
@@ -9825,6 +9848,29 @@
       "aliases": [
         "玉山投信",
         "83866508B"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_83866508C_TWD_AA1_T0810C",
+      "name": "玉山中小型股基金-N級別",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DDO24",
+      "fundCode": "DDO24",
+      "fundTaxId": "83866508C",
+      "issuer": "玉山投信",
+      "fundTypeCode": "AA1",
+      "beneficiaryCertificateCode": "T0810C",
+      "aliases": [
+        "玉山投信",
+        "83866508C"
       ],
       "dataQuality": "generated"
     },
@@ -10193,6 +10239,29 @@
       "aliases": [
         "玉山投信",
         "92013967C"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_92013967D_TWD_AA1_T0803D",
+      "name": "玉山金滿意基金-N級別",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DDO22",
+      "fundCode": "DDO22",
+      "fundTaxId": "92013967D",
+      "issuer": "玉山投信",
+      "fundTypeCode": "AA1",
+      "beneficiaryCertificateCode": "T0803D",
+      "aliases": [
+        "玉山投信",
+        "92013967D"
       ],
       "dataQuality": "generated"
     },
@@ -15809,7 +15878,7 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TW_FUND_00973762B_TWD_AA1",
+      "symbol": "TW_FUND_00973762B_TWD_AA1_T1201A",
       "name": "華南永昌永昌基金(TISA)",
       "type": "taiwan_fund",
       "market": "TW",
@@ -15824,7 +15893,7 @@
       "fundTaxId": "00973762B",
       "issuer": "華南永昌投信",
       "fundTypeCode": "AA1",
-      "beneficiaryCertificateCode": "",
+      "beneficiaryCertificateCode": "T1201A",
       "aliases": [
         "華南永昌投信",
         "00973762B"
@@ -25120,6 +25189,52 @@
       "aliases": [
         "永豐投信",
         "00687032"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00727246A_TWD_AA2_T25E7A",
+      "name": "永豐全球戰略資源基金-新臺幣A類型",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIOC1",
+      "fundCode": "DIOC1",
+      "fundTaxId": "00727246A",
+      "issuer": "永豐投信",
+      "fundTypeCode": "AA2",
+      "beneficiaryCertificateCode": "T25E7A",
+      "aliases": [
+        "永豐投信",
+        "00727246A"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00727246B_TWD_AA2_T25E7B",
+      "name": "永豐全球戰略資源基金-新臺幣N類型",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIOC2",
+      "fundCode": "DIOC2",
+      "fundTaxId": "00727246B",
+      "issuer": "永豐投信",
+      "fundTypeCode": "AA2",
+      "beneficiaryCertificateCode": "T25E7B",
+      "aliases": [
+        "永豐投信",
+        "00727246B"
       ],
       "dataQuality": "generated"
     },
