@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T18:43:01.159Z",
+  "generatedAt": "2026-11-03T16:28:32.416Z",
   "source": "SITCA",
   "sourceUrl": "https://www.sitca.org.tw/MemberK0000/F/03/nav.csv",
   "market": "TW",
   "segment": "domestic_fund",
-  "count": 2091,
+  "count": 2085,
   "assets": [
     {
       "symbol": "TW_FUND_00512527_TWD_AH22_00957B",
@@ -4792,29 +4792,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TW_FUND_26203851_TWD_AI2_T0585Y",
-      "name": "元大巴西指數基金",
-      "type": "taiwan_fund",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "單位",
-      "priceSource": "fund_nav_tw",
-      "exchange": "SITCA",
-      "marketSegment": "fund",
-      "source": "sitca-nav",
-      "sourceSymbol": "DIO37",
-      "fundCode": "DIO37",
-      "fundTaxId": "26203851",
-      "issuer": "元大投信",
-      "fundTypeCode": "AI2",
-      "beneficiaryCertificateCode": "T0585Y",
-      "aliases": [
-        "元大投信",
-        "26203851"
-      ],
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TW_FUND_26282102_TWD_AH11_006201",
       "name": "元大富櫃50基金",
       "type": "taiwan_fund",
@@ -7966,29 +7943,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TW_FUND_25633559_TWD_AA2_T0736Y",
-      "name": "瀚亞巴西基金",
-      "type": "taiwan_fund",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "單位",
-      "priceSource": "fund_nav_tw",
-      "exchange": "SITCA",
-      "marketSegment": "fund",
-      "source": "sitca-nav",
-      "sourceSymbol": "DFO04",
-      "fundCode": "DFO04",
-      "fundTaxId": "25633559",
-      "issuer": "瀚亞投信",
-      "fundTypeCode": "AA2",
-      "beneficiaryCertificateCode": "T0736Y",
-      "aliases": [
-        "瀚亞投信",
-        "25633559"
-      ],
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TW_FUND_26257384A_TWD_AC23_T0737A",
       "name": "瀚亞全球非投資等級債券基金A類型-新臺幣",
       "type": "taiwan_fund",
@@ -8978,6 +8932,29 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TW_FUND_00723683_TWD_AL11_00413A",
+      "name": "玉山臺灣關鍵科技主動式ETF基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DDA01",
+      "fundCode": "DDA01",
+      "fundTaxId": "00723683",
+      "issuer": "玉山投信",
+      "fundTypeCode": "AL11",
+      "beneficiaryCertificateCode": "00413A",
+      "aliases": [
+        "玉山投信",
+        "00723683"
+      ],
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TW_FUND_01032183A_TWD_AA1_T0802Y",
       "name": "玉山高成長基金",
       "type": "taiwan_fund",
@@ -9319,29 +9296,6 @@
       "aliases": [
         "玉山投信",
         "20089122"
-      ],
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TW_FUND_25674811_TWD_AA2_T0830Y",
-      "name": "玉山拉丁美洲基金",
-      "type": "taiwan_fund",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "單位",
-      "priceSource": "fund_nav_tw",
-      "exchange": "SITCA",
-      "marketSegment": "fund",
-      "source": "sitca-nav",
-      "sourceSymbol": "DIO18",
-      "fundCode": "DIO18",
-      "fundTaxId": "25674811",
-      "issuer": "玉山投信",
-      "fundTypeCode": "AA2",
-      "beneficiaryCertificateCode": "T0830Y",
-      "aliases": [
-        "玉山投信",
-        "25674811"
       ],
       "dataQuality": "generated"
     },
@@ -17028,52 +16982,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TW_FUND_25675430A_TWD_AA2_T1619Y",
-      "name": "群益印巴雙星基金",
-      "type": "taiwan_fund",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "單位",
-      "priceSource": "fund_nav_tw",
-      "exchange": "SITCA",
-      "marketSegment": "fund",
-      "source": "sitca-nav",
-      "sourceSymbol": "DIO06",
-      "fundCode": "DIO06",
-      "fundTaxId": "25675430A",
-      "issuer": "群益投信",
-      "fundTypeCode": "AA2",
-      "beneficiaryCertificateCode": "T1619Y",
-      "aliases": [
-        "群益投信",
-        "25675430A"
-      ],
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TW_FUND_25675430B_TWD_AA2_T1619B",
-      "name": "群益印巴雙星基金N",
-      "type": "taiwan_fund",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "單位",
-      "priceSource": "fund_nav_tw",
-      "exchange": "SITCA",
-      "marketSegment": "fund",
-      "source": "sitca-nav",
-      "sourceSymbol": "DIO43",
-      "fundCode": "DIO43",
-      "fundTaxId": "25675430B",
-      "issuer": "群益投信",
-      "fundTypeCode": "AA2",
-      "beneficiaryCertificateCode": "T1619B",
-      "aliases": [
-        "群益投信",
-        "25675430B"
-      ],
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TW_FUND_26285038A_TWD_AA2_T1622Y",
       "name": "群益東協成長基金-新臺幣",
       "type": "taiwan_fund",
@@ -21946,29 +21854,6 @@
       "aliases": [
         "大都會投信",
         "48570676"
-      ],
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TW_FUND_48807089_TWD_AA2_T2107Y",
-      "name": "柏瑞拉丁美洲基金",
-      "type": "taiwan_fund",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "單位",
-      "priceSource": "fund_nav_tw",
-      "exchange": "SITCA",
-      "marketSegment": "fund",
-      "source": "sitca-nav",
-      "sourceSymbol": "DIO05",
-      "fundCode": "DIO05",
-      "fundTaxId": "48807089",
-      "issuer": "大都會投信",
-      "fundTypeCode": "AA2",
-      "beneficiaryCertificateCode": "T2107Y",
-      "aliases": [
-        "大都會投信",
-        "48807089"
       ],
       "dataQuality": "generated"
     },
@@ -30916,29 +30801,6 @@
       "aliases": [
         "野村投信",
         "25530596A"
-      ],
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TW_FUND_25652008_TWD_AA2_T3251Y",
-      "name": "野村巴西基金",
-      "type": "taiwan_fund",
-      "market": "TW",
-      "currency": "TWD",
-      "unitLabel": "單位",
-      "priceSource": "fund_nav_tw",
-      "exchange": "SITCA",
-      "marketSegment": "fund",
-      "source": "sitca-nav",
-      "sourceSymbol": "DIO26",
-      "fundCode": "DIO26",
-      "fundTaxId": "25652008",
-      "issuer": "野村投信",
-      "fundTypeCode": "AA2",
-      "beneficiaryCertificateCode": "T3251Y",
-      "aliases": [
-        "野村投信",
-        "25652008"
       ],
       "dataQuality": "generated"
     },
