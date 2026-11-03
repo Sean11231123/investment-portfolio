@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-02T19:48:31.137310Z",
+  "generatedAt": "2026-11-03T17:21:20.475450Z",
   "count": 11313,
-  "stockCount": 5598,
-  "etfCount": 5715,
-  "skippedCount": 1966,
+  "stockCount": 5595,
+  "etfCount": 5718,
+  "skippedCount": 1963,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -55759,6 +55759,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "EMIL",
+      "name": "VanEck EM Focus Inflation Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VanEck EM Focus Inflation Bond ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EMIL",
+      "stooqSymbol": "emil.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "EMIS",
       "name": "Emmis Acquisition Corp. - Class A Ordinary Share",
       "type": "us_stock",
@@ -84055,24 +84073,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "HODO",
-      "name": "House of Doge Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "House of Doge Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HODO",
-      "stooqSymbol": "hodo.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "HODU",
       "name": "Direxion Daily HOOD Bull 2X ETF",
       "type": "us_etf",
@@ -92368,24 +92368,6 @@
       "sourceSymbol": "INDS",
       "stooqSymbol": "inds.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "INDV",
-      "name": "Indivior Pharmaceuticals, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Indivior Pharmaceuticals, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "INDV",
-      "stooqSymbol": "indv.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -115984,24 +115966,6 @@
       "sourceSymbol": "MLDR",
       "stooqSymbol": "mldr.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MLEC",
-      "name": "Moolec Science SA - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Moolec Science SA - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MLEC",
-      "stooqSymbol": "mlec.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -171050,14 +171014,14 @@
     },
     {
       "symbol": "SUPN",
-      "name": "Supernus Pharmaceuticals, Inc. - Common Stock",
+      "name": "Supernus, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Supernus Pharmaceuticals, Inc."
+        "Supernus, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -175546,6 +175510,24 @@
       "sourceSymbol": "THCH",
       "stooqSymbol": "thch.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "THCR",
+      "name": "THOR Conservative Risk Dynamic ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "THOR Conservative Risk Dynamic ETF"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "THCR",
+      "stooqSymbol": "thcr.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -192106,6 +192088,24 @@
       "sourceSymbol": "VTVT",
       "stooqSymbol": "vtvt.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VTVX",
+      "name": "XFUNDS Value Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "XFUNDS Value Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VTVX",
+      "stooqSymbol": "vtvx.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
