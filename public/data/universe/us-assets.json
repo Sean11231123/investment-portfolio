@@ -2,9 +2,9 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-03T17:21:20.475450Z",
-  "count": 11313,
-  "stockCount": 5595,
+  "generatedAt": "2026-11-04T17:33:07.311659Z",
+  "count": 11312,
+  "stockCount": 5594,
   "etfCount": 5718,
   "skippedCount": 1963,
   "sourceFiles": [
@@ -4276,24 +4276,6 @@
       "sourceSymbol": "AFRM",
       "stooqSymbol": "afrm.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "AFRU",
-      "name": "T-REX 2X Long AFRM Daily Target ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "T-REX 2X Long AFRM Daily Target ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "AFRU",
-      "stooqSymbol": "afru.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -13167,24 +13149,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ASTY",
       "stooqSymbol": "asty.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ASUP",
-      "name": "T-REX 2X Long ASTS Daily Target ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "T-REX 2X Long ASTS Daily Target ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ASUP",
-      "stooqSymbol": "asup.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -73291,24 +73255,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "GCDT",
-      "name": "Green Circle Decarbonize Technology Limited Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Green Circle Decarbonize Technology Limited Class A Ordinary Shares"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GCDT",
-      "stooqSymbol": "gcdt.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "GCGR",
       "name": "General Catalyst Global Resilience Merger Corp. - Class A Ordinary Shares",
       "type": "us_stock",
@@ -92641,6 +92587,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "INK",
+      "name": "AB Equity Premium Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "AB Equity Premium Income ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "INK",
+      "stooqSymbol": "ink.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "INKM",
       "name": "State Street Income Allocation ETF",
       "type": "us_etf",
@@ -105242,14 +105206,14 @@
     },
     {
       "symbol": "LASE",
-      "name": "Laser Photonics Corporation - Common Stock",
+      "name": "LASE Corp. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Laser Photonics Corporation"
+        "LASE Corp."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -142196,14 +142160,14 @@
     },
     {
       "symbol": "PRM",
-      "name": "Perimeter Solutions, SA Common Stock",
+      "name": "Perimeter Group Inc. Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Perimeter Solutions, SA Common Stock"
+        "Perimeter Group Inc. Common Stock"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -150367,6 +150331,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RECD",
+      "name": "Columbia RECS Laddered Deep Buffer ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Columbia RECS Laddered Deep Buffer ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RECD",
+      "stooqSymbol": "recd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RECI",
       "name": "Columbia Research Enhanced Core Premium Income ETF",
       "type": "us_etf",
@@ -150381,6 +150363,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "RECI",
       "stooqSymbol": "reci.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "RECM",
+      "name": "Columbia RECS Laddered Moderate Buffer ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Columbia RECS Laddered Moderate Buffer ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RECM",
+      "stooqSymbol": "recm.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -157387,24 +157387,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SBTU",
-      "name": "T-REX 2X Long SBET Daily Target ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "T-REX 2X Long SBET Daily Target ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SBTU",
-      "stooqSymbol": "sbtu.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SBUX",
       "name": "Starbucks Corporation - Common Stock",
       "type": "us_stock",
@@ -162081,6 +162063,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SIVR",
       "stooqSymbol": "sivr.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SIX",
+      "name": "Global X Magnificent Six ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Global X Magnificent Six ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SIX",
+      "stooqSymbol": "six.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -174825,24 +174825,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TETH",
       "stooqSymbol": "teth.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TEUP",
-      "name": "T-REX 2X Long TE Daily Target ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "T-REX 2X Long TE Daily Target ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TEUP",
-      "stooqSymbol": "teup.us",
       "isETF": true,
       "dataQuality": "generated"
     },
