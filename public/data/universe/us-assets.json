@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-04T17:33:07.311659Z",
-  "count": 11312,
-  "stockCount": 5594,
-  "etfCount": 5718,
-  "skippedCount": 1963,
+  "generatedAt": "2026-11-05T17:40:02.964496Z",
+  "count": 11319,
+  "stockCount": 5595,
+  "etfCount": 5724,
+  "skippedCount": 1962,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -1558,6 +1558,24 @@
       "sourceSymbol": "ACEL",
       "stooqSymbol": "acel.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ACEM",
+      "name": "American Century Emerging Markets Insights ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "American Century Emerging Markets Insights ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ACEM",
+      "stooqSymbol": "acem.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -4689,6 +4707,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AGL",
       "stooqSymbol": "agl.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AGLT",
+      "name": "Agility Robotics, Inc. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Agility Robotics, Inc. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AGLT",
+      "stooqSymbol": "aglt.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -17775,6 +17811,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BBLU",
       "stooqSymbol": "bblu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BBLX",
+      "name": "BondBloxx Core Plus ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BondBloxx Core Plus ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BBLX",
+      "stooqSymbol": "bblx.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -31783,24 +31837,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "CCXI",
-      "name": "Churchill Capital Corp XI - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Churchill Capital Corp XI - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CCXI",
-      "stooqSymbol": "ccxi.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "CCZ",
       "name": "Comcast Holdings ZONES",
       "type": "us_stock",
@@ -31924,6 +31960,24 @@
       "sourceSymbol": "CDL",
       "stooqSymbol": "cdl.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CDLR",
+      "name": "Cadeler plc Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Cadeler plc Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CDLR",
+      "stooqSymbol": "cdlr.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -46507,6 +46561,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DFIT",
+      "name": "Davidson Intermediate Taxable ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Davidson Intermediate Taxable ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DFIT",
+      "stooqSymbol": "dfit.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DFIV",
       "name": "Dimensional International Value ETF",
       "type": "us_etf",
@@ -48285,6 +48357,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "DLAG",
       "stooqSymbol": "dlag.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DLAY",
+      "name": "Tuttle Capital AI Bottleneck ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tuttle Capital AI Bottleneck ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DLAY",
+      "stooqSymbol": "dlay.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -59180,14 +59270,14 @@
     },
     {
       "symbol": "EUDA",
-      "name": "Euda Health Holdings Limited - Ordinary Shares",
+      "name": "Euda Health Holdings Limited - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Euda Health Holdings Limited - Ordinary Shares"
+        "Euda Health Holdings Limited - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -67761,6 +67851,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FMHI",
       "stooqSymbol": "fmhi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FMIG",
+      "name": "FMI Global Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FMI Global Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FMIG",
+      "stooqSymbol": "fmig.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -83678,16 +83786,16 @@
     },
     {
       "symbol": "HLT",
-      "name": "Hilton Worldwide Holdings Inc. Common Stock",
+      "name": "Hilton Worldwide Holdings Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Hilton Worldwide Holdings Inc. Common Stock"
+        "Hilton Worldwide Holdings Inc."
       ],
-      "exchange": "NYSE",
+      "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "HLT",
       "stooqSymbol": "hlt.us",
@@ -92584,6 +92692,24 @@
       "sourceSymbol": "INIO",
       "stooqSymbol": "inio.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "INJC",
+      "name": "Canary Staked INJ ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Canary Staked INJ ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "INJC",
+      "stooqSymbol": "injc.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -200246,14 +200372,14 @@
     },
     {
       "symbol": "XTER",
-      "name": "Karman Line Acquisition Corp. - Class A Ordinary Shares",
+      "name": "Xterax Corporation II - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Karman Line Acquisition Corp. - Class A Ordinary Shares"
+        "Xterax Corporation II - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
