@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-05T17:40:02.964496Z",
-  "count": 11319,
+  "generatedAt": "2026-11-06T16:56:30.604628Z",
+  "count": 11315,
   "stockCount": 5595,
-  "etfCount": 5724,
-  "skippedCount": 1962,
+  "etfCount": 5720,
+  "skippedCount": 1961,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -6778,24 +6778,6 @@
       "sourceSymbol": "ALDB",
       "stooqSymbol": "aldb.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ALDF",
-      "name": "Aldel Financial II Inc. - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Aldel Financial II Inc. - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ALDF",
-      "stooqSymbol": "aldf.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -106285,6 +106267,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LEDR",
+      "name": "Leader's Advantage Acquisition Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leader's Advantage Acquisition Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LEDR",
+      "stooqSymbol": "ledr.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LEDS",
       "name": "SemiLEDS Corporation - Common Stock",
       "type": "us_stock",
@@ -162607,24 +162607,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SKHA",
-      "name": "Tradr 2X Long SK hynix Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tradr 2X Long SK hynix Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SKHA",
-      "stooqSymbol": "skha.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SKHL",
       "name": "Direxion Daily SK Hynix Bull 2X ETF",
       "type": "us_etf",
@@ -162639,24 +162621,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SKHL",
       "stooqSymbol": "skhl.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SKHN",
-      "name": "Tradr 2X Short SK hynix Daily ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tradr 2X Short SK hynix Daily ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SKHN",
-      "stooqSymbol": "skhn.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -185917,24 +185881,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "USE",
-      "name": "USCF Energy Commodity Strategy Absolute Return Fund",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "USCF Energy Commodity Strategy Absolute Return Fund"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "USE",
-      "stooqSymbol": "use.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "USEA",
       "name": "United Maritime Corporation - Common Stock",
       "type": "us_stock",
@@ -196048,24 +195994,6 @@
       "sourceSymbol": "WTI",
       "stooqSymbol": "wti.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "WTIB",
-      "name": "USCF Oil Plus Bitcoin Strategy Fund",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "USCF Oil Plus Bitcoin Strategy Fund"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "WTIB",
-      "stooqSymbol": "wtib.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
