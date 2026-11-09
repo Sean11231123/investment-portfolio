@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-06T16:56:30.604628Z",
-  "count": 11315,
-  "stockCount": 5595,
-  "etfCount": 5720,
-  "skippedCount": 1961,
+  "generatedAt": "2026-11-09T20:09:23.582272Z",
+  "count": 11317,
+  "stockCount": 5592,
+  "etfCount": 5725,
+  "skippedCount": 1962,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -11295,24 +11295,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ARHS",
       "stooqSymbol": "arhs.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ARI",
-      "name": "Apollo Commercial Real Estate Finance, Inc",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Apollo Commercial Real Estate Finance, Inc"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ARI",
-      "stooqSymbol": "ari.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -28467,24 +28449,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BWLP",
       "stooqSymbol": "bwlp.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BWMN",
-      "name": "Bowman Consulting Group Ltd. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Bowman Consulting Group Ltd."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BWMN",
-      "stooqSymbol": "bwmn.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -86251,6 +86215,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HYAC",
+      "name": "Haymaker Acquisition Corp V Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Haymaker Acquisition Corp V Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HYAC",
+      "stooqSymbol": "hyac.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HYB",
+      "name": "Lazard US High Yield ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Lazard US High Yield ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HYB",
+      "stooqSymbol": "hyb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HYBB",
       "name": "iShares BB Rated Corporate Bond ETF",
       "type": "us_etf",
@@ -86464,6 +86464,24 @@
       "sourceSymbol": "HYFT",
       "stooqSymbol": "hyft.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HYFY",
+      "name": "Lazard Hybrid Financial Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Lazard Hybrid Financial Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HYFY",
+      "stooqSymbol": "hyfy.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -92781,24 +92799,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "INLX",
       "stooqSymbol": "inlx.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "INM",
-      "name": "InMed Pharmaceuticals Inc. - Common Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "InMed Pharmaceuticals Inc. - Common Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "INM",
-      "stooqSymbol": "inm.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -110785,6 +110785,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LYR",
+      "name": "Lyrical U.S. Value Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Lyrical U.S. Value Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LYR",
+      "stooqSymbol": "lyr.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "LYRI",
+      "name": "Lyrical International Value Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Lyrical International Value Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LYRI",
+      "stooqSymbol": "lyri.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LYTE",
       "name": "Roundhill Photonics & Optics ETF",
       "type": "us_etf",
@@ -112909,24 +112945,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "MCTA",
-      "name": "Charming Medical Limited - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Charming Medical Limited - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MCTA",
-      "stooqSymbol": "mcta.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "MCVT",
       "name": "Miller Convertible Total Return ETF",
       "type": "us_etf",
@@ -114274,6 +114292,24 @@
       "sourceSymbol": "MFIN",
       "stooqSymbol": "mfin.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MFIX",
+      "name": "Nomura Strategic Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Nomura Strategic Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MFIX",
+      "stooqSymbol": "mfix.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -119818,6 +119854,24 @@
       "sourceSymbol": "MTRA",
       "stooqSymbol": "mtra.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MTRI",
+      "name": "Mentari Therapeutics, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Mentari Therapeutics, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MTRI",
+      "stooqSymbol": "mtri.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -153895,24 +153949,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "ROKU",
-      "name": "Roku, Inc. - Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Roku, Inc. - Class A Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ROKU",
-      "stooqSymbol": "roku.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "ROL",
       "name": "Rollins, Inc. Common Stock",
       "type": "us_stock",
@@ -164101,6 +164137,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SMDC",
+      "name": "Nomura Small and Mid Cap ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Nomura Small and Mid Cap ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SMDC",
+      "stooqSymbol": "smdc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SMDD",
       "name": "UltraPro Short MidCap400",
       "type": "us_etf",
@@ -173371,24 +173425,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "TCBI",
-      "name": "Texas Capital Bancshares, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Texas Capital Bancshares, Inc. Common Stock"
-      ],
-      "exchange": "US",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TCBI",
-      "stooqSymbol": "tcbi.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "TCBK",
       "name": "TriCo Bancshares - Common Stock",
       "type": "us_stock",
@@ -176931,24 +176967,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "TLCI",
       "stooqSymbol": "tlci.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TLDR",
-      "name": "The Laddered T-Bill ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "The Laddered T-Bill ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TLDR",
-      "stooqSymbol": "tldr.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -182425,6 +182443,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TXCP",
+      "name": "Texas Capital Bancshares, Inc. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Texas Capital Bancshares, Inc. Common Stock"
+      ],
+      "exchange": "US",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TXCP",
+      "stooqSymbol": "txcp.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TXG",
       "name": "10x Genomics, Inc. - Common Stock",
       "type": "us_stock",
@@ -184312,24 +184348,6 @@
       "sourceSymbol": "ULTA",
       "stooqSymbol": "ulta.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ULTI",
-      "name": "REX IncomeMax Option Strategy ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "REX IncomeMax Option Strategy ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ULTI",
-      "stooqSymbol": "ulti.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -197343,6 +197361,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XDIV",
       "stooqSymbol": "xdiv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XDLR",
+      "name": "Lazard Non-Dollar Active Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Lazard Non-Dollar Active Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XDLR",
+      "stooqSymbol": "xdlr.us",
       "isETF": true,
       "dataQuality": "generated"
     },
