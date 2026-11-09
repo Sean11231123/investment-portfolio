@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T16:10:38.884Z",
+  "generatedAt": "2026-11-09T19:02:14.524Z",
   "source": "SITCA",
   "sourceUrl": "https://www.sitca.org.tw/MemberK0000/F/03/nav.csv",
   "market": "TW",
   "segment": "domestic_fund",
-  "count": 2092,
+  "count": 2093,
   "assets": [
     {
       "symbol": "TW_FUND_00512527_TWD_AH22_00957B",
@@ -30341,6 +30341,29 @@
       "aliases": [
         "野村投信",
         "00722571D"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_00735371_TWD_AH21_009833",
+      "name": "野村亞洲傘型基金之韓國科技30 ETF基金",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIE07",
+      "fundCode": "DIE07",
+      "fundTaxId": "00735371",
+      "issuer": "野村投信",
+      "fundTypeCode": "AH21",
+      "beneficiaryCertificateCode": "009833",
+      "aliases": [
+        "野村投信",
+        "00735371"
       ],
       "dataQuality": "generated"
     },
