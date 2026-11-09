@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-11-03T17:51:22.266142Z",
+  "generatedAt": "2026-11-09T20:45:35.615547Z",
   "count": 507,
   "binanceCount": 507,
-  "coingeckoMatchedCount": 332,
-  "ambiguousCount": 169,
+  "coingeckoMatchedCount": 331,
+  "ambiguousCount": 170,
   "skippedCount": 3235,
   "assets": [
     {
@@ -7214,20 +7214,19 @@
     },
     {
       "symbol": "SOLV",
-      "name": "Solv Protocol",
+      "name": "SOLV",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
-        "Solv Protocol"
+        "SOLV"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "SOLVUSDT",
       "binanceSymbol": "SOLVUSDT",
-      "coingeckoId": "solv-protocol",
       "dataQuality": "generated"
     },
     {
