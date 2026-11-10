@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-09T20:09:23.582272Z",
-  "count": 11317,
+  "generatedAt": "2026-11-10T17:18:30.995202Z",
+  "count": 11319,
   "stockCount": 5592,
-  "etfCount": 5725,
+  "etfCount": 5727,
   "skippedCount": 1962,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -1791,24 +1791,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ACHR",
       "stooqSymbol": "achr.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ACHV",
-      "name": "Achieve Life Sciences, Inc. - Common Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Achieve Life Sciences, Inc. - Common Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ACHV",
-      "stooqSymbol": "achv.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -20476,6 +20458,24 @@
       "sourceSymbol": "BGR",
       "stooqSymbol": "bgr.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BGRD",
+      "name": "BNY Mellon Power Ecosystem ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BNY Mellon Power Ecosystem ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BGRD",
+      "stooqSymbol": "bgrd.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -55543,6 +55543,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "EMDI",
+      "name": "Principal Finisterre Emerging Markets Diversified Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Principal Finisterre Emerging Markets Diversified Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EMDI",
+      "stooqSymbol": "emdi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "EMDM",
       "name": "First Trust Bloomberg Emerging Market Democracies ETF",
       "type": "us_etf",
@@ -61246,24 +61264,6 @@
       "sourceSymbol": "EZPZ",
       "stooqSymbol": "ezpz.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "EZRA",
-      "name": "Reliance Global Group, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Reliance Global Group, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EZRA",
-      "stooqSymbol": "ezra.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -73274,14 +73274,14 @@
     },
     {
       "symbol": "GCBC",
-      "name": "Greene County Bancorp, Inc. - Common Stock",
+      "name": "Greene Bancorp, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Greene County Bancorp, Inc."
+        "Greene Bancorp, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -81225,24 +81225,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "HAUG",
       "stooqSymbol": "haug.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "HAUS",
-      "name": "Residential REIT ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Residential REIT ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HAUS",
-      "stooqSymbol": "haus.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -109975,6 +109957,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LTEQ",
+      "name": "Equity Partners ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Equity Partners ETF"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LTEQ",
+      "stooqSymbol": "lteq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LTGO",
       "name": "Latigo Biotherapeutics, Inc. - Common Stock",
       "type": "us_stock",
@@ -138289,6 +138289,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PGRW",
+      "name": "Principal Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Principal Growth ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PGRW",
+      "stooqSymbol": "pgrw.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PGY",
       "name": "Pagaya Technologies Ltd. - Class A Ordinary Shares",
       "type": "us_stock",
@@ -143707,24 +143725,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "PSQH",
-      "name": "PSQ Holdings, Inc. Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "PSQ Holdings, Inc. Class A Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PSQH",
-      "stooqSymbol": "psqh.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "PSQL",
       "name": "Pasqal Holding SA - Ordinary Shares",
       "type": "us_stock",
@@ -148423,6 +148423,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "QUIT",
+      "name": "Achieve Life Sciences, Inc. - Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Achieve Life Sciences, Inc. - Common Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QUIT",
+      "stooqSymbol": "quit.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "QUIZ",
       "name": "Zacks Quality International ETF",
       "type": "us_etf",
@@ -150436,24 +150454,6 @@
       "sourceSymbol": "REA",
       "stooqSymbol": "rea.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "REAI",
-      "name": "Intelligent Real Estate ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Intelligent Real Estate ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "REAI",
-      "stooqSymbol": "reai.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -158571,6 +158571,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SCPQ",
       "stooqSymbol": "scpq.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SCQC",
+      "name": "SPACCircle Acquisition Corp. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "SPACCircle Acquisition Corp. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SCQC",
+      "stooqSymbol": "scqc.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -197739,6 +197757,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "XGN",
       "stooqSymbol": "xgn.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "XGPU",
+      "name": "Reliance Global Group, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Reliance Global Group, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "XGPU",
+      "stooqSymbol": "xgpu.us",
       "isETF": false,
       "dataQuality": "generated"
     },
