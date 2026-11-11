@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-11-09T20:45:35.615547Z",
+  "generatedAt": "2026-11-11T17:54:15.006772Z",
   "count": 507,
   "binanceCount": 507,
-  "coingeckoMatchedCount": 331,
-  "ambiguousCount": 170,
+  "coingeckoMatchedCount": 332,
+  "ambiguousCount": 169,
   "skippedCount": 3235,
   "assets": [
     {
@@ -7693,19 +7693,20 @@
     },
     {
       "symbol": "TIA",
-      "name": "TIA",
+      "name": "Celestia",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "TIA"
+        "Celestia"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "TIAUSDT",
       "binanceSymbol": "TIAUSDT",
+      "coingeckoId": "celestia",
       "dataQuality": "generated"
     },
     {
