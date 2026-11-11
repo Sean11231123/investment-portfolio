@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-10T17:18:30.995202Z",
-  "count": 11319,
-  "stockCount": 5592,
-  "etfCount": 5727,
+  "generatedAt": "2026-11-11T17:28:16.155726Z",
+  "count": 11320,
+  "stockCount": 5589,
+  "etfCount": 5731,
   "skippedCount": 1962,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -13204,24 +13204,6 @@
       "sourceSymbol": "ATC",
       "stooqSymbol": "atc.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ATCH",
-      "name": "AtlasClear Holdings, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "AtlasClear Holdings, Inc. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ATCH",
-      "stooqSymbol": "atch.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -83695,24 +83677,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "HLSQ",
-      "name": "Tessera Defense and Homeland Security Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tessera Defense and Homeland Security Inc. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "HLSQ",
-      "stooqSymbol": "hlsq.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "HLT",
       "name": "Hilton Worldwide Holdings Inc. - Common Stock",
       "type": "us_stock",
@@ -88227,6 +88191,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IBLC",
       "stooqSymbol": "iblc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IBLY",
+      "name": "FT Vest Equity Target Income Plus 0-3 Month Treasury ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "FT Vest Equity Target Income Plus 0-3 Month Treasury ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IBLY",
+      "stooqSymbol": "ibly.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -94257,6 +94239,78 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IQDY",
       "stooqSymbol": "iqdy.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IQEE",
+      "name": "Invesco Emerging Markets Enhanced ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Invesco Emerging Markets Enhanced ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IQEE",
+      "stooqSymbol": "iqee.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IQEI",
+      "name": "Invesco International Developed Enhanced ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Invesco International Developed Enhanced ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IQEI",
+      "stooqSymbol": "iqei.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IQEL",
+      "name": "Invesco U.S. Large Cap Enhanced ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Invesco U.S. Large Cap Enhanced ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IQEL",
+      "stooqSymbol": "iqel.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IQES",
+      "name": "Invesco U.S. Small Cap Enhanced ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Invesco U.S. Small Cap Enhanced ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IQES",
+      "stooqSymbol": "iqes.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -103743,24 +103797,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "KPRX",
       "stooqSymbol": "kprx.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "KPTI",
-      "name": "Karyopharm Therapeutics Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Karyopharm Therapeutics Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KPTI",
-      "stooqSymbol": "kpti.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -113769,24 +113805,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MEMX",
       "stooqSymbol": "memx.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MEMY",
-      "name": "Tuttle Capital Meme Stock Income Blast ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Tuttle Capital Meme Stock Income Blast ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MEMY",
-      "stooqSymbol": "memy.us",
       "isETF": true,
       "dataQuality": "generated"
     },
