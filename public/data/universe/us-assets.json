@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-11T17:28:16.155726Z",
-  "count": 11320,
-  "stockCount": 5589,
-  "etfCount": 5731,
-  "skippedCount": 1962,
+  "generatedAt": "2026-11-12T17:44:50.263418Z",
+  "count": 11322,
+  "stockCount": 5587,
+  "etfCount": 5735,
+  "skippedCount": 1963,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -32927,7 +32927,7 @@
       "aliases": [
         "Cullen/Frost Bankers, Inc. Common Stock"
       ],
-      "exchange": "NYSE",
+      "exchange": "US",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CFR",
       "stooqSymbol": "cfr.us",
@@ -40311,6 +40311,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CRML",
       "stooqSymbol": "crml.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CRMN",
+      "name": "Skyline Builders Group Holding Limited - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Skyline Builders Group Holding Limited - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CRMN",
+      "stooqSymbol": "crmn.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -76225,6 +76243,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GLLD",
+      "name": "MicroSectors Gold 3X Leveraged ETNs due January 29, 2043",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "MicroSectors Gold 3X Leveraged ETNs due January 29, 2043"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GLLD",
+      "stooqSymbol": "glld.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GLND",
       "name": "Greenland Energy Company - Common Stock",
       "type": "us_stock",
@@ -101353,24 +101389,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "KAZR",
-      "name": "Skyline Builders Group Holding Limited - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Skyline Builders Group Holding Limited - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KAZR",
-      "stooqSymbol": "kazr.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "KB",
       "name": "KB Financial Group Inc",
       "type": "us_stock",
@@ -101530,6 +101548,24 @@
       "sourceSymbol": "KBSX",
       "stooqSymbol": "kbsx.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "KBTY",
+      "name": "Guinness Atkinson K-Beauty ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Guinness Atkinson K-Beauty ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "KBTY",
+      "stooqSymbol": "kbty.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -103294,24 +103330,6 @@
       "sourceSymbol": "KNRG",
       "stooqSymbol": "knrg.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "KNRX",
-      "name": "KNOREX LTD. Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "KNOREX LTD. Class A Ordinary Shares"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KNRX",
-      "stooqSymbol": "knrx.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -111214,6 +111232,24 @@
       "sourceSymbol": "MAGN",
       "stooqSymbol": "magn.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MAGP",
+      "name": "Roundhill Magnificent Seven Plus ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Roundhill Magnificent Seven Plus ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MAGP",
+      "stooqSymbol": "magp.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -124897,6 +124933,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NJPN",
+      "name": "Nomura Japan Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Nomura Japan Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NJPN",
+      "stooqSymbol": "njpn.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NJR",
       "name": "NewJersey Resources Corporation Common Stock",
       "type": "us_stock",
@@ -129430,24 +129484,6 @@
       "sourceSymbol": "NXUS",
       "stooqSymbol": "nxus.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "NXXT",
-      "name": "NextNRG, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "NextNRG, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NXXT",
-      "stooqSymbol": "nxxt.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -161311,24 +161347,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SHNY",
-      "name": "MicroSectors Gold 3X Leveraged ETNs due January 29, 2043",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "MicroSectors Gold 3X Leveraged ETNs due January 29, 2043"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SHNY",
-      "stooqSymbol": "shny.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SHO",
       "name": "Sunstone Hotel Investors, Inc. Sunstone Hotel Investors, Inc. Common Shares",
       "type": "us_stock",
@@ -188649,6 +188667,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VEM",
       "stooqSymbol": "vem.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VEMB",
+      "name": "Vanguard Emerging Markets Bond Active ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Vanguard Emerging Markets Bond Active ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VEMB",
+      "stooqSymbol": "vemb.us",
       "isETF": true,
       "dataQuality": "generated"
     },
