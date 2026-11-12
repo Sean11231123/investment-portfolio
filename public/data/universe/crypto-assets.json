@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-11-11T17:54:15.006772Z",
+  "generatedAt": "2026-11-12T18:20:05.988211Z",
   "count": 507,
   "binanceCount": 507,
-  "coingeckoMatchedCount": 332,
-  "ambiguousCount": 169,
+  "coingeckoMatchedCount": 334,
+  "ambiguousCount": 167,
   "skippedCount": 3235,
   "assets": [
     {
@@ -1987,19 +1987,20 @@
     },
     {
       "symbol": "CHR",
-      "name": "CHR",
+      "name": "Chromia",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "CHR"
+        "Chromia"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "CHRUSDT",
       "binanceSymbol": "CHRUSDT",
+      "coingeckoId": "chromaway",
       "dataQuality": "generated"
     },
     {
@@ -5073,19 +5074,20 @@
     },
     {
       "symbol": "MOVE",
-      "name": "MOVE",
+      "name": "Movement",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "MOVE"
+        "Movement"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "MOVEUSDT",
       "binanceSymbol": "MOVEUSDT",
+      "coingeckoId": "movement",
       "dataQuality": "generated"
     },
     {
