@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-11-12T18:20:05.988211Z",
+  "generatedAt": "2026-11-13T17:45:18.335394Z",
   "count": 507,
   "binanceCount": 507,
-  "coingeckoMatchedCount": 334,
-  "ambiguousCount": 167,
+  "coingeckoMatchedCount": 335,
+  "ambiguousCount": 166,
   "skippedCount": 3235,
   "assets": [
     {
@@ -296,19 +296,20 @@
     },
     {
       "symbol": "ADX",
-      "name": "ADX",
+      "name": "heyAura",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "ADX"
+        "heyAura"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "ADXUSDT",
       "binanceSymbol": "ADXUSDT",
+      "coingeckoId": "adex",
       "dataQuality": "generated"
     },
     {
