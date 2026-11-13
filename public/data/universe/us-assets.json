@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-12T17:44:50.263418Z",
-  "count": 11322,
-  "stockCount": 5587,
-  "etfCount": 5735,
-  "skippedCount": 1963,
+  "generatedAt": "2026-11-13T17:23:30.477562Z",
+  "count": 11321,
+  "stockCount": 5591,
+  "etfCount": 5730,
+  "skippedCount": 1965,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -28417,6 +28417,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BWLB",
+      "name": "Brandywine Large Cap ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Brandywine Large Cap ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BWLB",
+      "stooqSymbol": "bwlb.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BWLP",
       "name": "BW LPG Limited Common Shares",
       "type": "us_stock",
@@ -35397,24 +35415,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CLFD",
       "stooqSymbol": "clfd.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CLGN",
-      "name": "CollPlant Biotechnologies Ltd. - Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "CollPlant Biotechnologies Ltd. - Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CLGN",
-      "stooqSymbol": "clgn.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -62905,24 +62905,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "FDFF",
-      "name": "Fidelity Disruptive Finance ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Fidelity Disruptive Finance ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FDFF",
-      "stooqSymbol": "fdff.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "FDG",
       "name": "American Century Focused Dynamic Growth ETF",
       "type": "us_etf",
@@ -62955,24 +62937,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FDHY",
       "stooqSymbol": "fdhy.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "FDIF",
-      "name": "Fidelity Disruptors ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Fidelity Disruptors ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FDIF",
-      "stooqSymbol": "fdif.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -67711,42 +67675,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "FMED",
-      "name": "Fidelity Disruptive Medicine ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Fidelity Disruptive Medicine ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FMED",
-      "stooqSymbol": "fmed.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "FMET",
-      "name": "Fidelity Metaverse ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Fidelity Metaverse ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FMET",
-      "stooqSymbol": "fmet.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "FMF",
       "name": "First Trust Managed Futures Strategy Fund",
       "type": "us_etf",
@@ -69004,24 +68932,6 @@
       "sourceSymbol": "FPI",
       "stooqSymbol": "fpi.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "FPRO",
-      "name": "Fidelity Real Estate Investment ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Fidelity Real Estate Investment ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FPRO",
-      "stooqSymbol": "fpro.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -108931,6 +108841,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "LOVI",
+      "name": "Live Oak Acquisition Corp. VI - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Live Oak Acquisition Corp. VI - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "LOVI",
+      "stooqSymbol": "lovi.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "LOW",
       "name": "Lowe's Companies, Inc. Common Stock",
       "type": "us_stock",
@@ -113338,6 +113266,24 @@
       "sourceSymbol": "MDPL",
       "stooqSymbol": "mdpl.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "MDRN",
+      "name": "Modern Mining Technology Corp. Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Modern Mining Technology Corp. Common Shares"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MDRN",
+      "stooqSymbol": "mdrn.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -131558,14 +131504,14 @@
     },
     {
       "symbol": "OLMA",
-      "name": "Olema Pharmaceuticals, Inc. - Common Stock",
+      "name": "Olema Oncology, Inc. - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Olema Pharmaceuticals, Inc."
+        "Olema Oncology, Inc."
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -132597,6 +132543,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "OPHC",
       "stooqSymbol": "ophc.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "OPHI",
+      "name": "CollPlant Biotechnologies Ltd. - Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "CollPlant Biotechnologies Ltd. - Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OPHI",
+      "stooqSymbol": "ophi.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -144226,24 +144190,6 @@
       "sourceSymbol": "PTLC",
       "stooqSymbol": "ptlc.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PTLE",
-      "name": "PTL LTD - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "PTL LTD - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PTLE",
-      "stooqSymbol": "ptle.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -186061,24 +186007,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "USG",
-      "name": "USCF Gold Strategy Plus Income Fund",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "USCF Gold Strategy Plus Income Fund"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "USG",
-      "stooqSymbol": "usg.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "USGG",
       "name": "Leverage Shares 2X Long USAR Daily ETF",
       "type": "us_etf",
@@ -192523,6 +192451,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "VVVV",
+      "name": "vVARDIS Holding AG Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "vVARDIS Holding AG Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VVVV",
+      "stooqSymbol": "vvvv.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "VVX",
       "name": "V2X, Inc. Common Stock",
       "type": "us_stock",
@@ -194288,14 +194234,14 @@
     },
     {
       "symbol": "WFRD",
-      "name": "Weatherford International plc - Ordinary shares",
+      "name": "Weatherford International Corp - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Weatherford International plc - Ordinary shares"
+        "Weatherford International Corp"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -196479,6 +196425,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "WW",
       "stooqSymbol": "ww.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "WWB",
+      "name": "Windward Bio Group AG - Common shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Windward Bio Group AG - Common shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "WWB",
+      "stooqSymbol": "wwb.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -203805,6 +203769,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ZYME",
       "stooqSymbol": "zyme.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZYN",
+      "name": "PTL LTD - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "PTL LTD - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ZYN",
+      "stooqSymbol": "zyn.us",
       "isETF": false,
       "dataQuality": "generated"
     }
