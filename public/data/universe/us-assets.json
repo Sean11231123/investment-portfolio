@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-13T17:23:30.477562Z",
-  "count": 11321,
-  "stockCount": 5591,
-  "etfCount": 5730,
-  "skippedCount": 1965,
+  "generatedAt": "2026-11-16T19:52:32.174862Z",
+  "count": 11320,
+  "stockCount": 5589,
+  "etfCount": 5731,
+  "skippedCount": 1963,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -22009,24 +22009,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BKH",
-      "name": "Black Hills Corporation Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Black Hills Corporation Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BKH",
-      "stooqSymbol": "bkh.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "BKHA",
       "name": "Black Hawk Acquisition Corporation - Class A Ordinary Shares",
       "type": "us_stock",
@@ -25461,6 +25443,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "BROS",
       "stooqSymbol": "bros.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "BRRK",
+      "name": "Bluerock Acquisition Corp. II - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Bluerock Acquisition Corp. II - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BRRK",
+      "stooqSymbol": "brrk.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -68540,14 +68540,14 @@
     },
     {
       "symbol": "FOFO",
-      "name": "Hang Feng Technology Innovation Co., Ltd. - Ordinary Shares",
+      "name": "Hang Feng Technology Innovation Co., Ltd. - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Hang Feng Technology Innovation Co., Ltd. - Ordinary Shares"
+        "Hang Feng Technology Innovation Co., Ltd. - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -81751,6 +81751,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "HCOP",
+      "name": "Hartford Hybrid and Credit Opportunities ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Hartford Hybrid and Credit Opportunities ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HCOP",
+      "stooqSymbol": "hcop.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "HCOW",
       "name": "Amplify COWS Covered Call ETF",
       "type": "us_etf",
@@ -86914,6 +86932,24 @@
       "sourceSymbol": "HYZD",
       "stooqSymbol": "hyzd.us",
       "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "HZN",
+      "name": "Bright Horizon Energy Corporation Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Bright Horizon Energy Corporation Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "HZN",
+      "stooqSymbol": "hzn.us",
+      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -95625,24 +95661,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ITG",
       "stooqSymbol": "itg.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ITGR",
-      "name": "Integer Holdings Corporation Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Integer Holdings Corporation Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ITGR",
-      "stooqSymbol": "itgr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -104377,24 +104395,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "KTF",
-      "name": "DWS Municipal Income Trust",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "DWS Municipal Income Trust"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KTF",
-      "stooqSymbol": "ktf.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "KTN",
       "name": "Structured Products Corp 8.205% CorTS 8.205% Corporate Backed Trust Securities (CorTS)",
       "type": "us_stock",
@@ -112415,7 +112415,7 @@
       "aliases": [
         "Regan Fixed Rate MBS ETF"
       ],
-      "exchange": "NYSEARCA",
+      "exchange": "US",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MBSX",
       "stooqSymbol": "mbsx.us",
@@ -128875,24 +128875,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "NWE",
-      "name": "NorthWestern Energy Group, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "NorthWestern Energy Group, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "NWE",
-      "stooqSymbol": "nwe.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "NWFL",
       "name": "Norwood Financial Corp. - Common Stock",
       "type": "us_stock",
@@ -139585,24 +139567,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "PLCE",
-      "name": "Children's Place, Inc. (The) - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Children's Place, Inc. (The)"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PLCE",
-      "stooqSymbol": "plce.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "PLCI",
       "name": "Pelican Acquisition II Corporation - Ordinary Shares",
       "type": "us_stock",
@@ -141327,6 +141291,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "POR",
       "stooqSymbol": "por.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PORT",
+      "name": "Southport Acquisition Corp. II Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Southport Acquisition Corp. II Class A Ordinary Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PORT",
+      "stooqSymbol": "port.us",
       "isETF": false,
       "dataQuality": "generated"
     },
