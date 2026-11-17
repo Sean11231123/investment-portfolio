@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-16T19:52:32.174862Z",
-  "count": 11320,
-  "stockCount": 5589,
-  "etfCount": 5731,
+  "generatedAt": "2026-11-17T18:45:43.238162Z",
+  "count": 11326,
+  "stockCount": 5588,
+  "etfCount": 5738,
   "skippedCount": 1963,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -1720,24 +1720,6 @@
       "sourceSymbol": "ACGR",
       "stooqSymbol": "acgr.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ACH",
-      "name": "Accendra Health, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Accendra Health, Inc. Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ACH",
-      "stooqSymbol": "ach.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -13041,24 +13023,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ASTM",
       "stooqSymbol": "astm.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "ASTN",
-      "name": "Defiance Daily Target 2X Short ASTS ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2X Short ASTS ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "ASTN",
-      "stooqSymbol": "astn.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -43123,6 +43087,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CWPD",
+      "name": "CWP Premium Dividend ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "CWP Premium Dividend ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CWPD",
+      "stooqSymbol": "cwpd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CWPG",
+      "name": "CWP Premium Growth ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "CWP Premium Growth ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CWPG",
+      "stooqSymbol": "cwpg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CWS",
       "name": "AdvisorShares Focused Equity ETF",
       "type": "us_etf",
@@ -43984,6 +43984,24 @@
       "sourceSymbol": "DASH",
       "stooqSymbol": "dash.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "DAU",
+      "name": "GraniteShares Autocallable AMD ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares Autocallable AMD ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DAU",
+      "stooqSymbol": "dau.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -49639,6 +49657,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DRAC",
+      "name": "GraniteShares Autocallable DRAM ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares Autocallable DRAM ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DRAC",
+      "stooqSymbol": "drac.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DRAI",
       "name": "Draco Evolution AI ETF",
       "type": "us_etf",
@@ -51256,24 +51292,6 @@
       "sourceSymbol": "DVGR",
       "stooqSymbol": "dvgr.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "DVLT",
-      "name": "Datavault AI Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Datavault AI Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "DVLT",
-      "stooqSymbol": "dvlt.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -76586,16 +76604,16 @@
     },
     {
       "symbol": "GM",
-      "name": "General Motors Company Common Stock",
+      "name": "General Motors Company - Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "General Motors Company Common Stock"
+        "General Motors Company"
       ],
-      "exchange": "NYSE",
+      "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GM",
       "stooqSymbol": "gm.us",
@@ -113467,6 +113485,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "MEA",
+      "name": "GraniteShares Autocallable META ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares Autocallable META ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "MEA",
+      "stooqSymbol": "mea.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "MEAR",
       "name": "iShares Short Maturity Municipal Bond Active ETF",
       "type": "us_etf",
@@ -117338,14 +117374,14 @@
     },
     {
       "symbol": "MOD",
-      "name": "Modine Manufacturing Company Common Stock",
+      "name": "Modexus Solutions, Inc. Common Stock",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Modine Manufacturing Company Common Stock"
+        "Modexus Solutions, Inc. Common Stock"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
@@ -127021,6 +127057,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "NTCR",
+      "name": "Nuveen Technology & Infrastructure Credit ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Nuveen Technology & Infrastructure Credit ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "NTCR",
+      "stooqSymbol": "ntcr.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "NTCT",
       "name": "NetScout Systems, Inc. - Common Stock",
       "type": "us_stock",
@@ -136417,6 +136471,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "PCHX",
+      "name": "State Street SPDR Nasdaq MyPaycheck ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "State Street SPDR Nasdaq MyPaycheck ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PCHX",
+      "stooqSymbol": "pchx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "PCI",
       "name": "PGIM Corporate Bond 5-10 Year ETF",
       "type": "us_etf",
@@ -139059,6 +139131,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PIT",
       "stooqSymbol": "pit.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "PIVT",
+      "name": "VanEck Pivotal Trends ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "VanEck Pivotal Trends ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "PIVT",
+      "stooqSymbol": "pivt.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -152617,24 +152707,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "RKLZ",
-      "name": "Defiance Daily Target 2x Short RKLB ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2x Short RKLB ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RKLZ",
-      "stooqSymbol": "rklz.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "RKNG",
       "name": "Defiance Retail Kings ETF",
       "type": "us_etf",
@@ -161977,6 +162049,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SIMI",
+      "name": "American Beacon SiM High Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "American Beacon SiM High Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SIMI",
+      "stooqSymbol": "simi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SIMS",
       "name": "State Street SPDR S&P Kensho Intelligent Structures ETF",
       "type": "us_etf",
@@ -170560,24 +170650,6 @@
       "sourceSymbol": "STRZ",
       "stooqSymbol": "strz.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "STSM",
-      "name": "Defiance Daily Target 2X Short TSM ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2X Short TSM ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "STSM",
-      "stooqSymbol": "stsm.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -182551,6 +182623,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TXR",
+      "name": "Torex Resources Inc. Common Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Torex Resources Inc. Common Shares"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TXR",
+      "stooqSymbol": "txr.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TXRH",
       "name": "Texas Roadhouse, Inc. - Common Stock",
       "type": "us_stock",
@@ -187843,24 +187933,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "VBNK",
-      "name": "VersaBank - Common Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "VersaBank - Common Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "VBNK",
-      "stooqSymbol": "vbnk.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "VBR",
       "name": "Vanguard Morningstar Small-Cap Value ETF",
       "type": "us_etf",
@@ -191259,6 +191331,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "VRRM",
       "stooqSymbol": "vrrm.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VRSA",
+      "name": "Versa Bancorp - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Versa Bancorp"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VRSA",
+      "stooqSymbol": "vrsa.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -202726,6 +202816,24 @@
       "sourceSymbol": "ZDAI",
       "stooqSymbol": "zdai.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZDAY",
+      "name": "Bitwise AI Cyber Defense ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Bitwise AI Cyber Defense ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ZDAY",
+      "stooqSymbol": "zday.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
