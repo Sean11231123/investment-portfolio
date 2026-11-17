@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T18:48:28.758Z",
+  "generatedAt": "2026-11-17T17:47:34.351Z",
   "source": "SITCA",
   "sourceUrl": "https://www.sitca.org.tw/MemberK0000/F/03/nav.csv",
   "market": "TW",
   "segment": "domestic_fund",
-  "count": 2091,
+  "count": 2092,
   "assets": [
     {
       "symbol": "TW_FUND_00512527_TWD_AH22_00957B",
@@ -39196,6 +39196,29 @@
       "aliases": [
         "富達投信",
         "88185798G"
+      ],
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TW_FUND_88185798I_TWD_AJ2_T3810J",
+      "name": "富達未來通訊多重資產收益基金N股累積型新臺幣計價級別",
+      "type": "taiwan_fund",
+      "market": "TW",
+      "currency": "TWD",
+      "unitLabel": "單位",
+      "priceSource": "fund_nav_tw",
+      "exchange": "SITCA",
+      "marketSegment": "fund",
+      "source": "sitca-nav",
+      "sourceSymbol": "DIO71",
+      "fundCode": "DIO71",
+      "fundTaxId": "88185798I",
+      "issuer": "富達投信",
+      "fundTypeCode": "AJ2",
+      "beneficiaryCertificateCode": "T3810J",
+      "aliases": [
+        "富達投信",
+        "88185798I"
       ],
       "dataQuality": "generated"
     },
