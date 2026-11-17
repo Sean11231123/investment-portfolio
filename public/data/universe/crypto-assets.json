@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-11-16T20:30:06.109002Z",
+  "generatedAt": "2026-11-17T19:11:06.401449Z",
   "count": 507,
   "binanceCount": 507,
-  "coingeckoMatchedCount": 335,
-  "ambiguousCount": 166,
+  "coingeckoMatchedCount": 336,
+  "ambiguousCount": 165,
   "skippedCount": 3236,
   "assets": [
     {
@@ -454,19 +454,20 @@
     },
     {
       "symbol": "ALGO",
-      "name": "ALGO",
+      "name": "Algorand",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "ALGO"
+        "Algorand"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "ALGOUSDT",
       "binanceSymbol": "ALGOUSDT",
+      "coingeckoId": "algorand",
       "dataQuality": "generated"
     },
     {
