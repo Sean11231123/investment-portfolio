@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-17T18:45:43.238162Z",
-  "count": 11326,
-  "stockCount": 5588,
-  "etfCount": 5738,
-  "skippedCount": 1963,
+  "generatedAt": "2026-11-18T18:24:57.288221Z",
+  "count": 11335,
+  "stockCount": 5587,
+  "etfCount": 5748,
+  "skippedCount": 1962,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -9913,6 +9913,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "APFS",
+      "name": "Artisan Focus Fund: ETF Class Shares",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Artisan Focus Fund: ETF Class Shares"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "APFS",
+      "stooqSymbol": "apfs.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "APG",
       "name": "APi Group Corporation Common Stock",
       "type": "us_stock",
@@ -10215,6 +10233,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "APMU",
       "stooqSymbol": "apmu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "APNX",
+      "name": "Artisan Select Equity Fund: ETF Class Shares",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Artisan Select Equity Fund: ETF Class Shares"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "APNX",
+      "stooqSymbol": "apnx.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -31348,6 +31384,24 @@
       "sourceSymbol": "CCHH",
       "stooqSymbol": "cchh.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CCHP",
+      "name": "Global X China Semiconductor ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Global X China Semiconductor ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CCHP",
+      "stooqSymbol": "cchp.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -76837,6 +76891,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GMIX",
+      "name": "iShares Macro AlphaBeta Active ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "iShares Macro AlphaBeta Active ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GMIX",
+      "stooqSymbol": "gmix.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GMM",
       "name": "Global Mofy AI Limited - Class A Ordinary Shares",
       "type": "us_stock",
@@ -80073,6 +80145,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GUAC",
       "stooqSymbol": "guac.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GUER",
+      "name": "Guerrilla RF, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Guerrilla RF, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GUER",
+      "stooqSymbol": "guer.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -88447,24 +88537,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "IBO",
-      "name": "Impact BioMedical, Inc. Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Impact BioMedical, Inc. Common Stock"
-      ],
-      "exchange": "NYSEAMERICAN",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IBO",
-      "stooqSymbol": "ibo.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "IBOC",
       "name": "International Bancshares Corporation Common Stock",
       "type": "us_stock",
@@ -94437,6 +94509,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IQQ",
       "stooqSymbol": "iqq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IQQI",
+      "name": "IncomeQ Nasdaq-100 Premium Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "IncomeQ Nasdaq-100 Premium Income ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IQQI",
+      "stooqSymbol": "iqqi.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -136759,24 +136849,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "PCRX",
-      "name": "Pacira BioSciences, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Pacira BioSciences, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PCRX",
-      "stooqSymbol": "pcrx.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "PCS",
       "name": "PGIM Corporate Bond 0-5 Year ETF",
       "type": "us_etf",
@@ -158881,6 +158953,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SDC",
+      "name": "KICK Space Data Center & Infrastructure Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "KICK Space Data Center & Infrastructure Index ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SDC",
+      "stooqSymbol": "sdc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SDCI",
       "name": "USCF SummerHaven Dynamic Commodity Strategy No K-1 Fund",
       "type": "us_etf",
@@ -161221,24 +161311,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SHFS",
-      "name": "SHF Holdings, Inc. - Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "SHF Holdings, Inc. - Class A Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SHFS",
-      "stooqSymbol": "shfs.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SHIM",
       "name": "Shimmick Corporation - Common Stock",
       "type": "us_stock",
@@ -161272,6 +161344,24 @@
       "sourceSymbol": "SHIP",
       "stooqSymbol": "ship.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "SHLA",
+      "name": "Global X Asia Defense Tech ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Global X Asia Defense Tech ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "SHLA",
+      "stooqSymbol": "shla.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -179725,6 +179815,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "TRLL",
+      "name": "Direxion Trillions ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion Trillions ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TRLL",
+      "stooqSymbol": "trll.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "TRLV",
       "name": "Trulieve Cannabis Corp. Subordinate Voting Shares",
       "type": "us_stock",
@@ -182980,24 +183088,6 @@
       "sourceSymbol": "TYRA",
       "stooqSymbol": "tyra.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "TYYY",
-      "name": "xETFs TSLA Daily Income ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "xETFs TSLA Daily Income ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "TYYY",
-      "stooqSymbol": "tyyy.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -188689,6 +188779,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "VEN",
+      "name": "Teucrium Venezuela Future Opportunities ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Teucrium Venezuela Future Opportunities ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VEN",
+      "stooqSymbol": "ven.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "VENU",
       "name": "Venu Holding Corporation Common Stock",
       "type": "us_stock",
@@ -192484,6 +192592,24 @@
       "sourceSymbol": "VVOS",
       "stooqSymbol": "vvos.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "VVPL",
+      "name": "Vulcan Value Partners ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Vulcan Value Partners ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VVPL",
+      "stooqSymbol": "vvpl.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -196732,24 +196858,6 @@
       "sourceSymbol": "WYY",
       "stooqSymbol": "wyy.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "WZRD",
-      "name": "Opportunistic Trader ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Opportunistic Trader ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "WZRD",
-      "stooqSymbol": "wzrd.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -201361,6 +201469,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "YASX",
+      "name": "Yorkville America Space Index ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Yorkville America Space Index ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YASX",
+      "stooqSymbol": "yasx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "YBIT",
       "name": "YieldMax Bitcoin Option Income Strategy ETF",
       "type": "us_etf",
@@ -202041,6 +202167,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "YNOT",
       "stooqSymbol": "ynot.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YO",
+      "name": "Amplify S&P 500 Buffered Autocallable Yield Opportunity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Amplify S&P 500 Buffered Autocallable Yield Opportunity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YO",
+      "stooqSymbol": "yo.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -203409,6 +203553,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ZNTL",
       "stooqSymbol": "zntl.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZOAR",
+      "name": "Zoar Limited Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Zoar Limited Ordinary Shares"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ZOAR",
+      "stooqSymbol": "zoar.us",
       "isETF": false,
       "dataQuality": "generated"
     },
