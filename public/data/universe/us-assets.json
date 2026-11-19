@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-18T18:24:57.288221Z",
-  "count": 11335,
-  "stockCount": 5587,
-  "etfCount": 5748,
-  "skippedCount": 1962,
+  "generatedAt": "2026-11-19T18:41:07.592452Z",
+  "count": 11339,
+  "stockCount": 5586,
+  "etfCount": 5753,
+  "skippedCount": 1963,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -9405,6 +9405,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ANRO",
       "stooqSymbol": "anro.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANT",
+      "name": "Anthropic, PBC - Class A Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Anthropic, PBC - Class A Common Stock"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANT",
+      "stooqSymbol": "ant.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -33025,6 +33043,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CGBI",
+      "name": "Capital Group Multi-Asset Income Builder ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Capital Group Multi-Asset Income Builder ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CGBI",
+      "stooqSymbol": "cgbi.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CGBL",
       "name": "Capital Group Core Balanced ETF",
       "type": "us_etf",
@@ -33381,6 +33417,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CGIE",
       "stooqSymbol": "cgie.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CGMI",
+      "name": "Capital Group Multi-Asset Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Capital Group Multi-Asset Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CGMI",
+      "stooqSymbol": "cgmi.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -62995,6 +63049,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FDGX",
+      "name": "First Digital Acquisition Corp Ltd. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "First Digital Acquisition Corp Ltd. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FDGX",
+      "stooqSymbol": "fdgx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FDHY",
       "name": "Fidelity Enhanced High Yield ETF",
       "type": "us_etf",
@@ -67671,6 +67743,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FMBH",
       "stooqSymbol": "fmbh.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "FMBM",
+      "name": "F&M Bank Corp. Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "F&M Bank Corp. Common Stock"
+      ],
+      "exchange": "NYSEAMERICAN",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "FMBM",
+      "stooqSymbol": "fmbm.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -76927,24 +77017,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "GMMA",
-      "name": "GammaRoad Market Navigation ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "GammaRoad Market Navigation ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "GMMA",
-      "stooqSymbol": "gmma.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "GMMF",
       "name": "iShares Government Money Market ETF",
       "type": "us_etf",
@@ -78367,6 +78439,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "GQGG",
+      "name": "GQG Global Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GQG Global Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GQGG",
+      "stooqSymbol": "gqgg.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "GQGU",
       "name": "GQG US Equity ETF",
       "type": "us_etf",
@@ -79173,6 +79263,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "GSC",
       "stooqSymbol": "gsc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "GSCZ",
+      "name": "Goldman Sachs Securitized Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Goldman Sachs Securitized Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "GSCZ",
+      "stooqSymbol": "gscz.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -97519,6 +97627,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "JALL",
+      "name": "JPMorgan All Country Research Enhanced Equity ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "JPMorgan All Country Research Enhanced Equity ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "JALL",
+      "stooqSymbol": "jall.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "JAN",
       "name": "Janus Living, Inc. Class A-1 Common Stock",
       "type": "us_stock",
@@ -103725,24 +103851,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "KOSS",
       "stooqSymbol": "koss.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "KOYN",
-      "name": "CSLM Digital Asset Acquisition Corp III - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "CSLM Digital Asset Acquisition Corp III - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KOYN",
-      "stooqSymbol": "koyn.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -110709,24 +110817,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "LXEO",
       "stooqSymbol": "lxeo.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "LXFR",
-      "name": "Luxfer Holdings PLC Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Luxfer Holdings PLC Ordinary Shares"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "LXFR",
-      "stooqSymbol": "lxfr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -158449,24 +158539,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SCKT",
-      "name": "Socket Mobile, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Socket Mobile, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SCKT",
-      "stooqSymbol": "sckt.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SCL",
       "name": "Stepan Company Common Stock",
       "type": "us_stock",
@@ -169735,24 +169807,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "SSTI",
-      "name": "SoundThinking, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "SoundThinking, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SSTI",
-      "stooqSymbol": "ssti.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "SSTK",
       "name": "Shutterstock, Inc. Common Stock",
       "type": "us_stock",
@@ -175294,6 +175348,24 @@
       "sourceSymbol": "TFIN",
       "stooqSymbol": "tfin.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "TFIX",
+      "name": "T. Rowe Price Capital Appreciation Fixed Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T. Rowe Price Capital Appreciation Fixed Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "TFIX",
+      "stooqSymbol": "tfix.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -183506,14 +183578,14 @@
     },
     {
       "symbol": "UBT",
-      "name": "ProShares Ultra 20+ Year Treasury",
+      "name": "ProShares Ultra 20 Year Treasury",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "ProShares Ultra 20+ Year Treasury"
+        "ProShares Ultra 20 Year Treasury"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
