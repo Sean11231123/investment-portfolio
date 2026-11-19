@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-11-18T18:51:41.313536Z",
-  "count": 514,
-  "binanceCount": 514,
-  "coingeckoMatchedCount": 337,
-  "ambiguousCount": 165,
+  "generatedAt": "2026-11-19T18:59:32.551264Z",
+  "count": 515,
+  "binanceCount": 515,
+  "coingeckoMatchedCount": 342,
+  "ambiguousCount": 166,
   "skippedCount": 3236,
   "assets": [
     {
@@ -663,6 +663,23 @@
       "sourceSymbol": "ANKRUSDT",
       "binanceSymbol": "ANKRUSDT",
       "coingeckoId": "ankr",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANTB",
+      "name": "ANTB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ANTB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ANTBUSDT",
+      "binanceSymbol": "ANTBUSDT",
       "dataQuality": "generated"
     },
     {
@@ -2943,36 +2960,38 @@
     },
     {
       "symbol": "EWJB",
-      "name": "EWJB",
+      "name": "iShares MSCI Japan ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "EWJB"
+        "iShares MSCI Japan ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "EWJBUSDT",
       "binanceSymbol": "EWJBUSDT",
+      "coingeckoId": "ishares-msci-japan-etf-bstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
       "symbol": "EWTB",
-      "name": "EWTB",
+      "name": "iShares MSCI Taiwan ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "EWTB"
+        "iShares MSCI Taiwan ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "EWTBUSDT",
       "binanceSymbol": "EWTBUSDT",
+      "coingeckoId": "ishares-msci-taiwan-etf-bstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
@@ -2995,36 +3014,38 @@
     },
     {
       "symbol": "EWZB",
-      "name": "EWZB",
+      "name": "iShares MSCI Brazil ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "EWZB"
+        "iShares MSCI Brazil ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "EWZBUSDT",
       "binanceSymbol": "EWZBUSDT",
+      "coingeckoId": "ishares-msci-brazil-etf-bstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
       "symbol": "EWZSB",
-      "name": "EWZSB",
+      "name": "iShares MSCI Brazil Small-Cap ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "EWZSB"
+        "iShares MSCI Brazil Small-Cap ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "EWZSBUSDT",
       "binanceSymbol": "EWZSBUSDT",
+      "coingeckoId": "ishares-msci-brazil-small-cap-etf-bstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
@@ -4177,19 +4198,20 @@
     },
     {
       "symbol": "IWMB",
-      "name": "IWMB",
+      "name": "iShares Russell 2000 Index Fund (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "IWMB"
+        "iShares Russell 2000 Index Fund (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "IWMBUSDT",
       "binanceSymbol": "IWMBUSDT",
+      "coingeckoId": "ishares-russell-2000-index-fund-bstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
@@ -5004,19 +5026,20 @@
     },
     {
       "symbol": "MELIB",
-      "name": "MELIB",
+      "name": "MercadoLibre (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "MELIB"
+        "MercadoLibre (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "MELIBUSDT",
       "binanceSymbol": "MELIBUSDT",
+      "coingeckoId": "mercadolibre-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -5604,20 +5627,19 @@
     },
     {
       "symbol": "NUB",
-      "name": "nubcat",
+      "name": "NUB",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "coingecko",
+      "priceSource": "manual",
       "aliases": [
-        "nubcat"
+        "NUB"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "NUBUSDT",
       "binanceSymbol": "NUBUSDT",
-      "coingeckoId": "sillynubcat",
       "dataQuality": "generated"
     },
     {
