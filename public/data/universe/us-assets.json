@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-19T18:41:07.592452Z",
-  "count": 11339,
-  "stockCount": 5586,
-  "etfCount": 5753,
-  "skippedCount": 1963,
+  "generatedAt": "2026-11-20T18:01:10.259464Z",
+  "count": 11341,
+  "stockCount": 5585,
+  "etfCount": 5756,
+  "skippedCount": 1959,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -748,6 +748,24 @@
       "sourceSymbol": "AAUC",
       "stooqSymbol": "aauc.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AAUD",
+      "name": "Alpha Architect US Equity 5 ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Alpha Architect US Equity 5 ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AAUD",
+      "stooqSymbol": "aaud.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -43713,6 +43731,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CZWI",
       "stooqSymbol": "czwi.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CZZL",
+      "name": "Cizzle Brands Corporation - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Cizzle Brands Corporation"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CZZL",
+      "stooqSymbol": "czzl.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -95341,6 +95377,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ISMH",
+      "name": "xETFs International Semiconductor ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "xETFs International Semiconductor ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ISMH",
+      "stooqSymbol": "ismh.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ISNR",
       "name": "Snow Rothschild Acquisition Corp. - Class A Ordinary Shares",
       "type": "us_stock",
@@ -99878,14 +99932,14 @@
     },
     {
       "symbol": "JOET",
-      "name": "Virtus Terranova U.S. Quality Momentum ETF",
+      "name": "Virtus NYSE Terranova U.S. Quality Momentum ETF",
       "type": "us_etf",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Virtus Terranova U.S. Quality Momentum ETF"
+        "Virtus NYSE Terranova U.S. Quality Momentum ETF"
       ],
       "exchange": "NYSEARCA",
       "source": "nasdaqtrader-symbol-directory",
@@ -114039,24 +114093,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MEOH",
       "stooqSymbol": "meoh.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MERC",
-      "name": "Mercer International Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Mercer International Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MERC",
-      "stooqSymbol": "merc.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -187069,24 +187105,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "UTZ",
-      "name": "Utz Brands Inc Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Utz Brands Inc Class A Common Stock"
-      ],
-      "exchange": "NYSE",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "UTZ",
-      "stooqSymbol": "utz.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "UUP",
       "name": "Invesco DB USD Index Bullish Fund ETF",
       "type": "us_etf",
@@ -202113,6 +202131,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "YLDE",
       "stooqSymbol": "ylde.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YLDS",
+      "name": "Harbor Arena Structured Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Harbor Arena Structured Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YLDS",
+      "stooqSymbol": "ylds.us",
       "isETF": true,
       "dataQuality": "generated"
     },
