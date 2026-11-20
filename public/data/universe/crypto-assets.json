@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-11-19T18:59:32.551264Z",
+  "generatedAt": "2026-11-20T18:37:26.218324Z",
   "count": 515,
   "binanceCount": 515,
-  "coingeckoMatchedCount": 342,
-  "ambiguousCount": 166,
+  "coingeckoMatchedCount": 343,
+  "ambiguousCount": 165,
   "skippedCount": 3236,
   "assets": [
     {
@@ -5345,19 +5345,20 @@
     },
     {
       "symbol": "MUBARAK",
-      "name": "MUBARAK",
+      "name": "Mubarak",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "MUBARAK"
+        "Mubarak"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "MUBARAKUSDT",
       "binanceSymbol": "MUBARAKUSDT",
+      "coingeckoId": "mubarak",
       "dataQuality": "generated"
     },
     {
