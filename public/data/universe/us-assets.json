@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-20T18:01:10.259464Z",
-  "count": 11341,
-  "stockCount": 5585,
-  "etfCount": 5756,
-  "skippedCount": 1959,
+  "generatedAt": "2026-11-23T21:41:50.718870Z",
+  "count": 11360,
+  "stockCount": 5586,
+  "etfCount": 5774,
+  "skippedCount": 1955,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -5719,6 +5719,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "AIL",
+      "name": "GraniteShares 2x Long Anthropic Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares 2x Long Anthropic Daily ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AIL",
+      "stooqSymbol": "ail.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "AIM",
       "name": "AIM ImmunoTech Inc. Common Stock",
       "type": "us_stock",
@@ -7174,6 +7192,24 @@
       "sourceSymbol": "ALLY",
       "stooqSymbol": "ally.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ALLZ",
+      "name": "Zacks All-Cap Core ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Zacks All-Cap Core ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ALLZ",
+      "stooqSymbol": "allz.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -9085,6 +9121,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ANDD",
+      "name": "Leverage Shares 2X Short Anthropic Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Short Anthropic Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANDD",
+      "stooqSymbol": "andd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ANDE",
       "name": "The Andersons, Inc. - Common Stock",
       "type": "us_stock",
@@ -9427,6 +9481,42 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ANS",
+      "name": "GraniteShares 2x Short Anthropic Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "GraniteShares 2x Short Anthropic Daily ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANS",
+      "stooqSymbol": "ans.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANSS",
+      "name": "Leverage Shares 1X Short Anthropic Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 1X Short Anthropic Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANSS",
+      "stooqSymbol": "anss.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ANT",
       "name": "Anthropic, PBC - Class A Common Stock",
       "type": "us_stock",
@@ -9463,6 +9553,114 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ANTC",
+      "name": "Defiance 2X ANT Long Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance 2X ANT Long Daily ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANTC",
+      "stooqSymbol": "antc.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANTD",
+      "name": "Direxion Daily Anthropic Bear 2X ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion Daily Anthropic Bear 2X ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANTD",
+      "stooqSymbol": "antd.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANTO",
+      "name": "Direxion Daily Anthropic Bull 2X ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Direxion Daily Anthropic Bull 2X ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANTO",
+      "stooqSymbol": "anto.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANTQ",
+      "name": "Defiance 2X ANT Short Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Defiance 2X ANT Short Daily ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANTQ",
+      "stooqSymbol": "antq.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANTT",
+      "name": "Tradr 2X Long Anthropic Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Long Anthropic Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANTT",
+      "stooqSymbol": "antt.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANTU",
+      "name": "ProShares Ultra Anthropic",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ProShares Ultra Anthropic"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANTU",
+      "stooqSymbol": "antu.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ANTW",
       "name": "Anthropic AI Lab Ecosystem ETF",
       "type": "us_etf",
@@ -9496,6 +9694,60 @@
       "sourceSymbol": "ANTX",
       "stooqSymbol": "antx.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANTY",
+      "name": "ProShares UltraShort Anthropic",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "ProShares UltraShort Anthropic"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANTY",
+      "stooqSymbol": "anty.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANTZ",
+      "name": "Tradr 2X Short Anthropic Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Tradr 2X Short Anthropic Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANTZ",
+      "stooqSymbol": "antz.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ANUU",
+      "name": "Leverage Shares 2X Long Anthropic Daily ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Leverage Shares 2X Long Anthropic Daily ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ANUU",
+      "stooqSymbol": "anuu.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -13405,6 +13657,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ATHX",
+      "name": "2x Anthropic ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "2x Anthropic ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ATHX",
+      "stooqSymbol": "athx.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ATI",
       "name": "ATI Inc. Common Stock",
       "type": "us_stock",
@@ -15507,6 +15777,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "AVY",
       "stooqSymbol": "avy.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "AVZO",
+      "name": "Avenzo Therapeutics, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Avenzo Therapeutics, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "AVZO",
+      "stooqSymbol": "avzo.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -21361,20 +21649,20 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "BIPC",
-      "name": "Brookfield Infrastructure Corporation Brookfield Infrastructure Corporation",
+      "symbol": "BIP",
+      "name": "Brookfield Infrastructure Partners Inc. Class A Subordinate Voting Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Brookfield Infrastructure Corporation Brookfield Infrastructure Corporation"
+        "Brookfield Infrastructure Partners Inc. Class A Subordinate Voting Shares"
       ],
       "exchange": "NYSE",
       "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BIPC",
-      "stooqSymbol": "bipc.us",
+      "sourceSymbol": "BIP",
+      "stooqSymbol": "bip.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -22042,24 +22330,6 @@
       "sourceSymbol": "BKGI",
       "stooqSymbol": "bkgi.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "BKHA",
-      "name": "Black Hawk Acquisition Corporation - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Black Hawk Acquisition Corporation - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "BKHA",
-      "stooqSymbol": "bkha.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -35311,6 +35581,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "CLAU",
+      "name": "T-REX 2X Long Anthropic Daily Target ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "T-REX 2X Long Anthropic Daily Target ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CLAU",
+      "stooqSymbol": "clau.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "CLB",
       "name": "Core Laboratories Inc. Common Stock",
       "type": "us_stock",
@@ -36171,6 +36459,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "CLX",
       "stooqSymbol": "clx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CLYD",
+      "name": "Clywedog Therapeutics Holdings, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Clywedog Therapeutics Holdings, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CLYD",
+      "stooqSymbol": "clyd.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -48001,6 +48307,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "DIVA",
+      "name": "AB Equity Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "AB Equity Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "DIVA",
+      "stooqSymbol": "diva.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "DIVB",
       "name": "iShares Core Dividend ETF",
       "type": "us_etf",
@@ -56587,6 +56911,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ENHV",
+      "name": "iShares Enhanced Large Cap Value Active ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "iShares Enhanced Large Cap Value Active ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ENHV",
+      "stooqSymbol": "enhv.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ENJ",
       "name": "Entergy New Orleans, LLC First Mortgage Bonds, 5.0% Series due December 1, 2052",
       "type": "us_stock",
@@ -60093,6 +60435,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "EVRG",
       "stooqSymbol": "evrg.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "EVRL",
+      "name": "Everli Global Holdings - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Everli Global Holdings - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "EVRL",
+      "stooqSymbol": "evrl.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -74714,14 +75074,14 @@
     },
     {
       "symbol": "GFAI",
-      "name": "Guardforce AI Co., Limited - Ordinary Shares",
+      "name": "Guardforce AI Co., Limited - Class A Ordinary Shares",
       "type": "us_stock",
       "market": "US",
       "currency": "USD",
       "unitLabel": "股",
       "priceSource": "us_static",
       "aliases": [
-        "Guardforce AI Co., Limited - Ordinary Shares"
+        "Guardforce AI Co., Limited - Class A Ordinary Shares"
       ],
       "exchange": "NASDAQ",
       "source": "nasdaqtrader-symbol-directory",
@@ -111285,24 +111645,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "MAC",
       "stooqSymbol": "mac.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "MACI",
-      "name": "Melar Acquisition Corp. I - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Melar Acquisition Corp. I - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "MACI",
-      "stooqSymbol": "maci.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -152905,24 +153247,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "RKNG",
-      "name": "Defiance Retail Kings ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Retail Kings ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RKNG",
-      "stooqSymbol": "rkng.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "RKSG",
       "name": "Ruk Strategic Growth ETF",
       "type": "us_etf",
@@ -153136,24 +153460,6 @@
       "sourceSymbol": "RLY",
       "stooqSymbol": "rly.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "RLYB",
-      "name": "Rallybio Corporation - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Rallybio Corporation"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RLYB",
-      "stooqSymbol": "rlyb.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -169245,24 +169551,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SRLN",
       "stooqSymbol": "srln.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SROI",
-      "name": "Calamos Antetokounmpo Global Sustainable Equities ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Calamos Antetokounmpo Global Sustainable Equities ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SROI",
-      "stooqSymbol": "sroi.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -188977,6 +189265,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "VESI",
+      "name": "Vesicor Therapeutics Holdings, Inc. - Class A Ordinary Shares",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Vesicor Therapeutics Holdings, Inc. - Class A Ordinary Shares"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "VESI",
+      "stooqSymbol": "vesi.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "VET",
       "name": "Vermilion Energy Inc. Common (Canada)",
       "type": "us_stock",
@@ -202891,6 +203197,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "ZCAP",
+      "name": "Zacks Small-Cap Core ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Zacks Small-Cap Core ETF"
+      ],
+      "exchange": "BATS",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ZCAP",
+      "stooqSymbol": "zcap.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "ZCBA",
       "name": "Global X Zero Coupon Bond 2030 ETF",
       "type": "us_etf",
@@ -203157,6 +203481,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "ZECP",
       "stooqSymbol": "zecp.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ZECX",
+      "name": "2x ZCSH ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "2x ZCSH ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "ZECX",
+      "stooqSymbol": "zecx.us",
       "isETF": true,
       "dataQuality": "generated"
     },
