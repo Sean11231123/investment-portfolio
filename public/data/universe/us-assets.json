@@ -2,11 +2,11 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-23T21:41:50.718870Z",
-  "count": 11360,
+  "generatedAt": "2026-11-24T20:21:24.102370Z",
+  "count": 11358,
   "stockCount": 5586,
-  "etfCount": 5774,
-  "skippedCount": 1955,
+  "etfCount": 5772,
+  "skippedCount": 1954,
   "sourceFiles": [
     "nasdaqlisted.txt",
     "otherlisted.txt"
@@ -38641,24 +38641,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "COPZ",
-      "name": "Defiance Daily Target 2X Long Copper Miners ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2X Long Copper Miners ETF"
-      ],
-      "exchange": "NYSEARCA",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "COPZ",
-      "stooqSymbol": "copz.us",
-      "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "COR",
       "name": "Cencora, Inc. Common Stock",
       "type": "us_stock",
@@ -39232,24 +39214,6 @@
       "sourceSymbol": "CPHI",
       "stooqSymbol": "cphi.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "CPHY",
-      "name": "F/m Compoundr High Yield Bond ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "F/m Compoundr High Yield Bond ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "CPHY",
-      "stooqSymbol": "cphy.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -52894,24 +52858,6 @@
       "sourceSymbol": "EBIZ",
       "stooqSymbol": "ebiz.us",
       "isETF": true,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "EBMT",
-      "name": "Eagle Bancorp Montana, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Eagle Bancorp Montana, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "EBMT",
-      "stooqSymbol": "ebmt.us",
-      "isETF": false,
       "dataQuality": "generated"
     },
     {
@@ -94513,24 +94459,6 @@
       "dataQuality": "generated"
     },
     {
-      "symbol": "IPFX",
-      "name": "Inflection Point Acquisition Corp. VI - Class A Ordinary Shares",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Inflection Point Acquisition Corp. VI - Class A Ordinary Shares"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "IPFX",
-      "stooqSymbol": "ipfx.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
       "symbol": "IPGP",
       "name": "IPG Photonics Corporation - Common Stock",
       "type": "us_stock",
@@ -96669,6 +96597,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "IVE",
       "stooqSymbol": "ive.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IVEA",
+      "name": "Dan IVES Wedbush AI Autocallable Income ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Dan IVES Wedbush AI Autocallable Income ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "IVEA",
+      "stooqSymbol": "ivea.us",
       "isETF": true,
       "dataQuality": "generated"
     },
@@ -102520,24 +102466,6 @@
       "sourceSymbol": "KEEL",
       "stooqSymbol": "keel.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "KEEX",
-      "name": "Defiance Daily Target 2x Long KEEL ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2x Long KEEL ETF"
-      ],
-      "exchange": "BATS",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "KEEX",
-      "stooqSymbol": "keex.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -130603,6 +130531,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "OBMT",
+      "name": "Opportunity Bancorp, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Opportunity Bancorp, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "OBMT",
+      "stooqSymbol": "obmt.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "OBND",
       "name": "State Street Loomis Sayles Opportunistic Bond ETF",
       "type": "us_etf",
@@ -148585,6 +148531,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "QSPC",
+      "name": "Quantum Space, Inc. Class A-1 Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Quantum Space, Inc. Class A-1 Common Stock"
+      ],
+      "exchange": "NYSE",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "QSPC",
+      "stooqSymbol": "qspc.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "QSPT",
       "name": "FT Vest Nasdaq-100 Buffer ETF - September",
       "type": "us_etf",
@@ -150256,24 +150220,6 @@
       "sourceSymbol": "RCAT",
       "stooqSymbol": "rcat.us",
       "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "RCAX",
-      "name": "Defiance Daily Target 2x Long RCAT ETF",
-      "type": "us_etf",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Defiance Daily Target 2x Long RCAT ETF"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "RCAX",
-      "stooqSymbol": "rcax.us",
-      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -201843,6 +201789,24 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "YANG",
       "stooqSymbol": "yang.us",
+      "isETF": true,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "YANT",
+      "name": "YieldMax ANT Option Income Strategy ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "YieldMax ANT Option Income Strategy ETF"
+      ],
+      "exchange": "NYSEARCA",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "YANT",
+      "stooqSymbol": "yant.us",
       "isETF": true,
       "dataQuality": "generated"
     },
