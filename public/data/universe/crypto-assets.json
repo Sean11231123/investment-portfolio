@@ -2,11 +2,11 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-11-20T18:37:26.218324Z",
-  "count": 515,
-  "binanceCount": 515,
-  "coingeckoMatchedCount": 343,
-  "ambiguousCount": 165,
+  "generatedAt": "2026-11-25T19:56:59.484280Z",
+  "count": 520,
+  "binanceCount": 520,
+  "coingeckoMatchedCount": 345,
+  "ambiguousCount": 164,
   "skippedCount": 3236,
   "assets": [
     {
@@ -667,19 +667,20 @@
     },
     {
       "symbol": "ANTB",
-      "name": "ANTB",
+      "name": "Anthropic (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "ANTB"
+        "Anthropic (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "ANTBUSDT",
       "binanceSymbol": "ANTBUSDT",
+      "coingeckoId": "anthropic-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -857,6 +858,23 @@
       "sourceSymbol": "ARPAUSDT",
       "binanceSymbol": "ARPAUSDT",
       "coingeckoId": "arpa",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "ARTYB",
+      "name": "ARTYB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "ARTYB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "ARTYBUSDT",
+      "binanceSymbol": "ARTYBUSDT",
       "dataQuality": "generated"
     },
     {
@@ -3259,6 +3277,23 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "FRHCB",
+      "name": "FRHCB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "FRHCB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "FRHCBUSDT",
+      "binanceSymbol": "FRHCBUSDT",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "FTT",
       "name": "FTX",
       "type": "crypto",
@@ -3931,6 +3966,23 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "IBITB",
+      "name": "IBITB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "IBITB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "IBITBUSDT",
+      "binanceSymbol": "IBITBUSDT",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "IBMB",
       "name": "IBM (bStocks Tokenized Stock)",
       "type": "crypto",
@@ -3981,6 +4033,23 @@
       "source": "binance-exchangeinfo",
       "sourceSymbol": "IDUSDT",
       "binanceSymbol": "IDUSDT",
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "IGVB",
+      "name": "IGVB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "IGVB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "IGVBUSDT",
+      "binanceSymbol": "IGVBUSDT",
       "dataQuality": "generated"
     },
     {
@@ -7448,6 +7517,23 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "SOXXB",
+      "name": "SOXXB",
+      "type": "crypto",
+      "market": "CRYPTO",
+      "currency": "USDT",
+      "unitLabel": "顆",
+      "priceSource": "manual",
+      "aliases": [
+        "SOXXB"
+      ],
+      "exchange": "BINANCE",
+      "source": "binance-exchangeinfo",
+      "sourceSymbol": "SOXXBUSDT",
+      "binanceSymbol": "SOXXBUSDT",
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "SPCXB",
       "name": "SpaceX (bStocks Tokenized Stock)",
       "type": "crypto",
@@ -7467,19 +7553,20 @@
     },
     {
       "symbol": "SPELL",
-      "name": "SPELL",
+      "name": "Spell",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "SPELL"
+        "Spell"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "SPELLUSDT",
       "binanceSymbol": "SPELLUSDT",
+      "coingeckoId": "spell-token",
       "dataQuality": "generated"
     },
     {
