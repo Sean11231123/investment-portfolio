@@ -2,10 +2,10 @@
   "version": 1,
   "market": "US",
   "source": "nasdaqtrader-symbol-directory",
-  "generatedAt": "2026-11-24T20:21:24.102370Z",
+  "generatedAt": "2026-11-25T19:36:33.841439Z",
   "count": 11358,
-  "stockCount": 5586,
-  "etfCount": 5772,
+  "stockCount": 5585,
+  "etfCount": 5773,
   "skippedCount": 1954,
   "sourceFiles": [
     "nasdaqlisted.txt",
@@ -20245,6 +20245,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "BFLR",
+      "name": "BlueFlare, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "BlueFlare, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "BFLR",
+      "stooqSymbol": "bflr.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "BFLX",
       "name": "iShares Flexible Equity Active ETF",
       "type": "us_etf",
@@ -39214,6 +39232,24 @@
       "sourceSymbol": "CPHI",
       "stooqSymbol": "cphi.us",
       "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
+      "symbol": "CPHY",
+      "name": "F/m Compoundr High Yield Bond ETF",
+      "type": "us_etf",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "F/m Compoundr High Yield Bond ETF"
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "CPHY",
+      "stooqSymbol": "cphy.us",
+      "isETF": true,
       "dataQuality": "generated"
     },
     {
@@ -68733,24 +68769,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "FNGO",
       "stooqSymbol": "fngo.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "FNGR",
-      "name": "FingerMotion, Inc. - common stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "FingerMotion, Inc. - common stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "FNGR",
-      "stooqSymbol": "fngr.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -125123,7 +125141,7 @@
       "aliases": [
         "Hexis Active Nicotine Engagement ETF"
       ],
-      "exchange": "NYSEARCA",
+      "exchange": "US",
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "NICO",
       "stooqSymbol": "nico.us",
@@ -135567,24 +135585,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "PARR",
       "stooqSymbol": "parr.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "PASG",
-      "name": "Passage Bio, Inc. - Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "Passage Bio, Inc."
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "PASG",
-      "stooqSymbol": "pasg.us",
       "isETF": false,
       "dataQuality": "generated"
     },
@@ -153823,6 +153823,24 @@
       "dataQuality": "generated"
     },
     {
+      "symbol": "RMTX",
+      "name": "Remix Therapeutics, Inc. - Common Stock",
+      "type": "us_stock",
+      "market": "US",
+      "currency": "USD",
+      "unitLabel": "股",
+      "priceSource": "us_static",
+      "aliases": [
+        "Remix Therapeutics, Inc."
+      ],
+      "exchange": "NASDAQ",
+      "source": "nasdaqtrader-symbol-directory",
+      "sourceSymbol": "RMTX",
+      "stooqSymbol": "rmtx.us",
+      "isETF": false,
+      "dataQuality": "generated"
+    },
+    {
       "symbol": "RNA",
       "name": "Atrium Therapeutics, Inc. - Common Stock",
       "type": "us_stock",
@@ -157095,24 +157113,6 @@
       "source": "nasdaqtrader-symbol-directory",
       "sourceSymbol": "SAFT",
       "stooqSymbol": "saft.us",
-      "isETF": false,
-      "dataQuality": "generated"
-    },
-    {
-      "symbol": "SAFX",
-      "name": "XCF Global, Inc. - Class A Common Stock",
-      "type": "us_stock",
-      "market": "US",
-      "currency": "USD",
-      "unitLabel": "股",
-      "priceSource": "us_static",
-      "aliases": [
-        "XCF Global, Inc. - Class A Common Stock"
-      ],
-      "exchange": "NASDAQ",
-      "source": "nasdaqtrader-symbol-directory",
-      "sourceSymbol": "SAFX",
-      "stooqSymbol": "safx.us",
       "isETF": false,
       "dataQuality": "generated"
     },
