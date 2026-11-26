@@ -2,10 +2,10 @@
   "version": 1,
   "market": "CRYPTO",
   "source": "binance-exchangeinfo-coingecko-list",
-  "generatedAt": "2026-11-25T19:56:59.484280Z",
+  "generatedAt": "2026-11-26T19:37:50.310174Z",
   "count": 520,
   "binanceCount": 520,
-  "coingeckoMatchedCount": 345,
+  "coingeckoMatchedCount": 350,
   "ambiguousCount": 164,
   "skippedCount": 3236,
   "assets": [
@@ -862,19 +862,20 @@
     },
     {
       "symbol": "ARTYB",
-      "name": "ARTYB",
+      "name": "iShares Future AI & Tech (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "ARTYB"
+        "iShares Future AI & Tech (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "ARTYBUSDT",
       "binanceSymbol": "ARTYBUSDT",
+      "coingeckoId": "ishares-future-ai-tech-bstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
@@ -3278,19 +3279,20 @@
     },
     {
       "symbol": "FRHCB",
-      "name": "FRHCB",
+      "name": "Freedom Holding Corp (bStocks Tokenized Stock)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "FRHCB"
+        "Freedom Holding Corp (bStocks Tokenized Stock)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "FRHCBUSDT",
       "binanceSymbol": "FRHCBUSDT",
+      "coingeckoId": "freedom-holding-corp-bstocks-tokenized-stock",
       "dataQuality": "generated"
     },
     {
@@ -3967,19 +3969,20 @@
     },
     {
       "symbol": "IBITB",
-      "name": "IBITB",
+      "name": "iShares Bitcoin Trust (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "IBITB"
+        "iShares Bitcoin Trust (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "IBITBUSDT",
       "binanceSymbol": "IBITBUSDT",
+      "coingeckoId": "ishares-bitcoin-trust-bstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
@@ -4037,19 +4040,20 @@
     },
     {
       "symbol": "IGVB",
-      "name": "IGVB",
+      "name": "iShares Expanded Tech-Software Sector ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "IGVB"
+        "iShares Expanded Tech-Software Sector ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "IGVBUSDT",
       "binanceSymbol": "IGVBUSDT",
+      "coingeckoId": "ishares-expanded-tech-software-sector-etf-bstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
@@ -7518,19 +7522,20 @@
     },
     {
       "symbol": "SOXXB",
-      "name": "SOXXB",
+      "name": "iShares Semiconductor ETF (bStocks Tokenized ETF)",
       "type": "crypto",
       "market": "CRYPTO",
       "currency": "USDT",
       "unitLabel": "顆",
-      "priceSource": "manual",
+      "priceSource": "coingecko",
       "aliases": [
-        "SOXXB"
+        "iShares Semiconductor ETF (bStocks Tokenized ETF)"
       ],
       "exchange": "BINANCE",
       "source": "binance-exchangeinfo",
       "sourceSymbol": "SOXXBUSDT",
       "binanceSymbol": "SOXXBUSDT",
+      "coingeckoId": "ishares-semiconductor-etf-bstocks-tokenized-etf",
       "dataQuality": "generated"
     },
     {
